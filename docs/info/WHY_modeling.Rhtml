@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>工業衛生實踐中的模式推估框架</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.4.0"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans TC', sans-serif;
+            background-color: #f1f5f9;
+            color: #1e293b;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            height: 250px;
+        }
+        @media (min-width: 640px) {
+            .chart-container {
+                height: 300px;
+            }
+        }
+        .page-break {
+            border-top: 2px dashed #cbd5e1;
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #ef5675, #ff764a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="container mx-auto p-4 md:p-8">
+        
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold mb-2 ">工業衛生實踐中的模式推估框架</h1>
+            <p class="text-2xl text-1g font-bold text-red-600">看見看不見的風險：為何暴露評估模型是現代職安衛的關鍵工具</p>
+        </header>
+
+        <main class="space-y-12">
+            
+            <section id="page1">
+                <div class="text-center mb-10">
+                    <span class="text-sm font-semibold text-slate-500 bg-slate-200 px-3 py-1 rounded-full">第一頁：問題的框架</span>
+                </div>
+
+                <section id="foundation">
+                    <h2 class="text-3xl font-bold text-center mb-8 text-slate-800">暴露評估：風險管理的基石</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="bg-white p-6 rounded-lg shadow-lg">
+                            <h3 class="text-xl font-semibold mb-3 text-pink-600">暴露輪廓</h3>
+                            <p class="text-slate-600">這不是單一次的測量值，而是勞工經歷的完整暴露分佈，包含個人內與個人間的變異。我們的目標是描繪出暴露的強度、持續時間與頻率。</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-lg">
+                            <h3 class="text-xl font-semibold mb-3 text-pink-600">相似暴露族群 (SEG)</h3>
+                            <p class="text-slate-600">為了有效管理，我們會將工作內容與暴露輪廓相似的勞工劃分為一個群體，例如「A產線的所有噴漆作業員」。</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-lg">
+                            <h3 class="text-xl font-semibold mb-3 text-pink-600">評估決策</h3>
+                            <p class="text-slate-600">將暴露輪廓與職業暴露限值(OEL)比較，判斷暴露是「可接受」、「不確定」還是「不可接受」，並採取相應行動。</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="oel" class="mt-12">
+                    <h2 class="text-3xl font-bold text-center mb-8 text-slate-800">風險的標竿：職業暴露限值 (OELs)</h2>
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                            <div>
+                                <h3 class="text-xl font-semibold mb-3 text-pink-600">OELs 不僅是數字</h3>
+                                <p class="text-slate-600">職業暴露限值是我們判斷風險的「尺」，但不同機構的標準嚴格程度差異很大。有責任感的組織常採用比法規更嚴格的健康建議值，以提供更完善的保護。</p>
+                            </div>
+                            <div class="chart-container h-64"><canvas id="oelChart"></canvas></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="problem" class="mt-12">
+                    <h2 class="text-3xl font-bold text-center mb-8 text-slate-800">傳統採樣的挑戰：四次採樣的信心陷阱</h2>
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-slate-800">
+                        <p class="text-center text-slate-600 mb-6">假設您對一個相似暴露族群(SEG)進行了四次採樣，結果都低於OEL。您能多自信地說「暴露是安全的」？由於樣本數太少(n=4)，統計學告訴我們，信心其實非常低。</p>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                            <div>
+                                <div class="chart-container max-w-xs"><canvas id="confidenceChart1"></canvas></div>
+                                <p class="mt-4 text-slate-600">我們只有 <span class="font-bold text-lg text-pink-600">26%</span> 的信心，能說該族群 75% 的暴露會低於OEL。</p>
+                            </div>
+                            <div>
+                                <div class="chart-container max-w-xs"><canvas id="confidenceChart2"></canvas></div>
+                                <p class="mt-4 text-slate-600">我們只有 <span class="font-bold text-lg text-pink-600">5%</span> 的信心，能說該族群 90% 的暴露會低於OEL。</p>
+                            </div>
+                            <div>
+                                <div class="chart-container max-w-xs"><canvas id="confidenceChart3"></canvas></div>
+                                <p class="mt-4 text-slate-600">我們只有 <span class="font-bold text-lg text-pink-600">1%</span> 的信心，能說該族群 95% 的暴露會低於OEL。</p>
+                            </div>
+                        </div>
+                        <p class="text-center text-rose-600 font-semibold mt-8 text-lg">結論：少量採樣數據帶來巨大的不確定性，不足以做出可靠的風險判斷。</p>
+                    </div>
+                </section>
+            </section>
+            
+            <div class="page-break"></div>
+
+            <section id="page2">
+                <div class="text-center mb-10">
+                    <span class="text-sm font-semibold text-slate-500 bg-slate-200 px-3 py-1 rounded-full">第二頁：模型的角色與應用</span>
+                </div>
+
+                <section id="solution">
+                    <h2 class="text-3xl font-bold text-center mb-8 text-slate-800">解決方案：暴露評估模型的強大應用</h2>
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-slate-800">
+                        <p class="text-center text-slate-600 mb-8">模型是強化專業判斷、超越時間限制的利器，應用範圍橫跨過去、現在與未來。</p>
+                        <div class="flex flex-col md:flex-row justify-around items-center space-y-8 md:space-y-0">
+                            <div class="text-center">
+                                <div class="text-6xl mb-2">🕰️</div>
+                                <h3 class="text-xl font-semibold text-pink-600">回溯過去</h3>
+                                <ul class="list-none text-slate-600 mt-2">
+                                    <li>⚖️ 訴訟案件暴露重建</li>
+                                    <li>🔬 流行病學研究</li>
+                                    <li>💥 意外事故追蹤</li>
+                                </ul>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-6xl mb-2">🔬</div>
+                                <h3 class="text-xl font-semibold text-pink-600">評估現在</h3>
+                                <ul class="list-none text-slate-600 mt-2">
+                                    <li>🎯 決定採樣優先序</li>
+                                    <li>📄 為專業判斷提供佐證</li>
+                                    <li>📊 補充有限的採樣數據</li>
+                                </ul>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-6xl mb-2">🚀</div>
+                                <h3 class="text-xl font-semibold text-pink-600">預測未來</h3>
+                                <ul class="list-none text-slate-600 mt-2">
+                                    <li>🏭 評估製程變更風險</li>
+                                    <li>🚨 規劃緊急應變</li>
+                                    <li>✅ 做到設計預防</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="principle" class="mt-12">
+                    <h2 class="text-3xl font-bold text-center mb-8 text-slate-800">核心思想：決策的關鍵在於相對距離</h2>
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-slate-800">
+                         <p class="text-center text-slate-600 mb-6">一個模型或採樣數據是否「夠好」，並非取決於它能否完美預測真實濃度，而是取決於它的結果是否能幫助我們在特定的OEL背景下，做出可靠的風險管理決策。</p>
+                        <div class="chart-container max-w-4xl h-96"><canvas id="relativeRiskChart"></canvas></div>
+                        <div class="flex justify-center mt-4 space-x-6">
+                            <div class="flex items-center">
+                                <div class="w-4 h-4 rounded-full mr-2" style="background-color: rgba(239, 86, 117, 0.6);"></div>
+                                <span class="text-slate-600">採樣數據分佈</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-4 h-4 rounded-full mr-2" style="background-color: rgba(255, 166, 0, 0.6);"></div>
+                                <span class="text-slate-600">模型預測分佈</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        const brilliantBluesPalette = {
+            blue: '#003f5c',
+            purple: '#7a5195',
+            pink: '#ef5675',
+            orange: '#ff764a',
+            yellow: '#ffa600',
+            slate: '#64748b'
+        };
+
+        const tooltipCallback = {
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            const item = tooltipItems[0];
+                            let label = item.chart.data.labels[item.dataIndex];
+                            if (Array.isArray(label)) {
+                                return label.join(' ');
+                            } else {
+                                return label;
+                            }
+                        }
+                    }
+                },
+                legend: {
+                    display: false
+                }
+            }
+        };
+
+        function createConfidenceDonut(canvasId, percentage, color) {
+            const ctx = document.getElementById(canvasId).getContext('2d');
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['信心度', '不確定性'],
+                    datasets: [{
+                        data: [percentage, 100 - percentage],
+                        backgroundColor: [color, '#e2e8f0'],
+                        borderColor: '#ffffff',
+                        borderWidth: 4,
+                        hoverOffset: 4
+                    }]
+                },
+                options: {
+                    ...tooltipCallback,
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    cutout: '70%'
+                }
+            });
+        }
+
+        createConfidenceDonut('confidenceChart1', 26, brilliantBluesPalette.pink);
+        createConfidenceDonut('confidenceChart2', 5, brilliantBluesPalette.orange);
+        createConfidenceDonut('confidenceChart3', 1, brilliantBluesPalette.yellow);
+        
+        const ctxOEL = document.getElementById('oelChart').getContext('2d');
+        new Chart(ctxOEL, {
+            type: 'bar',
+            data: {
+                labels: ['ACGIH TLV® (健康建議)', 'NIOSH REL (健康建議)', 'OSHA PEL (法定標準)'],
+                datasets: [{
+                    label: '相對暴露限值 (數值越低越嚴格)',
+                    data: [50, 100, 200],
+                    backgroundColor: [
+                        brilliantBluesPalette.pink,
+                        brilliantBluesPalette.orange,
+                        brilliantBluesPalette.slate,
+                    ],
+                    borderColor: [
+                        '#ffffff'
+                    ],
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                ...tooltipCallback,
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        title: { display: true, text: '相對限值 (假設性數值)', color: '#475569' },
+                        grid: { color: '#e2e8f0' },
+                        ticks: { color: '#64748b' }
+                    },
+                    y: {
+                        grid: { display: false },
+                        ticks: { color: '#1e293b' }
+                    }
+                },
+                plugins: {
+                    ...tooltipCallback.plugins,
+                    title: {
+                        display: true,
+                        text: '不同OELs的嚴格程度比較',
+                        color: '#1e293b',
+                        font: { size: 16 }
+                    }
+                }
+            }
+        });
+
+
+        const ctxRelative = document.getElementById('relativeRiskChart').getContext('2d');
+        new Chart(ctxRelative, {
+            type: 'bar',
+            data: {
+                labels: Array.from({length: 101}, (_, i) => i),
+                datasets: [
+                    {
+                        type: 'line',
+                        label: '採樣數據分佈',
+                        data: Array.from({length: 101}, (_, i) => {
+                            if (i > 35) return 0;
+                            const x = (i - 15) / 5;
+                            return 0.075 * Math.exp(-0.5 * x * x);
+                        }),
+                        borderColor: brilliantBluesPalette.pink,
+                        backgroundColor: 'rgba(239, 86, 117, 0.6)',
+                        borderWidth: 2,
+                        pointRadius: 0,
+                        fill: true,
+                        tension: 0.4,
+                    },
+                    {
+                        type: 'bar',
+                        label: '模型預測分佈',
+                        data: Array.from({length: 101}, (_, i) => (i >= 5 && i <= 25) ? 0.05 : 0),
+                        backgroundColor: 'rgba(255, 166, 0, 0.6)',
+                        borderColor: brilliantBluesPalette.yellow,
+                        borderWidth: 1,
+                        barPercentage: 1.0,
+                        categoryPercentage: 1.0,
+                    }
+                ]
+            },
+            options: {
+                ...tooltipCallback,
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: '濃度 (mg/m³)',
+                            color: '#475569'
+                        },
+                        grid: { color: '#e2e8f0' },
+                        ticks: { color: '#64748b' }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: '數值比例',
+                            color: '#475569'
+                        },
+                        grid: { color: '#e2e8f0' },
+                        ticks: { color: '#64748b' }
+                    }
+                },
+                plugins: {
+                     ...tooltipCallback.plugins,
+                    legend: {
+                        display: false,
+                        labels: {
+                            color: '#1e293b'
+                        }
+                    },
+                    annotation: {
+                        annotations: {
+                            line1: {
+                                type: 'line',
+                                xMin: 30,
+                                xMax: 30,
+                                borderColor: brilliantBluesPalette.slate,
+                                borderWidth: 3,
+                                borderDash: [6, 6],
+                                label: {
+                                    content: 'OEL = 30 (不確定)',
+                                    enabled: true,
+                                    position: 'start',
+                                    backgroundColor: 'rgba(255, 255, 255, 0.8)',
+                                    color: '#1e293b',
+                                    yAdjust: -15
+                                }
+                            },
+                            line2: {
+                                type: 'line',
+                                xMin: 100,
+                                xMax: 100,
+                                borderColor: brilliantBluesPalette.purple,
+                                borderWidth: 3,
+                                label: {
+                                    content: 'OEL = 100 (可接受)',
+                                    enabled: true,
+                                    position: 'start',
+                                    backgroundColor: 'rgba(255, 255, 255, 0.8)',
+                                    color: '#1e293b',
+                                    yAdjust: 15
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

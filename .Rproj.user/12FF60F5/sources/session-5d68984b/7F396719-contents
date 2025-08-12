@@ -1,15 +1,15 @@
 ---
-title: "EA"
+title: "EA "
 ---
 
-This is a Quarto website.
+[Quarto learning](https://quarto.org/docs/websites/)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+### 本網站主要內容係來自2023 AIHA 新書各章 [^1]
 
-本網站主要內容係來自2023 AIHA 新書各章
+[^1]: Chris Keil, A Case-Based Introduction to Modeling Occupational Inhalation Exposures to Chemicals. AIHA, 2023.
 
-😀
+## 1. Why modeling
 
-### why modeling
-
--   [Chapter 1 Modeling in the Framework of Industrial Hygiene Practice](docs/info/WHY_modeling.html)
+-   Chapter 1 Modeling in the Framework of Industrial Hygiene Practice
+    -   [摘要](docs/info/web_CH1_Why_modeling.html)
+    -   [圖說](docs/info/WHY_modeling.html)

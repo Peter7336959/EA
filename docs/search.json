@@ -112,7 +112,7 @@
     "href": "index.html#gathering-informaiton",
     "title": "EA By Peter Ho.",
     "section": "2. Gathering informaiton",
-    "text": "2. Gathering informaiton\n\nCh2 Information Gathering for modeling\n\n摘要\n圖說"
+    "text": "2. Gathering informaiton\n\nCh2 Information Gathering for modeling\n\n摘要\n圖說\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\n\nmodeling 教學影片 \n\nThis text is underlined\nThis text is highlighted"
   },
   {
     "objectID": "docs/info/web_CH2 Information Gathering.html",

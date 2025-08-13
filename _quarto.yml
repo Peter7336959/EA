@@ -23,15 +23,15 @@ website:
     background: darkgreen
     pinned: true
   
-  sidebar:
-      style: "docked"
+  #sidebar:
+      #style: "docked"
       #search: true
-      contents:
-        - text: "Introduction"
-        - text: "CH1 "
-          href: web_CH1_Why_modeling.html
-      background: none
-      border: true
+      #contents:
+      #  - text: "Introduction"
+      #  - text: "CH1 "
+      #    href: web_CH1_Why_modeling.html
+      #background: none
+      #border: true
 
 format:
   html:

@@ -22,16 +22,7 @@ page-layout: full
 
 -   Ch2 Information Gathering for modeling
     -   [摘要](info\web_CH2-Information-Gathering.html)
-    -   [圖說](info\info_CH2_Information Gathering.html)
-
-
-## 2. Raw Content
-
-::: border
-```{=html}
-<iframe src="info\web_CH1-Why-modeling.html" width="800" height="400"></iframe>
-```
-:::
+    -   [圖說](info\info_CH2_Information%20Gathering.html)
 
 ::: border
 ```{mermaid}
@@ -43,16 +34,10 @@ flowchart LR
 ```
 :::
 
-page1
-
-{{< pagebreak >}}
-
-\newpage
-
-page2
-
 ::: border
-modeling 教學影片 {{\< video <https://www.youtube.com/watch?v=cSIlqi8hk4E>}} This content can be styled with a border
+modeling 教學影片 {{< video <https://www.youtube.com/watch?v=cSIlqi8hk4E >}}
 :::
 
-[This text is underlined]{.underline} [This text is highlighted]{.mark}
+[This text is underlined]{.underline}
+
+[This text is highlighted]{.mark}

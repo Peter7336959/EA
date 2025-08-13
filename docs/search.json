@@ -68,6 +68,6 @@
     "href": "index.html#raw-content",
     "title": "EA By Peter Ho.",
     "section": "2. Raw Content",
-    "text": "2. Raw Content\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\npage1\n\npage2\n\nmodeling 教學影片 {{&lt; video https://www.youtube.com/watch?v=cSIlqi8hk4E}} This content can be styled with a border\n\nThis text is underlined This text is highlighted"
+    "text": "2. Raw Content\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\npage1\n\npage2\n\nmodeling 教學影片  This content can be styled with a border\n\nThis text is underlined This text is highlighted"
   }
 ]

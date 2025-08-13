@@ -47,7 +47,7 @@ page1
 page2
 
 ::: border
-modeling 教學影片 {{\< video <https://www.youtube.com/watch?v=cSIlqi8hk4E>}} This content can be styled with a border
+modeling 教學影片 {{< video <https://www.youtube.com/watch?v=cSIlqi8hk4E>}} This content can be styled with a border
 :::
 
 [This text is underlined]{.underline} [This text is highlighted]{.mark}

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>EA By Peter Ho. – 模式推估網站試做-Peter Ho</title>
+<title>CH1_Why_modeling – 模式推估網站試做-Peter Ho</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,10 +66,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<meta name="mermaid-theme" content="neutral">
-<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -93,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
 </ul>
@@ -107,14 +103,14 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">EA By Peter Ho.</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">CH1_Why_modeling</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
@@ -138,22 +134,27 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-modeling2" id="toc-why-modeling2" class="nav-link active" data-scroll-target="#why-modeling2">1. Why modeling</a></li>
-  <li><a href="#raw-content" id="toc-raw-content" class="nav-link" data-scroll-target="#raw-content">2. Raw Content</a></li>
+  <li><a href="#職業衛生模式推估框架-單頁摘要-1" id="toc-職業衛生模式推估框架-單頁摘要-1" class="nav-link active" data-scroll-target="#職業衛生模式推估框架-單頁摘要-1"><strong>職業衛生模式推估框架 (單頁摘要)</strong> </a>
+  <ul class="collapse">
+  <li><a href="#暴露評估職業衛生的核心" id="toc-暴露評估職業衛生的核心" class="nav-link" data-scroll-target="#暴露評估職業衛生的核心"><strong>1. 暴露評估：職業衛生的核心</strong></a></li>
+  <li><a href="#傳統採樣的限制與模型的必要性" id="toc-傳統採樣的限制與模型的必要性" class="nav-link" data-scroll-target="#傳統採樣的限制與模型的必要性"><strong>2. 傳統採樣的限制與模型的必要性</strong></a></li>
+  <li><a href="#暴露評估模型的角色與應用" id="toc-暴露評估模型的角色與應用" class="nav-link" data-scroll-target="#暴露評估模型的角色與應用"><strong>3. 暴露評估模型的角色與應用</strong></a></li>
+  <li><a href="#解讀模型結果不確定性與決策關鍵" id="toc-解讀模型結果不確定性與決策關鍵" class="nav-link" data-scroll-target="#解讀模型結果不確定性與決策關鍵"><strong>4. 解讀模型結果：不確定性與決策關鍵</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">EA By Peter Ho.</h1>
+<h1 class="title">CH1_Why_modeling</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-body">
+<div class="quarto-title-meta">
 
     
   
@@ -165,70 +166,52 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="https://quarto.org/docs/websites/">Quarto learning</a> <a href="https://quarto.org/docs/websites/" class="uri">https://quarto.org/docs/websites/</a></p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>本網站主要內容係來自2023 AIHA 新書各章</strong> <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-</div>
-</div>
-<section id="why-modeling2" class="level2">
-<h2 class="anchored" data-anchor-id="why-modeling2">1. Why modeling<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></h2>
+<section id="職業衛生模式推估框架-單頁摘要-1" class="level1">
+<h1><strong>職業衛生模式推估框架 (單頁摘要)</strong> <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h1>
+<section id="暴露評估職業衛生的核心" class="level3">
+<h3 class="anchored" data-anchor-id="暴露評估職業衛生的核心"><strong>1. 暴露評估：職業衛生的核心</strong></h3>
+<p><strong>暴露評估(</strong>系統性地描述勞工暴露狀況)並做出風險管理決策。包含幾個核心概念：</p>
 <ul>
-<li>Chapter 1 Modeling in the Framework of Industrial Hygiene Practice
+<li><p><strong>暴露輪廓 (Exposure Profile)</strong>：SEG或勞工所經歷的<strong>完整暴露分佈</strong>。</p></li>
+<li><p><strong>評估決策</strong>：將暴露輪廓與<strong>職業暴露限值 (OEL)</strong> 進行比較，判斷暴露風險。</p></li>
+</ul>
+</section>
+<section id="傳統採樣的限制與模型的必要性" class="level3">
+<h3 class="anchored" data-anchor-id="傳統採樣的限制與模型的必要性"><strong>2. 傳統採樣的限制與模型的必要性</strong></h3>
+<p>傳統上依賴的空氣採樣，在樣本數有限時，其統計證據力非常薄弱。</p>
+<p><strong>關鍵例證：少量採樣的信心陷阱</strong> 。僅憑少量採樣數據無法做出可靠的「安全」判斷。</p>
+<p><strong>核心結論</strong>：傳統採樣的統計局限性，而<strong>暴露評估模型可以</strong>輔助專業判斷。</p>
+</section>
+<section id="暴露評估模型的角色與應用" class="level3">
+<h3 class="anchored" data-anchor-id="暴露評估模型的角色與應用"><strong>3. 暴露評估模型的角色與應用</strong></h3>
+<p>模型並非要取代採樣，是輔助使暴露評估更科學且高效，提供量化的科學依據。</p>
 <ul>
-<li><a href="docs/web_CH1_Why_modeling.html">摘要</a></li>
-<li><a href="docs/info/info_CH1_Why_modeling.html">圖說</a></li>
+<li><p><strong>核心價值</strong>：</p>
+<ul>
+<li><strong>支持與校正專業判斷</strong>、<strong>優化資源、提供書面佐證</strong>。</li>
+</ul></li>
+<li><p><strong>超越時間的應用</strong>：</p>
+<ul>
+<li><p><strong>回溯過去</strong>：為訴訟案件或流行病學研究進行歷史暴露重建。</p></li>
+<li><p><strong>評估現在</strong>：補充數據不足的暴露輪廓，為當前風險定級。</p></li>
+<li><p><strong>預測未來</strong>：在製程變更或新化學品引入前，預測潛在暴露。</p></li>
 </ul></li>
 </ul>
 </section>
-<section id="raw-content" class="level2">
-<h2 class="anchored" data-anchor-id="raw-content">2. Raw Content</h2>
-<div class="border">
-<iframe src="docs/web_CH1_Why_modeling.html" width="800" height="400"></iframe>
-</div>
-<div class="border">
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  A[Hard edge] --&gt; B(Round edge)
-  B --&gt; C{Decision}
-  C --&gt; D[Result one]
-  C --&gt; E[Result two]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</div>
-<p>page1</p>
-<div style="page-break-after: always;"></div>
-<p>page2</p>
-<div class="border">
-<p>modeling 教學影片 </p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/cSIlqi8hk4E" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> This content can be styled with a border<p></p>
-</div>
-<p><u>This text is underlined</u> <mark>This text is highlighted</mark></p>
+<section id="解讀模型結果不確定性與決策關鍵" class="level3">
+<h3 class="anchored" data-anchor-id="解讀模型結果不確定性與決策關鍵"><strong>4. 解讀模型結果：不確定性與決策關鍵</strong></h3>
+<p><strong>決策的黃金法則：</strong>一個模型或一組採樣數據是否有用，並非取決於它能否完美預測真實濃度，而是取決於<strong>其結果（暴露分佈）與職業暴露限值（OEL）的相對距離</strong>。</p>
+<p><strong>最終思想</strong>：暴露評估的目標不是追求完美的預測值，而是利用所有可得工具（包括模型與採樣），在考量不確定性的前提下，做出**「足夠好」的決策**來保護勞工健康。</p>
 
 
+</section>
 </section>
 
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>Chris Keil, A Case-Based Introduction to Modeling Occupational Inhalation Exposures to Chemicals. AIHA, 2023.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>AIHA 第一章<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Chapter 1 Modeling in the Framework of Industrial Hygiene Practice<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

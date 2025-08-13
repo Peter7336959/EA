@@ -17,14 +17,14 @@ page-layout: full
 [^2]: AIHA 第一章
 
 -   Chapter 1 Modeling in the Framework of Industrial Hygiene Practice
-    -   [摘要](docs/info/web_CH1_Why_modeling.html)
+    -   [摘要](docs/web_CH1_Why_modeling.html)
     -   [圖說](docs/info/info_CH1_Why_modeling.html)
 
 ## 2. Raw Content
 
 ::: border
 ```{=html}
-<iframe src="docs/info/web_CH1_Why_modeling.html" width="800" height="400"></iframe>
+<iframe src="docs/web_CH1_Why_modeling.html" width="800" height="400"></iframe>
 ```
 :::
 

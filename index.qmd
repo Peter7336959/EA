@@ -1,17 +1,53 @@
 ---
-title: "EA "
+title: "EA    By Peter Ho."
+#lang: zh    
+page-layout: full
 ---
 
-[Quarto learning](https://quarto.org/docs/websites/)
+[Quarto learning](https://quarto.org/docs/websites/) <https://quarto.org/docs/websites/>
 
-::: callout-note
+::: callout-important
 **本網站主要內容係來自2023 AIHA 新書各章** [^1]
 :::
 
 [^1]: Chris Keil, A Case-Based Introduction to Modeling Occupational Inhalation Exposures to Chemicals. AIHA, 2023.
 
-## 1. Why modeling
+## 1. Why modeling[^2]
+
+[^2]: AIHA 第一章
 
 -   Chapter 1 Modeling in the Framework of Industrial Hygiene Practice
     -   [摘要](docs/info/web_CH1_Why_modeling.html)
-    -   [圖說](docs/info/WHY_modeling.html)
+    -   [圖說](docs/info/info_CH1_Why_modeling.html)
+
+## 2. Raw Content
+
+::: border
+```{=html}
+<iframe src="docs/info/web_CH1_Why_modeling.html" width="800" height="400"></iframe>
+```
+:::
+
+::: border
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+:::
+
+page1
+
+{{< pagebreak >}}
+
+\newpage
+
+page2
+
+::: border
+modeling 教學影片 {{\< video <https://www.youtube.com/watch?v=cSIlqi8hk4E>}} This content can be styled with a border
+:::
+
+[This text is underlined]{.underline} [This text is highlighted]{.mark}

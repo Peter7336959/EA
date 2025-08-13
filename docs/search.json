@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "EA",
+    "title": "EA By Peter Ho.",
     "section": "",
-    "text": "Quarto learning"
+    "text": "Quarto learning https://quarto.org/docs/websites/"
   },
   {
     "objectID": "index.html#why-modeling",
@@ -30,9 +30,9 @@
   {
     "objectID": "index.html#footnotes",
     "href": "index.html#footnotes",
-    "title": "EA",
+    "title": "EA By Peter Ho.",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nChris Keil, A Case-Based Introduction to Modeling Occupational Inhalation Exposures to Chemicals. AIHA, 2023.↩︎"
+    "text": "Footnotes\n\n\nChris Keil, A Case-Based Introduction to Modeling Occupational Inhalation Exposures to Chemicals. AIHA, 2023.↩︎\nAIHA 第一章↩︎"
   },
   {
     "objectID": "docs/info/web_CH1_Why_modeling.html",
@@ -47,5 +47,19 @@
     "title": "CH1_Why_modeling",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nChapter 1 Modeling in the Framework of Industrial Hygiene Practice↩︎"
+  },
+  {
+    "objectID": "index.html#why-modeling2",
+    "href": "index.html#why-modeling2",
+    "title": "EA By Peter Ho.",
+    "section": "1. Why modeling2",
+    "text": "1. Why modeling2\n\nChapter 1 Modeling in the Framework of Industrial Hygiene Practice\n\n摘要\n圖說"
+  },
+  {
+    "objectID": "index.html#raw-content",
+    "href": "index.html#raw-content",
+    "title": "EA By Peter Ho.",
+    "section": "2. Raw Content",
+    "text": "2. Raw Content\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\npage1\n\npage2\n\nmodeling 教學影片 {{&lt; video https://www.youtube.com/watch?v=cSIlqi8hk4E}} This content can be styled with a border\n\nThis text is underlined This text is highlighted"
   }
 ]

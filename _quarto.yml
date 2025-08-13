@@ -29,7 +29,7 @@ website:
       contents:
         - text: "Introduction"
         - text: "CH1 "
-          href: docs/web_CH1_Why_modeling.html
+          href: web_CH1_Why_modeling.html
       background: none
       border: true
 

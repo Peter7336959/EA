@@ -12,19 +12,24 @@ page-layout: full
 
 [^1]: Chris Keil, A Case-Based Introduction to Modeling Occupational Inhalation Exposures to Chemicals. AIHA, 2023.
 
-## 1. Why modeling[^2]
+## 1. Why modeling
 
-[^2]: AIHA 第一章
-
--   Chapter 1 Modeling in the Framework of Industrial Hygiene Practice
-    -   [摘要](web_CH1_Why_modeling.html)
+-   Ch1 Modeling in the Framework of Industrial Hygiene Practice
+    -   [摘要](info\web_CH1-Why-modeling.html)
     -   [圖說](info\info_CH1_Why_modeling.html)
+
+## 2. Gathering informaiton
+
+-   Ch2 Information Gathering for modeling
+    -   [摘要](info\web_CH2-Information-Gathering.html)
+    -   [圖說](info\info_CH2_Information Gathering.html)
+
 
 ## 2. Raw Content
 
 ::: border
 ```{=html}
-<iframe src="web_CH1_Why_modeling.html" width="800" height="400"></iframe>
+<iframe src="info\web_CH1-Why-modeling.html" width="800" height="400"></iframe>
 ```
 :::
 
@@ -47,7 +52,7 @@ page1
 page2
 
 ::: border
-modeling 教學影片 {{< video <https://www.youtube.com/watch?v=cSIlqi8hk4E>}} This content can be styled with a border
+modeling 教學影片 {{\< video <https://www.youtube.com/watch?v=cSIlqi8hk4E>}} This content can be styled with a border
 :::
 
 [This text is underlined]{.underline} [This text is highlighted]{.mark}

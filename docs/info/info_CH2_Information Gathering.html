@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<style type="text/css">
+.inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.sng {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.def {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>資訊圖表：暴露評估模式的資訊收集</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Palette: Energetic & Playful -->
+    <!-- NEITHER Mermaid JS NOR SVG were used in this output. -->
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .kpi-box {
+            background-color: #ffffff;
+            border-left: 5px solid #ff6361;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .kpi-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .flow-arrow {
+            font-size: 2rem;
+            color: #58508d;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-5xl">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-[#003f5c] mb-4">暴露評估模式之基石</h1>
+            <p class="md:text-3xl font-bold text-red-600">有效資訊收集決定模型成敗：Garbage In, Garbage Out</p>
+        </header>
+
+        <main>
+            <section id="core-concept" class="mb-12">
+                <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                    <h2 class="text-2xl font-bold text-center text-[#003f5c] mb-6">評估核心：濃度與時間的結合</h2>
+                    <p class="text-center mb-8 text-gray-700">一個完整的吸入性暴露評估，不僅是計算空氣中有多少污染物，而是將「強度」與「時間」結合，形成完整的暴露輪廓，才能做出科學的風險判斷。</p>
+                    <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8">
+                        <div class="text-center p-4 bg-blue-50 rounded-lg shadow">
+                            <p class="text-4xl mb-2">🧪</p>
+                            <p class="font-bold text-lg text-[#58508d]">模擬出的空氣濃度</p>
+                            <p class="text-sm text-gray-600">(強度 Intensity)</p>
+                        </div>
+                        <div class="flow-arrow font-bold">+</div>
+                        <div class="text-center p-4 bg-green-50 rounded-lg shadow">
+                            <p class="text-4xl mb-2">⏱️</p>
+                            <p class="font-bold text-lg text-[#58508d]">勞工活動模式</p>
+                            <p class="text-sm text-black-600">(持續時間/頻率)</p>
+                        </div>
+                        <div class="flow-arrow font-bold">=</div>
+                        <div class="text-center p-6 bg-yellow-50 rounded-lg shadow-xl border-2 border-[#ffa600]">
+                            <p class="text-4xl mb-2">📊</p>
+                            <p class="font-bold text-xl text-red-600">完整暴露輪廓</p>
+                            <p class="text-sm text-gray-600">(Exposure Profile)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <section id="chemical-info" class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                    <h2 class="text-2xl font-bold text-[#003f5c] mb-6">① 關鍵資訊：化學物質特性</h2>
+                    <p class="mb-4 text-black-700">首要任務是了解化學品本身。除了分子量、密度等基本性質，最關鍵也最具挑戰性的參數是**逸散率 (G)** — 化學物質進入空氣中的速率。</p>
+                    <div class="kpi-box rounded-lg p-6 shadow-md">
+                        <h3 class="font-bold text-lg text-[#bc5090] mb-2">範例：質量平衡法估算逸散率 (G)</h3>
+                        <p class="text-sm text-black-600 mb-4">透過物料耗用與廢棄量，可反推出平均逸散率。</p>
+             <p class="text-lg text-right text-gray-600">mg/min</p>
+                    </div>
+                </section>
+
+                <section id="spatial-info" class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                    <h2 class="text-2xl font-bold text-[#003f5c] mb-6">② 關鍵資訊：空間環境特性</h2>
+                    <p class="mb-4 text-gray-700">污染物所在的物理空間特性，直接影響其濃度分佈。必須精確掌握房間體積、通風狀況與空氣混合模式。</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="text-2xl mr-4">📐</span>
+                            <div>
+                                <h3 class="font-bold text-[#bc5090]">房間體積 (V)</h3>
+                                <p class="text-sm text-gray-600">需扣除設備佔據的「實佔體積」，以獲得更準確的空氣容積。</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-2xl mr-4">💨</span>
+                            <div>
+                                <h3 class="font-bold text-[#bc5090]">通風 (Q)</h3>
+                                <p class="text-sm text-gray-600">移除或稀釋污染物的關鍵。可透過現場量測、藍圖或文獻值取得。</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-2xl mr-4">🔄</span>
+                            <div>
+                                <h3 class="font-bold text-[#bc5090]">空氣混合</h3>
+                                <p class="text-sm text-gray-600">「完全混合」假設提供平均濃度，而「二區模式」更能反映靠近污染源的高濃度「近場」。</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <section id="worker-activity" class="mt-8">
+                <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                    <h2 class="text-2xl font-bold text-center text-[#003f5c] mb-6">③ 關鍵資訊：勞工活動模式</h2>
+                    <p class="text-center mb-8 max-w-3xl mx-auto text-gray-700">最終評估的是「人」的暴露量。即使在完全相同的環境中(可能同一SEG)，不同的工作習慣也會導致暴露量出現顯著差異。經驗豐富的勞工 B 因為在污染源附近（近場）停留時間較短，其日時量平均暴露量僅為新手勞工 A 的一半左右。</p>
+                    <div class="chart-container">
+                        <canvas id="workerTwaChart"></canvas>
+                    </div>
+                </div>
+            </section>
+            
+             <section id="conclusion" class="mt-8">
+                <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                    <h2 class="text-4xl font-bold text-center text-[#003f5c] mb-6"> 結論</h2>
+                   <p class="text-gray-600 text-2xl font-bold text-center text-[#003f5c] mb-6">成功的暴露評估模式，建立在系統性且嚴謹的資訊收集之上。務必記錄所有假設與資訊來源，使評估報告更加專業、可信。</p>
+                </div>
+            </section>
+            
+            <section id="conclusion" class="mt-8">
+                <div class="mt-6 bg-blue-50 p-4 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">學習重點回顧</h3>
+                    <ul class="space-y-2 list-disc list-inside text-gray-700">
+                        <li><strong>逸散率 (G)</strong> 是最關鍵也最難估算的參數。</li>
+                        <li><strong>通風 (Q) 與混合狀況</strong> 決定污染物在空間中的傳輸與最終濃度。</li>
+                        <li><strong>時間 (t)</strong> 是連結「環境濃度」與「個人實際暴露量」的橋樑。</li>
+                        <li>暴露評估是一個**迭代過程**：從保守的粗估開始，若有必要，再投入資源蒐集更精確的數據來完善模式。</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <footer class="text-center mt-12">
+                <p class="text-gray-600">本資訊圖表謹供參考。 made by Peter Ho.</p>
+            </footer>
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const ctx = document.getElementById('workerTwaChart').getContext('2d');
+            
+            const processLabel = (label) => {
+                if (label.length <= 16) {
+                    return label;
+                }
+                const words = label.split(' ');
+                const lines = [];
+                let currentLine = '';
+                for (const word of words) {
+                    if ((currentLine + word).length > 16) {
+                        lines.push(currentLine.trim());
+                        currentLine = '';
+                    }
+                    currentLine += word + ' ';
+                }
+                lines.push(currentLine.trim());
+                return lines;
+            };
+
+            const originalLabels = ['勞工 A (新手)', '勞工 B (老手)'];
+            const chartLabels = originalLabels.map(processLabel);
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: chartLabels,
+                    datasets: [{
+                        label: '八小時日時量平均濃度 (TWA-8)',
+                        data: [16, 8.4],
+                        backgroundColor: [
+                            'rgba(255, 99, 97, 0.6)', 
+                            'rgba(0, 63, 92, 0.6)'    
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 97, 1)',
+                            'rgba(0, 63, 92, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    maintainAspectRatio: false,
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: '濃度 (mg/m³)',
+                                font: {
+                                    size: 14,
+                                    weight: 'bold'
+                                }
+                            }
+                        },
+                        x: {
+                           ticks: {
+                                font: {
+                                    size: 14,
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        title: {
+                            display: true,
+                            text: '不同工作經驗勞工的暴露量比較',
+                            font: {
+                                size: 18,
+                                weight: 'bold'
+                            },
+                            padding: {
+                                top: 10,
+                                bottom: 20
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                title: function(tooltipItems) {
+                                    const item = tooltipItems[0];
+                                    let label = item.chart.data.labels[item.dataIndex];
+                                    if (Array.isArray(label)) {
+                                      return label.join(' ');
+                                    } else {
+                                      return label;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

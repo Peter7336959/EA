@@ -18,14 +18,14 @@
     "href": "index.html#raw-content",
     "title": "EA By Peter Ho.",
     "section": "2. Raw Content",
-    "text": "2. Raw Content\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\npage1\n\npage2\n\nmodeling 教學影片  This content can be styled with a border\n\nThis text is underlined This text is highlighted"
+    "text": "2. Raw Content\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\npage1\n\npage2\n\nmodeling 教學影片 {{&lt; video https://www.youtube.com/watch?v=cSIlqi8hk4E}} This content can be styled with a border\n\nThis text is underlined This text is highlighted"
   },
   {
     "objectID": "index.html#footnotes",
     "href": "index.html#footnotes",
     "title": "EA By Peter Ho.",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nChris Keil, A Case-Based Introduction to Modeling Occupational Inhalation Exposures to Chemicals. AIHA, 2023.↩︎\nAIHA 第一章↩︎"
+    "text": "Footnotes\n\n\nChris Keil, A Case-Based Introduction to Modeling Occupational Inhalation Exposures to Chemicals. AIHA, 2023.↩︎"
   },
   {
     "objectID": "web_CH1_Why_modeling.html",
@@ -92,5 +92,103 @@
       "Home",
       "CH1 "
     ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html#why-modeling",
+    "href": "index.html#why-modeling",
+    "title": "EA By Peter Ho.",
+    "section": "1. Why modeling",
+    "text": "1. Why modeling\n\nCh1 Modeling in the Framework of Industrial Hygiene Practice\n\n摘要\n圖說"
+  },
+  {
+    "objectID": "index.html#gathering-informaiton",
+    "href": "index.html#gathering-informaiton",
+    "title": "EA By Peter Ho.",
+    "section": "2. Gathering informaiton",
+    "text": "2. Gathering informaiton\n\nCh2 Information Gathering for modeling\n\n摘要\n圖說"
+  },
+  {
+    "objectID": "docs/info/web_CH2 Information Gathering.html",
+    "href": "docs/info/web_CH2 Information Gathering.html",
+    "title": "EA",
+    "section": "",
+    "text": "任何暴露評估模式的準確性，都完全取決於其輸入資訊的品質。系統性地收集建立一個可靠空氣濃度模型需要三大類關鍵資訊。\n\n\n\n\n暴露輪廓 = 模擬出的空氣濃度 + 勞工活動模式\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n將計算出的「環境濃度」轉化為「個人暴露劑量」。\n\n\n\n\n\n成功的暴露評估模式，建立在系統性且嚴謹的資訊收集之上。在進行評估時，務必記錄您所做的每一個假設與資訊來源。如果您的估算偏向保守（高估暴露），要註明為何如此；如果使用了文獻值，也要記錄出處。這將使您的評估報告更加專業、可信，也便於日後回溯與更新。"
+  },
+  {
+    "objectID": "docs/info/web_CH2 Information Gathering.html#一-暴露評估的核心濃度與時間的結合",
+    "href": "docs/info/web_CH2 Information Gathering.html#一-暴露評估的核心濃度與時間的結合",
+    "title": "EA",
+    "section": "",
+    "text": "暴露輪廓 = 模擬出的空氣濃度 + 勞工活動模式"
+  },
+  {
+    "objectID": "docs/info/web_CH2 Information Gathering.html#四-關鍵資訊三勞工活動形態資訊",
+    "href": "docs/info/web_CH2 Information Gathering.html#四-關鍵資訊三勞工活動形態資訊",
+    "title": "EA",
+    "section": "",
+    "text": "將計算出的「環境濃度」轉化為「個人暴露劑量」。"
+  },
+  {
+    "objectID": "docs/info/web_CH2 Information Gathering.html#總結",
+    "href": "docs/info/web_CH2 Information Gathering.html#總結",
+    "title": "EA",
+    "section": "",
+    "text": "成功的暴露評估模式，建立在系統性且嚴謹的資訊收集之上。在進行評估時，務必記錄您所做的每一個假設與資訊來源。如果您的估算偏向保守（高估暴露），要註明為何如此；如果使用了文獻值，也要記錄出處。這將使您的評估報告更加專業、可信，也便於日後回溯與更新。"
+  },
+  {
+    "objectID": "docs/info/web_CH2 Information Gathering.html#footnotes",
+    "href": "docs/info/web_CH2 Information Gathering.html#footnotes",
+    "title": "EA",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nCH2 Information Gathering for modeling↩︎"
+  },
+  {
+    "objectID": "docs/info/web_CH1 Why modeling.html",
+    "href": "docs/info/web_CH1 Why modeling.html",
+    "title": "CH1 Why modeling",
+    "section": "",
+    "text": "暴露評估(系統性地描述勞工暴露狀況)並做出風險管理決策。包含幾個核心概念：\n\n暴露輪廓 (Exposure Profile)：SEG或勞工所經歷的完整暴露分佈。\n評估決策：將暴露輪廓與職業暴露限值 (OEL) 進行比較，判斷暴露風險。\n\n\n\n\n傳統上依賴的空氣採樣，在樣本數有限時，其統計證據力非常薄弱。\n關鍵例證：少量採樣的信心陷阱 。僅憑少量採樣數據無法做出可靠的「安全」判斷。\n核心結論：傳統採樣的統計局限性，而暴露評估模型可以輔助專業判斷。\n\n\n\n模型並非要取代採樣，是輔助使暴露評估更科學且高效，提供量化的科學依據。\n\n核心價值：\n\n支持與校正專業判斷、優化資源、提供書面佐證。\n\n超越時間的應用：\n\n回溯過去：為訴訟案件或流行病學研究進行歷史暴露重建。\n評估現在：補充數據不足的暴露輪廓，為當前風險定級。\n預測未來：在製程變更或新化學品引入前，預測潛在暴露。\n\n\n\n\n\n決策的黃金法則：一個模型或一組採樣數據是否有用，並非取決於它能否完美預測真實濃度，而是取決於其結果（暴露分佈）與職業暴露限值（OEL）的相對距離。\n最終思想：暴露評估的目標不是追求完美的預測值，而是利用所有可得工具（包括模型與採樣），在考量不確定性的前提下，做出足夠好」的決策來保護勞工健康。"
+  },
+  {
+    "objectID": "docs/info/web_CH1 Why modeling.html#暴露評估職業衛生的核心",
+    "href": "docs/info/web_CH1 Why modeling.html#暴露評估職業衛生的核心",
+    "title": "CH1 Why modeling",
+    "section": "",
+    "text": "暴露評估(系統性地描述勞工暴露狀況)並做出風險管理決策。包含幾個核心概念：\n\n暴露輪廓 (Exposure Profile)：SEG或勞工所經歷的完整暴露分佈。\n評估決策：將暴露輪廓與職業暴露限值 (OEL) 進行比較，判斷暴露風險。"
+  },
+  {
+    "objectID": "docs/info/web_CH1 Why modeling.html#傳統採樣的限制與模型的必要性",
+    "href": "docs/info/web_CH1 Why modeling.html#傳統採樣的限制與模型的必要性",
+    "title": "CH1 Why modeling",
+    "section": "",
+    "text": "傳統上依賴的空氣採樣，在樣本數有限時，其統計證據力非常薄弱。\n關鍵例證：少量採樣的信心陷阱 。僅憑少量採樣數據無法做出可靠的「安全」判斷。\n核心結論：傳統採樣的統計局限性，而暴露評估模型可以輔助專業判斷。"
+  },
+  {
+    "objectID": "docs/info/web_CH1 Why modeling.html#暴露評估模型的角色與應用",
+    "href": "docs/info/web_CH1 Why modeling.html#暴露評估模型的角色與應用",
+    "title": "CH1 Why modeling",
+    "section": "",
+    "text": "模型並非要取代採樣，是輔助使暴露評估更科學且高效，提供量化的科學依據。\n\n核心價值：\n\n支持與校正專業判斷、優化資源、提供書面佐證。\n\n超越時間的應用：\n\n回溯過去：為訴訟案件或流行病學研究進行歷史暴露重建。\n評估現在：補充數據不足的暴露輪廓，為當前風險定級。\n預測未來：在製程變更或新化學品引入前，預測潛在暴露。"
+  },
+  {
+    "objectID": "docs/info/web_CH1 Why modeling.html#解讀模型結果不確定性與決策關鍵",
+    "href": "docs/info/web_CH1 Why modeling.html#解讀模型結果不確定性與決策關鍵",
+    "title": "CH1 Why modeling",
+    "section": "",
+    "text": "決策的黃金法則：一個模型或一組採樣數據是否有用，並非取決於它能否完美預測真實濃度，而是取決於其結果（暴露分佈）與職業暴露限值（OEL）的相對距離。\n最終思想：暴露評估的目標不是追求完美的預測值，而是利用所有可得工具（包括模型與採樣），在考量不確定性的前提下，做出足夠好」的決策來保護勞工健康。"
+  },
+  {
+    "objectID": "docs/info/web_CH1 Why modeling.html#footnotes",
+    "href": "docs/info/web_CH1 Why modeling.html#footnotes",
+    "title": "CH1 Why modeling",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nChapter 1 Modeling in the Framework of Industrial Hygiene Practice↩︎"
   }
 ]

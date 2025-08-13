@@ -1,5 +1,7 @@
 ---
-title: "CH1_Why_modeling"
+title: "CH1 Why modeling "
+output: html_document
+date: "2025-08-12"
 ---
 
 # **職業衛生模式推估框架 (單頁摘要)** [^1]

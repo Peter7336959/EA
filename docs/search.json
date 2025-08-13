@@ -112,7 +112,7 @@
     "href": "index.html#gathering-informaiton",
     "title": "EA By Peter Ho.",
     "section": "2. Gathering informaiton",
-    "text": "2. Gathering informaiton\n\nCh2 Information Gathering for modeling\n\n摘要\n圖說\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\n\nmodeling 教學影片 \n\nThis text is underlined\nThis text is highlighted"
+    "text": "2. Gathering informaiton\n\nCh2 Information Gathering for modeling\n\n摘要\n圖說"
   },
   {
     "objectID": "docs/info/web_CH2 Information Gathering.html",
@@ -190,5 +190,61 @@
     "title": "CH1 Why modeling",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nChapter 1 Modeling in the Framework of Industrial Hygiene Practice↩︎"
+  },
+  {
+    "objectID": "index.html#volatile-liquid-spill",
+    "href": "index.html#volatile-liquid-spill",
+    "title": "EA By Peter Ho.",
+    "section": "3. Volatile liquid spill",
+    "text": "3. Volatile liquid spill\n\nChapter 3 Volatile Liquid Spill\n\n摘要\n圖說\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\n\nmodeling 教學影片 \n\nThis text is underlined\nThis text is highlighted"
+  },
+  {
+    "objectID": "docs/info/web_CH3 Volatile Liquid Spill.html",
+    "href": "docs/info/web_CH3 Volatile Liquid Spill.html",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "運用兩種基礎的暴露評估模式，快速估算化學品（甲苯）意外洩漏，勞工暴露風險。\n\n\n\n\n事件概述：一名工廠員工通報，前一天在工作站打翻了半瓶甲苯（約250 mL），用抹布擦拭後放置一旁晾乾，約2小時後蒸發完畢。員工當下聞到濃烈氣味，隔日出現胃痙攣症狀。\n任務：身為職衛專業人員，需回溯性評估該名員工在洩漏事件中的8小時日時量平均暴露量 (TWA-8)，及判斷其症狀是否與此次暴露相關。\n關鍵參數彙整：\n\n化學品：甲苯 (Toluene)，洩漏體積：250 mL，液體密度：0.87 g/mL，蒸發時間：2 小時 (120 分鐘)\n作業空間：房間體積 (V)：240 m3，通風狀況 (Q)：未知(無機械排氣)\n暴露時間：正常背景濃度 (C1​)：25 mg/m³ (之前環測)，正常工作時間 (t1​)：5 小時，洩漏後暴露時間 (t2​)：3 小時\n暴露標準 (OELs)：\n\nOSHA PEL (TWA-8)：750 mg/m³，ACGIH TLV (TWA-8)：75 mg/m³ (國際公認、更具健康保護性的建議值)\n\n\n\n\n\n\n此為Tier 1 的篩選評估，採用最保守（最糟情況）的假設，以快速判斷風險等級。\n\n模式原理與假設：作業空間為完全密閉的盒子 (無任何通風)。所有洩漏的甲苯瞬間蒸發，並立即均勻混合至整個房間空氣中。\n公式與演算：Czero_vent​=M/V​=910m3mg​\n\nTWA-8 暴露量計算：≈360m3mg​\n\n初步判斷：\n\n低於OSHA PEL (750 mg/m³)，但遠高於ACGIH TLV (75 mg/m³)。\n有必要進行更精確的評估。\n\n\n\n\n\n此模式比零通風模式更進一步，它考慮了通風的影響，能提供更貼近現實的估算。\n\n模式原理與假設：空氣以一個固定的速率 (Q) 進出房間，並與室內空氣完全均勻混合。污染物以一個固定的平均速率 (G) 釋放到空氣中。濃度達到一個穩態 (Css​)，即污染物進入速率等於被排出的速率。\n公式與演算過程：Css​=G/Q ​​≈ 150m3mg​\nTWA-8 暴露量計算：≈72m3mg​\n精緻化判斷：\n\n這個結果非常接近 ACGIH 的 TLV (75 mg/m³)。\n雖然此次暴露可能沒有違法，但已經達到了需要關注的水平。\nIH MOD 模式推估\n\n\n{# 圖1}\n\n\n\n\n暴露水平判斷：\n\n此次洩漏事件導致的8小時日時量平均暴露濃度，很可能非常接近甚至短時間內超過了具健康保護意義的ACGIH TLV標準。\n\n健康風險分析：\n\n暴露情境：TLV是基於長期、每日重複暴露所設定的標準。考量到這是一次性的短時間暴露，其造成的長期健康風險可能很小。\n症狀比對：員工回報「胃痙攣」症狀，與甲苯典型急性中毒症狀（如頭暈、噁心、中樞神經抑制）不太相符，兩者直接關聯性可能不大。\n\n後續管理行動建議：\n\n善盡職責：身為職衛專業人員，已透過合理的模式評估，完成對此次事件的暴露評估與記錄，善盡了調查之責。\n持續關懷：應持續追蹤該員工的健康狀況。\n預防未來：此事件暴露了管理上的不足。最重要的行動是著眼於未來，建議公司應加強小型化學品洩漏的應變計畫與教育訓練，以預防未來類似事件的風險。\n\n\n\nprepared by Peter Ho"
+  },
+  {
+    "objectID": "docs/info/web_CH3 Volatile Liquid Spill.html#核心目標",
+    "href": "docs/info/web_CH3 Volatile Liquid Spill.html#核心目標",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "運用兩種基礎的暴露評估模式，快速估算化學品（甲苯）意外洩漏，勞工暴露風險。"
+  },
+  {
+    "objectID": "docs/info/web_CH3 Volatile Liquid Spill.html#情境與資訊蒐集",
+    "href": "docs/info/web_CH3 Volatile Liquid Spill.html#情境與資訊蒐集",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "事件概述：一名工廠員工通報，前一天在工作站打翻了半瓶甲苯（約250 mL），用抹布擦拭後放置一旁晾乾，約2小時後蒸發完畢。員工當下聞到濃烈氣味，隔日出現胃痙攣症狀。\n任務：身為職衛專業人員，需回溯性評估該名員工在洩漏事件中的8小時日時量平均暴露量 (TWA-8)，及判斷其症狀是否與此次暴露相關。\n關鍵參數彙整：\n\n化學品：甲苯 (Toluene)，洩漏體積：250 mL，液體密度：0.87 g/mL，蒸發時間：2 小時 (120 分鐘)\n作業空間：房間體積 (V)：240 m3，通風狀況 (Q)：未知(無機械排氣)\n暴露時間：正常背景濃度 (C1​)：25 mg/m³ (之前環測)，正常工作時間 (t1​)：5 小時，洩漏後暴露時間 (t2​)：3 小時\n暴露標準 (OELs)：\n\nOSHA PEL (TWA-8)：750 mg/m³，ACGIH TLV (TWA-8)：75 mg/m³ (國際公認、更具健康保護性的建議值)"
+  },
+  {
+    "objectID": "docs/info/web_CH3 Volatile Liquid Spill.html#模式評估一零通風模式-zero-ventilation-model",
+    "href": "docs/info/web_CH3 Volatile Liquid Spill.html#模式評估一零通風模式-zero-ventilation-model",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "此為Tier 1 的篩選評估，採用最保守（最糟情況）的假設，以快速判斷風險等級。\n\n模式原理與假設：作業空間為完全密閉的盒子 (無任何通風)。所有洩漏的甲苯瞬間蒸發，並立即均勻混合至整個房間空氣中。\n公式與演算：Czero_vent​=M/V​=910m3mg​\n\nTWA-8 暴露量計算：≈360m3mg​\n\n初步判斷：\n\n低於OSHA PEL (750 mg/m³)，但遠高於ACGIH TLV (75 mg/m³)。\n有必要進行更精確的評估。"
+  },
+  {
+    "objectID": "docs/info/web_CH3 Volatile Liquid Spill.html#模式評估二均勻混合模式-well-mixed-room-model",
+    "href": "docs/info/web_CH3 Volatile Liquid Spill.html#模式評估二均勻混合模式-well-mixed-room-model",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "此模式比零通風模式更進一步，它考慮了通風的影響，能提供更貼近現實的估算。\n\n模式原理與假設：空氣以一個固定的速率 (Q) 進出房間，並與室內空氣完全均勻混合。污染物以一個固定的平均速率 (G) 釋放到空氣中。濃度達到一個穩態 (Css​)，即污染物進入速率等於被排出的速率。\n公式與演算過程：Css​=G/Q ​​≈ 150m3mg​\nTWA-8 暴露量計算：≈72m3mg​\n精緻化判斷：\n\n這個結果非常接近 ACGIH 的 TLV (75 mg/m³)。\n雖然此次暴露可能沒有違法，但已經達到了需要關注的水平。\nIH MOD 模式推估\n\n\n{# 圖1}"
+  },
+  {
+    "objectID": "docs/info/web_CH3 Volatile Liquid Spill.html#結論與專業建議",
+    "href": "docs/info/web_CH3 Volatile Liquid Spill.html#結論與專業建議",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "暴露水平判斷：\n\n此次洩漏事件導致的8小時日時量平均暴露濃度，很可能非常接近甚至短時間內超過了具健康保護意義的ACGIH TLV標準。\n\n健康風險分析：\n\n暴露情境：TLV是基於長期、每日重複暴露所設定的標準。考量到這是一次性的短時間暴露，其造成的長期健康風險可能很小。\n症狀比對：員工回報「胃痙攣」症狀，與甲苯典型急性中毒症狀（如頭暈、噁心、中樞神經抑制）不太相符，兩者直接關聯性可能不大。\n\n後續管理行動建議：\n\n善盡職責：身為職衛專業人員，已透過合理的模式評估，完成對此次事件的暴露評估與記錄，善盡了調查之責。\n持續關懷：應持續追蹤該員工的健康狀況。\n預防未來：此事件暴露了管理上的不足。最重要的行動是著眼於未來，建議公司應加強小型化學品洩漏的應變計畫與教育訓練，以預防未來類似事件的風險。\n\n\n\nprepared by Peter Ho"
+  },
+  {
+    "objectID": "docs/info/web_CH3 Volatile Liquid Spill.html#footnotes",
+    "href": "docs/info/web_CH3 Volatile Liquid Spill.html#footnotes",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nChapter 3 Volatile Liquid Spill↩︎"
   }
 ]

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-08-12">
 
-<title>EA By Peter Ho. – 模式推估網站試做-Peter Ho</title>
+<title>CH1 Why modeling – 模式推估網站試做-Peter Ho</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-24c36c7eac5cb5c70c56b99630537981.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-24c36c7eac5cb5c70c56b99630537981.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,13 +67,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<meta name="mermaid-theme" content="neutral">
-<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -82,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">模式推估網站試做-Peter Ho</span>
     </a>
   </div>
@@ -93,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
 </ul>
@@ -104,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -112,26 +109,35 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-modeling" id="toc-why-modeling" class="nav-link active" data-scroll-target="#why-modeling">1. Why modeling</a></li>
-  <li><a href="#gathering-informaiton" id="toc-gathering-informaiton" class="nav-link" data-scroll-target="#gathering-informaiton">2. Gathering informaiton</a></li>
-  <li><a href="#volatile-liquid-spill" id="toc-volatile-liquid-spill" class="nav-link" data-scroll-target="#volatile-liquid-spill">3. Volatile liquid spill</a></li>
-  <li><a href="#sanding-ea-by-lev" id="toc-sanding-ea-by-lev" class="nav-link" data-scroll-target="#sanding-ea-by-lev">4. sanding EA by LEV</a></li>
+  <li><a href="#職業衛生模式推估框架-單頁摘要-1" id="toc-職業衛生模式推估框架-單頁摘要-1" class="nav-link active" data-scroll-target="#職業衛生模式推估框架-單頁摘要-1"><strong>職業衛生模式推估框架 (單頁摘要)</strong> </a>
+  <ul class="collapse">
+  <li><a href="#暴露評估職業衛生的核心" id="toc-暴露評估職業衛生的核心" class="nav-link" data-scroll-target="#暴露評估職業衛生的核心"><strong>1. 暴露評估：職業衛生的核心</strong></a></li>
+  <li><a href="#傳統採樣的限制與模型的必要性" id="toc-傳統採樣的限制與模型的必要性" class="nav-link" data-scroll-target="#傳統採樣的限制與模型的必要性"><strong>2. 傳統採樣的限制與模型的必要性</strong></a></li>
+  <li><a href="#暴露評估模型的角色與應用" id="toc-暴露評估模型的角色與應用" class="nav-link" data-scroll-target="#暴露評估模型的角色與應用"><strong>3. 暴露評估模型的角色與應用</strong></a></li>
+  <li><a href="#解讀模型結果不確定性與決策關鍵" id="toc-解讀模型結果不確定性與決策關鍵" class="nav-link" data-scroll-target="#解讀模型結果不確定性與決策關鍵"><strong>4. 解讀模型結果：不確定性與決策關鍵</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">EA By Peter Ho.</h1>
+<h1 class="title">CH1 Why modeling</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 12, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -141,91 +147,52 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="https://quarto.org/docs/websites/">Quarto learning</a> <a href="https://quarto.org/docs/websites/" class="uri">https://quarto.org/docs/websites/</a></p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>本網站主要內容係來自2023 AIHA 新書各章</strong> <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-</div>
-</div>
-<section id="why-modeling" class="level2">
-<h2 class="anchored" data-anchor-id="why-modeling">1. Why modeling</h2>
+<section id="職業衛生模式推估框架-單頁摘要-1" class="level1">
+<h1><strong>職業衛生模式推估框架 (單頁摘要)</strong> <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h1>
+<section id="暴露評估職業衛生的核心" class="level2">
+<h2 class="anchored" data-anchor-id="暴露評估職業衛生的核心"><strong>1. 暴露評估：職業衛生的核心</strong></h2>
+<p><strong>暴露評估(</strong>系統性地描述勞工暴露狀況)並做出風險管理決策。包含幾個核心概念：</p>
 <ul>
-<li>Ch1 Modeling in the Framework of Industrial Hygiene Practice
+<li><p><strong>暴露輪廓 (Exposure Profile)</strong>：SEG或勞工所經歷的<strong>完整暴露分佈</strong>。</p></li>
+<li><p><strong>評估決策</strong>：將暴露輪廓與<strong>職業暴露限值 (OEL)</strong> 進行比較，判斷暴露風險。</p></li>
+</ul>
+</section>
+<section id="傳統採樣的限制與模型的必要性" class="level2">
+<h2 class="anchored" data-anchor-id="傳統採樣的限制與模型的必要性"><strong>2. 傳統採樣的限制與模型的必要性</strong></h2>
+<p>傳統上依賴的空氣採樣，在樣本數有限時，其統計證據力非常薄弱。</p>
+<p><strong>關鍵例證：少量採樣的信心陷阱</strong> 。僅憑少量採樣數據無法做出可靠的「安全」判斷。</p>
+<p><strong>核心結論</strong>：傳統採樣的統計局限性，而<strong>暴露評估模型可以</strong>輔助專業判斷。</p>
+</section>
+<section id="暴露評估模型的角色與應用" class="level2">
+<h2 class="anchored" data-anchor-id="暴露評估模型的角色與應用"><strong>3. 暴露評估模型的角色與應用</strong></h2>
+<p>模型並非要取代採樣，是輔助使暴露評估更科學且高效，提供量化的科學依據。</p>
 <ul>
-<li><a href="info\web_CH1-Why-modeling.html">摘要</a></li>
-<li><a href="info\info_CH1_Why_modeling.html">圖說</a></li>
+<li><p><strong>核心價值</strong>：</p>
+<ul>
+<li><strong>支持與校正專業判斷</strong>、<strong>優化資源、提供書面佐證</strong>。</li>
+</ul></li>
+<li><p><strong>超越時間的應用</strong>：</p>
+<ul>
+<li><p><strong>回溯過去</strong>：為訴訟案件或流行病學研究進行歷史暴露重建。</p></li>
+<li><p><strong>評估現在</strong>：補充數據不足的暴露輪廓，為當前風險定級。</p></li>
+<li><p><strong>預測未來</strong>：在製程變更或新化學品引入前，預測潛在暴露。</p></li>
 </ul></li>
 </ul>
 </section>
-<section id="gathering-informaiton" class="level2">
-<h2 class="anchored" data-anchor-id="gathering-informaiton">2. Gathering informaiton</h2>
-<ul>
-<li>Ch2 Information Gathering for modeling
-<ul>
-<li><a href="info\web_CH2-Information-Gathering.html">摘要</a></li>
-<li><a href="info\info_CH2_Information Gathering.html">圖說</a></li>
-</ul></li>
-</ul>
-</section>
-<section id="volatile-liquid-spill" class="level2">
-<h2 class="anchored" data-anchor-id="volatile-liquid-spill">3. Volatile liquid spill</h2>
-<ul>
-<li>Ch3 Volatile Liquid Spill
-<ul>
-<li><a href="info\web_CH3-Volatile-Liquid-Spill.html">摘要</a></li>
-<li><a href="info\info_CH3 volatile liquid spill.html">圖說</a></li>
-</ul></li>
-</ul>
-</section>
-<section id="sanding-ea-by-lev" class="level2">
-<h2 class="anchored" data-anchor-id="sanding-ea-by-lev">4. sanding EA by LEV</h2>
-<ul>
-<li>Ch4 Local Exhaust Ventilation for a Sanding
-<ul>
-<li><a href="info\web_CH4-Sanding.html">摘要</a></li>
-<li><a href="info\info_CH4_Sanding.html">圖說</a></li>
-</ul></li>
-</ul>
-<div class="border">
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  A[Hard edge] --&gt; B(Round edge)
-  B --&gt; C{Decision}
-  C --&gt; D[Result one]
-  C --&gt; E[Result two]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</div>
-<div class="border">
-<p>modeling 教學影片 </p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/cSIlqi8hk4E" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
-</div>
-<p><u>This text is underlined</u></p>
-<p><mark>This text is highlighted</mark></p>
+<section id="解讀模型結果不確定性與決策關鍵" class="level2">
+<h2 class="anchored" data-anchor-id="解讀模型結果不確定性與決策關鍵"><strong>4. 解讀模型結果：不確定性與決策關鍵</strong></h2>
+<p><strong>決策的黃金法則：</strong>一個模型或一組採樣數據是否有用，並非取決於它能否完美預測真實濃度，而是取決於<strong>其結果（暴露分佈）與職業暴露限值（OEL）的相對距離</strong>。</p>
+<p><strong>最終思想</strong>：暴露評估的目標不是追求完美的預測值，而是利用所有可得工具（包括模型與採樣），在考量不確定性的前提下，做出<strong>足夠好」的決策</strong>來保護勞工健康。</p>
 
 
+</section>
 </section>
 
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>Chris Keil, A Case-Based Introduction to Modeling Occupational Inhalation Exposures to Chemicals. AIHA, 2023.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Chapter 1 Modeling in the Framework of Industrial Hygiene Practice<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

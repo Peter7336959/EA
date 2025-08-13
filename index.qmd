@@ -22,13 +22,19 @@ page-layout: full
 
 -   Ch2 Information Gathering for modeling
     -   [摘要](info\web_CH2-Information-Gathering.html)
-    -   [圖說](info\info_CH2_Information Gathering.html)
+    -   [圖說](info\info_CH2_Information%20Gathering.html)
 
 ## 3. Volatile liquid spill
 
--   Chapter 3 Volatile Liquid Spill
+-   Ch3 Volatile Liquid Spill
     -   [摘要](info\web_CH3-Volatile-Liquid-Spill.html)
-    -   [圖說](info\info_CH3 volatile liquid spill.html)
+    -   [圖說](info\info_CH3%20volatile%20liquid%20spill.html)
+
+## 4. sanding EA by LEV
+
+-   Ch4 Local Exhaust Ventilation for a Sanding
+    -   [摘要](info\web_CH4-Sanding.html)
+    -   [圖說](info\info_CH4_Sanding.html)
 
 ::: border
 ```{mermaid}

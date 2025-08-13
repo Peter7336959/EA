@@ -196,7 +196,7 @@
     "href": "index.html#volatile-liquid-spill",
     "title": "EA By Peter Ho.",
     "section": "3. Volatile liquid spill",
-    "text": "3. Volatile liquid spill\n\nChapter 3 Volatile Liquid Spill\n\n摘要\n圖說\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\n\nmodeling 教學影片 \n\nThis text is underlined\nThis text is highlighted"
+    "text": "3. Volatile liquid spill\n\nCh3 Volatile Liquid Spill\n\n摘要\n圖說"
   },
   {
     "objectID": "docs/info/web_CH3 Volatile Liquid Spill.html",
@@ -243,6 +243,174 @@
   {
     "objectID": "docs/info/web_CH3 Volatile Liquid Spill.html#footnotes",
     "href": "docs/info/web_CH3 Volatile Liquid Spill.html#footnotes",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nChapter 3 Volatile Liquid Spill↩︎"
+  },
+  {
+    "objectID": "index.html#sanding-ea-by-lev",
+    "href": "index.html#sanding-ea-by-lev",
+    "title": "EA By Peter Ho.",
+    "section": "4. sanding EA by LEV",
+    "text": "4. sanding EA by LEV\n\nCh4 Local Exhaust Ventilation for a Sanding\n\n摘要\n圖說\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\n\nmodeling 教學影片 \n\nThis text is underlined\nThis text is highlighted"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH4 Sanding.html",
+    "href": "docs/info/Rmd/web_CH4 Sanding.html",
+    "title": "CH4 sanding",
+    "section": "",
+    "text": "背景問題：一間木工廠因產能不足，廠長提議臨時使用一張**無局部排氣裝置（LEV）**的工作台，每天進行2小時的打磨作業。\n\n職衛任務：預測此臨時作業是否會產生不可接受的木塵暴露濃度。\n\n\n\n\n為進行評估，我們採用完全混合室模式（Well-Mixed Room Model），並估算了以下關鍵參數：\n* 暴露標準：選用較嚴格的 ACGIH TLV 作為主要判斷基準：1.0 mg/m³。\n* 粉塵產生率 (G)：估算出粉塵產生率 G 約為 2,170 mg/min。粉塵粒徑極小，假設其完全懸浮於空氣中。\n* 房間資訊：房間體積 (V) 為 3,120 m³，總排氣量 (Q) 為 240 m³/min。\n\n\n\n模型評估假設是污染物均勻混合 (但，操作人員呼吸帶的實際濃度必定更高)。\n* 穩態濃度 (Css)：若此無通風作業持續進行，房間平均濃度將達到 9.0 mg/m³，遠超所有職業暴露標準。\n* 2小時作業的日時量平均濃度 (TWA-8)：2.25 mg/m³，是 TLV 的兩倍多。\n* 濃度累積速度：風險累積極為迅速。模型顯示，作業開始後僅需 1.5 分鐘，房間的平均濃度就會超過 ACGIH 的建議標準。\n\n模式推估 IH MOD\n\n\n\n\nSanding EA\n\n\n\n\n\n\n明確的風險判斷：\n廠長提議的臨時方案是不安全的，會產生不可接受的木塵暴露濃度。\n\n建議措施：\n\n臨時方案：可考慮採用附有整合式集塵裝置的砂輪機作為臨時措施，但仍建議進行現場測定確認其有效性。\n\n最終解決方案：最理想的工程控制方法是添購一台新的下吸式排氣桌，從根本上解決問題。\n\nmade by Peter Ho. 1140813"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH4 Sanding.html#核心情境與評估任務",
+    "href": "docs/info/Rmd/web_CH4 Sanding.html#核心情境與評估任務",
+    "title": "CH4 sanding",
+    "section": "",
+    "text": "背景問題：一間木工廠因產能不足，廠長提議臨時使用一張**無局部排氣裝置（LEV）**的工作台，每天進行2小時的打磨作業。\n\n職衛任務：預測此臨時作業是否會產生不可接受的木塵暴露濃度。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH4 Sanding.html#關鍵參數與評估模型",
+    "href": "docs/info/Rmd/web_CH4 Sanding.html#關鍵參數與評估模型",
+    "title": "CH4 sanding",
+    "section": "",
+    "text": "為進行評估，我們採用完全混合室模式（Well-Mixed Room Model），並估算了以下關鍵參數：\n* 暴露標準：選用較嚴格的 ACGIH TLV 作為主要判斷基準：1.0 mg/m³。\n* 粉塵產生率 (G)：估算出粉塵產生率 G 約為 2,170 mg/min。粉塵粒徑極小，假設其完全懸浮於空氣中。\n* 房間資訊：房間體積 (V) 為 3,120 m³，總排氣量 (Q) 為 240 m³/min。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH4 Sanding.html#風險分析與關鍵發現",
+    "href": "docs/info/Rmd/web_CH4 Sanding.html#風險分析與關鍵發現",
+    "title": "CH4 sanding",
+    "section": "",
+    "text": "模型評估假設是污染物均勻混合 (但，操作人員呼吸帶的實際濃度必定更高)。\n* 穩態濃度 (Css)：若此無通風作業持續進行，房間平均濃度將達到 9.0 mg/m³，遠超所有職業暴露標準。\n* 2小時作業的日時量平均濃度 (TWA-8)：2.25 mg/m³，是 TLV 的兩倍多。\n* 濃度累積速度：風險累積極為迅速。模型顯示，作業開始後僅需 1.5 分鐘，房間的平均濃度就會超過 ACGIH 的建議標準。\n\n模式推估 IH MOD\n\n\n\n\nSanding EA"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH4 Sanding.html#結論與專業建議",
+    "href": "docs/info/Rmd/web_CH4 Sanding.html#結論與專業建議",
+    "title": "CH4 sanding",
+    "section": "",
+    "text": "明確的風險判斷：\n廠長提議的臨時方案是不安全的，會產生不可接受的木塵暴露濃度。\n\n建議措施：\n\n臨時方案：可考慮採用附有整合式集塵裝置的砂輪機作為臨時措施，但仍建議進行現場測定確認其有效性。\n\n最終解決方案：最理想的工程控制方法是添購一台新的下吸式排氣桌，從根本上解決問題。\n\nmade by Peter Ho. 1140813"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH2 Information Gathering.html",
+    "href": "docs/info/Rmd/web_CH2 Information Gathering.html",
+    "title": "EA",
+    "section": "",
+    "text": "任何暴露評估模式的準確性，都完全取決於其輸入資訊的品質。系統性地收集建立一個可靠空氣濃度模型需要三大類關鍵資訊。\n\n\n\n\n暴露輪廓 = 模擬出的空氣濃度 + 勞工活動模式\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n將計算出的「環境濃度」轉化為「個人暴露劑量」。\n\n\n\n\n\n成功的暴露評估模式，建立在系統性且嚴謹的資訊收集之上。在進行評估時，務必記錄您所做的每一個假設與資訊來源。如果您的估算偏向保守（高估暴露），要註明為何如此；如果使用了文獻值，也要記錄出處。這將使您的評估報告更加專業、可信，也便於日後回溯與更新。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH2 Information Gathering.html#一-暴露評估的核心濃度與時間的結合",
+    "href": "docs/info/Rmd/web_CH2 Information Gathering.html#一-暴露評估的核心濃度與時間的結合",
+    "title": "EA",
+    "section": "",
+    "text": "暴露輪廓 = 模擬出的空氣濃度 + 勞工活動模式"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH2 Information Gathering.html#四-關鍵資訊三勞工活動形態資訊",
+    "href": "docs/info/Rmd/web_CH2 Information Gathering.html#四-關鍵資訊三勞工活動形態資訊",
+    "title": "EA",
+    "section": "",
+    "text": "將計算出的「環境濃度」轉化為「個人暴露劑量」。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH2 Information Gathering.html#總結",
+    "href": "docs/info/Rmd/web_CH2 Information Gathering.html#總結",
+    "title": "EA",
+    "section": "",
+    "text": "成功的暴露評估模式，建立在系統性且嚴謹的資訊收集之上。在進行評估時，務必記錄您所做的每一個假設與資訊來源。如果您的估算偏向保守（高估暴露），要註明為何如此；如果使用了文獻值，也要記錄出處。這將使您的評估報告更加專業、可信，也便於日後回溯與更新。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH2 Information Gathering.html#footnotes",
+    "href": "docs/info/Rmd/web_CH2 Information Gathering.html#footnotes",
+    "title": "EA",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nCH2 Information Gathering for modeling↩︎"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH1 Why modeling.html",
+    "href": "docs/info/Rmd/web_CH1 Why modeling.html",
+    "title": "CH1 Why modeling",
+    "section": "",
+    "text": "暴露評估(系統性地描述勞工暴露狀況)並做出風險管理決策。包含幾個核心概念：\n\n暴露輪廓 (Exposure Profile)：SEG或勞工所經歷的完整暴露分佈。\n評估決策：將暴露輪廓與職業暴露限值 (OEL) 進行比較，判斷暴露風險。\n\n\n\n\n傳統上依賴的空氣採樣，在樣本數有限時，其統計證據力非常薄弱。\n關鍵例證：少量採樣的信心陷阱 。僅憑少量採樣數據無法做出可靠的「安全」判斷。\n核心結論：傳統採樣的統計局限性，而暴露評估模型可以輔助專業判斷。\n\n\n\n模型並非要取代採樣，是輔助使暴露評估更科學且高效，提供量化的科學依據。\n\n核心價值：\n\n支持與校正專業判斷、優化資源、提供書面佐證。\n\n超越時間的應用：\n\n回溯過去：為訴訟案件或流行病學研究進行歷史暴露重建。\n評估現在：補充數據不足的暴露輪廓，為當前風險定級。\n預測未來：在製程變更或新化學品引入前，預測潛在暴露。\n\n\n\n\n\n決策的黃金法則：一個模型或一組採樣數據是否有用，並非取決於它能否完美預測真實濃度，而是取決於其結果（暴露分佈）與職業暴露限值（OEL）的相對距離。\n最終思想：暴露評估的目標不是追求完美的預測值，而是利用所有可得工具（包括模型與採樣），在考量不確定性的前提下，做出足夠好」的決策來保護勞工健康。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH1 Why modeling.html#暴露評估職業衛生的核心",
+    "href": "docs/info/Rmd/web_CH1 Why modeling.html#暴露評估職業衛生的核心",
+    "title": "CH1 Why modeling",
+    "section": "",
+    "text": "暴露評估(系統性地描述勞工暴露狀況)並做出風險管理決策。包含幾個核心概念：\n\n暴露輪廓 (Exposure Profile)：SEG或勞工所經歷的完整暴露分佈。\n評估決策：將暴露輪廓與職業暴露限值 (OEL) 進行比較，判斷暴露風險。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH1 Why modeling.html#傳統採樣的限制與模型的必要性",
+    "href": "docs/info/Rmd/web_CH1 Why modeling.html#傳統採樣的限制與模型的必要性",
+    "title": "CH1 Why modeling",
+    "section": "",
+    "text": "傳統上依賴的空氣採樣，在樣本數有限時，其統計證據力非常薄弱。\n關鍵例證：少量採樣的信心陷阱 。僅憑少量採樣數據無法做出可靠的「安全」判斷。\n核心結論：傳統採樣的統計局限性，而暴露評估模型可以輔助專業判斷。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH1 Why modeling.html#暴露評估模型的角色與應用",
+    "href": "docs/info/Rmd/web_CH1 Why modeling.html#暴露評估模型的角色與應用",
+    "title": "CH1 Why modeling",
+    "section": "",
+    "text": "模型並非要取代採樣，是輔助使暴露評估更科學且高效，提供量化的科學依據。\n\n核心價值：\n\n支持與校正專業判斷、優化資源、提供書面佐證。\n\n超越時間的應用：\n\n回溯過去：為訴訟案件或流行病學研究進行歷史暴露重建。\n評估現在：補充數據不足的暴露輪廓，為當前風險定級。\n預測未來：在製程變更或新化學品引入前，預測潛在暴露。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH1 Why modeling.html#解讀模型結果不確定性與決策關鍵",
+    "href": "docs/info/Rmd/web_CH1 Why modeling.html#解讀模型結果不確定性與決策關鍵",
+    "title": "CH1 Why modeling",
+    "section": "",
+    "text": "決策的黃金法則：一個模型或一組採樣數據是否有用，並非取決於它能否完美預測真實濃度，而是取決於其結果（暴露分佈）與職業暴露限值（OEL）的相對距離。\n最終思想：暴露評估的目標不是追求完美的預測值，而是利用所有可得工具（包括模型與採樣），在考量不確定性的前提下，做出足夠好」的決策來保護勞工健康。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH1 Why modeling.html#footnotes",
+    "href": "docs/info/Rmd/web_CH1 Why modeling.html#footnotes",
+    "title": "CH1 Why modeling",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nChapter 1 Modeling in the Framework of Industrial Hygiene Practice↩︎"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html",
+    "href": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "運用兩種基礎的暴露評估模式，快速估算化學品（甲苯）意外洩漏，勞工暴露風險。\n\n\n\n\n事件概述：一名工廠員工通報，前一天在工作站打翻了半瓶甲苯（約250 mL），用抹布擦拭後放置一旁晾乾，約2小時後蒸發完畢。員工當下聞到濃烈氣味，隔日出現胃痙攣症狀。\n任務：身為職衛專業人員，需回溯性評估該名員工在洩漏事件中的8小時日時量平均暴露量 (TWA-8)，及判斷其症狀是否與此次暴露相關。\n關鍵參數彙整：\n\n化學品：甲苯 (Toluene)，洩漏體積：250 mL，液體密度：0.87 g/mL，蒸發時間：2 小時 (120 分鐘)\n作業空間：房間體積 (V)：240 m3，通風狀況 (Q)：未知(無機械排氣)\n暴露時間：正常背景濃度 (C1​)：25 mg/m³ (之前環測)，正常工作時間 (t1​)：5 小時，洩漏後暴露時間 (t2​)：3 小時\n暴露標準 (OELs)：\n\nOSHA PEL (TWA-8)：750 mg/m³，ACGIH TLV (TWA-8)：75 mg/m³ (國際公認、更具健康保護性的建議值)\n\n\n\n\n\n\n此為Tier 1 的篩選評估，採用最保守（最糟情況）的假設，以快速判斷風險等級。\n\n模式原理與假設：作業空間為完全密閉的盒子 (無任何通風)。所有洩漏的甲苯瞬間蒸發，並立即均勻混合至整個房間空氣中。\n公式與演算：Czero_vent​=M/V​=910m3mg​\n\nTWA-8 暴露量計算：≈360m3mg​\n\n初步判斷：\n\n低於OSHA PEL (750 mg/m³)，但遠高於ACGIH TLV (75 mg/m³)。\n有必要進行更精確的評估。\n\n\n\n\n\n此模式比零通風模式更進一步，它考慮了通風的影響，能提供更貼近現實的估算。\n\n模式原理與假設：空氣以一個固定的速率 (Q) 進出房間，並與室內空氣完全均勻混合。污染物以一個固定的平均速率 (G) 釋放到空氣中。濃度達到一個穩態 (Css​)，即污染物進入速率等於被排出的速率。\n公式與演算過程：Css​=G/Q ​​≈ 150m3mg​\nTWA-8 暴露量計算：≈72m3mg​\n精緻化判斷：\n\n這個結果非常接近 ACGIH 的 TLV (75 mg/m³)。\n雖然此次暴露可能沒有違法，但已經達到了需要關注的水平。\nIH MOD 模式推估\n\n\n{# 圖1}\n\n\n\n\n暴露水平判斷：\n\n此次洩漏事件導致的8小時日時量平均暴露濃度，很可能非常接近甚至短時間內超過了具健康保護意義的ACGIH TLV標準。\n\n健康風險分析：\n\n暴露情境：TLV是基於長期、每日重複暴露所設定的標準。考量到這是一次性的短時間暴露，其造成的長期健康風險可能很小。\n症狀比對：員工回報「胃痙攣」症狀，與甲苯典型急性中毒症狀（如頭暈、噁心、中樞神經抑制）不太相符，兩者直接關聯性可能不大。\n\n後續管理行動建議：\n\n善盡職責：身為職衛專業人員，已透過合理的模式評估，完成對此次事件的暴露評估與記錄，善盡了調查之責。\n持續關懷：應持續追蹤該員工的健康狀況。\n預防未來：此事件暴露了管理上的不足。最重要的行動是著眼於未來，建議公司應加強小型化學品洩漏的應變計畫與教育訓練，以預防未來類似事件的風險。\n\n\n\nprepared by Peter Ho"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#核心目標",
+    "href": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#核心目標",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "運用兩種基礎的暴露評估模式，快速估算化學品（甲苯）意外洩漏，勞工暴露風險。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#情境與資訊蒐集",
+    "href": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#情境與資訊蒐集",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "事件概述：一名工廠員工通報，前一天在工作站打翻了半瓶甲苯（約250 mL），用抹布擦拭後放置一旁晾乾，約2小時後蒸發完畢。員工當下聞到濃烈氣味，隔日出現胃痙攣症狀。\n任務：身為職衛專業人員，需回溯性評估該名員工在洩漏事件中的8小時日時量平均暴露量 (TWA-8)，及判斷其症狀是否與此次暴露相關。\n關鍵參數彙整：\n\n化學品：甲苯 (Toluene)，洩漏體積：250 mL，液體密度：0.87 g/mL，蒸發時間：2 小時 (120 分鐘)\n作業空間：房間體積 (V)：240 m3，通風狀況 (Q)：未知(無機械排氣)\n暴露時間：正常背景濃度 (C1​)：25 mg/m³ (之前環測)，正常工作時間 (t1​)：5 小時，洩漏後暴露時間 (t2​)：3 小時\n暴露標準 (OELs)：\n\nOSHA PEL (TWA-8)：750 mg/m³，ACGIH TLV (TWA-8)：75 mg/m³ (國際公認、更具健康保護性的建議值)"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#模式評估一零通風模式-zero-ventilation-model",
+    "href": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#模式評估一零通風模式-zero-ventilation-model",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "此為Tier 1 的篩選評估，採用最保守（最糟情況）的假設，以快速判斷風險等級。\n\n模式原理與假設：作業空間為完全密閉的盒子 (無任何通風)。所有洩漏的甲苯瞬間蒸發，並立即均勻混合至整個房間空氣中。\n公式與演算：Czero_vent​=M/V​=910m3mg​\n\nTWA-8 暴露量計算：≈360m3mg​\n\n初步判斷：\n\n低於OSHA PEL (750 mg/m³)，但遠高於ACGIH TLV (75 mg/m³)。\n有必要進行更精確的評估。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#模式評估二均勻混合模式-well-mixed-room-model",
+    "href": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#模式評估二均勻混合模式-well-mixed-room-model",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "此模式比零通風模式更進一步，它考慮了通風的影響，能提供更貼近現實的估算。\n\n模式原理與假設：空氣以一個固定的速率 (Q) 進出房間，並與室內空氣完全均勻混合。污染物以一個固定的平均速率 (G) 釋放到空氣中。濃度達到一個穩態 (Css​)，即污染物進入速率等於被排出的速率。\n公式與演算過程：Css​=G/Q ​​≈ 150m3mg​\nTWA-8 暴露量計算：≈72m3mg​\n精緻化判斷：\n\n這個結果非常接近 ACGIH 的 TLV (75 mg/m³)。\n雖然此次暴露可能沒有違法，但已經達到了需要關注的水平。\nIH MOD 模式推估\n\n\n{# 圖1}"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#結論與專業建議",
+    "href": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#結論與專業建議",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "暴露水平判斷：\n\n此次洩漏事件導致的8小時日時量平均暴露濃度，很可能非常接近甚至短時間內超過了具健康保護意義的ACGIH TLV標準。\n\n健康風險分析：\n\n暴露情境：TLV是基於長期、每日重複暴露所設定的標準。考量到這是一次性的短時間暴露，其造成的長期健康風險可能很小。\n症狀比對：員工回報「胃痙攣」症狀，與甲苯典型急性中毒症狀（如頭暈、噁心、中樞神經抑制）不太相符，兩者直接關聯性可能不大。\n\n後續管理行動建議：\n\n善盡職責：身為職衛專業人員，已透過合理的模式評估，完成對此次事件的暴露評估與記錄，善盡了調查之責。\n持續關懷：應持續追蹤該員工的健康狀況。\n預防未來：此事件暴露了管理上的不足。最重要的行動是著眼於未來，建議公司應加強小型化學品洩漏的應變計畫與教育訓練，以預防未來類似事件的風險。\n\n\n\nprepared by Peter Ho"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#footnotes",
+    "href": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#footnotes",
     "title": "Ch3 Volatile Liquid Spill",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nChapter 3 Volatile Liquid Spill↩︎"

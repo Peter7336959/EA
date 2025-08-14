@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "EA By Peter Ho.",
+    "title": "Occupational Exposure Assessment",
     "section": "",
-    "text": "Quarto learning https://quarto.org/docs/websites/"
+    "text": "本識做網站主要係分享職業衛生概念與知識為主，職業安全議題可另尋其他資源或參考其他的網頁"
   },
   {
     "objectID": "index.html#why-modeling2",
@@ -98,14 +98,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
+    "text": "About this site\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html#why-modeling",
     "href": "index.html#why-modeling",
-    "title": "EA By Peter Ho.",
+    "title": "Occupational Exposure Assessment",
     "section": "1. Why modeling",
-    "text": "1. Why modeling\n\nCh1 Modeling in the Framework of Industrial Hygiene Practice\n\n摘要\n圖說"
+    "text": "1. Why modeling"
   },
   {
     "objectID": "index.html#gathering-informaiton",
@@ -194,9 +194,9 @@
   {
     "objectID": "index.html#volatile-liquid-spill",
     "href": "index.html#volatile-liquid-spill",
-    "title": "EA By Peter Ho.",
+    "title": "Occupational Exposure Assessment",
     "section": "3. Volatile liquid spill",
-    "text": "3. Volatile liquid spill\n\nCh3 Volatile Liquid Spill\n\n摘要\n圖說"
+    "text": "3. Volatile liquid spill"
   },
   {
     "objectID": "docs/info/web_CH3 Volatile Liquid Spill.html",
@@ -252,7 +252,7 @@
     "href": "index.html#sanding-ea-by-lev",
     "title": "EA By Peter Ho.",
     "section": "4. sanding EA by LEV",
-    "text": "4. sanding EA by LEV\n\nCh4 Local Exhaust Ventilation for a Sanding\n\n摘要\n圖說"
+    "text": "4. sanding EA by LEV"
   },
   {
     "objectID": "docs/info/Rmd/web_CH4 Sanding.html",
@@ -418,9 +418,9 @@
   {
     "objectID": "index.html#container-uncovered",
     "href": "index.html#container-uncovered",
-    "title": "EA By Peter Ho.",
-    "section": "5. container uncovered",
-    "text": "5. container uncovered\n\nCh5 Volatile Liquid Container Left Open\n\n摘要\n圖說"
+    "title": "Occupational Exposure Assessment",
+    "section": "5. Container uncovered",
+    "text": "5. Container uncovered"
   },
   {
     "objectID": "docs/info/Rmd/web_CH5_container left open.html",
@@ -439,9 +439,9 @@
   {
     "objectID": "index.html#barrel-filling",
     "href": "index.html#barrel-filling",
-    "title": "EA By Peter Ho.",
-    "section": "6. barrel filling",
-    "text": "6. barrel filling\n\nCh6 Barrel filling indoors\n\n摘要\n圖說\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\n\nmodeling 教學影片 \n\nThis text is underlined\nThis text is highlighted"
+    "title": "Occupational Exposure Assessment",
+    "section": "6. Barrel filling",
+    "text": "6. Barrel filling"
   },
   {
     "objectID": "docs/info/Rmd/web_CH6_barrel filling.html",
@@ -498,5 +498,117 @@
     "title": "CH6 barrel filling",
     "section": "",
     "text": "預估的最高瞬時濃度 (50.2mg/m3) 雖然顯著，但仍低於法定的8小時日時量平均容許濃度 (60mg/m3)。進一步考量到此作業的暴露時間極短（僅5分鐘）且頻率不高（並非每日發生），將此短時間高濃度暴露平均至8小時工作日後，其日時量平均暴露值遠低於容許標準，因此整體暴露風險可判斷為**「可接受」**。\n此案例清晰地展示了擴散模型作為一種暴露評估工具的實用價值。它允許我們在缺乏直接採樣數據的情況下，透過選擇合理的保守參數，對通風不良區域的近源暴露情境進行量化且具保護性的風險判斷。\n參考資料： Chapter 6 barrel filling indoors. Made by Peter Ho. 114.08.14"
+  },
+  {
+    "objectID": "introduction.html",
+    "href": "introduction.html",
+    "title": "introduction",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "modeling.html",
+    "href": "modeling.html",
+    "title": "Modeling",
+    "section": "",
+    "text": "本網站主要內容係來自2023 AIHA 新書各章 (Keil 2023)\nQuarto learning https://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "modeling.html#why-modeling",
+    "href": "modeling.html#why-modeling",
+    "title": "Modeling",
+    "section": "1. Why modeling",
+    "text": "1. Why modeling\n\nCh1 Modeling in the Framework of Industrial Hygiene Practice\n\n摘要\n圖說"
+  },
+  {
+    "objectID": "modeling.html#gathering-informaiton",
+    "href": "modeling.html#gathering-informaiton",
+    "title": "Modeling",
+    "section": "2. Gathering informaiton",
+    "text": "2. Gathering informaiton\n\nCh2 Information Gathering for modeling\n\n摘要\n圖說"
+  },
+  {
+    "objectID": "modeling.html#volatile-liquid-spill",
+    "href": "modeling.html#volatile-liquid-spill",
+    "title": "Modeling",
+    "section": "3. Volatile liquid spill",
+    "text": "3. Volatile liquid spill\n\nCh3 Volatile Liquid Spill\n\n摘要\n圖說"
+  },
+  {
+    "objectID": "modeling.html#sanding-ea-by-lev",
+    "href": "modeling.html#sanding-ea-by-lev",
+    "title": "Modeling",
+    "section": "4. sanding EA by LEV",
+    "text": "4. sanding EA by LEV\n\nCh4 Local Exhaust Ventilation for a Sanding\n\n摘要\n圖說"
+  },
+  {
+    "objectID": "modeling.html#container-uncovered",
+    "href": "modeling.html#container-uncovered",
+    "title": "Modeling",
+    "section": "5. container uncovered",
+    "text": "5. container uncovered\n\nCh5 Volatile Liquid Container Left Open\n\n摘要\n圖說"
+  },
+  {
+    "objectID": "modeling.html#barrel-filling",
+    "href": "modeling.html#barrel-filling",
+    "title": "Modeling",
+    "section": "6. barrel filling",
+    "text": "6. barrel filling\n\nCh6 Barrel filling indoors\n\n摘要\n圖說"
+  },
+  {
+    "objectID": "index.html#gathering-information",
+    "href": "index.html#gathering-information",
+    "title": "Occupational Exposure Assessment",
+    "section": "2. Gathering information",
+    "text": "2. Gathering information"
+  },
+  {
+    "objectID": "index.html#sanding",
+    "href": "index.html#sanding",
+    "title": "Occupational Exposure Assessment",
+    "section": "4. Sanding",
+    "text": "4. Sanding"
+  },
+  {
+    "objectID": "index.html#why-modeling-1",
+    "href": "index.html#why-modeling-1",
+    "title": "Occupational Exposure Assessment",
+    "section": "1. Why modeling",
+    "text": "1. Why modeling"
+  },
+  {
+    "objectID": "index.html#gathering-information-1",
+    "href": "index.html#gathering-information-1",
+    "title": "Occupational Exposure Assessment",
+    "section": "2. Gathering information",
+    "text": "2. Gathering information"
+  },
+  {
+    "objectID": "index.html#volatile-liquid-spill-1",
+    "href": "index.html#volatile-liquid-spill-1",
+    "title": "Occupational Exposure Assessment",
+    "section": "3. Volatile liquid spill",
+    "text": "3. Volatile liquid spill"
+  },
+  {
+    "objectID": "index.html#sanding-1",
+    "href": "index.html#sanding-1",
+    "title": "Occupational Exposure Assessment",
+    "section": "4. Sanding",
+    "text": "4. Sanding"
+  },
+  {
+    "objectID": "others.html",
+    "href": "others.html",
+    "title": "others",
+    "section": "",
+    "text": "本網頁內容係有關職業安全議題…."
+  },
+  {
+    "objectID": "others.html#sec-事故調查分析方法-網站",
+    "href": "others.html#sec-事故調查分析方法-網站",
+    "title": "others",
+    "section": "[事故調查分析方法 網站]",
+    "text": "[事故調查分析方法 網站]"
   }
 ]

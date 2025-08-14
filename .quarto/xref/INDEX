@@ -40,5 +40,14 @@
   },
   "docs/info/web_CH6_barrel filling.Rmd": {
     "web_CH6_barrel filling.html": "af365a13"
+  },
+  "introduction.qmd": {
+    "introduction.html": "1edfc790"
+  },
+  "modeling.qmd": {
+    "modeling.html": "e2304c89"
+  },
+  "others.qmd": {
+    "others.html": "f2af2066"
   }
 }

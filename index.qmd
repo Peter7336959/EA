@@ -1,68 +1,63 @@
 ---
-title: "EA    By Peter Ho."
+title: "Occupational Exposure Assessment"
 #lang: zh    
-page-layout: full
+#page-layout: full
 bibliography: references.bib
 ---
 
-[Quarto learning](https://quarto.org/docs/websites/) <https://quarto.org/docs/websites/>
+> 本識做網站主要係分享職業衛生概念與知識為主，職業安全議題可另尋其他資源或參考其他的網頁
+>
+> ### [[**本網站主要內容係來自2023 AIHA 新書各章**[@acase-b2023]]{.underline}]{.mark}
 
-::: callout-important
-**本網站主要內容係來自2023 AIHA 新書各章** [@acase-b2023]
-:::
+# 1.目前初步完成推估模式介紹：(化學品暴露)
 
+
+:::: {.columns}
+
+::: {.column width="45%"}
 ## 1. Why modeling
 
--   Ch1 Modeling in the Framework of Industrial Hygiene Practice
-    -   [摘要](docs\info\web_CH1-Why-modeling.html)
-    -   [圖說](docs\info\info_CH1_Why_modeling.html)
-
-## 2. Gathering informaiton
-
--   Ch2 Information Gathering for modeling
-    -   [摘要](docs\info\web_CH2-Information-Gathering.html)
-    -   [圖說](docs\info\info_CH2_Information Gathering.html)
+## 2. Gathering information
 
 ## 3. Volatile liquid spill
 
--   Ch3 Volatile Liquid Spill
-    -   [摘要](docs\info\web_CH3-Volatile-Liquid-Spill.html)
-    -   [圖說](docs\info\info_CH3%20volatile%20liquid%20spill.html)
+## 4. Sanding
+:::
 
-## 4. sanding EA by LEV
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
 
--   Ch4 Local Exhaust Ventilation for a Sanding
-    -   [摘要](docs\info\web_CH4-Sanding.html)
-    -   [圖說](docs\info\info_CH4_Sanding.html)
+::: {.column width="45%"}
+## 5. Container uncovered
 
-## 5. container uncovered
+## 6. Barrel filling
+:::
 
--   Ch5 Volatile Liquid Container Left Open
-    -   [摘要](docs\info\web_CH5_container-left-open.html)
-    -   [圖說](docs\info\info_CH5_container%20left%20open.html)
+::::
 
-## 6. barrel filling
+# 2.規劃展開推估模式介紹：(噪音與高氣溫)
 
--   Ch6 Barrel filling indoors
-    -   [摘要](docs\info\web_CH6_Barrel-filling.html)
-    -   [圖說](docs\info\info_CH6_Barrel%20filling.html)
+
+
 
 ::: border
+# 職業衛生領域
+
 ```{mermaid}
 flowchart LR
-  A[Hard edge] --> B(Round edge)
-  B --> C{Decision}
-  C --> D[Result one]
-  C --> E[Result two]
+  A[健康危害預期] --> B(辨識)
+  B ==> C{評估}
+  C --> D[控制] 
+  C --> E[確認] 
+
 ```
 :::
 
 ::: border
-modeling 教學影片 {{< video <https://www.youtube.com/watch?v=cSIlqi8hk4E >}}
+# modeling 軟體 (IH MOD )教學影片
+
+{{< video <https://www.youtube.com/watch?v=cSIlqi8hk4E >}}
 :::
-
-[This text is underlined]{.underline}
-
-[This text is highlighted]{.mark}
 
 ## References {.unnumbered}

@@ -1,8 +1,8 @@
 {
-  "hash": "48770d6fbc4f31a9eb80c7e311f07c7e",
+  "hash": "22a273ee08541a712da4e048c7e68b6a",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"EA\"\n---\n\n\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "markdown": "---\ntitle: \"Occupational Exposure Assessment\"\n#lang: zh    \n#page-layout: full\nbibliography: references.bib\n---\n\n> 本識做網站主要係分享職業衛生概念與知識為主，職業安全議題可另尋其他資源或參考其他的網頁\n>\n> [[**本網站主要內容係來自2023 AIHA 新書各章**[@acase-b2023]]{.underline}]{.mark}\n\n# 目前初步完成推估模式介紹：(化學品暴露)\n\n\n::: {.cell layout-ncol=\"3\"}\n\n```{.r .cell-code}\n## 1. Why modeling\n\n## 2. Gathering information\n\n## 3. Volatile liquid spill\n\n## 4. Sanding\n\n## 5. Container uncovered\n\n## 6. Barrel filling\n```\n:::\n\n::: border\n# 職業衛生領域\n\n```{mermaid}\nflowchart LR\n  A[健康危害預期] --> B(辨識)\n  B ==> C{評估}\n  C --> D[控制] \n  C --> E[確認] \n\n```\n:::\n\n::: border\n# modeling 軟體 (IH MOD )教學影片 \n{{< video <https://www.youtube.com/watch?v=cSIlqi8hk4E >}}\n:::\n\n## References {.unnumbered}\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

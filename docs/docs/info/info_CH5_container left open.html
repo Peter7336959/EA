@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<style type="text/css">
+.inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.sng {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.def {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>資訊圖表：化學品容器未蓋暴露事件分析</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .kpi-card {
+            background-color: #ffffff;
+            border-left: 5px solid #0077b6;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .kpi-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .flow-step {
+            border: 2px solid #90e0ef;
+            background-color: #caf0f8;
+            color: #03045e;
+        }
+        .flow-arrow {
+            color: #0077b6;
+        }
+        .conclusion-card {
+            background: linear-gradient(135deg, #0077b6, #00b4d8);
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-slate-100 text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-black text-[#03045e] mb-2">模式推估-暴露未蓋化學品容器</h1>
+            <p class="text-2g text-2xl font-bold text-red-600">意外暴露正己烷(n-hexane)的案例研究</p>
+        </header>
+
+        <section id="incident-overview" class="mb-12 bg-white rounded-lg shadow-lg p-6 md:p-8">
+            <h2 class="text-2xl font-bold text-[#03045e] mb-4 border-b-2 border-[#90e0ef] pb-2">事件概要</h2>
+            <p class="mb-4">一名工作人員發現化學儲存櫃中一瓶廣口的正己烷容器未加蓋，濃烈的氣味瀰漫。他立即蓋上瓶蓋並撤離，隨後向安全團隊報告。本分析將透過模型評估此事件中的暴露風險。</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                <div class="kpi-card rounded-lg shadow-md p-6">
+                    <h3 class="text-lg font-bold text-[#0077b6] mb-2">核心問題 1</h3>
+                    <p class="text-gray-600">打開櫃門瞬間的暴露濃度有多高？</p>
+                </div>
+                <div class="kpi-card rounded-lg shadow-md p-6">
+                    <h3 class="text-lg font-bold text-[#0077b6] mb-2">核心問題 2</h3>
+                    <p class="text-gray-600">污染物擴散後，整個房間的濃度是多少？</p>
+                </div>
+                <div class="kpi-card rounded-lg shadow-md p-6">
+                    <h3 class="text-lg font-bold text-[#0077b6] mb-2">核心問題 3</h3>
+                    <p class="text-gray-600">房間需要多久才能安全進入？</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="assessment-flow" class="mb-12">
+            <h2 class="text-2xl font-bold text-center text-[#03045e] mb-6">風險評估流程</h2>
+            <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
+                <div class="flow-step rounded-lg p-4 text-center shadow-md w-full md:w-1/4">
+                    <div class="text-2xl font-bold mb-2">1</div>
+                    <div>櫃內濃度評估</div>
+                    <div class="text-sm font-bold text-red-600">(飽和蒸氣壓模型)</div>
+                </div>
+                <div class="text-4xl flow-arrow transform md:rotate-0 rotate-90">➔</div>
+                <div class="flow-step rounded-lg p-4 text-center shadow-md w-full md:w-1/4">
+                    <div class="text-2xl font-bold mb-2">2</div>
+                    <div>房間初始濃度評估</div>
+                    <div class="text-sm font-bold text-red-600">(無通風推估模式)</div>
+                </div>
+                <div class="text-4xl flow-arrow transform md:rotate-0 rotate-90">➔</div>
+                <div class="flow-step rounded-lg p-4 text-center shadow-md w-full md:w-1/4">
+                    <div class="text-2xl font-bold mb-2">3</div>
+                    <div>濃度衰減評估</div>
+                    <div class="text-sm font-bold text-red-600">(完全混合模式WRM)</div>
+                </div>
+            </div>
+        </section>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+            <div id="cabinet-concentration" class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-[#03045e] mb-4">階段一：櫃內的最壞情況</h2>
+                <p class="mb-6">使用飽和蒸氣壓模型計算，我們估計當櫃門打開時，內部空氣中正己烷的濃度達到了驚人的水平。這是一個立即性的高度危險狀況。</p>
+                <div class="text-center bg-[#caf0f8] p-6 rounded-lg">
+                    <div class="text-5xl md:text-7xl font-black text-[#0077b6]">163,000</div>
+                    <div class="text-xl font-bold text-[#03045e]">ppm</div>
+                    <p class="text-sm text-gray-600 mt-2">(相當於 575,000 mg/m³)</p>
+                </div>
+                <p class="mt-4 text-center text-red-600 font-semibold">⚠️ 此濃度遠超所有職業暴露限值，並高於爆炸下限！</p>
+            </div>
+
+            <div id="room-concentration" class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-[#03045e] mb-4">階段二：房間的初始污染</h2>
+                 <p class="mb-4">當櫃門打開，高濃度氣體瞬間釋放到房間。我們使用無通風推估模式估算了房間的平均濃度，並將其與職業暴露限值 (OELs) 進行比較。</p>
+                <div class="chart-container">
+                    <canvas id="roomConcentrationChart"></canvas>
+                </div>
+                 <p class="text-center mt-4 text-sm text-gray-600">圖表顯示，即使是最低估計的房間濃度，也遠超過了建議的8小時時間加權平均濃度限值 (TLV-TWA)。</p>
+            </div>
+
+            <div id="clearance-time" class="bg-white rounded-lg shadow-lg p-6 md:p-8 lg:col-span-2">
+                <h2 class="text-2xl font-bold text-[#03045e] mb-4">階段三：安全進入時間</h2>
+                <p class="mb-4">在汙染源（未蓋的瓶子）被移除後，房間的通風系統開始清除污染物。完全混合模式預測了濃度隨時間下降的趨勢，讓我們可以確定何時能安全返回。</p>
+                <div class="chart-container h-[350px] md:h-[400px] max-h-[500px] mx-auto">
+                    <canvas id="clearanceTimeChart"></canvas>
+                </div>
+                <p class="text-center mt-4 text-sm text-gray-600">模型預測，大約需要50分鐘，房間濃度才能降至安全的TLV-TWA標準以下。</p>
+            </div>
+            
+            <div id="best-practices" class="conclusion-card rounded-lg shadow-lg p-6 md:p-8 lg:col-span-2">
+                <h2 class="text-2xl font-bold mb-4">結論與最佳實務：從源頭預防</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">學習重點</h3>
+                        <ul class="list-disc list-inside space-y-2">
+                            <li>飽和蒸氣壓是評估密閉空間最壞情況的關鍵工具。</li>
+                            <li>多模型分析提供了從瞬間到長期的完整風險圖像。</li>
+                            <li>安全不僅是濃度問題，還需考慮爆炸範圍等指標。</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">最佳實務：逸散性排放控制</h3>
+                        <p class="mb-2">許多實驗室忽略了來自溶劑瓶的微量但持續的「逸散性排放」。</p>
+                        <div class="bg-white/20 p-4 rounded-lg">
+                            <p class="font-bold">✅ 推薦方案：</p>
+                            <p>持續通風或開放通風。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="text-center mt-12 pt-6 border-t border-gray-300">
+            <p class="text-sm text-gray-500">整理自Chapter 5 Volatile Liquid Container Left Open. Made by Peter Ho. 2025.08.14</p>
+        </footer>
+
+    </div>
+
+    <script>
+        const wrapLabel = (label) => {
+            const maxLength = 16;
+            if (label.length <= maxLength) {
+                return label;
+            }
+            const words = label.split(' ');
+            const lines = [];
+            let currentLine = '';
+            for (const word of words) {
+                if ((currentLine + word).length > maxLength) {
+                    lines.push(currentLine.trim());
+                    currentLine = '';
+                }
+                currentLine += word + ' ';
+            }
+            lines.push(currentLine.trim());
+            return lines;
+        };
+
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            }
+            return label;
+        };
+        
+        const brilliantBluesPalette = {
+            background: 'rgba(0, 180, 216, 0.2)',
+            border: '#00b4d8',
+            highlight: '#03045e',
+            accent: '#90e0ef',
+            text: '#03045e'
+        };
+
+        const roomConcentrationCtx = document.getElementById('roomConcentrationChart').getContext('2d');
+        const roomConcentrationChart = new Chart(roomConcentrationCtx, {
+            type: 'bar',
+            data: {
+                labels: ['房間濃度最低估計', '房間濃度最高估計', '立即致危濃度 (IDLH)', '8小時容許濃度 (TLV-TWA)'],
+                datasets: [{
+                    label: '正己烷濃度 (mg/m³)',
+                    data: [550, 1100, 3880, 176],
+                    backgroundColor: [
+                        brilliantBluesPalette.background,
+                        brilliantBluesPalette.border,
+                        'rgba(255, 99, 132, 0.6)',
+                        'rgba(75, 192, 192, 0.6)'
+                    ],
+                    borderColor: [
+                        brilliantBluesPalette.border,
+                        brilliantBluesPalette.highlight,
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(75, 192, 192, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                indexAxis: 'y',
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: '濃度 (mg/m³)',
+                            color: brilliantBluesPalette.text
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: tooltipTitleCallback
+                        }
+                    }
+                }
+            }
+        });
+
+        const clearanceTimeCtx = document.getElementById('clearanceTimeChart').getContext('2d');
+        const clearanceTimeChart = new Chart(clearanceTimeCtx, {
+            type: 'line',
+            data: {
+                labels: [0, 10, 20, 30, 40, 50, 60],
+                datasets: [{
+                    label: '房間濃度 (最高估計)',
+                    data: [1100, 600, 330, 180, 100, 55, 30],
+                    borderColor: brilliantBluesPalette.highlight,
+                    backgroundColor: brilliantBluesPalette.background,
+                    fill: true,
+                    tension: 0.1
+                }, {
+                    label: '安全閾值 (TLV-TWA)',
+                    data: [176, 176, 176, 176, 176, 176, 176],
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderDash: [5, 5],
+                    fill: false,
+                    pointRadius: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: '濃度 (mg/m³)',
+                            color: brilliantBluesPalette.text
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: '時間 (分鐘)',
+                            color: brilliantBluesPalette.text
+                        }
+                    }
+                },
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            title: tooltipTitleCallback
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

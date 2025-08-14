@@ -14,38 +14,38 @@ bibliography: references.bib
 ## 1. Why modeling
 
 -   Ch1 Modeling in the Framework of Industrial Hygiene Practice
-    -   [摘要](info\web_CH1-Why-modeling.html)
-    -   [圖說](info\info_CH1_Why_modeling.html)
+    -   [摘要](docs\info\web_CH1-Why-modeling.html)
+    -   [圖說](docs\info\info_CH1_Why_modeling.html)
 
 ## 2. Gathering informaiton
 
 -   Ch2 Information Gathering for modeling
-    -   [摘要](info\web_CH2-Information-Gathering.html)
-    -   [圖說](info\info_CH2_Information%20Gathering.html)
+    -   [摘要](docs\info\web_CH2-Information-Gathering.html)
+    -   [圖說](docs\info\info_CH2_Information Gathering.html)
 
 ## 3. Volatile liquid spill
 
 -   Ch3 Volatile Liquid Spill
-    -   [摘要](info\web_CH3-Volatile-Liquid-Spill.html)
-    -   [圖說](info\info_CH3%20volatile%20liquid%20spill.html)
+    -   [摘要](docs\info\web_CH3-Volatile-Liquid-Spill.html)
+    -   [圖說](docs\info\info_CH3%20volatile%20liquid%20spill.html)
 
 ## 4. sanding EA by LEV
 
 -   Ch4 Local Exhaust Ventilation for a Sanding
-    -   [摘要](info\web_CH4-Sanding.html)
-    -   [圖說](info\info_CH4_Sanding.html)
+    -   [摘要](docs\info\web_CH4-Sanding.html)
+    -   [圖說](docs\info\info_CH4_Sanding.html)
 
 ## 5. container uncovered
 
 -   Ch5 Volatile Liquid Container Left Open
-    -   [摘要](info\web_CH5_container-left-open.html)
-    -   [圖說](info\info_CH5_container left open.html)
-    
-## 6. barrel  filling
+    -   [摘要](docs\info\web_CH5_container-left-open.html)
+    -   [圖說](docs\info\info_CH5_container%20left%20open.html)
+
+## 6. barrel filling
 
 -   Ch6 Barrel filling indoors
-    -   [摘要](info\web_CH6_Barrel-filling.html)
-    -   [圖說](info\info_CH6_Barrel filling.html)
+    -   [摘要](docs\info\web_CH6_Barrel-filling.html)
+    -   [圖說](docs\info\info_CH6_Barrel%20filling.html)
 
 ::: border
 ```{mermaid}

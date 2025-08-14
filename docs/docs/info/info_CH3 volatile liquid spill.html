@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<style type="text/css">
+.inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.sng {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.def {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>揮發性液體洩漏暴露評估資訊圖表</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 40vh;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .stat-card {
+            background-color: #ffffff;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.1);
+        }
+        .flowchart-step {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 1rem;
+            background-color: #e0e7ff;
+            border-radius: 0.5rem;
+            font-weight: 700;
+            color: #3730a3;
+            border: 2px solid #c7d2fe;
+        }
+        .flowchart-arrow {
+            font-size: 2rem;
+            color: #6366f1;
+            margin: 0 1rem;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- 
+        Chosen Color Palette: Energetic & Playful (#003f5c, #58508d, #bc5090, #ff6361, #ffa600)
+        - This is a slightly modified interpretation for better web contrast.
+        - Primary Background: #f0f4f8 (Light Blue-Gray)
+        - Card Background: #ffffff (White)
+        - Primary Text: #003f5c (Dark Slate Blue)
+        - Accent/Highlight: #ff6361 (Coral Red)
+        - Chart Bar 1 (Model): #ff6361 (Coral Red)
+        - Chart Bar 2 (TLV): #ffa600 (Orange-Yellow)
+        - Chart Bar 3 (PEL): #58508d (Muted Purple)
+        - Heading/Secondary Text: #3730a3 (Indigo)
+
+        Confirmation: NEITHER Mermaid JS NOR SVG were used in this output.
+    -->
+
+    <div class="container mx-auto p-4 md:p-8 max-w-7xl">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-[#003f5c] mb-2">化學品洩漏事件暴露評估</h1>
+            <p class="text-lg   font-bold md:text-2xl text-red-600">運用分層暴露評估模式分析甲苯洩漏事件</p>
+        </header>
+
+        <main class="space-y-16">
+
+            <section id="incident">
+                <h2 class="text-3xl font-bold text-center mb-8 text-[#003f5c]">事件概述：意外的甲苯洩漏</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                    <div class="stat-card">
+                        <div class="text-5xl font-bold text-[#ff6361] mb-2">250 <span class="text-3xl">mL</span></div>
+                        <p class="font-semibold text-[#003f5c]">甲苯洩漏量</p>
+                        <p class="text-sm text-gray-500">半瓶500mL容器意外打翻</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="text-5xl font-bold text-[#ff6361] mb-2">120 <span class="text-3xl">分鐘</span></div>
+                        <p class="font-semibold text-[#003f5c]">完全蒸發時間</p>
+                        <p class="text-sm text-gray-500">員工用抹布擦拭後晾乾</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="text-5xl font-bold text-[#ff6361] mb-2">240 <span class="text-3xl">m³</span></div>
+                        <p class="font-semibold text-[#003f5c]">作業空間體積</p>
+                        <p class="text-sm text-gray-500">通風狀況未知，無機械排氣</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="process">
+                <h2 class="text-3xl font-bold text-center mb-8 text-[#003f5c]">調查流程：分層模式評估法</h2>
+                <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0">
+                    <div class="flowchart-step">情境設定<br>&資訊蒐集</div>
+                    <div class="flowchart-arrow hidden md:block">→</div>
+                    <div class="md:hidden text-3xl text-gray-400">↓</div>
+                    <div class="flowchart-step">模式一<br>零通風(最劣情境)</div>
+                    <div class="flowchart-arrow hidden md:block">→</div>
+                    <div class="md:hidden text-3xl text-gray-400">↓</div>
+                    <div class="flowchart-step">模式二<br>均勻混合(精緻化)</div>
+                    <div class="flowchart-arrow hidden md:block">→</div>
+                    <div class="md:hidden text-3xl text-gray-400">↓</div>
+                    <div class="flowchart-step">專業判斷<br>&管理建議</div>
+                </div>
+                 <p class="text-center mt-6 text-gray-600">此流程從一個保守的最壞情況假設開始，若風險無法被排除，則進一步採用更貼近現實的模式進行評估，以做出科學且負責任的決策。</p>
+            </section>
+
+            <section id="model1">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h2 class="text-3xl font-bold mb-4 text-[#003f5c]">模式一：零通風模式 (最壞情況)</h2>
+                        <p class="text-gray-600 mb-4">此模式假設所有甲苯在一個完全密閉的空間內瞬間蒸發，用以快速篩選風險。計算出的8小時日時量平均濃度 (TWA-8) 為 <strong class="text-[#ff6361] text-xl">360 mg/m³</strong>。</p>
+                        <p class="text-gray-600">這個結果雖然低於美國OSHA的法定標準(PEL)，但遠遠超過了國際公認更具健康保護意義的ACGIH建議值(TLV)，顯示有必要進行更深入的分析。</p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="model1Chart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <section id="model2">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                     <div class="chart-container order-last md:order-first">
+                        <canvas id="model2Chart"></canvas>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold mb-4 text-[#003f5c]">模式二：均勻混合模式 (精緻化評估)</h2>
+                        <p class="text-gray-600 mb-4">此模式考慮了通風的影響（假設3 ACH），提供更貼近現實的估算。計算出的8小時日時量平均濃度 (TWA-8) 降至 <strong class="text-[#ff6361] text-xl">72 mg/m³</strong>。</p>
+                        <p class="text-gray-600">這個精緻化的結果顯示，暴露濃度**非常接近**ACGIH的TLV建議值(75 mg/m³)。這意味著雖然可能沒有違法，但從健康保護的角度來看，暴露已達到需要高度關注的水平。</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="conclusion">
+                <h2 class="text-3xl font-bold text-center mb-8 text-[#003f5c]">最終結論與管理建議</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="stat-card text-center">
+                        <div class="text-2xl font-bold text-[#003f5c] mb-2">暴露水平判斷</div>
+                        <p class="text-gray-600">此次一次性洩漏事件造成的TWA-8暴露，極可能已接近甚至短時間內超過了最具健康保護意義的ACGIH TLV標準。</p>
+                    </div>
+                    <div class="stat-card text-center">
+                        <div class="text-2xl font-bold text-[#003f5c] mb-2">健康風險分析</div>
+                        <p class="text-gray-600">由於TLV是基於長期每日暴露設定，單次事件造成的**長期健康風險可能很小**。員工回報的胃痙攣與甲苯典型急性症狀（頭暈、噁心）不符，直接關聯性不大。</p>
+                    </div>
+                    <div class="stat-card text-center">
+                        <div class="text-2xl font-bold text-[#003f5c] mb-2">預防未來</div>
+                        <p class="text-gray-600">此事件暴露了管理上的不足。最重要的行動是建議公司**加強小型化學品洩漏的應變計畫與教育訓練**，以預防未來風險。</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+    <script>
+        const tooltipCallback = {
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            const item = tooltipItems[0];
+                            let label = item.chart.data.labels[item.dataIndex];
+                            if (Array.isArray(label)) {
+                                return label.join(' ');
+                            } else {
+                                return label;
+                            }
+                        }
+                    }
+                }
+            }
+        };
+
+        const model1Ctx = document.getElementById('model1Chart').getContext('2d');
+        new Chart(model1Ctx, {
+            type: 'bar',
+            data: {
+                labels: ['模式一 TWA-8', 'ACGIH TLV', 'OSHA PEL'],
+                datasets: [{
+                    label: '濃度 (mg/m³)',
+                    data: [360, 75, 750],
+                    backgroundColor: [
+                        '#ff6361',
+                        '#ffa600',
+                        '#58508d'
+                    ],
+                    borderColor: [
+                        '#ff6361',
+                        '#ffa600',
+                        '#58508d'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: '濃度 (mg/m³)'
+                        }
+                    }
+                },
+                plugins: {
+                    ...tooltipCallback.plugins,
+                    legend: {
+                        display: false
+                    },
+                    title: {
+                        display: true,
+                        text: '模式一結果 vs. 暴露標準'
+                    }
+                }
+            }
+        });
+
+        const model2Ctx = document.getElementById('model2Chart').getContext('2d');
+        new Chart(model2Ctx, {
+            type: 'bar',
+            data: {
+                labels: ['模式二 TWA-8', 'ACGIH TLV'],
+                datasets: [{
+                    label: '濃度 (mg/m³)',
+                    data: [72, 75],
+                    backgroundColor: [
+                        '#ff6361',
+                        '#ffa600'
+                    ],
+                    borderColor: [
+                        '#ff6361',
+                        '#ffa600'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        max: 100,
+                        title: {
+                            display: true,
+                            text: '濃度 (mg/m³)'
+                        }
+                    }
+                },
+                plugins: {
+                    ...tooltipCallback.plugins,
+                    legend: {
+                        display: false
+                    },
+                    title: {
+                        display: true,
+                        text: '模式二結果 vs. ACGIH TLV'
+                    }
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>

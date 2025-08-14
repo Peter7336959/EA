@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-08-13">
+<meta name="dcterms.date" content="2114-08-14">
 
-<title>EA – 模式推估網站試做-Peter Ho</title>
+<title>CH6 barrel filling – 模式推估網站試做-Peter Ho</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -109,21 +109,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ch2.收集模式所需資訊-單頁摘要-1" id="toc-ch2.收集模式所需資訊-單頁摘要-1" class="nav-link active" data-scroll-target="#ch2.收集模式所需資訊-單頁摘要-1"><strong>CH2.收集模式所需資訊 (單頁摘要)</strong> </a>
+  <li><a href="#第六章室內桶槽填充作業---單頁摘要" id="toc-第六章室內桶槽填充作業---單頁摘要" class="nav-link active" data-scroll-target="#第六章室內桶槽填充作業---單頁摘要"><strong>第六章：室內桶槽填充作業 - (單頁摘要)</strong></a>
   <ul class="collapse">
-  <li><a href="#一-暴露評估的核心濃度與時間的結合" id="toc-一-暴露評估的核心濃度與時間的結合" class="nav-link" data-scroll-target="#一-暴露評估的核心濃度與時間的結合"><strong>一、 暴露評估的核心：濃度與時間的結合</strong></a></li>
-  <li><a href="#二-關鍵資訊一關於化學物質的資訊" id="toc-二-關鍵資訊一關於化學物質的資訊" class="nav-link" data-scroll-target="#二-關鍵資訊一關於化學物質的資訊"><strong>二、 關鍵資訊一：關於化學物質的資訊</strong></a>
-  <ul class="collapse">
-  <li><a href="#基本物理與化學性質" id="toc-基本物理與化學性質" class="nav-link" data-scroll-target="#基本物理與化學性質">1. 基本物理與化學性質</a></li>
-  <li><a href="#逸散量與逸散率-g" id="toc-逸散量與逸散率-g" class="nav-link" data-scroll-target="#逸散量與逸散率-g">2. 逸散量與逸散率 (G)</a></li>
-  </ul></li>
-  <li><a href="#三-關鍵資訊二關於空間的資訊" id="toc-三-關鍵資訊二關於空間的資訊" class="nav-link" data-scroll-target="#三-關鍵資訊二關於空間的資訊"><strong>三、 關鍵資訊二：關於空間的資訊</strong></a>
-  <ul class="collapse">
-  <li><a href="#房間體積-room-volume-v" id="toc-房間體積-room-volume-v" class="nav-link" data-scroll-target="#房間體積-room-volume-v"><strong>1. 房間體積 (Room Volume, V)</strong></a></li>
-  <li><a href="#通風-ventilation-q" id="toc-通風-ventilation-q" class="nav-link" data-scroll-target="#通風-ventilation-q"><strong>2. 通風 (Ventilation, Q)</strong></a></li>
-  </ul></li>
-  <li><a href="#四-關鍵資訊三勞工活動形態資訊" id="toc-四-關鍵資訊三勞工活動形態資訊" class="nav-link" data-scroll-target="#四-關鍵資訊三勞工活動形態資訊"><strong>四、 關鍵資訊三：勞工活動形態資訊</strong></a></li>
-  <li><a href="#總結" id="toc-總結" class="nav-link" data-scroll-target="#總結"><strong>總結</strong></a></li>
+  <li><a href="#情境與評估" id="toc-情境與評估" class="nav-link" data-scroll-target="#情境與評估"><strong>情境與評估</strong></a></li>
+  <li><a href="#擴散模型應用與結果" id="toc-擴散模型應用與結果" class="nav-link" data-scroll-target="#擴散模型應用與結果"><strong>擴散模型應用與結果</strong></a></li>
+  <li><a href="#ih-mod-模擬" id="toc-ih-mod-模擬" class="nav-link" data-scroll-target="#ih-mod-模擬"><strong>IH MOD 模擬</strong></a></li>
+  <li><a href="#結論風險可接受" id="toc-結論風險可接受" class="nav-link" data-scroll-target="#結論風險可接受"><strong>結論：風險可接受</strong></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -133,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">EA</h1>
+<h1 class="title">CH6 barrel filling</h1>
 </div>
 
 
@@ -144,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 13, 2025</p>
+      <p class="date">August 14, 2114</p>
     </div>
   </div>
   
@@ -156,64 +147,41 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="ch2.收集模式所需資訊-單頁摘要-1" class="level1">
-<h1><strong>CH2.收集模式所需資訊 (單頁摘要)</strong> <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h1>
-<blockquote class="blockquote">
-<p>任何暴露評估模式的準確性，都完全取決於其輸入資訊的品質。系統性地收集建立一個可靠空氣濃度模型需要三大類關鍵資訊。</p>
-</blockquote>
-<section id="一-暴露評估的核心濃度與時間的結合" class="level2">
-<h2 class="anchored" data-anchor-id="一-暴露評估的核心濃度與時間的結合"><strong>一、 暴露評估的核心：濃度與時間的結合</strong></h2>
-<blockquote class="blockquote">
-<p>暴露輪廓 = 模擬出的空氣濃度 + 勞工活動模式</p>
-</blockquote>
+<section id="第六章室內桶槽填充作業---單頁摘要" class="level1">
+<h1><strong>第六章：室內桶槽填充作業 - (單頁摘要)</strong></h1>
+<p>應用渦流擴散模式(Turbulent Eddy diffusion model)，科學地評估在通風條件不佳或空氣流動緩慢的區域中，作業點附近的化學品蒸氣濃度分布。相較於假設整個空間濃度均勻的傳統模型，擴散模型更能反映靠近污染源的局部高濃度現實情況。</p>
+<section id="情境與評估" class="level2">
+<h2 class="anchored" data-anchor-id="情境與評估"><strong>情境與評估</strong></h2>
+<ul>
+<li><strong>情境:</strong> 一名員工報告在室內填充 NMP (N-甲基-2-吡咯烷酮) 廢液桶（作業時間5分鐘，填充速率 2 L/min）時，聞到刺激性異味並感到身體不適。評估的目標是，量化在填充作業期間，員工呼吸帶附近可能的 NMP 蒸氣濃度。<br>
+</li>
+<li><strong>資訊:</strong> 經由質量平衡計算，NMP 蒸氣的產生率 (G) 約為 <strong>4.9 mg/min</strong>。此化學品的8小時日時量平均容許濃度 (TWA-8 OEL) 為 60mg/m3。</li>
+</ul>
 </section>
-<section id="二-關鍵資訊一關於化學物質的資訊" class="level2">
-<h2 class="anchored" data-anchor-id="二-關鍵資訊一關於化學物質的資訊"><strong>二、 關鍵資訊一：關於化學物質的資訊</strong></h2>
-<section id="基本物理與化學性質" class="level3">
-<h3 class="anchored" data-anchor-id="基本物理與化學性質">1. 基本物理與化學性質</h3>
+<section id="擴散模型應用與結果" class="level2">
+<h2 class="anchored" data-anchor-id="擴散模型應用與結果"><strong>擴散模型應用與結果</strong></h2>
+<p>由於廢液桶被放置在空氣流動性差的牆角，遠離主要的通風氣流，因此非常適合使用擴散模型來估算近距離的濃度梯度。此模型的主要輸入參數包括污染物產生率 (G)、反映物理屏障的幾何因子 (Kg​，此案例為角落=1)，以及反映室內空氣微觀擾動程度的紊流擴散係數 (DT​)。</p>
+<ul>
+<li><strong>模型參數:</strong> 為確保評估的保守性與保護性，我們採用了工業環境中較低的擴散係數 (DT​=0.1m2/min) 進行評估，這代表假設污染物擴散較慢，會在源頭附近累積較高濃度。<br>
+</li>
+<li><strong>模型結果:</strong> 在此最保守的假設情境下，距離填充口 0.25 公尺處，作業進行到第5分鐘時的瞬時濃度預估為 50.2mg/m3。</li>
+</ul>
 </section>
-<section id="逸散量與逸散率-g" class="level3">
-<h3 class="anchored" data-anchor-id="逸散量與逸散率-g">2. 逸散量與逸散率 (G)</h3>
-<section id="a.-質量平衡法-mass-balance" class="level4">
-<h4 class="anchored" data-anchor-id="a.-質量平衡法-mass-balance"><strong>A. 質量平衡法 (Mass Balance)</strong></h4>
+<section id="ih-mod-模擬" class="level2">
+<h2 class="anchored" data-anchor-id="ih-mod-模擬"><strong>IH MOD 模擬</strong></h2>
+<p><img src="images/CH6.png" class="img-fluid"></p>
 </section>
-<section id="b.-逸散模式與逸散因子-emission-models-factors-epa-ap-42" class="level4">
-<h4 class="anchored" data-anchor-id="b.-逸散模式與逸散因子-emission-models-factors-epa-ap-42">B. 逸散模式與逸散因子 (Emission Models &amp; Factors) : EPA AP-42</h4>
-</section>
-</section>
-</section>
-<section id="三-關鍵資訊二關於空間的資訊" class="level2">
-<h2 class="anchored" data-anchor-id="三-關鍵資訊二關於空間的資訊"><strong>三、 關鍵資訊二：關於空間的資訊</strong></h2>
-<section id="房間體積-room-volume-v" class="level3">
-<h3 class="anchored" data-anchor-id="房間體積-room-volume-v"><strong>1. 房間體積 (Room Volume, V)</strong></h3>
-</section>
-<section id="通風-ventilation-q" class="level3">
-<h3 class="anchored" data-anchor-id="通風-ventilation-q"><strong>2. 通風 (Ventilation, Q)</strong></h3>
-</section>
-</section>
-<section id="四-關鍵資訊三勞工活動形態資訊" class="level2">
-<h2 class="anchored" data-anchor-id="四-關鍵資訊三勞工活動形態資訊"><strong>四、 關鍵資訊三：勞工活動形態資訊</strong></h2>
-<blockquote class="blockquote">
-<p>將計算出的「環境濃度」轉化為「個人暴露劑量」。</p>
-</blockquote>
-</section>
-<section id="總結" class="level2">
-<h2 class="anchored" data-anchor-id="總結"><strong>總結</strong></h2>
-<blockquote class="blockquote">
-<p>成功的暴露評估模式，建立在系統性且嚴謹的資訊收集之上。在進行評估時，務必記錄您所做的每一個假設與資訊來源。如果您的估算偏向保守（高估暴露），要註明為何如此；如果使用了文獻值，也要記錄出處。這將使您的評估報告更加專業、可信，也便於日後回溯與更新。</p>
-</blockquote>
+<section id="結論風險可接受" class="level2">
+<h2 class="anchored" data-anchor-id="結論風險可接受"><strong>結論：風險可接受</strong></h2>
+<p>預估的最高瞬時濃度 (50.2mg/m3) 雖然顯著，但仍低於法定的8小時日時量平均容許濃度 (60mg/m3)。進一步考量到此作業的暴露時間極短（僅5分鐘）且頻率不高（並非每日發生），將此短時間高濃度暴露平均至8小時工作日後，其日時量平均暴露值遠低於容許標準，因此整體暴露風險可判斷為**「可接受」**。</p>
+<p>此案例清晰地展示了擴散模型作為一種暴露評估工具的實用價值。它允許我們在缺乏直接採樣數據的情況下，透過選擇合理的保守參數，對通風不良區域的近源暴露情境進行量化且具保護性的風險判斷。</p>
+<p>參考資料： Chapter 6 barrel filling indoors. Made by Peter Ho. 114.08.14</p>
 
 
 </section>
 </section>
 
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>CH2 Information Gathering for modeling<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

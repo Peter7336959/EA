@@ -2,15 +2,14 @@
 title: "EA    By Peter Ho."
 #lang: zh    
 page-layout: full
+bibliography: references.bib
 ---
 
 [Quarto learning](https://quarto.org/docs/websites/) <https://quarto.org/docs/websites/>
 
 ::: callout-important
-**本網站主要內容係來自2023 AIHA 新書各章** [^1]
+**本網站主要內容係來自2023 AIHA 新書各章** [@acase-b2023]
 :::
-
-[^1]: Chris Keil, A Case-Based Introduction to Modeling Occupational Inhalation Exposures to Chemicals. AIHA, 2023.
 
 ## 1. Why modeling
 
@@ -53,3 +52,5 @@ modeling 教學影片 {{< video <https://www.youtube.com/watch?v=cSIlqi8hk4E >}}
 [This text is underlined]{.underline}
 
 [This text is highlighted]{.mark}
+
+## References {.unnumbered}

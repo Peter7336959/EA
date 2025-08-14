@@ -2,6 +2,8 @@ project:
   type: website
   output-dir: docs
 
+highlight-style: pygments
+
 website:
   page-navigation: true
   back-to-top-navigation: true

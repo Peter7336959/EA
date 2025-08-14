@@ -252,7 +252,7 @@
     "href": "index.html#sanding-ea-by-lev",
     "title": "EA By Peter Ho.",
     "section": "4. sanding EA by LEV",
-    "text": "4. sanding EA by LEV\n\nCh4 Local Exhaust Ventilation for a Sanding\n\n摘要\n圖說\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\n\nmodeling 教學影片 \n\nThis text is underlined\nThis text is highlighted"
+    "text": "4. sanding EA by LEV\n\nCh4 Local Exhaust Ventilation for a Sanding\n\n摘要\n圖說"
   },
   {
     "objectID": "docs/info/Rmd/web_CH4 Sanding.html",
@@ -414,5 +414,61 @@
     "title": "Ch3 Volatile Liquid Spill",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nChapter 3 Volatile Liquid Spill↩︎"
+  },
+  {
+    "objectID": "index.html#container-uncovered",
+    "href": "index.html#container-uncovered",
+    "title": "EA By Peter Ho.",
+    "section": "5. container uncovered",
+    "text": "5. container uncovered\n\nCh5 Volatile Liquid Container Left Open\n\n摘要\n圖說"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH5_container left open.html",
+    "href": "docs/info/Rmd/web_CH5_container left open.html",
+    "title": "CH5 Container left open",
+    "section": "",
+    "text": "本章節透過一個正己烷容器未加蓋的意外，展示如何使用三種模型來評估暴露風險，從瞬間高濃度危害到房間恢復安全的過程。\n\n\n一名工作人員發現儲存櫃內的正己烷容器未蓋，立即蓋上並撤離。我們的評估旨在回答三個核心問題：櫃內瞬間濃度多高？污染物擴散至房間後的濃度是多少？房間何時能安全進入？\n\n\n在收集了正己烷的化學特性與空間參數後，我們依序進行了三階段的暴露評估：\n\n櫃內濃度 (飽和蒸氣壓模式): 此模型用於估算密閉空間中最壞情況下的濃度。計算結果顯示，櫃內濃度高達 163,000 ppm，遠超職業暴露限值與爆炸極限，構成立即性的嚴重危害。\n\n房間初始濃度 (無通風推估模式): 當櫃門打開，污染物瞬間擴散。此模型估算出房間的初始平均濃度介於 550 至 1,100 mg/m³ 之間，同樣遠高於安全標準，顯示整個房間的暴露風險也相當高。\n\n濃度衰減 (完全混合模式WMR): 在汙染源被移除後，此模型預測房間濃度會因通風而下降。計算顯示，大約需要 50分鐘，濃度才能降至安全的TLV-TWA標準以下，這為安全進入提供了時間依據。\n\n\n\n\n\n\n\n\n\n儲存櫃內部模擬濃度\n\n\n\n\n\n\n\n\n整個房間模擬濃度\n\n\n\n\n\n\n此次意外凸顯了「逸散性排放」的潛在危險。綜合評估顯示，雖然通風系統能最終清除污染物，但無法預防初期的危險暴露。\n因此，本章的關鍵學習重點是：對於揮發性化學品，應優先採用 源頭控制 措施。持續通風或開放通風等工程控制設備，是預防此類意外最有效的方法，其效益遠勝於僅依賴後端的通風換氣。\n參考：Chapter 5 Volatile Liquid Container Left Open 整理：Peter Ho. 114.08.14"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH5_container left open.html#情境評估",
+    "href": "docs/info/Rmd/web_CH5_container left open.html#情境評估",
+    "title": "CH5 Container left open",
+    "section": "",
+    "text": "一名工作人員發現儲存櫃內的正己烷容器未蓋，立即蓋上並撤離。我們的評估旨在回答三個核心問題：櫃內瞬間濃度多高？污染物擴散至房間後的濃度是多少？房間何時能安全進入？\n\n\n在收集了正己烷的化學特性與空間參數後，我們依序進行了三階段的暴露評估：\n\n櫃內濃度 (飽和蒸氣壓模式): 此模型用於估算密閉空間中最壞情況下的濃度。計算結果顯示，櫃內濃度高達 163,000 ppm，遠超職業暴露限值與爆炸極限，構成立即性的嚴重危害。\n\n房間初始濃度 (無通風推估模式): 當櫃門打開，污染物瞬間擴散。此模型估算出房間的初始平均濃度介於 550 至 1,100 mg/m³ 之間，同樣遠高於安全標準，顯示整個房間的暴露風險也相當高。\n\n濃度衰減 (完全混合模式WMR): 在汙染源被移除後，此模型預測房間濃度會因通風而下降。計算顯示，大約需要 50分鐘，濃度才能降至安全的TLV-TWA標準以下，這為安全進入提供了時間依據。\n\n\n\n\n\n\n\n\n\n儲存櫃內部模擬濃度\n\n\n\n\n\n\n\n\n整個房間模擬濃度\n\n\n\n\n\n\n此次意外凸顯了「逸散性排放」的潛在危險。綜合評估顯示，雖然通風系統能最終清除污染物，但無法預防初期的危險暴露。\n因此，本章的關鍵學習重點是：對於揮發性化學品，應優先採用 源頭控制 措施。持續通風或開放通風等工程控制設備，是預防此類意外最有效的方法，其效益遠勝於僅依賴後端的通風換氣。\n參考：Chapter 5 Volatile Liquid Container Left Open 整理：Peter Ho. 114.08.14"
+  },
+  {
+    "objectID": "index.html#barrel-filling",
+    "href": "index.html#barrel-filling",
+    "title": "EA By Peter Ho.",
+    "section": "6. barrel filling",
+    "text": "6. barrel filling\n\nCh6 Barrel filling indoors\n\n摘要\n圖說\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\n\nmodeling 教學影片 \n\nThis text is underlined\nThis text is highlighted"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH6_barrel filling.html",
+    "href": "docs/info/Rmd/web_CH6_barrel filling.html",
+    "title": "CH6 barrel filling",
+    "section": "",
+    "text": "應用渦流擴散模式(Turbulent Eddy diffusion model)，科學地評估在通風條件不佳或空氣流動緩慢的區域中，作業點附近的化學品蒸氣濃度分布。相較於假設整個空間濃度均勻的傳統模型，擴散模型更能反映靠近污染源的局部高濃度現實情況。\n\n\n\n情境: 一名員工報告在室內填充 NMP (N-甲基-2-吡咯烷酮) 廢液桶（作業時間5分鐘，填充速率 2 L/min）時，聞到刺激性異味並感到身體不適。評估的目標是，量化在填充作業期間，員工呼吸帶附近可能的 NMP 蒸氣濃度。\n\n資訊: 經由質量平衡計算，NMP 蒸氣的產生率 (G) 約為 4.9 mg/min。此化學品的8小時日時量平均容許濃度 (TWA-8 OEL) 為 60mg/m3。\n\n\n\n\n由於廢液桶被放置在空氣流動性差的牆角，遠離主要的通風氣流，因此非常適合使用擴散模型來估算近距離的濃度梯度。此模型的主要輸入參數包括污染物產生率 (G)、反映物理屏障的幾何因子 (Kg​，此案例為角落=1)，以及反映室內空氣微觀擾動程度的紊流擴散係數 (DT​)。\n\n模型參數: 為確保評估的保守性與保護性，我們採用了工業環境中較低的擴散係數 (DT​=0.1m2/min) 進行評估，這代表假設污染物擴散較慢，會在源頭附近累積較高濃度。\n\n模型結果: 在此最保守的假設情境下，距離填充口 0.25 公尺處，作業進行到第5分鐘時的瞬時濃度預估為 50.2mg/m3。\n\n\n\n\n\n\n\n\n預估的最高瞬時濃度 (50.2mg/m3) 雖然顯著，但仍低於法定的8小時日時量平均容許濃度 (60mg/m3)。進一步考量到此作業的暴露時間極短（僅5分鐘）且頻率不高（並非每日發生），將此短時間高濃度暴露平均至8小時工作日後，其日時量平均暴露值遠低於容許標準，因此整體暴露風險可判斷為**「可接受」**。\n此案例清晰地展示了擴散模型作為一種暴露評估工具的實用價值。它允許我們在缺乏直接採樣數據的情況下，透過選擇合理的保守參數，對通風不良區域的近源暴露情境進行量化且具保護性的風險判斷。\n參考資料： Chapter 6 barrel filling indoors. Made by Peter Ho. 114.08.14"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH6_barrel filling.html#情境與評估",
+    "href": "docs/info/Rmd/web_CH6_barrel filling.html#情境與評估",
+    "title": "CH6 barrel filling",
+    "section": "",
+    "text": "情境: 一名員工報告在室內填充 NMP (N-甲基-2-吡咯烷酮) 廢液桶（作業時間5分鐘，填充速率 2 L/min）時，聞到刺激性異味並感到身體不適。評估的目標是，量化在填充作業期間，員工呼吸帶附近可能的 NMP 蒸氣濃度。\n\n資訊: 經由質量平衡計算，NMP 蒸氣的產生率 (G) 約為 4.9 mg/min。此化學品的8小時日時量平均容許濃度 (TWA-8 OEL) 為 60mg/m3。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH6_barrel filling.html#擴散模型應用與結果",
+    "href": "docs/info/Rmd/web_CH6_barrel filling.html#擴散模型應用與結果",
+    "title": "CH6 barrel filling",
+    "section": "",
+    "text": "由於廢液桶被放置在空氣流動性差的牆角，遠離主要的通風氣流，因此非常適合使用擴散模型來估算近距離的濃度梯度。此模型的主要輸入參數包括污染物產生率 (G)、反映物理屏障的幾何因子 (Kg​，此案例為角落=1)，以及反映室內空氣微觀擾動程度的紊流擴散係數 (DT​)。\n\n模型參數: 為確保評估的保守性與保護性，我們採用了工業環境中較低的擴散係數 (DT​=0.1m2/min) 進行評估，這代表假設污染物擴散較慢，會在源頭附近累積較高濃度。\n\n模型結果: 在此最保守的假設情境下，距離填充口 0.25 公尺處，作業進行到第5分鐘時的瞬時濃度預估為 50.2mg/m3。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH6_barrel filling.html#結論風險可接受",
+    "href": "docs/info/Rmd/web_CH6_barrel filling.html#結論風險可接受",
+    "title": "CH6 barrel filling",
+    "section": "",
+    "text": "預估的最高瞬時濃度 (50.2mg/m3) 雖然顯著，但仍低於法定的8小時日時量平均容許濃度 (60mg/m3)。進一步考量到此作業的暴露時間極短（僅5分鐘）且頻率不高（並非每日發生），將此短時間高濃度暴露平均至8小時工作日後，其日時量平均暴露值遠低於容許標準，因此整體暴露風險可判斷為**「可接受」**。\n此案例清晰地展示了擴散模型作為一種暴露評估工具的實用價值。它允許我們在缺乏直接採樣數據的情況下，透過選擇合理的保守參數，對通風不良區域的近源暴露情境進行量化且具保護性的風險判斷。\n參考資料： Chapter 6 barrel filling indoors. Made by Peter Ho. 114.08.14"
   }
 ]

@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-08-12">
+<meta name="dcterms.date" content="2025-08-14">
 
-<title>CH1 Why modeling – 模式推估網站試做-Peter Ho</title>
+<title>CH5 Container left open – 模式推估網站試做-Peter Ho</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,12 +108,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#職業衛生模式推估框架-單頁摘要-1" id="toc-職業衛生模式推估框架-單頁摘要-1" class="nav-link active" data-scroll-target="#職業衛生模式推估框架-單頁摘要-1"><strong>職業衛生模式推估框架 (單頁摘要)</strong> </a>
+  <li><a href="#第五章揮發性液體容器未蓋" id="toc-第五章揮發性液體容器未蓋" class="nav-link active" data-scroll-target="#第五章揮發性液體容器未蓋"><strong>第五章：揮發性液體容器未蓋</strong></a>
   <ul class="collapse">
-  <li><a href="#暴露評估職業衛生的核心" id="toc-暴露評估職業衛生的核心" class="nav-link" data-scroll-target="#暴露評估職業衛生的核心"><strong>1. 暴露評估：職業衛生的核心</strong></a></li>
-  <li><a href="#傳統採樣的限制與模型的必要性" id="toc-傳統採樣的限制與模型的必要性" class="nav-link" data-scroll-target="#傳統採樣的限制與模型的必要性"><strong>2. 傳統採樣的限制與模型的必要性</strong></a></li>
-  <li><a href="#暴露評估模型的角色與應用" id="toc-暴露評估模型的角色與應用" class="nav-link" data-scroll-target="#暴露評估模型的角色與應用"><strong>3. 暴露評估模型的角色與應用</strong></a></li>
-  <li><a href="#解讀模型結果不確定性與決策關鍵" id="toc-解讀模型結果不確定性與決策關鍵" class="nav-link" data-scroll-target="#解讀模型結果不確定性與決策關鍵"><strong>4. 解讀模型結果：不確定性與決策關鍵</strong></a></li>
+  <li><a href="#情境評估" id="toc-情境評估" class="nav-link" data-scroll-target="#情境評估"><strong>情境評估</strong></a>
+  <ul class="collapse">
+  <li><a href="#暴露評估三階段模型分析" id="toc-暴露評估三階段模型分析" class="nav-link" data-scroll-target="#暴露評估三階段模型分析"><strong>暴露評估三階段模型分析</strong></a></li>
+  <li><a href="#ihmod-模擬" id="toc-ihmod-模擬" class="nav-link" data-scroll-target="#ihmod-模擬"><strong>IHMOD 模擬</strong></a></li>
+  <li><a href="#結論與最佳實務" id="toc-結論與最佳實務" class="nav-link" data-scroll-target="#結論與最佳實務"><strong>結論與最佳實務</strong></a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -123,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">CH1 Why modeling</h1>
+<h1 class="title">CH5 Container left open</h1>
 </div>
 
 
@@ -134,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 12, 2025</p>
+      <p class="date">August 14, 2025</p>
     </div>
   </div>
   
@@ -146,54 +148,56 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="職業衛生模式推估框架-單頁摘要-1" class="level1">
-<h1><strong>職業衛生模式推估框架 (單頁摘要)</strong> <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h1>
-<section id="暴露評估職業衛生的核心" class="level2">
-<h2 class="anchored" data-anchor-id="暴露評估職業衛生的核心"><strong>1. 暴露評估：職業衛生的核心</strong></h2>
-<p><strong>暴露評估(</strong>系統性地描述勞工暴露狀況)並做出風險管理決策。包含幾個核心概念：</p>
-<ul>
-<li><p><strong>暴露輪廓 (Exposure Profile)</strong>：SEG或勞工所經歷的<strong>完整暴露分佈</strong>。</p></li>
-<li><p><strong>評估決策</strong>：將暴露輪廓與<strong>職業暴露限值 (OEL)</strong> 進行比較，判斷暴露風險。</p></li>
-</ul>
-</section>
-<section id="傳統採樣的限制與模型的必要性" class="level2">
-<h2 class="anchored" data-anchor-id="傳統採樣的限制與模型的必要性"><strong>2. 傳統採樣的限制與模型的必要性</strong></h2>
-<p>傳統上依賴的空氣採樣，在樣本數有限時，其統計證據力非常薄弱。</p>
-<p><strong>關鍵例證：少量採樣的信心陷阱</strong> 。僅憑少量採樣數據無法做出可靠的「安全」判斷。</p>
-<p><strong>核心結論</strong>：傳統採樣的統計局限性，而<strong>暴露評估模型可以</strong>輔助專業判斷。</p>
-</section>
-<section id="暴露評估模型的角色與應用" class="level2">
-<h2 class="anchored" data-anchor-id="暴露評估模型的角色與應用"><strong>3. 暴露評估模型的角色與應用</strong></h2>
-<p>模型並非要取代採樣，是輔助使暴露評估更科學且高效，提供量化的科學依據。</p>
-<ul>
-<li><p><strong>核心價值</strong>：</p>
-<ul>
-<li><strong>支持與校正專業判斷</strong>、<strong>優化資源、提供書面佐證</strong>。</li>
-</ul></li>
-<li><p><strong>超越時間的應用</strong>：</p>
-<ul>
-<li><p><strong>回溯過去</strong>：為訴訟案件或流行病學研究進行歷史暴露重建。</p></li>
-<li><p><strong>評估現在</strong>：補充數據不足的暴露輪廓，為當前風險定級。</p></li>
-<li><p><strong>預測未來</strong>：在製程變更或新化學品引入前，預測潛在暴露。</p></li>
-</ul></li>
-</ul>
-</section>
-<section id="解讀模型結果不確定性與決策關鍵" class="level2">
-<h2 class="anchored" data-anchor-id="解讀模型結果不確定性與決策關鍵"><strong>4. 解讀模型結果：不確定性與決策關鍵</strong></h2>
-<p><strong>決策的黃金法則：</strong>一個模型或一組採樣數據是否有用，並非取決於它能否完美預測真實濃度，而是取決於<strong>其結果（暴露分佈）與職業暴露限值（OEL）的相對距離</strong>。</p>
-<p><strong>最終思想</strong>：暴露評估的目標不是追求完美的預測值，而是利用所有可得工具（包括模型與採樣），在考量不確定性的前提下，做出<strong>足夠好」的決策</strong>來保護勞工健康。</p>
-
-
-</section>
-</section>
-
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Chapter 1 Modeling in the Framework of Industrial Hygiene Practice<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<section id="第五章揮發性液體容器未蓋" class="level1">
+<h1><strong>第五章：揮發性液體容器未蓋</strong></h1>
+<p>本章節透過一個正己烷容器未加蓋的意外，展示如何使用三種模型來評估暴露風險，從瞬間高濃度危害到房間恢復安全的過程。</p>
+<section id="情境評估" class="level2">
+<h2 class="anchored" data-anchor-id="情境評估"><strong>情境評估</strong></h2>
+<p>一名工作人員發現儲存櫃內的正己烷容器未蓋，立即蓋上並撤離。我們的評估旨在回答三個核心問題：櫃內瞬間濃度多高？污染物擴散至房間後的濃度是多少？房間何時能安全進入？</p>
+<section id="暴露評估三階段模型分析" class="level3">
+<h3 class="anchored" data-anchor-id="暴露評估三階段模型分析"><strong>暴露評估三階段模型分析</strong></h3>
+<p>在收集了正己烷的化學特性與空間參數後，我們依序進行了三階段的暴露評估：</p>
+<ol type="1">
+<li><strong>櫃內濃度 (飽和蒸氣壓模式):</strong> 此模型用於估算密閉空間中最壞情況下的濃度。計算結果顯示，櫃內濃度高達 <strong>163,000 ppm</strong>，遠超職業暴露限值與爆炸極限，構成立即性的嚴重危害。<br>
+</li>
+<li><strong>房間初始濃度 (無通風推估模式):</strong> 當櫃門打開，污染物瞬間擴散。此模型估算出房間的初始平均濃度介於 <strong>550 至 1,100 mg/m³</strong> 之間，同樣遠高於安全標準，顯示整個房間的暴露風險也相當高。<br>
+</li>
+<li><strong>濃度衰減 (完全混合模式WMR):</strong> 在汙染源被移除後，此模型預測房間濃度會因通風而下降。計算顯示，大約需要 <strong>50分鐘</strong>，濃度才能降至安全的TLV-TWA標準以下，這為安全進入提供了時間依據。</li>
 </ol>
-</section></div></main> <!-- /main -->
+</section>
+<section id="ihmod-模擬" class="level3">
+<h3 class="anchored" data-anchor-id="ihmod-模擬"><strong>IHMOD 模擬</strong></h3>
+<section id="儲存櫃內部" class="level4">
+<h4 class="anchored" data-anchor-id="儲存櫃內部">儲存櫃內部</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/CH5-1.png" class="img-fluid figure-img"></p>
+<figcaption>儲存櫃內部模擬濃度</figcaption>
+</figure>
+</div>
+</section>
+<section id="整個空間" class="level4">
+<h4 class="anchored" data-anchor-id="整個空間">整個空間</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/CH5-2.png" class="img-fluid figure-img"></p>
+<figcaption>整個房間模擬濃度</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="結論與最佳實務" class="level3">
+<h3 class="anchored" data-anchor-id="結論與最佳實務"><strong>結論與最佳實務</strong></h3>
+<p>此次意外凸顯了「逸散性排放」的潛在危險。綜合評估顯示，雖然通風系統能最終清除污染物，但無法預防初期的危險暴露。</p>
+<p>因此，本章的關鍵學習重點是：對於揮發性化學品，應優先採用 <strong>源頭控制</strong> 措施。持續通風或開放通風等工程控制設備，是預防此類意外最有效的方法，其效益遠勝於僅依賴後端的通風換氣。</p>
+<p>參考：Chapter 5 Volatile Liquid Container Left Open 整理：Peter Ho. 114.08.14</p>
+
+
+</section>
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-08-12">
+<meta name="dcterms.date" content="2114-08-14">
 
-<title>CH1 Why modeling – 模式推估網站試做-Peter Ho</title>
+<title>CH6 barrel filling – 模式推估網站試做-Peter Ho</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,12 +108,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#職業衛生模式推估框架-單頁摘要-1" id="toc-職業衛生模式推估框架-單頁摘要-1" class="nav-link active" data-scroll-target="#職業衛生模式推估框架-單頁摘要-1"><strong>職業衛生模式推估框架 (單頁摘要)</strong> </a>
+  <li><a href="#第六章室內桶槽填充作業---單頁摘要" id="toc-第六章室內桶槽填充作業---單頁摘要" class="nav-link active" data-scroll-target="#第六章室內桶槽填充作業---單頁摘要"><strong>第六章：室內桶槽填充作業 - (單頁摘要)</strong></a>
   <ul class="collapse">
-  <li><a href="#暴露評估職業衛生的核心" id="toc-暴露評估職業衛生的核心" class="nav-link" data-scroll-target="#暴露評估職業衛生的核心"><strong>1. 暴露評估：職業衛生的核心</strong></a></li>
-  <li><a href="#傳統採樣的限制與模型的必要性" id="toc-傳統採樣的限制與模型的必要性" class="nav-link" data-scroll-target="#傳統採樣的限制與模型的必要性"><strong>2. 傳統採樣的限制與模型的必要性</strong></a></li>
-  <li><a href="#暴露評估模型的角色與應用" id="toc-暴露評估模型的角色與應用" class="nav-link" data-scroll-target="#暴露評估模型的角色與應用"><strong>3. 暴露評估模型的角色與應用</strong></a></li>
-  <li><a href="#解讀模型結果不確定性與決策關鍵" id="toc-解讀模型結果不確定性與決策關鍵" class="nav-link" data-scroll-target="#解讀模型結果不確定性與決策關鍵"><strong>4. 解讀模型結果：不確定性與決策關鍵</strong></a></li>
+  <li><a href="#情境與評估" id="toc-情境與評估" class="nav-link" data-scroll-target="#情境與評估"><strong>情境與評估</strong></a></li>
+  <li><a href="#擴散模型應用與結果" id="toc-擴散模型應用與結果" class="nav-link" data-scroll-target="#擴散模型應用與結果"><strong>擴散模型應用與結果</strong></a></li>
+  <li><a href="#ih-mod-模擬" id="toc-ih-mod-模擬" class="nav-link" data-scroll-target="#ih-mod-模擬"><strong>IH MOD 模擬</strong></a></li>
+  <li><a href="#結論風險可接受" id="toc-結論風險可接受" class="nav-link" data-scroll-target="#結論風險可接受"><strong>結論：風險可接受</strong></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -123,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">CH1 Why modeling</h1>
+<h1 class="title">CH6 barrel filling</h1>
 </div>
 
 
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 12, 2025</p>
+      <p class="date">August 14, 2114</p>
     </div>
   </div>
   
@@ -146,54 +146,41 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="職業衛生模式推估框架-單頁摘要-1" class="level1">
-<h1><strong>職業衛生模式推估框架 (單頁摘要)</strong> <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h1>
-<section id="暴露評估職業衛生的核心" class="level2">
-<h2 class="anchored" data-anchor-id="暴露評估職業衛生的核心"><strong>1. 暴露評估：職業衛生的核心</strong></h2>
-<p><strong>暴露評估(</strong>系統性地描述勞工暴露狀況)並做出風險管理決策。包含幾個核心概念：</p>
+<section id="第六章室內桶槽填充作業---單頁摘要" class="level1">
+<h1><strong>第六章：室內桶槽填充作業 - (單頁摘要)</strong></h1>
+<p>應用渦流擴散模式(Turbulent Eddy diffusion model)，科學地評估在通風條件不佳或空氣流動緩慢的區域中，作業點附近的化學品蒸氣濃度分布。相較於假設整個空間濃度均勻的傳統模型，擴散模型更能反映靠近污染源的局部高濃度現實情況。</p>
+<section id="情境與評估" class="level2">
+<h2 class="anchored" data-anchor-id="情境與評估"><strong>情境與評估</strong></h2>
 <ul>
-<li><p><strong>暴露輪廓 (Exposure Profile)</strong>：SEG或勞工所經歷的<strong>完整暴露分佈</strong>。</p></li>
-<li><p><strong>評估決策</strong>：將暴露輪廓與<strong>職業暴露限值 (OEL)</strong> 進行比較，判斷暴露風險。</p></li>
+<li><strong>情境:</strong> 一名員工報告在室內填充 NMP (N-甲基-2-吡咯烷酮) 廢液桶（作業時間5分鐘，填充速率 2 L/min）時，聞到刺激性異味並感到身體不適。評估的目標是，量化在填充作業期間，員工呼吸帶附近可能的 NMP 蒸氣濃度。<br>
+</li>
+<li><strong>資訊:</strong> 經由質量平衡計算，NMP 蒸氣的產生率 (G) 約為 <strong>4.9 mg/min</strong>。此化學品的8小時日時量平均容許濃度 (TWA-8 OEL) 為 60mg/m3。</li>
 </ul>
 </section>
-<section id="傳統採樣的限制與模型的必要性" class="level2">
-<h2 class="anchored" data-anchor-id="傳統採樣的限制與模型的必要性"><strong>2. 傳統採樣的限制與模型的必要性</strong></h2>
-<p>傳統上依賴的空氣採樣，在樣本數有限時，其統計證據力非常薄弱。</p>
-<p><strong>關鍵例證：少量採樣的信心陷阱</strong> 。僅憑少量採樣數據無法做出可靠的「安全」判斷。</p>
-<p><strong>核心結論</strong>：傳統採樣的統計局限性，而<strong>暴露評估模型可以</strong>輔助專業判斷。</p>
-</section>
-<section id="暴露評估模型的角色與應用" class="level2">
-<h2 class="anchored" data-anchor-id="暴露評估模型的角色與應用"><strong>3. 暴露評估模型的角色與應用</strong></h2>
-<p>模型並非要取代採樣，是輔助使暴露評估更科學且高效，提供量化的科學依據。</p>
+<section id="擴散模型應用與結果" class="level2">
+<h2 class="anchored" data-anchor-id="擴散模型應用與結果"><strong>擴散模型應用與結果</strong></h2>
+<p>由於廢液桶被放置在空氣流動性差的牆角，遠離主要的通風氣流，因此非常適合使用擴散模型來估算近距離的濃度梯度。此模型的主要輸入參數包括污染物產生率 (G)、反映物理屏障的幾何因子 (Kg​，此案例為角落=1)，以及反映室內空氣微觀擾動程度的紊流擴散係數 (DT​)。</p>
 <ul>
-<li><p><strong>核心價值</strong>：</p>
-<ul>
-<li><strong>支持與校正專業判斷</strong>、<strong>優化資源、提供書面佐證</strong>。</li>
-</ul></li>
-<li><p><strong>超越時間的應用</strong>：</p>
-<ul>
-<li><p><strong>回溯過去</strong>：為訴訟案件或流行病學研究進行歷史暴露重建。</p></li>
-<li><p><strong>評估現在</strong>：補充數據不足的暴露輪廓，為當前風險定級。</p></li>
-<li><p><strong>預測未來</strong>：在製程變更或新化學品引入前，預測潛在暴露。</p></li>
-</ul></li>
+<li><strong>模型參數:</strong> 為確保評估的保守性與保護性，我們採用了工業環境中較低的擴散係數 (DT​=0.1m2/min) 進行評估，這代表假設污染物擴散較慢，會在源頭附近累積較高濃度。<br>
+</li>
+<li><strong>模型結果:</strong> 在此最保守的假設情境下，距離填充口 0.25 公尺處，作業進行到第5分鐘時的瞬時濃度預估為 50.2mg/m3。</li>
 </ul>
 </section>
-<section id="解讀模型結果不確定性與決策關鍵" class="level2">
-<h2 class="anchored" data-anchor-id="解讀模型結果不確定性與決策關鍵"><strong>4. 解讀模型結果：不確定性與決策關鍵</strong></h2>
-<p><strong>決策的黃金法則：</strong>一個模型或一組採樣數據是否有用，並非取決於它能否完美預測真實濃度，而是取決於<strong>其結果（暴露分佈）與職業暴露限值（OEL）的相對距離</strong>。</p>
-<p><strong>最終思想</strong>：暴露評估的目標不是追求完美的預測值，而是利用所有可得工具（包括模型與採樣），在考量不確定性的前提下，做出<strong>足夠好」的決策</strong>來保護勞工健康。</p>
+<section id="ih-mod-模擬" class="level2">
+<h2 class="anchored" data-anchor-id="ih-mod-模擬"><strong>IH MOD 模擬</strong></h2>
+<p><img src="images/CH6.png" class="img-fluid"></p>
+</section>
+<section id="結論風險可接受" class="level2">
+<h2 class="anchored" data-anchor-id="結論風險可接受"><strong>結論：風險可接受</strong></h2>
+<p>預估的最高瞬時濃度 (50.2mg/m3) 雖然顯著，但仍低於法定的8小時日時量平均容許濃度 (60mg/m3)。進一步考量到此作業的暴露時間極短（僅5分鐘）且頻率不高（並非每日發生），將此短時間高濃度暴露平均至8小時工作日後，其日時量平均暴露值遠低於容許標準，因此整體暴露風險可判斷為**「可接受」**。</p>
+<p>此案例清晰地展示了擴散模型作為一種暴露評估工具的實用價值。它允許我們在缺乏直接採樣數據的情況下，透過選擇合理的保守參數，對通風不良區域的近源暴露情境進行量化且具保護性的風險判斷。</p>
+<p>參考資料： Chapter 6 barrel filling indoors. Made by Peter Ho. 114.08.14</p>
 
 
 </section>
 </section>
 
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Chapter 1 Modeling in the Framework of Industrial Hygiene Practice<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

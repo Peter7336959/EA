@@ -35,6 +35,18 @@ bibliography: references.bib
     -   [摘要](info\web_CH4-Sanding.html)
     -   [圖說](info\info_CH4_Sanding.html)
 
+## 5. container uncovered
+
+-   Ch5 Volatile Liquid Container Left Open
+    -   [摘要](info\web_CH5_container-left-open.html)
+    -   [圖說](info\info_CH5_container left open.html)
+    
+## 6. barrel  filling
+
+-   Ch6 Barrel filling indoors
+    -   [摘要](info\web_CH6_Barrel-filling.html)
+    -   [圖說](info\info_CH6_Barrel filling.html)
+
 ::: border
 ```{mermaid}
 flowchart LR

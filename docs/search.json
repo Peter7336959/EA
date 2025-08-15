@@ -511,49 +511,49 @@
     "href": "modeling.html",
     "title": "Modeling",
     "section": "",
-    "text": "本網站主要內容係來自2023 AIHA 新書各章 (Keil 2023)\nQuarto learning https://quarto.org/docs/websites/"
+    "text": "Important\n\n\n\n本網站主要內容係來自2023 AIHA 新書各章 (Keil 2023)\nQuarto learning https://quarto.org/docs/websites/"
   },
   {
     "objectID": "modeling.html#why-modeling",
     "href": "modeling.html#why-modeling",
     "title": "Modeling",
     "section": "1. Why modeling",
-    "text": "1. Why modeling\n\nCh1 Modeling in the Framework of Industrial Hygiene Practice\n\n摘要\n圖說"
+    "text": "1. Why modeling\nCh1 Modeling in the Framework of Industrial Hygiene Practice\n*💾摘要 *📶 圖"
   },
   {
     "objectID": "modeling.html#gathering-informaiton",
     "href": "modeling.html#gathering-informaiton",
     "title": "Modeling",
     "section": "2. Gathering informaiton",
-    "text": "2. Gathering informaiton\n\nCh2 Information Gathering for modeling\n\n摘要\n圖說"
+    "text": "2. Gathering informaiton\nCh2 Information Gathering for modeling\n*💾摘要 * ⚛️圖說"
   },
   {
     "objectID": "modeling.html#volatile-liquid-spill",
     "href": "modeling.html#volatile-liquid-spill",
     "title": "Modeling",
     "section": "3. Volatile liquid spill",
-    "text": "3. Volatile liquid spill\n\nCh3 Volatile Liquid Spill\n\n摘要\n圖說"
+    "text": "3. Volatile liquid spill\nCh3 Volatile Liquid Spill\n*⚛️摘要 *📶 圖"
   },
   {
     "objectID": "modeling.html#sanding-ea-by-lev",
     "href": "modeling.html#sanding-ea-by-lev",
     "title": "Modeling",
     "section": "4. sanding EA by LEV",
-    "text": "4. sanding EA by LEV\n\nCh4 Local Exhaust Ventilation for a Sanding\n\n摘要\n圖說"
+    "text": "4. sanding EA by LEV\nCh4 Local Exhaust Ventilation for a Sanding\n*🕎摘要 *⚧️圖說"
   },
   {
     "objectID": "modeling.html#container-uncovered",
     "href": "modeling.html#container-uncovered",
     "title": "Modeling",
     "section": "5. container uncovered",
-    "text": "5. container uncovered\n\nCh5 Volatile Liquid Container Left Open\n\n摘要\n圖說"
+    "text": "5. container uncovered\nCh5 Volatile Liquid Container Left Open\n*摘要 *圖說"
   },
   {
     "objectID": "modeling.html#barrel-filling",
     "href": "modeling.html#barrel-filling",
     "title": "Modeling",
     "section": "6. barrel filling",
-    "text": "6. barrel filling\n\nCh6 Barrel filling indoors\n\n摘要\n圖說"
+    "text": "6. barrel filling\nCh6 Barrel filling indoors\n*摘要 *圖說"
   },
   {
     "objectID": "index.html#gathering-information",
@@ -610,5 +610,89 @@
     "title": "others",
     "section": "[事故調查分析方法 網站]",
     "text": "[事故調查分析方法 網站]"
+  },
+  {
+    "objectID": "modeling.html#gathering-information",
+    "href": "modeling.html#gathering-information",
+    "title": "Modeling",
+    "section": "2. Gathering information",
+    "text": "2. Gathering information\n\nCh2 Information Gathering for modeling\n\n摘要\n圖說"
+  },
+  {
+    "objectID": "index.html#目前初步完成推估模式介紹化學品暴露",
+    "href": "index.html#目前初步完成推估模式介紹化學品暴露",
+    "title": "Occupational Exposure Assessment",
+    "section": "1.目前初步完成推估模式介紹：(化學品暴露)",
+    "text": "1.目前初步完成推估模式介紹：(化學品暴露)\n\n\n\n1. Why modeling\n\n\n2. Gathering information\n\n\n3. Volatile liquid spill\n\n\n4. Sanding\n\n\n\n\n\n5. Container uncovered\n\n\n6. Barrel filling\n\n\n7. Historic exposure"
+  },
+  {
+    "objectID": "index.html#規劃展開推估模式介紹噪音與高氣溫",
+    "href": "index.html#規劃展開推估模式介紹噪音與高氣溫",
+    "title": "Occupational Exposure Assessment",
+    "section": "2.規劃展開推估模式介紹：(噪音與高氣溫)",
+    "text": "2.規劃展開推估模式介紹：(噪音與高氣溫)"
+  },
+  {
+    "objectID": "index.html#職業衛生領域",
+    "href": "index.html#職業衛生領域",
+    "title": "Occupational Exposure Assessment",
+    "section": "職業衛生領域",
+    "text": "職業衛生領域\n\n\n\n\n\nflowchart LR\n  A[健康危害預期] --&gt; B(辨識)\n  B ==&gt; C{評估}\n  C --&gt; D[控制] \n  C --&gt; E[確認]"
+  },
+  {
+    "objectID": "index.html#modeling-軟體-ih-mod-教學影片",
+    "href": "index.html#modeling-軟體-ih-mod-教學影片",
+    "title": "Occupational Exposure Assessment",
+    "section": "modeling 軟體 (IH MOD )教學影片",
+    "text": "modeling 軟體 (IH MOD )教學影片"
+  },
+  {
+    "objectID": "modeling.html#historic-expoaure",
+    "href": "modeling.html#historic-expoaure",
+    "title": "Modeling",
+    "section": "7. Historic expoaure",
+    "text": "7. Historic expoaure\n\nCh7 Historic exposure\n\n摘要\n圖說"
+  },
+  {
+    "objectID": "modeling.html#historic-exposure",
+    "href": "modeling.html#historic-exposure",
+    "title": "Modeling",
+    "section": "7. Historic exposure",
+    "text": "7. Historic exposure\nCh7 Historic exposure\n*摘要 *圖說"
+  },
+  {
+    "objectID": "docs/web_CH7_Historic exposure.html",
+    "href": "docs/web_CH7_Historic exposure.html",
+    "title": "CH7_Historic exposure",
+    "section": "",
+    "text": "本章節旨在透過暴露評估模型，重建1990年代因TCE蒸氣脫脂槽作業引發的歷史暴露情境。由於缺乏實際監測數據，此回溯性評估對於釐清潛在的法律與健康問題至關重要。\n\n\n為重建暴露情境，我們首先收集了製程、化學品及作業空間的關鍵資訊。根據文獻與舊藍圖，估算出TCE逸散率(G)約為 3,300 mg/min，房間整體換氣率(Q)約為 73.6 m³/min。\n考量到工人活動範圍包含高濃度的污染源周邊及濃度較低的房間其他區域，我們採用了近場/遠場 (NF/FF) 二暴露區模式（Two-Zone Model）進行評估。模型計算結果顯示：\n\n遠場 (FF) 穩態濃度：約 45 mg/m³\n\n近場 (NF) 穩態濃度：約 112 mg/m³\n\n\n\n\n\n\n\n\n結合工人的作業活動模式（每日約20%時間在近場，80%在遠場），計算出的八小時日時量平均(TWA-8)暴露濃度約為 51 mg/m³。此數值已非常接近當時的職業暴露限值 (TLV®-TWA, 54 mg/m³)，顯示工人處於臨界或超標的風險水平。\n\n\n\n進一步的敏感度分析顯示，在一個合理的「最差情境」（逸散增加、通風變差）下，TWA-8暴露濃度可能飆升至 89 mg/m³，證實此作業具有高度的暴露超標風險。\n\n\n\n綜合評估結果，此作業的暴露風險被判定為不可接受。為保護勞工，應依循控制層級提出改善建議：\n\n工程控制 (最優先)：於脫脂槽加裝局部排氣裝置(LEV)，從源頭捕集污染物。\n\n行政管理：限制工人在近場的作業時間，並強化安全作業訓練。\n\n個人防護：要求佩戴合適的呼吸防護具（如有機蒸氣濾罐口罩）。\n\n環境監測：建立定期監測計畫，以驗證控制措施的成效。"
+  },
+  {
+    "objectID": "docs/web_CH7_Historic exposure.html#評估流程與模型建立",
+    "href": "docs/web_CH7_Historic exposure.html#評估流程與模型建立",
+    "title": "CH7_Historic exposure",
+    "section": "",
+    "text": "為重建暴露情境，我們首先收集了製程、化學品及作業空間的關鍵資訊。根據文獻與舊藍圖，估算出TCE逸散率(G)約為 3,300 mg/min，房間整體換氣率(Q)約為 73.6 m³/min。\n考量到工人活動範圍包含高濃度的污染源周邊及濃度較低的房間其他區域，我們採用了近場/遠場 (NF/FF) 二暴露區模式（Two-Zone Model）進行評估。模型計算結果顯示：\n\n遠場 (FF) 穩態濃度：約 45 mg/m³\n\n近場 (NF) 穩態濃度：約 112 mg/m³"
+  },
+  {
+    "objectID": "docs/web_CH7_Historic exposure.html#風險分析與結論",
+    "href": "docs/web_CH7_Historic exposure.html#風險分析與結論",
+    "title": "CH7_Historic exposure",
+    "section": "",
+    "text": "結合工人的作業活動模式（每日約20%時間在近場，80%在遠場），計算出的八小時日時量平均(TWA-8)暴露濃度約為 51 mg/m³。此數值已非常接近當時的職業暴露限值 (TLV®-TWA, 54 mg/m³)，顯示工人處於臨界或超標的風險水平。"
+  },
+  {
+    "objectID": "docs/web_CH7_Historic exposure.html#敏感度分析",
+    "href": "docs/web_CH7_Historic exposure.html#敏感度分析",
+    "title": "CH7_Historic exposure",
+    "section": "",
+    "text": "進一步的敏感度分析顯示，在一個合理的「最差情境」（逸散增加、通風變差）下，TWA-8暴露濃度可能飆升至 89 mg/m³，證實此作業具有高度的暴露超標風險。"
+  },
+  {
+    "objectID": "docs/web_CH7_Historic exposure.html#評估後建議",
+    "href": "docs/web_CH7_Historic exposure.html#評估後建議",
+    "title": "CH7_Historic exposure",
+    "section": "",
+    "text": "綜合評估結果，此作業的暴露風險被判定為不可接受。為保護勞工，應依循控制層級提出改善建議：\n\n工程控制 (最優先)：於脫脂槽加裝局部排氣裝置(LEV)，從源頭捕集污染物。\n\n行政管理：限制工人在近場的作業時間，並強化安全作業訓練。\n\n個人防護：要求佩戴合適的呼吸防護具（如有機蒸氣濾罐口罩）。\n\n環境監測：建立定期監測計畫，以驗證控制措施的成效。"
   }
 ]

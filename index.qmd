@@ -9,19 +9,19 @@ bibliography: references.bib
 >
 > ### [[**本網站主要內容係來自2023 AIHA 新書各章**[@acase-b2023]]{.underline}]{.mark}
 
-# 1.目前初步完成推估模式介紹：(化學品暴露)
+## 1.目前初步完成推估模式介紹：(化學品暴露)
 
 
 :::: {.columns}
 
 ::: {.column width="45%"}
-## 1. Why modeling
+### 1. Why modeling
 
-## 2. Gathering information
+### 2. Gathering information
 
-## 3. Volatile liquid spill
+### 3. Volatile liquid spill
 
-## 4. Sanding
+### 4. Sanding
 :::
 
 ::: {.column width="10%"}
@@ -29,20 +29,23 @@ bibliography: references.bib
 :::
 
 ::: {.column width="45%"}
-## 5. Container uncovered
+### 5. Container uncovered
 
-## 6. Barrel filling
+### 6. Barrel filling
+
+### 7. Historic exposure
+
 :::
 
 ::::
 
-# 2.規劃展開推估模式介紹：(噪音與高氣溫)
+## 2.規劃展開推估模式介紹：(噪音與高氣溫)
 
 
 
 
 ::: border
-# 職業衛生領域
+## 職業衛生領域
 
 ```{mermaid}
 flowchart LR
@@ -55,9 +58,9 @@ flowchart LR
 :::
 
 ::: border
-# modeling 軟體 (IH MOD )教學影片
+## modeling 軟體 (IH MOD )教學影片
 
 {{< video <https://www.youtube.com/watch?v=cSIlqi8hk4E >}}
 :::
 
-## References {.unnumbered}
+### References {.unnumbered}

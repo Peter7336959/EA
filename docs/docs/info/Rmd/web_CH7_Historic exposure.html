@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Peter Ho. 114.08.15">
 
-<title>Modeling – 職業衛生模式推估網站試做-Peter Ho</title>
+<title>CH7_Historic exposure – 職業衛生模式推估網站試做-Peter Ho</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,44 +21,24 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-975bbb10e5dd764a149479fe4a342696.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-975bbb10e5dd764a149479fe4a342696.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -87,7 +68,7 @@ div.csl-indent {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -97,7 +78,7 @@ div.csl-indent {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">職業衛生模式推估網站試做-Peter Ho</span>
     </a>
   </div>
@@ -108,28 +89,32 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">創贊科技有限公司</span></a>
+    <a class="nav-link" href="../../../introduce.qmd"> 
+<span class="menu-text">網站介紹</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news"> 
+    <a class="nav-link" href="../../../news"> 
 <span class="menu-text">職安衛新知</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./modeling.html" aria-current="page"> 
+    <a class="nav-link" href="../../../modeling.html"> 
 <span class="menu-text">模式推估</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./DRI.html"> 
+    <a class="nav-link" href="../../../DRI.html"> 
 <span class="menu-text">直讀式儀器與RPE</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./EA"> 
+    <a class="nav-link" href="../../../EA"> 
 <span class="menu-text">暴露風險</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./others.html"> 
+    <a class="nav-link" href="../../../others.html"> 
 <span class="menu-text">其他</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html"> 
+<span class="menu-text">創贊科技有限公司</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -147,7 +132,14 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link active" data-scroll-target="#references">References</a></li>
+  <li><a href="#第七章三氯乙烯脫脂槽附近的歷史暴露評估-摘要" id="toc-第七章三氯乙烯脫脂槽附近的歷史暴露評估-摘要" class="nav-link active" data-scroll-target="#第七章三氯乙烯脫脂槽附近的歷史暴露評估-摘要"><strong>第七章：三氯乙烯脫脂槽附近的歷史暴露評估( 摘要)</strong></a>
+  <ul class="collapse">
+  <li><a href="#評估流程與模型建立" id="toc-評估流程與模型建立" class="nav-link" data-scroll-target="#評估流程與模型建立"><strong>評估流程與模型建立</strong></a></li>
+  <li><a href="#ih-mod-模擬-二暴露區模式-two-zone-model" id="toc-ih-mod-模擬-二暴露區模式-two-zone-model" class="nav-link" data-scroll-target="#ih-mod-模擬-二暴露區模式-two-zone-model">IH MOD 模擬 (二暴露區模式 Two Zone Model)</a></li>
+  <li><a href="#風險分析與結論" id="toc-風險分析與結論" class="nav-link" data-scroll-target="#風險分析與結論"><strong>風險分析與結論</strong></a></li>
+  <li><a href="#敏感度分析" id="toc-敏感度分析" class="nav-link" data-scroll-target="#敏感度分析"><strong>敏感度分析</strong></a></li>
+  <li><a href="#評估後建議" id="toc-評估後建議" class="nav-link" data-scroll-target="#評估後建議"><strong>評估後建議</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -156,13 +148,19 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Modeling</h1>
+<h1 class="title">CH7_Historic exposure</h1>
 </div>
 
 
 
 <div class="quarto-title-meta column-page-left">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Peter Ho. 114.08.15 </p>
+          </div>
+  </div>
     
   
     
@@ -173,74 +171,49 @@ div.csl-indent {
 </header>
 
 
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>本網站主要內容係來自2023 AIHA 新書各章</strong> <span class="citation" data-cites="acase-b2023">(<a href="#ref-acase-b2023" role="doc-biblioref">Keil 2023</a>)</span></p>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:45%;">
-<section id="why-modeling" class="level2">
-<h2 class="anchored" data-anchor-id="why-modeling">1. Why modeling</h2>
-<p>Ch1 Modeling in the Framework of Industrial Hygiene Practice</p>
-<p>*💾<a href="docs\info\web_CH1-Why-modeling.html"><strong>摘要</strong></a> *📶 <a href="docs\info\info_CH1_Why_modeling.html"><strong>圖</strong></a></p>
+<section id="第七章三氯乙烯脫脂槽附近的歷史暴露評估-摘要" class="level1">
+<h1><strong>第七章：三氯乙烯脫脂槽附近的歷史暴露評估( 摘要)</strong></h1>
+<p>本章節旨在透過暴露評估模型，重建1990年代因TCE蒸氣脫脂槽作業引發的歷史暴露情境。由於缺乏實際監測數據，此回溯性評估對於釐清潛在的法律與健康問題至關重要。</p>
+<section id="評估流程與模型建立" class="level2">
+<h2 class="anchored" data-anchor-id="評估流程與模型建立"><strong>評估流程與模型建立</strong></h2>
+<p>為重建暴露情境，我們首先收集了製程、化學品及作業空間的關鍵資訊。根據文獻與舊藍圖，估算出TCE逸散率(G)約為 <strong>3,300 mg/min</strong>，房間整體換氣率(Q)約為 <strong>73.6 m³/min</strong>。</p>
+<p>考量到工人活動範圍包含高濃度的污染源周邊及濃度較低的房間其他區域，我們採用了<strong>近場/遠場 (NF/FF) 二暴露區模式（Two-Zone Model）</strong>進行評估。模型計算結果顯示：</p>
+<ul>
+<li><strong>遠場 (FF) 穩態濃度</strong>：約 <strong>45 mg/m³</strong><br>
+</li>
+<li><strong>近場 (NF) 穩態濃度</strong>：約 <strong>112 mg/m³</strong></li>
+</ul>
 </section>
-<section id="gathering-informaiton" class="level2">
-<h2 class="anchored" data-anchor-id="gathering-informaiton"><em>2. Gathering informaiton</em></h2>
-<p><em>Ch2 Information Gathering for modeling</em></p>
-<p>*💾<a href="docs\info\web_CH2-Information-Gathering.html">摘要</a> * ⚛️<a href="docs\info\info_CH2_Information Gathering.html">圖說</a></p>
+<section id="ih-mod-模擬-二暴露區模式-two-zone-model" class="level2">
+<h2 class="anchored" data-anchor-id="ih-mod-模擬-二暴露區模式-two-zone-model">IH MOD 模擬 (二暴露區模式 Two Zone Model)</h2>
+<p><img src="info/images/CH7.png" class="img-fluid"></p>
 </section>
-<section id="volatile-liquid-spill" class="level2">
-<h2 class="anchored" data-anchor-id="volatile-liquid-spill">3. Volatile liquid spill</h2>
-<p>Ch3 Volatile Liquid Spill</p>
-<p>*⚛️<a href="docs\info\web_CH3-Volatile-Liquid-Spill.html">摘要</a> *📶 <a href="docs\info\info_CH3 volatile liquid spill.html">圖</a></p>
+<section id="風險分析與結論" class="level2">
+<h2 class="anchored" data-anchor-id="風險分析與結論"><strong>風險分析與結論</strong></h2>
+<p>結合工人的作業活動模式（每日約20%時間在近場，80%在遠場），計算出的<strong>八小時日時量平均(TWA-8)暴露濃度約為 51 mg/m³</strong>。此數值已非常接近當時的職業暴露限值 (TLV®-TWA, 54 mg/m³)，顯示工人處於臨界或超標的風險水平。</p>
 </section>
-<section id="sanding-ea-by-lev" class="level2">
-<h2 class="anchored" data-anchor-id="sanding-ea-by-lev"><em>4. sanding EA by LEV</em></h2>
-<p><em>Ch4 Local Exhaust Ventilation for a Sanding</em></p>
-<p>*🕎<a href="docs\info\web_CH4-Sanding.html">摘要</a> *⚧️<a href="docs\info\info_CH4_Sanding.html">圖說</a></p>
+<section id="敏感度分析" class="level2">
+<h2 class="anchored" data-anchor-id="敏感度分析"><strong>敏感度分析</strong></h2>
+<p>進一步的<strong>敏感度分析</strong>顯示，在一個合理的「最差情境」（逸散增加、通風變差）下，TWA-8暴露濃度可能飆升至 <strong>89 mg/m³</strong>，證實此作業具有高度的暴露超標風險。</p>
 </section>
-</div><div class="column" style="width:10%;">
-<!-- empty column to create gap -->
-</div><div class="column" style="width:45%;">
-<section id="container-uncovered" class="level2">
-<h2 class="anchored" data-anchor-id="container-uncovered">5. container uncovered</h2>
-<p>Ch5 Volatile Liquid Container Left Open</p>
-<p>*<a href="docs\info\web_CH5_container-left-open.html">摘要</a> *<a href="docs\info\info_CH5_container left open.html">圖說</a></p>
-</section>
-<section id="barrel-filling" class="level2">
-<h2 class="anchored" data-anchor-id="barrel-filling">6. barrel filling</h2>
-<p>Ch6 Barrel filling indoors</p>
-<p>*<a href="docs\info\web_CH6_Barrel-filling.html">摘要</a> *<a href="docs\info\info_CH6_Barrel filling.html">圖說</a></p>
-</section>
-<section id="historic-exposure" class="level2">
-<h2 class="anchored" data-anchor-id="historic-exposure">7. Historic exposure</h2>
-<p>Ch7 Historic exposure</p>
-<p>*<a href="docs\info\web_CH7_Historic-exposure.html">摘要</a> *<a href="docs\info\info_CH7_Historic exposure.html">圖說</a></p>
-</section>
-</div>
-</div>
-<p><a href="https://quarto.org/docs/websites/">Quarto learning</a> <a href="https://quarto.org/docs/websites/" class="uri">https://quarto.org/docs/websites/</a></p>
-<section id="references" class="level2 unnumbered">
-
-
+<section id="評估後建議" class="level2">
+<h2 class="anchored" data-anchor-id="評估後建議"><strong>評估後建議</strong></h2>
+<p>綜合評估結果，此作業的暴露風險被判定為<strong>不可接受</strong>。為保護勞工，應依循控制層級提出改善建議：</p>
+<ol type="1">
+<li><strong>工程控制 (最優先)</strong>：於脫脂槽加裝<strong>局部排氣裝置(LEV)</strong>，從源頭捕集污染物。<br>
+</li>
+<li><strong>行政管理</strong>：限制工人在近場的作業時間，並強化安全作業訓練。<br>
+</li>
+<li><strong>個人防護</strong>：要求佩戴合適的<strong>呼吸防護具</strong>（如有機蒸氣濾罐口罩）。<br>
+</li>
+<li><strong>環境監測</strong>：建立定期監測計畫，以驗證控制措施的成效。</li>
+</ol>
 
 
 </section>
+</section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-acase-b2023" class="csl-entry" role="listitem">
-Keil, Chris, ed. 2023. <em>A case-based introduction to modeling occupational inhalation exposures to chemicals</em>. Falls Church, VA: AIHA.
-</div>
-</div></section></div></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

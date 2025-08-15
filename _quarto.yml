@@ -18,21 +18,18 @@ website:
   title: "職業衛生模式推估網站試做-Peter Ho"
   navbar:
     left:
-      - href: introduce.qmd
-        text: 網站介紹 
+      - about.qmd
       - href: news
         text: 職安衛新知
       - href: modeling.qmd
         text: 模式推估
       - href: DRI.qmd
-        text: 直讀式儀器
+        text: 直讀式儀器與RPE
       - href: EA
         text: 暴露風險  
-      - href: index.qmd
-        text: Home  
       - href: others.qmd
         text: 其他
-      - about.qmd
+
     search: true
     background: darkgreen
     pinned: true

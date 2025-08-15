@@ -96,9 +96,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "創贊科技有限公司",
     "section": "",
-    "text": "About this site\n\n\n\n Back to top"
+    "text": "公司的介紹如下："
   },
   {
     "objectID": "index.html#why-modeling",
@@ -504,7 +504,7 @@
     "href": "introduction.html",
     "title": "introduction",
     "section": "",
-    "text": "Back to top"
+    "text": "這是創贊的網站\n🛫更新中~~~\n\n\n\n Back to top"
   },
   {
     "objectID": "modeling.html",
@@ -694,5 +694,75 @@
     "title": "CH7_Historic exposure",
     "section": "",
     "text": "綜合評估結果，此作業的暴露風險被判定為不可接受。為保護勞工，應依循控制層級提出改善建議：\n\n工程控制 (最優先)：於脫脂槽加裝局部排氣裝置(LEV)，從源頭捕集污染物。\n\n行政管理：限制工人在近場的作業時間，並強化安全作業訓練。\n\n個人防護：要求佩戴合適的呼吸防護具（如有機蒸氣濾罐口罩）。\n\n環境監測：建立定期監測計畫，以驗證控制措施的成效。"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "news",
+    "section": "",
+    "text": "114.08.15 準備中~\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "EA.html",
+    "href": "EA.html",
+    "title": "EA",
+    "section": "",
+    "text": "準備中~\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH7_Historic exposure.html",
+    "href": "docs/info/Rmd/web_CH7_Historic exposure.html",
+    "title": "CH7_Historic exposure",
+    "section": "",
+    "text": "本章節旨在透過暴露評估模型，重建1990年代因TCE蒸氣脫脂槽作業引發的歷史暴露情境。由於缺乏實際監測數據，此回溯性評估對於釐清潛在的法律與健康問題至關重要。\n\n\n為重建暴露情境，我們首先收集了製程、化學品及作業空間的關鍵資訊。根據文獻與舊藍圖，估算出TCE逸散率(G)約為 3,300 mg/min，房間整體換氣率(Q)約為 73.6 m³/min。\n考量到工人活動範圍包含高濃度的污染源周邊及濃度較低的房間其他區域，我們採用了近場/遠場 (NF/FF) 二暴露區模式（Two-Zone Model）進行評估。模型計算結果顯示：\n\n遠場 (FF) 穩態濃度：約 45 mg/m³\n\n近場 (NF) 穩態濃度：約 112 mg/m³\n\n\n\n\n\n\n\n\n結合工人的作業活動模式（每日約20%時間在近場，80%在遠場），計算出的八小時日時量平均(TWA-8)暴露濃度約為 51 mg/m³。此數值已非常接近當時的職業暴露限值 (TLV®-TWA, 54 mg/m³)，顯示工人處於臨界或超標的風險水平。\n\n\n\n進一步的敏感度分析顯示，在一個合理的「最差情境」（逸散增加、通風變差）下，TWA-8暴露濃度可能飆升至 89 mg/m³，證實此作業具有高度的暴露超標風險。\n\n\n\n綜合評估結果，此作業的暴露風險被判定為不可接受。為保護勞工，應依循控制層級提出改善建議：\n\n工程控制 (最優先)：於脫脂槽加裝局部排氣裝置(LEV)，從源頭捕集污染物。\n\n行政管理：限制工人在近場的作業時間，並強化安全作業訓練。\n\n個人防護：要求佩戴合適的呼吸防護具（如有機蒸氣濾罐口罩）。\n\n環境監測：建立定期監測計畫，以驗證控制措施的成效。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH7_Historic exposure.html#評估流程與模型建立",
+    "href": "docs/info/Rmd/web_CH7_Historic exposure.html#評估流程與模型建立",
+    "title": "CH7_Historic exposure",
+    "section": "",
+    "text": "為重建暴露情境，我們首先收集了製程、化學品及作業空間的關鍵資訊。根據文獻與舊藍圖，估算出TCE逸散率(G)約為 3,300 mg/min，房間整體換氣率(Q)約為 73.6 m³/min。\n考量到工人活動範圍包含高濃度的污染源周邊及濃度較低的房間其他區域，我們採用了近場/遠場 (NF/FF) 二暴露區模式（Two-Zone Model）進行評估。模型計算結果顯示：\n\n遠場 (FF) 穩態濃度：約 45 mg/m³\n\n近場 (NF) 穩態濃度：約 112 mg/m³"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH7_Historic exposure.html#風險分析與結論",
+    "href": "docs/info/Rmd/web_CH7_Historic exposure.html#風險分析與結論",
+    "title": "CH7_Historic exposure",
+    "section": "",
+    "text": "結合工人的作業活動模式（每日約20%時間在近場，80%在遠場），計算出的八小時日時量平均(TWA-8)暴露濃度約為 51 mg/m³。此數值已非常接近當時的職業暴露限值 (TLV®-TWA, 54 mg/m³)，顯示工人處於臨界或超標的風險水平。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH7_Historic exposure.html#敏感度分析",
+    "href": "docs/info/Rmd/web_CH7_Historic exposure.html#敏感度分析",
+    "title": "CH7_Historic exposure",
+    "section": "",
+    "text": "進一步的敏感度分析顯示，在一個合理的「最差情境」（逸散增加、通風變差）下，TWA-8暴露濃度可能飆升至 89 mg/m³，證實此作業具有高度的暴露超標風險。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH7_Historic exposure.html#評估後建議",
+    "href": "docs/info/Rmd/web_CH7_Historic exposure.html#評估後建議",
+    "title": "CH7_Historic exposure",
+    "section": "",
+    "text": "綜合評估結果，此作業的暴露風險被判定為不可接受。為保護勞工，應依循控制層級提出改善建議：\n\n工程控制 (最優先)：於脫脂槽加裝局部排氣裝置(LEV)，從源頭捕集污染物。\n\n行政管理：限制工人在近場的作業時間，並強化安全作業訓練。\n\n個人防護：要求佩戴合適的呼吸防護具（如有機蒸氣濾罐口罩）。\n\n環境監測：建立定期監測計畫，以驗證控制措施的成效。"
+  },
+  {
+    "objectID": "about.html#公司設立與基本資訊",
+    "href": "about.html#公司設立與基本資訊",
+    "title": "創贊科技有限公司",
+    "section": "公司設立與基本資訊",
+    "text": "公司設立與基本資訊\n創贊科技有限公司（統一編號：90384457）於2022年8月2日成立。該公司由徐㻑瑈擔任負責人，同時也是唯一的董事，持有100.00%的股份。公司的註冊地址位於高雄市三民區熱河二街15號5樓。產業類別為資訊科技及其他電子零組件相關業。"
+  },
+  {
+    "objectID": "about.html#提供服務營業項目",
+    "href": "about.html#提供服務營業項目",
+    "title": "創贊科技有限公司",
+    "section": "提供服務（營業項目）",
+    "text": "提供服務（營業項目）\n• 電腦及電腦週邊設備零售 (483111) • 電腦套裝軟體零售 (483112) • 其他未分類專業、科學及技術服務 (760999) • 其他電腦諮詢及設備管理 (620299) • 關於職業安全衛生顧問與服務 「職業安全衛生顧問與服務-風險評估、職業衛生暴露評估、職業災害事故調查」等專業方面。"
+  },
+  {
+    "objectID": "DRI.html",
+    "href": "DRI.html",
+    "title": "DIR",
+    "section": "",
+    "text": "建構中\n\n\n\n Back to top"
   }
 ]

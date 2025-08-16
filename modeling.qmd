@@ -63,7 +63,7 @@ Ch7 Historic exposure
 
 Ch8 Pressurized gas release
 
-\*[摘要](docs\info\web_CH8_presurized-gas-release.html) \*[圖說](docs\info\info_CH8_Pressurized Gas Release.html)
+\*[摘要](docs\info\web_CH8_presurized-gas-release.html) \*[圖說](docs\info\info_CH8_Pressurized%20Gas%20Release.html)
 :::
 ::::::
 

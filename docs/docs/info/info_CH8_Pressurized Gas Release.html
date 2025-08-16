@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<style type="text/css">
+.inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.sng {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.def {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高壓氣體洩漏：暴露分析</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans TC', sans-serif;
+            background-color: #e0f2fe;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .flowchart-step {
+            border: 2px solid #007EA7;
+            background-color: #ffffff;
+            color: #003459;
+        }
+        .flowchart-arrow {
+            color: #007EA7;
+        }
+        .param-card {
+            background-color: #f0f9ff;
+            border-left: 4px solid #00A8E8;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-7xl">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-[#003459] mb-2">高壓氣體洩漏：暴露風險分析</h1>
+            <p class="text-3xl font-bold text-red-700 ]">研究實驗室氯氣鋼瓶洩漏的潛在暴露風險</p>
+        </header>
+
+        <main class="space-y-8">
+
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-bold text-[#003459] mb-4">情境想定：一個關鍵問題</h2>
+                <p class="text-base leading-relaxed">一位主管在巡視研究實驗室時，針對一支 75 ppm 氯氣 (\(Cl_2\)) 鋼瓶提出了一個關鍵問題：「如果調節閥失效，會致命嗎？」我們利用暴露評估模型，分析在一個特定環境中兩種潛在的失效情境。</p>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-bold text-[#003459] mb-4 text-center">模型關鍵參數與假設</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                    <div class="param-card p-4 rounded-lg">
+                        <h3 class="font-bold text-lg text-[#007EA7]">空間參數</h3>
+                        <p class="text-2xl font-semibold text-[#003459]">\(V = 107.2 \, m^3\)</p>
+                        <p class="text-sm">房間淨體積</p>
+                        <p class="text-2xl font-semibold text-[#003459] mt-2">\(Q = 15 \, m^3/min\)</p>
+                        <p class="text-sm">房間通風率</p>
+                    </div>
+                    <div class="param-card p-4 rounded-lg">
+                        <h3 class="font-bold text-lg text-[#007EA7]">情境一：災難性洩漏</h3>
+                        <p class="text-2xl font-semibold text-[#003459]">\(M = 1,850 \, mg\)</p>
+                        <p class="text-sm">瞬間釋放總質量</p>
+                    </div>
+                    <div class="param-card p-4 rounded-lg">
+                        <h3 class="font-bold text-lg text-[#007EA7]">情境二：緩慢洩漏</h3>
+                        <p class="text-2xl font-semibold text-[#003459]">\(G = 7.45 \, mg/min\)</p>
+                        <p class="text-sm">質量洩漏率</p>
+                        <p class="text-2xl font-semibold text-[#003459] mt-2">\(\beta = 11.6 \, m^3/min\)</p>
+                        <p class="text-sm">近場/遠場空氣交換率</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold text-[#003459] mb-2">情境一：調節閥失效 (突然大量洩漏)</h3>
+                    <p class="text-sm mb-4">此「最壞情況」模型假設整支鋼瓶的內容物瞬間釋放到室內，並立即均勻混合。</p>
+                    <h4 class="font-semibold text-red-600 ]">使用模型：零通風模式 (Zero-Ventilation Model)</h4>
+                    <p class="my-2">$$ C_{zero\_vent} = \frac{M}{V} $$</p>
+                    <p class="my-2">$$ C_{zero\_vent} = \frac{1,850 \, mg}{107.2 \, m^3} = 17.2 \, mg/m^3 $$</p>
+                    <div class="text-center bg-[#00A8E8] text-white rounded-lg p-4 mt-4">
+                        <p class="text-lg font-semibold">最終濃度</p>
+                        <p class="text-5xl font-bold">17.2 $$mg/m^3$$</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold text-[#003459] mb-4">濃度與安全限值比較</h3>
+                     <p class="mb-4">圖表顯示災難性失效後的濃度與各項關鍵職業暴露限值 (OELs) 的比較。其危險性顯而易見。</p>
+                    <div class="chart-container">
+                        <canvas id="catastrophicChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold text-[#003459] mb-2">情境二：緩慢、持續性洩漏</h3>
+                    <p class="text-sm mb-4">一個更可能發生的情境是接頭鬆脫導致長達一小時的緩慢洩漏，濃度達到穩態。</p>
+                    <h4 class="font-semibold text-red-600 ]">使用模型：二暴露區模式 (Two-Zone Model) (穩態)</h4>
+                    <p class="my-2">遠場濃度: $$ C_{far, ss} = \frac{G}{Q} = \frac{7.45}{15} \approx 0.50 \, mg/m^3 $$</p>
+                    <p class="my-2">近場濃度: $$ C_{near, ss} = C_{far, ss} + \frac{G}{\beta} = 0.50 + \frac{7.45}{11.6} \approx 1.14 \, mg/m^3 $$</p>
+                    <p class="mt-4">在此特定情境下，近場與遠場濃度均維持在暴露限值以下，但任何洩漏率的增加都可能迅速改變此結果。</p>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold text-[#003459] mb-4">緩慢洩漏情境解析</h3>
+                    <p class="mb-4">此圖表比較了緩慢洩漏情境下，近場與遠場的穩態濃度與職業暴露限值。雖然風險較低，但仍需警惕。</p>
+                    <div class="chart-container">
+                        <canvas id="slowLeakChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-bold text-[#003459] mb-4 text-center">暴露風險評估結果</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
+                    <div class="border border-red-300 bg-red-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-lg text-red-700">情境一：高風險 - 立即危害</h3>
+                        <p class="mt-2 text-gray-700">災難性洩漏導致的濃度 \(17.2 \, mg/m^3\) 遠超過所有職業暴露限值，達到 IDLH (立即致危濃度) 的 57%。這是一個**極高風險**情境，會對現場人員造成立即的生命威脅。</p>
+                    </div>
+                    <div class="border border-yellow-300 bg-yellow-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-lg text-yellow-700">情境二：中低風險 - 潛在危害</h3>
+                        <p class="mt-2 text-gray-700">緩慢洩漏下的近場濃度 \(1.14 \, mg/m^3\) 低於短時間暴露限值。雖然此特定情境風險**可控**，但它揭示了任何失控的洩漏都可能迅速升級為危險狀況，因此不可忽視。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-bold text-[#003459] mb-6 text-center">重點結論與建議安全流程</h2>
+                <p class="text-center mb-8 max-w-3xl mx-auto">模型分析清楚顯示，災難性失效是致命的。雖然緩慢洩漏看似不嚴重，但它凸顯了採取預防性安全措施的必要性。建議採用以下流程以降低風險。</p>
+                <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
+                    <div class="text-center p-4 rounded-lg flowchart-step w-48 h-24 flex items-center justify-center">
+                        <span class="font-semibold">更換鋼瓶</span>
+                    </div>
+                    <div class="text-4xl flowchart-arrow font-light transform md:rotate-0 rotate-90">&rarr;</div>
+                    <div class="text-center p-4 rounded-lg flowchart-step w-48 h-24 flex items-center justify-center">
+                        <span class="font-semibold">執行皂水洩漏測試</span>
+                    </div>
+                    <div class="text-4xl flowchart-arrow font-light transform md:rotate-0 rotate-90">&rarr;</div>
+                     <div class="text-center p-4 rounded-lg flowchart-step w-48 h-24 flex items-center justify-center">
+                        <span class="font-semibold">安裝壓力警報器</span>
+                    </div>
+                    <div class="text-4xl flowchart-arrow font-light transform md:rotate-0 rotate-90">&rarr;</div>
+                    <div class="text-center p-4 rounded-lg flowchart-step w-48 h-24 flex items-center justify-center">
+                        <span class="font-semibold">確保安全操作</span>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="text-center mt-12 text-sm text-gray-500">
+            <p>資料來源：第八章《高壓氣體洩漏》，made by Peter Ho. 114.08.16。</p>
+        </footer>
+
+    </div>
+
+    <script>
+        const wrapLabel = (label) => {
+            const maxLength = 16;
+            if (label.length <= maxLength) return label;
+            const words = label.split(' ');
+            let lines = [];
+            let currentLine = '';
+            words.forEach(word => {
+                if ((currentLine + word).length > maxLength) {
+                    lines.push(currentLine.trim());
+                    currentLine = '';
+                }
+                currentLine += word + ' ';
+            });
+            lines.push(currentLine.trim());
+            return lines;
+        };
+
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            }
+            return label;
+        };
+        
+        const sharedChartOptions = {
+            maintainAspectRatio: false,
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        color: '#003459',
+                        font: {
+                            size: 14,
+                            family: "'Inter', 'Noto Sans TC', sans-serif"
+                        }
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        title: tooltipTitleCallback
+                    },
+                    titleFont: {
+                        family: "'Inter', 'Noto Sans TC', sans-serif"
+                    },
+                    bodyFont: {
+                         family: "'Inter', 'Noto Sans TC', sans-serif"
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: {
+                        color: '#d1d5db'
+                    },
+                    ticks: {
+                        color: '#003459',
+                        font: { family: "'Inter', 'Noto Sans TC', sans-serif" }
+                    },
+                    title: {
+                        display: true,
+                        text: '濃度 (mg/m³)',
+                        color: '#003459',
+                        font: { family: "'Inter', 'Noto Sans TC', sans-serif" }
+                    }
+                },
+                x: {
+                    grid: {
+                        display: false
+                    },
+                    ticks: {
+                        color: '#003459',
+                        font: { family: "'Inter', 'Noto Sans TC', sans-serif" }
+                    }
+                }
+            }
+        };
+
+        const catastrophicData = {
+            labels: [
+                wrapLabel('災難性洩漏'),
+                wrapLabel('IDLH (立即危險)'),
+                wrapLabel('TLV-STEL (短時間)'),
+                wrapLabel('REL-天花板值')
+            ],
+            datasets: [{
+                label: '濃度 (mg/m³)',
+                data: [17.2, 30, 3, 1.45],
+                backgroundColor: [
+                    '#FF6384',
+                    '#003459',
+                    '#007EA7',
+                    '#00A8E8'
+                ],
+                borderColor: '#ffffff',
+                borderWidth: 2
+            }]
+        };
+
+        new Chart(document.getElementById('catastrophicChart'), {
+            type: 'bar',
+            data: catastrophicData,
+            options: { ...sharedChartOptions, plugins: { ...sharedChartOptions.plugins, legend: { display: false } } }
+        });
+
+        const slowLeakData = {
+            labels: ['近場', '遠場', 'REL-天花板值', 'TLV-STEL'],
+            datasets: [{
+                label: '濃度 (mg/m³)',
+                data: [1.14, 0.50, 1.45, 3],
+                backgroundColor: [
+                    '#00A8E8',
+                    '#80d4f5',
+                    '#007EA7',
+                    '#003459'
+                ],
+                borderColor: '#ffffff',
+                borderWidth: 2
+            }]
+        };
+
+        new Chart(document.getElementById('slowLeakChart'), {
+            type: 'bar',
+            data: slowLeakData,
+            options: { ...sharedChartOptions, plugins: { ...sharedChartOptions.plugins, legend: { display: false } } }
+        });
+    </script>
+
+</body>
+</html>

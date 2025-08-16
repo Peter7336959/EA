@@ -57,7 +57,13 @@ Ch6 Barrel filling indoors
 
 Ch7 Historic exposure
 
-\*[摘要](docs\info\web_CH7_Historic-exposure.html) \*[圖說](docs\info\info_CH7_Historic exposure.html)
+\*[摘要](docs\info\web_CH7_Historic-exposure.html) \*[圖說](docs\info\info_CH7_Historic%20exposure.html)
+
+## 8. Pressurized gas release
+
+Ch8 Pressurized gas release
+
+\*[摘要](docs\info\web_CH8_presurized%20gas%20release.html) \*[圖說](docs\info\info_CH8_presurized%20gas%20release.html)
 :::
 ::::::
 

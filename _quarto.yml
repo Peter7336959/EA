@@ -8,6 +8,8 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   page-footer: 
+    border: true
+    background: darkgreen
     left: "Copyright 2025, Peter Ho" 
     right: 
       - icon: github
@@ -15,9 +17,11 @@ website:
       - icon: twitter 
         href: https://twitter.com/ 
 
-  title: "職業衛生模式推估網站試做-Peter Ho"
+  title: "OH模式推估-Peter Ho"
   navbar:
     left:
+      - text: 首頁
+        href: index.html
       - about.qmd
       - href: news
         text: 職安衛新知
@@ -34,19 +38,13 @@ website:
     background: darkgreen
     pinned: true
   
-  #sidebar:
-      #style: "docked"
-      #search: true
-      #contents:
-      #  - text: "Introduction"
-      #  - text: "CH1 "
-      #    href: web_CH1_Why_modeling.html
-      #background: none
-      #border: true
-
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: flatly
+      dark: darkly    
+    fontsize: 1em
+    linestretch: 1
     css: styles.css
     toc: true
     mermaid:
@@ -55,3 +53,5 @@ format:
     
 
 editor: visual
+
+

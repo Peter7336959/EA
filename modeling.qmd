@@ -1,5 +1,9 @@
 ---
 title: "Modeling"
+#lightbox: true
+#sidebar: true
+#navbar: true
+
 #lang: zh    
 #page-layout: full
 bibliography: references.bib

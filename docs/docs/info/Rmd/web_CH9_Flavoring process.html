@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Peter">
+<meta name="dcterms.date" content="2025-08-16">
 
-<title>CH8 – 職業衛生模式推估網站試做-Peter Ho</title>
+<title>CH9 – OH模式推估-Peter Ho</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +25,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-236d90495073fb2ac8939117e3e83141.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4aff374fd665ce133cfa0ddba5cb8425.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-236d90495073fb2ac8939117e3e83141.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-236d90495073fb2ac8939117e3e83141.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-236d90495073fb2ac8939117e3e83141.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-a22a621782fdd859170ca60f7d4544f5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-d522d8cef11a7881bdb5a5e2e5deaf07.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-a22a621782fdd859170ca60f7d4544f5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,18 +74,180 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">職業衛生模式推估網站試做-Peter Ho</span>
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">OH模式推估-Peter Ho</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -89,32 +257,37 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">創贊科技有限公司</span></a>
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">首頁</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news"> 
+    <a class="nav-link" href="../../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../news"> 
 <span class="menu-text">職安衛新知</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./modeling.html"> 
+    <a class="nav-link" href="../../../modeling.html"> 
 <span class="menu-text">模式推估</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./DRI.html"> 
+    <a class="nav-link" href="../../../DRI.html"> 
 <span class="menu-text">直讀式儀器與RPE</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./EA"> 
+    <a class="nav-link" href="../../../EA"> 
 <span class="menu-text">暴露風險</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./others.html"> 
+    <a class="nav-link" href="../../../others.html"> 
 <span class="menu-text">其他</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -128,16 +301,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#第八章高壓氣體洩漏-模式推估--單頁摘要" id="toc-第八章高壓氣體洩漏-模式推估--單頁摘要" class="nav-link active" data-scroll-target="#第八章高壓氣體洩漏-模式推估--單頁摘要"><strong>第八章：高壓氣體洩漏 模式推估- (單頁摘要)</strong></a>
+  <li><a href="#第九章調味製程風險評估-精簡摘要" id="toc-第九章調味製程風險評估-精簡摘要" class="nav-link active" data-scroll-target="#第九章調味製程風險評估-精簡摘要"><strong>第九章：調味製程風險評估 (精簡摘要)</strong></a>
   <ul class="collapse">
-  <li><a href="#情境" id="toc-情境" class="nav-link" data-scroll-target="#情境"><strong>情境</strong></a></li>
-  <li><a href="#一核心參數" id="toc-一核心參數" class="nav-link" data-scroll-target="#一核心參數"><strong>一、核心參數</strong></a></li>
-  <li><a href="#二情境一災難性失效-無通風模型" id="toc-二情境一災難性失效-無通風模型" class="nav-link" data-scroll-target="#二情境一災難性失效-無通風模型"><strong>二、情境一：災難性失效 (無通風模型)</strong></a></li>
-  <li><a href="#三情境二緩慢洩漏-雙區模型" id="toc-三情境二緩慢洩漏-雙區模型" class="nav-link" data-scroll-target="#三情境二緩慢洩漏-雙區模型"><strong>三、情境二：緩慢洩漏 (雙區模型)</strong></a>
+  <li><a href="#背景與風險" id="toc-背景與風險" class="nav-link" data-scroll-target="#背景與風險"><strong>背景與風險</strong></a></li>
+  <li><a href="#評估發現" id="toc-評估發現" class="nav-link" data-scroll-target="#評估發現"><strong>評估發現</strong></a>
   <ul class="collapse">
   <li><a href="#ih-mod-模擬" id="toc-ih-mod-模擬" class="nav-link" data-scroll-target="#ih-mod-模擬"><strong>IH MOD 模擬</strong></a></li>
   </ul></li>
-  <li><a href="#四結論與應用" id="toc-四結論與應用" class="nav-link" data-scroll-target="#四結論與應用"><strong>四、結論與應用</strong></a></li>
+  <li><a href="#結論與核心建議" id="toc-結論與核心建議" class="nav-link" data-scroll-target="#結論與核心建議"><strong>結論與核心建議</strong></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -145,20 +316,27 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">CH8</h1>
+<h1 class="title">CH9</h1>
 </div>
 
 
 
 <div class="quarto-title-meta column-page-left">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Peter </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Invalid Date</p>
+      <p class="date">August 16, 2025</p>
     </div>
   </div>
   
@@ -170,66 +348,48 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="第八章高壓氣體洩漏-模式推估--單頁摘要" class="level1">
-<h1><strong>第八章：高壓氣體洩漏 模式推估- (單頁摘要)</strong></h1>
-<section id="情境" class="level2">
-<h2 class="anchored" data-anchor-id="情境"><strong>情境</strong></h2>
-<p>研究實驗室的案例，模擬了高壓氯氣 (Cl2​) 鋼瓶在兩種情境下的洩漏風險：(1) 調節閥災難性失效導致的<strong>瞬時大量洩漏</strong>，以及 (2) 設備接頭鬆脫造成的<strong>緩慢持續洩漏</strong>，旨在回答「調節閥失效是否會致命？」的關鍵問題。</p>
+<section id="第九章調味製程風險評估-精簡摘要" class="level1">
+<h1><strong>第九章：調味製程風險評估 (精簡摘要)</strong></h1>
+<p>本案例利用暴露評估模型，分析食品廠一項新的乙醇基底調味製程，識別出其中潛在的<strong>爆炸安全</strong>與<strong>勞工健康</strong>雙重風險。</p>
+<section id="背景與風險" class="level2">
+<h2 class="anchored" data-anchor-id="背景與風險"><strong>背景與風險</strong></h2>
+<p>新製程在加熱滾筒中為產品進行調味塗層，過程中會蒸發大量乙醇。主要風險點有二：</p>
+<ol type="1">
+<li><strong>安全風險</strong>：排氣管道內的乙醇濃度是否超過 <strong>3.3%</strong> 的爆炸下限 (LEL)。<br>
+</li>
+<li><strong>衛生風險</strong>：作業區勞工的乙醇暴露量是否超過 <strong>1000 ppm</strong> 的容許濃度標準 (PEL)。</li>
+</ol>
 </section>
-<section id="一核心參數" class="level2">
-<h2 class="anchored" data-anchor-id="一核心參數"><strong>一、核心參數</strong></h2>
-<p>此評估基於一個含有 75 ppm 氯氣的鋼瓶，在一個淨體積 (V) 為 107.2m3、通風率 (Q) 為 15m3/min 的實驗室中。評估的關鍵暴露限值為 IDLH (立即危害生命健康濃度) 30mg/m3。</p>
-</section>
-<section id="二情境一災難性失效-無通風模型" class="level2">
-<h2 class="anchored" data-anchor-id="二情境一災難性失效-無通風模型"><strong>二、情境一：災難性失效 (無通風模型)</strong></h2>
-<p>此最壞情境假設整瓶氣體 (總質量 M=1,850mg) 瞬間釋放。使用零通風模型計算：</p>
-<p>Czero_vent​ = M/V​ = 107.2m31,850mg​ = 17.2mg/m3</p>
-<p>結果顯示，平均濃度高達 17.2mg/m3，已達 IDLH 的 57%，證實此情境會立即對人員構成生命威脅。</p>
-</section>
-<section id="三情境二緩慢洩漏-雙區模型" class="level2">
-<h2 class="anchored" data-anchor-id="三情境二緩慢洩漏-雙區模型"><strong>三、情境二：緩慢洩漏 (雙區模型)</strong></h2>
-<p>此情境模擬接頭鬆脫導致一小時的持續洩漏，洩漏率 (G) 經計算為 7.45mg/min。我們使用雙區模型來估算洩漏點附近（近場）與房間其他區域（遠場）的穩態濃度。<br>
-利用已計算出的 G、Q 和 β，可分別計算遠場和近場的穩態濃度。</p>
-<p>分析結果顯示，近場濃度為 1.14mg/m3，遠場濃度為 0.50mg/m3。與 OELs 相比，這些值低於 3mg/m3 的 PEL-C 和 TLV-STEL，且略低於 1.45mg/m3 的 REL-C 5。</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: left;">模式比較</th>
-<th style="text-align: left;">零通風模式</th>
-<th style="text-align: left;">雙區模式</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">情境類型</td>
-<td style="text-align: left;">災難性、瞬間釋放</td>
-<td style="text-align: left;">緩慢、持續洩漏</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">關鍵輸出</td>
-<td style="text-align: left;">全室平均濃度</td>
-<td style="text-align: left;">近場/遠場濃度</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">模擬濃度 (mg/m3)</td>
-<td style="text-align: left;">17.2</td>
-<td style="text-align: left;">近場: 1.14 / 遠場: 0.50</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">與限值比較</td>
-<td style="text-align: left;">&gt; 50% IDLH</td>
-<td style="text-align: left;">&lt; REL-C</td>
-</tr>
-</tbody>
-</table>
+<section id="評估發現" class="level2">
+<h2 class="anchored" data-anchor-id="評估發現"><strong>評估發現</strong></h2>
+<ul>
+<li>爆炸風險：嚴重且立即<br>
+模型分析顯示，雖然平均濃度看似安全，但在製程啟動後的前3至4分鐘內，排氣管內的乙醇濃度將會顯著超過3.3%的爆炸下限。這構成了極高的立即性爆炸風險。<br>
+</li>
+<li>勞工暴露風險：在標準內但仍需關注<br>
+滾筒的局部排氣捕集效率偏低，導致約10%的乙醇蒸氣逸散至作業區。模型估算勞工短時間暴露濃度約為 450 ppm。此數值雖低於法規標準，但基於合理抑低(ALARA)原則，此一顯著的逸散量仍應被控制與改善。</li>
+</ul>
 <section id="ih-mod-模擬" class="level3">
 <h3 class="anchored" data-anchor-id="ih-mod-模擬"><strong>IH MOD 模擬</strong></h3>
-<p><img src="docs/info/images/CH8.png" class="img-fluid"></p>
+<p><img src="info/images/CH8.png" class="img-fluid"></p>
 </section>
 </section>
-<section id="四結論與應用" class="level2">
-<h2 class="anchored" data-anchor-id="四結論與應用"><strong>四、結論與應用</strong></h2>
-<p>模型分析明確指出，災難性洩漏是致命的，而緩慢洩漏則提供了評估潛在危害的基準。此評估結果不僅回答了最初的風險問題，更為制定具體的預防措施（如洩漏測試、安裝警報器）提供了清晰的數據支持，展現了暴露評估模型在將理論計算轉化為實際安全行動中的價值。</p>
+<section id="結論與核心建議" class="level2">
+<h2 class="anchored" data-anchor-id="結論與核心建議"><strong>結論與核心建議</strong></h2>
+<ol type="1">
+<li><strong>立即危害</strong>：此製程存在<strong>嚴重的爆炸安全隱患，必須立即停止</strong>，直到風險被有效控制。<br>
+</li>
+<li><strong>改善方向</strong>：首要目標是將排氣管道內的濃度穩定控制在LEL的10%以下。任何能達成此目標的措施，通常也能同時降低作業區的勞工暴露。<br>
+</li>
+<li><strong>具體措施</strong>：
+<ul>
+<li><strong>工程控制</strong>：優先考慮<strong>增加排氣量</strong>，以稀釋管道濃度並提升捕集效率。<br>
+</li>
+<li><strong>管理控制</strong>：若工程手段受限，則需評估調整製程（如降低乙醇配方比例）的可行性。<br>
+</li>
+<li><strong>驗證</strong>：所有改善措施皆須透過<strong>重新評估與現場監測</strong>來驗證其成效。</li>
+</ul></li>
+</ol>
 
 
 </section>
@@ -238,6 +398,19 @@ ul.task-list li input[type="checkbox"] {
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {

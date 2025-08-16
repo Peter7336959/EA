@@ -623,7 +623,7 @@
     "href": "index.html#目前初步完成推估模式介紹化學品暴露",
     "title": "Occupational Exposure Assessment",
     "section": "1.目前初步完成推估模式介紹：(化學品暴露)",
-    "text": "1.目前初步完成推估模式介紹：(化學品暴露)\n\n\n\n1. Why modeling\n\n\n2. Gathering information\n\n\n3. Volatile liquid spill\n\n\n4. Sanding\n\n\n\n\n\n5. Container uncovered\n\n\n6. Barrel filling\n\n\n7. Historic exposure"
+    "text": "1.目前初步完成推估模式介紹：(化學品暴露)\n\n\n\n1. Why modeling\n\n\n2. Gathering information\n\n\n3. Volatile liquid spill\n\n\n4. Sanding\n\n\n\n\n\n5. Container uncovered\n\n\n6. Barrel filling\n\n\n7. Historic exposure\n\n\n8. Presurized gas release\n\n\n9. Flavoring Process"
   },
   {
     "objectID": "index.html#規劃展開推估模式介紹噪音與高氣溫",
@@ -855,5 +855,82 @@
     "title": "CH8",
     "section": "",
     "text": "模型分析明確指出，災難性洩漏是致命的，而緩慢洩漏則提供了評估潛在危害的基準。此評估結果不僅回答了最初的風險問題，更為制定具體的預防措施（如洩漏測試、安裝警報器）提供了清晰的數據支持，展現了暴露評估模型在將理論計算轉化為實際安全行動中的價值。"
+  },
+  {
+    "objectID": "modeling.html#flavoring-process",
+    "href": "modeling.html#flavoring-process",
+    "title": "Modeling",
+    "section": "9. Flavoring Process",
+    "text": "9. Flavoring Process\nChapter 9 Ventilation Requirements for a Flavoring Process\n*摘要 *圖說"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH8_presurized gas release.html",
+    "href": "docs/info/Rmd/web_CH8_presurized gas release.html",
+    "title": "CH8",
+    "section": "",
+    "text": "研究實驗室的案例，模擬了高壓氯氣 (Cl2​) 鋼瓶在兩種情境下的洩漏風險：(1) 調節閥災難性失效導致的瞬時大量洩漏，以及 (2) 設備接頭鬆脫造成的緩慢持續洩漏，旨在回答「調節閥失效是否會致命？」的關鍵問題。\n\n\n\n此評估基於一個含有 75 ppm 氯氣的鋼瓶，在一個淨體積 (V) 為 107.2m3、通風率 (Q) 為 15m3/min 的實驗室中。評估的關鍵暴露限值為 IDLH (立即危害生命健康濃度) 30mg/m3。\n\n\n\n此最壞情境假設整瓶氣體 (總質量 M=1,850mg) 瞬間釋放。使用零通風模型計算：\nCzero_vent​ = M/V​ = 107.2m31,850mg​ = 17.2mg/m3\n結果顯示，平均濃度高達 17.2mg/m3，已達 IDLH 的 57%，證實此情境會立即對人員構成生命威脅。\n\n\n\n此情境模擬接頭鬆脫導致一小時的持續洩漏，洩漏率 (G) 經計算為 7.45mg/min。我們使用雙區模型來估算洩漏點附近（近場）與房間其他區域（遠場）的穩態濃度。\n利用已計算出的 G、Q 和 β，可分別計算遠場和近場的穩態濃度。\n分析結果顯示，近場濃度為 1.14mg/m3，遠場濃度為 0.50mg/m3。與 OELs 相比，這些值低於 3mg/m3 的 PEL-C 和 TLV-STEL，且略低於 1.45mg/m3 的 REL-C 5。\n\n\n\n模式比較\n零通風模式\n雙區模式\n\n\n\n\n情境類型\n災難性、瞬間釋放\n緩慢、持續洩漏\n\n\n關鍵輸出\n全室平均濃度\n近場/遠場濃度\n\n\n模擬濃度 (mg/m3)\n17.2\n近場: 1.14 / 遠場: 0.50\n\n\n與限值比較\n&gt; 50% IDLH\n&lt; REL-C\n\n\n\n\n\n\n\n\n\n\n模型分析明確指出，災難性洩漏是致命的，而緩慢洩漏則提供了評估潛在危害的基準。此評估結果不僅回答了最初的風險問題，更為制定具體的預防措施（如洩漏測試、安裝警報器）提供了清晰的數據支持，展現了暴露評估模型在將理論計算轉化為實際安全行動中的價值。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH8_presurized gas release.html#情境",
+    "href": "docs/info/Rmd/web_CH8_presurized gas release.html#情境",
+    "title": "CH8",
+    "section": "",
+    "text": "研究實驗室的案例，模擬了高壓氯氣 (Cl2​) 鋼瓶在兩種情境下的洩漏風險：(1) 調節閥災難性失效導致的瞬時大量洩漏，以及 (2) 設備接頭鬆脫造成的緩慢持續洩漏，旨在回答「調節閥失效是否會致命？」的關鍵問題。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH8_presurized gas release.html#一核心參數",
+    "href": "docs/info/Rmd/web_CH8_presurized gas release.html#一核心參數",
+    "title": "CH8",
+    "section": "",
+    "text": "此評估基於一個含有 75 ppm 氯氣的鋼瓶，在一個淨體積 (V) 為 107.2m3、通風率 (Q) 為 15m3/min 的實驗室中。評估的關鍵暴露限值為 IDLH (立即危害生命健康濃度) 30mg/m3。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH8_presurized gas release.html#二情境一災難性失效-無通風模型",
+    "href": "docs/info/Rmd/web_CH8_presurized gas release.html#二情境一災難性失效-無通風模型",
+    "title": "CH8",
+    "section": "",
+    "text": "此最壞情境假設整瓶氣體 (總質量 M=1,850mg) 瞬間釋放。使用零通風模型計算：\nCzero_vent​ = M/V​ = 107.2m31,850mg​ = 17.2mg/m3\n結果顯示，平均濃度高達 17.2mg/m3，已達 IDLH 的 57%，證實此情境會立即對人員構成生命威脅。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH8_presurized gas release.html#三情境二緩慢洩漏-雙區模型",
+    "href": "docs/info/Rmd/web_CH8_presurized gas release.html#三情境二緩慢洩漏-雙區模型",
+    "title": "CH8",
+    "section": "",
+    "text": "此情境模擬接頭鬆脫導致一小時的持續洩漏，洩漏率 (G) 經計算為 7.45mg/min。我們使用雙區模型來估算洩漏點附近（近場）與房間其他區域（遠場）的穩態濃度。\n利用已計算出的 G、Q 和 β，可分別計算遠場和近場的穩態濃度。\n分析結果顯示，近場濃度為 1.14mg/m3，遠場濃度為 0.50mg/m3。與 OELs 相比，這些值低於 3mg/m3 的 PEL-C 和 TLV-STEL，且略低於 1.45mg/m3 的 REL-C 5。\n\n\n\n模式比較\n零通風模式\n雙區模式\n\n\n\n\n情境類型\n災難性、瞬間釋放\n緩慢、持續洩漏\n\n\n關鍵輸出\n全室平均濃度\n近場/遠場濃度\n\n\n模擬濃度 (mg/m3)\n17.2\n近場: 1.14 / 遠場: 0.50\n\n\n與限值比較\n&gt; 50% IDLH\n&lt; REL-C"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH8_presurized gas release.html#四結論與應用",
+    "href": "docs/info/Rmd/web_CH8_presurized gas release.html#四結論與應用",
+    "title": "CH8",
+    "section": "",
+    "text": "模型分析明確指出，災難性洩漏是致命的，而緩慢洩漏則提供了評估潛在危害的基準。此評估結果不僅回答了最初的風險問題，更為制定具體的預防措施（如洩漏測試、安裝警報器）提供了清晰的數據支持，展現了暴露評估模型在將理論計算轉化為實際安全行動中的價值。"
+  },
+  {
+    "objectID": "docs/web_CH9_Flavoring process.html",
+    "href": "docs/web_CH9_Flavoring process.html",
+    "title": "CH9",
+    "section": "",
+    "text": "本案例利用暴露評估模型，分析食品廠一項新的乙醇基底調味製程，識別出其中潛在的爆炸安全與勞工健康雙重風險。\n\n\n新製程在加熱滾筒中為產品進行調味塗層，過程中會蒸發大量乙醇。主要風險點有二：\n\n安全風險：排氣管道內的乙醇濃度是否超過 3.3% 的爆炸下限 (LEL)。\n\n衛生風險：作業區勞工的乙醇暴露量是否超過 1000 ppm 的容許濃度標準 (PEL)。\n\n\n\n\n\n爆炸風險：嚴重且立即\n模型分析顯示，雖然平均濃度看似安全，但在製程啟動後的前3至4分鐘內，排氣管內的乙醇濃度將會顯著超過3.3%的爆炸下限。這構成了極高的立即性爆炸風險。\n\n勞工暴露風險：在標準內但仍需關注\n滾筒的局部排氣捕集效率偏低，導致約10%的乙醇蒸氣逸散至作業區。模型估算勞工短時間暴露濃度約為 450 ppm。此數值雖低於法規標準，但基於合理抑低(ALARA)原則，此一顯著的逸散量仍應被控制與改善。\n\n\n\n\n\n\n\n\n\n立即危害：此製程存在嚴重的爆炸安全隱患，必須立即停止，直到風險被有效控制。\n\n改善方向：首要目標是將排氣管道內的濃度穩定控制在LEL的10%以下。任何能達成此目標的措施，通常也能同時降低作業區的勞工暴露。\n\n具體措施：\n\n工程控制：優先考慮增加排氣量，以稀釋管道濃度並提升捕集效率。\n\n管理控制：若工程手段受限，則需評估調整製程（如降低乙醇配方比例）的可行性。\n\n驗證：所有改善措施皆須透過重新評估與現場監測來驗證其成效。"
+  },
+  {
+    "objectID": "docs/web_CH9_Flavoring process.html#背景與風險",
+    "href": "docs/web_CH9_Flavoring process.html#背景與風險",
+    "title": "CH9",
+    "section": "",
+    "text": "新製程在加熱滾筒中為產品進行調味塗層，過程中會蒸發大量乙醇。主要風險點有二：\n\n安全風險：排氣管道內的乙醇濃度是否超過 3.3% 的爆炸下限 (LEL)。\n\n衛生風險：作業區勞工的乙醇暴露量是否超過 1000 ppm 的容許濃度標準 (PEL)。"
+  },
+  {
+    "objectID": "docs/web_CH9_Flavoring process.html#評估發現",
+    "href": "docs/web_CH9_Flavoring process.html#評估發現",
+    "title": "CH9",
+    "section": "",
+    "text": "爆炸風險：嚴重且立即\n模型分析顯示，雖然平均濃度看似安全，但在製程啟動後的前3至4分鐘內，排氣管內的乙醇濃度將會顯著超過3.3%的爆炸下限。這構成了極高的立即性爆炸風險。\n\n勞工暴露風險：在標準內但仍需關注\n滾筒的局部排氣捕集效率偏低，導致約10%的乙醇蒸氣逸散至作業區。模型估算勞工短時間暴露濃度約為 450 ppm。此數值雖低於法規標準，但基於合理抑低(ALARA)原則，此一顯著的逸散量仍應被控制與改善。"
+  },
+  {
+    "objectID": "docs/web_CH9_Flavoring process.html#結論與核心建議",
+    "href": "docs/web_CH9_Flavoring process.html#結論與核心建議",
+    "title": "CH9",
+    "section": "",
+    "text": "立即危害：此製程存在嚴重的爆炸安全隱患，必須立即停止，直到風險被有效控制。\n\n改善方向：首要目標是將排氣管道內的濃度穩定控制在LEL的10%以下。任何能達成此目標的措施，通常也能同時降低作業區的勞工暴露。\n\n具體措施：\n\n工程控制：優先考慮增加排氣量，以稀釋管道濃度並提升捕集效率。\n\n管理控制：若工程手段受限，則需評估調整製程（如降低乙醇配方比例）的可行性。\n\n驗證：所有改善措施皆須透過重新評估與現場監測來驗證其成效。"
   }
 ]

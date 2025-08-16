@@ -64,6 +64,12 @@ Ch7 Historic exposure
 Ch8 Pressurized gas release
 
 \*[摘要](docs\info\web_CH8_presurized-gas-release.html) \*[圖說](docs\info\info_CH8_Pressurized%20Gas%20Release.html)
+
+## 9. Flavoring Process
+
+Chapter 9 Ventilation Requirements for a Flavoring Process
+
+\*[摘要](docs\info\web_CH9_Flavoring-process.html) \*[圖說](docs\info\info_CH9_Flavoring-process.html)
 :::
 ::::::
 

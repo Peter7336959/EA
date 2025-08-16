@@ -11,9 +11,7 @@ bibliography: references.bib
 
 ## 1.目前初步完成推估模式介紹：(化學品暴露)
 
-
-:::: {.columns}
-
+:::::: columns
 ::: {.column width="45%"}
 ### 1. Why modeling
 
@@ -35,14 +33,14 @@ bibliography: references.bib
 
 ### 7. Historic exposure
 
-:::
+### 8. Presurized gas release
 
-::::
+### 9. Flavoring Process
+
+:::
+::::::
 
 ## 2.規劃展開推估模式介紹：(噪音與高氣溫)
-
-
-
 
 ::: border
 ## 職業衛生領域

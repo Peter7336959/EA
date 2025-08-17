@@ -20,13 +20,7 @@ bibliography: references.bib
 ### 3. Volatile liquid spill
 
 ### 4. Sanding
-:::
 
-::: {.column width="10%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="45%"}
 ### 5. Container uncovered
 
 ### 6. Barrel filling
@@ -35,7 +29,18 @@ bibliography: references.bib
 
 ### 8. Presurized gas release
 
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
 ### 9. Flavoring Process
+
+### 10. Cleaning Process
+
+### 11. Model parameters
 :::
 ::::::
 

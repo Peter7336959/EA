@@ -623,7 +623,7 @@
     "href": "index.html#目前初步完成推估模式介紹化學品暴露",
     "title": "Occupational Exposure Assessment",
     "section": "1.目前初步完成推估模式介紹：(化學品暴露)",
-    "text": "1.目前初步完成推估模式介紹：(化學品暴露)\n\n\n\n1. Why modeling\n\n\n2. Gathering information\n\n\n3. Volatile liquid spill\n\n\n4. Sanding\n\n\n\n\n\n5. Container uncovered\n\n\n6. Barrel filling\n\n\n7. Historic exposure\n\n\n8. Presurized gas release\n\n\n9. Flavoring Process"
+    "text": "1.目前初步完成推估模式介紹：(化學品暴露)\n\n\n\n1. Why modeling\n\n\n2. Gathering information\n\n\n3. Volatile liquid spill\n\n\n4. Sanding\n\n\n5. Container uncovered\n\n\n6. Barrel filling\n\n\n7. Historic exposure\n\n\n8. Presurized gas release\n\n\n\n\n\n9. Flavoring Process\n\n\n10. Cleaning Process\n\n\n11. Model parameters"
   },
   {
     "objectID": "index.html#規劃展開推估模式介紹噪音與高氣溫",
@@ -938,7 +938,7 @@
     "href": "docs/info/Rmd/web_CH9_Flavoring process.html",
     "title": "CH9",
     "section": "",
-    "text": "本案例利用暴露評估模型，分析食品廠一項新的乙醇基底調味製程，識別出其中潛在的爆炸安全與勞工健康雙重風險。\n\n\n新製程在加熱滾筒中為產品進行調味塗層，過程中會蒸發大量乙醇。主要風險點有二：\n\n安全風險：排氣管道內的乙醇濃度是否超過 3.3% 的爆炸下限 (LEL)。\n\n衛生風險：作業區勞工的乙醇暴露量是否超過 1000 ppm 的容許濃度標準 (PEL)。\n\n\n\n\n\n爆炸風險：嚴重且立即\n模型分析顯示，雖然平均濃度看似安全，但在製程啟動後的前3至4分鐘內，排氣管內的乙醇濃度將會顯著超過3.3%的爆炸下限。這構成了極高的立即性爆炸風險。\n\n勞工暴露風險：在標準內但仍需關注\n滾筒的局部排氣捕集效率偏低，導致約10%的乙醇蒸氣逸散至作業區。模型估算勞工短時間暴露濃度約為 450 ppm。此數值雖低於法規標準，但基於合理抑低(ALARA)原則，此一顯著的逸散量仍應被控制與改善。\n\n\n\n\n\n\n\n\n\n立即危害：此製程存在嚴重的爆炸安全隱患，必須立即停止，直到風險被有效控制。\n\n改善方向：首要目標是將排氣管道內的濃度穩定控制在LEL的10%以下。任何能達成此目標的措施，通常也能同時降低作業區的勞工暴露。\n\n具體措施：\n\n工程控制：優先考慮增加排氣量，以稀釋管道濃度並提升捕集效率。\n\n管理控制：若工程手段受限，則需評估調整製程（如降低乙醇配方比例）的可行性。\n\n驗證：所有改善措施皆須透過重新評估與現場監測來驗證其成效。"
+    "text": "本案例利用暴露評估模型，分析食品廠一項新的乙醇基底調味製程，識別出其中潛在的爆炸安全與勞工健康雙重風險。\n\n\n新製程在加熱滾筒中為產品進行調味塗層，過程中會蒸發大量乙醇。主要風險點有二：\n\n安全風險：排氣管道內的乙醇濃度是否超過 3.3% 的爆炸下限 (LEL)。\n\n衛生風險：作業區勞工的乙醇暴露量是否超過 1000 ppm 的容許濃度標準 (PEL)。\n\n\n\n\n\n爆炸風險：嚴重且立即\n模型分析顯示，雖然平均濃度看似安全，但在製程啟動後的前3至4分鐘內，排氣管內的乙醇濃度將會顯著超過3.3%的爆炸下限。這構成了極高的立即性爆炸風險。\n\n勞工暴露風險：在標準內但仍需關注\n滾筒的局部排氣捕集效率偏低，導致約10%的乙醇蒸氣逸散至作業區。模型估算勞工短時間暴露濃度約為 450 ppm。此數值雖低於法規標準，但基於合理抑低(ALARA)原則，此一顯著的逸散量仍應被控制與改善。\n\n\n\n\n\n立即危害：此製程存在嚴重的爆炸安全隱患，必須立即停止，直到風險被有效控制。\n\n改善方向：首要目標是將排氣管道內的濃度穩定控制在LEL的10%以下。任何能達成此目標的措施，通常也能同時降低作業區的勞工暴露。\n\n具體措施：\n\n工程控制：優先考慮增加排氣量，以稀釋管道濃度並提升捕集效率。\n\n管理控制：若工程手段受限，則需評估調整製程（如降低乙醇配方比例）的可行性。\n\n驗證：所有改善措施皆須透過重新評估與現場監測來驗證其成效。"
   },
   {
     "objectID": "docs/info/Rmd/web_CH9_Flavoring process.html#背景與風險",
@@ -1016,5 +1016,82 @@
     "title": "Modeling",
     "section": "10. Cleaning Process",
     "text": "10. Cleaning Process\nChapter 10 Cleaning With Product Containing Acetic Acid *摘要 *圖說"
+  },
+  {
+    "objectID": "modeling.html#model-parameters",
+    "href": "modeling.html#model-parameters",
+    "title": "Modeling",
+    "section": "11. Model parameters",
+    "text": "11. Model parameters\nChapter 11 Experimental Determination of Model Parameters *摘要 *圖說"
+  },
+  {
+    "objectID": "docs/info/web_CH11_model-parameters.html",
+    "href": "docs/info/web_CH11_model-parameters.html",
+    "title": "CH11",
+    "section": "",
+    "text": "本章的核心精神在於**「化被動為主動」——當缺乏關鍵的模型輸入參數，如污染物發生率 (G)** 與換氣率 (Q) 時，我們能主動透過實驗設計來獲取數據。本章展示了兩種實用的方法：\n\n測試艙法：用以測定粉塵等污染物的逸散率 (G)。\n\n示蹤氣體衰退法：用以計算空間的實際換氣率 (Q)。"
+  },
+  {
+    "objectID": "docs/info/web_CH11_model-parameters.html#實驗取得之關鍵參數",
+    "href": "docs/info/web_CH11_model-parameters.html#實驗取得之關鍵參數",
+    "title": "CH11",
+    "section": "1. 實驗取得之關鍵參數",
+    "text": "1. 實驗取得之關鍵參數\n\n粉塵逸散率 (G)：透過測試艙實驗，測得平均逸散率為：G=1,800minmg​\n\n房間換氣率 (Q)：透過示蹤氣體衰退法，測得廠房的自然換氣率為：Q≈45.3minm3​"
+  },
+  {
+    "objectID": "docs/info/web_CH11_model-parameters.html#暴露濃度計算",
+    "href": "docs/info/web_CH11_model-parameters.html#暴露濃度計算",
+    "title": "CH11",
+    "section": "2. 暴露濃度計算",
+    "text": "2. 暴露濃度計算\n採用均勻混合模型，並考慮作業的間歇性（每日暴露120分鐘），計算出8小時日時量平均濃度 (TWA-8)：\nTWA-8=(G/Q​×暴露時間)​/480 分鐘=(1,800/45.3​×120)/480 ​≈ 9.9m3mg​"
+  },
+  {
+    "objectID": "docs/info/web_CH11_model-parameters.html#風險評估與結論",
+    "href": "docs/info/web_CH11_model-parameters.html#風險評估與結論",
+    "title": "CH11",
+    "section": "3. 風險評估與結論",
+    "text": "3. 風險評估與結論\n評估結果顯示，預估的 9.9 mg/m3 濃度雖低於總粉塵基準，卻顯著超過了對健康危害更大的可呼吸性粉塵職業暴露基準 (OSHA PEL: 5 mg/m3; ACGIH TLV: 3 mg/m3)。"
+  },
+  {
+    "objectID": "docs/info/web_CH11_model-parameters.html#ih-mod-模擬",
+    "href": "docs/info/web_CH11_model-parameters.html#ih-mod-模擬",
+    "title": "CH11",
+    "section": "IH MOD 模擬",
+    "text": "IH MOD 模擬\n\n此結果表明，即使在遠離污染源處，不良的通風也會導致細小粉塵累積，對全體員工構成潛在的健康風險。\n基於此數據，專業建議應立即採取行動：優先從源頭安裝局部排氣通風 (LEV) 進行工程控制，並輔以個人空氣採樣驗證與過渡期的個人防護具使用。\nprepared by Peter Ho. 114.08.17"
+  },
+  {
+    "objectID": "docs/web_CH11_model-parameters.html",
+    "href": "docs/web_CH11_model-parameters.html",
+    "title": "CH11",
+    "section": "",
+    "text": "本章的核心精神在於**「化被動為主動」——當缺乏關鍵的模型輸入參數，如污染物發生率 (G)** 與換氣率 (Q) 時，我們能主動透過實驗設計來獲取數據。本章展示了兩種實用的方法：\n\n測試艙法：用以測定粉塵等污染物的逸散率 (G)。\n\n示蹤氣體衰退法：用以計算空間的實際換氣率 (Q)。"
+  },
+  {
+    "objectID": "docs/web_CH11_model-parameters.html#實驗取得之關鍵參數",
+    "href": "docs/web_CH11_model-parameters.html#實驗取得之關鍵參數",
+    "title": "CH11",
+    "section": "1. 實驗取得之關鍵參數",
+    "text": "1. 實驗取得之關鍵參數\n\n粉塵逸散率 (G)：透過測試艙實驗，測得平均逸散率為：G=1,800minmg​\n\n房間換氣率 (Q)：透過示蹤氣體衰退法，測得廠房的自然換氣率為：Q≈45.3minm3​"
+  },
+  {
+    "objectID": "docs/web_CH11_model-parameters.html#暴露濃度計算",
+    "href": "docs/web_CH11_model-parameters.html#暴露濃度計算",
+    "title": "CH11",
+    "section": "2. 暴露濃度計算",
+    "text": "2. 暴露濃度計算\n採用均勻混合模型，並考慮作業的間歇性（每日暴露120分鐘），計算出8小時日時量平均濃度 (TWA-8)：\nTWA-8=(G/Q​×暴露時間)​/480 分鐘=(1,800/45.3​×120)/480 ​≈ 9.9m3mg​"
+  },
+  {
+    "objectID": "docs/web_CH11_model-parameters.html#風險評估與結論",
+    "href": "docs/web_CH11_model-parameters.html#風險評估與結論",
+    "title": "CH11",
+    "section": "3. 風險評估與結論",
+    "text": "3. 風險評估與結論\n評估結果顯示，預估的 9.9 mg/m3 濃度雖低於總粉塵基準，卻顯著超過了對健康危害更大的可呼吸性粉塵職業暴露基準 (OSHA PEL: 5 mg/m3; ACGIH TLV: 3 mg/m3)。"
+  },
+  {
+    "objectID": "docs/web_CH11_model-parameters.html#ih-mod-模擬",
+    "href": "docs/web_CH11_model-parameters.html#ih-mod-模擬",
+    "title": "CH11",
+    "section": "IH MOD 模擬",
+    "text": "IH MOD 模擬\n\n此結果表明，即使在遠離污染源處，不良的通風也會導致細小粉塵累積，對全體員工構成潛在的健康風險。\n基於此數據，專業建議應立即採取行動：優先從源頭安裝局部排氣通風 (LEV) 進行工程控制，並輔以個人空氣採樣驗證與過渡期的個人防護具使用。\nprepared by Peter Ho. 114.08.17"
   }
 ]

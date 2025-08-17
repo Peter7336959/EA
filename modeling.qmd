@@ -78,6 +78,12 @@ Chapter 9 Ventilation Requirements for a Flavoring Process
 ## 10. Cleaning Process
 
 Chapter 10 Cleaning With Product Containing Acetic Acid \*[摘要](docs\info\web_CH10_Cleaning-process.html) \*[圖說](docs\info\info_CH10_Cleaning-process.html)
+
+## 11. Model parameters
+
+Chapter 11 Experimental Determination of Model
+Parameters
+\*[摘要](docs\info\web_CH11_Model-parameters.html) \*[圖說](docs\info\info_CH11_Model-parameters.html)
 :::
 ::::::
 

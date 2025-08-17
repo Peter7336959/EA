@@ -36,7 +36,6 @@ bibliography: references.bib
 ### 8. Presurized gas release
 
 ### 9. Flavoring Process
-
 :::
 ::::::
 

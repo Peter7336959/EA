@@ -960,5 +960,61 @@
     "title": "CH9",
     "section": "",
     "text": "立即危害：此製程存在嚴重的爆炸安全隱患，必須立即停止，直到風險被有效控制。\n\n改善方向：首要目標是將排氣管道內的濃度穩定控制在LEL的10%以下。任何能達成此目標的措施，通常也能同時降低作業區的勞工暴露。\n\n具體措施：\n\n工程控制：優先考慮增加排氣量，以稀釋管道濃度並提升捕集效率。\n\n管理控制：若工程手段受限，則需評估調整製程（如降低乙醇配方比例）的可行性。\n\n驗證：所有改善措施皆須透過重新評估與現場監測來驗證其成效。"
+  },
+  {
+    "objectID": "docs/web_CH10_Cleaning-process.html",
+    "href": "docs/web_CH10_Cleaning-process.html",
+    "title": "CH10",
+    "section": "",
+    "text": "評估一項使用4%醋酸溶液清潔面板的作業，透過3種不同情境WMB模式推估，量化工作者的暴露風險。"
+  },
+  {
+    "objectID": "docs/web_CH10_Cleaning-process.html#ih-mod-模擬-穩態",
+    "href": "docs/web_CH10_Cleaning-process.html#ih-mod-模擬-穩態",
+    "title": "CH10",
+    "section": "IH MOD 模擬 (穩態)",
+    "text": "IH MOD 模擬 (穩態)\nThe Well-Mixed Room Model with a Constant Emission Rate"
+  },
+  {
+    "objectID": "docs/web_CH10_Cleaning-process.html#ih-mod-模擬-3分鐘",
+    "href": "docs/web_CH10_Cleaning-process.html#ih-mod-模擬-3分鐘",
+    "title": "CH10",
+    "section": "IH MOD 模擬 (3分鐘)",
+    "text": "IH MOD 模擬 (3分鐘)\nWell-Mixed Room Model Decreasing Emission Rate, Spill Model\n\n\n\n3分鐘\n每3分鐘累加 (疊加原理)\n\n\n\n\n\n\n\n\nprepared by Peter Ho. 114.08.17"
+  },
+  {
+    "objectID": "modeling.html#container-uncovered-1",
+    "href": "modeling.html#container-uncovered-1",
+    "title": "Modeling",
+    "section": "5. container uncovered",
+    "text": "5. container uncovered\nCh5 Volatile Liquid Container Left Open\n*摘要 *圖說"
+  },
+  {
+    "objectID": "modeling.html#barrel-filling-1",
+    "href": "modeling.html#barrel-filling-1",
+    "title": "Modeling",
+    "section": "6. barrel filling",
+    "text": "6. barrel filling\nCh6 Barrel filling indoors\n*摘要 *圖說"
+  },
+  {
+    "objectID": "modeling.html#historic-exposure-1",
+    "href": "modeling.html#historic-exposure-1",
+    "title": "Modeling",
+    "section": "7. Historic exposure",
+    "text": "7. Historic exposure\nCh7 Historic exposure\n*摘要 *圖說"
+  },
+  {
+    "objectID": "modeling.html#pressurized-gas-release-1",
+    "href": "modeling.html#pressurized-gas-release-1",
+    "title": "Modeling",
+    "section": "8. Pressurized gas release",
+    "text": "8. Pressurized gas release\nCh8 Pressurized gas release\n*摘要 *圖說"
+  },
+  {
+    "objectID": "modeling.html#cleaning-process",
+    "href": "modeling.html#cleaning-process",
+    "title": "Modeling",
+    "section": "10. Cleaning Process",
+    "text": "10. Cleaning Process\nChapter 10 Cleaning With Product Containing Acetic Acid *摘要 *圖說"
   }
 ]

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Occupational Exposure Assessment – OH模式推估-Peter Ho</title>
+<title>CH15 – OH模式推估-Peter Ho</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,49 +20,29 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-236d90495073fb2ac8939117e3e83141.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-236d90495073fb2ac8939117e3e83141.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-236d90495073fb2ac8939117e3e83141.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a22a621782fdd859170ca60f7d4544f5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d522d8cef11a7881bdb5a5e2e5deaf07.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-a22a621782fdd859170ca60f7d4544f5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-236d90495073fb2ac8939117e3e83141.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-236d90495073fb2ac8939117e3e83141.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-236d90495073fb2ac8939117e3e83141.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-a22a621782fdd859170ca60f7d4544f5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-d522d8cef11a7881bdb5a5e2e5deaf07.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-a22a621782fdd859170ca60f7d4544f5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,13 +70,9 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
-<meta name="mermaid-theme" content="neutral">
-<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -268,7 +244,7 @@ div.csl-indent {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">OH模式推估-Peter Ho</span>
     </a>
   </div>
@@ -279,31 +255,31 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">首頁</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
+    <a class="nav-link" href="../../../news.html"> 
 <span class="menu-text">職安衛新知</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./modeling.html"> 
+    <a class="nav-link" href="../../../modeling.html"> 
 <span class="menu-text">模式推估</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./DRI.html"> 
+    <a class="nav-link" href="../../../DRI.html"> 
 <span class="menu-text">直讀式儀器與RPE</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./EA.html"> 
+    <a class="nav-link" href="../../../EA.html"> 
 <span class="menu-text">暴露風險</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./others.html"> 
+    <a class="nav-link" href="../../../others.html"> 
 <span class="menu-text">其他</span></a>
   </li>  
 </ul>
@@ -323,11 +299,19 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#目前初步完成推估模式介紹化學品暴露" id="toc-目前初步完成推估模式介紹化學品暴露" class="nav-link active" data-scroll-target="#目前初步完成推估模式介紹化學品暴露">1.目前初步完成推估模式介紹：(化學品暴露)</a></li>
-  <li><a href="#規劃展開推估模式介紹噪音與高氣溫" id="toc-規劃展開推估模式介紹噪音與高氣溫" class="nav-link" data-scroll-target="#規劃展開推估模式介紹噪音與高氣溫">2.規劃展開推估模式介紹：(噪音與高氣溫)</a></li>
-  <li><a href="#職業衛生領域" id="toc-職業衛生領域" class="nav-link" data-scroll-target="#職業衛生領域">職業衛生領域</a></li>
-  <li><a href="#modeling-軟體-ih-mod-教學影片" id="toc-modeling-軟體-ih-mod-教學影片" class="nav-link" data-scroll-target="#modeling-軟體-ih-mod-教學影片">modeling 軟體 (IH MOD )教學影片</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#第15章汽車維修廠氣膠溶劑使用之暴露評估-精簡摘要" id="toc-第15章汽車維修廠氣膠溶劑使用之暴露評估-精簡摘要" class="nav-link active" data-scroll-target="#第15章汽車維修廠氣膠溶劑使用之暴露評估-精簡摘要"><strong>第15章：汽車維修廠氣膠溶劑使用之暴露評估 (精簡摘要)</strong></a>
+  <ul class="collapse">
+  <li><a href="#情境與毒理學背景" id="toc-情境與毒理學背景" class="nav-link" data-scroll-target="#情境與毒理學背景"><strong>情境與毒理學背景</strong></a></li>
+  <li><a href="#暴露評估模型與結果" id="toc-暴露評估模型與結果" class="nav-link" data-scroll-target="#暴露評估模型與結果"><strong>暴露評估模型與結果</strong></a></li>
+  <li><a href="#全面風險評估與模式驗證" id="toc-全面風險評估與模式驗證" class="nav-link" data-scroll-target="#全面風險評估與模式驗證"><strong>全面風險評估與模式驗證</strong></a>
+  <ul class="collapse">
+  <li><a href="#與職業暴露容許標準oels的比較" id="toc-與職業暴露容許標準oels的比較" class="nav-link" data-scroll-target="#與職業暴露容許標準oels的比較"><strong>與職業暴露容許標準（OELs）的比較：</strong></a></li>
+  <li><a href="#模式表現與限制" id="toc-模式表現與限制" class="nav-link" data-scroll-target="#模式表現與限制"><strong>模式表現與限制：</strong></a></li>
+  <li><a href="#ih-mod-模擬" id="toc-ih-mod-模擬" class="nav-link" data-scroll-target="#ih-mod-模擬">IH MOD 模擬</a></li>
+  <li><a href="#建議" id="toc-建議" class="nav-link" data-scroll-target="#建議"><strong>建議</strong></a></li>
+  </ul></li>
+  <li><a href="#結論" id="toc-結論" class="nav-link" data-scroll-target="#結論"><strong>結論</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -337,7 +321,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Occupational Exposure Assessment</h1>
+<h1 class="title">CH15</h1>
 </div>
 
 
@@ -354,104 +338,108 @@ div.csl-indent {
 </header>
 
 
-<blockquote class="blockquote">
-<p>本識做網站主要係分享職業衛生概念與知識為主，職業安全議題可另尋其他資源或參考其他的網頁</p>
-<h3 id="本網站主要內容係來自2023-aiha-新書各章acase-b2023" class="anchored"><mark><u><strong>本網站主要內容係來自2023 AIHA 新書各章</strong><span class="citation" data-cites="acase-b2023">(<a href="#ref-acase-b2023" role="doc-biblioref">Keil 2023</a>)</span></u></mark></h3>
-</blockquote>
-<section id="目前初步完成推估模式介紹化學品暴露" class="level2">
-<h2 class="anchored" data-anchor-id="目前初步完成推估模式介紹化學品暴露">1.目前初步完成推估模式介紹：(化學品暴露)</h2>
-<div class="columns">
-<div class="column" style="width:45%;">
-<section id="why-modeling" class="level3">
-<h3 class="anchored" data-anchor-id="why-modeling">1. Why modeling</h3>
+<section id="第15章汽車維修廠氣膠溶劑使用之暴露評估-精簡摘要" class="level1">
+<h1><strong>第15章：汽車維修廠氣膠溶劑使用之暴露評估 (精簡摘要)</strong></h1>
+<section id="情境與毒理學背景" class="level2">
+<h2 class="anchored" data-anchor-id="情境與毒理學背景"><strong>情境與毒理學背景</strong></h2>
+<ul>
+<li>汽車維修廠常使用氣膠溶劑進行零件清潔與除油。<br>
+</li>
+<li>為減少揮發性有機化合物（VOCs）排放，氣膠溶劑配方中加入了正己烷。<br>
+</li>
+<li>正己烷經肝臟代謝產生神經毒性物質2,5-己二酮（2,5-HD）。<br>
+</li>
+<li>同時暴露於丙酮會顯著增強2,5-HD的神經毒性，這是一種「加乘作用」。<br>
+</li>
+<li>這表示單純依據單一物質的職業暴露標準（OEL）不足以保護勞工。</li>
+</ul>
 </section>
-<section id="gathering-information" class="level3">
-<h3 class="anchored" data-anchor-id="gathering-information">2. Gathering information</h3>
+<section id="暴露評估模型與結果" class="level2">
+<h2 class="anchored" data-anchor-id="暴露評估模型與結果"><strong>暴露評估模型與結果</strong></h2>
+<ul>
+<li>採用二暴露區模式（Two-Zone Model）評估暴露，該模型能區分靠近污染源的「近場」（Near-Field, NF）與房間其他區域的「遠場」（Far-Field, FF）濃度差異。<br>
+</li>
+<li>計算了兩種逸散源生成速率：
+<ul>
+<li><strong>連續性逸散 (G1)</strong>：模擬長期平均暴露，正己烷生成速率為 2,100 mg/min。<br>
+</li>
+<li><strong>間歇性逸散 (G2)</strong>：模擬短時間高峰暴露，正己烷生成速率為 88,000 mg/min。<br>
+</li>
+</ul></li>
+<li>模型假設：房間體積 400 m³，換氣率 1 ACH，近場體積 7.1 m³，近場與遠場空氣交換率 β 為 36.7 m³/min。<br>
+</li>
+<li><strong>模擬結果顯示：</strong>
+<ul>
+<li>連續性逸散情境下，105分鐘時量平均濃度（TWA）為 220 mg/m³。<br>
+</li>
+<li>間歇性逸散情境下，105分鐘 TWA 為 290 mg/m³，峰值濃度高達 2,450 mg/m³。</li>
+</ul></li>
+</ul>
 </section>
-<section id="volatile-liquid-spill" class="level3">
-<h3 class="anchored" data-anchor-id="volatile-liquid-spill">3. Volatile liquid spill</h3>
+<section id="全面風險評估與模式驗證" class="level2">
+<h2 class="anchored" data-anchor-id="全面風險評估與模式驗證"><strong>全面風險評估與模式驗證</strong></h2>
+<section id="與職業暴露容許標準oels的比較" class="level3">
+<h3 class="anchored" data-anchor-id="與職業暴露容許標準oels的比較"><strong>與職業暴露容許標準（OELs）的比較：</strong></h3>
+<ul>
+<li><strong>評估結果</strong>： 模擬的105分鐘時量平均濃度（TWA）在連續逸散情境下為220 mg/m³，間歇逸散情境下為290 mg/m³。這兩者均顯著超過了ACGIH TLV-TWA和台灣PEL-TWA（皆為176 mg/m³）。<br>
+</li>
+<li><strong>峰值濃度</strong>： 間歇逸散情境下的峰值濃度高達2,450 mg/m³，遠高於任何TWA標準，顯示出高度急性風險。<br>
+</li>
+<li><strong>關鍵毒理學考量</strong>： 由於丙酮會顯著加乘正己烷的神經毒性，單純依賴現有針對單一物質的OELs並不足以保護勞工。此混合暴露的危害遠超過各成分的簡單相加。即使濃度略低於OEL，也必須採取控制措施。</li>
+</ul>
 </section>
-<section id="sanding" class="level3">
-<h3 class="anchored" data-anchor-id="sanding">4. Sanding</h3>
+<section id="模式表現與限制" class="level3">
+<h3 class="anchored" data-anchor-id="模式表現與限制"><strong>模式表現與限制：</strong></h3>
+<ul>
+<li><strong>模式高估</strong>： 模式預測的任務平均濃度（220-290 mg/m³）顯著高於一份現場研究中測得的平均濃度（38 mg/m³）。<br>
+</li>
+<li><strong>診斷價值</strong>： 這種差異不應被視為模式錯誤，而是作為診斷工具，用於重新審視模式的假設（例如：逸散率是否過高，或換氣率是否過低）。模式的高估有助於理解暴露的關鍵驅動因素，並將模式轉化為一種調查工具。</li>
+</ul>
 </section>
-<section id="container-uncovered" class="level3">
-<h3 class="anchored" data-anchor-id="container-uncovered">5. Container uncovered</h3>
+<section id="ih-mod-模擬" class="level3">
+<h3 class="anchored" data-anchor-id="ih-mod-模擬">IH MOD 模擬</h3>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>連續逸散情境下為220 mg/m³</td>
+<td>間歇逸散情境下為290 mg/m³</td>
+</tr>
+<tr class="even">
+<td><img src="info/images/CH15-1.png" class="img-fluid"></td>
+<td><img src="info/images/CH15-2.png" class="img-fluid"></td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="barrel-filling" class="level3">
-<h3 class="anchored" data-anchor-id="barrel-filling">6. Barrel filling</h3>
+<section id="建議" class="level3">
+<h3 class="anchored" data-anchor-id="建議"><strong>建議</strong></h3>
+<ul>
+<li><strong>與OELs比較：</strong> 模擬的兩種情境下 TWA 均超過 ACGIH TLV-TWA 和台灣 PEL-TWA（176 mg/m³），且峰值濃度遠超標準，存在高度急性風險。<br>
+</li>
+<li><strong>毒理學考量：</strong> 由於正己烷與丙酮的加乘作用，現有單一物質的OELs不足以保護勞工健康。<br>
+</li>
+<li><strong>控制措施（依控制層級優先順序）：</strong>
+<ol type="1">
+<li><strong>替代：</strong> 優先使用「無正己烷」的煞車清潔劑，如正庚烷。<br>
+</li>
+<li><strong>工程控制：</strong> 導入局部排氣通風（LEV），改善整體換氣。<br>
+</li>
+<li><strong>行政管理控制：</strong> 限制溶劑使用區域和時間，加強危害通識訓練。<br>
+</li>
+<li><strong>個人防護具（PPE）：</strong> 佩戴配有有機蒸氣濾罐的空氣淨化式呼吸防護具，並制定濾罐更換時程；佩戴適當的化學防護手套。</li>
+</ol></li>
+</ul>
 </section>
-<section id="historic-exposure" class="level3">
-<h3 class="anchored" data-anchor-id="historic-exposure">7. Historic exposure</h3>
 </section>
-<section id="presurized-gas-release" class="level3">
-<h3 class="anchored" data-anchor-id="presurized-gas-release">8. Presurized gas release</h3>
-</section>
-</div><div class="column" style="width:10%;">
-<!-- empty column to create gap -->
-</div><div class="column" style="width:45%;">
-<section id="flavoring-process" class="level3">
-<h3 class="anchored" data-anchor-id="flavoring-process">9. Flavoring Process</h3>
-</section>
-<section id="cleaning-process" class="level3">
-<h3 class="anchored" data-anchor-id="cleaning-process">10. Cleaning Process</h3>
-</section>
-<section id="model-parameters" class="level3">
-<h3 class="anchored" data-anchor-id="model-parameters">11. Model parameters</h3>
-</section>
-<section id="monte-carlo-modeling" class="level3">
-<h3 class="anchored" data-anchor-id="monte-carlo-modeling">12. Monte Carlo modeling</h3>
-</section>
-<section id="mixture-modeling" class="level3">
-<h3 class="anchored" data-anchor-id="mixture-modeling">13. Mixture modeling</h3>
-</section>
-<section id="oxygen-deficiency" class="level3">
-<h3 class="anchored" data-anchor-id="oxygen-deficiency">14. Oxygen Deficiency</h3>
-</section>
-<section id="autoshop-solvents" class="level3">
-<h3 class="anchored" data-anchor-id="autoshop-solvents">15. Autoshop solvents</h3>
-</section>
-</div>
-</div>
-</section>
-<section id="規劃展開推估模式介紹噪音與高氣溫" class="level2">
-<h2 class="anchored" data-anchor-id="規劃展開推估模式介紹噪音與高氣溫">2.規劃展開推估模式介紹：(噪音與高氣溫)</h2>
-</section>
-<section id="職業衛生領域" class="level2 border">
-<h2 class="anchored" data-anchor-id="職業衛生領域">職業衛生領域</h2>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  A[健康危害預期] --&gt; B(辨識)
-  B ==&gt; C{評估}
-  C --&gt; D[控制] 
-  C --&gt; E[確認] 
+<section id="結論" class="level2">
+<h2 class="anchored" data-anchor-id="結論"><strong>結論</strong></h2>
+<p>本案例強調選擇正確的暴露模式（雙區模式）、深入理解毒理學交互作用、將模式作為調查工具來識別關鍵暴露驅動因素，以及實施具體的控制措施（尤其是從源頭替代）對於職業衛生風險評估的重要性。</p>
 
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</section>
-<section id="modeling-軟體-ih-mod-教學影片" class="level2 border">
-<h2 class="anchored" data-anchor-id="modeling-軟體-ih-mod-教學影片">modeling 軟體 (IH MOD )教學影片</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/cSIlqi8hk4E" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-<section id="references" class="level3 unnumbered">
-
-
-
 
 </section>
+</section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-acase-b2023" class="csl-entry" role="listitem">
-Keil, Chris, ed. 2023. <em>A case-based introduction to modeling occupational inhalation exposures to chemicals</em>. Falls Church, VA: AIHA.
-</div>
-</div></section></div></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

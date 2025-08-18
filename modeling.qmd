@@ -33,19 +33,19 @@ Ch3 Volatile Liquid Spill
 
 \*⚛️[摘要](docs\info\web_CH3-Volatile-Liquid-Spill.html) \*📶 [圖](docs\info\info_CH3%20volatile%20liquid%20spill.html)
 
-## *4. sanding EA by LEV*
+## 4. Sanding EA
 
 *Ch4 Local Exhaust Ventilation for a Sanding*
 
 \*🕎[摘要](docs\info\web_CH4-Sanding.html) \*⚧️[圖說](docs\info\info_CH4_Sanding.html)
 
-## 5. container uncovered
+## 5. Container uncovered
 
 Ch5 Volatile Liquid Container Left Open
 
 \*[摘要](docs\info\web_CH5_container-left-open.html) \*[圖說](docs\info\info_CH5_container%20left%20open.html)
 
-## 6. barrel filling
+## 6. Barrel filling
 
 Ch6 Barrel filling indoors
 
@@ -96,6 +96,16 @@ Chapter 12 Organic Chemistry Teaching Lab Exposure and a First Exploration of Mo
 Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations
 
 \*[摘要](docs\info\web_CH13_Mixture-modeling.html) \*[圖說](docs\info\info_CH13_Mixture-modeling.html)
+
+## 14. Oxygen Deficiency
+
+Chapter 14 Oxygen Deficiency Hazard in a Storage Tank
+
+## 15. Autoshop solvents
+
+Chapter 15 Use of Aerosol Solvents in an Auto Shop
+
+\*[摘要](docs\info\web_CH15_Autoshop-solvent.html) \*[圖說](docs\info\info_CH15_Autoshop-solvent.html)
 :::
 ::::::
 

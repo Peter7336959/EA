@@ -545,15 +545,15 @@
     "objectID": "modeling.html#container-uncovered",
     "href": "modeling.html#container-uncovered",
     "title": "Modeling",
-    "section": "5. container uncovered",
-    "text": "5. container uncovered\nCh5 Volatile Liquid Container Left Open\n*摘要 *圖說"
+    "section": "5. Container uncovered",
+    "text": "5. Container uncovered\nCh5 Volatile Liquid Container Left Open\n*摘要 *圖說"
   },
   {
     "objectID": "modeling.html#barrel-filling",
     "href": "modeling.html#barrel-filling",
     "title": "Modeling",
-    "section": "6. barrel filling",
-    "text": "6. barrel filling\nCh6 Barrel filling indoors\n*摘要 *圖說"
+    "section": "6. Barrel filling",
+    "text": "6. Barrel filling\nCh6 Barrel filling indoors\n*摘要 *圖說"
   },
   {
     "objectID": "index.html#gathering-information",
@@ -623,7 +623,7 @@
     "href": "index.html#目前初步完成推估模式介紹化學品暴露",
     "title": "Occupational Exposure Assessment",
     "section": "1.目前初步完成推估模式介紹：(化學品暴露)",
-    "text": "1.目前初步完成推估模式介紹：(化學品暴露)\n\n\n\n1. Why modeling\n\n\n2. Gathering information\n\n\n3. Volatile liquid spill\n\n\n4. Sanding\n\n\n5. Container uncovered\n\n\n6. Barrel filling\n\n\n7. Historic exposure\n\n\n8. Presurized gas release\n\n\n\n\n\n9. Flavoring Process\n\n\n10. Cleaning Process\n\n\n11. Model parameters\n\n\n12. Monte Carlo modeling\n\n\n13. Mixture modeling"
+    "text": "1.目前初步完成推估模式介紹：(化學品暴露)\n\n\n\n1. Why modeling\n\n\n2. Gathering information\n\n\n3. Volatile liquid spill\n\n\n4. Sanding\n\n\n5. Container uncovered\n\n\n6. Barrel filling\n\n\n7. Historic exposure\n\n\n8. Presurized gas release\n\n\n\n\n\n9. Flavoring Process\n\n\n10. Cleaning Process\n\n\n11. Model parameters\n\n\n12. Monte Carlo modeling\n\n\n13. Mixture modeling\n\n\n14. Oxygen Deficiency\n\n\n15. Autoshop solvents"
   },
   {
     "objectID": "index.html#規劃展開推估模式介紹噪音與高氣溫",
@@ -1289,5 +1289,180 @@
     "title": "CH13",
     "section": "",
     "text": "綜合判斷，對於單次、短暫的消費者使用情境，此產品的暴露風險低且可接受。然而，由於預測濃度超過了慢性的健康基準(RfC)，對於需要每日頻繁操作的職業人員（如汽車維修技師），其長期風險則需進一步的審慎評估。\n本案例完整展示了IHMOD 2.0作為現代工業衛生工具的價值：它不僅能處理複雜的混合物情境，實現前瞻性的「設計安全」評估，更能透過蒙地卡羅模擬來量化不確定性，為風險管理提供更穩健、更具信服力的科學依據。\n———————\n參考資料：Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations prepared by Peter Ho. 114.08.18"
+  },
+  {
+    "objectID": "modeling.html#autoshop-solvents",
+    "href": "modeling.html#autoshop-solvents",
+    "title": "Modeling",
+    "section": "15. Autoshop solvents",
+    "text": "15. Autoshop solvents\nChapter 15 Use of Aerosol Solvents in an Auto Shop\n*摘要 *圖說"
+  },
+  {
+    "objectID": "docs/web_CH15_Autoshop-solvent.html",
+    "href": "docs/web_CH15_Autoshop-solvent.html",
+    "title": "CH15",
+    "section": "",
+    "text": "汽車維修廠常使用氣膠溶劑進行零件清潔與除油。\n\n為減少揮發性有機化合物（VOCs）排放，氣膠溶劑配方中加入了正己烷。\n\n正己烷經肝臟代謝產生神經毒性物質2,5-己二酮（2,5-HD）。\n\n同時暴露於丙酮會顯著增強2,5-HD的神經毒性，這是一種「加乘作用」。\n\n這表示單純依據單一物質的職業暴露標準（OEL）不足以保護勞工。\n\n\n\n\n\n採用二暴露區模式（Two-Zone Model）評估暴露，該模型能區分靠近污染源的「近場」（Near-Field, NF）與房間其他區域的「遠場」（Far-Field, FF）濃度差異。\n\n計算了兩種逸散源生成速率：\n\n連續性逸散 (G1)：模擬長期平均暴露，正己烷生成速率為 2,100 mg/min。\n\n間歇性逸散 (G2)：模擬短時間高峰暴露，正己烷生成速率為 88,000 mg/min。\n\n\n模型假設：房間體積 400 m³，換氣率 1 ACH，近場體積 7.1 m³，近場與遠場空氣交換率 β 為 36.7 m³/min。\n\n模擬結果顯示：\n\n連續性逸散情境下，105分鐘時量平均濃度（TWA）為 220 mg/m³。\n\n間歇性逸散情境下，105分鐘 TWA 為 290 mg/m³，峰值濃度高達 2,450 mg/m³。\n\n\n\n\n\n\n\n\n評估結果： 模擬的105分鐘時量平均濃度（TWA）在連續逸散情境下為220 mg/m³，間歇逸散情境下為290 mg/m³。這兩者均顯著超過了ACGIH TLV-TWA和台灣PEL-TWA（皆為176 mg/m³）。\n\n峰值濃度： 間歇逸散情境下的峰值濃度高達2,450 mg/m³，遠高於任何TWA標準，顯示出高度急性風險。\n\n關鍵毒理學考量： 由於丙酮會顯著加乘正己烷的神經毒性，單純依賴現有針對單一物質的OELs並不足以保護勞工。此混合暴露的危害遠超過各成分的簡單相加。即使濃度略低於OEL，也必須採取控制措施。\n\n\n\n\n\n模式高估： 模式預測的任務平均濃度（220-290 mg/m³）顯著高於一份現場研究中測得的平均濃度（38 mg/m³）。\n\n診斷價值： 這種差異不應被視為模式錯誤，而是作為診斷工具，用於重新審視模式的假設（例如：逸散率是否過高，或換氣率是否過低）。模式的高估有助於理解暴露的關鍵驅動因素，並將模式轉化為一種調查工具。\n\n\n\n\n\n\n\n連續逸散情境下為220 mg/m³\n間歇逸散情境下為290 mg/m³\n\n\n\n\n\n\n\n\n\n\n\n與OELs比較： 模擬的兩種情境下 TWA 均超過 ACGIH TLV-TWA 和台灣 PEL-TWA（176 mg/m³），且峰值濃度遠超標準，存在高度急性風險。\n\n毒理學考量： 由於正己烷與丙酮的加乘作用，現有單一物質的OELs不足以保護勞工健康。\n\n控制措施（依控制層級優先順序）：\n\n替代： 優先使用「無正己烷」的煞車清潔劑，如正庚烷。\n\n工程控制： 導入局部排氣通風（LEV），改善整體換氣。\n\n行政管理控制： 限制溶劑使用區域和時間，加強危害通識訓練。\n\n個人防護具（PPE）： 佩戴配有有機蒸氣濾罐的空氣淨化式呼吸防護具，並制定濾罐更換時程；佩戴適當的化學防護手套。\n\n\n\n\n\n\n本案例強調選擇正確的暴露模式（雙區模式）、深入理解毒理學交互作用、將模式作為調查工具來識別關鍵暴露驅動因素，以及實施具體的控制措施（尤其是從源頭替代）對於職業衛生風險評估的重要性。"
+  },
+  {
+    "objectID": "docs/web_CH15_Autoshop-solvent.html#情境與毒理學背景",
+    "href": "docs/web_CH15_Autoshop-solvent.html#情境與毒理學背景",
+    "title": "CH15",
+    "section": "",
+    "text": "汽車維修廠常使用氣膠溶劑進行零件清潔與除油。\n\n為減少揮發性有機化合物（VOCs）排放，氣膠溶劑配方中加入了正己烷。\n\n正己烷經肝臟代謝產生神經毒性物質2,5-己二酮（2,5-HD）。\n\n同時暴露於丙酮會顯著增強2,5-HD的神經毒性，這是一種「加乘作用」。\n\n這表示單純依據單一物質的職業暴露標準（OEL）不足以保護勞工。"
+  },
+  {
+    "objectID": "docs/web_CH15_Autoshop-solvent.html#暴露評估模型與結果",
+    "href": "docs/web_CH15_Autoshop-solvent.html#暴露評估模型與結果",
+    "title": "CH15",
+    "section": "",
+    "text": "採用二暴露區模式（Two-Zone Model）評估暴露，該模型能區分靠近污染源的「近場」（Near-Field, NF）與房間其他區域的「遠場」（Far-Field, FF）濃度差異。\n\n計算了兩種逸散源生成速率：\n\n連續性逸散 (G1)：模擬長期平均暴露，正己烷生成速率為 2,100 mg/min。\n\n間歇性逸散 (G2)：模擬短時間高峰暴露，正己烷生成速率為 88,000 mg/min。\n\n\n模型假設：房間體積 400 m³，換氣率 1 ACH，近場體積 7.1 m³，近場與遠場空氣交換率 β 為 36.7 m³/min。\n\n模擬結果顯示：\n\n連續性逸散情境下，105分鐘時量平均濃度（TWA）為 220 mg/m³。\n\n間歇性逸散情境下，105分鐘 TWA 為 290 mg/m³，峰值濃度高達 2,450 mg/m³。"
+  },
+  {
+    "objectID": "docs/web_CH15_Autoshop-solvent.html#全面風險評估與模式驗證",
+    "href": "docs/web_CH15_Autoshop-solvent.html#全面風險評估與模式驗證",
+    "title": "CH15",
+    "section": "",
+    "text": "評估結果： 模擬的105分鐘時量平均濃度（TWA）在連續逸散情境下為220 mg/m³，間歇逸散情境下為290 mg/m³。這兩者均顯著超過了ACGIH TLV-TWA和台灣PEL-TWA（皆為176 mg/m³）。\n\n峰值濃度： 間歇逸散情境下的峰值濃度高達2,450 mg/m³，遠高於任何TWA標準，顯示出高度急性風險。\n\n關鍵毒理學考量： 由於丙酮會顯著加乘正己烷的神經毒性，單純依賴現有針對單一物質的OELs並不足以保護勞工。此混合暴露的危害遠超過各成分的簡單相加。即使濃度略低於OEL，也必須採取控制措施。\n\n\n\n\n\n模式高估： 模式預測的任務平均濃度（220-290 mg/m³）顯著高於一份現場研究中測得的平均濃度（38 mg/m³）。\n\n診斷價值： 這種差異不應被視為模式錯誤，而是作為診斷工具，用於重新審視模式的假設（例如：逸散率是否過高，或換氣率是否過低）。模式的高估有助於理解暴露的關鍵驅動因素，並將模式轉化為一種調查工具。\n\n\n\n\n\n\n\n連續逸散情境下為220 mg/m³\n間歇逸散情境下為290 mg/m³\n\n\n\n\n\n\n\n\n\n\n\n與OELs比較： 模擬的兩種情境下 TWA 均超過 ACGIH TLV-TWA 和台灣 PEL-TWA（176 mg/m³），且峰值濃度遠超標準，存在高度急性風險。\n\n毒理學考量： 由於正己烷與丙酮的加乘作用，現有單一物質的OELs不足以保護勞工健康。\n\n控制措施（依控制層級優先順序）：\n\n替代： 優先使用「無正己烷」的煞車清潔劑，如正庚烷。\n\n工程控制： 導入局部排氣通風（LEV），改善整體換氣。\n\n行政管理控制： 限制溶劑使用區域和時間，加強危害通識訓練。\n\n個人防護具（PPE）： 佩戴配有有機蒸氣濾罐的空氣淨化式呼吸防護具，並制定濾罐更換時程；佩戴適當的化學防護手套。"
+  },
+  {
+    "objectID": "docs/web_CH15_Autoshop-solvent.html#結論",
+    "href": "docs/web_CH15_Autoshop-solvent.html#結論",
+    "title": "CH15",
+    "section": "",
+    "text": "本案例強調選擇正確的暴露模式（雙區模式）、深入理解毒理學交互作用、將模式作為調查工具來識別關鍵暴露驅動因素，以及實施具體的控制措施（尤其是從源頭替代）對於職業衛生風險評估的重要性。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html",
+    "href": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html",
+    "title": "CH12",
+    "section": "",
+    "text": "以大學化學實驗室的二氯甲烷暴露為例，展示如何從初步的確定性(定值)模型，逐步演進至更精確的蒙地卡羅機率模型，以全面評估暴露風險。\n\n\n首先，我們使用穩態單區均勻混合模型 WMB (Css​=G/Q) 進行初步評估。根據實驗室體積、通風量，並假設所有學生的溶劑完全蒸發，計算出的穩態濃度約為 110 mg/m³。這個結果高於職業暴露限值 (PEL) 的 87 mg/m³，顯示存在潛在風險，需要進一步分析。\n\n\n\n然而，現實中的參數並非固定不變。學生人數、溶劑實際蒸發量及通風效率都會變動。若考慮這些變數的最佳與最差情境，會得到一個從 6.7 mg/m³ 到 106 mg/m³ 的極寬濃度範圍。這個結果雖然點出了不確定性，但因範圍過大，無法有效判斷真實風險發生的可能性，決策參考價值有限。\n\n\n\n為了解決此問題，我們引入蒙地卡羅模擬。此方法不再使用單一固定值，而是為各個變動參數（如學生人數、蒸發率、通風量）設定機率分佈。透過上萬次的隨機抽樣與計算，模型最終生成一個暴露濃度的完整機率分佈圖。\n\n\n\n\n\n\n\n\n\n\n\n最佳\n最糟\nMonte Carlo\n\n\n\n\n\n\n\n\n\n\n\n模擬結果顯示，暴露濃度的第95百分位數 (95th Percentile) 為 57 mg/m³。這意味著在所有可能的情境組合下，有95%的機率，實驗室的平均濃度會低於此數值，且該值明顯低於87 mg/m³的暴露限值。\n這個結論比最差情境分析更具參考價值，它告訴我們：儘管極端高濃度可能發生，但其機率很低。整體而言，此暴露情境的風險應屬可接受範圍。(仍須溝通與加強教育訓練改善行為)\nprepared by Peter Ho. 114.08.18"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#初步評估與警訊",
+    "href": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#初步評估與警訊",
+    "title": "CH12",
+    "section": "",
+    "text": "首先，我們使用穩態單區均勻混合模型 WMB (Css​=G/Q) 進行初步評估。根據實驗室體積、通風量，並假設所有學生的溶劑完全蒸發，計算出的穩態濃度約為 110 mg/m³。這個結果高於職業暴露限值 (PEL) 的 87 mg/m³，顯示存在潛在風險，需要進一步分析。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#考量變異性與其侷限",
+    "href": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#考量變異性與其侷限",
+    "title": "CH12",
+    "section": "",
+    "text": "然而，現實中的參數並非固定不變。學生人數、溶劑實際蒸發量及通風效率都會變動。若考慮這些變數的最佳與最差情境，會得到一個從 6.7 mg/m³ 到 106 mg/m³ 的極寬濃度範圍。這個結果雖然點出了不確定性，但因範圍過大，無法有效判斷真實風險發生的可能性，決策參考價值有限。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#蒙地卡羅模擬更真實的風險圖像",
+    "href": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#蒙地卡羅模擬更真實的風險圖像",
+    "title": "CH12",
+    "section": "",
+    "text": "為了解決此問題，我們引入蒙地卡羅模擬。此方法不再使用單一固定值，而是為各個變動參數（如學生人數、蒸發率、通風量）設定機率分佈。透過上萬次的隨機抽樣與計算，模型最終生成一個暴露濃度的完整機率分佈圖。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#ih-mod-模擬",
+    "href": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#ih-mod-模擬",
+    "title": "CH12",
+    "section": "",
+    "text": "最佳\n最糟\nMonte Carlo"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#最終結論風險可控",
+    "href": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#最終結論風險可控",
+    "title": "CH12",
+    "section": "",
+    "text": "模擬結果顯示，暴露濃度的第95百分位數 (95th Percentile) 為 57 mg/m³。這意味著在所有可能的情境組合下，有95%的機率，實驗室的平均濃度會低於此數值，且該值明顯低於87 mg/m³的暴露限值。\n這個結論比最差情境分析更具參考價值，它告訴我們：儘管極端高濃度可能發生，但其機率很低。整體而言，此暴露情境的風險應屬可接受範圍。(仍須溝通與加強教育訓練改善行為)\nprepared by Peter Ho. 114.08.18"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH13_Mixture-modeling.html",
+    "href": "docs/info/Rmd/web_CH13_Mixture-modeling.html",
+    "title": "CH13",
+    "section": "",
+    "text": "應用IHMOD 2.0軟體，評估在車庫內傾倒含2-丁氧基乙醇(2BE)的擋風玻璃清洗液所產生的消費者暴露風險。此評估的核心挑戰在於該清洗液為非理想的化學混合物，而非純物質。\n\n\n對於水與2BE的非理想混合物，不能直接使用傳統的拉午耳定律，否則將嚴重低估風險。本案例的關鍵是引入活性係數 (γ) 來校正分子間的交互作用力。透過UNIFAC方法計算，2BE在此水溶液中的活性係數高達 7.31，這表示其真實蒸發趨勢是理想模型預測的7倍以上。經此校正後，計算出的蒸氣生成率 (G) 約為 20 mg/min，此數值是後續暴露模擬的關鍵輸入。\n\n\n\n為模擬污染物在空間中的濃度梯度，本評估採用了比傳統「完全混合模型」更真實的雙區（近場／遠場）模型，將空間劃分為作業人員呼吸區周圍的「近場」與其餘空間的「遠場」。\n運用IHMOD 2.0軟體進行了兩種分析：\n\n決定論分析：使用單一「點估計值」輸入參數，得到一個特定的預測結果。\n\n機率性（蒙地卡羅）分析：為關鍵輸入參數（如生成率、通風率）設定機率分佈，進行上萬次模擬，從而得到一個暴露濃度的可能性分佈，更完整地體現真實世界的不確定性。\n\n\n\n\n兩種分析方法都聚焦於作業期間（前30秒）的近場峰值濃度：\n\n決定論峰值濃度：預測為 1.98 mg/m³。\n\n機率性第95百分位數峰值濃度：作為「合理最壞情況」的估計，預測為 2.5 mg/m³。\n\n在風險判斷上，將這些預測值與健康基準比較：\n\n職業暴露限值 (OELs)：兩種方法的預測結果均遠低於最嚴格的NIOSH建議限值 (24 mg/m³)。\n\n環境參考濃度 (EPA RfC)：預測結果超過了針對一般民眾終身暴露所設的RfC值 (1.6 mg/m³)。\n\n\n\n\n\n\n\n決定論峰值\n機率論峰值\n\n\n\n\n\n\n\n\n\n\n綜合判斷，對於單次、短暫的消費者使用情境，此產品的暴露風險低且可接受。然而，由於預測濃度超過了慢性的健康基準(RfC)，對於需要每日頻繁操作的職業人員（如汽車維修技師），其長期風險則需進一步的審慎評估。\n本案例完整展示了IHMOD 2.0作為現代工業衛生工具的價值：它不僅能處理複雜的混合物情境，實現前瞻性的「設計安全」評估，更能透過蒙地卡羅模擬來量化不確定性，為風險管理提供更穩健、更具信服力的科學依據。\n———————\n參考資料：Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations prepared by Peter Ho. 114.08.18"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH13_Mixture-modeling.html#關鍵挑戰計算混合物生成率-g",
+    "href": "docs/info/Rmd/web_CH13_Mixture-modeling.html#關鍵挑戰計算混合物生成率-g",
+    "title": "CH13",
+    "section": "",
+    "text": "對於水與2BE的非理想混合物，不能直接使用傳統的拉午耳定律，否則將嚴重低估風險。本案例的關鍵是引入活性係數 (γ) 來校正分子間的交互作用力。透過UNIFAC方法計算，2BE在此水溶液中的活性係數高達 7.31，這表示其真實蒸發趨勢是理想模型預測的7倍以上。經此校正後，計算出的蒸氣生成率 (G) 約為 20 mg/min，此數值是後續暴露模擬的關鍵輸入。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH13_Mixture-modeling.html#模型與分析方法",
+    "href": "docs/info/Rmd/web_CH13_Mixture-modeling.html#模型與分析方法",
+    "title": "CH13",
+    "section": "",
+    "text": "為模擬污染物在空間中的濃度梯度，本評估採用了比傳統「完全混合模型」更真實的雙區（近場／遠場）模型，將空間劃分為作業人員呼吸區周圍的「近場」與其餘空間的「遠場」。\n運用IHMOD 2.0軟體進行了兩種分析：\n\n決定論分析：使用單一「點估計值」輸入參數，得到一個特定的預測結果。\n\n機率性（蒙地卡羅）分析：為關鍵輸入參數（如生成率、通風率）設定機率分佈，進行上萬次模擬，從而得到一個暴露濃度的可能性分佈，更完整地體現真實世界的不確定性。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH13_Mixture-modeling.html#核心結果與風險判斷",
+    "href": "docs/info/Rmd/web_CH13_Mixture-modeling.html#核心結果與風險判斷",
+    "title": "CH13",
+    "section": "",
+    "text": "兩種分析方法都聚焦於作業期間（前30秒）的近場峰值濃度：\n\n決定論峰值濃度：預測為 1.98 mg/m³。\n\n機率性第95百分位數峰值濃度：作為「合理最壞情況」的估計，預測為 2.5 mg/m³。\n\n在風險判斷上，將這些預測值與健康基準比較：\n\n職業暴露限值 (OELs)：兩種方法的預測結果均遠低於最嚴格的NIOSH建議限值 (24 mg/m³)。\n\n環境參考濃度 (EPA RfC)：預測結果超過了針對一般民眾終身暴露所設的RfC值 (1.6 mg/m³)。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH13_Mixture-modeling.html#ih-mod-模擬",
+    "href": "docs/info/Rmd/web_CH13_Mixture-modeling.html#ih-mod-模擬",
+    "title": "CH13",
+    "section": "",
+    "text": "決定論峰值\n機率論峰值"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH13_Mixture-modeling.html#結論",
+    "href": "docs/info/Rmd/web_CH13_Mixture-modeling.html#結論",
+    "title": "CH13",
+    "section": "",
+    "text": "綜合判斷，對於單次、短暫的消費者使用情境，此產品的暴露風險低且可接受。然而，由於預測濃度超過了慢性的健康基準(RfC)，對於需要每日頻繁操作的職業人員（如汽車維修技師），其長期風險則需進一步的審慎評估。\n本案例完整展示了IHMOD 2.0作為現代工業衛生工具的價值：它不僅能處理複雜的混合物情境，實現前瞻性的「設計安全」評估，更能透過蒙地卡羅模擬來量化不確定性，為風險管理提供更穩健、更具信服力的科學依據。\n———————\n參考資料：Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations prepared by Peter Ho. 114.08.18"
+  },
+  {
+    "objectID": "modeling.html#oxygen-deficiency",
+    "href": "modeling.html#oxygen-deficiency",
+    "title": "Modeling",
+    "section": "14. Oxygen Deficiency",
+    "text": "14. Oxygen Deficiency\nChapter 14 Oxygen Deficiency Hazard in a Storage Tank"
+  },
+  {
+    "objectID": "modeling.html#sanding-ea",
+    "href": "modeling.html#sanding-ea",
+    "title": "Modeling",
+    "section": "4. Sanding EA",
+    "text": "4. Sanding EA\nCh4 Local Exhaust Ventilation for a Sanding\n*🕎摘要 *⚧️圖說"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH15_Autoshop-solvent.html",
+    "href": "docs/info/Rmd/web_CH15_Autoshop-solvent.html",
+    "title": "CH15",
+    "section": "",
+    "text": "汽車維修廠常使用氣膠溶劑進行零件清潔與除油。\n\n為減少揮發性有機化合物（VOCs）排放，氣膠溶劑配方中加入了正己烷。\n\n正己烷經肝臟代謝產生神經毒性物質2,5-己二酮（2,5-HD）。\n\n同時暴露於丙酮會顯著增強2,5-HD的神經毒性，這是一種「加乘作用」。\n\n這表示單純依據單一物質的職業暴露標準（OEL）不足以保護勞工。\n\n\n\n\n\n採用二暴露區模式（Two-Zone Model）評估暴露，該模型能區分靠近污染源的「近場」（Near-Field, NF）與房間其他區域的「遠場」（Far-Field, FF）濃度差異。\n\n計算了兩種逸散源生成速率：\n\n連續性逸散 (G1)：模擬長期平均暴露，正己烷生成速率為 2,100 mg/min。\n\n間歇性逸散 (G2)：模擬短時間高峰暴露，正己烷生成速率為 88,000 mg/min。\n\n\n模型假設：房間體積 400 m³，換氣率 1 ACH，近場體積 7.1 m³，近場與遠場空氣交換率 β 為 36.7 m³/min。\n\n模擬結果顯示：\n\n連續性逸散情境下，105分鐘時量平均濃度（TWA）為 220 mg/m³。\n\n間歇性逸散情境下，105分鐘 TWA 為 290 mg/m³，峰值濃度高達 2,450 mg/m³。\n\n\n\n\n\n\n\n\n評估結果： 模擬的105分鐘時量平均濃度（TWA）在連續逸散情境下為220 mg/m³，間歇逸散情境下為290 mg/m³。這兩者均顯著超過了ACGIH TLV-TWA和台灣PEL-TWA（皆為176 mg/m³）。\n\n峰值濃度： 間歇逸散情境下的峰值濃度高達2,450 mg/m³，遠高於任何TWA標準，顯示出高度急性風險。\n\n關鍵毒理學考量： 由於丙酮會顯著加乘正己烷的神經毒性，單純依賴現有針對單一物質的OELs並不足以保護勞工。此混合暴露的危害遠超過各成分的簡單相加。即使濃度略低於OEL，也必須採取控制措施。\n\n\n\n\n\n模式高估： 模式預測的任務平均濃度（220-290 mg/m³）顯著高於一份現場研究中測得的平均濃度（38 mg/m³）。\n\n診斷價值： 這種差異不應被視為模式錯誤，而是作為診斷工具，用於重新審視模式的假設（例如：逸散率是否過高，或換氣率是否過低）。模式的高估有助於理解暴露的關鍵驅動因素，並將模式轉化為一種調查工具。\n\n\n\n\n\n\n\n連續逸散情境下為220 mg/m³\n間歇逸散情境下為290 mg/m³\n\n\n\n\n\n\n\n\n\n\n\n與OELs比較： 模擬的兩種情境下 TWA 均超過 ACGIH TLV-TWA 和台灣 PEL-TWA（176 mg/m³），且峰值濃度遠超標準，存在高度急性風險。\n\n毒理學考量： 由於正己烷與丙酮的加乘作用，現有單一物質的OELs不足以保護勞工健康。\n\n控制措施（依控制層級優先順序）：\n\n替代： 優先使用「無正己烷」的煞車清潔劑，如正庚烷。\n\n工程控制： 導入局部排氣通風（LEV），改善整體換氣。\n\n行政管理控制： 限制溶劑使用區域和時間，加強危害通識訓練。\n\n個人防護具（PPE）： 佩戴配有有機蒸氣濾罐的空氣淨化式呼吸防護具，並制定濾罐更換時程；佩戴適當的化學防護手套。\n\n\n\n\n\n\n本案例強調選擇正確的暴露模式（雙區模式）、深入理解毒理學交互作用、將模式作為調查工具來識別關鍵暴露驅動因素，以及實施具體的控制措施（尤其是從源頭替代）對於職業衛生風險評估的重要性。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH15_Autoshop-solvent.html#情境與毒理學背景",
+    "href": "docs/info/Rmd/web_CH15_Autoshop-solvent.html#情境與毒理學背景",
+    "title": "CH15",
+    "section": "",
+    "text": "汽車維修廠常使用氣膠溶劑進行零件清潔與除油。\n\n為減少揮發性有機化合物（VOCs）排放，氣膠溶劑配方中加入了正己烷。\n\n正己烷經肝臟代謝產生神經毒性物質2,5-己二酮（2,5-HD）。\n\n同時暴露於丙酮會顯著增強2,5-HD的神經毒性，這是一種「加乘作用」。\n\n這表示單純依據單一物質的職業暴露標準（OEL）不足以保護勞工。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH15_Autoshop-solvent.html#暴露評估模型與結果",
+    "href": "docs/info/Rmd/web_CH15_Autoshop-solvent.html#暴露評估模型與結果",
+    "title": "CH15",
+    "section": "",
+    "text": "採用二暴露區模式（Two-Zone Model）評估暴露，該模型能區分靠近污染源的「近場」（Near-Field, NF）與房間其他區域的「遠場」（Far-Field, FF）濃度差異。\n\n計算了兩種逸散源生成速率：\n\n連續性逸散 (G1)：模擬長期平均暴露，正己烷生成速率為 2,100 mg/min。\n\n間歇性逸散 (G2)：模擬短時間高峰暴露，正己烷生成速率為 88,000 mg/min。\n\n\n模型假設：房間體積 400 m³，換氣率 1 ACH，近場體積 7.1 m³，近場與遠場空氣交換率 β 為 36.7 m³/min。\n\n模擬結果顯示：\n\n連續性逸散情境下，105分鐘時量平均濃度（TWA）為 220 mg/m³。\n\n間歇性逸散情境下，105分鐘 TWA 為 290 mg/m³，峰值濃度高達 2,450 mg/m³。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH15_Autoshop-solvent.html#全面風險評估與模式驗證",
+    "href": "docs/info/Rmd/web_CH15_Autoshop-solvent.html#全面風險評估與模式驗證",
+    "title": "CH15",
+    "section": "",
+    "text": "評估結果： 模擬的105分鐘時量平均濃度（TWA）在連續逸散情境下為220 mg/m³，間歇逸散情境下為290 mg/m³。這兩者均顯著超過了ACGIH TLV-TWA和台灣PEL-TWA（皆為176 mg/m³）。\n\n峰值濃度： 間歇逸散情境下的峰值濃度高達2,450 mg/m³，遠高於任何TWA標準，顯示出高度急性風險。\n\n關鍵毒理學考量： 由於丙酮會顯著加乘正己烷的神經毒性，單純依賴現有針對單一物質的OELs並不足以保護勞工。此混合暴露的危害遠超過各成分的簡單相加。即使濃度略低於OEL，也必須採取控制措施。\n\n\n\n\n\n模式高估： 模式預測的任務平均濃度（220-290 mg/m³）顯著高於一份現場研究中測得的平均濃度（38 mg/m³）。\n\n診斷價值： 這種差異不應被視為模式錯誤，而是作為診斷工具，用於重新審視模式的假設（例如：逸散率是否過高，或換氣率是否過低）。模式的高估有助於理解暴露的關鍵驅動因素，並將模式轉化為一種調查工具。\n\n\n\n\n\n\n\n連續逸散情境下為220 mg/m³\n間歇逸散情境下為290 mg/m³\n\n\n\n\n\n\n\n\n\n\n\n與OELs比較： 模擬的兩種情境下 TWA 均超過 ACGIH TLV-TWA 和台灣 PEL-TWA（176 mg/m³），且峰值濃度遠超標準，存在高度急性風險。\n\n毒理學考量： 由於正己烷與丙酮的加乘作用，現有單一物質的OELs不足以保護勞工健康。\n\n控制措施（依控制層級優先順序）：\n\n替代： 優先使用「無正己烷」的煞車清潔劑，如正庚烷。\n\n工程控制： 導入局部排氣通風（LEV），改善整體換氣。\n\n行政管理控制： 限制溶劑使用區域和時間，加強危害通識訓練。\n\n個人防護具（PPE）： 佩戴配有有機蒸氣濾罐的空氣淨化式呼吸防護具，並制定濾罐更換時程；佩戴適當的化學防護手套。"
+  },
+  {
+    "objectID": "docs/info/Rmd/web_CH15_Autoshop-solvent.html#結論",
+    "href": "docs/info/Rmd/web_CH15_Autoshop-solvent.html#結論",
+    "title": "CH15",
+    "section": "",
+    "text": "本案例強調選擇正確的暴露模式（雙區模式）、深入理解毒理學交互作用、將模式作為調查工具來識別關鍵暴露驅動因素，以及實施具體的控制措施（尤其是從源頭替代）對於職業衛生風險評估的重要性。"
   }
 ]

@@ -103,5 +103,17 @@
   },
   "docs/web_CH13_Mixture-modeling.Rmd": {
     "web_CH13_Mixture-modeling.html": "6dbae4ae"
+  },
+  "docs/info/Rmd/web_CH12_Monte-Carlo modeling.Rmd": {
+    "web_CH12_Monte-Carlo modeling.html": "fabc432c"
+  },
+  "docs/info/Rmd/web_CH13_Mixture-modeling.Rmd": {
+    "web_CH13_Mixture-modeling.html": "9c633a5a"
+  },
+  "docs/web_CH15_Autoshop-solvent.Rmd": {
+    "web_CH15_Autoshop-solvent.html": "269e7002"
+  },
+  "docs/info/Rmd/web_CH15_Autoshop-solvent.Rmd": {
+    "web_CH15_Autoshop-solvent.html": "2ae5d007"
   }
 }

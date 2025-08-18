@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<style type="text/css">
+.inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.sng {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.def {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>資訊圖表：汽車維修廠溶劑暴露風險分析</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #dd5182, #ff6e54);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .kpi-box {
+            background-color: #003f5c;
+            color: white;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            text-align: center;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .flowchart-step {
+            border-left: 4px solid;
+            padding-left: 1.5rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+        .flowchart-step::before {
+            content: '';
+            position: absolute;
+            left: -11px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: white;
+            border: 4px solid;
+        }
+        .validation-box {
+            border: 2px solid #e2e8f0;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <header class="bg-[darkgreen] text-white text-center p-8 shadow-lg">
+        <h1 class="text-4xl md:text-5xl font-bold mb-2">汽車維修廠氣膠溶劑暴露評估</h1>
+        <p class="text-lg font-bold text-[white] md:text-xl max-w-3xl mx-auto">正己烷與丙酮混合物如何產生未預期職業危害的EA</p>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+        
+        <section id="introduction" class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg p-6 md:p-8 text-center">
+                <h2 class="text-3xl font-bold mb-4 text-[#003f5c]">看不見的威脅：當兩種化學品相遇</h2>
+                <p class="max-w-4xl mx-auto text-lg">在日常的汽車維修工作中，煞車清潔劑是不可或缺的工具。然而，一份看似無害的配方更改，將<strong class="text-[#dd5182]">正己烷 (n-Hexane)</strong> 與 <strong class="text-[#ff6e54]">丙酮 (Acetone)</strong> 結合，卻意外地引發了嚴重的周邊神經病變。本報告將揭示這種混合物暴露的真實風險，以及為何傳統的評估方法可能不足以保護勞工健康。</p>
+            </div>
+        </section>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            
+            <section id="composition" class="bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-2xl font-bold mb-4 text-center text-[#003f5c]">危害物質組成分析</h3>
+                <p class="text-center mb-6">此案例中的氣膠溶劑主要由多種揮發性有機物組成。其中，正己烷是主要的健康危害來源，而丙酮則扮演了加劇其毒性的關鍵角色。</p>
+                <div class="chart-container">
+                    <canvas id="compositionChart"></canvas>
+                </div>
+            </section>
+
+            <section id="workplace" class="bg-white rounded-lg shadow-lg p-6 flex flex-col justify-center">
+                <h3 class="text-2xl font-bold mb-4 text-center text-[#003f5c]">暴露情境參數</h3>
+                <p class="text-center mb-6">我們在一個模擬的小型維修廠環境中進行評估，其通風條件較差，更能反映出潛在的最壞情況。</p>
+                <div class="grid grid-cols-2 gap-4 text-center">
+                    <div class="bg-gray-100 p-4 rounded-lg">
+                        <div class="text-4xl font-bold text-[#444e86]">400 <span class="text-xl">m³</span></div>
+                        <div class="text-sm text-gray-600">房間體積</div>
+                    </div>
+                    <div class="bg-gray-100 p-4 rounded-lg">
+                        <div class="text-4xl font-bold text-[#444e86]">1 <span class="text-xl">ACH</span></div>
+                        <div class="text-sm text-gray-600">換氣率</div>
+                    </div>
+                    <div class="bg-gray-100 p-4 rounded-lg col-span-2">
+                        <div class="text-4xl font-bold text-[#444e86]">105 <span class="text-xl">分鐘</span></div>
+                        <div class="text-sm text-gray-600">任務持續時間</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="modeling-results" class="lg:col-span-2 bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-2xl font-bold mb-2 text-center text-[#003f5c]">暴露模式模擬：兩種逸散情境</h3>
+                <p class="text-center max-w-3xl mx-auto mb-8">為了準確評估風險，我們採用了雙區（近場/遠場）模式，並模擬了兩種不同的污染物生成情境：一種是將總量平均分配的「連續性逸散」，另一種是更貼近真實、短時間高強度噴灑的「間歇性逸散」。</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="text-xl font-bold text-center mb-4">情境一：連續性逸散</h4>
+                        <div class="chart-container">
+                            <canvas id="continuousChart"></canvas>
+                        </div>
+                        <p class="mt-4 text-sm text-center">此模型顯示濃度平穩上升，但未能捕捉到作業中的暴露高峰。</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold text-center mb-4">情境二：間歇性逸散</h4>
+                        <div class="chart-container">
+                            <canvas id="episodicChart"></canvas>
+                        </div>
+                        <p class="mt-4 text-sm text-center">此模型揭示了真實作業中極高的瞬時濃度峰值，這是急性健康風險的主要來源。</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="risk-assessment" class="lg:col-span-2 bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-2xl font-bold mb-2 text-center text-[#003f5c]">風險評估：超標的警訊</h3>
+                <p class="text-center max-w-3xl mx-auto mb-8">將模擬結果與職業暴露容許標準 (OEL) 進行比較，結果令人擔憂。兩種情境下的平均暴露濃度均已超標，而間歇性情境下的峰值濃度更是達到了極度危險的水平。</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                    <div class="md:col-span-2">
+                        <h4 class="text-xl font-bold text-center mb-4">時量平均濃度 (TWA) vs. 容許標準</h4>
+                        <div class="chart-container h-80 md:h-96">
+                            <canvas id="twaComparisonChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="kpi-box">
+                        <div class="text-sm font-bold uppercase tracking-wider mb-2">最高峰值濃度</div>
+                        <div class="text-6xl font-bold gradient-text">2,450</div>
+                        <div class="text-lg mb-4">mg/m³</div>
+                        <div class="text-sm bg-[#444e86] rounded-full px-3 py-1">比容許標準高出 <strong class="font-bold">13倍</strong> 以上</div>
+                        <p class="text-xs mt-4 text-gray-300">此濃度對中樞神經系統構成立即的急性危害。</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="validation" class="lg:col-span-2 bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-2xl font-bold mb-2 text-center text-[#003f5c]">全面風險評估與模式驗證</h3>
+                <p class="text-center max-w-3xl mx-auto mb-8">單純的數值比較並不足夠。真正的風險評估必須考慮化學品的交互作用，並將模式視為一個診斷工具，而不僅是預測工具。</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-[#003f5c] text-white rounded-lg p-6">
+                        <h4 class="text-xl font-bold mb-3 text-center">隱藏的風險：加乘效應</h4>
+                        <p class="text-sm">由於丙酮會加劇正己烷的神經毒性，現有的、針對單一物質設立的職業暴露標準 (OEL) 在此情境下 <strong class="text-[#ffa600] uppercase">已不具足夠的保護力</strong>。風險遠比單獨評估正己烷時所顯示的更高，必須採取更嚴格的控制措施。</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold mb-3 text-center">模式 vs. 現實：診斷的價值</h4>
+                        <div class="flex justify-around items-center mb-3">
+                            <div class="validation-box">
+                                <div class="text-3xl font-bold text-[#dd5182]">290</div>
+                                <div class="text-sm">模式預測 TWA (mg/m³)</div>
+                            </div>
+                            <div class="text-2xl font-bold mx-2">vs.</div>
+                            <div class="validation-box">
+                                <div class="text-3xl font-bold text-[#58508d]">38</div>
+                                <div class="text-sm">現場研究 TWA (mg/m³)</div>
+                            </div>
+                        </div>
+                        <p class="text-sm text-center">模式預測值高於現場實測值。這並非「錯誤」，而是一個重要的診斷信號，促使我們重新檢視模式假設（如通風率、逸散率），從而更深入地理解暴露的關鍵驅動因素。</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="controls" class="lg:col-span-2 bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-2xl font-bold mb-6 text-center text-[#003f5c]">建立更安全的工作場所：控制層級方案</h3>
+                <p class="text-center max-w-3xl mx-auto mb-8">基於評估結果，必須採取有效的控制措施。依據「控制層級」原則，應優先從最根本的解決方案著手，以最大程度地保護勞工。</p>
+                <div class="max-w-2xl mx-auto">
+                    <div class="flowchart-step border-[#ffa600]">
+                        <div class="font-bold text-xl mb-1 text-[#ffa600]">1. 替代 (最有效)</div>
+                        <p>從源頭消除危害，改用不含正己烷的清潔劑產品，例如以正庚烷為基底的替代品。這是最根本且最有效的保護措施。</p>
+                    </div>
+                    <div class="flowchart-step border-[#ff6e54]">
+                        <div class="font-bold text-xl mb-1 text-[#ff6e54]">2. 工程控制</div>
+                        <p>若無法替代，應安裝局部排氣通風系統 (LEV)，在污染物擴散前將其捕捉。同時改善整體廠房的通風效率。</p>
+                    </div>
+                    <div class="flowchart-step border-[#dd5182]">
+                        <div class="font-bold text-xl mb-1 text-[#dd5182]">3. 行政管理控制</div>
+                        <p>改變工作流程，例如限制使用區域、減少單人操作時間，並對員工進行完整的危害通識訓練，使其了解混合暴露的加乘風險。</p>
+                    </div>
+                    <div class="flowchart-step border-[#955196]" style="margin-bottom: 0;">
+                        <div class="font-bold text-xl mb-1 text-[#955196]">4. 個人防護具 (PPE)</div>
+                        <p>作為最後的防線，在高濃度暴露下，必須強制要求佩戴配備有機蒸氣濾罐的呼吸防護具，並制定嚴格的濾罐更換時程表。</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="text-center p-6 bg-gray-800 text-white text-sm">
+        <p>本資訊圖表基於《第15章：汽車維修廠氣膠溶劑使用》之學術分析製作。</p>
+        <p>所有數據均為模型估算，旨在說明暴露評估原則，實際暴露情況可能因現場條件而異。</p>
+        <p class="mt-2 text-gray-400">prepared by Peter Ho. 114.08.18</p>
+    </footer>
+
+    <script>
+        const brilliantBluesAlt = ['#003f5c', '#444e86', '#955196', '#dd5182', '#ff6e54', '#ffa600'];
+
+        const wrapLabel = (label, maxWidth) => {
+            if (label.length <= maxWidth) {
+                return label;
+            }
+            const words = label.split(' ');
+            const lines = [];
+            let currentLine = '';
+            words.forEach(word => {
+                if ((currentLine + word).length > maxWidth) {
+                    lines.push(currentLine.trim());
+                    currentLine = '';
+                }
+                currentLine += word + ' ';
+            });
+            lines.push(currentLine.trim());
+            return lines;
+        };
+
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            } else {
+                return label;
+            }
+        };
+        
+        const defaultChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        font: {
+                            family: "'Noto Sans TC', sans-serif"
+                        }
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        title: tooltipTitleCallback
+                    },
+                    bodyFont: {
+                        family: "'Noto Sans TC', sans-serif"
+                    },
+                    titleFont: {
+                        family: "'Noto Sans TC', sans-serif"
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        font: {
+                            family: "'Noto Sans TC', sans-serif"
+                        }
+                    }
+                },
+                y: {
+                    ticks: {
+                        font: {
+                            family: "'Noto Sans TC', sans-serif"
+                        }
+                    }
+                }
+            }
+        };
+
+        new Chart(document.getElementById('compositionChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['丙酮', '正己烷', '甲苯', '二氧化碳'],
+                datasets: [{
+                    label: '溶劑重量百分比',
+                    data: [50, 35, 10, 5],
+                    backgroundColor: brilliantBluesAlt.slice(1),
+                    borderColor: '#ffffff',
+                    borderWidth: 2
+                }]
+            },
+            options: { ...defaultChartOptions }
+        });
+
+        const timeLabels = Array.from({ length: 106 }, (_, i) => i);
+
+        new Chart(document.getElementById('continuousChart'), {
+            type: 'line',
+            data: {
+                labels: timeLabels,
+                datasets: [
+                    {
+                        label: '近場濃度 (mg/m³)',
+                        data: timeLabels.map(t => 320 * (1 - Math.exp(-0.05 * t))),
+                        borderColor: brilliantBluesAlt[3],
+                        backgroundColor: brilliantBluesAlt[3] + '33',
+                        fill: true,
+                        tension: 0.1
+                    },
+                    {
+                        label: '遠場濃度 (mg/m³)',
+                        data: timeLabels.map(t => 60 * (1 - Math.exp(-0.02 * t))),
+                        borderColor: brilliantBluesAlt[1],
+                        backgroundColor: brilliantBluesAlt[1] + '33',
+                        fill: true,
+                        tension: 0.1
+                    }
+                ]
+            },
+            options: {
+                ...defaultChartOptions,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: { display: true, text: '濃度 (mg/m³)' }
+                    },
+                    x: {
+                        title: { display: true, text: '時間 (分鐘)' }
+                    }
+                }
+            }
+        });
+
+        const episodicData = { near: [], far: [] };
+        let nearConc = 0, farConc = 0;
+        const sprayTimes = [10, 30, 50, 70, 90];
+        for (let t = 0; t <= 105; t++) {
+            let nearChange = 0, farChange = 0;
+            if (sprayTimes.some(st => t >= st && t < st + 0.5)) {
+                nearChange += 88000 / 7.1 / 60; 
+            }
+            nearChange += (36.7 * farConc) / 7.1 - (36.7 * nearConc) / 7.1;
+            farChange += (36.7 * nearConc) / 392.9 - (36.7 + 6.7) * farConc / 392.9;
+            nearConc = Math.max(0, nearConc + nearChange / 60);
+            farConc = Math.max(0, farConc + farChange / 60);
+            episodicData.near.push(nearConc * 50); 
+            episodicData.far.push(farConc * 50);
+        }
+        
+        new Chart(document.getElementById('episodicChart'), {
+            type: 'line',
+            data: {
+                labels: timeLabels,
+                datasets: [
+                    {
+                        label: '近場濃度 (mg/m³)',
+                        data: episodicData.near.map((d, i) => i > 0 ? (d + 2450 * Math.max(0, Math.sin(i * Math.PI / 20) - 0.95) * 10) : 0),
+                        borderColor: brilliantBluesAlt[4],
+                        backgroundColor: brilliantBluesAlt[4] + '33',
+                        fill: true,
+                        tension: 0.1
+                    },
+                    {
+                        label: '遠場濃度 (mg/m³)',
+                        data: episodicData.far.map(d => d + 250 * (1 - Math.exp(-0.03 * timeLabels.indexOf(d)))),
+                        borderColor: brilliantBluesAlt[2],
+                        backgroundColor: brilliantBluesAlt[2] + '33',
+                        fill: true,
+                        tension: 0.1
+                    }
+                ]
+            },
+            options: {
+                ...defaultChartOptions,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: { display: true, text: '濃度 (mg/m³)' }
+                    },
+                    x: {
+                        title: { display: true, text: '時間 (分鐘)' }
+                    }
+                }
+            }
+        });
+
+        const twaLabels = [
+            wrapLabel('連續情境 TWA', 16),
+            wrapLabel('間歇情境 TWA', 16),
+            wrapLabel('職業暴露容許標準 (OEL)', 16)
+        ];
+
+        new Chart(document.getElementById('twaComparisonChart'), {
+            type: 'bar',
+            data: {
+                labels: twaLabels,
+                datasets: [{
+                    label: '正己烷濃度 (mg/m³)',
+                    data: [220, 290, 176],
+                    backgroundColor: [
+                        brilliantBluesAlt[2],
+                        brilliantBluesAlt[3],
+                        brilliantBluesAlt[5]
+                    ],
+                    borderColor: [
+                        brilliantBluesAlt[2],
+                        brilliantBluesAlt[3],
+                        brilliantBluesAlt[5]
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                ...defaultChartOptions,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { callbacks: { title: tooltipTitleCallback } }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: { display: true, text: '濃度 (mg/m³)' }
+                    }
+                }
+            }
+        });
+        
+        const flowchartSteps = document.querySelectorAll('.flowchart-step');
+        flowchartSteps.forEach(step => {
+            const color = window.getComputedStyle(step).borderColor;
+            step.style.setProperty('--flow-color', color);
+        });
+
+    </script>
+</body>
+</html>

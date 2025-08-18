@@ -623,7 +623,7 @@
     "href": "index.html#目前初步完成推估模式介紹化學品暴露",
     "title": "Occupational Exposure Assessment",
     "section": "1.目前初步完成推估模式介紹：(化學品暴露)",
-    "text": "1.目前初步完成推估模式介紹：(化學品暴露)\n\n\n\n1. Why modeling\n\n\n2. Gathering information\n\n\n3. Volatile liquid spill\n\n\n4. Sanding\n\n\n5. Container uncovered\n\n\n6. Barrel filling\n\n\n7. Historic exposure\n\n\n8. Presurized gas release\n\n\n\n\n\n9. Flavoring Process\n\n\n10. Cleaning Process\n\n\n11. Model parameters\n\n\n12. Monte Carlo modeling"
+    "text": "1.目前初步完成推估模式介紹：(化學品暴露)\n\n\n\n1. Why modeling\n\n\n2. Gathering information\n\n\n3. Volatile liquid spill\n\n\n4. Sanding\n\n\n5. Container uncovered\n\n\n6. Barrel filling\n\n\n7. Historic exposure\n\n\n8. Presurized gas release\n\n\n\n\n\n9. Flavoring Process\n\n\n10. Cleaning Process\n\n\n11. Model parameters\n\n\n12. Monte Carlo modeling\n\n\n13. Mixture modeling"
   },
   {
     "objectID": "index.html#規劃展開推估模式介紹噪音與高氣溫",
@@ -1022,7 +1022,7 @@
     "href": "modeling.html#model-parameters",
     "title": "Modeling",
     "section": "11. Model parameters",
-    "text": "11. Model parameters\nChapter 11 Experimental Determination of Model Parameters *摘要 *圖說"
+    "text": "11. Model parameters\nChapter 11 Experimental Determination of Model Parameters\n*摘要 *圖說"
   },
   {
     "objectID": "docs/info/web_CH11_model-parameters.html",
@@ -1198,5 +1198,96 @@
     "title": "CH12",
     "section": "",
     "text": "模擬結果顯示，暴露濃度的第95百分位數 (95th Percentile) 為 57 mg/m³。這意味著在所有可能的情境組合下，有95%的機率，實驗室的平均濃度會低於此數值，且該值明顯低於87 mg/m³的暴露限值。\n這個結論比最差情境分析更具參考價值，它告訴我們：儘管極端高濃度可能發生，但其機率很低。整體而言，此暴露情境的風險應屬可接受範圍。(仍須溝通與加強教育訓練改善行為)\nprepared by Peter Ho. 114.08.18"
+  },
+  {
+    "objectID": "modeling.html#mixture-modleing",
+    "href": "modeling.html#mixture-modleing",
+    "title": "Modeling",
+    "section": "13. Mixture modleing",
+    "text": "13. Mixture modleing\nChapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations\n*摘要 *圖說"
+  },
+  {
+    "objectID": "docs/info/web_CH13_.Mixture-modeling.html",
+    "href": "docs/info/web_CH13_.Mixture-modeling.html",
+    "title": "CH13",
+    "section": "",
+    "text": "應用IHMOD 2.0軟體，評估在車庫內傾倒含2-丁氧基乙醇(2BE)的擋風玻璃清洗液所產生的消費者暴露風險。此評估的核心挑戰在於該清洗液為非理想的化學混合物，而非純物質。\n\n\n對於水與2BE的非理想混合物，不能直接使用傳統的拉午耳定律，否則將嚴重低估風險。本案例的關鍵是引入活性係數 (γ) 來校正分子間的交互作用力。透過UNIFAC方法計算，2BE在此水溶液中的活性係數高達 7.31，這表示其真實蒸發趨勢是理想模型預測的7倍以上。經此校正後，計算出的蒸氣生成率 (G) 約為 20 mg/min，此數值是後續暴露模擬的關鍵輸入。\n\n\n\n為模擬污染物在空間中的濃度梯度，本評估採用了比傳統「完全混合模型」更真實的雙區（近場／遠場）模型，將空間劃分為作業人員呼吸區周圍的「近場」與其餘空間的「遠場」。\n運用IHMOD 2.0軟體進行了兩種分析：\n\n決定論分析：使用單一「點估計值」輸入參數，得到一個特定的預測結果。\n\n機率性（蒙地卡羅）分析：為關鍵輸入參數（如生成率、通風率）設定機率分佈，進行上萬次模擬，從而得到一個暴露濃度的可能性分佈，更完整地體現真實世界的不確定性。\n\n\n\n\n兩種分析方法都聚焦於作業期間（前30秒）的近場峰值濃度：\n\n決定論峰值濃度：預測為 1.98 mg/m³。\n\n機率性第95百分位數峰值濃度：作為「合理最壞情況」的估計，預測為 2.5 mg/m³。\n\n在風險判斷上，將這些預測值與健康基準比較：\n\n職業暴露限值 (OELs)：兩種方法的預測結果均遠低於最嚴格的NIOSH建議限值 (24 mg/m³)。\n\n環境參考濃度 (EPA RfC)：預測結果超過了針對一般民眾終身暴露所設的RfC值 (1.6 mg/m³)。\n\n\n\n\n\n\n\n決定論峰值\n機率論峰值\n\n\n\n\n\n\n\n\n\n\n綜合判斷，對於單次、短暫的消費者使用情境，此產品的暴露風險低且可接受。然而，由於預測濃度超過了慢性的健康基準(RfC)，對於需要每日頻繁操作的職業人員（如汽車維修技師），其長期風險則需進一步的審慎評估。\n本案例完整展示了IHMOD 2.0作為現代工業衛生工具的價值：它不僅能處理複雜的混合物情境，實現前瞻性的「設計安全」評估，更能透過蒙地卡羅模擬來量化不確定性，為風險管理提供更穩健、更具信服力的科學依據。\n———————\n參考資料：Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations prepared by Peter Ho. 114.08.18"
+  },
+  {
+    "objectID": "docs/info/web_CH13_.Mixture-modeling.html#關鍵挑戰計算混合物生成率-g",
+    "href": "docs/info/web_CH13_.Mixture-modeling.html#關鍵挑戰計算混合物生成率-g",
+    "title": "CH13",
+    "section": "",
+    "text": "對於水與2BE的非理想混合物，不能直接使用傳統的拉午耳定律，否則將嚴重低估風險。本案例的關鍵是引入活性係數 (γ) 來校正分子間的交互作用力。透過UNIFAC方法計算，2BE在此水溶液中的活性係數高達 7.31，這表示其真實蒸發趨勢是理想模型預測的7倍以上。經此校正後，計算出的蒸氣生成率 (G) 約為 20 mg/min，此數值是後續暴露模擬的關鍵輸入。"
+  },
+  {
+    "objectID": "docs/info/web_CH13_.Mixture-modeling.html#模型與分析方法",
+    "href": "docs/info/web_CH13_.Mixture-modeling.html#模型與分析方法",
+    "title": "CH13",
+    "section": "",
+    "text": "為模擬污染物在空間中的濃度梯度，本評估採用了比傳統「完全混合模型」更真實的雙區（近場／遠場）模型，將空間劃分為作業人員呼吸區周圍的「近場」與其餘空間的「遠場」。\n運用IHMOD 2.0軟體進行了兩種分析：\n\n決定論分析：使用單一「點估計值」輸入參數，得到一個特定的預測結果。\n\n機率性（蒙地卡羅）分析：為關鍵輸入參數（如生成率、通風率）設定機率分佈，進行上萬次模擬，從而得到一個暴露濃度的可能性分佈，更完整地體現真實世界的不確定性。"
+  },
+  {
+    "objectID": "docs/info/web_CH13_.Mixture-modeling.html#核心結果與風險判斷",
+    "href": "docs/info/web_CH13_.Mixture-modeling.html#核心結果與風險判斷",
+    "title": "CH13",
+    "section": "",
+    "text": "兩種分析方法都聚焦於作業期間（前30秒）的近場峰值濃度：\n\n決定論峰值濃度：預測為 1.98 mg/m³。\n\n機率性第95百分位數峰值濃度：作為「合理最壞情況」的估計，預測為 2.5 mg/m³。\n\n在風險判斷上，將這些預測值與健康基準比較：\n\n職業暴露限值 (OELs)：兩種方法的預測結果均遠低於最嚴格的NIOSH建議限值 (24 mg/m³)。\n\n環境參考濃度 (EPA RfC)：預測結果超過了針對一般民眾終身暴露所設的RfC值 (1.6 mg/m³)。"
+  },
+  {
+    "objectID": "docs/info/web_CH13_.Mixture-modeling.html#ih-mod-模擬",
+    "href": "docs/info/web_CH13_.Mixture-modeling.html#ih-mod-模擬",
+    "title": "CH13",
+    "section": "",
+    "text": "決定論峰值\n機率論峰值"
+  },
+  {
+    "objectID": "docs/info/web_CH13_.Mixture-modeling.html#結論",
+    "href": "docs/info/web_CH13_.Mixture-modeling.html#結論",
+    "title": "CH13",
+    "section": "",
+    "text": "綜合判斷，對於單次、短暫的消費者使用情境，此產品的暴露風險低且可接受。然而，由於預測濃度超過了慢性的健康基準(RfC)，對於需要每日頻繁操作的職業人員（如汽車維修技師），其長期風險則需進一步的審慎評估。\n本案例完整展示了IHMOD 2.0作為現代工業衛生工具的價值：它不僅能處理複雜的混合物情境，實現前瞻性的「設計安全」評估，更能透過蒙地卡羅模擬來量化不確定性，為風險管理提供更穩健、更具信服力的科學依據。\n———————\n參考資料：Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations prepared by Peter Ho. 114.08.18"
+  },
+  {
+    "objectID": "docs/web_CH13_Mixture-modeling.html",
+    "href": "docs/web_CH13_Mixture-modeling.html",
+    "title": "CH13",
+    "section": "",
+    "text": "應用IHMOD 2.0軟體，評估在車庫內傾倒含2-丁氧基乙醇(2BE)的擋風玻璃清洗液所產生的消費者暴露風險。此評估的核心挑戰在於該清洗液為非理想的化學混合物，而非純物質。\n\n\n對於水與2BE的非理想混合物，不能直接使用傳統的拉午耳定律，否則將嚴重低估風險。本案例的關鍵是引入活性係數 (γ) 來校正分子間的交互作用力。透過UNIFAC方法計算，2BE在此水溶液中的活性係數高達 7.31，這表示其真實蒸發趨勢是理想模型預測的7倍以上。經此校正後，計算出的蒸氣生成率 (G) 約為 20 mg/min，此數值是後續暴露模擬的關鍵輸入。\n\n\n\n為模擬污染物在空間中的濃度梯度，本評估採用了比傳統「完全混合模型」更真實的雙區（近場／遠場）模型，將空間劃分為作業人員呼吸區周圍的「近場」與其餘空間的「遠場」。\n運用IHMOD 2.0軟體進行了兩種分析：\n\n決定論分析：使用單一「點估計值」輸入參數，得到一個特定的預測結果。\n\n機率性（蒙地卡羅）分析：為關鍵輸入參數（如生成率、通風率）設定機率分佈，進行上萬次模擬，從而得到一個暴露濃度的可能性分佈，更完整地體現真實世界的不確定性。\n\n\n\n\n兩種分析方法都聚焦於作業期間（前30秒）的近場峰值濃度：\n\n決定論峰值濃度：預測為 1.98 mg/m³。\n\n機率性第95百分位數峰值濃度：作為「合理最壞情況」的估計，預測為 2.5 mg/m³。\n\n在風險判斷上，將這些預測值與健康基準比較：\n\n職業暴露限值 (OELs)：兩種方法的預測結果均遠低於最嚴格的NIOSH建議限值 (24 mg/m³)。\n\n環境參考濃度 (EPA RfC)：預測結果超過了針對一般民眾終身暴露所設的RfC值 (1.6 mg/m³)。\n\n\n\n\n\n\n\n決定論峰值\n機率論峰值\n\n\n\n\n\n\n\n\n\n\n綜合判斷，對於單次、短暫的消費者使用情境，此產品的暴露風險低且可接受。然而，由於預測濃度超過了慢性的健康基準(RfC)，對於需要每日頻繁操作的職業人員（如汽車維修技師），其長期風險則需進一步的審慎評估。\n本案例完整展示了IHMOD 2.0作為現代工業衛生工具的價值：它不僅能處理複雜的混合物情境，實現前瞻性的「設計安全」評估，更能透過蒙地卡羅模擬來量化不確定性，為風險管理提供更穩健、更具信服力的科學依據。\n———————\n參考資料：Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations prepared by Peter Ho. 114.08.18"
+  },
+  {
+    "objectID": "docs/web_CH13_Mixture-modeling.html#關鍵挑戰計算混合物生成率-g",
+    "href": "docs/web_CH13_Mixture-modeling.html#關鍵挑戰計算混合物生成率-g",
+    "title": "CH13",
+    "section": "",
+    "text": "對於水與2BE的非理想混合物，不能直接使用傳統的拉午耳定律，否則將嚴重低估風險。本案例的關鍵是引入活性係數 (γ) 來校正分子間的交互作用力。透過UNIFAC方法計算，2BE在此水溶液中的活性係數高達 7.31，這表示其真實蒸發趨勢是理想模型預測的7倍以上。經此校正後，計算出的蒸氣生成率 (G) 約為 20 mg/min，此數值是後續暴露模擬的關鍵輸入。"
+  },
+  {
+    "objectID": "docs/web_CH13_Mixture-modeling.html#模型與分析方法",
+    "href": "docs/web_CH13_Mixture-modeling.html#模型與分析方法",
+    "title": "CH13",
+    "section": "",
+    "text": "為模擬污染物在空間中的濃度梯度，本評估採用了比傳統「完全混合模型」更真實的雙區（近場／遠場）模型，將空間劃分為作業人員呼吸區周圍的「近場」與其餘空間的「遠場」。\n運用IHMOD 2.0軟體進行了兩種分析：\n\n決定論分析：使用單一「點估計值」輸入參數，得到一個特定的預測結果。\n\n機率性（蒙地卡羅）分析：為關鍵輸入參數（如生成率、通風率）設定機率分佈，進行上萬次模擬，從而得到一個暴露濃度的可能性分佈，更完整地體現真實世界的不確定性。"
+  },
+  {
+    "objectID": "docs/web_CH13_Mixture-modeling.html#核心結果與風險判斷",
+    "href": "docs/web_CH13_Mixture-modeling.html#核心結果與風險判斷",
+    "title": "CH13",
+    "section": "",
+    "text": "兩種分析方法都聚焦於作業期間（前30秒）的近場峰值濃度：\n\n決定論峰值濃度：預測為 1.98 mg/m³。\n\n機率性第95百分位數峰值濃度：作為「合理最壞情況」的估計，預測為 2.5 mg/m³。\n\n在風險判斷上，將這些預測值與健康基準比較：\n\n職業暴露限值 (OELs)：兩種方法的預測結果均遠低於最嚴格的NIOSH建議限值 (24 mg/m³)。\n\n環境參考濃度 (EPA RfC)：預測結果超過了針對一般民眾終身暴露所設的RfC值 (1.6 mg/m³)。"
+  },
+  {
+    "objectID": "docs/web_CH13_Mixture-modeling.html#ih-mod-模擬",
+    "href": "docs/web_CH13_Mixture-modeling.html#ih-mod-模擬",
+    "title": "CH13",
+    "section": "",
+    "text": "決定論峰值\n機率論峰值"
+  },
+  {
+    "objectID": "docs/web_CH13_Mixture-modeling.html#結論",
+    "href": "docs/web_CH13_Mixture-modeling.html#結論",
+    "title": "CH13",
+    "section": "",
+    "text": "綜合判斷，對於單次、短暫的消費者使用情境，此產品的暴露風險低且可接受。然而，由於預測濃度超過了慢性的健康基準(RfC)，對於需要每日頻繁操作的職業人員（如汽車維修技師），其長期風險則需進一步的審慎評估。\n本案例完整展示了IHMOD 2.0作為現代工業衛生工具的價值：它不僅能處理複雜的混合物情境，實現前瞻性的「設計安全」評估，更能透過蒙地卡羅模擬來量化不確定性，為風險管理提供更穩健、更具信服力的科學依據。\n———————\n參考資料：Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations prepared by Peter Ho. 114.08.18"
   }
 ]

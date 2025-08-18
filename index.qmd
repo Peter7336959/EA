@@ -28,7 +28,6 @@ bibliography: references.bib
 ### 7. Historic exposure
 
 ### 8. Presurized gas release
-
 :::
 
 ::: {.column width="10%"}
@@ -42,7 +41,10 @@ bibliography: references.bib
 
 ### 11. Model parameters
 
-### 12. Monte Carlo modeling 
+### 12. Monte Carlo modeling
+
+### 13. Mixture modeling
+
 :::
 ::::::
 

@@ -23,13 +23,13 @@ website:
       - text: 首頁
         href: index.html
       - about.qmd
-      - href: news
+      - href: news.qmd
         text: 職安衛新知
       - href: modeling.qmd
         text: 模式推估
       - href: DRI.qmd
         text: 直讀式儀器與RPE
-      - href: EA
+      - href: EA.qmd
         text: 暴露風險  
       - href: others.qmd
         text: 其他

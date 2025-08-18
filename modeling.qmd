@@ -81,9 +81,14 @@ Chapter 10 Cleaning With Product Containing Acetic Acid \*[摘要](docs\info\web
 
 ## 11. Model parameters
 
-Chapter 11 Experimental Determination of Model
-Parameters
+Chapter 11 Experimental Determination of Model Parameters
 \*[摘要](docs\info\web_CH11_Model-parameters.html) \*[圖說](docs\info\info_CH11_Model-parameters.html)
+
+## 12. Monte Carlo modeling
+
+Chapter 12 Organic Chemistry Teaching Lab Exposure and a First Exploration of Monte Carlo Modeling
+
+\*[摘要](docs\info\web_CH12_Monte-Carlo-modeling.html) \*[圖說](docs\info\info_CH12_Monte-Carlo-modeling.html)
 :::
 ::::::
 

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<style type="text/css">
+.inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.sng {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.def {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>化學實驗室暴露評估資訊圖表</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #F0F4F8; 
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .kpi-value {
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1.1;
+        }
+        .kpi-unit {
+            font-size: 1.25rem;
+            margin-left: 0.5rem;
+        }
+        .flow-arrow {
+            font-size: 2rem;
+            color: #FF6B6B;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Palette: Energetic & Playful (#FF6B6B, #FFD166, #06D6A0, #118AB2, #073B4C) -->
+    <!-- Plan: 
+        1. Header: Title and introduction.
+        2. Section 1: The Assessment Journey (Flowchart). Goal: Organize. Method: HTML/CSS. Justification: Clearly shows the process steps. NO SVG.
+        3. Section 2: Initial Deterministic Model. Goal: Inform/Compare. Method: Big Number & Bar Chart (Chart.js). Justification: Highlights the single-point estimate and compares it to the OEL. NO SVG.
+        4. Section 3: Introducing Variability. Goal: Compare. Method: Bar Chart (Chart.js). Justification: Compares best, worst, and initial scenarios effectively. NO SVG.
+        5. Section 4: Probabilistic Modeling (Monte Carlo). Goal: Relationships/Inform. Method: Histogram (Chart.js) & Big Number. Justification: Shows the full distribution of possible outcomes and highlights the key 95th percentile metric. NO SVG.
+        6. Section 5: The Final Verdict. Goal: Inform/Compare. Method: Donut Chart (Chart.js) & summary text. Justification: Provides a clear, final comparison of the key metric against the safety limit. NO SVG.
+    -->
+    <!-- Confirmation: NEITHER Mermaid JS NOR SVG were used anywhere in this output. -->
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-[#073B4C] mb-4">化學實驗室暴露評估之旅</h1>
+            <p class="text-lg font-bold text-red-600 max-w-3xl mx-auto">從點估計到機率性分析：有機化學實驗室中二氯甲烷暴露風險評估。</p>
+        </header>
+
+        <main class="space-y-12">
+
+            <section id="journey" class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-[#118AB2] mb-6 text-center">評估的演進之路</h2>
+                <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4 text-center">
+                    <div class="flex flex-col items-center p-4">
+                        <div class="text-4xl mb-2">🤔</div>
+                        <h3 class="font-bold text-lg text-[#073B4C]">質化疑慮</h3>
+                        <p class="text-sm text-gray-500">溶劑氣味明顯</p>
+                    </div>
+                    <div class="flow-arrow transform md:-rotate-0">→</div>
+                    <div class="flex flex-col items-center p-4 bg-blue-50 rounded-lg">
+                        <div class="text-4xl mb-2">📊</div>
+                        <h3 class="font-bold text-lg text-[#073B4C]">確定性模型</h3>
+                        <p class="text-sm text-gray-500">單點最差估計</p>
+                    </div>
+                    <div class="flow-arrow transform md:-rotate-0">→</div>
+                    <div class="flex flex-col items-center p-4">
+                        <div class="text-4xl mb-2">📈</div>
+                        <h3 class="font-bold text-lg text-[#073B4C]">範圍分析</h3>
+                        <p class="text-sm text-gray-500">最佳/最差情境</p>
+                    </div>
+                    <div class="flow-arrow transform md:-rotate-0">→</div>
+                    <div class="flex flex-col items-center p-4 bg-green-50 rounded-lg">
+                        <div class="text-4xl mb-2">🎲</div>
+                        <h3 class="font-bold text-lg text-[#073B4C]">機率性模型</h3>
+                        <p class="text-sm text-gray-500">蒙地卡羅模擬</p>
+                    </div>
+                    <div class="flow-arrow transform md:-rotate-0">→</div>
+                    <div class="flex flex-col items-center p-4">
+                        <div class="text-4xl mb-2">✅</div>
+                        <h3 class="font-bold text-lg text-[#073B4C]">風險決策</h3>
+                        <p class="text-sm text-gray-500">可防禦的結論</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                    <h2 class="text-3xl font-bold text-[#118AB2] mb-2">1. 確定性模型：一個警訊</h2>
+                    <p class="text-gray-600 mb-6">此模型基於一系列保守的「最差情境」假設（如滿班24人、溶劑完全蒸發），快速評估潛在風險。這是一個必要的起點，用於判斷是否需要進一步調查。</p>
+                    <div class="text-center my-8">
+                        <p class="text-lg text-gray-700">計算出的穩態濃度</p>
+                        <div class="flex items-baseline justify-center text-[#FF6B6B]">
+                            <span class="kpi-value">110</span>
+                            <span class="kpi-unit">mg/m³</span>
+                        </div>
+                    </div>
+                    <div class="chart-container h-64 md:h-72">
+                        <canvas id="deterministicChart"></canvas>
+                    </div>
+                    <p class="text-center text-sm text-gray-500 mt-4">初步計算結果顯著高於8小時容許暴露限值（PEL），觸發了進一步分析的必要性。</p>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                    <h2 class="text-3xl font-bold text-[#118AB2] mb-2">2. 引入變異性：更廣的視野</h2>
+                    <p class="text-gray-600 mb-6">透過與現場人員訪談，我們了解到實際情況充滿變數（如學生人數、溶劑蒸發量、換氣率）。此分析界定了暴露濃度的可能範圍，但未能說明範圍內各值的發生機率。</p>
+                    <div class="chart-container h-96 md:h-auto">
+                        <canvas id="rangeChart"></canvas>
+                    </div>
+                     <p class="text-center text-sm text-gray-500 mt-4">最差情境下的暴露濃度（106 mg/m³）依然很高，但最佳情境（6.7 mg/m³）則遠低於標準。這揭示了風險並非恆定不變。</p>
+                </div>
+            </div>
+
+            <section id="monte-carlo" class="bg-white rounded-lg shadow-lg p-6 md:p-8 md:col-span-2">
+                <h2 class="text-3xl font-bold text-[red] mb-2 text-center">3. 機率性模型：描繪真實輪廓</h2>
+                <p class="text-gray-600 mb-8 max-w-4xl mx-auto text-center">蒙地卡羅模擬是本次評估的核心。它運行了10,000次電腦模擬，每次都從代表真實變異的機率分佈中隨機抽取參數。這不僅告訴我們「可能發生什麼」，更重要的是「各種情況發生的可能性有多大」。</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                    <div class="md:col-span-2 chart-container h-80 md:h-96">
+                        <canvas id="monteCarloChart"></canvas>
+                        <p class="text-center text-sm text-gray-500 mt-2">模擬結果呈現對數常態分佈，這與真實世界的職業暴露數據特徵相符。</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-xl text-gray-700 mb-2">關鍵指標：<br>第95百分位數</p>
+                        <div class="flex items-baseline justify-center text-[#06D6A0]">
+                            <span class="kpi-value">57</span>
+                            <span class="kpi-unit">mg/m³</span>
+                        </div>
+                        <p class="text-gray-600 mt-4">這代表了一個統計上穩健的「合理最高暴露」。根據模型，有95%的機率，暴露濃度會低於此數值。這是比平均值或單一最差情境更可靠的決策依據。</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="verdict" class="bg-[#073B4C] text-white rounded-lg shadow-lg p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-white mb-6 text-center">4. 最終結論：一個可防禦的決策</h2>
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <div class="w-full md:w-2/3">
+                        <p class="text-lg mb-4">經過精細的機率性分析，我們得出結論：實驗室的暴露水平在絕大多數（95%）可預見的情況下，均低於法規的8小時容許暴露限值（87~mg/m^3）。</p>
+                        <p class="text-gray-300 mb-4">這個從 110~mg/m^3 到 57~mg/m^3 的分析過程，展示了擁抱並量化不確定性的價值。它避免了基於過度保守假設可能導致的「假陽性」警報，並為與利害關係人進行有效溝通提供了堅實的數據基礎。</p>
+                        <p class="font-bold text-[#FFD166]">最終評估：暴露風險在目前的操作條件下是可接受的，但仍建議透過加強學生操作培訓來進一步降低潛在的峰值暴露。</p>
+                    </div>
+                    <div class="w-full md:w-1/3">
+                        <div class="chart-container h-64">
+                            <canvas id="finalVerdictChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="text-center text-sm text-gray-500 mt-12 py-4 border-t">
+            <p>參考CH12 Lab Exposure of MC modeling. made by Petert Ho. 114.08.18</p>
+        </footer>
+
+    </div>
+
+    <script>
+        function wrapLabels(label) {
+            if (typeof label === 'string' && label.length > 16) {
+                const words = label.split(' ');
+                const lines = [];
+                let currentLine = '';
+                words.forEach(word => {
+                    if ((currentLine + word).length > 16) {
+                        lines.push(currentLine.trim());
+                        currentLine = '';
+                    }
+                    currentLine += word + ' ';
+                });
+                lines.push(currentLine.trim());
+                return lines;
+            }
+            return label;
+        }
+
+        const tooltipTitleCallback = function(tooltipItems) {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            } else {
+                return label;
+            }
+        };
+        
+        const PEL_VALUE = 87;
+        const PALETTE = {
+            red: '#FF6B6B',
+            yellow: '#FFD166',
+            green: '#06D6A0',
+            blue: '#118AB2',
+            darkBlue: '#073B4C',
+            gray: '#6B7280'
+        };
+
+        document.addEventListener('DOMContentLoaded', function () {
+            
+            new Chart(document.getElementById('deterministicChart'), {
+                type: 'bar',
+                data: {
+                    labels: ['模型估計濃度', '8小時容許暴露限值 (PEL)'],
+                    datasets: [{
+                        label: '濃度 (mg/m³)',
+                        data: [110, PEL_VALUE],
+                        backgroundColor: [PALETTE.red, PALETTE.blue],
+                        borderColor: [PALETTE.red, PALETTE.blue],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            title: { display: true, text: '濃度 (mg/m³)' }
+                        }
+                    },
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: { callbacks: { title: tooltipTitleCallback } }
+                    }
+                }
+            });
+
+            new Chart(document.getElementById('rangeChart'), {
+                type: 'bar',
+                data: {
+                    labels: ['最佳情境', '最差情境', wrapLabels('初始確定性模型')],
+                    datasets: [{
+                        label: '濃度 (mg/m³)',
+                        data: [6.7, 106, 110],
+                        backgroundColor: [PALETTE.green, PALETTE.red, PALETTE.yellow],
+                    }, {
+                        type: 'line',
+                        label: '8小時容許暴露限值 (PEL)',
+                        data: [PEL_VALUE, PEL_VALUE, PEL_VALUE],
+                        borderColor: PALETTE.darkBlue,
+                        borderWidth: 2,
+                        pointRadius: 0,
+                        fill: false,
+                        borderDash: [5, 5]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: { display: true, text: '濃度 (mg/m³)' }
+                        }
+                    },
+                    plugins: {
+                        legend: { position: 'bottom' },
+                        tooltip: { callbacks: { title: tooltipTitleCallback } }
+                    }
+                }
+            });
+
+            const monteCarloData = Array.from({length: 10000}, (_, i) => {
+                const u1 = Math.random();
+                const u2 = Math.random();
+                const z = Math.sqrt(-2.0 * Math.log(u1)) * Math.cos(2.0 * Math.PI * u2);
+                const studentEvap = 185 + 30 * z;
+                const numStudents = Math.floor(Math.random() * (24 - 12 + 1)) + 12;
+                const ventilation = 67 + Math.random() * (133 - 67);
+                const totalEmission = numStudents * studentEvap;
+                const concentration = totalEmission / ventilation;
+                return Math.max(0, concentration); 
+            }).sort((a, b) => a - b);
+
+            const bins = {};
+            for (let i = 0; i < 120; i += 5) {
+                bins[i] = 0;
+            }
+            monteCarloData.forEach(val => {
+                const bin = Math.floor(val / 5) * 5;
+                if (bins[bin] !== undefined) {
+                    bins[bin]++;
+                }
+            });
+
+            new Chart(document.getElementById('monteCarloChart'), {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(bins),
+                    datasets: [{
+                        label: '模擬次數',
+                        data: Object.values(bins),
+                        backgroundColor: PALETTE.blue,
+                        barPercentage: 1.0,
+                        categoryPercentage: 1.0
+                    }, {
+                        type: 'line',
+                        label: '第95百分位數 (57 mg/m³)',
+                        data: Array(Object.keys(bins).length).fill(null).map((_, i) => (parseFloat(Object.keys(bins)[i]) === 55 ? 500 : null)),
+                        borderColor: PALETTE.green,
+                        borderWidth: 3,
+                        fill: false,
+                        pointRadius: 0,
+                        borderDash: [6, 6]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: {
+                            title: { display: true, text: '濃度區間 (mg/m³)' },
+                            ticks: {
+                                callback: function(value, index, values) {
+                                    return index % 2 === 0 ? this.getLabelForValue(value) : '';
+                                }
+                            }
+                        },
+                        y: {
+                            title: { display: true, text: '頻率 (10,000次模擬)' }
+                        }
+                    },
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: { callbacks: { title: tooltipTitleCallback } }
+                    }
+                }
+            });
+
+            new Chart(document.getElementById('finalVerdictChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['安全緩衝區', '第95百分位數暴露'],
+                    datasets: [{
+                        data: [PEL_VALUE - 57, 57],
+                        backgroundColor: [PALETTE.blue, PALETTE.green],
+                        borderColor: '#073B4C',
+                        borderWidth: 4,
+                        hoverOffset: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    cutout: '70%',
+                    plugins: {
+                        legend: { 
+                            position: 'bottom',
+                            labels: { color: 'white' }
+                        },
+                        title: {
+                            display: true,
+                            text: '第95百分位數 vs. 容許暴露限值',
+                            color: 'white',
+                            font: { size: 14 }
+                        },
+                        tooltip: { callbacks: { title: tooltipTitleCallback } }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

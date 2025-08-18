@@ -88,5 +88,14 @@
   },
   "docs/web_CH11_model-parameters.Rmd": {
     "web_CH11_model-parameters.html": "7194224b"
+  },
+  "docs/info/Rmd/web_CH10_Cleaning-process.Rmd": {
+    "web_CH10_Cleaning-process.html": "f1e65bad"
+  },
+  "docs/info/Rmd/web_CH11_model-parameters.Rmd": {
+    "web_CH11_model-parameters.html": "580d3989"
+  },
+  "docs/info/web_CH12_Monte-Carlo modeling.Rmd": {
+    "web_CH12_Monte-Carlo modeling.html": "e607e02c"
   }
 }

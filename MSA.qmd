@@ -2,7 +2,13 @@
 title: "MSA"
 ---
 
+| 
+| 
+| 
+
 ## 暴露評估監控應用 - MSA 5X DRI
+
+點選下方簡報後，按方向鍵瀏覽，向右 {{< kbd ⟶>}} 或向下 {{< kbd ⤓>}} 。
 
 ::: {#DRI style="red"}
 <iframe src="DRI.html" width="600" height="400">
@@ -15,3 +21,7 @@ title: "MSA"
 ::: {.callout-tip title="提醒" style="color"}
 這是MSA產品應用展示區，包含直讀式儀器(DRI)及呼吸防護具(RPE)
 :::
+
+## 使用與維護影片
+
+{{< video https://www.youtube.com/watch?v=zXLNaAGEOOY width="600" height="400">}}

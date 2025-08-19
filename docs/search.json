@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Occupational Exposure Assessment",
     "section": "",
-    "text": "本識做網站主要係分享職業衛生概念與知識為主，職業安全議題可另尋其他資源或參考其他的網頁"
+    "text": "本識做網站主要係分享職業衛生概念與知識為主，職業安全議題可另尋其他資源或參考其他的網頁 |"
   },
   {
     "objectID": "index.html#why-modeling2",
@@ -2022,7 +2022,14 @@
     "objectID": "MSA.html#暴露評估監控應用---msa-5x-dri",
     "href": "MSA.html#暴露評估監控應用---msa-5x-dri",
     "title": "MSA",
-    "section": "",
-    "text": "提醒\n\n\n\n這是MSA產品應用展示區，包含直讀式儀器(DRI)及呼吸防護具(RPE)"
+    "section": "暴露評估監控應用 - MSA 5X DRI",
+    "text": "暴露評估監控應用 - MSA 5X DRI\n點選下方簡報後，按方向鍵瀏覽，向右 ⟶⟶ 或向下 ⤓⤓ 。\n\n\n\n\n\n\n\n\n\n\n\n提醒\n\n\n\n這是MSA產品應用展示區，包含直讀式儀器(DRI)及呼吸防護具(RPE)"
+  },
+  {
+    "objectID": "MSA.html#使用與維護影片",
+    "href": "MSA.html#使用與維護影片",
+    "title": "MSA",
+    "section": "使用與維護影片",
+    "text": "使用與維護影片"
   }
 ]

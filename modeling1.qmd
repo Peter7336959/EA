@@ -19,49 +19,50 @@ bibliography: references.bib
 
 Ch1 Modeling in the Framework of Industrial Hygiene Practice
 
-\*💾[**摘要**](docs\info\web_CH1-Why-modeling.html)
+\*💾[**摘要**](docs\info\web_CH1-Why-modeling.html) 
+\*📶 [**圖**](docs\info\info_CH1_Why_modeling.html)
 
 ## *2. Gathering informaiton*
 
 *Ch2 Information Gathering for modeling*
 
-\*💾[摘要](docs\info\web_CH2-Information-Gathering.html)
+\*💾[摘要](docs\info\web_CH2-Information-Gathering.html) \* ⚛️[圖說](docs\info\info_CH2_Information%20Gathering.html)
 
 ## 3. Volatile liquid spill
 
 Ch3 Volatile Liquid Spill
 
-\*⚛️[摘要](docs\info\web_CH3-Volatile-Liquid-Spill.html)
+\*⚛️[摘要](docs\info\web_CH3-Volatile-Liquid-Spill.html) \*📶 [圖](docs\info\info_CH3%20volatile%20liquid%20spill.html)
 
 ## 4. Sanding EA
 
 *Ch4 Local Exhaust Ventilation for a Sanding*
 
-\*🕎[摘要](docs\info\web_CH4-Sanding.html)
+\*🕎[摘要](docs\info\web_CH4-Sanding.html) \*⚧️[圖說](docs\info\info_CH4_Sanding.html)
 
 ## 5. Container uncovered
 
 Ch5 Volatile Liquid Container Left Open
 
-\*[摘要](docs\info\web_CH5_container-left-open.html)
+\*[摘要](docs\info\web_CH5_container-left-open.html) \*[圖說](docs\info\info_CH5_container%20left%20open.html)
 
 ## 6. Barrel filling
 
 Ch6 Barrel filling indoors
 
-\*[摘要](docs\info\web_CH6_Barrel-filling.html)
+\*[摘要](docs\info\web_CH6_Barrel-filling.html) \*[圖說](docs\info\info_CH6_Barrel%20filling.html)
 
 ## 7. Historic exposure
 
 Ch7 Historic exposure
 
-\*[摘要](docs\info\web_CH7_Historic-exposure.html)
+\*[摘要](docs\info\web_CH7_Historic-exposure.html) \*[圖說](docs\info\info_CH7_Historic%20exposure.html)
 
 ## 8. Pressurized gas release
 
 Ch8 Pressurized gas release
 
-\*[摘要](docs\info\web_CH8_presurized-gas-release.html)
+\*[摘要](docs\info\web_CH8_presurized-gas-release.html) \*[圖說](docs\info\info_CH8_Pressurized%20Gas%20Release.html)
 :::
 
 ::: {.column width="10%"}
@@ -73,31 +74,29 @@ Ch8 Pressurized gas release
 
 Chapter 9 Ventilation Requirements for a Flavoring Process
 
-\*[摘要](docs\info\web_CH9_Flavoring-process.html)
+\*[摘要](docs\info\web_CH9_Flavoring-process.html) \*[圖說](docs\info\info_CH9_Flavoring-process.html)
 
 ## 10. Cleaning Process
 
-Chapter 10 Cleaning With Product Containing Acetic Acid
-
-\*[摘要](docs\info\web_CH10_Cleaning-process.html)
+Chapter 10 Cleaning With Product Containing Acetic Acid \*[摘要](docs\info\web_CH10_Cleaning-process.html) \*[圖說](docs\info\info_CH10_Cleaning-process.html)
 
 ## 11. Model parameters
 
 Chapter 11 Experimental Determination of Model Parameters
 
-\*[摘要](docs\info\web_CH11_Model-parameters.html)
+\*[摘要](docs\info\web_CH11_Model-parameters.html) \*[圖說](docs\info\info_CH11_Model-parameters.html)
 
 ## 12. Monte Carlo modeling
 
 Chapter 12 Organic Chemistry Teaching Lab Exposure and a First Exploration of Monte Carlo Modeling
 
-\*[摘要](docs\info\web_CH12_Monte-Carlo-modeling.html)
+\*[摘要](docs\info\web_CH12_Monte-Carlo-modeling.html) \*[圖說](docs\info\info_CH12_Monte-Carlo-modeling.html)
 
 ## 13. Mixture modleing
 
 Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations
 
-\*[摘要](docs\info\web_CH13_Mixture-modeling.html)
+\*[摘要](docs\info\web_CH13_Mixture-modeling.html) \*[圖說](docs\info\info_CH13_Mixture-modeling.html)
 
 ## 14. Oxygen Deficiency
 
@@ -107,7 +106,7 @@ Chapter 14 Oxygen Deficiency Hazard in a Storage Tank
 
 Chapter 15 Use of Aerosol Solvents in an Auto Shop
 
-\*[摘要](docs\info\web_CH15_Autoshop-solvent.html)
+\*[摘要](docs\info\web_CH15_Autoshop-solvent.html) \*[圖說](docs\info\info_CH15_Autoshop-solvent.html)
 
 ## 17 Reconstruction of spill
 

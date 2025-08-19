@@ -22,12 +22,13 @@ website:
     left:
       - text: 首頁
         href: index.html
-      - about.qmd
+      - text: About us
+        href: about.qmd
       - href: news.qmd
         text: 職安衛新知
       - href: modeling.qmd
         text: 模式推估
-      - href: DRI.qmd
+      - href: MSA.qmd
         text: 直讀式儀器與RPE
       - href: noise_EA.qmd
         text: 噪音-高溫EA

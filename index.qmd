@@ -9,7 +9,7 @@ bibliography: references.bib
 >
 > ### [[**本網站主要內容係來自2023 AIHA 新書各章**[@acase-b2023]]{.underline}]{.mark}
 
-## 1.目前初步完成推估模式介紹：(化學品暴露)
+## I.目前初步完成推估模式介紹：(化學品暴露)
 
 :::::: columns
 ::: {.column width="45%"}
@@ -48,10 +48,20 @@ bibliography: references.bib
 ### 14. Oxygen Deficiency
 
 ### 15. Autoshop solvents
+
+### 17 Reconstruction of spill
+
+### 18 Modeling limitation
+
+### 19 Feeding model
 :::
 ::::::
 
-## 2.規劃展開推估模式介紹：(噪音與高氣溫)
+## II.規劃展開推估模式介紹：(噪音與高氣溫)
+
+### 1. Noise EA
+
+### 2. Heat EA
 
 ::: border
 ## 職業衛生領域
@@ -69,7 +79,7 @@ flowchart LR
 ::: border
 ## modeling 軟體 (IH MOD )教學影片
 
-{{< video <https://www.youtube.com/watch?v=cSIlqi8hk4E >}}
+{{< video <https://www.youtube.com/watch?v=cSIlqi8hk4E width="500" height="300">}}
 :::
 
 ### References {.unnumbered}

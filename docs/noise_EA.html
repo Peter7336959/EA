@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Occupational Exposure Assessment – OH模式推估-Peter Ho</title>
+<title>Occupational Noise-EA – OH模式推估-Peter Ho</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -87,10 +67,6 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
-<meta name="mermaid-theme" content="neutral">
-<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -114,7 +90,7 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">首頁</span></a>
   </li>  
   <li class="nav-item">
@@ -134,7 +110,7 @@ div.csl-indent {
 <span class="menu-text">直讀式儀器與RPE</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./noise_EA.html"> 
+    <a class="nav-link active" href="./noise_EA.html" aria-current="page"> 
 <span class="menu-text">噪音-高溫EA</span></a>
   </li>  
   <li class="nav-item">
@@ -158,15 +134,16 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#i.目前初步完成推估模式介紹化學品暴露" id="toc-i.目前初步完成推估模式介紹化學品暴露" class="nav-link active" data-scroll-target="#i.目前初步完成推估模式介紹化學品暴露">I.目前初步完成推估模式介紹：(化學品暴露)</a></li>
-  <li><a href="#ii.規劃展開推估模式介紹噪音與高氣溫" id="toc-ii.規劃展開推估模式介紹噪音與高氣溫" class="nav-link" data-scroll-target="#ii.規劃展開推估模式介紹噪音與高氣溫">II.規劃展開推估模式介紹：(噪音與高氣溫)</a>
-  <ul class="collapse">
-  <li><a href="#noise-ea" id="toc-noise-ea" class="nav-link" data-scroll-target="#noise-ea">1. Noise EA</a></li>
-  <li><a href="#heat-ea" id="toc-heat-ea" class="nav-link" data-scroll-target="#heat-ea">2. Heat EA</a></li>
-  </ul></li>
-  <li><a href="#職業衛生領域" id="toc-職業衛生領域" class="nav-link" data-scroll-target="#職業衛生領域">職業衛生領域</a></li>
-  <li><a href="#modeling-軟體-ih-mod-教學影片" id="toc-modeling-軟體-ih-mod-教學影片" class="nav-link" data-scroll-target="#modeling-軟體-ih-mod-教學影片">modeling 軟體 (IH MOD )教學影片</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#聲音的物理學" id="toc-聲音的物理學" class="nav-link active" data-scroll-target="#聲音的物理學">1. 聲音的物理學</a></li>
+  <li><a href="#耳朵與聽覺的解剖學與生理學" id="toc-耳朵與聽覺的解剖學與生理學" class="nav-link" data-scroll-target="#耳朵與聽覺的解剖學與生理學">2.耳朵與聽覺的解剖學與生理學</a></li>
+  <li><a href="#暴露標準與職業暴露量" id="toc-暴露標準與職業暴露量" class="nav-link" data-scroll-target="#暴露標準與職業暴露量">3. 暴露標準與職業暴露量</a></li>
+  <li><a href="#噪音來源-noise-source" id="toc-噪音來源-noise-source" class="nav-link" data-scroll-target="#噪音來源-noise-source">4. 噪音來源 (Noise Source)</a></li>
+  <li><a href="#聲音測量儀器-sound-measuring-instruments" id="toc-聲音測量儀器-sound-measuring-instruments" class="nav-link" data-scroll-target="#聲音測量儀器-sound-measuring-instruments">5. 聲音測量儀器 (Sound Measuring Instruments)</a></li>
+  <li><a href="#噪音暴露調查策略-strategies-for-noise-surveys" id="toc-噪音暴露調查策略-strategies-for-noise-surveys" class="nav-link" data-scroll-target="#噪音暴露調查策略-strategies-for-noise-surveys">6. 噪音暴露調查策略 (Strategies for Noise Surveys)</a></li>
+  <li><a href="#聽力測量-hearing-measurement" id="toc-聽力測量-hearing-measurement" class="nav-link" data-scroll-target="#聽力測量-hearing-measurement">7. 聽力測量 (Hearing Measurement)</a></li>
+  <li><a href="#聽力保護計畫" id="toc-聽力保護計畫" class="nav-link" data-scroll-target="#聽力保護計畫">8. 聽力保護計畫</a></li>
+  <li><a href="#噪音控制" id="toc-噪音控制" class="nav-link" data-scroll-target="#噪音控制">9. 噪音控制</a></li>
+  <li><a href="#聽力防護具與密合度測試" id="toc-聽力防護具與密合度測試" class="nav-link" data-scroll-target="#聽力防護具與密合度測試">10. 聽力防護具與密合度測試</a></li>
   </ul>
 </nav>
     </div>
@@ -175,7 +152,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Occupational Exposure Assessment</h1>
+<h1 class="title">Occupational Noise-EA</h1>
 </div>
 
 
@@ -192,119 +169,86 @@ div.csl-indent {
 </header>
 
 
-<blockquote class="blockquote">
-<p>本識做網站主要係分享職業衛生概念與知識為主，職業安全議題可另尋其他資源或參考其他的網頁</p>
-<h3 id="本網站主要內容係來自2023-aiha-新書各章acase-b2023" class="anchored"><mark><u><strong>本網站主要內容係來自2023 AIHA 新書各章</strong><span class="citation" data-cites="acase-b2023">(<a href="#ref-acase-b2023" role="doc-biblioref">Keil 2023</a>)</span></u></mark></h3>
-</blockquote>
-<section id="i.目前初步完成推估模式介紹化學品暴露" class="level2">
-<h2 class="anchored" data-anchor-id="i.目前初步完成推估模式介紹化學品暴露">I.目前初步完成推估模式介紹：(化學品暴露)</h2>
-<div class="columns">
-<div class="column" style="width:45%;">
-<section id="why-modeling" class="level3">
-<h3 class="anchored" data-anchor-id="why-modeling">1. Why modeling</h3>
-</section>
-<section id="gathering-information" class="level3">
-<h3 class="anchored" data-anchor-id="gathering-information">2. Gathering information</h3>
-</section>
-<section id="volatile-liquid-spill" class="level3">
-<h3 class="anchored" data-anchor-id="volatile-liquid-spill">3. Volatile liquid spill</h3>
-</section>
-<section id="sanding" class="level3">
-<h3 class="anchored" data-anchor-id="sanding">4. Sanding</h3>
-</section>
-<section id="container-uncovered" class="level3">
-<h3 class="anchored" data-anchor-id="container-uncovered">5. Container uncovered</h3>
-</section>
-<section id="barrel-filling" class="level3">
-<h3 class="anchored" data-anchor-id="barrel-filling">6. Barrel filling</h3>
-</section>
-<section id="historic-exposure" class="level3">
-<h3 class="anchored" data-anchor-id="historic-exposure">7. Historic exposure</h3>
-</section>
-<section id="presurized-gas-release" class="level3">
-<h3 class="anchored" data-anchor-id="presurized-gas-release">8. Presurized gas release</h3>
-</section>
-</div><div class="column" style="width:10%;">
-<!-- empty column to create gap -->
-</div><div class="column" style="width:45%;">
-<section id="flavoring-process" class="level3">
-<h3 class="anchored" data-anchor-id="flavoring-process">9. Flavoring Process</h3>
-</section>
-<section id="cleaning-process" class="level3">
-<h3 class="anchored" data-anchor-id="cleaning-process">10. Cleaning Process</h3>
-</section>
-<section id="model-parameters" class="level3">
-<h3 class="anchored" data-anchor-id="model-parameters">11. Model parameters</h3>
-</section>
-<section id="monte-carlo-modeling" class="level3">
-<h3 class="anchored" data-anchor-id="monte-carlo-modeling">12. Monte Carlo modeling</h3>
-</section>
-<section id="mixture-modeling" class="level3">
-<h3 class="anchored" data-anchor-id="mixture-modeling">13. Mixture modeling</h3>
-</section>
-<section id="oxygen-deficiency" class="level3">
-<h3 class="anchored" data-anchor-id="oxygen-deficiency">14. Oxygen Deficiency</h3>
-</section>
-<section id="autoshop-solvents" class="level3">
-<h3 class="anchored" data-anchor-id="autoshop-solvents">15. Autoshop solvents</h3>
-</section>
-<section id="reconstruction-of-spill" class="level3">
-<h3 class="anchored" data-anchor-id="reconstruction-of-spill">17 Reconstruction of spill</h3>
-</section>
-<section id="modeling-limitation" class="level3">
-<h3 class="anchored" data-anchor-id="modeling-limitation">18 Modeling limitation</h3>
-</section>
-<section id="feeding-model" class="level3">
-<h3 class="anchored" data-anchor-id="feeding-model">19 Feeding model</h3>
-</section>
-</div>
-</div>
-</section>
-<section id="ii.規劃展開推估模式介紹噪音與高氣溫" class="level2">
-<h2 class="anchored" data-anchor-id="ii.規劃展開推估模式介紹噪音與高氣溫">II.規劃展開推估模式介紹：(噪音與高氣溫)</h2>
-<section id="noise-ea" class="level3">
-<h3 class="anchored" data-anchor-id="noise-ea">1. Noise EA</h3>
-</section>
-<section id="heat-ea" class="level3">
-<h3 class="anchored" data-anchor-id="heat-ea">2. Heat EA</h3>
-</section>
-</section>
-<section id="職業衛生領域" class="level2 border">
-<h2 class="anchored" data-anchor-id="職業衛生領域">職業衛生領域</h2>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  A[健康危害預期] --&gt; B(辨識)
-  B ==&gt; C{評估}
-  C --&gt; D[控制] 
-  C --&gt; E[確認] 
+<section id="聲音的物理學" class="level2">
+<h2 class="anchored" data-anchor-id="聲音的物理學">1. 聲音的物理學</h2>
+<pre><code>**聲音的物理學**：學習聲音的本質、基本特性（頻率、波長、振幅），以及聲音如何在空間中傳播（聲場）。
 
-</pre>
+**聲音的量化** ：學習如何用科學的單位來描述聲音，核心概念—**分貝 (decibel, dB)**，以及聲功率、聲強度與聲壓之間的區別。
+
+**心理聲學 (Psycho-acoustics)**：探討人耳是如何感知聲音的。頻率加權（例如 A-weighted）讓測量儀器模擬人耳的聽覺反應。
+
+**噪音評估指標** ：在職業衛生領域中，用來評估不同類型噪音（穩態、變動、衝擊性）暴露量的關鍵指標，例如最重要的**等效連續聲級 (LAeq,T​)**。</code></pre>
+<div class="tabset-margin-container"></div><div class="panel-tabset" data-group="CH1">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Q1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Q2</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Q3</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Q4</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false">Q5</a></li></ul>
+<div class="tab-content" data-group="CH1">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>您認為一個高頻音（例如尖銳的警報聲）和一個低頻音（例如遠處的雷聲），它們的波長會有什麼不同？哪一個的波長會比較長？</p>
 </div>
-<p></p></figure><p></p>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>假設在一個廠房裡，有一部穩態運轉的機器，測得其噪音量為 85 dB(A)。如果我們在旁邊再增加一部一模一樣、噪音量也是 85 dB(A) 的機器，您認為兩部機器同時運轉時，總噪音量會是多少？會是 170 dB(A) 嗎？還是會有不同的結果？</p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>一個工廠的噪音主要由兩種來源構成：一種是頻率很低的巨大通風風扇（假設為 100 Hz），另一種是頻率較高的金屬切割機（假設為 2000 Hz）。如果一台普通的（未經計權的）聲級計測得這兩種噪音源的聲壓級都是 90 dB，那麼當我們改用 A-計權（dB(A)）來測量時，您認為哪一個噪音源的讀數會比較高？為什麼？</p>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p>噪音暴露評估的核心？噪音暴露調查策略？光靠「測量」這個動作是不夠的，它需要一個系統性的策略。第一步：初步調查 (Preliminary Survey)，第二步：規劃測量評估策略 ，第三步：執行測量與評估解讀。 <strong><em>But How to do it?</em></strong></p>
+</div>
+<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
+<p>你知道第一步：初步調查？包含哪些重要事項？ 第一步的目標是全面了解勞工的工作模式與噪音環境，找出所有可能影響其全天暴露總量的因素 。關鍵工作包括：工作分析、噪音來源與特性、建立SEGs等。 <strong><em>(這跟化學品暴露評估有沒有很像呢？)</em></strong> :::</p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="耳朵與聽覺的解剖學與生理學" class="level2">
+<h2 class="anchored" data-anchor-id="耳朵與聽覺的解剖學與生理學">2.耳朵與聽覺的解剖學與生理學</h2>
+<pre><code>**聲音的旅程 - 解剖構造 (Anatomy)**：聲波從進入外耳開始，一路經過中耳，最終抵達內耳，認識沿途的各個重要結構。 
+**從振動到感知 - 生理功能(Physiology)**：耳朵結構如何協同工作，將聲音放大、轉換並進行初步分析的。</code></pre>
+<div class="tabset-margin-container"></div><div class="panel-tabset" data-group="CH2">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Q1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Q2</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Q3</a></li></ul>
+<div class="tab-content" data-group="CH2">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<p>我們剛剛提到了外耳負責「收集」聲波，而中耳像一個「放大器」，解決了空氣到液體的能量傳遞問題。綜合這兩點，您認為從聲波進到耳朵，到它準備進入內耳之前，聲音的能量是變強了還是變弱了？為什麼這一步驟對於聽覺至關重要？</p>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<p>噪音造成聽力損傷，最主要攻擊的目標是內耳的聽覺感測細胞(它們坐落在基底膜上)，且其一旦死亡便無法再生的毛細胞。特別是脆弱的內？ / 外？毛細胞</p>
+</div>
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
+<p>很多早期噪音性聽損的患者會說：「在安靜的地方我聽得還不錯，可是一到吵雜的環境，我就完全聽不清楚別人在說什麼了」，而且他們對較大的聲音會感覺特別刺耳（這種現象稱為響度重振 Loudness Recruitment）。</p>
+<p>您認為這個現象，比較可能跟哪一種毛細胞（內毛細胞或外毛細胞）的損傷有關？為什麼？</p>
+<p>PS. 早期噪音聽損主要與<strong>外毛細胞 (OHCs)</strong> 的損傷有關。它們的受損不僅造成了聽力損失，也破壞了我們聽覺的精細調節能力，導致在吵雜環境中分辨語音的能力下降。</p>
 </div>
 </div>
 </div>
 </section>
-<section id="modeling-軟體-ih-mod-教學影片" class="level2 border">
-<h2 class="anchored" data-anchor-id="modeling-軟體-ih-mod-教學影片">modeling 軟體 (IH MOD )教學影片</h2>
-<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/cSIlqi8hk4E" width="500" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="暴露標準與職業暴露量" class="level2">
+<h2 class="anchored" data-anchor-id="暴露標準與職業暴露量">3. 暴露標準與職業暴露量</h2>
 </section>
-<section id="references" class="level3 unnumbered">
-
-
+<section id="噪音來源-noise-source" class="level2">
+<h2 class="anchored" data-anchor-id="噪音來源-noise-source">4. 噪音來源 (Noise Source)</h2>
+</section>
+<section id="聲音測量儀器-sound-measuring-instruments" class="level2">
+<h2 class="anchored" data-anchor-id="聲音測量儀器-sound-measuring-instruments">5. 聲音測量儀器 (Sound Measuring Instruments)</h2>
+</section>
+<section id="噪音暴露調查策略-strategies-for-noise-surveys" class="level2">
+<h2 class="anchored" data-anchor-id="噪音暴露調查策略-strategies-for-noise-surveys">6. 噪音暴露調查策略 (Strategies for Noise Surveys)</h2>
+</section>
+<section id="聽力測量-hearing-measurement" class="level2">
+<h2 class="anchored" data-anchor-id="聽力測量-hearing-measurement">7. 聽力測量 (Hearing Measurement)</h2>
+</section>
+<section id="聽力保護計畫" class="level2">
+<h2 class="anchored" data-anchor-id="聽力保護計畫">8. 聽力保護計畫</h2>
+</section>
+<section id="噪音控制" class="level2">
+<h2 class="anchored" data-anchor-id="噪音控制">9. 噪音控制</h2>
+</section>
+<section id="聽力防護具與密合度測試" class="level2">
+<h2 class="anchored" data-anchor-id="聽力防護具與密合度測試">10. 聽力防護具與密合度測試</h2>
 
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-acase-b2023" class="csl-entry" role="listitem">
-Keil, Chris, ed. 2023. <em>A case-based introduction to modeling occupational inhalation exposures to chemicals</em>. Falls Church, VA: AIHA.
-</div>
-</div></section></div></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

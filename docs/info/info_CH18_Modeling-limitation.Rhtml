@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>資訊圖表：職衛模型的限制與溝通</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 350px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 400px;
+            }
+        }
+        .kpi-card {
+            background-color: white;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .kpi-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <main class="container mx-auto p-4 md:p-8">
+        
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-[#00A6ED] mb-4">職衛模式推估的限制與溝通策略</h1>
+            <p class="text-xl font-bold md:text-2xl text-red-600 max-w-4xl mx-auto">將複雜數據轉化為清晰洞見，從被動反應到主動預防</p>
+        </header>
+
+        <section class="text-center bg-white p-8 rounded-xl shadow-lg mb-12">
+             <h2 class="text-3xl font-bold text-gray-700 mb-4">核心公理</h2>
+            <blockquote class="text-2xl italic font-bold text-[darkgreen] border-l-4 border-[#00C1B5] pl-6 py-2 max-w-3xl mx-auto">
+                「所有模型都是錯的，但有些是有用的。」
+            </blockquote>
+            <p class="text-lg text-gray-500 mt-2">- George E.P. Box</p>
+            <p class="mt-6 text-xl max-w-3xl mx-auto">模型的價值在於其<span class="font-bold text-[#FF5733]">「足夠接近現實」</span>以支持決策，而非追求完美。我們必須警惕將電腦輸出的「精密度」誤認為對現實的「準確度」。</p>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <div class="kpi-card md:col-span-2">
+                <h3 class="text-2xl font-bold text-center mb-6 text-[#00A6ED]">實務陷阱：當模型假設遇上殘酷現實</h3>
+                <p class="text-center text-gray-600 mb-8 max-w-3xl mx-auto">模型的失敗往往不是程式錯誤，而是其核心假設在現實中不成立。這種「失敗」正是最有價值的診斷工具，能揭示潛在的工程或流程問題。</p>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h4 class="text-xl font-bold text-center mb-2">案例1：均勻混合室 (WMR) 模型</h4>
+                        <p class="text-center text-gray-600 mb-4">模型假設污染物完美混合，但現實中常因通風短路導致濃度差異巨大。</p>
+                        <div class="chart-container h-80">
+                            <canvas id="wmrChart"></canvas>
+                        </div>
+                        <p class="text-center mt-4 font-semibold text-[#C70039]">⚠️ 結論：模型預測值與實測值的巨大差異，直接指向了需要改善的通風工程問題，而非模型本身需要「校正」。</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold text-center mb-2">案例2：近場/遠場 (NF/FF) 模型</h4>
+                        <p class="text-center text-gray-600 mb-4">強力風扇打破了近/遠場的區隔，若模型忽略此效應，將嚴重高估近場濃度。</p>
+                        <div class="chart-container h-80">
+                            <canvas id="nfffChart"></canvas>
+                        </div>
+                        <p class="text-center mt-4 font-semibold text-[#C70039]">⚠️ 結論：更複雜的模型不一定更好。當現實情況違反其核心假設時，簡單模型可能更接近真相。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kpi-card">
+                <h3 class="text-2xl font-bold text-center mb-6 text-[#00A6ED]">溝通的藝術：成為數據的轉譯者</h3>
+                <p class="text-center text-gray-600 mb-6">原始數據並非資訊。職衛專家的核心價值在於將複雜的計算結果，轉譯為不同利害關係人能理解並據以行動的洞見。</p>
+                <div class="space-y-4">
+                    <div class="flex items-center text-lg p-4 bg-gray-50 rounded-lg">
+                        <span class="text-3xl mr-4">📊</span>
+                        <span>原始數據</span>
+                    </div>
+                    <div class="flex justify-center">
+                        <span class="text-3xl text-[#FFC400]">⬇️</span>
+                    </div>
+                    <div class="flex items-center text-lg p-4 bg-gray-50 rounded-lg">
+                        <span class="text-3xl mr-4">🧠</span>
+                        <span>專業詮釋 (風險、意義、限制)</span>
+                    </div>
+                    <div class="flex justify-center">
+                        <span class="text-3xl text-[#FFC400]">⬇️</span>
+                    </div>
+                    <div class="flex items-center text-lg p-4 bg-gray-50 rounded-lg">
+                        <span class="text-3xl mr-4">🎯</span>
+                        <span>客製化溝通 (針對不同受眾)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kpi-card">
+                <h3 class="text-2xl font-bold text-center mb-6 text-[#00A6ED]">利害關係人關注點分析</h3>
+                <p class="text-center text-gray-600 mb-4">成功的溝通始於理解受眾。不同群體關心的重點截然不同，我們的報告也必須投其所好。</p>
+                <div class="chart-container">
+                    <canvas id="stakeholderChart"></canvas>
+                </div>
+            </div>
+
+            <div class="kpi-card md:col-span-2">
+                <h3 class="text-2xl font-bold text-center mb-6 text-[#00A6ED]">風險溝通的 paradigm shift：從「合格/不合格」到「機率性」理解</h3>
+                <p class="text-center text-gray-600 mb-8 max-w-3xl mx-auto">現代貝氏分析工具讓我們能更誠實、更直觀地溝通風險。我們不再問「是否超標？」，而是問「超標的機率有多大？」，這支持更精細的決策。</p>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h4 class="text-xl font-bold text-center mb-2">風險儀表板</h4>
+                        <p class="text-center text-gray-600 mb-4">將複雜的機率轉化為一目了然的視覺信號，快速傳達風險等級。</p>
+                        <div class="chart-container h-80">
+                            <canvas id="riskDashboardChart"></canvas>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold text-center mb-2">資源分配優先序</h4>
+                        <p class="text-center text-gray-600 mb-4">透過比較不同崗位的過度暴露風險，管理者能清晰地看到應將資源投入何處。</p>
+                        <div class="chart-container h-80">
+                            <canvas id="priorityChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kpi-card md:col-span-2">
+                <h3 class="text-2xl font-bold text-center mb-6 text-[#00A6ED]">綜合結論與專業應用</h3>
+                <div class="space-y-6 text-lg max-w-4xl mx-auto">
+                    <div class="flex items-start p-4 bg-blue-50 rounded-lg">
+                        <span class="text-3xl mr-4">🛠️</span>
+                        <div>
+                            <h4 class="font-bold">模型是不可或缺的工具</h4>
+                            <p class="text-gray-600">其有效性高度依賴於使用者對其核心限制（適用範圍與基本假設）的深刻理解。</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start p-4 bg-green-50 rounded-lg">
+                        <span class="text-3xl mr-4">🗣️</span>
+                        <div>
+                            <h4 class="font-bold">溝通與建模同等重要</h4>
+                            <p class="text-gray-600">必須根據受眾（高層、員工、監管機構）客製化溝通策略，將複雜數據轉化為直觀的風險資訊。</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start p-4 bg-yellow-50 rounded-lg">
+                        <span class="text-3xl mr-4">🤝</span>
+                        <div>
+                            <h4 class="font-bold">增進理解與信任</h4>
+                            <p class="text-gray-600">最終目標是擴大模型的應用機會，透過穩健的結果與主動的溝通，為工程控制提出有效對策，降低危害暴露。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <footer class="text-center mt-12 py-6 border-t border-gray-200">
+            <p class="text-gray-600">此資訊圖表總結自《化學品職業暴露量估算數學模型》第18章核心內容。</p>
+            <p class="text-gray-400"> Prepared by Peter Ho. 114.08.19</p>
+
+        </footer>
+
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            
+            const palette = {
+                blue: '#00A6ED',
+                cyan: '#00C1B5',
+                yellow: '#FFC400',
+                orange: '#FF5733',
+                red: '#C70039',
+                gray: '#6B7280'
+            };
+
+            const processLabel = (label) => {
+                if (typeof label !== 'string' || label.length <= 16) {
+                    return label;
+                }
+                const words = label.split(' ');
+                const lines = [];
+                let currentLine = '';
+                for (const word of words) {
+                    if ((currentLine + ' ' + word).trim().length > 16) {
+                        lines.push(currentLine.trim());
+                        currentLine = word;
+                    } else {
+                        currentLine = (currentLine + ' ' + word).trim();
+                    }
+                }
+                if (currentLine) {
+                    lines.push(currentLine.trim());
+                }
+                return lines;
+            };
+
+            const tooltipTitleCallback = (tooltipItems) => {
+                const item = tooltipItems[0];
+                let label = item.chart.data.labels[item.dataIndex];
+                if (Array.isArray(label)) {
+                    return label.join(' ');
+                }
+                return label;
+            };
+
+            const commonChartOptions = {
+                maintainAspectRatio: false,
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            font: {
+                                family: "'Noto Sans TC', sans-serif",
+                                size: 14,
+                            }
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: tooltipTitleCallback
+                        },
+                        titleFont: { family: "'Noto Sans TC', sans-serif", size: 16 },
+                        bodyFont: { family: "'Noto Sans TC', sans-serif", size: 14 },
+                    }
+                }
+            };
+
+            new Chart(document.getElementById('wmrChart'), {
+                type: 'bar',
+                data: {
+                    labels: ['模型預測濃度', '勞工呼吸帶實測', '排氣口實測'],
+                    datasets: [{
+                        label: '丙酮濃度 (ppm)',
+                        data: [50, 150, 10],
+                        backgroundColor: [palette.blue, palette.red, palette.yellow],
+                        borderColor: '#ffffff',
+                        borderWidth: 2
+                    }]
+                },
+                options: { ...commonChartOptions, scales: { y: { beginAtZero: true, title: { display: true, text: '濃度 (ppm)' } } } }
+            });
+
+            new Chart(document.getElementById('nfffChart'), {
+                type: 'bar',
+                data: {
+                    labels: ['錯誤模型預測 (高估)', '現實情況 (因風扇稀釋)'],
+                    datasets: [{
+                        label: '近場濃度 (ppm)',
+                        data: [250, 75],
+                        backgroundColor: [palette.red, palette.cyan],
+                        borderColor: '#ffffff',
+                        borderWidth: 2
+                    }]
+                },
+                options: { ...commonChartOptions, scales: { y: { beginAtZero: true, title: { display: true, text: '濃度 (ppm)' } } } }
+            });
+
+            new Chart(document.getElementById('stakeholderChart'), {
+                type: 'radar',
+                data: {
+                    labels: ['ROI & 成本', '個人健康安全', '法規符合性', '數據完整性', '科學有效性'],
+                    datasets: [
+                        {
+                            label: '高層領導',
+                            data: [5, 2, 4, 2, 1],
+                            backgroundColor: 'rgba(0, 166, 237, 0.2)',
+                            borderColor: palette.blue,
+                            pointBackgroundColor: palette.blue,
+                        },
+                        {
+                            label: '員工',
+                            data: [1, 5, 3, 2, 1],
+                            backgroundColor: 'rgba(0, 193, 181, 0.2)',
+                            borderColor: palette.cyan,
+                            pointBackgroundColor: palette.cyan,
+                        },
+                         {
+                            label: '監管機構',
+                            data: [2, 4, 5, 5, 3],
+                            backgroundColor: 'rgba(255, 87, 51, 0.2)',
+                            borderColor: palette.orange,
+                            pointBackgroundColor: palette.orange,
+                        }
+                    ]
+                },
+                options: { ...commonChartOptions, scales: { r: { beginAtZero: true, max: 5, ticks: { display: false } } } }
+            });
+
+            new Chart(document.getElementById('riskDashboardChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['過度暴露機率', '可接受範圍'],
+                    datasets: [{
+                        data: [28.9, 71.1],
+                        backgroundColor: [palette.yellow, '#e9ecef'],
+                        borderColor: '#ffffff',
+                        borderWidth: 4,
+                        circumference: 180,
+                        rotation: 270,
+                    }]
+                },
+                options: {
+                    ...commonChartOptions,
+                    plugins: { ...commonChartOptions.plugins, legend: { display: false } },
+                    cutout: '70%',
+                },
+                plugins: [{
+                    id: 'doughnutText',
+                    afterDraw(chart) {
+                        const { ctx, width, height } = chart;
+                        ctx.restore();
+                        const fontSize = (height / 114).toFixed(2);
+                        ctx.font = `bold ${fontSize}em 'Noto Sans TC', sans-serif`;
+                        ctx.textBaseline = 'middle';
+                        const text = '28.9%';
+                        const textX = Math.round((width - ctx.measureText(text).width) / 2);
+                        const textY = height / 1.5;
+                        ctx.fillStyle = palette.yellow;
+                        ctx.fillText(text, textX, textY);
+                        
+                        const subtext = '中度風險';
+                        const subfontSize = (height / 200).toFixed(2);
+                        ctx.font = `${subfontSize}em 'Noto Sans TC', sans-serif`;
+                        const subtextX = Math.round((width - ctx.measureText(subtext).width) / 2);
+                        const subtextY = textY + 30;
+                        ctx.fillStyle = palette.gray;
+                        ctx.fillText(subtext, subtextX, subtextY);
+
+                        ctx.save();
+                    }
+                }]
+            });
+            
+            const priorityLabels = ['崗位4：混合操作員', '崗位2：實驗室分析員', '崗位3：維護技術員', '崗位1：辦公室行政'];
+            new Chart(document.getElementById('priorityChart'), {
+                type: 'bar',
+                data: {
+                    labels: priorityLabels.map(processLabel),
+                    datasets: [{
+                        label: '過度暴露風險機率 (%)',
+                        data: [82, 35, 12, 2],
+                        backgroundColor: (context) => {
+                            const value = context.raw;
+                            if (value > 50) return palette.red;
+                            if (value > 20) return palette.yellow;
+                            return palette.cyan;
+                        },
+                        borderColor: '#ffffff',
+                        borderWidth: 2
+                    }]
+                },
+                options: { ...commonChartOptions, indexAxis: 'y', scales: { x: { beginAtZero: true, max: 100, title: { display: true, text: '機率 (%)' } } } }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -106,6 +106,15 @@ Chapter 14 Oxygen Deficiency Hazard in a Storage Tank
 Chapter 15 Use of Aerosol Solvents in an Auto Shop
 
 \*[摘要](docs\info\web_CH15_Autoshop-solvent.html) \*[圖說](docs\info\info_CH15_Autoshop-solvent.html)
+
+
+## 17 Reconstruction of spill
+
+## 18 Modeling limitation
+
+## 19 Feeding model
+
+
 :::
 ::::::
 

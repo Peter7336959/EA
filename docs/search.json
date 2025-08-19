@@ -623,14 +623,14 @@
     "href": "index.html#目前初步完成推估模式介紹化學品暴露",
     "title": "Occupational Exposure Assessment",
     "section": "1.目前初步完成推估模式介紹：(化學品暴露)",
-    "text": "1.目前初步完成推估模式介紹：(化學品暴露)\n\n\n\n1. Why modeling\n\n\n2. Gathering information\n\n\n3. Volatile liquid spill\n\n\n4. Sanding\n\n\n5. Container uncovered\n\n\n6. Barrel filling\n\n\n7. Historic exposure\n\n\n8. Presurized gas release\n\n\n\n\n\n9. Flavoring Process\n\n\n10. Cleaning Process\n\n\n11. Model parameters\n\n\n12. Monte Carlo modeling\n\n\n13. Mixture modeling\n\n\n14. Oxygen Deficiency\n\n\n15. Autoshop solvents"
+    "text": "1.目前初步完成推估模式介紹：(化學品暴露)\n\n\n\n1. Why modeling\n\n\n2. Gathering information\n\n\n3. Volatile liquid spill\n\n\n4. Sanding\n\n\n5. Container uncovered\n\n\n6. Barrel filling\n\n\n7. Historic exposure\n\n\n8. Presurized gas release\n\n\n\n\n\n9. Flavoring Process\n\n\n10. Cleaning Process\n\n\n11. Model parameters\n\n\n12. Monte Carlo modeling\n\n\n13. Mixture modeling\n\n\n14. Oxygen Deficiency\n\n\n15. Autoshop solvents\n\n\n17 Reconstruction of spill\n\n\n18 Modeling limitation\n\n\n19 Feeding model"
   },
   {
     "objectID": "index.html#規劃展開推估模式介紹噪音與高氣溫",
     "href": "index.html#規劃展開推估模式介紹噪音與高氣溫",
     "title": "Occupational Exposure Assessment",
     "section": "2.規劃展開推估模式介紹：(噪音與高氣溫)",
-    "text": "2.規劃展開推估模式介紹：(噪音與高氣溫)"
+    "text": "2.規劃展開推估模式介紹：(噪音與高氣溫)\n\nNoise EA\n\n\nHeat EA"
   },
   {
     "objectID": "index.html#職業衛生領域",
@@ -1464,5 +1464,285 @@
     "title": "CH15",
     "section": "",
     "text": "本案例強調選擇正確的暴露模式（雙區模式）、深入理解毒理學交互作用、將模式作為調查工具來識別關鍵暴露驅動因素，以及實施具體的控制措施（尤其是從源頭替代）對於職業衛生風險評估的重要性。"
+  },
+  {
+    "objectID": "modeling.html#reconstruction-of-spill",
+    "href": "modeling.html#reconstruction-of-spill",
+    "title": "Modeling",
+    "section": "17 Reconstruction of spill",
+    "text": "17 Reconstruction of spill"
+  },
+  {
+    "objectID": "modeling.html#modeling-limitation",
+    "href": "modeling.html#modeling-limitation",
+    "title": "Modeling",
+    "section": "18 Modeling limitation",
+    "text": "18 Modeling limitation"
+  },
+  {
+    "objectID": "modeling.html#feeding-model",
+    "href": "modeling.html#feeding-model",
+    "title": "Modeling",
+    "section": "19 Feeding model",
+    "text": "19 Feeding model"
+  },
+  {
+    "objectID": "docs/Noise/noise_EA.html",
+    "href": "docs/Noise/noise_EA.html",
+    "title": "noise-EA",
+    "section": "",
+    "text": "聲音的物理學？\n聲音的物理學：學習聲音的本質、基本特性（頻率、波長、振幅），以及聲音如何在空間中傳播（聲場）。\n聲音的量化 ：學習如何用科學的單位來描述聲音，核心概念—分貝 (decibel, dB)，以及聲功率、聲強度與聲壓之間的區別。\n心理聲學 (Psycho-acoustics)：探討人耳是如何感知聲音的。頻率加權（例如 A-weighted）讓測量儀器模擬人耳的聽覺反應。\n噪音評估指標 ：在職業衛生領域中，用來評估不同類型噪音（穩態、變動、衝擊性）暴露量的關鍵指標，例如最重要的等效連續聲級 (LAeq,T​)。\n\n\nQ1Q2Q3Q4Q5\n\n\n您認為一個高頻音（例如尖銳的警報聲）和一個低頻音（例如遠處的雷聲），它們的波長會有什麼不同？哪一個的波長會比較長？\n\n\n假設在一個廠房裡，有一部穩態運轉的機器，測得其噪音量為 85 dB(A)。如果我們在旁邊再增加一部一模一樣、噪音量也是 85 dB(A) 的機器，您認為兩部機器同時運轉時，總噪音量會是多少？會是 170 dB(A) 嗎？還是會有不同的結果？\n\n\n一個工廠的噪音主要由兩種來源構成：一種是頻率很低的巨大通風風扇（假設為 100 Hz），另一種是頻率較高的金屬切割機（假設為 2000 Hz）。如果一台普通的（未經計權的）聲級計測得這兩種噪音源的聲壓級都是 90 dB，那麼當我們改用 A-計權（dB(A)）來測量時，您認為哪一個噪音源的讀數會比較高？為什麼？\n\n\n噪音暴露評估的核心？噪音暴露調查策略？光靠「測量」這個動作是不夠的，它需要一個系統性的策略。第一步：初步調查 (Preliminary Survey)，第二步：規劃測量評估策略 ，第三步：執行測量與評估解讀。 But How to do it?\n\n\n你知道第一步：初步調查？包含哪些重要事項？ 第一步的目標是全面了解勞工的工作模式與噪音環境，找出所有可能影響其全天暴露總量的因素 。關鍵工作包括：工作分析、噪音來源與特性、建立SEGs等。 (這跟化學品暴露評估有沒有很像呢？)\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "PH_hazard.html",
+    "href": "PH_hazard.html",
+    "title": "物理性EA",
+    "section": "",
+    "text": "聲音的物理學？\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html#i.目前初步完成推估模式介紹化學品暴露",
+    "href": "index.html#i.目前初步完成推估模式介紹化學品暴露",
+    "title": "Occupational Exposure Assessment",
+    "section": "I.目前初步完成推估模式介紹：(化學品暴露)",
+    "text": "I.目前初步完成推估模式介紹：(化學品暴露)\n\n\n\n1. Why modeling\n\n\n2. Gathering information\n\n\n3. Volatile liquid spill\n\n\n4. Sanding\n\n\n5. Container uncovered\n\n\n6. Barrel filling\n\n\n7. Historic exposure\n\n\n8. Presurized gas release\n\n\n\n\n\n9. Flavoring Process\n\n\n10. Cleaning Process\n\n\n11. Model parameters\n\n\n12. Monte Carlo modeling\n\n\n13. Mixture modeling\n\n\n14. Oxygen Deficiency\n\n\n15. Autoshop solvents\n\n\n17 Reconstruction of spill\n\n\n18 Modeling limitation\n\n\n19 Feeding model"
+  },
+  {
+    "objectID": "index.html#ii.規劃展開推估模式介紹噪音與高氣溫",
+    "href": "index.html#ii.規劃展開推估模式介紹噪音與高氣溫",
+    "title": "Occupational Exposure Assessment",
+    "section": "II.規劃展開推估模式介紹：(噪音與高氣溫)",
+    "text": "II.規劃展開推估模式介紹：(噪音與高氣溫)\n\n1. Noise EA\n\n\n2. Heat EA"
+  },
+  {
+    "objectID": "Noise/Noise.html",
+    "href": "Noise/Noise.html",
+    "title": "Titre du texte, si possible moins de 50 caractères",
+    "section": "",
+    "text": "Les sections et sous-sections sont numérotées de façon automatique. La même règle s’applique, catégorie par catégorie, aux théorèmes, aux lemmes, aux corollaires et aux définitions.\nToutefois, on trouvera un moyen de remplacer la numérotation catégorie par catégorie par une numérotation en fonction de la section ou de la sous-section dans le préambule et c’est là aussi que vous devrez l’activer. Vous trouverez plus d’information sur ce sujet et sur bien d’autres, dans M.-P. Kluth et B. Bayart, .\nOn trouvera une liste de listes de symboles disponibles pour écrire des expressions mathématiques pages 50 à 56, dans T. Oetiker, H. Partl, I. Hyna et E. Schlegl (1999). ."
+  },
+  {
+    "objectID": "Noise/Noise.html#expressions-mathématiques-au-fil-du-texte",
+    "href": "Noise/Noise.html#expressions-mathématiques-au-fil-du-texte",
+    "title": "Titre du texte, si possible moins de 50 caractères",
+    "section": "Expressions mathématiques au fil du texte ",
+    "text": "Expressions mathématiques au fil du texte \nLe signe de dollar permet d’insérer au fil du texte des expressions mathématiques qui apparaîtront en italique. Ainsi, lorsqu’on utilise une fonction f, pour qu’elle apparaisse comme un objet mathématique, il suffit de l’écrire f, entre deux signes de dollar. Les expressions peuvent être plus complexes:\nSoit, f: \\Bbb{N}^{2*} \\rightarrow \\Bbb{R} telle que pour tout (m,n) \\in \\Bbb{N}^{2*} on a f(m+1,n+1) = f(m+1,n) + f(m,n+1)."
+  },
+  {
+    "objectID": "Noise/Noise.html#expressions-mathématiques-sur-une-ligne-dédiée",
+    "href": "Noise/Noise.html#expressions-mathématiques-sur-une-ligne-dédiée",
+    "title": "Titre du texte, si possible moins de 50 caractères",
+    "section": "Expressions mathématiques sur une ligne dédiée ",
+    "text": "Expressions mathématiques sur une ligne dédiée \nOn peut souhaiter que l’équation soit mise en évidence sur une ligne qui lui soit dédiée:\nSoit, f: \\Bbb{N}^{2*} \\rightarrow \\Bbb{R} telle que pour tout (m, n) {\\in} \\Bbb{N}^{2*} on a \\begin{equation*}\nf(m+1,n+1) = f(m+1,n) \\qquad+ f(m,n+1).\n\\end{equation*}\nOn peut souhaiter qu’en plus cette équation soit numérotée et qu’on puisse faire référence plus loin dans le texte à ce numéro:\nSoit, f:\\Bbb{N}^{2*} \\rightarrow \\Bbb{R} telle que pour tout (m,n) \\in \\Bbb{N}^{2*} on a \\begin{equation}\nf(m+1,n+1) = f(m+1,n) + f(m,n+1). \\label{recur}\n\\end{equation}\nPour faire référence à une équation numérotée, on utilise l’étiquette qui lui a été attribuée. Ainsi on peut invoquer l’équation () de la section (). Ce système est résistant aux changements de place dans le texte. Il est possible qu’il soit nécessaire de compiler plusieurs fois après une modification du texte pour assurer le suivi des références."
+  },
+  {
+    "objectID": "Noise/Noise.html#expressions-mathématiques-sur-plusieurs-lignes-avec-numérotation",
+    "href": "Noise/Noise.html#expressions-mathématiques-sur-plusieurs-lignes-avec-numérotation",
+    "title": "Titre du texte, si possible moins de 50 caractères",
+    "section": "Expressions mathématiques sur plusieurs lignes, avec numérotation ",
+    "text": "Expressions mathématiques sur plusieurs lignes, avec numérotation \nAC=CB et AB=AC Il arrive qu’on ait une suite d’égalités à présenter et qu’on souhaite aligner les signes d’égalité. On traite alors la suite d’équations comme un tableau à 3 colonnes délimitées par le symbole de l’esperluette (et commercial).\nExemple:\nLa partie du théorème précédent portant sur la norme se démontre ainsi:\nPour obtenir une suite d’équations non numérotées,\n\\begin{eqnarray*}\n\\Big\\|{\\frac{1}{\\| \\vv{v}\\|}\\vv{v}} \\Big\\|&=& \\Big |\\frac{1}{\\| \\vv{v}\\|} \\Big |\\| \\vv{v}\\| \\\\\n&=&\\frac{1}{\\| \\vv{v}\\|}\\| \\vv{v}\\| \\\\\n&=&\\frac{\\| \\vv{v}\\|}{\\| \\vv{v}\\|} \\\\\n&=&1\n\\end{eqnarray*}"
+  },
+  {
+    "objectID": "Noise/Noise.html#expressions-mathématiques-dune-fonction-définie-par-morceaux",
+    "href": "Noise/Noise.html#expressions-mathématiques-dune-fonction-définie-par-morceaux",
+    "title": "Titre du texte, si possible moins de 50 caractères",
+    "section": "Expressions mathématiques d’une fonction définie par morceaux ",
+    "text": "Expressions mathématiques d’une fonction définie par morceaux \nUn classique:\nou encore [f(x)=\n\\begin{cases}\n\\; \\;x & \\text{, si } x &gt; 0, \\\\\n\\; \\;0& \\text{, si } x = 0, \\\\\n-x & \\text{, \\emph{sinon}}.\n\\end{cases}\n]"
+  },
+  {
+    "objectID": "Noise/Noise.html#insertion-dune-figure-avec-légende-étiquetée",
+    "href": "Noise/Noise.html#insertion-dune-figure-avec-légende-étiquetée",
+    "title": "Titre du texte, si possible moins de 50 caractères",
+    "section": "Insertion d’une figure avec légende étiquetée ",
+    "text": "Insertion d’une figure avec légende étiquetée \nComme pour les équations numérotées ou les sections, on peut invoquer une figure dont la légende a été étiquetée sans craindre les modifications au texte en cours de composition.\nAinsi, on peut invoquer les figures () et () pour attirer l’attention du lecteur sur la manière de contrôler la taille d’une figure."
+  },
+  {
+    "objectID": "Noise/Noise.html#insertion-dune-figure-avec-légende-manuelle",
+    "href": "Noise/Noise.html#insertion-dune-figure-avec-légende-manuelle",
+    "title": "Titre du texte, si possible moins de 50 caractères",
+    "section": "Insertion d’une figure avec légende manuelle ",
+    "text": "Insertion d’une figure avec légende manuelle \nOn ne peut pas invoquer cette figure autrement que manuellement. Nous n’encourageons pas l’insertion de figures de cette façon car dans ce cas il arrive que la figure elle-même et son titre se retrouvent sur deux pages différentes.\nTout ce qui a été étiqueté, sections, sous-sections, figures, tableaux et entrées de la bibliographie, peut être invoqué ailleurs dans le texte."
+  },
+  {
+    "objectID": "docs/Noise/noise_EA.html#聲音的物理學",
+    "href": "docs/Noise/noise_EA.html#聲音的物理學",
+    "title": "noise-EA",
+    "section": "",
+    "text": "**聲音的物理學**：學習聲音的本質、基本特性（頻率、波長、振幅），以及聲音如何在空間中傳播（聲場）。\n\n**聲音的量化** ：學習如何用科學的單位來描述聲音，核心概念—**分貝 (decibel, dB)**，以及聲功率、聲強度與聲壓之間的區別。\n\n**心理聲學 (Psycho-acoustics)**：探討人耳是如何感知聲音的。頻率加權（例如 A-weighted）讓測量儀器模擬人耳的聽覺反應。\n\n**噪音評估指標** ：在職業衛生領域中，用來評估不同類型噪音（穩態、變動、衝擊性）暴露量的關鍵指標，例如最重要的**等效連續聲級 (LAeq,T​)**。\n\nQ1Q2Q3Q4Q5\n\n\n您認為一個高頻音（例如尖銳的警報聲）和一個低頻音（例如遠處的雷聲），它們的波長會有什麼不同？哪一個的波長會比較長？\n\n\n假設在一個廠房裡，有一部穩態運轉的機器，測得其噪音量為 85 dB(A)。如果我們在旁邊再增加一部一模一樣、噪音量也是 85 dB(A) 的機器，您認為兩部機器同時運轉時，總噪音量會是多少？會是 170 dB(A) 嗎？還是會有不同的結果？\n\n\n一個工廠的噪音主要由兩種來源構成：一種是頻率很低的巨大通風風扇（假設為 100 Hz），另一種是頻率較高的金屬切割機（假設為 2000 Hz）。如果一台普通的（未經計權的）聲級計測得這兩種噪音源的聲壓級都是 90 dB，那麼當我們改用 A-計權（dB(A)）來測量時，您認為哪一個噪音源的讀數會比較高？為什麼？\n\n\n噪音暴露評估的核心？噪音暴露調查策略？光靠「測量」這個動作是不夠的，它需要一個系統性的策略。第一步：初步調查 (Preliminary Survey)，第二步：規劃測量評估策略 ，第三步：執行測量與評估解讀。 But How to do it?\n\n\n你知道第一步：初步調查？包含哪些重要事項？ 第一步的目標是全面了解勞工的工作模式與噪音環境，找出所有可能影響其全天暴露總量的因素 。關鍵工作包括：工作分析、噪音來源與特性、建立SEGs等。 (這跟化學品暴露評估有沒有很像呢？) :::"
+  },
+  {
+    "objectID": "docs/Noise/noise_EA.html#耳朵與聽覺的解剖學與生理學",
+    "href": "docs/Noise/noise_EA.html#耳朵與聽覺的解剖學與生理學",
+    "title": "noise-EA",
+    "section": "2.耳朵與聽覺的解剖學與生理學",
+    "text": "2.耳朵與聽覺的解剖學與生理學\n**聲音的旅程 - 解剖構造 (Anatomy)**：聲波從進入外耳開始，一路經過中耳，最終抵達內耳，認識沿途的各個重要結構。 \n**從振動到感知 - 生理功能(Physiology)**：耳朵結構如何協同工作，將聲音放大、轉換並進行初步分析的。\n\nQ1Q2Q3Q4\n\n\n我們剛剛提到了外耳負責「收集」聲波，而中耳像一個「放大器」，解決了空氣到液體的能量傳遞問題。綜合這兩點，您認為從聲波進到耳朵，到它準備進入內耳之前，聲音的能量是變強了還是變弱了？為什麼這一步驟對於聽覺至關重要？\n\n\n噪音造成聽力損傷，最主要攻擊的目標是內耳的聽覺感測細胞(它們坐落在基底膜上)，且其一旦死亡便無法再生的毛細胞。特別是脆弱的內？ / 外？毛細胞\n\n\n很多早期噪音性聽損的患者會說：「在安靜的地方我聽得還不錯，可是一到吵雜的環境，我就完全聽不清楚別人在說什麼了」，而且他們對較大的聲音會感覺特別刺耳（這種現象稱為響度重振 Loudness Recruitment）。\n您認為這個現象，比較可能跟哪一種毛細胞（內毛細胞或外毛細胞）的損傷有關？為什麼？"
+  },
+  {
+    "objectID": "docs/Noise/noise_EA.html#section",
+    "href": "docs/Noise/noise_EA.html#section",
+    "title": "noise-EA",
+    "section": "3.",
+    "text": "3."
+  },
+  {
+    "objectID": "docs/Noise/noise_EA.html#section-1",
+    "href": "docs/Noise/noise_EA.html#section-1",
+    "title": "noise-EA",
+    "section": "4.",
+    "text": "4."
+  },
+  {
+    "objectID": "docs/Noise/noise_EA.html#q2",
+    "href": "docs/Noise/noise_EA.html#q2",
+    "title": "noise-EA",
+    "section": "Q2",
+    "text": "Q2\n假設在一個廠房裡，有一部穩態運轉的機器，測得其噪音量為 85 dB(A)。如果我們在旁邊再增加一部一模一樣、噪音量也是 85 dB(A) 的機器，您認為兩部機器同時運轉時，總噪音量會是多少？會是 170 dB(A) 嗎？還是會有不同的結果？"
+  },
+  {
+    "objectID": "docs/Noise/noise_EA.html#q3",
+    "href": "docs/Noise/noise_EA.html#q3",
+    "title": "noise-EA",
+    "section": "Q3",
+    "text": "Q3\n一個工廠的噪音主要由兩種來源構成：一種是頻率很低的巨大通風風扇（假設為 100 Hz），另一種是頻率較高的金屬切割機（假設為 2000 Hz）。如果一台普通的（未經計權的）聲級計測得這兩種噪音源的聲壓級都是 90 dB，那麼當我們改用 A-計權（dB(A)）來測量時，您認為哪一個噪音源的讀數會比較高？為什麼？"
+  },
+  {
+    "objectID": "docs/Noise/noise_EA.html#q4",
+    "href": "docs/Noise/noise_EA.html#q4",
+    "title": "noise-EA",
+    "section": "Q4",
+    "text": "Q4\n噪音暴露評估的核心？噪音暴露調查策略？光靠「測量」這個動作是不夠的，它需要一個系統性的策略。第一步：初步調查 (Preliminary Survey)，第二步：規劃測量評估策略 ，第三步：執行測量與評估解讀。 But How to do it?"
+  },
+  {
+    "objectID": "docs/Noise/noise_EA.html#q5",
+    "href": "docs/Noise/noise_EA.html#q5",
+    "title": "noise-EA",
+    "section": "Q5",
+    "text": "Q5\n你知道第一步：初步調查？包含哪些重要事項？ 第一步的目標是全面了解勞工的工作模式與噪音環境，找出所有可能影響其全天暴露總量的因素 。關鍵工作包括：工作分析、噪音來源與特性、建立SEGs等。 (這跟化學品暴露評估有沒有很像呢？) :::"
+  },
+  {
+    "objectID": "docs/Noise/noise_EA.html#q2-1",
+    "href": "docs/Noise/noise_EA.html#q2-1",
+    "title": "noise-EA",
+    "section": "Q2",
+    "text": "Q2\n噪音造成聽力損傷，最主要攻擊的目標是內耳的聽覺感測細胞(它們坐落在基底膜上)，且其一旦死亡便無法再生的毛細胞。特別是脆弱的內？ / 外？毛細胞"
+  },
+  {
+    "objectID": "docs/Noise/noise_EA.html#q3-1",
+    "href": "docs/Noise/noise_EA.html#q3-1",
+    "title": "noise-EA",
+    "section": "Q3",
+    "text": "Q3\n很多早期噪音性聽損的患者會說：「在安靜的地方我聽得還不錯，可是一到吵雜的環境，我就完全聽不清楚別人在說什麼了」，而且他們對較大的聲音會感覺特別刺耳（這種現象稱為響度重振 Loudness Recruitment）。\n您認為這個現象，比較可能跟哪一種毛細胞（內毛細胞或外毛細胞）的損傷有關？為什麼？"
+  },
+  {
+    "objectID": "docs/Noise/noise_EA.html#q4-1",
+    "href": "docs/Noise/noise_EA.html#q4-1",
+    "title": "noise-EA",
+    "section": "Q4",
+    "text": "Q4\n:::"
+  },
+  {
+    "objectID": "docs/Noise/noise_EA.html#q1",
+    "href": "docs/Noise/noise_EA.html#q1",
+    "title": "noise-EA",
+    "section": "Q1",
+    "text": "Q1\n您認為一個高頻音（例如尖銳的警報聲）和一個低頻音（例如遠處的雷聲），它們的波長會有什麼不同？哪一個的波長會比較長？"
+  },
+  {
+    "objectID": "docs/Noise/noise_EA.html#q1-1",
+    "href": "docs/Noise/noise_EA.html#q1-1",
+    "title": "noise-EA",
+    "section": "Q1",
+    "text": "Q1\n我們剛剛提到了外耳負責「收集」聲波，而中耳像一個「放大器」，解決了空氣到液體的能量傳遞問題。綜合這兩點，您認為從聲波進到耳朵，到它準備進入內耳之前，聲音的能量是變強了還是變弱了？為什麼這一步驟對於聽覺至關重要？"
+  },
+  {
+    "objectID": "noise_EA.html",
+    "href": "noise_EA.html",
+    "title": "Occupational Noise-EA",
+    "section": "",
+    "text": "**聲音的物理學**：學習聲音的本質、基本特性（頻率、波長、振幅），以及聲音如何在空間中傳播（聲場）。\n\n**聲音的量化** ：學習如何用科學的單位來描述聲音，核心概念—**分貝 (decibel, dB)**，以及聲功率、聲強度與聲壓之間的區別。\n\n**心理聲學 (Psycho-acoustics)**：探討人耳是如何感知聲音的。頻率加權（例如 A-weighted）讓測量儀器模擬人耳的聽覺反應。\n\n**噪音評估指標** ：在職業衛生領域中，用來評估不同類型噪音（穩態、變動、衝擊性）暴露量的關鍵指標，例如最重要的**等效連續聲級 (LAeq,T​)**。\n\nQ1Q2Q3Q4Q5\n\n\n您認為一個高頻音（例如尖銳的警報聲）和一個低頻音（例如遠處的雷聲），它們的波長會有什麼不同？哪一個的波長會比較長？\n\n\n假設在一個廠房裡，有一部穩態運轉的機器，測得其噪音量為 85 dB(A)。如果我們在旁邊再增加一部一模一樣、噪音量也是 85 dB(A) 的機器，您認為兩部機器同時運轉時，總噪音量會是多少？會是 170 dB(A) 嗎？還是會有不同的結果？\n\n\n一個工廠的噪音主要由兩種來源構成：一種是頻率很低的巨大通風風扇（假設為 100 Hz），另一種是頻率較高的金屬切割機（假設為 2000 Hz）。如果一台普通的（未經計權的）聲級計測得這兩種噪音源的聲壓級都是 90 dB，那麼當我們改用 A-計權（dB(A)）來測量時，您認為哪一個噪音源的讀數會比較高？為什麼？\n\n\n噪音暴露評估的核心？噪音暴露調查策略？光靠「測量」這個動作是不夠的，它需要一個系統性的策略。第一步：初步調查 (Preliminary Survey)，第二步：規劃測量評估策略 ，第三步：執行測量與評估解讀。 But How to do it?\n\n\n你知道第一步：初步調查？包含哪些重要事項？ 第一步的目標是全面了解勞工的工作模式與噪音環境，找出所有可能影響其全天暴露總量的因素 。關鍵工作包括：工作分析、噪音來源與特性、建立SEGs等。 (這跟化學品暴露評估有沒有很像呢？) :::"
+  },
+  {
+    "objectID": "noise_EA.html#聲音的物理學",
+    "href": "noise_EA.html#聲音的物理學",
+    "title": "Occupational Noise-EA",
+    "section": "",
+    "text": "**聲音的物理學**：學習聲音的本質、基本特性（頻率、波長、振幅），以及聲音如何在空間中傳播（聲場）。\n\n**聲音的量化** ：學習如何用科學的單位來描述聲音，核心概念—**分貝 (decibel, dB)**，以及聲功率、聲強度與聲壓之間的區別。\n\n**心理聲學 (Psycho-acoustics)**：探討人耳是如何感知聲音的。頻率加權（例如 A-weighted）讓測量儀器模擬人耳的聽覺反應。\n\n**噪音評估指標** ：在職業衛生領域中，用來評估不同類型噪音（穩態、變動、衝擊性）暴露量的關鍵指標，例如最重要的**等效連續聲級 (LAeq,T​)**。\n\nQ1Q2Q3Q4Q5\n\n\n您認為一個高頻音（例如尖銳的警報聲）和一個低頻音（例如遠處的雷聲），它們的波長會有什麼不同？哪一個的波長會比較長？\n\n\n假設在一個廠房裡，有一部穩態運轉的機器，測得其噪音量為 85 dB(A)。如果我們在旁邊再增加一部一模一樣、噪音量也是 85 dB(A) 的機器，您認為兩部機器同時運轉時，總噪音量會是多少？會是 170 dB(A) 嗎？還是會有不同的結果？\n\n\n一個工廠的噪音主要由兩種來源構成：一種是頻率很低的巨大通風風扇（假設為 100 Hz），另一種是頻率較高的金屬切割機（假設為 2000 Hz）。如果一台普通的（未經計權的）聲級計測得這兩種噪音源的聲壓級都是 90 dB，那麼當我們改用 A-計權（dB(A)）來測量時，您認為哪一個噪音源的讀數會比較高？為什麼？\n\n\n噪音暴露評估的核心？噪音暴露調查策略？光靠「測量」這個動作是不夠的，它需要一個系統性的策略。第一步：初步調查 (Preliminary Survey)，第二步：規劃測量評估策略 ，第三步：執行測量與評估解讀。 But How to do it?\n\n\n你知道第一步：初步調查？包含哪些重要事項？ 第一步的目標是全面了解勞工的工作模式與噪音環境，找出所有可能影響其全天暴露總量的因素 。關鍵工作包括：工作分析、噪音來源與特性、建立SEGs等。 (這跟化學品暴露評估有沒有很像呢？) :::"
+  },
+  {
+    "objectID": "noise_EA.html#耳朵與聽覺的解剖學與生理學",
+    "href": "noise_EA.html#耳朵與聽覺的解剖學與生理學",
+    "title": "Occupational Noise-EA",
+    "section": "2.耳朵與聽覺的解剖學與生理學",
+    "text": "2.耳朵與聽覺的解剖學與生理學\n**聲音的旅程 - 解剖構造 (Anatomy)**：聲波從進入外耳開始，一路經過中耳，最終抵達內耳，認識沿途的各個重要結構。 \n**從振動到感知 - 生理功能(Physiology)**：耳朵結構如何協同工作，將聲音放大、轉換並進行初步分析的。\n\nQ1Q2Q3\n\n\n我們剛剛提到了外耳負責「收集」聲波，而中耳像一個「放大器」，解決了空氣到液體的能量傳遞問題。綜合這兩點，您認為從聲波進到耳朵，到它準備進入內耳之前，聲音的能量是變強了還是變弱了？為什麼這一步驟對於聽覺至關重要？\n\n\n噪音造成聽力損傷，最主要攻擊的目標是內耳的聽覺感測細胞(它們坐落在基底膜上)，且其一旦死亡便無法再生的毛細胞。特別是脆弱的內？ / 外？毛細胞\n\n\n很多早期噪音性聽損的患者會說：「在安靜的地方我聽得還不錯，可是一到吵雜的環境，我就完全聽不清楚別人在說什麼了」，而且他們對較大的聲音會感覺特別刺耳（這種現象稱為響度重振 Loudness Recruitment）。\n您認為這個現象，比較可能跟哪一種毛細胞（內毛細胞或外毛細胞）的損傷有關？為什麼？\nPS. 早期噪音聽損主要與外毛細胞 (OHCs) 的損傷有關。它們的受損不僅造成了聽力損失，也破壞了我們聽覺的精細調節能力，導致在吵雜環境中分辨語音的能力下降。"
+  },
+  {
+    "objectID": "noise_EA.html#section",
+    "href": "noise_EA.html#section",
+    "title": "noise-EA",
+    "section": "3.",
+    "text": "3."
+  },
+  {
+    "objectID": "noise_EA.html#section-1",
+    "href": "noise_EA.html#section-1",
+    "title": "noise-EA",
+    "section": "4.",
+    "text": "4."
+  },
+  {
+    "objectID": "noise_EA.html#暴露標準與職業暴露量",
+    "href": "noise_EA.html#暴露標準與職業暴露量",
+    "title": "Occupational Noise-EA",
+    "section": "3. 暴露標準與職業暴露量",
+    "text": "3. 暴露標準與職業暴露量"
+  },
+  {
+    "objectID": "noise_EA.html#噪音來源-noise-source",
+    "href": "noise_EA.html#噪音來源-noise-source",
+    "title": "Occupational Noise-EA",
+    "section": "4. 噪音來源 (Noise Source)",
+    "text": "4. 噪音來源 (Noise Source)"
+  },
+  {
+    "objectID": "noise_EA.html#聲音測量儀器-sound-measuring-instruments",
+    "href": "noise_EA.html#聲音測量儀器-sound-measuring-instruments",
+    "title": "Occupational Noise-EA",
+    "section": "5. 聲音測量儀器 (Sound Measuring Instruments)",
+    "text": "5. 聲音測量儀器 (Sound Measuring Instruments)"
+  },
+  {
+    "objectID": "noise_EA.html#噪音暴露調查策略-strategies-for-noise-surveys",
+    "href": "noise_EA.html#噪音暴露調查策略-strategies-for-noise-surveys",
+    "title": "Occupational Noise-EA",
+    "section": "6. 噪音暴露調查策略 (Strategies for Noise Surveys)",
+    "text": "6. 噪音暴露調查策略 (Strategies for Noise Surveys)"
+  },
+  {
+    "objectID": "noise_EA.html#聽力測量-hearing-measurement",
+    "href": "noise_EA.html#聽力測量-hearing-measurement",
+    "title": "Occupational Noise-EA",
+    "section": "7. 聽力測量 (Hearing Measurement)",
+    "text": "7. 聽力測量 (Hearing Measurement)"
+  },
+  {
+    "objectID": "noise_EA.html#聽力保護計畫",
+    "href": "noise_EA.html#聽力保護計畫",
+    "title": "Occupational Noise-EA",
+    "section": "8. 聽力保護計畫",
+    "text": "8. 聽力保護計畫"
+  },
+  {
+    "objectID": "noise_EA.html#噪音控制",
+    "href": "noise_EA.html#噪音控制",
+    "title": "Occupational Noise-EA",
+    "section": "9. 噪音控制",
+    "text": "9. 噪音控制"
+  },
+  {
+    "objectID": "noise_EA.html#聽力防護具與密合度測試",
+    "href": "noise_EA.html#聽力防護具與密合度測試",
+    "title": "Occupational Noise-EA",
+    "section": "10. 聽力防護具與密合度測試",
+    "text": "10. 聽力防護具與密合度測試"
   }
 ]

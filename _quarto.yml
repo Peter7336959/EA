@@ -29,8 +29,8 @@ website:
         text: 模式推估
       - href: DRI.qmd
         text: 直讀式儀器與RPE
-      - href: EA.qmd
-        text: 暴露風險  
+      - href: noise_EA.qmd
+        text: 噪音-高溫EA
       - href: others.qmd
         text: 其他
 
@@ -50,7 +50,8 @@ format:
     mermaid:
       theme: neutral
     page-layout: full
-    
+    html-math-method: katex
+
 
 editor: visual
 

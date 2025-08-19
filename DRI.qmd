@@ -1,6 +1,6 @@
 ---
 title: "MSA直讀氣體偵測器"
-subtitle: "   "
+subtitle: "職業暴露評估與監控應用"
 author: "River Ho. & Peter Ho."
 
 format: 
@@ -15,9 +15,9 @@ format:
 
 ---
 
-# 六用VOC氣體偵測器 {background-image=\images\MSAback.png background-size="800px" background-position="25% 75%" } 
+# 六用VOC氣體偵測器 {background-image=images\MSAback.png background-size="800px" background-position="25% 75%" } 
 
-### 職業暴露評估與監控應用
+職業暴露評估與監控應用
 
 ##  {.scrollable .smaller}
 
@@ -31,7 +31,7 @@ format:
 -   應用範例：甲基乙基酮 (MEK)
 -   應用範例：苯 (Benzene)
 -   結語與安全注意事項
-![](images/5X.png){.absolute top=10 left=700 width="300" height="500"}
+![](images\5X.png){.absolute top=10 left=700 width="300" height="500"}
 
 
 ## {.scrollable .smaller} 

@@ -15,9 +15,11 @@ format:
 
 ---
 
-# 六用VOC氣體偵測器 {background-image=images\MSAback.png background-size="800px" background-position="25% 75%" } 
+# 六用VOC氣體偵測器 
 
 職業暴露評估與監控應用
+
+![](images\MSAback.png){.absolute top=400 left=10 width="1000" height="250"}
 
 ##  {.scrollable .smaller}
 

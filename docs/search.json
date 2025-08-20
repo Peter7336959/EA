@@ -1505,7 +1505,7 @@
     "href": "index.html#i.目前初步完成推估模式介紹化學品暴露",
     "title": "Occupational Exposure Assessment",
     "section": "I.目前初步完成推估模式介紹：(化學品暴露)",
-    "text": "I.目前初步完成推估模式介紹：(化學品暴露)\n\n\n\n1. Why modeling\n\n\n2. Gathering information\n\n\n3. Volatile liquid spill\n\n\n4. Sanding\n\n\n5. Container uncovered\n\n\n6. Barrel filling\n\n\n7. Historic exposure\n\n\n8. Presurized gas release\n\n\n\n\n\n9. Flavoring Process\n\n\n10. Cleaning Process\n\n\n11. Model parameters\n\n\n12. Monte Carlo modeling\n\n\n13. Mixture modeling\n\n\n14. Oxygen Deficiency\n\n\n15. Autoshop solvents\n\n\n17 Reconstruction of spill\n\n\n18 Modeling limitation\n\n\n19 Feeding model"
+    "text": "I.目前初步完成推估模式介紹：(化學品暴露)\n\n\n\n1. Why modeling\n\n\n2. Gathering information\n\n\n3. Volatile liquid spill\n\n\n4. Sanding\n\n\n5. Container uncovered\n\n\n6. Barrel filling\n\n\n7. Historic exposure\n\n\n8. Presurized gas release\n\n\n9. Flavoring Process\n\n\n10. Cleaning Process\n\n\n\n\n\n11. Model parameters\n\n\n12. Monte Carlo modeling\n\n\n13. Mixture modeling\n\n\n14. Oxygen Deficiency\n\n\n15. Autoshop solvents\n\n\n17 Reconstruction of spill\n\n\n18 Modeling limitation\n\n\n19 Feeding model"
   },
   {
     "objectID": "index.html#ii.規劃展開推估模式介紹噪音與高氣溫",
@@ -1694,7 +1694,7 @@
     "href": "noise_EA.html#暴露標準與職業暴露量",
     "title": "Occupational Noise-EA",
     "section": "3. 暴露標準與職業暴露量",
-    "text": "3. 暴露標準與職業暴露量"
+    "text": "3. 暴露標準與職業暴露量\n\n「為什麼」- 噪音限值的科學基礎：探討我們為何需要設定限值，以及這些限值的目標是什麼。–&gt; 預防噪音引發之永久性聽力閾值偏移 (Noise-Induced Permanent Threshold Shift, NIPTS)\n「如何算」- 關鍵的暴露參數：學習評估噪音暴露的三個最重要數字：暴露限值 (85 vs 90 dB(A))、時間-能量交換率 (3 dB vs 5 dB) 以及峰值上限。\n「誰定規則」- 各國/地區的法規瀏覽。\n\n\n\nQ1Q2Q3Q4Q5\n\n\n早期的聽力損傷計算公式（只看 500、1000、2000Hz），為了更好地保護我們聽懂別人說話的能力，專家們決定將哪個高頻音頻率也納入考量來計算聽力損傷，從而促使標準變得更嚴格。您能猜猜看嗎？（提示：這個頻率在 2000 Hz 到 4000 Hz 之間）\n\n\n假設我們的基準是 8 小時 85 dB(A)。現在有一位工人，他需要在一台會產生 91 dB(A) 噪音的機器旁工作。 - 如果我們採用更具保護性的 3 dB 交換率，這位工人每天最多可以在這台機器旁工作多久？ - 如果我們採用較寬鬆的 5 dB 交換率，他又可以工作多久？\n\n\n一個完整的職業噪音暴露標準，通常會包含三個核心要素。也就是評估職業噪音風險一般有三個關鍵數字：時量平均值 (暴露限值)、交換率 (時間-能量交換率)、絕對上限 (峰值限值)。您能試著說明一下他們的意義嗎？\n\n\n有哪些國際標準是用來構成了我們進行專業噪音評估時的法規與技術基礎？(ISO ? )\n\n\n歐盟的指令 (86/188/EEC) 提供暴露風險分級，您知道管理行動各有哪些？ - 第一級行動值 (85 dB(A) LAeq,8h​ ) 「警示」 - 第二級行動值 (90 dB(A) LAeq,8h​ ) 「危險」 - 峰值行動值 (140 dB(C)) 「禁止」"
   },
   {
     "objectID": "noise_EA.html#噪音來源-noise-source",

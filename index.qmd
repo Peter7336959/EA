@@ -30,6 +30,10 @@ bibliography: references.bib
 ### 7. Historic exposure
 
 ### 8. Presurized gas release
+
+### 9. Flavoring Process
+
+### 10. Cleaning Process
 :::
 
 ::: {.column width="10%"}
@@ -37,10 +41,6 @@ bibliography: references.bib
 :::
 
 ::: {.column width="45%"}
-### 9. Flavoring Process
-
-### 10. Cleaning Process
-
 ### 11. Model parameters
 
 ### 12. Monte Carlo modeling

@@ -1,7 +1,6 @@
 ---
 title: "Occupational Exposure Assessment"
 #lang: zh    
-#page-layout: full
 bibliography: references.bib
 ---
 

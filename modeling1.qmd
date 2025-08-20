@@ -19,8 +19,7 @@ bibliography: references.bib
 
 Ch1 Modeling in the Framework of Industrial Hygiene Practice
 
-\*💾[**摘要**](docs\info\web_CH1-Why-modeling.html) 
-\*📶 [**圖**](docs\info\info_CH1_Why_modeling.html)
+\*💾[**摘要**](docs\info\web_CH1-Why-modeling.html) \*📶 [**圖**](docs\info\info_CH1_Why_modeling.html)
 
 ## *2. Gathering informaiton*
 
@@ -112,7 +111,7 @@ Chapter 15 Use of Aerosol Solvents in an Auto Shop
 
 Chapter 17 Reconstruction of a Laboratory Spill
 
-\*[摘要](docs\info\web_CH17_Reconstruction-spill.html) \*[圖說](docs\info\info_CH17_Reconstruction-spill.html)
+\*[摘要](docs\info\web_CH17_Reconstruction-spill.html) \*[圖說](docs\info\info_CH17_Recostruction-spill.html)
 
 ## 18 Modeling limitation
 

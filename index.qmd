@@ -5,8 +5,7 @@ title: "Occupational Exposure Assessment"
 bibliography: references.bib
 ---
 
-> 本識做網站主要係分享職業衛生概念與知識為主，職業安全議題可另尋其他資源或參考其他的網頁
-|
+> 本識做網站主要係分享職業衛生概念與知識為主，職業安全議題可另尋其他資源或參考其他的網頁 \|
 
 ::: {.callout-important title="參考書籍" style="color"}
 **主要內容係來自2023 AIHA 新書各章**[@acase-b2023]

@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<style type="text/css">
+.inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.sng {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.def {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>資訊圖表：實驗室洩漏事件重建分析</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .kpi-value {
+            font-weight: 900;
+            color: #FF4E50;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .header-gradient {
+            background: linear-gradient(90deg, #00A0B0, #6A4A3C);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-5xl">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-black mb-2 header-gradient">洩漏清理暴露評估(模式重建)</h1>
+            <p class="text-lg md:text-xl text-red-600">實驗室醋酸洩漏的暴露風險</p>
+        </header>
+
+        <section class="card text-center">
+            <h2 class="text-2xl font-bold text-gray-700 mb-2">事件概要</h2>
+            <p class="max-w-3xl mx-auto text-base">兩名員工在清理濃醋酸洩漏時，因吸入高濃度蒸氣而引發上呼吸道及肺部刺激。本分析旨在透過數學模型重建當時的暴露情境，以評估危害程度。</p>
+            <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-red-50 p-4 rounded-lg">
+                    <p class="text-sm text-red-700 font-bold">關鍵化學品</p>
+                    <p class="text-2xl font-black text-red-900">濃醋酸</p>
+                </div>
+                <div class="bg-orange-50 p-4 rounded-lg">
+                    <p class="text-sm text-orange-700 font-bold">主要健康效應</p>
+                    <p class="text-2xl font-black text-orange-900">呼吸道刺激</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2 class="text-2xl font-bold text-center mb-4 text-gray-700">初步評估：穩態濃度預測</h2>
+            <p class="text-center text-base mb-6 max-w-3xl mx-auto">在進行複雜模擬前，先用穩態方程式進行「最壞情況」的快速計算。此計算假設污染物生成速率與移除速率達到平衡，濃度達到最大值。</p>
+            <div class="chart-container mx-auto">
+                <canvas id="steadyStateChart"></canvas>
+            </div>
+            <p class="text-center mt-4 text-sm text-gray-600">此初步分析迅速顯示，清理人員所在的近場濃度（76 ppm）遠超IDLH（50 ppm），是一個明確的「紅燈」危險警示。</p>
+        </section>
+        
+        <section class="card">
+            <h2 class="text-2xl font-bold text-center mb-6 text-gray-700">分析升級：二暴露區模型</h2>
+            <p class="text-center text-base mb-8 max-w-3xl mx-auto">為了更精確地評估清理人員的實際暴露，我們採用了雙箱室模型。此模型將空間區分為高濃度的「近場」（洩漏源周圍）與平均濃度的「遠場」（房間其他區域）。</p>
+            <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
+                <div class="text-center p-4">
+                    <div class="w-32 h-32 bg-orange-100 border-4 border-dashed border-orange-400 rounded-full flex items-center justify-center">
+                        <div class="text-center">
+                            <p class="font-bold text-orange-800">污染源 (G)</p>
+                            <span class="text-4xl">💧</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-5xl font-thin text-gray-400 transform md:-translate-y-8">→</div>
+                <div class="relative p-6 border-2 border-red-400 rounded-lg bg-red-50 text-center">
+                    <span class="absolute -top-3 -left-3 bg-red-400 text-white text-xs font-bold px-2 py-1 rounded-full">近場 (NF)</span>
+                    <p class="font-bold text-red-800">高濃度區域</p>
+                    <p class="text-sm text-red-600">勞工呼吸帶</p>
+                    <div class="text-2xl mt-2">🧑‍🔬</div>
+                </div>
+                <div class="flex items-center text-3xl font-bold text-blue-500 mx-4">
+                    <span>↔</span>
+                    <p class="text-sm ml-2">氣流交換 (β)</p>
+                </div>
+                <div class="relative p-6 border-2 border-blue-400 rounded-lg bg-blue-50 text-center flex-grow">
+                     <span class="absolute -top-3 -left-3 bg-blue-400 text-white text-xs font-bold px-2 py-1 rounded-full">遠場 (FF)</span>
+                    <p class="font-bold text-blue-800">房間平均濃度</p>
+                    <p class="text-sm text-blue-600">一般區域</p>
+                </div>
+                 <div class="text-5xl font-thin text-gray-400 transform md:translate-y-8">→</div>
+                 <div class="text-center p-4">
+                    <div class="w-32 h-32 bg-green-100 border-4 border-dashed border-green-400 rounded-full flex items-center justify-center">
+                        <div class="text-center">
+                            <p class="font-bold text-green-800">房間換氣 (Q)</p>
+                            <span class="text-4xl">🍃</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2 class="text-2xl font-bold text-center mb-6 text-gray-700">機率性模擬：量化不確定性</h2>
+            <p class="text-center text-base mb-8 max-w-3xl mx-auto">真實世界的參數並非定值。我們為關鍵變數（如生成速率 G 和近場換氣率 β）賦予統計分佈，以反映其變異性與估算的不確定性，並進行一萬次模擬。</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-lg font-bold text-center mb-2 text-gray-600">污染物生成速率 (G) 分佈</h3>
+                    <div class="chart-container mx-auto h-64 md:h-80">
+                        <canvas id="generationRateChart"></canvas>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-center mb-2 text-gray-600">近場換氣率 (β) 分佈</h3>
+                    <div class="chart-container mx-auto h-64 md:h-80">
+                        <canvas id="betaRateChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2 class="text-2xl font-bold text-center mb-6 text-gray-700">模擬結果：暴露概況分析</h2>
+            <p class="text-center text-base mb-8 max-w-3xl mx-auto">模擬結果清晰地呈現了洩漏後30分鐘內的濃度變化，以及最終的暴露分佈。</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                 <div>
+                    <h3 class="text-lg font-bold text-center mb-2 text-gray-600">遠場濃度隨時間變化</h3>
+                    <div class="chart-container mx-auto">
+                        <canvas id="farFieldTimeChart"></canvas>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-center mb-2 text-gray-600">近場濃度隨時間變化</h3>
+                    <div class="chart-container mx-auto">
+                        <canvas id="nearFieldTimeChart"></canvas>
+                    </div>
+                </div>
+            </div>
+             <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="text-center">
+                    <h3 class="text-lg font-bold text-gray-600 mb-2">遠場超標機率</h3>
+                     <div class="chart-container mx-auto w-48 h-48 md:w-64 md:h-64">
+                        <canvas id="farFieldExceedanceChart"></canvas>
+                    </div>
+                    <p class="mt-4 text-base">在<span class="kpi-value text-4xl">78%</span>的模擬情境中，遠場的30分鐘平均濃度超過了15 ppm的短時間暴露限值 (STEL)。</p>
+                </div>
+                 <div class="text-center">
+                    <h3 class="text-lg font-bold text-gray-600 mb-2">近場超標機率</h3>
+                     <div class="chart-container mx-auto w-48 h-48 md:w-64 md:h-64">
+                        <canvas id="nearFieldExceedanceChart"></canvas>
+                    </div>
+                    <p class="mt-4 text-base">在<span class="kpi-value text-4xl">98%</span>的模擬情境中，近場的30分鐘平均濃度超過了50 ppm的立即致危濃度 (IDLH)。</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2 class="text-2xl font-bold text-center mb-6 text-gray-700">情境分析：通風的真正影響</h2>
+            <p class="text-center text-base mb-8 max-w-3xl mx-auto">若此洩漏發生在不同通風條件的房間會如何？我們模擬了改變房間整體換氣率（ACH）的影響，結果揭示了一個關鍵的工程控制見解。</p>
+            <div class="chart-container mx-auto">
+                <canvas id="whatIfChart"></canvas>
+            </div>
+            <p class="text-center mt-4 text-base font-bold text-blue-800">結論：大幅增加房間整體換氣對降低源頭旁的近場濃度影響甚微。有效的控制措施必須針對源頭，例如使用局部排氣裝置來增加近場換氣率 (β)。</p>
+        </section>
+
+        <section class="card">
+            <h2 class="text-2xl font-bold text-center mb-6 text-gray-700">結論：模型分析的策略性價值</h2>
+            <div class="space-y-6">
+                <div class="flex items-start space-x-4">
+                    <div class="text-3xl pt-1">🎯</div>
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-800">揭示關鍵風險區域</h3>
+                        <p class="text-base text-gray-600">從單箱室升級至雙箱室模型，成功 pinpoint 作業人員呼吸帶（近場）的極高濃度是導致健康危害的主因，提供了比全室平均更精準的風險圖像。</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <div class="text-3xl pt-1">📊</div>
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-800">量化不確定性的優勢</h3>
+                        <p class="text-base text-gray-600">採用機率性方法，為關鍵變數賦予統計分佈，將「不確定性」轉化為可量化的風險。最終「98%近場暴露超過IDLH」的結論，比單一數值更具說服力與可辯護性。</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <div class="text-3xl pt-1">🛠️</div>
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-800">驅動決策的策略工具</h3>
+                        <p class="text-base text-gray-600">數學模型不僅是計算工具，更是職業衛生師的策略資產。它能用於重建過去、預測未來、指導工程控制方案的選擇，並為制定有效的應急規程提供強而有力的數據支持。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center mt-12 py-6 border-t border-gray-200">
+            <p class="text-gray-600">本資訊圖表基於《第17章：實驗室洩漏事件之重建分析》的數據與模型。</p>
+            <p class="text-xs text-gray-400 mt-2">Prepares by Peter Ho.  114.08.19</p>
+        </footer>
+
+    </div>
+
+<script>
+const energeticPlayful = {
+    red: '#FF4E50',
+    orange: '#FC913A',
+    yellow: '#F9D423',
+    teal: '#00A0B0',
+    dark: '#6A4A3C',
+    lightGray: '#f0f4f8',
+    gray: '#a0aec0'
+};
+
+const tooltipPlugin = {
+    tooltip: {
+        callbacks: {
+            title: function(tooltipItems) {
+                const item = tooltipItems[0];
+                let label = item.chart.data.labels[item.dataIndex];
+                if (Array.isArray(label)) {
+                    return label.join(' ');
+                } else {
+                    return label;
+                }
+            }
+        }
+    }
+};
+
+function wrapLabel(str, maxWidth) {
+    if (str.length <= maxWidth) {
+        return str;
+    }
+    const words = str.split(' ');
+    let lines = [];
+    let currentLine = '';
+    words.forEach(word => {
+        if ((currentLine + word).length > maxWidth) {
+            lines.push(currentLine.trim());
+            currentLine = '';
+        }
+        currentLine += word + ' ';
+    });
+    lines.push(currentLine.trim());
+    return lines.filter(line => line.length > 0);
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    
+    new Chart(document.getElementById('steadyStateChart'), {
+        type: 'bar',
+        data: {
+            labels: ['遠場 (房間平均)', '近場 (洩漏源旁)'],
+            datasets: [{
+                label: '穩態濃度 (ppm)',
+                data: [19.2, 76.0],
+                backgroundColor: [energeticPlayful.teal, energeticPlayful.red],
+                borderColor: [energeticPlayful.teal, energeticPlayful.red],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: '濃度 (ppm)'
+                    }
+                }
+            },
+            plugins: {
+                ...tooltipPlugin,
+                legend: {
+                    display: false
+                },
+                annotation: {
+                    annotations: {
+                        stelLine: {
+                            type: 'line',
+                            yMin: 15,
+                            yMax: 15,
+                            borderColor: energeticPlayful.orange,
+                            borderWidth: 2,
+                            borderDash: [6, 6],
+                            label: {
+                                content: 'STEL (15 ppm)',
+                                enabled: true,
+                                position: 'start',
+                                backgroundColor: 'rgba(252, 145, 58, 0.7)'
+                            }
+                        },
+                        idlhLine: {
+                            type: 'line',
+                            yMin: 50,
+                            yMax: 50,
+                            borderColor: energeticPlayful.red,
+                            borderWidth: 2,
+                            label: {
+                                content: 'IDLH (50 ppm)',
+                                enabled: true,
+                                position: 'end',
+                                 backgroundColor: 'rgba(255, 78, 80, 0.7)'
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    });
+
+    const generationRateData = {
+        labels: ['810-1000', '1001-1200', '1201-1400', '1401-1600', '1601-1800', '1801-1900'],
+        values: [5, 15, 50, 20, 8, 2] 
+    };
+    new Chart(document.getElementById('generationRateChart'), {
+        type: 'bar',
+        data: {
+            labels: generationRateData.labels,
+            datasets: [{
+                label: '模擬次數',
+                data: generationRateData.values,
+                backgroundColor: energeticPlayful.orange,
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    title: { display: true, text: '相對頻率' }
+                },
+                x: {
+                    title: { display: true, text: '生成速率 (mg/min)' }
+                }
+            },
+            plugins: { ...tooltipPlugin, legend: { display: false } }
+        }
+    });
+
+    const betaRateData = {
+        labels: ['7.1-8.0', '8.1-9.0', '9.1-10.0', '10.1-11.0', '11.1-11.9'],
+        values: [10, 25, 45, 15, 5]
+    };
+    new Chart(document.getElementById('betaRateChart'), {
+        type: 'bar',
+        data: {
+            labels: betaRateData.labels,
+            datasets: [{
+                label: '模擬次數',
+                data: betaRateData.values,
+                backgroundColor: energeticPlayful.teal,
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    title: { display: true, text: '相對頻率' }
+                },
+                x: {
+                    title: { display: true, text: '換氣率 (m³/min)' }
+                }
+            },
+            plugins: { ...tooltipPlugin, legend: { display: false } }
+        }
+    });
+    
+    const timeLabels = Array.from({ length: 31 }, (_, i) => i);
+    const generateConcentrationData = (start, peak, steady) => {
+        return timeLabels.map(t => {
+            if (t === 0) return start;
+            const rate = 1 - Math.exp(-t / 5);
+            return start + (steady - start) * rate + (Math.random() - 0.5) * (steady * 0.05);
+        });
+    };
+
+    new Chart(document.getElementById('farFieldTimeChart'), {
+        type: 'line',
+        data: {
+            labels: timeLabels,
+            datasets: [{
+                label: '遠場濃度 (ppm)',
+                data: generateConcentrationData(0, 18, 17.3),
+                borderColor: energeticPlayful.teal,
+                backgroundColor: energeticPlayful.teal + '33',
+                fill: true,
+                tension: 0.3
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: { beginAtZero: true, title: { display: true, text: '濃度 (ppm)' } },
+                x: { title: { display: true, text: '時間 (分鐘)' } }
+            },
+            plugins: {
+                ...tooltipPlugin,
+                legend: { display: false },
+                annotation: {
+                    annotations: {
+                        stelLine: {
+                            type: 'line',
+                            yMin: 15,
+                            yMax: 15,
+                            borderColor: energeticPlayful.orange,
+                            borderWidth: 2,
+                            borderDash: [6, 6],
+                            label: { content: 'STEL', enabled: true, position: 'end' }
+                        }
+                    }
+                }
+            }
+        }
+    });
+
+    new Chart(document.getElementById('nearFieldTimeChart'), {
+        type: 'line',
+        data: {
+            labels: timeLabels,
+            datasets: [{
+                label: '近場濃度 (ppm)',
+                data: generateConcentrationData(0, 80, 74.6),
+                borderColor: energeticPlayful.red,
+                backgroundColor: energeticPlayful.red + '33',
+                fill: true,
+                tension: 0.3
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: { beginAtZero: true, title: { display: true, text: '濃度 (ppm)' } },
+                x: { title: { display: true, text: '時間 (分鐘)' } }
+            },
+            plugins: {
+                ...tooltipPlugin,
+                legend: { display: false },
+                annotation: {
+                    annotations: {
+                        idlhLine: {
+                            type: 'line',
+                            yMin: 50,
+                            yMax: 50,
+                            borderColor: energeticPlayful.red,
+                            borderWidth: 2,
+                            borderDash: [6, 6],
+                            label: { content: 'IDLH', enabled: true, position: 'end' }
+                        }
+                    }
+                }
+            }
+        }
+    });
+    
+    new Chart(document.getElementById('farFieldExceedanceChart'), {
+        type: 'doughnut',
+        data: {
+            labels: ['超過 STEL', '未超過 STEL'],
+            datasets: [{
+                data: [78, 22],
+                backgroundColor: [energeticPlayful.orange, energeticPlayful.gray],
+                borderColor: energeticPlayful.lightGray,
+                borderWidth: 4
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            cutout: '70%',
+            plugins: { ...tooltipPlugin, legend: { position: 'bottom' } }
+        }
+    });
+
+    new Chart(document.getElementById('nearFieldExceedanceChart'), {
+        type: 'doughnut',
+        data: {
+            labels: ['超過 IDLH', '未超過 IDLH'],
+            datasets: [{
+                data: [98, 2],
+                backgroundColor: [energeticPlayful.red, energeticPlayful.gray],
+                borderColor: energeticPlayful.lightGray,
+                borderWidth: 4
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            cutout: '70%',
+            plugins: { ...tooltipPlugin, legend: { position: 'bottom' } }
+        }
+    });
+
+    new Chart(document.getElementById('whatIfChart'), {
+        type: 'bar',
+        data: {
+            labels: ['低換氣 (5 ACH)', '高換氣 (20 ACH)'],
+            datasets: [
+                {
+                    label: '遠場濃度 (ppm)',
+                    data: [45, 12],
+                    backgroundColor: energeticPlayful.teal,
+                },
+                {
+                    label: '近場濃度 (ppm)',
+                    data: [80, 72],
+                    backgroundColor: energeticPlayful.red,
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    title: { display: true, text: '預測濃度 (ppm)' }
+                }
+            },
+            plugins: { ...tooltipPlugin, legend: { position: 'bottom' } }
+        }
+    });
+
+});
+</script>
+</body>
+</html>

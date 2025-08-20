@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Peter Ho.">
+<meta name="dcterms.date" content="2025-08-20">
 
-<title>Modeling – OH模式推估-Peter Ho</title>
+<title>CH19 – OH模式推估-Peter Ho</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,46 +22,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8d46e75ce6dd233c64cbb744be3589af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d49b862318db43bee8a03fcfe0a93fa7.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-8d46e75ce6dd233c64cbb744be3589af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-d49b862318db43bee8a03fcfe0a93fa7.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -89,7 +71,7 @@ div.csl-indent {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -99,7 +81,7 @@ div.csl-indent {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">OH模式推估-Peter Ho</span>
     </a>
   </div>
@@ -110,31 +92,31 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">首頁</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
+    <a class="nav-link" href="../../../news.html"> 
 <span class="menu-text">職安衛新知</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./modeling.html"> 
+    <a class="nav-link" href="../../../modeling.html"> 
 <span class="menu-text">模式推估</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./MSA.html"> 
+    <a class="nav-link" href="../../../MSA.html"> 
 <span class="menu-text">直讀式儀器與RPE</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./noise_EA.html"> 
+    <a class="nav-link" href="../../../noise_EA.html"> 
 <span class="menu-text">噪音-高溫EA</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./others.html"> 
+    <a class="nav-link" href="../../../others.html"> 
 <span class="menu-text">其他</span></a>
   </li>  
 </ul>
@@ -154,7 +136,13 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link active" data-scroll-target="#references">References</a></li>
+  <li><a href="#第19章以簡單及不那麼簡單的方式提供模式輸入資料" id="toc-第19章以簡單及不那麼簡單的方式提供模式輸入資料" class="nav-link active" data-scroll-target="#第19章以簡單及不那麼簡單的方式提供模式輸入資料"><strong>第19章：以簡單及不那麼簡單的方式提供模式輸入資料</strong></a>
+  <ul class="collapse">
+  <li><a href="#核心概念" id="toc-核心概念" class="nav-link" data-scroll-target="#核心概念"><strong>核心概念</strong></a></li>
+  <li><a href="#參數估算策略" id="toc-參數估算策略" class="nav-link" data-scroll-target="#參數估算策略"><strong>參數估算策略</strong></a></li>
+  <li><a href="#簡易方法學" id="toc-簡易方法學" class="nav-link" data-scroll-target="#簡易方法學"><strong>簡易方法學</strong></a></li>
+  <li><a href="#結論" id="toc-結論" class="nav-link" data-scroll-target="#結論"><strong>結論</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -163,14 +151,26 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Modeling</h1>
+<h1 class="title">CH19</h1>
 </div>
 
 
 
 <div class="quarto-title-meta column-page-left">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Peter Ho. </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 20, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -180,127 +180,46 @@ div.csl-indent {
 </header>
 
 
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>本網站主要內容係來自2023 AIHA 新書各章</strong> <span class="citation" data-cites="acase-b2023">(<a href="#ref-acase-b2023" role="doc-biblioref">Keil 2023</a>)</span></p>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:45%;">
-<section id="why-modeling" class="level2">
-<h2 class="anchored" data-anchor-id="why-modeling">1. Why modeling</h2>
-<p>Ch1 Modeling in the Framework of Industrial Hygiene Practice</p>
-<p>*💾<a href="docs\info\web_CH1-Why-modeling.html"><strong>摘要</strong></a> *📶 <a href="docs\info\info_CH1_Why_modeling.html"><strong>圖</strong></a></p>
+<section id="第19章以簡單及不那麼簡單的方式提供模式輸入資料" class="level1">
+<h1><strong>第19章：以簡單及不那麼簡單的方式提供模式輸入資料</strong></h1>
+<p>這篇文章探討了暴露評估模式在工業衛生領域的應用，特別是關於「生成速率(G)」這個最難估計的參數。</p>
+<section id="核心概念" class="level2">
+<h2 class="anchored" data-anchor-id="核心概念"><strong>核心概念</strong></h2>
+<ul>
+<li><strong>模式的價值與挑戰：</strong> 物理化學模式能有效預測空氣中有毒物質濃度，但工業衛生師因難以提供準確的輸入數據（尤其是生成速率G）而應用不足。<br>
+</li>
+<li><strong>雙區域模式：</strong> 以雙區域近場/遠場(NF/FF)模式為例，解釋了呼吸帶/近場體積(BZ/NF)、生成速率(G)和通風/移除機制(β, Q)這三大輸入參數。</li>
+</ul>
 </section>
-<section id="gathering-informaiton" class="level2">
-<h2 class="anchored" data-anchor-id="gathering-informaiton"><em>2. Gathering informaiton</em></h2>
-<p><em>Ch2 Information Gathering for modeling</em></p>
-<p>*💾<a href="docs\info\web_CH2-Information-Gathering.html">摘要</a> * ⚛️<a href="docs\info\info_CH2_Information Gathering.html">圖說</a></p>
+<section id="參數估算策略" class="level2">
+<h2 class="anchored" data-anchor-id="參數估算策略"><strong>參數估算策略</strong></h2>
+<ul>
+<li><strong>「以數據換取保守性」原則：</strong> 在數據有限時，透過採取保守假設（例如高估G值、低估通風）來初步評估風險，若仍低於容許限值則可判定安全。若超出則需進一步量測。<br>
+</li>
+<li><strong>腔體研究：</strong> 最準確的實證方法，透過在受控環境下測量穩態濃度、通風率和區域間交換率，反推出G值。文中還介紹了半衰期計算來確定穩態時間。<br>
+</li>
+<li><strong>實驗案例：</strong> 透過「洩漏的腔體」和「消失的殺菌劑」兩個案例，說明模式不僅是預測工具，更是診斷工具，能揭示未知的物理化學機制（如沉降效應和表面介導降解）。</li>
+</ul>
 </section>
-<section id="volatile-liquid-spill" class="level2">
-<h2 class="anchored" data-anchor-id="volatile-liquid-spill">3. Volatile liquid spill</h2>
-<p>Ch3 Volatile Liquid Spill</p>
-<p>*⚛️<a href="docs\info\web_CH3-Volatile-Liquid-Spill.html">摘要</a> *📶 <a href="docs\info\info_CH3 volatile liquid spill.html">圖</a></p>
+<section id="簡易方法學" class="level2">
+<h2 class="anchored" data-anchor-id="簡易方法學"><strong>簡易方法學</strong></h2>
+<ul>
+<li><strong>質量損失法：</strong> 直接測量化學品蒸發時的重量損失。<br>
+</li>
+<li><strong>質量平衡法：</strong> 稱量塗佈材料使用前後的重量差來量化釋放量。<br>
+</li>
+<li><strong>示蹤氣體法：</strong> 利用示蹤氣體衰減曲線計算換氣率。</li>
+</ul>
 </section>
-<section id="sanding-ea" class="level2">
-<h2 class="anchored" data-anchor-id="sanding-ea">4. Sanding EA</h2>
-<p><em>Ch4 Local Exhaust Ventilation for a Sanding</em></p>
-<p>*🕎<a href="docs\info\web_CH4-Sanding.html">摘要</a> *⚧️<a href="docs\info\info_CH4_Sanding.html">圖說</a></p>
-</section>
-<section id="container-uncovered" class="level2">
-<h2 class="anchored" data-anchor-id="container-uncovered">5. Container uncovered</h2>
-<p>Ch5 Volatile Liquid Container Left Open</p>
-<p>*<a href="docs\info\web_CH5_container-left-open.html">摘要</a> *<a href="docs\info\info_CH5_container left open.html">圖說</a></p>
-</section>
-<section id="barrel-filling" class="level2">
-<h2 class="anchored" data-anchor-id="barrel-filling">6. Barrel filling</h2>
-<p>Ch6 Barrel filling indoors</p>
-<p>*<a href="docs\info\web_CH6_Barrel-filling.html">摘要</a> *<a href="docs\info\info_CH6_Barrel filling.html">圖說</a></p>
-</section>
-<section id="historic-exposure" class="level2">
-<h2 class="anchored" data-anchor-id="historic-exposure">7. Historic exposure</h2>
-<p>Ch7 Historic exposure</p>
-<p>*<a href="docs\info\web_CH7_Historic-exposure.html">摘要</a> *<a href="docs\info\info_CH7_Historic exposure.html">圖說</a></p>
-</section>
-<section id="pressurized-gas-release" class="level2">
-<h2 class="anchored" data-anchor-id="pressurized-gas-release">8. Pressurized gas release</h2>
-<p>Ch8 Pressurized gas release</p>
-<p>*<a href="docs\info\web_CH8_presurized-gas-release.html">摘要</a> *<a href="docs\info\info_CH8_Pressurized Gas Release.html">圖說</a></p>
-</section>
-<section id="flavoring-process" class="level2">
-<h2 class="anchored" data-anchor-id="flavoring-process">9. Flavoring Process</h2>
-<p>Chapter 9 Ventilation Requirements for a Flavoring Process</p>
-<p>*<a href="docs\info\web_CH9_Flavoring-process.html">摘要</a> *<a href="docs\info\info_CH9_Flavoring-process.html">圖說</a></p>
-</section>
-<section id="cleaning-process" class="level2">
-<h2 class="anchored" data-anchor-id="cleaning-process">10. Cleaning Process</h2>
-<p>Chapter 10 Cleaning With Product Containing Acetic Acid *<a href="docs\info\web_CH10_Cleaning-process.html">摘要</a> *<a href="docs\info\info_CH10_Cleaning-process.html">圖說</a></p>
-</section>
-</div><div class="column" style="width:10%;">
-<!-- empty column to create gap -->
-</div><div class="column" style="width:45%;">
-<section id="model-parameters" class="level2">
-<h2 class="anchored" data-anchor-id="model-parameters">11. Model parameters</h2>
-<p>Chapter 11 Experimental Determination of Model Parameters</p>
-<p>*<a href="docs\info\web_CH11_Model-parameters.html">摘要</a> *<a href="docs\info\info_CH11_Model-parameters.html">圖說</a></p>
-</section>
-<section id="monte-carlo-modeling" class="level2">
-<h2 class="anchored" data-anchor-id="monte-carlo-modeling">12. Monte Carlo modeling</h2>
-<p>Chapter 12 Organic Chemistry Teaching Lab Exposure and a First Exploration of Monte Carlo Modeling</p>
-<p>*<a href="docs\info\web_CH12_Monte-Carlo-modeling.html">摘要</a> *<a href="docs\info\info_CH12_Monte-Carlo-modeling.html">圖說</a></p>
-</section>
-<section id="mixture-modleing" class="level2">
-<h2 class="anchored" data-anchor-id="mixture-modleing">13. Mixture modleing</h2>
-<p>Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations</p>
-<p>*<a href="docs\info\web_CH13_Mixture-modeling.html">摘要</a> *<a href="docs\info\info_CH13_Mixture-modeling.html">圖說</a></p>
-</section>
-<section id="oxygen-deficiency" class="level2">
-<h2 class="anchored" data-anchor-id="oxygen-deficiency">14. Oxygen Deficiency</h2>
-<p>Chapter 14 Oxygen Deficiency Hazard in a Storage Tank</p>
-</section>
-<section id="autoshop-solvents" class="level2">
-<h2 class="anchored" data-anchor-id="autoshop-solvents">15. Autoshop solvents</h2>
-<p>Chapter 15 Use of Aerosol Solvents in an Auto Shop</p>
-<p>*<a href="docs\info\web_CH15_Autoshop-solvent.html">摘要</a> *<a href="docs\info\info_CH15_Autoshop-solvent.html">圖說</a></p>
-</section>
-<section id="reconstruction-of-spill" class="level2">
-<h2 class="anchored" data-anchor-id="reconstruction-of-spill">17 Reconstruction of spill</h2>
-<p>Chapter 17 Reconstruction of a Laboratory Spill</p>
-<p>*<a href="docs\info\web_CH17_Reconstruction-spill.html">摘要</a> *<a href="docs\info\info_CH17_Reconstruction-spill.html">圖說</a></p>
-</section>
-<section id="modeling-limitation" class="level2">
-<h2 class="anchored" data-anchor-id="modeling-limitation">18 Modeling limitation</h2>
-<p>Chapter 18 Understanding the Limitations of Mathematical Models and Proactive Communication of Modeling Results</p>
-<p>*<a href="docs\info\web_CH18_modeling-limitation.html">摘要</a> *<a href="docs\info\info_CH18_modeling-limitation.html">圖說</a></p>
-</section>
-<section id="feeding-model" class="level2">
-<h2 class="anchored" data-anchor-id="feeding-model">19 Feeding model</h2>
-<p>Chapter 19 Feeding Models Using Simple and Some Not-So-Simple Means</p>
-<p>*<a href="docs\info\web_CH19_Feeding-models.html">摘要</a> *<a href="docs\info\info_CH19_Feeding-models.html">圖說</a></p>
-</section>
-</div>
-</div>
-<p><a href="https://quarto.org/docs/websites/">Quarto learning</a> <a href="https://quarto.org/docs/websites/" class="uri">https://quarto.org/docs/websites/</a></p>
-<section id="references" class="level2 unnumbered">
-
-
+<section id="結論" class="level2">
+<h2 class="anchored" data-anchor-id="結論"><strong>結論</strong></h2>
+<p>生成速率(G)是模式評估的最大挑戰。文章提供了一套層次分明的策略框架，從保守性估算、高精度的腔體研究，到實用的簡易實驗方法，旨在幫助工業衛生師更有信心地應用暴露評估模式，做出更準確的判斷。</p>
 
 
 </section>
+</section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-acase-b2023" class="csl-entry" role="listitem">
-Keil, Chris, ed. 2023. <em>A case-based introduction to modeling occupational inhalation exposures to chemicals</em>. Falls Church, VA: AIHA.
-</div>
-</div></section></div></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

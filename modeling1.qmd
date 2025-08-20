@@ -63,13 +63,7 @@ Ch7 Historic exposure
 Ch8 Pressurized gas release
 
 \*[摘要](docs\info\web_CH8_presurized-gas-release.html) \*[圖說](docs\info\info_CH8_Pressurized%20Gas%20Release.html)
-:::
 
-::: {.column width="10%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="45%"}
 ## 9. Flavoring Process
 
 Chapter 9 Ventilation Requirements for a Flavoring Process
@@ -79,7 +73,13 @@ Chapter 9 Ventilation Requirements for a Flavoring Process
 ## 10. Cleaning Process
 
 Chapter 10 Cleaning With Product Containing Acetic Acid \*[摘要](docs\info\web_CH10_Cleaning-process.html) \*[圖說](docs\info\info_CH10_Cleaning-process.html)
+:::
 
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
 ## 11. Model parameters
 
 Chapter 11 Experimental Determination of Model Parameters
@@ -110,9 +110,21 @@ Chapter 15 Use of Aerosol Solvents in an Auto Shop
 
 ## 17 Reconstruction of spill
 
+Chapter 17 Reconstruction of a Laboratory Spill
+
+\*[摘要](docs\info\web_CH17_Reconstruction-spill.html) \*[圖說](docs\info\info_CH17_Reconstruction-spill.html)
+
 ## 18 Modeling limitation
 
+Chapter 18 Understanding the Limitations of Mathematical Models and Proactive Communication of Modeling Results
+
+\*[摘要](docs\info\web_CH18_modeling-limitation.html) \*[圖說](docs\info\info_CH18_modeling-limitation.html)
+
 ## 19 Feeding model
+
+Chapter 19 Feeding Models Using Simple and Some Not-So-Simple Means
+
+\*[摘要](docs\info\web_CH19_Feeding-models.html) \*[圖說](docs\info\info_CH19_Feeding-models.html)
 :::
 ::::::
 

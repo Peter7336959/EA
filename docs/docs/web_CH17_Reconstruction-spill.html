@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Peter Ho.">
 
-<title>Modeling – OH模式推估-Peter Ho</title>
+<title>CH17 – OH模式推估-Peter Ho</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,46 +21,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8d46e75ce6dd233c64cbb744be3589af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d49b862318db43bee8a03fcfe0a93fa7.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-8d46e75ce6dd233c64cbb744be3589af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-d49b862318db43bee8a03fcfe0a93fa7.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -89,7 +70,7 @@ div.csl-indent {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -99,7 +80,7 @@ div.csl-indent {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">OH模式推估-Peter Ho</span>
     </a>
   </div>
@@ -110,31 +91,31 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">首頁</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
+    <a class="nav-link" href="../news.html"> 
 <span class="menu-text">職安衛新知</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./modeling.html"> 
+    <a class="nav-link" href="../modeling.html"> 
 <span class="menu-text">模式推估</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./MSA.html"> 
+    <a class="nav-link" href="../MSA.html"> 
 <span class="menu-text">直讀式儀器與RPE</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./noise_EA.html"> 
+    <a class="nav-link" href="../noise_EA.html"> 
 <span class="menu-text">噪音-高溫EA</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./others.html"> 
+    <a class="nav-link" href="../others.html"> 
 <span class="menu-text">其他</span></a>
   </li>  
 </ul>
@@ -154,7 +135,33 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link active" data-scroll-target="#references">References</a></li>
+  <li><a href="#第17章實驗室洩漏事件之重建暴露評估-精簡摘要" id="toc-第17章實驗室洩漏事件之重建暴露評估-精簡摘要" class="nav-link active" data-scroll-target="#第17章實驗室洩漏事件之重建暴露評估-精簡摘要"><strong>第17章：實驗室洩漏事件之重建暴露評估 (精簡摘要)</strong></a>
+  <ul class="collapse">
+  <li><a href="#事故情境下的暴露模擬" id="toc-事故情境下的暴露模擬" class="nav-link" data-scroll-target="#事故情境下的暴露模擬"><strong>1.0 事故情境下的暴露模擬</strong></a>
+  <ul class="collapse">
+  <li><a href="#比較兩種均勻混合模式" id="toc-比較兩種均勻混合模式" class="nav-link" data-scroll-target="#比較兩種均勻混合模式"><strong>比較兩種均勻混合模式：</strong></a></li>
+  <li><a href="#兩種模擬" id="toc-兩種模擬" class="nav-link" data-scroll-target="#兩種模擬"><strong>兩種模擬：</strong></a></li>
+  </ul></li>
+  <li><a href="#初步危害評估穩態方程式快速評估" id="toc-初步危害評估穩態方程式快速評估" class="nav-link" data-scroll-target="#初步危害評估穩態方程式快速評估"><strong>2.0 初步危害評估：穩態方程式快速評估</strong></a></li>
+  <li><a href="#機率性暴露模擬" id="toc-機率性暴露模擬" class="nav-link" data-scroll-target="#機率性暴露模擬"><strong>3.0 機率性暴露模擬</strong></a></li>
+  <li><a href="#二暴露區模型的技術參數估算" id="toc-二暴露區模型的技術參數估算" class="nav-link" data-scroll-target="#二暴露區模型的技術參數估算"><strong>4.0 二暴露區模型的技術參數估算</strong></a>
+  <ul class="collapse">
+  <li><a href="#估算污染物生成速率-g" id="toc-估算污染物生成速率-g" class="nav-link" data-scroll-target="#估算污染物生成速率-g"><strong>4.1 估算污染物生成速率 (G)</strong></a></li>
+  <li><a href="#估算近場參數-vn-and-β" id="toc-估算近場參數-vn-and-β" class="nav-link" data-scroll-target="#估算近場參數-vn-and-β"><strong>4.2 估算近場參數 (VN​ and β)</strong></a></li>
+  </ul></li>
+  <li><a href="#暴露概況的模擬分析與詮釋" id="toc-暴露概況的模擬分析與詮釋" class="nav-link" data-scroll-target="#暴露概況的模擬分析與詮釋"><strong>5.0 暴露概況的模擬、分析與詮釋</strong></a>
+  <ul class="collapse">
+  <li><a href="#模型驗證濃度曲線分析" id="toc-模型驗證濃度曲線分析" class="nav-link" data-scroll-target="#模型驗證濃度曲線分析"><strong>5.1 模型驗證：濃度曲線分析</strong></a></li>
+  <li><a href="#機率性模擬結果遠場暴露概況" id="toc-機率性模擬結果遠場暴露概況" class="nav-link" data-scroll-target="#機率性模擬結果遠場暴露概況"><strong>5.2 機率性模擬結果：遠場暴露概況</strong></a></li>
+  <li><a href="#機率性模擬結果近場暴露概況" id="toc-機率性模擬結果近場暴露概況" class="nav-link" data-scroll-target="#機率性模擬結果近場暴露概況"><strong>5.3 機率性模擬結果：近場暴露概況</strong></a></li>
+  <li><a href="#結果總結紅燈決策" id="toc-結果總結紅燈決策" class="nav-link" data-scroll-target="#結果總結紅燈決策"><strong>5.4 結果總結：「紅燈」決策</strong></a></li>
+  </ul></li>
+  <li><a href="#批判性評估模型假設與真實世界的差距" id="toc-批判性評估模型假設與真實世界的差距" class="nav-link" data-scroll-target="#批判性評估模型假設與真實世界的差距"><strong>6.0 批判性評估：模型假設與真實世界的差距</strong></a>
+  <ul class="collapse">
+  <li><a href="#替代模型的考量遞減生成率情境" id="toc-替代模型的考量遞減生成率情境" class="nav-link" data-scroll-target="#替代模型的考量遞減生成率情境"><strong>6.1 替代模型的考量：遞減生成率情境</strong></a></li>
+  </ul></li>
+  <li><a href="#結論wmr模型在職業衛生領域的策略性應用價值" id="toc-結論wmr模型在職業衛生領域的策略性應用價值" class="nav-link" data-scroll-target="#結論wmr模型在職業衛生領域的策略性應用價值"><strong>7.0 結論：WMR模型在職業衛生領域的策略性應用價值</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -163,13 +170,19 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Modeling</h1>
+<h1 class="title">CH17</h1>
 </div>
 
 
 
 <div class="quarto-title-meta column-page-left">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Peter Ho. </p>
+          </div>
+  </div>
     
   
     
@@ -180,127 +193,159 @@ div.csl-indent {
 </header>
 
 
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>本網站主要內容係來自2023 AIHA 新書各章</strong> <span class="citation" data-cites="acase-b2023">(<a href="#ref-acase-b2023" role="doc-biblioref">Keil 2023</a>)</span></p>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:45%;">
-<section id="why-modeling" class="level2">
-<h2 class="anchored" data-anchor-id="why-modeling">1. Why modeling</h2>
-<p>Ch1 Modeling in the Framework of Industrial Hygiene Practice</p>
-<p>*💾<a href="docs\info\web_CH1-Why-modeling.html"><strong>摘要</strong></a> *📶 <a href="docs\info\info_CH1_Why_modeling.html"><strong>圖</strong></a></p>
+<section id="第17章實驗室洩漏事件之重建暴露評估-精簡摘要" class="level1">
+<h1><strong>第17章：實驗室洩漏事件之重建暴露評估 (精簡摘要)</strong></h1>
+<section id="事故情境下的暴露模擬" class="level2">
+<h2 class="anchored" data-anchor-id="事故情境下的暴露模擬"><strong>1.0 事故情境下的暴露模擬</strong></h2>
+<p>實驗室濃醋酸洩漏事件為案例，兩名清理員工出現健康效應。最初的評估採用WMB模式，指出醋酸蒸氣濃度可能已達危害等級。於是設立了兩個主要目標：</p>
+<ol type="1">
+<li>利用二暴露區模式計算員工在洩漏源頭附近的「近場」濃度。<br>
+</li>
+<li>運用機率性模擬方法進行暴露評估。</li>
+</ol>
+<section id="比較兩種均勻混合模式" class="level3">
+<h3 class="anchored" data-anchor-id="比較兩種均勻混合模式"><strong>比較兩種均勻混合模式：</strong></h3>
+<ul>
+<li><strong>WMB單箱室模式 (One-Box Model)</strong>：將整個房間視為單一、均勻混合的空間，僅能預測全室平均濃度（遠場濃度）。優點是簡單快速，但無法捕捉洩漏源附近的高濃度區域。<br>
+</li>
+<li>二暴露區<strong>雙箱室模式 (Two-Box Model)</strong>：將房間概念化為「遠場」（一般室內空間）和「近場」（圍繞污染源的較小虛擬容積）。此模式能同時預測兩個區域的濃度，對於評估清理洩漏等高風險作業至關重要。</li>
+</ul>
 </section>
-<section id="gathering-informaiton" class="level2">
-<h2 class="anchored" data-anchor-id="gathering-informaiton"><em>2. Gathering informaiton</em></h2>
-<p><em>Ch2 Information Gathering for modeling</em></p>
-<p>*💾<a href="docs\info\web_CH2-Information-Gathering.html">摘要</a> * ⚛️<a href="docs\info\info_CH2_Information Gathering.html">圖說</a></p>
+<section id="兩種模擬" class="level3">
+<h3 class="anchored" data-anchor-id="兩種模擬"><strong>兩種模擬：</strong></h3>
+<ul>
+<li><strong>確定性方法 (Deterministic Approach)</strong>：為每個變數賦予固定單一數值，產生單一預測結果，無法捕捉真實世界中參數的變異性或評估者對其估計值的不確定性。<br>
+</li>
+<li><strong>機率性方法 (Probabilistic Approach)</strong>：為關鍵變數分配統計分佈，將參數的自然變異性與估計值的不確定性納入考量。它產生的是「暴露概況」（由大量可能結果構成的分佈圖），提供對潛在暴露範圍更全面理解。除了量化不確定性外，並為應對措施建立更穩固的科學依據。</li>
+</ul>
 </section>
-<section id="volatile-liquid-spill" class="level2">
-<h2 class="anchored" data-anchor-id="volatile-liquid-spill">3. Volatile liquid spill</h2>
-<p>Ch3 Volatile Liquid Spill</p>
-<p>*⚛️<a href="docs\info\web_CH3-Volatile-Liquid-Spill.html">摘要</a> *📶 <a href="docs\info\info_CH3 volatile liquid spill.html">圖</a></p>
 </section>
-<section id="sanding-ea" class="level2">
-<h2 class="anchored" data-anchor-id="sanding-ea">4. Sanding EA</h2>
-<p><em>Ch4 Local Exhaust Ventilation for a Sanding</em></p>
-<p>*🕎<a href="docs\info\web_CH4-Sanding.html">摘要</a> *⚧️<a href="docs\info\info_CH4_Sanding.html">圖說</a></p>
+<section id="初步危害評估穩態方程式快速評估" class="level2">
+<h2 class="anchored" data-anchor-id="初步危害評估穩態方程式快速評估"><strong>2.0 初步危害評估：穩態方程式快速評估</strong></h2>
+<ul>
+<li><strong>穩態遠場濃度 (CF,SS​)</strong>：指系統達到平衡狀態時，污染物生成速率等於移除速率，導致穩定且最高的濃度值。方程式為：CF,SS​ = G / Q (G為污染物生成速率，Q為房間整體換氣率)。<br>
+</li>
+<li><strong>穩態近場濃度 (CN,SS​)</strong>：在遠場濃度基礎上疊加近場內源頭的貢獻。方程式為：CN,SS​ = CF,SS​ + (G / β) (β為近場的區間氣流交換率)。</li>
+</ul>
+<p>進行「最壞情況」的快速計算，使用推算參數：G=1,340 mg/min，Q=28.3 m3/min，β=9.6 m3/min。結果顯示，遠場穩態濃度約為19.2 ppm（超過STEL 15 ppm），近場穩態濃度高達76.0 ppm（顯著超過IDLH 50 ppm）。此初步評估迅速提供了明確的「紅燈」警示，證實為高危險情境。</p>
 </section>
-<section id="container-uncovered" class="level2">
-<h2 class="anchored" data-anchor-id="container-uncovered">5. Container uncovered</h2>
-<p>Ch5 Volatile Liquid Container Left Open</p>
-<p>*<a href="docs\info\web_CH5_container-left-open.html">摘要</a> *<a href="docs\info\info_CH5_container left open.html">圖說</a></p>
+<section id="機率性暴露模擬" class="level2">
+<h2 class="anchored" data-anchor-id="機率性暴露模擬"><strong>3.0 機率性暴露模擬</strong></h2>
+<p>本章提出一套系統性暴露評估工作流程，執行WMB模擬的最佳實踐標準，步驟如下：</p>
+<ol type="1">
+<li><strong>開始</strong>：選擇模擬軟體。<br>
+</li>
+<li><strong>陳述問題</strong>：明確定義評估目標。<br>
+</li>
+<li><strong>定義情境</strong>：收集化學品特性、房間與通風參數、作業流程、勞工位置及防護措施等資訊。
+<ul>
+<li><strong>化學品特性</strong>：醋酸的物理性質、健康效應及暴露指引。<br>
+</li>
+<li><strong>房間與通風參數</strong>：房間有效容積V為85 m3，換氣率Q為28.3 m3/min。<br>
+</li>
+<li><strong>作業資訊</strong>：清理直徑約2英尺的濃醋酸洩漏物，員工未佩戴呼吸防護具。<br>
+</li>
+</ul></li>
+<li><strong>新增一項或多項任務</strong>：選擇合適模型（雙箱室、恆定生成率模型），並為每個模型變數設定參數。選擇「恆定生成率」是基於洩漏最初15至30分鐘內，蒸發速率相對穩定。
+<ul>
+<li>為G（生成速率）和β（近場換氣率）選擇三角分佈模型，將參數估計的不確定性和內在變異性納入模型。<br>
+</li>
+</ul></li>
+<li><strong>模擬隨機暴露</strong>：運行模型產生大量隨機暴露值。<br>
+</li>
+<li><strong>評估結果</strong>：將模擬出的暴露概況與相關限值比較，識別關鍵影響變數。<br>
+</li>
+<li><strong>建立報告</strong>：完整記錄評估過程、參數、結果及結論。</li>
+</ol>
 </section>
-<section id="barrel-filling" class="level2">
-<h2 class="anchored" data-anchor-id="barrel-filling">6. Barrel filling</h2>
-<p>Ch6 Barrel filling indoors</p>
-<p>*<a href="docs\info\web_CH6_Barrel-filling.html">摘要</a> *<a href="docs\info\info_CH6_Barrel filling.html">圖說</a></p>
+<section id="二暴露區模型的技術參數估算" class="level2">
+<h2 class="anchored" data-anchor-id="二暴露區模型的技術參數估算"><strong>4.0 二暴露區模型的技術參數估算</strong></h2>
+<p>污染物生成速率（G）和近場相關參數（VN​ 與 β）的估算和參數化。</p>
+<section id="估算污染物生成速率-g" class="level3">
+<h3 class="anchored" data-anchor-id="估算污染物生成速率-g"><strong>4.1 估算污染物生成速率 (G)</strong></h3>
+<ul>
+<li><strong>Hummel方程式的應用</strong>：採用Hummel方程式估算醋酸從洩漏池的蒸發速率，經修改後可應用於圓形洩漏情境。<br>
+</li>
+<li><strong>變數參數化</strong>：為洩漏直徑和空氣流速這兩個不易精確測量的參數採用三角分佈；醋酸溶液濃度採用均勻分佈。這種做法是機率性模擬的核心，承認並量化輸入數據的不確定性。<br>
+</li>
+<li><strong>G值分佈的推導</strong>：透過蒙地卡羅模擬（運行50,000次計算），得到G值的機率分佈圖，其形狀近似三角分佈（眾數=1330，最小值=810，最大值=1900 mg/min）。此分佈隨後被用作主WMR模型中G值的輸入。</li>
+</ul>
 </section>
-<section id="historic-exposure" class="level2">
-<h2 class="anchored" data-anchor-id="historic-exposure">7. Historic exposure</h2>
-<p>Ch7 Historic exposure</p>
-<p>*<a href="docs\info\web_CH7_Historic-exposure.html">摘要</a> *<a href="docs\info\info_CH7_Historic exposure.html">圖說</a></p>
+<section id="估算近場參數-vn-and-β" class="level3">
+<h3 class="anchored" data-anchor-id="估算近場參數-vn-and-β"><strong>4.2 估算近場參數 (VN​ and β)</strong></h3>
+<ul>
+<li><strong>計算近場容積 (VN​)</strong>：本研究選擇半球體作為近場形狀，直徑為1公尺，體積約為0.26 m3。<br>
+</li>
+<li><strong>計算近場氣流交換率 (β)</strong>：通用公式為β=1/2​⋅FSA⋅s (FSA為近場虛擬邊界未被阻擋的「自由表面積」，s為穿越此表面的平均空氣流速)。對於底部接觸地面的半球體，專用公式為β=π⋅r2⋅s。<br>
+</li>
+<li><strong>β值分佈的推導</strong>：為現場測量的地板水平空氣流速設定±25%的三角分佈：眾數=9.6，最小值=7.1，最大值=11.9 m3/min。</li>
+</ul>
 </section>
-<section id="pressurized-gas-release" class="level2">
-<h2 class="anchored" data-anchor-id="pressurized-gas-release">8. Pressurized gas release</h2>
-<p>Ch8 Pressurized gas release</p>
-<p>*<a href="docs\info\web_CH8_presurized-gas-release.html">摘要</a> *<a href="docs\info\info_CH8_Pressurized Gas Release.html">圖說</a></p>
 </section>
-<section id="flavoring-process" class="level2">
-<h2 class="anchored" data-anchor-id="flavoring-process">9. Flavoring Process</h2>
-<p>Chapter 9 Ventilation Requirements for a Flavoring Process</p>
-<p>*<a href="docs\info\web_CH9_Flavoring-process.html">摘要</a> *<a href="docs\info\info_CH9_Flavoring-process.html">圖說</a></p>
+<section id="暴露概況的模擬分析與詮釋" class="level2">
+<h2 class="anchored" data-anchor-id="暴露概況的模擬分析與詮釋"><strong>5.0 暴露概況的模擬、分析與詮釋</strong></h2>
+<section id="模型驗證濃度曲線分析" class="level3">
+<h3 class="anchored" data-anchor-id="模型驗證濃度曲線分析"><strong>5.1 模型驗證：濃度曲線分析</strong></h3>
+<p>在運行完整模擬前，進行小規模單次運行並檢視濃度隨時間變化的曲線，確認模型行為符合預期：洩漏後濃度迅速上升，約10至15分鐘內趨於平緩接近穩態值。遠場濃度很快超過STEL，近場濃度迅速突破IDLH。此步驟確認模型設定合理性，並初步印證情境嚴重性。</p>
 </section>
-<section id="cleaning-process" class="level2">
-<h2 class="anchored" data-anchor-id="cleaning-process">10. Cleaning Process</h2>
-<p>Chapter 10 Cleaning With Product Containing Acetic Acid *<a href="docs\info\web_CH10_Cleaning-process.html">摘要</a> *<a href="docs\info\info_CH10_Cleaning-process.html">圖說</a></p>
+<section id="機率性模擬結果遠場暴露概況" class="level3">
+<h3 class="anchored" data-anchor-id="機率性模擬結果遠場暴露概況"><strong>5.2 機率性模擬結果：遠場暴露概況</strong></h3>
+<ul>
+<li><strong>直方圖分析</strong>：10,000次模擬後，30分鐘平均遠場濃度的分佈直方圖顯示，分佈中心（中位數17.3 ppm）已高於STEL（15 ppm），絕大多數結果高於STEL。<br>
+</li>
+<li><strong>統計詮釋</strong>：遠場濃度的第95百分位數為22 ppm，明顯高於STEL。高達78%的模擬情境顯示，30分鐘平均遠場濃度超過STEL。</li>
+</ul>
 </section>
-</div><div class="column" style="width:10%;">
-<!-- empty column to create gap -->
-</div><div class="column" style="width:45%;">
-<section id="model-parameters" class="level2">
-<h2 class="anchored" data-anchor-id="model-parameters">11. Model parameters</h2>
-<p>Chapter 11 Experimental Determination of Model Parameters</p>
-<p>*<a href="docs\info\web_CH11_Model-parameters.html">摘要</a> *<a href="docs\info\info_CH11_Model-parameters.html">圖說</a></p>
+<section id="機率性模擬結果近場暴露概況" class="level3">
+<h3 class="anchored" data-anchor-id="機率性模擬結果近場暴露概況"><strong>5.3 機率性模擬結果：近場暴露概況</strong></h3>
+<ul>
+<li><strong>直方圖分析</strong>：近場30分鐘平均濃度的模擬結果顯示，其分佈中心（中位數74.6 ppm）遠高於IDLH（50 ppm）。<br>
+</li>
+<li><strong>統計詮釋</strong>：近場的第95百分位數高達99 ppm。100%的模擬結果超過STEL，高達98%的模擬結果超過IDLH。這意味著在洩漏源附近清理的員工幾乎不可避免地暴露於立即致危等級的濃度</li>
+</ul>
 </section>
-<section id="monte-carlo-modeling" class="level2">
-<h2 class="anchored" data-anchor-id="monte-carlo-modeling">12. Monte Carlo modeling</h2>
-<p>Chapter 12 Organic Chemistry Teaching Lab Exposure and a First Exploration of Monte Carlo Modeling</p>
-<p>*<a href="docs\info\web_CH12_Monte-Carlo-modeling.html">摘要</a> *<a href="docs\info\info_CH12_Monte-Carlo-modeling.html">圖說</a></p>
+<section id="結果總結紅燈決策" class="level3">
+<h3 class="anchored" data-anchor-id="結果總結紅燈決策"><strong>5.4 結果總結：「紅燈」決策</strong></h3>
+<p>綜合遠場與近場的模擬結果，可以得出一個明確的「紅燈」（red light）結論。這個術語由Perry Logan提出，用以描述一種高風險情境，其中預測的第95百分位數暴露遠大於職業暴露限值，且此結論非常穩健，即使合理地改變輸入參數也不會發生實質性改變。</p>
+<p>此處的分析不僅僅是一個技術練習，它揭示了暴露模擬在組織中的一個關鍵作用：作為推動變革的工具。本章提及，最初的模擬分析直接促使該機構制定了新的洩漏應急處理規程。這正是因為模擬所產生的量化結果——如直方圖、百分位數，以及「98%的近場暴露超過IDLH」這樣清晰的結論——為風險溝通提供了客觀且極具說服力的證據。職業衛生師利用這些證據，能有效地將一個定性的擔憂（「這個情況很危險」）轉化為一個定量的風險評估，從而向非技術背景的管理層證明投資於新設備（如應急呼吸器）、強化培訓和修訂安全程序的必要性與急迫性。模型在此扮演了風險管理與組織說服的關鍵角色。</p>
 </section>
-<section id="mixture-modleing" class="level2">
-<h2 class="anchored" data-anchor-id="mixture-modleing">13. Mixture modleing</h2>
-<p>Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations</p>
-<p>*<a href="docs\info\web_CH13_Mixture-modeling.html">摘要</a> *<a href="docs\info\info_CH13_Mixture-modeling.html">圖說</a></p>
 </section>
-<section id="oxygen-deficiency" class="level2">
-<h2 class="anchored" data-anchor-id="oxygen-deficiency">14. Oxygen Deficiency</h2>
-<p>Chapter 14 Oxygen Deficiency Hazard in a Storage Tank</p>
+<section id="批判性評估模型假設與真實世界的差距" class="level2">
+<h2 class="anchored" data-anchor-id="批判性評估模型假設與真實世界的差距"><strong>6.0 批判性評估：模型假設與真實世界的差距</strong></h2>
+<p>儘管WMR模型功能強大，但仍存在局限性：</p>
+<ul>
+<li><strong>均勻混合假設的局限性</strong>：WMR模型假設箱室內的空氣是完全均勻混合的。在真實世界中，尤其是在通風不良的空間，污染物可能形成濃度梯度，導致局部熱點。<br>
+</li>
+<li><strong>穩態假設的局限性</strong>：雖然本章使用瞬時模型，但穩態方程式在初期評估中仍扮演角色。然而，許多真實情境並非完全穩態，污染物生成速率可能隨時間變化，例如洩漏液體蒸發面積逐漸縮小。<br>
+</li>
+<li><strong>參數估計的不確定性</strong>：儘管機率性方法能處理不確定性，但輸入分佈的選擇（如三角分佈的範圍）仍基於專家判斷，可能引入偏差。<br>
+</li>
+<li><strong>非理想氣流模式</strong>：模型的準確性依賴於對房間換氣率和近場氣流交換率的合理估計。實際氣流可能受到建築結構、家具、人員移動等因素的影響，導致複雜的湍流模式。</li>
+</ul>
+<section id="替代模型的考量遞減生成率情境" class="level3">
+<h3 class="anchored" data-anchor-id="替代模型的考量遞減生成率情境"><strong>6.1 替代模型的考量：遞減生成率情境</strong></h3>
+<p>本章主要採用恆定生成率模型，但實際洩漏情境中，污染物的蒸發速率會隨著洩漏面積的減少而下降。對於長時間洩漏或洩漏液體面積顯著變化的情況，採用「遞減生成率」模型將更為精確。此模型能模擬濃度隨時間的自然衰減，提供更符合實際情況的暴露概況。</p>
 </section>
-<section id="autoshop-solvents" class="level2">
-<h2 class="anchored" data-anchor-id="autoshop-solvents">15. Autoshop solvents</h2>
-<p>Chapter 15 Use of Aerosol Solvents in an Auto Shop</p>
-<p>*<a href="docs\info\web_CH15_Autoshop-solvent.html">摘要</a> *<a href="docs\info\info_CH15_Autoshop-solvent.html">圖說</a></p>
 </section>
-<section id="reconstruction-of-spill" class="level2">
-<h2 class="anchored" data-anchor-id="reconstruction-of-spill">17 Reconstruction of spill</h2>
-<p>Chapter 17 Reconstruction of a Laboratory Spill</p>
-<p>*<a href="docs\info\web_CH17_Reconstruction-spill.html">摘要</a> *<a href="docs\info\info_CH17_Reconstruction-spill.html">圖說</a></p>
-</section>
-<section id="modeling-limitation" class="level2">
-<h2 class="anchored" data-anchor-id="modeling-limitation">18 Modeling limitation</h2>
-<p>Chapter 18 Understanding the Limitations of Mathematical Models and Proactive Communication of Modeling Results</p>
-<p>*<a href="docs\info\web_CH18_modeling-limitation.html">摘要</a> *<a href="docs\info\info_CH18_modeling-limitation.html">圖說</a></p>
-</section>
-<section id="feeding-model" class="level2">
-<h2 class="anchored" data-anchor-id="feeding-model">19 Feeding model</h2>
-<p>Chapter 19 Feeding Models Using Simple and Some Not-So-Simple Means</p>
-<p>*<a href="docs\info\web_CH19_Feeding-models.html">摘要</a> *<a href="docs\info\info_CH19_Feeding-models.html">圖說</a></p>
-</section>
-</div>
-</div>
-<p><a href="https://quarto.org/docs/websites/">Quarto learning</a> <a href="https://quarto.org/docs/websites/" class="uri">https://quarto.org/docs/websites/</a></p>
-<section id="references" class="level2 unnumbered">
+<section id="結論wmr模型在職業衛生領域的策略性應用價值" class="level2">
+<h2 class="anchored" data-anchor-id="結論wmr模型在職業衛生領域的策略性應用價值"><strong>7.0 結論：WMR模型在職業衛生領域的策略性應用價值</strong></h2>
+<p>本章透過一宗實驗室濃醋酸洩漏事件的重建分析，全面展示了雙箱室均勻混合模式（WMR）與機率性模擬方法的應用。此案例研究強調了以下幾個關鍵點：</p>
+<ul>
+<li><strong>分層評估的重要性</strong>：從簡單的確定性穩態計算快速識別高風險，到使用複雜的機率性瞬時模擬進行精確的暴露評估，這種分層方法既高效又全面。<br>
+</li>
+<li><strong>雙箱室模型的優勢</strong>：相較於單箱室模型，雙箱室模型能更精確地評估洩漏源附近的「近場」高濃度暴露，這對於評估特定作業（如清理洩漏）的風險至關重要。<br>
+</li>
+<li><strong>機率性模擬的價值</strong>：機率性方法克服了確定性方法的局限性，它能將輸入參數的不確定性和變異性納入考量，產生「暴露概況」而非單一數值，從而提供對潛在暴露範圍更全面和穩健的理解。本案例中98%近場暴露超過IDLH的結論，為風險溝通提供了強有力的科學依據。<br>
+</li>
+<li><strong>推動決策與變革</strong>：模擬結果不僅是技術報告，更是支持職業衛生決策的有力工具。它們能說服管理層投資於必要的工程控制、行政控制和個人防護設備，例如促使該機構制定新的洩漏應急處理規程。</li>
+</ul>
+<p>總而言之，WMR模型結合機率性模擬不僅是重建歷史暴露情境的利器，更是職業衛生專業人員在風險管理、控制設計和政策制定中不可或缺的策略性工具。它使得職業衛生師能更科學、更具說服力地量化風險，從而有效保護勞工健康與安全。</p>
 
 
-
-
+</section>
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-acase-b2023" class="csl-entry" role="listitem">
-Keil, Chris, ed. 2023. <em>A case-based introduction to modeling occupational inhalation exposures to chemicals</em>. Falls Church, VA: AIHA.
-</div>
-</div></section></div></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

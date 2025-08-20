@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Peter Ho.">
+<meta name="dcterms.date" content="2025-08-20">
 
-<title>Modeling – OH模式推估-Peter Ho</title>
+<title>CH18 – OH模式推估-Peter Ho</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,46 +22,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8d46e75ce6dd233c64cbb744be3589af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d49b862318db43bee8a03fcfe0a93fa7.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-8d46e75ce6dd233c64cbb744be3589af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-d49b862318db43bee8a03fcfe0a93fa7.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -89,7 +71,7 @@ div.csl-indent {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -99,7 +81,7 @@ div.csl-indent {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">OH模式推估-Peter Ho</span>
     </a>
   </div>
@@ -110,31 +92,31 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">首頁</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
+    <a class="nav-link" href="../news.html"> 
 <span class="menu-text">職安衛新知</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./modeling.html"> 
+    <a class="nav-link" href="../modeling.html"> 
 <span class="menu-text">模式推估</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./MSA.html"> 
+    <a class="nav-link" href="../MSA.html"> 
 <span class="menu-text">直讀式儀器與RPE</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./noise_EA.html"> 
+    <a class="nav-link" href="../noise_EA.html"> 
 <span class="menu-text">噪音-高溫EA</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./others.html"> 
+    <a class="nav-link" href="../others.html"> 
 <span class="menu-text">其他</span></a>
   </li>  
 </ul>
@@ -154,7 +136,23 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link active" data-scroll-target="#references">References</a></li>
+  <li><a href="#第18章數學模型的限制與主動溝通-精簡摘要" id="toc-第18章數學模型的限制與主動溝通-精簡摘要" class="nav-link active" data-scroll-target="#第18章數學模型的限制與主動溝通-精簡摘要"><strong>第18章：數學模型的限制與主動溝通 (精簡摘要)</strong></a>
+  <ul class="collapse">
+  <li><a href="#核心概念模型效用與不完美性" id="toc-核心概念模型效用與不完美性" class="nav-link" data-scroll-target="#核心概念模型效用與不完美性"><strong>1.0 核心概念：模型效用與不完美性</strong></a>
+  <ul class="collapse">
+  <li><a href="#模型限制的兩大支柱適用範圍與基本假設" id="toc-模型限制的兩大支柱適用範圍與基本假設" class="nav-link" data-scroll-target="#模型限制的兩大支柱適用範圍與基本假設"><strong>1.1 模型限制的兩大支柱：適用範圍與基本假設</strong></a></li>
+  </ul></li>
+  <li><a href="#實務陷阱特定模型限制的系統性解析" id="toc-實務陷阱特定模型限制的系統性解析" class="nav-link" data-scroll-target="#實務陷阱特定模型限制的系統性解析"><strong>2.0 實務陷阱：特定模型限制的系統性解析</strong></a>
+  <ul class="collapse">
+  <li><a href="#均勻混合室-well-mixed-room-wmr-模型" id="toc-均勻混合室-well-mixed-room-wmr-模型" class="nav-link" data-scroll-target="#均勻混合室-well-mixed-room-wmr-模型"><strong>2.1 均勻混合室 (Well-Mixed Room, WMR) 模型</strong></a></li>
+  <li><a href="#錯誤的輸入參數" id="toc-錯誤的輸入參數" class="nav-link" data-scroll-target="#錯誤的輸入參數"><strong>2.2 錯誤的輸入參數</strong></a></li>
+  <li><a href="#紊流擴散-turbulent-eddy-diffusion-模型" id="toc-紊流擴散-turbulent-eddy-diffusion-模型" class="nav-link" data-scroll-target="#紊流擴散-turbulent-eddy-diffusion-模型"><strong>2.3 紊流擴散 (Turbulent Eddy Diffusion) 模型</strong></a></li>
+  <li><a href="#近場遠場-near-fieldfar-field-nfff-模型" id="toc-近場遠場-near-fieldfar-field-nfff-模型" class="nav-link" data-scroll-target="#近場遠場-near-fieldfar-field-nfff-模型"><strong>2.4 近場/遠場 (Near-Field/Far-Field, NF/FF) 模型</strong></a></li>
+  </ul></li>
+  <li><a href="#模型結果的主動與策略性溝通" id="toc-模型結果的主動與策略性溝通" class="nav-link" data-scroll-target="#模型結果的主動與策略性溝通"><strong>3.0 模型結果的主動與策略性溝通</strong></a></li>
+  <li><a href="#綜合與專業應用" id="toc-綜合與專業應用" class="nav-link" data-scroll-target="#綜合與專業應用"><strong>4.0 綜合與專業應用</strong></a></li>
+  <li><a href="#結論" id="toc-結論" class="nav-link" data-scroll-target="#結論"><strong>5.0 結論</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -163,14 +161,26 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Modeling</h1>
+<h1 class="title">CH18</h1>
 </div>
 
 
 
 <div class="quarto-title-meta column-page-left">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Peter Ho. </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 20, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -180,127 +190,91 @@ div.csl-indent {
 </header>
 
 
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>本網站主要內容係來自2023 AIHA 新書各章</strong> <span class="citation" data-cites="acase-b2023">(<a href="#ref-acase-b2023" role="doc-biblioref">Keil 2023</a>)</span></p>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:45%;">
-<section id="why-modeling" class="level2">
-<h2 class="anchored" data-anchor-id="why-modeling">1. Why modeling</h2>
-<p>Ch1 Modeling in the Framework of Industrial Hygiene Practice</p>
-<p>*💾<a href="docs\info\web_CH1-Why-modeling.html"><strong>摘要</strong></a> *📶 <a href="docs\info\info_CH1_Why_modeling.html"><strong>圖</strong></a></p>
+<section id="第18章數學模型的限制與主動溝通-精簡摘要" class="level1">
+<h1><strong>第18章：數學模型的限制與主動溝通 (精簡摘要)</strong></h1>
+<section id="核心概念模型效用與不完美性" class="level2">
+<h2 class="anchored" data-anchor-id="核心概念模型效用與不完美性"><strong>1.0 核心概念：模型效用與不完美性</strong></h2>
+<p>所有模型都是「錯的」，但有些是「有用」的。模型是現實的簡化，其價值在於結果「足夠接近現實」以提供決策依據。專業人員必須培養批判性思維，質疑模型假設與現實的一致性。</p>
+<section id="模型限制的兩大支柱適用範圍與基本假設" class="level3">
+<h3 class="anchored" data-anchor-id="模型限制的兩大支柱適用範圍與基本假設"><strong>1.1 模型限制的兩大支柱：適用範圍與基本假設</strong></h3>
+<ol type="1">
+<li><strong>模型的適用範圍</strong>：模型設計用來解決特定問題的邊界。<br>
+</li>
+<li><strong>模型與輸入參數的基本假設</strong>：模型建立時所依賴的前提條件。</li>
+</ol>
 </section>
-<section id="gathering-informaiton" class="level2">
-<h2 class="anchored" data-anchor-id="gathering-informaiton"><em>2. Gathering informaiton</em></h2>
-<p><em>Ch2 Information Gathering for modeling</em></p>
-<p>*💾<a href="docs\info\web_CH2-Information-Gathering.html">摘要</a> * ⚛️<a href="docs\info\info_CH2_Information Gathering.html">圖說</a></p>
 </section>
-<section id="volatile-liquid-spill" class="level2">
-<h2 class="anchored" data-anchor-id="volatile-liquid-spill">3. Volatile liquid spill</h2>
-<p>Ch3 Volatile Liquid Spill</p>
-<p>*⚛️<a href="docs\info\web_CH3-Volatile-Liquid-Spill.html">摘要</a> *📶 <a href="docs\info\info_CH3 volatile liquid spill.html">圖</a></p>
+<section id="實務陷阱特定模型限制的系統性解析" class="level2">
+<h2 class="anchored" data-anchor-id="實務陷阱特定模型限制的系統性解析"><strong>2.0 實務陷阱：特定模型限制的系統性解析</strong></h2>
+<section id="均勻混合室-well-mixed-room-wmr-模型" class="level3">
+<h3 class="anchored" data-anchor-id="均勻混合室-well-mixed-room-wmr-模型"><strong>2.1 均勻混合室 (Well-Mixed Room, WMR) 模型</strong></h3>
+<p>WMR模型假設室內空氣「確實」均勻混合，或污染物在多點釋放。<br>
+<strong>限制與評估應用</strong>：現實中可能存在通風短路導致濃度差異。</p>
 </section>
-<section id="sanding-ea" class="level2">
-<h2 class="anchored" data-anchor-id="sanding-ea">4. Sanding EA</h2>
-<p><em>Ch4 Local Exhaust Ventilation for a Sanding</em></p>
-<p>*🕎<a href="docs\info\web_CH4-Sanding.html">摘要</a> *⚧️<a href="docs\info\info_CH4_Sanding.html">圖說</a></p>
+<section id="錯誤的輸入參數" class="level3">
+<h3 class="anchored" data-anchor-id="錯誤的輸入參數"><strong>2.2 錯誤的輸入參數</strong></h3>
+<ul>
+<li><strong>忽略物體佔用體積</strong>，及<strong>假設補充空氣為零濃度</strong>。</li>
+</ul>
 </section>
-<section id="container-uncovered" class="level2">
-<h2 class="anchored" data-anchor-id="container-uncovered">5. Container uncovered</h2>
-<p>Ch5 Volatile Liquid Container Left Open</p>
-<p>*<a href="docs\info\web_CH5_container-left-open.html">摘要</a> *<a href="docs\info\info_CH5_container left open.html">圖說</a></p>
+<section id="紊流擴散-turbulent-eddy-diffusion-模型" class="level3">
+<h3 class="anchored" data-anchor-id="紊流擴散-turbulent-eddy-diffusion-模型"><strong>2.3 紊流擴散 (Turbulent Eddy Diffusion) 模型</strong></h3>
+<ul>
+<li><strong>限制與評估應用</strong>：此模型<strong>不適用於評估非常靠近污染源（如小於10公分）位置的濃度</strong>。這是模型數學結構本身的限制，需了解其應用邊界。</li>
+</ul>
 </section>
-<section id="barrel-filling" class="level2">
-<h2 class="anchored" data-anchor-id="barrel-filling">6. Barrel filling</h2>
-<p>Ch6 Barrel filling indoors</p>
-<p>*<a href="docs\info\web_CH6_Barrel-filling.html">摘要</a> *<a href="docs\info\info_CH6_Barrel filling.html">圖說</a></p>
+<section id="近場遠場-near-fieldfar-field-nfff-模型" class="level3">
+<h3 class="anchored" data-anchor-id="近場遠場-near-fieldfar-field-nfff-模型"><strong>2.4 近場/遠場 (Near-Field/Far-Field, NF/FF) 模型</strong></h3>
+<p>用於估算勞工呼吸帶附近化學品的室內濃度梯度，假設污染物在近場（NF）和遠場（FF）內部相對均勻混合。</p>
+<ul>
+<li><strong>限制與評估應用</strong>：關鍵參數是β（兩場之間的區間氣流交換率）。<br>
+</li>
+<li><strong>實務警訊</strong>：若增加模型複雜度所依賴的假設被現實情況嚴重違反（如強力風扇導致全室高度混合），NF/FF模型的準確性可能「低於均勻混合室模型」。</li>
+</ul>
 </section>
-<section id="historic-exposure" class="level2">
-<h2 class="anchored" data-anchor-id="historic-exposure">7. Historic exposure</h2>
-<p>Ch7 Historic exposure</p>
-<p>*<a href="docs\info\web_CH7_Historic-exposure.html">摘要</a> *<a href="docs\info\info_CH7_Historic exposure.html">圖說</a></p>
 </section>
-<section id="pressurized-gas-release" class="level2">
-<h2 class="anchored" data-anchor-id="pressurized-gas-release">8. Pressurized gas release</h2>
-<p>Ch8 Pressurized gas release</p>
-<p>*<a href="docs\info\web_CH8_presurized-gas-release.html">摘要</a> *<a href="docs\info\info_CH8_Pressurized Gas Release.html">圖說</a></p>
+<section id="模型結果的主動與策略性溝通" class="level2">
+<h2 class="anchored" data-anchor-id="模型結果的主動與策略性溝通"><strong>3.0 模型結果的主動與策略性溝通</strong></h2>
+<p><strong>3.1 利害關係人識別與分析框架</strong><br>
+<strong>3.2 針對不同對象的客製化溝通策略</strong></p>
+<ul>
+<li><strong>企業高層領導</strong>：使用商業語言，強調投資回報率 (ROI)、商譽、法律責任。報告應包含背景、假設、限制、改善機會及ROI分析的執行摘要。<br>
+</li>
+<li><strong>員工與公眾</strong>：直截了當、易於理解的語言，開放雙向溝通。嚴守倫理，不歪曲風險概況。強調已有的防護措施，證明風險已被控制在「合理可行之盡低原則」（ALARP）水平。<br>
+</li>
+<li><strong>政府監管機構</strong>：提供完整的原始數據、詳細的方法學、假設與邊界條件，證明合規性。<br>
+</li>
+<li><strong>學術與研究機構</strong>：採用更科學的方式，詳述參數、假設、簡化過程，開放同行審查。</li>
+</ul>
+<p><strong>3.3 進階視覺化：使用貝氏分析工具直觀溝通風險</strong></p>
+<ul>
+<li><strong>Expostats 軟體</strong>：採用貝氏決策分析（BDA）詮釋暴露數據，整合專業判斷與數據，即使樣本數小也能計算決策機率。</li>
+</ul>
 </section>
-<section id="flavoring-process" class="level2">
-<h2 class="anchored" data-anchor-id="flavoring-process">9. Flavoring Process</h2>
-<p>Chapter 9 Ventilation Requirements for a Flavoring Process</p>
-<p>*<a href="docs\info\web_CH9_Flavoring-process.html">摘要</a> *<a href="docs\info\info_CH9_Flavoring-process.html">圖說</a></p>
+<section id="綜合與專業應用" class="level2">
+<h2 class="anchored" data-anchor-id="綜合與專業應用"><strong>4.0 綜合與專業應用</strong></h2>
+<p><strong>4.1 模型限制指導溝通</strong><br>
+<strong>4.2 將原則融入實務</strong><br>
+建模並非取代採樣，而是作為風險管理計畫的關鍵、前瞻性組成部分。</p>
+<ul>
+<li><strong>數學模型的優勢</strong>：時間效率高、成本效益好，能提供「早期及時的潛在過度暴露風險警報」，支持「回溯性暴露評估」，並指導採樣策略。</li>
+</ul>
 </section>
-<section id="cleaning-process" class="level2">
-<h2 class="anchored" data-anchor-id="cleaning-process">10. Cleaning Process</h2>
-<p>Chapter 10 Cleaning With Product Containing Acetic Acid *<a href="docs\info\web_CH10_Cleaning-process.html">摘要</a> *<a href="docs\info\info_CH10_Cleaning-process.html">圖說</a></p>
-</section>
-</div><div class="column" style="width:10%;">
-<!-- empty column to create gap -->
-</div><div class="column" style="width:45%;">
-<section id="model-parameters" class="level2">
-<h2 class="anchored" data-anchor-id="model-parameters">11. Model parameters</h2>
-<p>Chapter 11 Experimental Determination of Model Parameters</p>
-<p>*<a href="docs\info\web_CH11_Model-parameters.html">摘要</a> *<a href="docs\info\info_CH11_Model-parameters.html">圖說</a></p>
-</section>
-<section id="monte-carlo-modeling" class="level2">
-<h2 class="anchored" data-anchor-id="monte-carlo-modeling">12. Monte Carlo modeling</h2>
-<p>Chapter 12 Organic Chemistry Teaching Lab Exposure and a First Exploration of Monte Carlo Modeling</p>
-<p>*<a href="docs\info\web_CH12_Monte-Carlo-modeling.html">摘要</a> *<a href="docs\info\info_CH12_Monte-Carlo-modeling.html">圖說</a></p>
-</section>
-<section id="mixture-modleing" class="level2">
-<h2 class="anchored" data-anchor-id="mixture-modleing">13. Mixture modleing</h2>
-<p>Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations</p>
-<p>*<a href="docs\info\web_CH13_Mixture-modeling.html">摘要</a> *<a href="docs\info\info_CH13_Mixture-modeling.html">圖說</a></p>
-</section>
-<section id="oxygen-deficiency" class="level2">
-<h2 class="anchored" data-anchor-id="oxygen-deficiency">14. Oxygen Deficiency</h2>
-<p>Chapter 14 Oxygen Deficiency Hazard in a Storage Tank</p>
-</section>
-<section id="autoshop-solvents" class="level2">
-<h2 class="anchored" data-anchor-id="autoshop-solvents">15. Autoshop solvents</h2>
-<p>Chapter 15 Use of Aerosol Solvents in an Auto Shop</p>
-<p>*<a href="docs\info\web_CH15_Autoshop-solvent.html">摘要</a> *<a href="docs\info\info_CH15_Autoshop-solvent.html">圖說</a></p>
-</section>
-<section id="reconstruction-of-spill" class="level2">
-<h2 class="anchored" data-anchor-id="reconstruction-of-spill">17 Reconstruction of spill</h2>
-<p>Chapter 17 Reconstruction of a Laboratory Spill</p>
-<p>*<a href="docs\info\web_CH17_Reconstruction-spill.html">摘要</a> *<a href="docs\info\info_CH17_Reconstruction-spill.html">圖說</a></p>
-</section>
-<section id="modeling-limitation" class="level2">
-<h2 class="anchored" data-anchor-id="modeling-limitation">18 Modeling limitation</h2>
-<p>Chapter 18 Understanding the Limitations of Mathematical Models and Proactive Communication of Modeling Results</p>
-<p>*<a href="docs\info\web_CH18_modeling-limitation.html">摘要</a> *<a href="docs\info\info_CH18_modeling-limitation.html">圖說</a></p>
-</section>
-<section id="feeding-model" class="level2">
-<h2 class="anchored" data-anchor-id="feeding-model">19 Feeding model</h2>
-<p>Chapter 19 Feeding Models Using Simple and Some Not-So-Simple Means</p>
-<p>*<a href="docs\info\web_CH19_Feeding-models.html">摘要</a> *<a href="docs\info\info_CH19_Feeding-models.html">圖說</a></p>
-</section>
-</div>
-</div>
-<p><a href="https://quarto.org/docs/websites/">Quarto learning</a> <a href="https://quarto.org/docs/websites/" class="uri">https://quarto.org/docs/websites/</a></p>
-<section id="references" class="level2 unnumbered">
-
-
+<section id="結論" class="level2">
+<h2 class="anchored" data-anchor-id="結論"><strong>5.0 結論</strong></h2>
+<ul>
+<li>數學模型是工業衛生不可或缺的工具，但其有效性高度依賴於使用者對其「適用範圍」與「基本假設」的深刻理解。必須警惕因誤用模型（如WMR、紊流擴散或NF/FF）而導致的錯誤決策。<br>
+</li>
+<li>與建立一個好模型同樣重要的是，知道如何「主動地」與不同利害關係人溝通模型結果。溝通策略必須根據受眾客製化，並利用視覺化工具將複雜數據轉化為直觀風險資訊。最終目標是增進人們對模型的理解與信任，擴大其應用機會。<br>
+</li>
+<li>透過穩健的建模結果與主動溝通，即使在暴露測量數據有限的情況下，也能為工程控制提出有效對策，降低危害暴露。本章為工業衛生建模的初學者提供了實用參考，並為模型結果的應用、詮釋與溝通帶來新啟示。</li>
+</ul>
 
 
 </section>
+</section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-acase-b2023" class="csl-entry" role="listitem">
-Keil, Chris, ed. 2023. <em>A case-based introduction to modeling occupational inhalation exposures to chemicals</em>. Falls Church, VA: AIHA.
-</div>
-</div></section></div></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

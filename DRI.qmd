@@ -19,7 +19,7 @@ format:
 
 職業暴露評估與監控應用
 
-![](images\MSAback.png){.absolute top=400 left=10 width="1000" height="250"}
+![](images\MSAback.png){.absolute top=400 left=10 width="1000" height="150"}
 
 ##  {.scrollable .smaller}
 

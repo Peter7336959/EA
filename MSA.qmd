@@ -6,12 +6,12 @@ title: "MSA"
 | 
 | 
 
-## 暴露評估監控應用 - MSA 5X DRI
+## 暴露評估監控應用 - 直讀式儀器 MSA 5X DRI
 
 點選下方簡報後，按方向鍵瀏覽，向右 {{< kbd ⟶>}} 或向下 {{< kbd ⤓>}} 。
 
 ::: {#DRI style="red"}
-<iframe src="DRI.html" width="600" height="ˊ600">
+<iframe src="docs\DRI.html" width="600" height="600">
 
 </iframe>
 :::

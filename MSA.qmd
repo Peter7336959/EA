@@ -11,7 +11,7 @@ title: "MSA"
 點選下方簡報後，按方向鍵瀏覽，向右 {{< kbd ⟶>}} 或向下 {{< kbd ⤓>}} 。
 
 ::: {#DRI style="red"}
-<iframe src="DRI.html" width="600" height="600">
+<iframe src="DRI.html" width="600" height="400">
 
 </iframe>
 :::

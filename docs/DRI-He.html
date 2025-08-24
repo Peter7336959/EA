@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="River Ho. &amp; Peter Ho.">
 
-<title>Occupational Noise-EA – OH模式推估-Peter Ho</title>
+<title>MSA直讀氣體偵測器 – OH模式推估-Peter Ho</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -110,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">直讀式儀器與RPE</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./noise_EA.html" aria-current="page"> 
+    <a class="nav-link" href="./noise_EA.html"> 
 <span class="menu-text">噪音-高溫EA</span></a>
   </li>  
   <li class="nav-item">
@@ -134,31 +135,41 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#聲音的物理學" id="toc-聲音的物理學" class="nav-link active" data-scroll-target="#聲音的物理學">1. 聲音的物理學</a></li>
-  <li><a href="#耳朵與聽覺的解剖學與生理學" id="toc-耳朵與聽覺的解剖學與生理學" class="nav-link" data-scroll-target="#耳朵與聽覺的解剖學與生理學">2.耳朵與聽覺的解剖學與生理學</a></li>
-  <li><a href="#暴露標準與職業暴露量" id="toc-暴露標準與職業暴露量" class="nav-link" data-scroll-target="#暴露標準與職業暴露量">3. 暴露標準與職業暴露量</a></li>
-  <li><a href="#噪音來源-noise-source" id="toc-噪音來源-noise-source" class="nav-link" data-scroll-target="#噪音來源-noise-source">4. 噪音來源 (Noise Source)</a></li>
-  <li><a href="#聲音測量儀器-sound-measuring-instruments" id="toc-聲音測量儀器-sound-measuring-instruments" class="nav-link" data-scroll-target="#聲音測量儀器-sound-measuring-instruments">5. 聲音測量儀器 (Sound Measuring Instruments)</a></li>
-  <li><a href="#噪音暴露調查策略-strategies-for-noise-surveys" id="toc-噪音暴露調查策略-strategies-for-noise-surveys" class="nav-link" data-scroll-target="#噪音暴露調查策略-strategies-for-noise-surveys">6. 噪音暴露調查策略 (Strategies for Noise Surveys)</a></li>
-  <li><a href="#聽力測量-hearing-measurement" id="toc-聽力測量-hearing-measurement" class="nav-link" data-scroll-target="#聽力測量-hearing-measurement">7. 聽力測量 (Hearing Measurement)</a></li>
-  <li><a href="#聽力保護計畫" id="toc-聽力保護計畫" class="nav-link" data-scroll-target="#聽力保護計畫">8. 聽力保護計畫</a></li>
-  <li><a href="#噪音控制" id="toc-噪音控制" class="nav-link" data-scroll-target="#噪音控制">9. 噪音控制</a></li>
-  <li><a href="#聽力防護具與密合度測試" id="toc-聽力防護具與密合度測試" class="nav-link" data-scroll-target="#聽力防護具與密合度測試">10. 聽力防護具與密合度測試</a></li>
+  <li><a href="#六用voc氣體偵測器" id="toc-六用voc氣體偵測器" class="nav-link active" data-scroll-target="#六用voc氣體偵測器">六用VOC氣體偵測器</a>
+  <ul class="collapse">
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a>
+  <ul class="collapse">
+  <li><a href="#相關法規一" id="toc-相關法規一" class="nav-link" data-scroll-target="#相關法規一">相關法規一</a></li>
+  </ul></li>
+  <li><a href="#相關法規二" id="toc-相關法規二" class="nav-link" data-scroll-target="#相關法規二">相關法規二</a></li>
+  <li><a href="#altair-5x-pid-六用voc氣體偵測器簡介" id="toc-altair-5x-pid-六用voc氣體偵測器簡介" class="nav-link" data-scroll-target="#altair-5x-pid-六用voc氣體偵測器簡介">ALTAIR 5X PID 六用VOC氣體偵測器簡介</a></li>
+  <li><a href="#職業暴露限值" id="toc-職業暴露限值" class="nav-link" data-scroll-target="#職業暴露限值">職業暴露限值</a></li>
+  <li><a href="#直讀式氣體偵測儀器的應用" id="toc-直讀式氣體偵測儀器的應用" class="nav-link" data-scroll-target="#直讀式氣體偵測儀器的應用">直讀式氣體偵測儀器的應用</a></li>
+  <li><a href="#偵測原理與關鍵概念" id="toc-偵測原理與關鍵概念" class="nav-link" data-scroll-target="#偵測原理與關鍵概念">偵測原理與關鍵概念</a></li>
+  </ul></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="DRI-He.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Occupational Noise-EA</h1>
+<h1 class="title">MSA直讀氣體偵測器</h1>
+<p class="subtitle lead">職業暴露評估與監控應用</p>
 </div>
 
 
 
 <div class="quarto-title-meta column-page-left">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>River Ho. &amp; Peter Ho. </p>
+          </div>
+  </div>
     
   
     
@@ -169,144 +180,152 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="聲音的物理學" class="level2">
-<h2 class="anchored" data-anchor-id="聲音的物理學">1. 聲音的物理學</h2>
+<section id="六用voc氣體偵測器" class="level1">
+<h1>六用VOC氣體偵測器</h1>
+<p>職業暴露評估與監控應用</p>
+<p><img src="images\MSAback.png" class="absolute" data-top="400" data-left="10" width="1000" height="250"></p>
+<section id="section" class="level2 scrollable smaller">
+<h2 class="scrollable smaller anchored" data-anchor-id="section"></h2>
 <ul>
-<li><strong>聲音的物理學</strong>：學習聲音的本質、基本特性（頻率、波長、振幅），以及聲音如何在空間中傳播（聲場）。</li>
-<li><strong>聲音的量化</strong> ：學習如何用科學的單位來描述聲音，核心概念—<strong>分貝 (decibel, dB)</strong>，以及聲功率、聲強度與聲壓之間的區別。</li>
-<li><strong>心理聲學 (Psycho-acoustics)</strong>：探討人耳是如何感知聲音的。頻率加權（例如 A-weighted）讓測量儀器模擬人耳的聽覺反應。</li>
-<li><strong>噪音評估指標</strong> ：在職業衛生領域中，用來評估不同類型噪音（穩態、變動、衝擊性）暴露量的關鍵指標，例如最重要的<strong>等效連續聲級 (LAeq,T​)</strong>。</li>
+<li>相關法規</li>
+<li>ALTAIR 5X PID 六用VOC氣體偵測器簡介</li>
+<li>職業暴露限制(TLV,PEL,STEL,TWA,IDHL)</li>
+<li>直讀式儀器作業環境監測的應用</li>
+<li>偵測原理與關鍵概念</li>
+<li>修正係數(Response Factor, RF) 的應用與重要性</li>
+<li>應用範例：甲苯 (Toluene)</li>
+<li>應用範例：甲基乙基酮 (MEK)</li>
+<li>應用範例：苯 (Benzene)</li>
+<li>結語與安全注意事項 <img src="images\5X.png" class="absolute" data-top="10" data-left="700" width="300" height="500"></li>
 </ul>
-<div class="border">
-<div class="tabset-margin-container"></div><div class="panel-tabset tabset-fade tabset-pills" data-group="CH1" style="color:darkblue">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Q1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Q2</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Q3</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Q4</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false">Q5</a></li></ul>
-<div class="tab-content tabset-fade tabset-pills" data-group="CH1" style="color:darkblue">
+</section>
+<section id="section-1" class="level2 scrollable smaller">
+<h2 class="scrollable smaller anchored" data-anchor-id="section-1"></h2>
+<section id="相關法規一" class="level3">
+<h3 class="anchored" data-anchor-id="相關法規一">相關法規一</h3>
+<p>「四用 或 複合式氣體偵測器」，通常是指能同時偵測以下四種氣體</p>
+<ul>
+<li>氧氣 (O₂) ： &gt;18%__《缺氧症預防規則》第5條</li>
+<li>可燃性氣體LEL ：&lt;30%__《職業安全衛生設施規則》第177條</li>
+<li>硫化氫 (H₂S) ：&lt;10 ppm__《勞工作業場所容許暴露標準》附表一</li>
+<li>一氧化碳 (CO) ：&lt;35 ppm __《勞工作業場所容許暴露標準》附表一</li>
+</ul>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">《缺氧症預防規則》</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">《職安衛設施規則》</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">《作業場所容許暴露標準》</a></li></ul>
+<div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>您認為一個高頻音（例如尖銳的警報聲）和一個低頻音（例如遠處的雷聲），它們的波長會有什麼不同？哪一個的波長會比較長？</p>
+<p>雇主使勞工從事缺氧危險作業時，應予適當換氣，以保持該作業場所空氣中氧氣濃度在百分之十八以上。</p>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p>假設在一個廠房裡，有一部穩態運轉的機器，測得其噪音量為 85 dB(A)。如果我們在旁邊再增加一部一模一樣、噪音量也是 85 dB(A) 的機器，您認為兩部機器同時運轉時，總噪音量會是多少？會是 170 dB(A) 嗎？還是會有不同的結果？</p>
+<p>易燃液體之蒸氣、可燃性氣體或爆燃性粉塵達LEL之30%以上時，應即刻使勞工退避至安全場所，並停止使用煙火及其他為點火源之虞之機具，並應加強通風。</p>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p>一個工廠的噪音主要由兩種來源構成：一種是頻率很低的巨大通風風扇（假設為 100 Hz），另一種是頻率較高的金屬切割機（假設為 2000 Hz）。如果一台普通的（未經計權的）聲級計測得這兩種噪音源的聲壓級都是 90 dB，那麼當我們改用 A-計權（dB(A)）來測量時，您認為哪一個噪音源的讀數會比較高？為什麼？</p>
-</div>
-<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<p>噪音暴露評估的核心？噪音暴露調查策略？光靠「測量」這個動作是不夠的，它需要一個系統性的策略。第一步：初步調查 (Preliminary Survey)，第二步：規劃測量評估策略 ，第三步：執行測量與評估解讀。 <strong><em>But How to do it?</em></strong></p>
-</div>
-<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
-<p>你知道第一步：初步調查？包含哪些重要事項？ 第一步的目標是全面了解勞工的工作模式與噪音環境，找出所有可能影響其全天暴露總量的因素 。關鍵工作包括：工作分析、噪音來源與特性、建立SEGs等。 <strong><em>(這跟化學品暴露評估有沒有很像呢？)</em></strong></p>
-</div>
+<p>勞工作業環境空氣中有害物之濃度應符合下列規定： 全程工作日之時量平均濃度不得超過PEL-TWA。 任何一次連續十五分鐘內之時量平均濃度不得超過STEL。 任何時間均不得超過最高容許濃度。</p>
 </div>
 </div>
 </div>
 </section>
-<section id="耳朵與聽覺的解剖學與生理學" class="level2">
-<h2 class="anchored" data-anchor-id="耳朵與聽覺的解剖學與生理學">2.耳朵與聽覺的解剖學與生理學</h2>
+</section>
+<section id="相關法規二" class="level2 scrollable smaller">
+<h2 class="scrollable smaller anchored" data-anchor-id="相關法規二">相關法規二</h2>
+<section id="職業安全衛生設施規則29-129-7277-1" class="level4">
+<h4 class="anchored" data-anchor-id="職業安全衛生設施規則29-129-7277-1">職業安全衛生設施規則29-1~29-7、277-1</h4>
 <ul>
-<li><strong>聲音的旅程 - 解剖構造 (Anatomy)</strong>：聲波從進入外耳開始，一路經過中耳，最終抵達內耳，認識沿途的各個重要結構。</li>
-<li><strong>從振動到感知 - 生理功能(Physiology)</strong>：耳朵結構如何協同工作，將聲音放大、轉換並進行初步分析的。</li>
+<li>雇主應制定局限空間危害防止計畫，其中必須明確規範氧氣、危險物及有害物濃度的測定方式。包含提供必要的測定儀器，在作業前必須確認氧氣及危害物質的濃度，並且在整個作業期間採取連續確認的措施。</li>
+<li>局限空間作業的「進入許可」上，也應清楚載明氧氣和危害物質的測定結果，並由測定人員簽名確認。</li>
 </ul>
-<div class="border">
-<div class="tabset-margin-container"></div><div class="panel-tabset" data-group="CH2" style="color: darkblue">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Q1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Q2</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Q3</a></li></ul>
-<div class="tab-content" data-group="CH2" style="color: darkblue">
-<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
-<p>我們剛剛提到了外耳負責「收集」聲波，而中耳像一個「放大器」，解決了空氣到液體的能量傳遞問題。綜合這兩點，您認為從聲波進到耳朵，到它準備進入內耳之前，聲音的能量是變強了還是變弱了？為什麼這一步驟對於聽覺至關重要？</p>
-</div>
-<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
-<p>噪音造成聽力損傷，最主要攻擊的目標是內耳的聽覺感測細胞(它們坐落在基底膜上)，且其一旦死亡便無法再生的毛細胞。特別是脆弱的內？ / 外？毛細胞</p>
-</div>
-<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
-<p>很多早期噪音性聽損的患者會說：「在安靜的地方我聽得還不錯，可是一到吵雜的環境，我就完全聽不清楚別人在說什麼了」，而且他們對較大的聲音會感覺特別刺耳（這種現象稱為響度重振 Loudness Recruitment）。</p>
-<p>您認為這個現象，比較可能跟哪一種毛細胞（內毛細胞或外毛細胞）的損傷有關？為什麼？</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="提醒" style="color">
+</section>
+<section id="高壓氣體勞工安全規則60167" class="level4">
+<h4 class="anchored" data-anchor-id="高壓氣體勞工安全規則60167">高壓氣體勞工安全規則60、167</h4>
+<ul>
+<li>為確保高壓氣體作業場所的絕對安全，無論是製造設備或消費設備，只要存在可燃性氣體或毒性氣體洩漏並積滯的潛在風險，都必須強制設置氣體洩漏檢知警報設備。</li>
+</ul>
+</section>
+<section id="缺氧症預防規則4161823" class="level4">
+<h4 class="anchored" data-anchor-id="缺氧症預防規則4161823">缺氧症預防規則4、16、18、23</h4>
+<ul>
+<li>雇主必須備有必要的氧氣濃度測定儀器，並採取措施隨時確認空氣中的氧氣濃度，同時也要密切監測硫化氫等其他有害氣體濃度。</li>
+<li>雇主必須在每日作業開始前、勞工離開作業場所後再次開始作業前，以及當勞工身體出現異狀或換氣裝置有異常時，再次確認作業場所的氧氣及有害氣體濃度。</li>
+<li>雇主應將包含測定儀器保管場所等重要注意事項，公告於作業場所入口顯眼處。</li>
+</ul>
+</section>
+</section>
+<section id="altair-5x-pid-六用voc氣體偵測器簡介" class="level2 scrollable smaller">
+<h2 class="scrollable smaller anchored" data-anchor-id="altair-5x-pid-六用voc氣體偵測器簡介">ALTAIR 5X PID 六用VOC氣體偵測器簡介</h2>
+<p>結合光電離 (PID) 感測技術與 MSA X 智慧感測器(資料處理、自我診斷和通訊能力)技術。</p>
+<ul>
+<li>多功能性：它能夠偵測數百種揮發性有機化合物 (VOC) 氣體，並可應用於任何複雜的場合，把測爆炸、測缺氧、測毒害或職業健康評定等功能集為一體。</li>
+<li>設計優勢：儀器配備吸力強大的內建泵(吸氣能力為0.3公升/分鐘，最遠達 30米)，可節省其他配件和外部零件，操作人員在遠端監控時更易用、更可靠，從而簡化工作。</li>
+<li>主要用途：ALTAIR 5X PID 偵測儀主要面向受過專門培訓的合格人員，用於在進行風險評估時：
+<ul>
+<li>評估作業人員接觸可燃、有毒氣體及蒸氣和缺氧環境的潛在暴露危險。</li>
+<li>確定工作區所需氣體和蒸氣的監控措施</li>
+</ul></li>
+</ul>
+</section>
+<section id="職業暴露限值" class="level2 scrollable smaller">
+<h2 class="scrollable smaller anchored" data-anchor-id="職業暴露限值">職業暴露限值</h2>
+<ul>
+<li>PEL (容許暴露極限):
+<ul>
+<li>由國家制定閾值(法律)，如我國籍美國OSHA。</li>
+</ul></li>
+<li>TLV (閾限值):
+<ul>
+<li>由美國政府工業衛生學家會議 (ACGIH) 提出的建議性職業暴露限值 。</li>
+<li>代表幾乎所有健康工作者每天重複暴露於該濃度或以下，而不會產生不良健康影響的空氣中化學物質濃度 。</li>
+</ul></li>
+<li>TWA (工作日8 小時時間加權平均值):
+<ul>
+<li>勞工可以安全暴露的污染物濃度平均值 。</li>
+</ul></li>
+<li>STEL (短期暴露極限):
+<ul>
+<li>指在工作日中的任何時間裡，任一連續15 分鐘時間的加權平均暴露值 。</li>
+<li>旨在防止短時間暴露引起的刺激、急性或不可逆組織損傷、與劑量相關的毒性效應。</li>
+<li>特別適用於具有急性影響的物質，並非所有物質都有 STEL 。</li>
+</ul></li>
+<li>IDLH (立即危及生命或健康濃度) :
+<ul>
+<li>暴露 10~30 分鐘內，可能會導致死亡、永久性傷害、或無法逃離暴露環境的空氣中污染物濃度。</li>
+<li>這個值通常用於決定在沒有呼吸防護裝備的情況下，人員可以安全進入受污染區域的最長時間。</li>
+</ul></li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-提醒
+Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>早期噪音聽損主要與<strong>外毛細胞 (OHCs)</strong> 的損傷有關。它們的受損不僅造成了聽力損失，也破壞了我們聽覺的精細調節能力，導致在吵雜環境中分辨語音的能力下降。</p>
+<p>TLV 是科學建議值 ，而 PEL 是法律強制執行的限制 。 PEL (容許閾值) 通常會比 TLV 高。</p>
 </div>
 </div>
+</section>
+<section id="直讀式氣體偵測儀器的應用" class="level2 scrollable smaller">
+<h2 class="scrollable smaller anchored" data-anchor-id="直讀式氣體偵測儀器的應用">直讀式氣體偵測儀器的應用</h2>
+<p>精確度（或再現性/重現性） - 精確性為 ±2 ppm (±5000 ppb) 或 10%，以較大者為準。 - 絕對偏差 (Absolute Deviation)：±2 ppm（等同於 ±5000 ppb）。這表示無論實際濃度多高或多低，儀器的讀數與真實值之間的誤差可能在正負 2 ppm 的範圍內。 - 相對偏差 (Relative Deviation)：10%。這表示儀器的讀數與真實值之間的誤差可能是實際濃度的正負 10%。 - 以較大者為準：是指在實際應用中，會取這兩種計算方式中誤差較大的那個值，作為該濃度下的最大可能偏差。</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">範例 1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">範例 2</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<p>儀器的讀數為 10 ppm 根據絕對偏差：±2 ppm 根據相對偏差：10 ppm 的 10% = ±1 ppm 「以較大者為準」：由於 ±2 ppm 大於 ±1 ppm， 實際濃度可能在 8 ppm 到 12 ppm 之間</p>
 </div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<p>儀器的讀數為 200 ppm 根據絕對偏差：±2 ppm 根據相對偏差：10 ppm 的 10% = ±20 ppm 「以較大者為準」：由於 ±20 ppm 大於 ±2 ppm， 實際濃度可能180 ppm 到 220 ppm 之間</p>
 </div>
 </div>
 </div>
 </section>
-<section id="暴露標準與職業暴露量" class="level2">
-<h2 class="anchored" data-anchor-id="暴露標準與職業暴露量">3. 暴露標準與職業暴露量</h2>
-<ul>
-<li><strong>「為什麼」</strong>- 噪音限值的科學基礎：探討我們為何需要設定限值，以及這些限值的目標是什麼。–&gt; 預防噪音引發之永久性聽力閾值偏移 (Noise-Induced Permanent Threshold Shift, <strong>NIPTS</strong>)</li>
-<li><strong>「如何算」</strong>- 關鍵的暴露參數：學習評估噪音暴露的三個最重要數字：暴露限值 (85 vs 90 dB(A))、時間-能量交換率 (3 dB vs 5 dB) 以及峰值上限。</li>
-<li><strong>「誰定規則」</strong>- 各國/地區的法規瀏覽。</li>
-</ul>
-<div class="border">
-<div class="tabset-margin-container"></div><div class="panel-tabset" data-group="CH2" style="color: darkblue">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Q1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Q2</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false">Q3</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-4" role="tab" aria-controls="tabset-3-4" aria-selected="false">Q4</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-5" role="tab" aria-controls="tabset-3-5" aria-selected="false">Q5</a></li></ul>
-<div class="tab-content" data-group="CH2" style="color: darkblue">
-<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
-<p>早期的聽力損傷計算公式（只看 500、1000、2000Hz），為了更好地保護我們聽懂別人說話的能力，專家們決定將哪個高頻音頻率也納入考量來計算聽力損傷，從而促使標準變得更嚴格。您能猜猜看嗎？（<strong>提示：這個頻率在 2000 Hz 到 4000 Hz 之間</strong>）</p>
-</div>
-<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
-<p>假設我們的基準是 8 小時 85 dB(A)。現在有一位工人，他需要在一台會產生 91 dB(A) 噪音的機器旁工作。 - 如果我們採用更具保護性的 3 dB 交換率，這位工人每天最多可以在這台機器旁工作多久？ - 如果我們採用較寬鬆的 5 dB 交換率，他又可以工作多久？</p>
-</div>
-<div id="tabset-3-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-3-tab">
-<p>一個完整的職業噪音暴露標準，通常會包含三個核心要素。也就是評估職業噪音風險一般有三個關鍵數字：<strong>時量平均值 (暴露限值)、交換率 (時間-能量交換率)、絕對上限 (峰值限值)</strong>。您能試著說明一下他們的意義嗎？</p>
-</div>
-<div id="tabset-3-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-4-tab">
-<p>有哪些國際標準是用來構成了我們進行專業噪音評估時的法規與技術基礎？(ISO ? )</p>
-</div>
-<div id="tabset-3-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-5-tab">
-<p>歐盟的指令 (86/188/EEC) 提供暴露風險分級，您知道管理行動各有哪些？ - 第一級行動值 (85 dB(A) LAeq,8h​ ) <strong>「警示」</strong> - 第二級行動值 (90 dB(A) LAeq,8h​ ) <strong>「危險」</strong> - 峰值行動值 (140 dB(C)) <strong>「禁止」</strong></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="噪音來源-noise-source" class="level2">
-<h2 class="anchored" data-anchor-id="噪音來源-noise-source">4. 噪音來源 (Noise Source)</h2>
-<p>噪音的來源(依物理機制分)，基本上可以歸納為三大類： - 1. 機械性噪音：固體表面的振動，推動空氣產生聲波。 - 2. 流體動力噪音：氣液體的高速或不穩定流動。 - 3. 電磁性噪音：電流在馬達、變壓器等設備中變化所產生的電磁力，導致設備部件振動而發出噪音。如低頻的「嗡嗡」聲。 - <strong>速度的關鍵影響</strong>：無論是機械轉速或流體速度，都是噪音控制中最敏感、最關鍵的參數。「降速」是降噪的第一要務。</p>
-<div class="border">
-<div class="tabset-margin-container"></div><div class="panel-tabset" data-group="CH2" style="color: darkblue">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">Q1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">Q2</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-3" role="tab" aria-controls="tabset-4-3" aria-selected="false">Q3</a></li></ul>
-<div class="tab-content" data-group="CH2" style="color: darkblue">
-<div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
-<p>工業氣槍或高壓排氣口 (Industrial Gas Jets)。 這是在工廠中用來清潔、乾燥或吹走零件的常見工具，噪音通常非常大，可以輕易超過 105 dB(A) 。您認為這種噪音主要是由哪一種物理機制產生的？</p>
-</div>
-<div id="tabset-4-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-2-tab">
-<p>工業場所無所不在的通風機與排風扇 (Ventilator and Exhaust Fans)。這和家用電風扇有點像，但工業風扇的噪音等級要高得多。您認為工業風扇的噪音主要包含哪幾種物理機制？</p>
-</div>
-<div id="tabset-4-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-3-tab">
-<p>在噪音源頭管理的優先性上，您認為在哪方面著手，是成本效益最高的策略，遠比事後進行隔音、吸音等補救工程來得有效？</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="聲音測量儀器-sound-measuring-instruments" class="level2">
-<h2 class="anchored" data-anchor-id="聲音測量儀器-sound-measuring-instruments">5. 聲音測量儀器 (Sound Measuring Instruments)</h2>
-</section>
-<section id="噪音暴露調查策略-strategies-for-noise-surveys" class="level2">
-<h2 class="anchored" data-anchor-id="噪音暴露調查策略-strategies-for-noise-surveys">6. 噪音暴露調查策略 (Strategies for Noise Surveys)</h2>
-</section>
-<section id="聽力測量-hearing-measurement" class="level2">
-<h2 class="anchored" data-anchor-id="聽力測量-hearing-measurement">7. 聽力測量 (Hearing Measurement)</h2>
-</section>
-<section id="聽力保護計畫" class="level2">
-<h2 class="anchored" data-anchor-id="聽力保護計畫">8. 聽力保護計畫</h2>
-</section>
-<section id="噪音控制" class="level2">
-<h2 class="anchored" data-anchor-id="噪音控制">9. 噪音控制</h2>
-</section>
-<section id="聽力防護具與密合度測試" class="level2">
-<h2 class="anchored" data-anchor-id="聽力防護具與密合度測試">10. 聽力防護具與密合度測試</h2>
-<p>:::::</p>
+<section id="偵測原理與關鍵概念" class="level2 scrollable smaller">
+<h2 class="scrollable smaller anchored" data-anchor-id="偵測原理與關鍵概念">偵測原理與關鍵概念</h2>
+<p>製作中~~~</p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->

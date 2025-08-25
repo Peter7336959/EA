@@ -1,9 +1,0 @@
-output-dir: info
-
-format:
-  html:
-    menu: false
-    progress: false
-search: false
-
-

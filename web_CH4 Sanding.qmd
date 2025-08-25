@@ -27,7 +27,7 @@ date: "2025-08-13"
 
 -   **模式推估 IH MOD**
 
-![](images/CH4.png)
+![](docs\images\CH4.png)
 
 ## **4. 結論與專業建議**
 

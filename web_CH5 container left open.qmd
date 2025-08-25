@@ -24,11 +24,11 @@ output: html_document
 
 #### 儲存櫃內部
 
-![](docs/info/images/CH5-1.png)
+![](docs/images/CH5-1.png)
 
 #### 整個空間
 
-![](docs/info/images/CH5-2.png)
+![](docs/images/CH5-2.png)
 
 ### **結論與最佳實務**
 

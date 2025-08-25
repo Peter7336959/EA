@@ -255,167 +255,6 @@
     "text": "4. sanding EA by LEV"
   },
   {
-    "objectID": "docs/info/Rmd/web_CH4 Sanding.html",
-    "href": "docs/info/Rmd/web_CH4 Sanding.html",
-    "title": "CH4 sanding",
-    "section": "",
-    "text": "背景問題：一間木工廠因產能不足，廠長提議臨時使用一張**無局部排氣裝置（LEV）**的工作台，每天進行2小時的打磨作業。\n\n職衛任務：預測此臨時作業是否會產生不可接受的木塵暴露濃度。\n\n\n\n\n為進行評估，我們採用完全混合室模式（Well-Mixed Room Model），並估算了以下關鍵參數：\n* 暴露標準：選用較嚴格的 ACGIH TLV 作為主要判斷基準：1.0 mg/m³。\n* 粉塵產生率 (G)：估算出粉塵產生率 G 約為 2,170 mg/min。粉塵粒徑極小，假設其完全懸浮於空氣中。\n* 房間資訊：房間體積 (V) 為 3,120 m³，總排氣量 (Q) 為 240 m³/min。\n\n\n\n模型評估假設是污染物均勻混合 (但，操作人員呼吸帶的實際濃度必定更高)。\n* 穩態濃度 (Css)：若此無通風作業持續進行，房間平均濃度將達到 9.0 mg/m³，遠超所有職業暴露標準。\n* 2小時作業的日時量平均濃度 (TWA-8)：2.25 mg/m³，是 TLV 的兩倍多。\n* 濃度累積速度：風險累積極為迅速。模型顯示，作業開始後僅需 1.5 分鐘，房間的平均濃度就會超過 ACGIH 的建議標準。\n\n模式推估 IH MOD\n\n\n\n\nSanding EA\n\n\n\n\n\n\n明確的風險判斷：\n廠長提議的臨時方案是不安全的，會產生不可接受的木塵暴露濃度。\n\n建議措施：\n\n臨時方案：可考慮採用附有整合式集塵裝置的砂輪機作為臨時措施，但仍建議進行現場測定確認其有效性。\n\n最終解決方案：最理想的工程控制方法是添購一台新的下吸式排氣桌，從根本上解決問題。\n\nmade by Peter Ho. 1140813"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH4 Sanding.html#核心情境與評估任務",
-    "href": "docs/info/Rmd/web_CH4 Sanding.html#核心情境與評估任務",
-    "title": "CH4 sanding",
-    "section": "",
-    "text": "背景問題：一間木工廠因產能不足，廠長提議臨時使用一張**無局部排氣裝置（LEV）**的工作台，每天進行2小時的打磨作業。\n\n職衛任務：預測此臨時作業是否會產生不可接受的木塵暴露濃度。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH4 Sanding.html#關鍵參數與評估模型",
-    "href": "docs/info/Rmd/web_CH4 Sanding.html#關鍵參數與評估模型",
-    "title": "CH4 sanding",
-    "section": "",
-    "text": "為進行評估，我們採用完全混合室模式（Well-Mixed Room Model），並估算了以下關鍵參數：\n* 暴露標準：選用較嚴格的 ACGIH TLV 作為主要判斷基準：1.0 mg/m³。\n* 粉塵產生率 (G)：估算出粉塵產生率 G 約為 2,170 mg/min。粉塵粒徑極小，假設其完全懸浮於空氣中。\n* 房間資訊：房間體積 (V) 為 3,120 m³，總排氣量 (Q) 為 240 m³/min。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH4 Sanding.html#風險分析與關鍵發現",
-    "href": "docs/info/Rmd/web_CH4 Sanding.html#風險分析與關鍵發現",
-    "title": "CH4 sanding",
-    "section": "",
-    "text": "模型評估假設是污染物均勻混合 (但，操作人員呼吸帶的實際濃度必定更高)。\n* 穩態濃度 (Css)：若此無通風作業持續進行，房間平均濃度將達到 9.0 mg/m³，遠超所有職業暴露標準。\n* 2小時作業的日時量平均濃度 (TWA-8)：2.25 mg/m³，是 TLV 的兩倍多。\n* 濃度累積速度：風險累積極為迅速。模型顯示，作業開始後僅需 1.5 分鐘，房間的平均濃度就會超過 ACGIH 的建議標準。\n\n模式推估 IH MOD\n\n\n\n\nSanding EA"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH4 Sanding.html#結論與專業建議",
-    "href": "docs/info/Rmd/web_CH4 Sanding.html#結論與專業建議",
-    "title": "CH4 sanding",
-    "section": "",
-    "text": "明確的風險判斷：\n廠長提議的臨時方案是不安全的，會產生不可接受的木塵暴露濃度。\n\n建議措施：\n\n臨時方案：可考慮採用附有整合式集塵裝置的砂輪機作為臨時措施，但仍建議進行現場測定確認其有效性。\n\n最終解決方案：最理想的工程控制方法是添購一台新的下吸式排氣桌，從根本上解決問題。\n\nmade by Peter Ho. 1140813"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH2 Information Gathering.html",
-    "href": "docs/info/Rmd/web_CH2 Information Gathering.html",
-    "title": "EA",
-    "section": "",
-    "text": "任何暴露評估模式的準確性，都完全取決於其輸入資訊的品質。系統性地收集建立一個可靠空氣濃度模型需要三大類關鍵資訊。\n\n\n\n\n暴露輪廓 = 模擬出的空氣濃度 + 勞工活動模式\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n將計算出的「環境濃度」轉化為「個人暴露劑量」。\n\n\n\n\n\n成功的暴露評估模式，建立在系統性且嚴謹的資訊收集之上。在進行評估時，務必記錄您所做的每一個假設與資訊來源。如果您的估算偏向保守（高估暴露），要註明為何如此；如果使用了文獻值，也要記錄出處。這將使您的評估報告更加專業、可信，也便於日後回溯與更新。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH2 Information Gathering.html#一-暴露評估的核心濃度與時間的結合",
-    "href": "docs/info/Rmd/web_CH2 Information Gathering.html#一-暴露評估的核心濃度與時間的結合",
-    "title": "EA",
-    "section": "",
-    "text": "暴露輪廓 = 模擬出的空氣濃度 + 勞工活動模式"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH2 Information Gathering.html#四-關鍵資訊三勞工活動形態資訊",
-    "href": "docs/info/Rmd/web_CH2 Information Gathering.html#四-關鍵資訊三勞工活動形態資訊",
-    "title": "EA",
-    "section": "",
-    "text": "將計算出的「環境濃度」轉化為「個人暴露劑量」。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH2 Information Gathering.html#總結",
-    "href": "docs/info/Rmd/web_CH2 Information Gathering.html#總結",
-    "title": "EA",
-    "section": "",
-    "text": "成功的暴露評估模式，建立在系統性且嚴謹的資訊收集之上。在進行評估時，務必記錄您所做的每一個假設與資訊來源。如果您的估算偏向保守（高估暴露），要註明為何如此；如果使用了文獻值，也要記錄出處。這將使您的評估報告更加專業、可信，也便於日後回溯與更新。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH2 Information Gathering.html#footnotes",
-    "href": "docs/info/Rmd/web_CH2 Information Gathering.html#footnotes",
-    "title": "EA",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nCH2 Information Gathering for modeling↩︎"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH1 Why modeling.html",
-    "href": "docs/info/Rmd/web_CH1 Why modeling.html",
-    "title": "CH1 Why modeling",
-    "section": "",
-    "text": "暴露評估(系統性地描述勞工暴露狀況)並做出風險管理決策。包含幾個核心概念：\n\n暴露輪廓 (Exposure Profile)：SEG或勞工所經歷的完整暴露分佈。\n評估決策：將暴露輪廓與職業暴露限值 (OEL) 進行比較，判斷暴露風險。\n\n\n\n\n傳統上依賴的空氣採樣，在樣本數有限時，其統計證據力非常薄弱。\n關鍵例證：少量採樣的信心陷阱 。僅憑少量採樣數據無法做出可靠的「安全」判斷。\n核心結論：傳統採樣的統計局限性，而暴露評估模型可以輔助專業判斷。\n\n\n\n模型並非要取代採樣，是輔助使暴露評估更科學且高效，提供量化的科學依據。\n\n核心價值：\n\n支持與校正專業判斷、優化資源、提供書面佐證。\n\n超越時間的應用：\n\n回溯過去：為訴訟案件或流行病學研究進行歷史暴露重建。\n評估現在：補充數據不足的暴露輪廓，為當前風險定級。\n預測未來：在製程變更或新化學品引入前，預測潛在暴露。\n\n\n\n\n\n決策的黃金法則：一個模型或一組採樣數據是否有用，並非取決於它能否完美預測真實濃度，而是取決於其結果（暴露分佈）與職業暴露限值（OEL）的相對距離。\n最終思想：暴露評估的目標不是追求完美的預測值，而是利用所有可得工具（包括模型與採樣），在考量不確定性的前提下，做出足夠好」的決策來保護勞工健康。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH1 Why modeling.html#暴露評估職業衛生的核心",
-    "href": "docs/info/Rmd/web_CH1 Why modeling.html#暴露評估職業衛生的核心",
-    "title": "CH1 Why modeling",
-    "section": "",
-    "text": "暴露評估(系統性地描述勞工暴露狀況)並做出風險管理決策。包含幾個核心概念：\n\n暴露輪廓 (Exposure Profile)：SEG或勞工所經歷的完整暴露分佈。\n評估決策：將暴露輪廓與職業暴露限值 (OEL) 進行比較，判斷暴露風險。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH1 Why modeling.html#傳統採樣的限制與模型的必要性",
-    "href": "docs/info/Rmd/web_CH1 Why modeling.html#傳統採樣的限制與模型的必要性",
-    "title": "CH1 Why modeling",
-    "section": "",
-    "text": "傳統上依賴的空氣採樣，在樣本數有限時，其統計證據力非常薄弱。\n關鍵例證：少量採樣的信心陷阱 。僅憑少量採樣數據無法做出可靠的「安全」判斷。\n核心結論：傳統採樣的統計局限性，而暴露評估模型可以輔助專業判斷。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH1 Why modeling.html#暴露評估模型的角色與應用",
-    "href": "docs/info/Rmd/web_CH1 Why modeling.html#暴露評估模型的角色與應用",
-    "title": "CH1 Why modeling",
-    "section": "",
-    "text": "模型並非要取代採樣，是輔助使暴露評估更科學且高效，提供量化的科學依據。\n\n核心價值：\n\n支持與校正專業判斷、優化資源、提供書面佐證。\n\n超越時間的應用：\n\n回溯過去：為訴訟案件或流行病學研究進行歷史暴露重建。\n評估現在：補充數據不足的暴露輪廓，為當前風險定級。\n預測未來：在製程變更或新化學品引入前，預測潛在暴露。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH1 Why modeling.html#解讀模型結果不確定性與決策關鍵",
-    "href": "docs/info/Rmd/web_CH1 Why modeling.html#解讀模型結果不確定性與決策關鍵",
-    "title": "CH1 Why modeling",
-    "section": "",
-    "text": "決策的黃金法則：一個模型或一組採樣數據是否有用，並非取決於它能否完美預測真實濃度，而是取決於其結果（暴露分佈）與職業暴露限值（OEL）的相對距離。\n最終思想：暴露評估的目標不是追求完美的預測值，而是利用所有可得工具（包括模型與採樣），在考量不確定性的前提下，做出足夠好」的決策來保護勞工健康。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH1 Why modeling.html#footnotes",
-    "href": "docs/info/Rmd/web_CH1 Why modeling.html#footnotes",
-    "title": "CH1 Why modeling",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nChapter 1 Modeling in the Framework of Industrial Hygiene Practice↩︎"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html",
-    "href": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html",
-    "title": "Ch3 Volatile Liquid Spill",
-    "section": "",
-    "text": "運用兩種基礎的暴露評估模式，快速估算化學品（甲苯）意外洩漏，勞工暴露風險。\n\n\n\n\n事件概述：一名工廠員工通報，前一天在工作站打翻了半瓶甲苯（約250 mL），用抹布擦拭後放置一旁晾乾，約2小時後蒸發完畢。員工當下聞到濃烈氣味，隔日出現胃痙攣症狀。\n任務：身為職衛專業人員，需回溯性評估該名員工在洩漏事件中的8小時日時量平均暴露量 (TWA-8)，及判斷其症狀是否與此次暴露相關。\n關鍵參數彙整：\n\n化學品：甲苯 (Toluene)，洩漏體積：250 mL，液體密度：0.87 g/mL，蒸發時間：2 小時 (120 分鐘)\n作業空間：房間體積 (V)：240 m3，通風狀況 (Q)：未知(無機械排氣)\n暴露時間：正常背景濃度 (C1​)：25 mg/m³ (之前環測)，正常工作時間 (t1​)：5 小時，洩漏後暴露時間 (t2​)：3 小時\n暴露標準 (OELs)：\n\nOSHA PEL (TWA-8)：750 mg/m³，ACGIH TLV (TWA-8)：75 mg/m³ (國際公認、更具健康保護性的建議值)\n\n\n\n\n\n\n此為Tier 1 的篩選評估，採用最保守（最糟情況）的假設，以快速判斷風險等級。\n\n模式原理與假設：作業空間為完全密閉的盒子 (無任何通風)。所有洩漏的甲苯瞬間蒸發，並立即均勻混合至整個房間空氣中。\n公式與演算：Czero_vent​=M/V​=910m3mg​\n\nTWA-8 暴露量計算：≈360m3mg​\n\n初步判斷：\n\n低於OSHA PEL (750 mg/m³)，但遠高於ACGIH TLV (75 mg/m³)。\n有必要進行更精確的評估。\n\n\n\n\n\n此模式比零通風模式更進一步，它考慮了通風的影響，能提供更貼近現實的估算。\n\n模式原理與假設：空氣以一個固定的速率 (Q) 進出房間，並與室內空氣完全均勻混合。污染物以一個固定的平均速率 (G) 釋放到空氣中。濃度達到一個穩態 (Css​)，即污染物進入速率等於被排出的速率。\n公式與演算過程：Css​=G/Q ​​≈ 150m3mg​\nTWA-8 暴露量計算：≈72m3mg​\n精緻化判斷：\n\n這個結果非常接近 ACGIH 的 TLV (75 mg/m³)。\n雖然此次暴露可能沒有違法，但已經達到了需要關注的水平。\nIH MOD 模式推估\n\n\n{# 圖1}\n\n\n\n\n暴露水平判斷：\n\n此次洩漏事件導致的8小時日時量平均暴露濃度，很可能非常接近甚至短時間內超過了具健康保護意義的ACGIH TLV標準。\n\n健康風險分析：\n\n暴露情境：TLV是基於長期、每日重複暴露所設定的標準。考量到這是一次性的短時間暴露，其造成的長期健康風險可能很小。\n症狀比對：員工回報「胃痙攣」症狀，與甲苯典型急性中毒症狀（如頭暈、噁心、中樞神經抑制）不太相符，兩者直接關聯性可能不大。\n\n後續管理行動建議：\n\n善盡職責：身為職衛專業人員，已透過合理的模式評估，完成對此次事件的暴露評估與記錄，善盡了調查之責。\n持續關懷：應持續追蹤該員工的健康狀況。\n預防未來：此事件暴露了管理上的不足。最重要的行動是著眼於未來，建議公司應加強小型化學品洩漏的應變計畫與教育訓練，以預防未來類似事件的風險。\n\n\n\nprepared by Peter Ho"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#核心目標",
-    "href": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#核心目標",
-    "title": "Ch3 Volatile Liquid Spill",
-    "section": "",
-    "text": "運用兩種基礎的暴露評估模式，快速估算化學品（甲苯）意外洩漏，勞工暴露風險。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#情境與資訊蒐集",
-    "href": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#情境與資訊蒐集",
-    "title": "Ch3 Volatile Liquid Spill",
-    "section": "",
-    "text": "事件概述：一名工廠員工通報，前一天在工作站打翻了半瓶甲苯（約250 mL），用抹布擦拭後放置一旁晾乾，約2小時後蒸發完畢。員工當下聞到濃烈氣味，隔日出現胃痙攣症狀。\n任務：身為職衛專業人員，需回溯性評估該名員工在洩漏事件中的8小時日時量平均暴露量 (TWA-8)，及判斷其症狀是否與此次暴露相關。\n關鍵參數彙整：\n\n化學品：甲苯 (Toluene)，洩漏體積：250 mL，液體密度：0.87 g/mL，蒸發時間：2 小時 (120 分鐘)\n作業空間：房間體積 (V)：240 m3，通風狀況 (Q)：未知(無機械排氣)\n暴露時間：正常背景濃度 (C1​)：25 mg/m³ (之前環測)，正常工作時間 (t1​)：5 小時，洩漏後暴露時間 (t2​)：3 小時\n暴露標準 (OELs)：\n\nOSHA PEL (TWA-8)：750 mg/m³，ACGIH TLV (TWA-8)：75 mg/m³ (國際公認、更具健康保護性的建議值)"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#模式評估一零通風模式-zero-ventilation-model",
-    "href": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#模式評估一零通風模式-zero-ventilation-model",
-    "title": "Ch3 Volatile Liquid Spill",
-    "section": "",
-    "text": "此為Tier 1 的篩選評估，採用最保守（最糟情況）的假設，以快速判斷風險等級。\n\n模式原理與假設：作業空間為完全密閉的盒子 (無任何通風)。所有洩漏的甲苯瞬間蒸發，並立即均勻混合至整個房間空氣中。\n公式與演算：Czero_vent​=M/V​=910m3mg​\n\nTWA-8 暴露量計算：≈360m3mg​\n\n初步判斷：\n\n低於OSHA PEL (750 mg/m³)，但遠高於ACGIH TLV (75 mg/m³)。\n有必要進行更精確的評估。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#模式評估二均勻混合模式-well-mixed-room-model",
-    "href": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#模式評估二均勻混合模式-well-mixed-room-model",
-    "title": "Ch3 Volatile Liquid Spill",
-    "section": "",
-    "text": "此模式比零通風模式更進一步，它考慮了通風的影響，能提供更貼近現實的估算。\n\n模式原理與假設：空氣以一個固定的速率 (Q) 進出房間，並與室內空氣完全均勻混合。污染物以一個固定的平均速率 (G) 釋放到空氣中。濃度達到一個穩態 (Css​)，即污染物進入速率等於被排出的速率。\n公式與演算過程：Css​=G/Q ​​≈ 150m3mg​\nTWA-8 暴露量計算：≈72m3mg​\n精緻化判斷：\n\n這個結果非常接近 ACGIH 的 TLV (75 mg/m³)。\n雖然此次暴露可能沒有違法，但已經達到了需要關注的水平。\nIH MOD 模式推估\n\n\n{# 圖1}"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#結論與專業建議",
-    "href": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#結論與專業建議",
-    "title": "Ch3 Volatile Liquid Spill",
-    "section": "",
-    "text": "暴露水平判斷：\n\n此次洩漏事件導致的8小時日時量平均暴露濃度，很可能非常接近甚至短時間內超過了具健康保護意義的ACGIH TLV標準。\n\n健康風險分析：\n\n暴露情境：TLV是基於長期、每日重複暴露所設定的標準。考量到這是一次性的短時間暴露，其造成的長期健康風險可能很小。\n症狀比對：員工回報「胃痙攣」症狀，與甲苯典型急性中毒症狀（如頭暈、噁心、中樞神經抑制）不太相符，兩者直接關聯性可能不大。\n\n後續管理行動建議：\n\n善盡職責：身為職衛專業人員，已透過合理的模式評估，完成對此次事件的暴露評估與記錄，善盡了調查之責。\n持續關懷：應持續追蹤該員工的健康狀況。\n預防未來：此事件暴露了管理上的不足。最重要的行動是著眼於未來，建議公司應加強小型化學品洩漏的應變計畫與教育訓練，以預防未來類似事件的風險。\n\n\n\nprepared by Peter Ho"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#footnotes",
-    "href": "docs/info/Rmd/web_CH3 Volatile Liquid Spill.html#footnotes",
-    "title": "Ch3 Volatile Liquid Spill",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nChapter 3 Volatile Liquid Spill↩︎"
-  },
-  {
     "objectID": "index.html#container-uncovered",
     "href": "index.html#container-uncovered",
     "title": "Occupational Exposure Assessment",
@@ -423,53 +262,11 @@
     "text": "5. Container uncovered"
   },
   {
-    "objectID": "docs/info/Rmd/web_CH5_container left open.html",
-    "href": "docs/info/Rmd/web_CH5_container left open.html",
-    "title": "CH5 Container left open",
-    "section": "",
-    "text": "本章節透過一個正己烷容器未加蓋的意外，展示如何使用三種模型來評估暴露風險，從瞬間高濃度危害到房間恢復安全的過程。\n\n\n一名工作人員發現儲存櫃內的正己烷容器未蓋，立即蓋上並撤離。我們的評估旨在回答三個核心問題：櫃內瞬間濃度多高？污染物擴散至房間後的濃度是多少？房間何時能安全進入？\n\n\n在收集了正己烷的化學特性與空間參數後，我們依序進行了三階段的暴露評估：\n\n櫃內濃度 (飽和蒸氣壓模式): 此模型用於估算密閉空間中最壞情況下的濃度。計算結果顯示，櫃內濃度高達 163,000 ppm，遠超職業暴露限值與爆炸極限，構成立即性的嚴重危害。\n\n房間初始濃度 (無通風推估模式): 當櫃門打開，污染物瞬間擴散。此模型估算出房間的初始平均濃度介於 550 至 1,100 mg/m³ 之間，同樣遠高於安全標準，顯示整個房間的暴露風險也相當高。\n\n濃度衰減 (完全混合模式WMR): 在汙染源被移除後，此模型預測房間濃度會因通風而下降。計算顯示，大約需要 50分鐘，濃度才能降至安全的TLV-TWA標準以下，這為安全進入提供了時間依據。\n\n\n\n\n\n\n\n\n\n儲存櫃內部模擬濃度\n\n\n\n\n\n\n\n\n整個房間模擬濃度\n\n\n\n\n\n\n此次意外凸顯了「逸散性排放」的潛在危險。綜合評估顯示，雖然通風系統能最終清除污染物，但無法預防初期的危險暴露。\n因此，本章的關鍵學習重點是：對於揮發性化學品，應優先採用 源頭控制 措施。持續通風或開放通風等工程控制設備，是預防此類意外最有效的方法，其效益遠勝於僅依賴後端的通風換氣。\n參考：Chapter 5 Volatile Liquid Container Left Open 整理：Peter Ho. 114.08.14"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH5_container left open.html#情境評估",
-    "href": "docs/info/Rmd/web_CH5_container left open.html#情境評估",
-    "title": "CH5 Container left open",
-    "section": "",
-    "text": "一名工作人員發現儲存櫃內的正己烷容器未蓋，立即蓋上並撤離。我們的評估旨在回答三個核心問題：櫃內瞬間濃度多高？污染物擴散至房間後的濃度是多少？房間何時能安全進入？\n\n\n在收集了正己烷的化學特性與空間參數後，我們依序進行了三階段的暴露評估：\n\n櫃內濃度 (飽和蒸氣壓模式): 此模型用於估算密閉空間中最壞情況下的濃度。計算結果顯示，櫃內濃度高達 163,000 ppm，遠超職業暴露限值與爆炸極限，構成立即性的嚴重危害。\n\n房間初始濃度 (無通風推估模式): 當櫃門打開，污染物瞬間擴散。此模型估算出房間的初始平均濃度介於 550 至 1,100 mg/m³ 之間，同樣遠高於安全標準，顯示整個房間的暴露風險也相當高。\n\n濃度衰減 (完全混合模式WMR): 在汙染源被移除後，此模型預測房間濃度會因通風而下降。計算顯示，大約需要 50分鐘，濃度才能降至安全的TLV-TWA標準以下，這為安全進入提供了時間依據。\n\n\n\n\n\n\n\n\n\n儲存櫃內部模擬濃度\n\n\n\n\n\n\n\n\n整個房間模擬濃度\n\n\n\n\n\n\n此次意外凸顯了「逸散性排放」的潛在危險。綜合評估顯示，雖然通風系統能最終清除污染物，但無法預防初期的危險暴露。\n因此，本章的關鍵學習重點是：對於揮發性化學品，應優先採用 源頭控制 措施。持續通風或開放通風等工程控制設備，是預防此類意外最有效的方法，其效益遠勝於僅依賴後端的通風換氣。\n參考：Chapter 5 Volatile Liquid Container Left Open 整理：Peter Ho. 114.08.14"
-  },
-  {
     "objectID": "index.html#barrel-filling",
     "href": "index.html#barrel-filling",
     "title": "Occupational Exposure Assessment",
     "section": "6. Barrel filling",
     "text": "6. Barrel filling"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH6_barrel filling.html",
-    "href": "docs/info/Rmd/web_CH6_barrel filling.html",
-    "title": "CH6 barrel filling",
-    "section": "",
-    "text": "應用渦流擴散模式(Turbulent Eddy diffusion model)，科學地評估在通風條件不佳或空氣流動緩慢的區域中，作業點附近的化學品蒸氣濃度分布。相較於假設整個空間濃度均勻的傳統模型，擴散模型更能反映靠近污染源的局部高濃度現實情況。\n\n\n\n情境: 一名員工報告在室內填充 NMP (N-甲基-2-吡咯烷酮) 廢液桶（作業時間5分鐘，填充速率 2 L/min）時，聞到刺激性異味並感到身體不適。評估的目標是，量化在填充作業期間，員工呼吸帶附近可能的 NMP 蒸氣濃度。\n\n資訊: 經由質量平衡計算，NMP 蒸氣的產生率 (G) 約為 4.9 mg/min。此化學品的8小時日時量平均容許濃度 (TWA-8 OEL) 為 60mg/m3。\n\n\n\n\n由於廢液桶被放置在空氣流動性差的牆角，遠離主要的通風氣流，因此非常適合使用擴散模型來估算近距離的濃度梯度。此模型的主要輸入參數包括污染物產生率 (G)、反映物理屏障的幾何因子 (Kg​，此案例為角落=1)，以及反映室內空氣微觀擾動程度的紊流擴散係數 (DT​)。\n\n模型參數: 為確保評估的保守性與保護性，我們採用了工業環境中較低的擴散係數 (DT​=0.1m2/min) 進行評估，這代表假設污染物擴散較慢，會在源頭附近累積較高濃度。\n\n模型結果: 在此最保守的假設情境下，距離填充口 0.25 公尺處，作業進行到第5分鐘時的瞬時濃度預估為 50.2mg/m3。\n\n\n\n\n\n\n\n\n預估的最高瞬時濃度 (50.2mg/m3) 雖然顯著，但仍低於法定的8小時日時量平均容許濃度 (60mg/m3)。進一步考量到此作業的暴露時間極短（僅5分鐘）且頻率不高（並非每日發生），將此短時間高濃度暴露平均至8小時工作日後，其日時量平均暴露值遠低於容許標準，因此整體暴露風險可判斷為**「可接受」**。\n此案例清晰地展示了擴散模型作為一種暴露評估工具的實用價值。它允許我們在缺乏直接採樣數據的情況下，透過選擇合理的保守參數，對通風不良區域的近源暴露情境進行量化且具保護性的風險判斷。\n參考資料： Chapter 6 barrel filling indoors. Made by Peter Ho. 114.08.14"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH6_barrel filling.html#情境與評估",
-    "href": "docs/info/Rmd/web_CH6_barrel filling.html#情境與評估",
-    "title": "CH6 barrel filling",
-    "section": "",
-    "text": "情境: 一名員工報告在室內填充 NMP (N-甲基-2-吡咯烷酮) 廢液桶（作業時間5分鐘，填充速率 2 L/min）時，聞到刺激性異味並感到身體不適。評估的目標是，量化在填充作業期間，員工呼吸帶附近可能的 NMP 蒸氣濃度。\n\n資訊: 經由質量平衡計算，NMP 蒸氣的產生率 (G) 約為 4.9 mg/min。此化學品的8小時日時量平均容許濃度 (TWA-8 OEL) 為 60mg/m3。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH6_barrel filling.html#擴散模型應用與結果",
-    "href": "docs/info/Rmd/web_CH6_barrel filling.html#擴散模型應用與結果",
-    "title": "CH6 barrel filling",
-    "section": "",
-    "text": "由於廢液桶被放置在空氣流動性差的牆角，遠離主要的通風氣流，因此非常適合使用擴散模型來估算近距離的濃度梯度。此模型的主要輸入參數包括污染物產生率 (G)、反映物理屏障的幾何因子 (Kg​，此案例為角落=1)，以及反映室內空氣微觀擾動程度的紊流擴散係數 (DT​)。\n\n模型參數: 為確保評估的保守性與保護性，我們採用了工業環境中較低的擴散係數 (DT​=0.1m2/min) 進行評估，這代表假設污染物擴散較慢，會在源頭附近累積較高濃度。\n\n模型結果: 在此最保守的假設情境下，距離填充口 0.25 公尺處，作業進行到第5分鐘時的瞬時濃度預估為 50.2mg/m3。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH6_barrel filling.html#結論風險可接受",
-    "href": "docs/info/Rmd/web_CH6_barrel filling.html#結論風險可接受",
-    "title": "CH6 barrel filling",
-    "section": "",
-    "text": "預估的最高瞬時濃度 (50.2mg/m3) 雖然顯著，但仍低於法定的8小時日時量平均容許濃度 (60mg/m3)。進一步考量到此作業的暴露時間極短（僅5分鐘）且頻率不高（並非每日發生），將此短時間高濃度暴露平均至8小時工作日後，其日時量平均暴露值遠低於容許標準，因此整體暴露風險可判斷為**「可接受」**。\n此案例清晰地展示了擴散模型作為一種暴露評估工具的實用價值。它允許我們在缺乏直接採樣數據的情況下，透過選擇合理的保守參數，對通風不良區域的近源暴露情境進行量化且具保護性的風險判斷。\n參考資料： Chapter 6 barrel filling indoors. Made by Peter Ho. 114.08.14"
   },
   {
     "objectID": "docs/info/web_CH6_barrel filling.html",
@@ -505,55 +302,6 @@
     "title": "introduction",
     "section": "",
     "text": "這是創贊的網站\n🛫更新中~~~\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "modeling.html",
-    "href": "modeling.html",
-    "title": "Modeling",
-    "section": "",
-    "text": "Important\n\n\n\n本網站主要內容係來自2023 AIHA 新書各章 (Keil 2023)\nQuarto learning https://quarto.org/docs/websites/"
-  },
-  {
-    "objectID": "modeling.html#why-modeling",
-    "href": "modeling.html#why-modeling",
-    "title": "Modeling",
-    "section": "1. Why modeling",
-    "text": "1. Why modeling\nCh1 Modeling in the Framework of Industrial Hygiene Practice\n*💾摘要 *📶 圖"
-  },
-  {
-    "objectID": "modeling.html#gathering-informaiton",
-    "href": "modeling.html#gathering-informaiton",
-    "title": "Modeling",
-    "section": "2. Gathering informaiton",
-    "text": "2. Gathering informaiton\nCh2 Information Gathering for modeling\n*💾摘要"
-  },
-  {
-    "objectID": "modeling.html#volatile-liquid-spill",
-    "href": "modeling.html#volatile-liquid-spill",
-    "title": "Modeling",
-    "section": "3. Volatile liquid spill",
-    "text": "3. Volatile liquid spill\nCh3 Volatile Liquid Spill\n*⚛️摘要"
-  },
-  {
-    "objectID": "modeling.html#sanding-ea-by-lev",
-    "href": "modeling.html#sanding-ea-by-lev",
-    "title": "Modeling",
-    "section": "4. sanding EA by LEV",
-    "text": "4. sanding EA by LEV\nCh4 Local Exhaust Ventilation for a Sanding\n*🕎摘要 *⚧️圖說"
-  },
-  {
-    "objectID": "modeling.html#container-uncovered",
-    "href": "modeling.html#container-uncovered",
-    "title": "Modeling",
-    "section": "5. Container uncovered",
-    "text": "5. Container uncovered\nCh5 Volatile Liquid Container Left Open\n*摘要"
-  },
-  {
-    "objectID": "modeling.html#barrel-filling",
-    "href": "modeling.html#barrel-filling",
-    "title": "Modeling",
-    "section": "6. Barrel filling",
-    "text": "6. Barrel filling\nCh6 Barrel filling indoors\n*摘要"
   },
   {
     "objectID": "index.html#gathering-information",
@@ -612,13 +360,6 @@
     "text": "[事故調查分析方法 網站]"
   },
   {
-    "objectID": "modeling.html#gathering-information",
-    "href": "modeling.html#gathering-information",
-    "title": "Modeling",
-    "section": "2. Gathering information",
-    "text": "2. Gathering information\n\nCh2 Information Gathering for modeling\n\n摘要\n圖說"
-  },
-  {
     "objectID": "index.html#目前初步完成推估模式介紹化學品暴露",
     "href": "index.html#目前初步完成推估模式介紹化學品暴露",
     "title": "Occupational Exposure Assessment",
@@ -645,20 +386,6 @@
     "title": "Occupational Exposure Assessment",
     "section": "modeling 軟體 (IH MOD )教學影片",
     "text": "modeling 軟體 (IH MOD )教學影片"
-  },
-  {
-    "objectID": "modeling.html#historic-expoaure",
-    "href": "modeling.html#historic-expoaure",
-    "title": "Modeling",
-    "section": "7. Historic expoaure",
-    "text": "7. Historic expoaure\n\nCh7 Historic exposure\n\n摘要\n圖說"
-  },
-  {
-    "objectID": "modeling.html#historic-exposure",
-    "href": "modeling.html#historic-exposure",
-    "title": "Modeling",
-    "section": "7. Historic exposure",
-    "text": "7. Historic exposure\nCh7 Historic exposure\n*摘要"
   },
   {
     "objectID": "docs/web_CH7_Historic exposure.html",
@@ -710,41 +437,6 @@
     "text": "準備中~\n\n\n\n Back to top"
   },
   {
-    "objectID": "docs/info/Rmd/web_CH7_Historic exposure.html",
-    "href": "docs/info/Rmd/web_CH7_Historic exposure.html",
-    "title": "CH7_Historic exposure",
-    "section": "",
-    "text": "本章節旨在透過暴露評估模型，重建1990年代因TCE蒸氣脫脂槽作業引發的歷史暴露情境。由於缺乏實際監測數據，此回溯性評估對於釐清潛在的法律與健康問題至關重要。\n\n\n為重建暴露情境，我們首先收集了製程、化學品及作業空間的關鍵資訊。根據文獻與舊藍圖，估算出TCE逸散率(G)約為 3,300 mg/min，房間整體換氣率(Q)約為 73.6 m³/min。\n考量到工人活動範圍包含高濃度的污染源周邊及濃度較低的房間其他區域，我們採用了近場/遠場 (NF/FF) 二暴露區模式（Two-Zone Model）進行評估。模型計算結果顯示：\n\n遠場 (FF) 穩態濃度：約 45 mg/m³\n\n近場 (NF) 穩態濃度：約 112 mg/m³\n\n\n\n\n\n\n\n\n結合工人的作業活動模式（每日約20%時間在近場，80%在遠場），計算出的八小時日時量平均(TWA-8)暴露濃度約為 51 mg/m³。此數值已非常接近當時的職業暴露限值 (TLV®-TWA, 54 mg/m³)，顯示工人處於臨界或超標的風險水平。\n\n\n\n進一步的敏感度分析顯示，在一個合理的「最差情境」（逸散增加、通風變差）下，TWA-8暴露濃度可能飆升至 89 mg/m³，證實此作業具有高度的暴露超標風險。\n\n\n\n綜合評估結果，此作業的暴露風險被判定為不可接受。為保護勞工，應依循控制層級提出改善建議：\n\n工程控制 (最優先)：於脫脂槽加裝局部排氣裝置(LEV)，從源頭捕集污染物。\n\n行政管理：限制工人在近場的作業時間，並強化安全作業訓練。\n\n個人防護：要求佩戴合適的呼吸防護具（如有機蒸氣濾罐口罩）。\n\n環境監測：建立定期監測計畫，以驗證控制措施的成效。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH7_Historic exposure.html#評估流程與模型建立",
-    "href": "docs/info/Rmd/web_CH7_Historic exposure.html#評估流程與模型建立",
-    "title": "CH7_Historic exposure",
-    "section": "",
-    "text": "為重建暴露情境，我們首先收集了製程、化學品及作業空間的關鍵資訊。根據文獻與舊藍圖，估算出TCE逸散率(G)約為 3,300 mg/min，房間整體換氣率(Q)約為 73.6 m³/min。\n考量到工人活動範圍包含高濃度的污染源周邊及濃度較低的房間其他區域，我們採用了近場/遠場 (NF/FF) 二暴露區模式（Two-Zone Model）進行評估。模型計算結果顯示：\n\n遠場 (FF) 穩態濃度：約 45 mg/m³\n\n近場 (NF) 穩態濃度：約 112 mg/m³"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH7_Historic exposure.html#風險分析與結論",
-    "href": "docs/info/Rmd/web_CH7_Historic exposure.html#風險分析與結論",
-    "title": "CH7_Historic exposure",
-    "section": "",
-    "text": "結合工人的作業活動模式（每日約20%時間在近場，80%在遠場），計算出的八小時日時量平均(TWA-8)暴露濃度約為 51 mg/m³。此數值已非常接近當時的職業暴露限值 (TLV®-TWA, 54 mg/m³)，顯示工人處於臨界或超標的風險水平。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH7_Historic exposure.html#敏感度分析",
-    "href": "docs/info/Rmd/web_CH7_Historic exposure.html#敏感度分析",
-    "title": "CH7_Historic exposure",
-    "section": "",
-    "text": "進一步的敏感度分析顯示，在一個合理的「最差情境」（逸散增加、通風變差）下，TWA-8暴露濃度可能飆升至 89 mg/m³，證實此作業具有高度的暴露超標風險。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH7_Historic exposure.html#評估後建議",
-    "href": "docs/info/Rmd/web_CH7_Historic exposure.html#評估後建議",
-    "title": "CH7_Historic exposure",
-    "section": "",
-    "text": "綜合評估結果，此作業的暴露風險被判定為不可接受。為保護勞工，應依循控制層級提出改善建議：\n\n工程控制 (最優先)：於脫脂槽加裝局部排氣裝置(LEV)，從源頭捕集污染物。\n\n行政管理：限制工人在近場的作業時間，並強化安全作業訓練。\n\n個人防護：要求佩戴合適的呼吸防護具（如有機蒸氣濾罐口罩）。\n\n環境監測：建立定期監測計畫，以驗證控制措施的成效。"
-  },
-  {
     "objectID": "about.html#公司設立與基本資訊",
     "href": "about.html#公司設立與基本資訊",
     "title": "About",
@@ -763,14 +455,7 @@
     "href": "DRI.html",
     "title": "MSA直讀氣體偵測器",
     "section": "",
-    "text": "相關法規\nALTAIR 5X PID 六用VOC氣體偵測器簡介\n職業暴露限制(TLV,PEL,STEL,TWA,IDHL)\n直讀式儀器作業環境監測的應用\n偵測原理與關鍵概念\n修正係數(Response Factor, RF) 的應用與重要性\n應用範例：甲苯 (Toluene)\n應用範例：甲基乙基酮 (MEK)\n應用範例：苯 (Benzene)\n結語與安全注意事項\n\n\n\n\n\n\n「四用 或 複合式氣體偵測器」，通常是指能同時偵測以下四種氣體\n\n氧氣 (O₂) ： &gt;18%__《缺氧症預防規則》第5條\n可燃性氣體LEL ：&lt;30%__《職業安全衛生設施規則》第177條\n硫化氫 (H₂S) ：&lt;10 ppm__《勞工作業場所容許暴露標準》附表一\n一氧化碳 (CO) ：&lt;35 ppm __《勞工作業場所容許暴露標準》附表一\n\n\n《缺氧症預防規則》《職安衛設施規則》《作業場所容許暴露標準》\n\n\n雇主使勞工從事缺氧危險作業時，應予適當換氣，以保持該作業場所空氣中氧氣濃度在百分之十八以上。\n\n\n易燃液體之蒸氣、可燃性氣體或爆燃性粉塵達LEL之30%以上時，應即刻使勞工退避至安全場所，並停止使用煙火及其他為點火源之虞之機具，並應加強通風。\n\n\n勞工作業環境空氣中有害物之濃度應符合下列規定： 全程工作日之時量平均濃度不得超過PEL-TWA。 任何一次連續十五分鐘內之時量平均濃度不得超過STEL。 任何時間均不得超過最高容許濃度。\n\n\n\n\n\n\n\n\n\n\n雇主應制定局限空間危害防止計畫，其中必須明確規範氧氣、危險物及有害物濃度的測定方式。包含提供必要的測定儀器，在作業前必須確認氧氣及危害物質的濃度，並且在整個作業期間採取連續確認的措施。\n局限空間作業的「進入許可」上，也應清楚載明氧氣和危害物質的測定結果，並由測定人員簽名確認。\n\n\n\n\n\n為確保高壓氣體作業場所的絕對安全，無論是製造設備或消費設備，只要存在可燃性氣體或毒性氣體洩漏並積滯的潛在風險，都必須強制設置氣體洩漏檢知警報設備。\n\n\n\n\n\n雇主必須備有必要的氧氣濃度測定儀器，並採取措施隨時確認空氣中的氧氣濃度，同時也要密切監測硫化氫等其他有害氣體濃度。\n雇主必須在每日作業開始前、勞工離開作業場所後再次開始作業前，以及當勞工身體出現異狀或換氣裝置有異常時，再次確認作業場所的氧氣及有害氣體濃度。\n雇主應將包含測定儀器保管場所等重要注意事項，公告於作業場所入口顯眼處。\n\n\n\n\n\n結合光電離 (PID) 感測技術與 MSA X 智慧感測器(資料處理、自我診斷和通訊能力)技術。\n\n多功能性：它能夠偵測數百種揮發性有機化合物 (VOC) 氣體，並可應用於任何複雜的場合，把測爆炸、測缺氧、測毒害或職業健康評定等功能集為一體。\n設計優勢：儀器配備吸力強大的內建泵(吸氣能力為0.3公升/分鐘，最遠達 30米)，可節省其他配件和外部零件，操作人員在遠端監控時更易用、更可靠，從而簡化工作。\n主要用途：ALTAIR 5X PID 偵測儀主要面向受過專門培訓的合格人員，用於在進行風險評估時：\n\n評估作業人員接觸可燃、有毒氣體及蒸氣和缺氧環境的潛在暴露危險。\n確定工作區所需氣體和蒸氣的監控措施"
-  },
-  {
-    "objectID": "modeling.html#pressurized-gas-release",
-    "href": "modeling.html#pressurized-gas-release",
-    "title": "Modeling",
-    "section": "8. Pressurized gas release",
-    "text": "8. Pressurized gas release\nCh8 Pressurized gas release\n*摘要"
+    "text": "職業暴露評估與監控應用\n\n\n\n\n相關法規\nALTAIR 5X PID 六用VOC氣體偵測器簡介\n職業暴露限制(TLV,PEL,STEL,TWA,IDHL)\n直讀式儀器作業環境監測的應用\n偵測原理與關鍵概念\n修正係數(Response Factor, RF) 的應用與重要性\n應用範例：甲苯 (Toluene)\n應用範例：甲基乙基酮 (MEK)\n應用範例：苯 (Benzene)\n結語與安全注意事項 \n\n\n\n\n\n\n「四用 或 複合式氣體偵測器」，通常是指能同時偵測以下四種氣體\n\n氧氣 (O₂) ： &gt;18%__《缺氧症預防規則》第5條\n可燃性氣體LEL ：&lt;30%__《職業安全衛生設施規則》第177條\n硫化氫 (H₂S) ：&lt;10 ppm__《勞工作業場所容許暴露標準》附表一\n一氧化碳 (CO) ：&lt;35 ppm __《勞工作業場所容許暴露標準》附表一\n\n\n《缺氧症預防規則》《職安衛設施規則》《作業場所容許暴露標準》\n\n\n雇主使勞工從事缺氧危險作業時，應予適當換氣，以保持該作業場所空氣中氧氣濃度在百分之十八以上。\n\n\n易燃液體之蒸氣、可燃性氣體或爆燃性粉塵達LEL之30%以上時，應即刻使勞工退避至安全場所，並停止使用煙火及其他為點火源之虞之機具，並應加強通風。\n\n\n勞工作業環境空氣中有害物之濃度應符合下列規定： 全程工作日之時量平均濃度不得超過PEL-TWA。 任何一次連續十五分鐘內之時量平均濃度不得超過STEL。 任何時間均不得超過最高容許濃度。\n\n\n\n\n\n\n\n\n\n\n雇主應制定局限空間危害防止計畫，其中必須明確規範氧氣、危險物及有害物濃度的測定方式。包含提供必要的測定儀器，在作業前必須確認氧氣及危害物質的濃度，並且在整個作業期間採取連續確認的措施。\n局限空間作業的「進入許可」上，也應清楚載明氧氣和危害物質的測定結果，並由測定人員簽名確認。\n\n\n\n\n\n為確保高壓氣體作業場所的絕對安全，無論是製造設備或消費設備，只要存在可燃性氣體或毒性氣體洩漏並積滯的潛在風險，都必須強制設置氣體洩漏檢知警報設備。\n\n\n\n\n\n雇主必須備有必要的氧氣濃度測定儀器，並採取措施隨時確認空氣中的氧氣濃度，同時也要密切監測硫化氫等其他有害氣體濃度。\n雇主必須在每日作業開始前、勞工離開作業場所後再次開始作業前，以及當勞工身體出現異狀或換氣裝置有異常時，再次確認作業場所的氧氣及有害氣體濃度。\n雇主應將包含測定儀器保管場所等重要注意事項，公告於作業場所入口顯眼處。\n\n\n\n\n\n結合光電離 (PID) 感測技術與 MSA X 智慧感測器(資料處理、自我診斷和通訊能力)技術。\n\n多功能性：它能夠偵測數百種揮發性有機化合物 (VOC) 氣體，並可應用於任何複雜的場合，把測爆炸、測缺氧、測毒害或職業健康評定等功能集為一體。\n設計優勢：儀器配備吸力強大的內建泵(吸氣能力為0.3公升/分鐘，最遠達 30米)，可節省其他配件和外部零件，操作人員在遠端監控時更易用、更可靠，從而簡化工作。\n主要用途：ALTAIR 5X PID 偵測儀主要面向受過專門培訓的合格人員，用於在進行風險評估時：\n\n評估作業人員接觸可燃、有毒氣體及蒸氣和缺氧環境的潛在暴露危險。\n確定工作區所需氣體和蒸氣的監控措施\n\n\n\n\n\n\nPEL (容許暴露極限):\n\n由國家制定閾值(法律)，如我國籍美國OSHA。\n\nTLV (閾限值):\n\n由美國政府工業衛生學家會議 (ACGIH) 提出的建議性職業暴露限值 。\n代表幾乎所有健康工作者每天重複暴露於該濃度或以下，而不會產生不良健康影響的空氣中化學物質濃度 。\n\nTWA (工作日8 小時時間加權平均值):\n\n勞工可以安全暴露的污染物濃度平均值 。\n\nSTEL (短期暴露極限):\n\n指在工作日中的任何時間裡，任一連續15 分鐘時間的加權平均暴露值 。\n旨在防止短時間暴露引起的刺激、急性或不可逆組織損傷、與劑量相關的毒性效應。\n特別適用於具有急性影響的物質，並非所有物質都有 STEL 。\n\nIDLH (立即危及生命或健康濃度) :\n\n暴露 10~30 分鐘內，可能會導致死亡、永久性傷害、或無法逃離暴露環境的空氣中污染物濃度。\n這個值通常用於決定在沒有呼吸防護裝備的情況下，人員可以安全進入受污染區域的最長時間。\n\n\n\n\n\n\n\n\nImportant\n\n\n\nTLV 是科學建議值 ，而 PEL 是法律強制執行的限制 。 PEL (容許閾值) 通常會比 TLV 高。\n\n\n\n\n\n\n雇主實施作業環境監測時，得以直讀式儀器有效監測之下列化學性因子： -二氧化碳(CO2)-可以測量 – 紅外線 (IR) 型二氧化碳感測器\n\n二硫化碳(CS2)-可以測量 – PID_修正係數為 1.2\n二氯聯苯胺及其鹽類((3,3-Dichlorobenzidine, C12​H10​Cl2​N2​))-原則上可以 – PID_輸入自訂氣體及其修正係數\n次乙亞胺(Ethyleneimine / Aziridine, C2​H5​N)-原則上可以 – PID輸入自訂氣體及其修正係數\n二異氰酸甲苯(Toluene Diisocyanate, TDI, C9​H6​N2​O2)-原則上可以 – PID輸入自訂氣體及其修正係數\n硫化氫-可以 – 電化學探頭或PID修正係數3.2\n汞及其無機化合物-目前不行\n\n\n\n\n\n精確度（或再現性/重現性） - 精確性為 ±2 ppm (±5000 ppb) 或 10%，以較大者為準。 - 絕對偏差 (Absolute Deviation)：±2 ppm（等同於 ±5000 ppb）。這表示無論實際濃度多高或多低，儀器的讀數與真實值之間的誤差可能在正負 2 ppm 的範圍內。 - 相對偏差 (Relative Deviation)：10%。這表示儀器的讀數與真實值之間的誤差可能是實際濃度的正負 10%。 - 以較大者為準：是指在實際應用中，會取這兩種計算方式中誤差較大的那個值，作為該濃度下的最大可能偏差。\n\n範例 1範例 2\n\n\n儀器的讀數為 10 ppm 根據絕對偏差：±2 ppm 根據相對偏差：10 ppm 的 10% = ±1 ppm 「以較大者為準」：由於 ±2 ppm 大於 ±1 ppm， 實際濃度可能在 8 ppm 到 12 ppm 之間\n\n\n儀器的讀數為 200 ppm 根據絕對偏差：±2 ppm 根據相對偏差：10 ppm 的 10% = ±20 ppm 「以較大者為準」：由於 ±20 ppm 大於 ±2 ppm， 實際濃度可能180 ppm 到 220 ppm 之間\n\n\n\n\n\n\n\n可即時評估長短期危害暴露風險安全性\n\n即時計算與顯示 STEL / TWA：\n\n可顯示當前的氣體讀數、15分鐘時間內的平均暴露值(STEL)、從開機或重置後，8 小時內的平均暴露值(TWA)\n\nSTEL 、 TWA 警報功能：\n\n內建高低警報、STEL警報和 TWA 警報(亦可以手動重置)\n使用不同偵測模式測量多種氣體\n\n探頭(sensors)多樣選配性：\n\nVOC揮發性有機化合物 (PID)\n氧氣與有毒氣體 (電化學探頭)\n可燃性氣體 (觸媒燃燒探頭)\n\n\n\n\n\n\n\n依被測氣體種類常見三種偵測方式\n\n\n\n\n\n\n\n\n\n\n\n觸媒燃燒式\n電化學反應式\nPID\n\n\n\n\n偵測物質\n可燃性氣體\n氧氣、特定有毒氣體\n揮發性有機化合物(VOCs)\n\n\nMSA sensors\n\n\n\n\n\n\n註：探頭(sensors)細節可洽產品代理商或產品經理\n\n\n\n修正係數是實現精確 VOC 偵測的關鍵。\n\n轉換為實際濃度：PID偵測器通常使用異丁烯作為校準氣體，並將異丁烯的修正係數設為 1。當偵測其他 VOCs時，儀器會先偵測到一個相當於異丁烯的等效值。此時，就需要使用該目標氣體的修正係數，將這個異丁烯等效值轉換為目標氣體的實際濃度。這是透過將儀器讀數（已校準為異丁烯）乘以修正係數來實現的 。\n\n實際目標化學品濃度 = 目標化學品修正係數 × 儀器報告的濃度。\n範例：如果偵測己烷時儀器讀數為 100 ppm(異丁烯等效值)，而己烷的修正係數為 4.5，則實際的己烷濃度為 4.5 × 100 ppm = 450 ppm 。\n\n擴展偵測氣體種類：即使儀器預設列表中沒有某種特定氣體，只要該氣體的修正係數已知或可以透過實驗測定，使用者就可以將其輸入到儀器中，從而擴展儀器的偵測能力。\n警報設定：在設定氣體的警報值（如暴露值、STEL、TWA）時，必須考量修正係數。儀器會利用使用者指定目標氣體的修正係數將信號轉換為正確的濃度，從而觸發精確的警報 。\n\n\n\n\n\n感測器(探頭)類型：PID\n設定甲苯修正係數(RF)：(10.6eV PID) 為 0.53\n實際偵測流程與警報設定：\n\n\n儀器校準：將 ALTAIR 5X PID 儀器以 100 ppm 異丁烯作為量程氣體進行校準。\n設定目標氣體：在儀器設定中選擇「甲苯」作為目標 VOC 氣體。\n讀數解釋：當偵測到甲苯時，顯示屏上的讀數將自動修正為實際的甲苯 ppm 值。\n警報值設定：PID 感測器的出廠預設值(low 50 ppm，high 100 ppm，STEL 25 ppm，TWA 10 ppm。(使用者得根據所偵測的特定 VOC (例如甲苯) 及其所選用的修正係數，來更改 VOC 的低警報和高警報值)。\n\n\n\n\n\n感測器類型：電化學感測器。(偵測範圍：0-200 ppm ，解析度：1 ppm)。\n反應時間 (Response time)：典型 t(90)&lt;15 秒 (正常溫度)。\n警報值預設(ppm)：LOW 10，HIGH 15，STEL 15，TWA 10 ppm。\n\n當氣體濃度達到或超過警報設定點或 STEL/TWA 限制時，設備會顯示並閃爍警報訊息及對應氣體濃度、開啟背光、發出警報聲 、警報 LED 閃爍 、並觸發震動警報 。\n\n與磷化氫(PH3)​ 感測器的交互影響 (Cross Sensitivity)：如果 ALTAIR 5X 檢測器同時配置了 H2​S 和 PH3​ 感測器，長時間暴露於 H2​S會導致 PH3​ 感測器的靈敏度逐漸下降並縮短其壽命，在某些情況下甚至會縮短至數個月。\n\n\n\n\n\n操作人員需詳讀手冊與認識儀器操作功能。\n使用前先檢查校正，必要時調整(FAS)及執行BUMP test。\n曝露於矽化物、矽酸鹽、含鉛混合物(如有鉛汽油)、硫化氫或高汙染程度時需更常校正檢查。\n不能量測可燃性的粉塵。\n等待精確的讀值，回應時間依氣體/蒸氣濃度和取樣管長度為基準變化。\n勿在具可燃性氣體的環境中充電使用。\n體偵測器是預警,不是分析設備。\n讀值為負:瞬間受到大量氣體的汙染導致電流快速上升與下降造成。(請在一般環境先做FAS或ZERO)。\n\n\n\n\n\n正確使用與培訓：ALTAIR 5X PID 多氣體偵測儀僅供受過MSA專門培訓的合格人員。\n日常檢查：建議每天使用前執行流量阻塞測試和快速測試(bump test)，以驗證儀器是否正常工作。\n環境因素考量：壓力、濕度、溫度等環境因素可能影響感測器讀數，應予以注意。\n維護與校準：定期對儀器進行清潔、維護和校準，以確保其準確性。 持續學習：儀器使用者應不斷擴展和更新其知識與技能，以應對不斷變化的環境和技術。\n注意事項：若目標化合物的暴露限值低於 0.1 ppm，不應使用 ALTAIR 5X PID 偵測儀(包含其他偵測儀器，除非該產品已標註可偵測極低濃度之用途)，否則可能導致過度暴露，造成人員傷亡。"
   },
   {
     "objectID": "docs/web_CH8_presurized gas release.html",
@@ -857,55 +542,6 @@
     "text": "模型分析明確指出，災難性洩漏是致命的，而緩慢洩漏則提供了評估潛在危害的基準。此評估結果不僅回答了最初的風險問題，更為制定具體的預防措施（如洩漏測試、安裝警報器）提供了清晰的數據支持，展現了暴露評估模型在將理論計算轉化為實際安全行動中的價值。"
   },
   {
-    "objectID": "modeling.html#flavoring-process",
-    "href": "modeling.html#flavoring-process",
-    "title": "Modeling",
-    "section": "9. Flavoring Process",
-    "text": "9. Flavoring Process\nChapter 9 Ventilation Requirements for a Flavoring Process\n*摘要"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH8_presurized gas release.html",
-    "href": "docs/info/Rmd/web_CH8_presurized gas release.html",
-    "title": "CH8",
-    "section": "",
-    "text": "研究實驗室的案例，模擬了高壓氯氣 (Cl2​) 鋼瓶在兩種情境下的洩漏風險：(1) 調節閥災難性失效導致的瞬時大量洩漏，以及 (2) 設備接頭鬆脫造成的緩慢持續洩漏，旨在回答「調節閥失效是否會致命？」的關鍵問題。\n\n\n\n此評估基於一個含有 75 ppm 氯氣的鋼瓶，在一個淨體積 (V) 為 107.2m3、通風率 (Q) 為 15m3/min 的實驗室中。評估的關鍵暴露限值為 IDLH (立即危害生命健康濃度) 30mg/m3。\n\n\n\n此最壞情境假設整瓶氣體 (總質量 M=1,850mg) 瞬間釋放。使用零通風模型計算：\nCzero_vent​ = M/V​ = 107.2m31,850mg​ = 17.2mg/m3\n結果顯示，平均濃度高達 17.2mg/m3，已達 IDLH 的 57%，證實此情境會立即對人員構成生命威脅。\n\n\n\n此情境模擬接頭鬆脫導致一小時的持續洩漏，洩漏率 (G) 經計算為 7.45mg/min。我們使用雙區模型來估算洩漏點附近（近場）與房間其他區域（遠場）的穩態濃度。\n利用已計算出的 G、Q 和 β，可分別計算遠場和近場的穩態濃度。\n分析結果顯示，近場濃度為 1.14mg/m3，遠場濃度為 0.50mg/m3。與 OELs 相比，這些值低於 3mg/m3 的 PEL-C 和 TLV-STEL，且略低於 1.45mg/m3 的 REL-C 5。\n\n\n\n模式比較\n零通風模式\n雙區模式\n\n\n\n\n情境類型\n災難性、瞬間釋放\n緩慢、持續洩漏\n\n\n關鍵輸出\n全室平均濃度\n近場/遠場濃度\n\n\n模擬濃度 (mg/m3)\n17.2\n近場: 1.14 / 遠場: 0.50\n\n\n與限值比較\n&gt; 50% IDLH\n&lt; REL-C\n\n\n\n\n\n\n\n\n\n\n模型分析明確指出，災難性洩漏是致命的，而緩慢洩漏則提供了評估潛在危害的基準。此評估結果不僅回答了最初的風險問題，更為制定具體的預防措施（如洩漏測試、安裝警報器）提供了清晰的數據支持，展現了暴露評估模型在將理論計算轉化為實際安全行動中的價值。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH8_presurized gas release.html#情境",
-    "href": "docs/info/Rmd/web_CH8_presurized gas release.html#情境",
-    "title": "CH8",
-    "section": "",
-    "text": "研究實驗室的案例，模擬了高壓氯氣 (Cl2​) 鋼瓶在兩種情境下的洩漏風險：(1) 調節閥災難性失效導致的瞬時大量洩漏，以及 (2) 設備接頭鬆脫造成的緩慢持續洩漏，旨在回答「調節閥失效是否會致命？」的關鍵問題。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH8_presurized gas release.html#一核心參數",
-    "href": "docs/info/Rmd/web_CH8_presurized gas release.html#一核心參數",
-    "title": "CH8",
-    "section": "",
-    "text": "此評估基於一個含有 75 ppm 氯氣的鋼瓶，在一個淨體積 (V) 為 107.2m3、通風率 (Q) 為 15m3/min 的實驗室中。評估的關鍵暴露限值為 IDLH (立即危害生命健康濃度) 30mg/m3。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH8_presurized gas release.html#二情境一災難性失效-無通風模型",
-    "href": "docs/info/Rmd/web_CH8_presurized gas release.html#二情境一災難性失效-無通風模型",
-    "title": "CH8",
-    "section": "",
-    "text": "此最壞情境假設整瓶氣體 (總質量 M=1,850mg) 瞬間釋放。使用零通風模型計算：\nCzero_vent​ = M/V​ = 107.2m31,850mg​ = 17.2mg/m3\n結果顯示，平均濃度高達 17.2mg/m3，已達 IDLH 的 57%，證實此情境會立即對人員構成生命威脅。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH8_presurized gas release.html#三情境二緩慢洩漏-雙區模型",
-    "href": "docs/info/Rmd/web_CH8_presurized gas release.html#三情境二緩慢洩漏-雙區模型",
-    "title": "CH8",
-    "section": "",
-    "text": "此情境模擬接頭鬆脫導致一小時的持續洩漏，洩漏率 (G) 經計算為 7.45mg/min。我們使用雙區模型來估算洩漏點附近（近場）與房間其他區域（遠場）的穩態濃度。\n利用已計算出的 G、Q 和 β，可分別計算遠場和近場的穩態濃度。\n分析結果顯示，近場濃度為 1.14mg/m3，遠場濃度為 0.50mg/m3。與 OELs 相比，這些值低於 3mg/m3 的 PEL-C 和 TLV-STEL，且略低於 1.45mg/m3 的 REL-C 5。\n\n\n\n模式比較\n零通風模式\n雙區模式\n\n\n\n\n情境類型\n災難性、瞬間釋放\n緩慢、持續洩漏\n\n\n關鍵輸出\n全室平均濃度\n近場/遠場濃度\n\n\n模擬濃度 (mg/m3)\n17.2\n近場: 1.14 / 遠場: 0.50\n\n\n與限值比較\n&gt; 50% IDLH\n&lt; REL-C"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH8_presurized gas release.html#四結論與應用",
-    "href": "docs/info/Rmd/web_CH8_presurized gas release.html#四結論與應用",
-    "title": "CH8",
-    "section": "",
-    "text": "模型分析明確指出，災難性洩漏是致命的，而緩慢洩漏則提供了評估潛在危害的基準。此評估結果不僅回答了最初的風險問題，更為制定具體的預防措施（如洩漏測試、安裝警報器）提供了清晰的數據支持，展現了暴露評估模型在將理論計算轉化為實際安全行動中的價值。"
-  },
-  {
     "objectID": "docs/web_CH9_Flavoring process.html",
     "href": "docs/web_CH9_Flavoring process.html",
     "title": "CH9",
@@ -934,34 +570,6 @@
     "text": "立即危害：此製程存在嚴重的爆炸安全隱患，必須立即停止，直到風險被有效控制。\n\n改善方向：首要目標是將排氣管道內的濃度穩定控制在LEL的10%以下。任何能達成此目標的措施，通常也能同時降低作業區的勞工暴露。\n\n具體措施：\n\n工程控制：優先考慮增加排氣量，以稀釋管道濃度並提升捕集效率。\n\n管理控制：若工程手段受限，則需評估調整製程（如降低乙醇配方比例）的可行性。\n\n驗證：所有改善措施皆須透過重新評估與現場監測來驗證其成效。"
   },
   {
-    "objectID": "docs/info/Rmd/web_CH9_Flavoring process.html",
-    "href": "docs/info/Rmd/web_CH9_Flavoring process.html",
-    "title": "CH9",
-    "section": "",
-    "text": "本案例利用暴露評估模型，分析食品廠一項新的乙醇基底調味製程，識別出其中潛在的爆炸安全與勞工健康雙重風險。\n\n\n新製程在加熱滾筒中為產品進行調味塗層，過程中會蒸發大量乙醇。主要風險點有二：\n\n安全風險：排氣管道內的乙醇濃度是否超過 3.3% 的爆炸下限 (LEL)。\n\n衛生風險：作業區勞工的乙醇暴露量是否超過 1000 ppm 的容許濃度標準 (PEL)。\n\n\n\n\n\n爆炸風險：嚴重且立即\n模型分析顯示，雖然平均濃度看似安全，但在製程啟動後的前3至4分鐘內，排氣管內的乙醇濃度將會顯著超過3.3%的爆炸下限。這構成了極高的立即性爆炸風險。\n\n勞工暴露風險：在標準內但仍需關注\n滾筒的局部排氣捕集效率偏低，導致約10%的乙醇蒸氣逸散至作業區。模型估算勞工短時間暴露濃度約為 450 ppm。此數值雖低於法規標準，但基於合理抑低(ALARA)原則，此一顯著的逸散量仍應被控制與改善。\n\n\n\n\n\n立即危害：此製程存在嚴重的爆炸安全隱患，必須立即停止，直到風險被有效控制。\n\n改善方向：首要目標是將排氣管道內的濃度穩定控制在LEL的10%以下。任何能達成此目標的措施，通常也能同時降低作業區的勞工暴露。\n\n具體措施：\n\n工程控制：優先考慮增加排氣量，以稀釋管道濃度並提升捕集效率。\n\n管理控制：若工程手段受限，則需評估調整製程（如降低乙醇配方比例）的可行性。\n\n驗證：所有改善措施皆須透過重新評估與現場監測來驗證其成效。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH9_Flavoring process.html#背景與風險",
-    "href": "docs/info/Rmd/web_CH9_Flavoring process.html#背景與風險",
-    "title": "CH9",
-    "section": "",
-    "text": "新製程在加熱滾筒中為產品進行調味塗層，過程中會蒸發大量乙醇。主要風險點有二：\n\n安全風險：排氣管道內的乙醇濃度是否超過 3.3% 的爆炸下限 (LEL)。\n\n衛生風險：作業區勞工的乙醇暴露量是否超過 1000 ppm 的容許濃度標準 (PEL)。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH9_Flavoring process.html#評估發現",
-    "href": "docs/info/Rmd/web_CH9_Flavoring process.html#評估發現",
-    "title": "CH9",
-    "section": "",
-    "text": "爆炸風險：嚴重且立即\n模型分析顯示，雖然平均濃度看似安全，但在製程啟動後的前3至4分鐘內，排氣管內的乙醇濃度將會顯著超過3.3%的爆炸下限。這構成了極高的立即性爆炸風險。\n\n勞工暴露風險：在標準內但仍需關注\n滾筒的局部排氣捕集效率偏低，導致約10%的乙醇蒸氣逸散至作業區。模型估算勞工短時間暴露濃度約為 450 ppm。此數值雖低於法規標準，但基於合理抑低(ALARA)原則，此一顯著的逸散量仍應被控制與改善。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH9_Flavoring process.html#結論與核心建議",
-    "href": "docs/info/Rmd/web_CH9_Flavoring process.html#結論與核心建議",
-    "title": "CH9",
-    "section": "",
-    "text": "立即危害：此製程存在嚴重的爆炸安全隱患，必須立即停止，直到風險被有效控制。\n\n改善方向：首要目標是將排氣管道內的濃度穩定控制在LEL的10%以下。任何能達成此目標的措施，通常也能同時降低作業區的勞工暴露。\n\n具體措施：\n\n工程控制：優先考慮增加排氣量，以稀釋管道濃度並提升捕集效率。\n\n管理控制：若工程手段受限，則需評估調整製程（如降低乙醇配方比例）的可行性。\n\n驗證：所有改善措施皆須透過重新評估與現場監測來驗證其成效。"
-  },
-  {
     "objectID": "docs/web_CH10_Cleaning-process.html",
     "href": "docs/web_CH10_Cleaning-process.html",
     "title": "CH10",
@@ -981,48 +589,6 @@
     "title": "CH10",
     "section": "IH MOD 模擬 (3分鐘)",
     "text": "IH MOD 模擬 (3分鐘)\nWell-Mixed Room Model Decreasing Emission Rate, Spill Model\n\n\n\n3分鐘\n每3分鐘累加 (疊加原理)\n\n\n\n\n\n\n\n\nprepared by Peter Ho. 114.08.17"
-  },
-  {
-    "objectID": "modeling.html#container-uncovered-1",
-    "href": "modeling.html#container-uncovered-1",
-    "title": "Modeling",
-    "section": "5. container uncovered",
-    "text": "5. container uncovered\nCh5 Volatile Liquid Container Left Open\n*摘要 *圖說"
-  },
-  {
-    "objectID": "modeling.html#barrel-filling-1",
-    "href": "modeling.html#barrel-filling-1",
-    "title": "Modeling",
-    "section": "6. barrel filling",
-    "text": "6. barrel filling\nCh6 Barrel filling indoors\n*摘要 *圖說"
-  },
-  {
-    "objectID": "modeling.html#historic-exposure-1",
-    "href": "modeling.html#historic-exposure-1",
-    "title": "Modeling",
-    "section": "7. Historic exposure",
-    "text": "7. Historic exposure\nCh7 Historic exposure\n*摘要 *圖說"
-  },
-  {
-    "objectID": "modeling.html#pressurized-gas-release-1",
-    "href": "modeling.html#pressurized-gas-release-1",
-    "title": "Modeling",
-    "section": "8. Pressurized gas release",
-    "text": "8. Pressurized gas release\nCh8 Pressurized gas release\n*摘要 *圖說"
-  },
-  {
-    "objectID": "modeling.html#cleaning-process",
-    "href": "modeling.html#cleaning-process",
-    "title": "Modeling",
-    "section": "10. Cleaning Process",
-    "text": "10. Cleaning Process\nChapter 10 Cleaning With Product Containing Acetic Acid\n*摘要"
-  },
-  {
-    "objectID": "modeling.html#model-parameters",
-    "href": "modeling.html#model-parameters",
-    "title": "Modeling",
-    "section": "11. Model parameters",
-    "text": "11. Model parameters\nChapter 11 Experimental Determination of Model Parameters\n*摘要"
   },
   {
     "objectID": "docs/info/web_CH11_model-parameters.html",
@@ -1095,69 +661,6 @@
     "text": "IH MOD 模擬\n\n此結果表明，即使在遠離污染源處，不良的通風也會導致細小粉塵累積，對全體員工構成潛在的健康風險。\n基於此數據，專業建議應立即採取行動：優先從源頭安裝局部排氣通風 (LEV) 進行工程控制，並輔以個人空氣採樣驗證與過渡期的個人防護具使用。\nprepared by Peter Ho. 114.08.17"
   },
   {
-    "objectID": "modeling.html#monte-carlo-modeling",
-    "href": "modeling.html#monte-carlo-modeling",
-    "title": "Modeling",
-    "section": "12. Monte Carlo modeling",
-    "text": "12. Monte Carlo modeling\nChapter 12 Organic Chemistry Teaching Lab Exposure and a First Exploration of Monte Carlo Modeling\n*摘要"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH11_model-parameters.html",
-    "href": "docs/info/Rmd/web_CH11_model-parameters.html",
-    "title": "CH11",
-    "section": "",
-    "text": "本章的核心精神在於**「化被動為主動」——當缺乏關鍵的模型輸入參數，如污染物發生率 (G)** 與換氣率 (Q) 時，我們能主動透過實驗設計來獲取數據。本章展示了兩種實用的方法：\n\n測試艙法：用以測定粉塵等污染物的逸散率 (G)。\n\n示蹤氣體衰退法：用以計算空間的實際換氣率 (Q)。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH11_model-parameters.html#實驗取得之關鍵參數",
-    "href": "docs/info/Rmd/web_CH11_model-parameters.html#實驗取得之關鍵參數",
-    "title": "CH11",
-    "section": "1. 實驗取得之關鍵參數",
-    "text": "1. 實驗取得之關鍵參數\n\n粉塵逸散率 (G)：透過測試艙實驗，測得平均逸散率為：G=1,800minmg​\n\n房間換氣率 (Q)：透過示蹤氣體衰退法，測得廠房的自然換氣率為：Q≈45.3minm3​"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH11_model-parameters.html#暴露濃度計算",
-    "href": "docs/info/Rmd/web_CH11_model-parameters.html#暴露濃度計算",
-    "title": "CH11",
-    "section": "2. 暴露濃度計算",
-    "text": "2. 暴露濃度計算\n採用均勻混合模型，並考慮作業的間歇性（每日暴露120分鐘），計算出8小時日時量平均濃度 (TWA-8)：\nTWA-8=(G/Q​×暴露時間)​/480 分鐘=(1,800/45.3​×120)/480 ​≈ 9.9m3mg​"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH11_model-parameters.html#風險評估與結論",
-    "href": "docs/info/Rmd/web_CH11_model-parameters.html#風險評估與結論",
-    "title": "CH11",
-    "section": "3. 風險評估與結論",
-    "text": "3. 風險評估與結論\n評估結果顯示，預估的 9.9 mg/m3 濃度雖低於總粉塵基準，卻顯著超過了對健康危害更大的可呼吸性粉塵職業暴露基準 (OSHA PEL: 5 mg/m3; ACGIH TLV: 3 mg/m3)。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH11_model-parameters.html#ih-mod-模擬",
-    "href": "docs/info/Rmd/web_CH11_model-parameters.html#ih-mod-模擬",
-    "title": "CH11",
-    "section": "IH MOD 模擬",
-    "text": "IH MOD 模擬\n\n此結果表明，即使在遠離污染源處，不良的通風也會導致細小粉塵累積，對全體員工構成潛在的健康風險。\n基於此數據，專業建議應立即採取行動：優先從源頭安裝局部排氣通風 (LEV) 進行工程控制，並輔以個人空氣採樣驗證與過渡期的個人防護具使用。\nprepared by Peter Ho. 114.08.17"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH10_Cleaning-process.html",
-    "href": "docs/info/Rmd/web_CH10_Cleaning-process.html",
-    "title": "CH10",
-    "section": "",
-    "text": "評估一項使用4%醋酸溶液清潔面板的作業，透過3種不同情境WMB模式推估，量化工作者的暴露風險。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH10_Cleaning-process.html#ih-mod-模擬-穩態",
-    "href": "docs/info/Rmd/web_CH10_Cleaning-process.html#ih-mod-模擬-穩態",
-    "title": "CH10",
-    "section": "IH MOD 模擬 (穩態)",
-    "text": "IH MOD 模擬 (穩態)\nThe Well-Mixed Room Model with a Constant Emission Rate"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH10_Cleaning-process.html#ih-mod-模擬-3分鐘",
-    "href": "docs/info/Rmd/web_CH10_Cleaning-process.html#ih-mod-模擬-3分鐘",
-    "title": "CH10",
-    "section": "IH MOD 模擬 (3分鐘)",
-    "text": "IH MOD 模擬 (3分鐘)\nWell-Mixed Room Model Decreasing Emission Rate, Spill Model\n\n\n\n3分鐘\n每3分鐘累加 (疊加原理)\n\n\n\n\n\n\n\n\nprepared by Peter Ho. 114.08.17"
-  },
-  {
     "objectID": "docs/info/web_CH12_Monte-Carlo modeling.html",
     "href": "docs/info/web_CH12_Monte-Carlo modeling.html",
     "title": "CH12",
@@ -1198,13 +701,6 @@
     "title": "CH12",
     "section": "",
     "text": "模擬結果顯示，暴露濃度的第95百分位數 (95th Percentile) 為 57 mg/m³。這意味著在所有可能的情境組合下，有95%的機率，實驗室的平均濃度會低於此數值，且該值明顯低於87 mg/m³的暴露限值。\n這個結論比最差情境分析更具參考價值，它告訴我們：儘管極端高濃度可能發生，但其機率很低。整體而言，此暴露情境的風險應屬可接受範圍。(仍須溝通與加強教育訓練改善行為)\nprepared by Peter Ho. 114.08.18"
-  },
-  {
-    "objectID": "modeling.html#mixture-modleing",
-    "href": "modeling.html#mixture-modleing",
-    "title": "Modeling",
-    "section": "13. Mixture modleing",
-    "text": "13. Mixture modleing\nChapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations\n*摘要"
   },
   {
     "objectID": "docs/info/web_CH13_.Mixture-modeling.html",
@@ -1291,13 +787,6 @@
     "text": "綜合判斷，對於單次、短暫的消費者使用情境，此產品的暴露風險低且可接受。然而，由於預測濃度超過了慢性的健康基準(RfC)，對於需要每日頻繁操作的職業人員（如汽車維修技師），其長期風險則需進一步的審慎評估。\n本案例完整展示了IHMOD 2.0作為現代工業衛生工具的價值：它不僅能處理複雜的混合物情境，實現前瞻性的「設計安全」評估，更能透過蒙地卡羅模擬來量化不確定性，為風險管理提供更穩健、更具信服力的科學依據。\n———————\n參考資料：Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations prepared by Peter Ho. 114.08.18"
   },
   {
-    "objectID": "modeling.html#autoshop-solvents",
-    "href": "modeling.html#autoshop-solvents",
-    "title": "Modeling",
-    "section": "15. Autoshop solvents",
-    "text": "15. Autoshop solvents\nChapter 15 Use of Aerosol Solvents in an Auto Shop\n*摘要"
-  },
-  {
     "objectID": "docs/web_CH15_Autoshop-solvent.html",
     "href": "docs/web_CH15_Autoshop-solvent.html",
     "title": "CH15",
@@ -1331,160 +820,6 @@
     "title": "CH15",
     "section": "",
     "text": "本案例強調選擇正確的暴露模式（雙區模式）、深入理解毒理學交互作用、將模式作為調查工具來識別關鍵暴露驅動因素，以及實施具體的控制措施（尤其是從源頭替代）對於職業衛生風險評估的重要性。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html",
-    "href": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html",
-    "title": "CH12",
-    "section": "",
-    "text": "以大學化學實驗室的二氯甲烷暴露為例，展示如何從初步的確定性(定值)模型，逐步演進至更精確的蒙地卡羅機率模型，以全面評估暴露風險。\n\n\n首先，我們使用穩態單區均勻混合模型 WMB (Css​=G/Q) 進行初步評估。根據實驗室體積、通風量，並假設所有學生的溶劑完全蒸發，計算出的穩態濃度約為 110 mg/m³。這個結果高於職業暴露限值 (PEL) 的 87 mg/m³，顯示存在潛在風險，需要進一步分析。\n\n\n\n然而，現實中的參數並非固定不變。學生人數、溶劑實際蒸發量及通風效率都會變動。若考慮這些變數的最佳與最差情境，會得到一個從 6.7 mg/m³ 到 106 mg/m³ 的極寬濃度範圍。這個結果雖然點出了不確定性，但因範圍過大，無法有效判斷真實風險發生的可能性，決策參考價值有限。\n\n\n\n為了解決此問題，我們引入蒙地卡羅模擬。此方法不再使用單一固定值，而是為各個變動參數（如學生人數、蒸發率、通風量）設定機率分佈。透過上萬次的隨機抽樣與計算，模型最終生成一個暴露濃度的完整機率分佈圖。\n\n\n\n\n\n\n\n\n\n\n\n最佳\n最糟\nMonte Carlo\n\n\n\n\n\n\n\n\n\n\n\n模擬結果顯示，暴露濃度的第95百分位數 (95th Percentile) 為 57 mg/m³。這意味著在所有可能的情境組合下，有95%的機率，實驗室的平均濃度會低於此數值，且該值明顯低於87 mg/m³的暴露限值。\n這個結論比最差情境分析更具參考價值，它告訴我們：儘管極端高濃度可能發生，但其機率很低。整體而言，此暴露情境的風險應屬可接受範圍。(仍須溝通與加強教育訓練改善行為)\nprepared by Peter Ho. 114.08.18"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#初步評估與警訊",
-    "href": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#初步評估與警訊",
-    "title": "CH12",
-    "section": "",
-    "text": "首先，我們使用穩態單區均勻混合模型 WMB (Css​=G/Q) 進行初步評估。根據實驗室體積、通風量，並假設所有學生的溶劑完全蒸發，計算出的穩態濃度約為 110 mg/m³。這個結果高於職業暴露限值 (PEL) 的 87 mg/m³，顯示存在潛在風險，需要進一步分析。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#考量變異性與其侷限",
-    "href": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#考量變異性與其侷限",
-    "title": "CH12",
-    "section": "",
-    "text": "然而，現實中的參數並非固定不變。學生人數、溶劑實際蒸發量及通風效率都會變動。若考慮這些變數的最佳與最差情境，會得到一個從 6.7 mg/m³ 到 106 mg/m³ 的極寬濃度範圍。這個結果雖然點出了不確定性，但因範圍過大，無法有效判斷真實風險發生的可能性，決策參考價值有限。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#蒙地卡羅模擬更真實的風險圖像",
-    "href": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#蒙地卡羅模擬更真實的風險圖像",
-    "title": "CH12",
-    "section": "",
-    "text": "為了解決此問題，我們引入蒙地卡羅模擬。此方法不再使用單一固定值，而是為各個變動參數（如學生人數、蒸發率、通風量）設定機率分佈。透過上萬次的隨機抽樣與計算，模型最終生成一個暴露濃度的完整機率分佈圖。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#ih-mod-模擬",
-    "href": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#ih-mod-模擬",
-    "title": "CH12",
-    "section": "",
-    "text": "最佳\n最糟\nMonte Carlo"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#最終結論風險可控",
-    "href": "docs/info/Rmd/web_CH12_Monte-Carlo modeling.html#最終結論風險可控",
-    "title": "CH12",
-    "section": "",
-    "text": "模擬結果顯示，暴露濃度的第95百分位數 (95th Percentile) 為 57 mg/m³。這意味著在所有可能的情境組合下，有95%的機率，實驗室的平均濃度會低於此數值，且該值明顯低於87 mg/m³的暴露限值。\n這個結論比最差情境分析更具參考價值，它告訴我們：儘管極端高濃度可能發生，但其機率很低。整體而言，此暴露情境的風險應屬可接受範圍。(仍須溝通與加強教育訓練改善行為)\nprepared by Peter Ho. 114.08.18"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH13_Mixture-modeling.html",
-    "href": "docs/info/Rmd/web_CH13_Mixture-modeling.html",
-    "title": "CH13",
-    "section": "",
-    "text": "應用IHMOD 2.0軟體，評估在車庫內傾倒含2-丁氧基乙醇(2BE)的擋風玻璃清洗液所產生的消費者暴露風險。此評估的核心挑戰在於該清洗液為非理想的化學混合物，而非純物質。\n\n\n對於水與2BE的非理想混合物，不能直接使用傳統的拉午耳定律，否則將嚴重低估風險。本案例的關鍵是引入活性係數 (γ) 來校正分子間的交互作用力。透過UNIFAC方法計算，2BE在此水溶液中的活性係數高達 7.31，這表示其真實蒸發趨勢是理想模型預測的7倍以上。經此校正後，計算出的蒸氣生成率 (G) 約為 20 mg/min，此數值是後續暴露模擬的關鍵輸入。\n\n\n\n為模擬污染物在空間中的濃度梯度，本評估採用了比傳統「完全混合模型」更真實的雙區（近場／遠場）模型，將空間劃分為作業人員呼吸區周圍的「近場」與其餘空間的「遠場」。\n運用IHMOD 2.0軟體進行了兩種分析：\n\n決定論分析：使用單一「點估計值」輸入參數，得到一個特定的預測結果。\n\n機率性（蒙地卡羅）分析：為關鍵輸入參數（如生成率、通風率）設定機率分佈，進行上萬次模擬，從而得到一個暴露濃度的可能性分佈，更完整地體現真實世界的不確定性。\n\n\n\n\n兩種分析方法都聚焦於作業期間（前30秒）的近場峰值濃度：\n\n決定論峰值濃度：預測為 1.98 mg/m³。\n\n機率性第95百分位數峰值濃度：作為「合理最壞情況」的估計，預測為 2.5 mg/m³。\n\n在風險判斷上，將這些預測值與健康基準比較：\n\n職業暴露限值 (OELs)：兩種方法的預測結果均遠低於最嚴格的NIOSH建議限值 (24 mg/m³)。\n\n環境參考濃度 (EPA RfC)：預測結果超過了針對一般民眾終身暴露所設的RfC值 (1.6 mg/m³)。\n\n\n\n\n\n\n\n決定論峰值\n機率論峰值\n\n\n\n\n\n\n\n\n\n\n綜合判斷，對於單次、短暫的消費者使用情境，此產品的暴露風險低且可接受。然而，由於預測濃度超過了慢性的健康基準(RfC)，對於需要每日頻繁操作的職業人員（如汽車維修技師），其長期風險則需進一步的審慎評估。\n本案例完整展示了IHMOD 2.0作為現代工業衛生工具的價值：它不僅能處理複雜的混合物情境，實現前瞻性的「設計安全」評估，更能透過蒙地卡羅模擬來量化不確定性，為風險管理提供更穩健、更具信服力的科學依據。\n———————\n參考資料：Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations prepared by Peter Ho. 114.08.18"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH13_Mixture-modeling.html#關鍵挑戰計算混合物生成率-g",
-    "href": "docs/info/Rmd/web_CH13_Mixture-modeling.html#關鍵挑戰計算混合物生成率-g",
-    "title": "CH13",
-    "section": "",
-    "text": "對於水與2BE的非理想混合物，不能直接使用傳統的拉午耳定律，否則將嚴重低估風險。本案例的關鍵是引入活性係數 (γ) 來校正分子間的交互作用力。透過UNIFAC方法計算，2BE在此水溶液中的活性係數高達 7.31，這表示其真實蒸發趨勢是理想模型預測的7倍以上。經此校正後，計算出的蒸氣生成率 (G) 約為 20 mg/min，此數值是後續暴露模擬的關鍵輸入。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH13_Mixture-modeling.html#模型與分析方法",
-    "href": "docs/info/Rmd/web_CH13_Mixture-modeling.html#模型與分析方法",
-    "title": "CH13",
-    "section": "",
-    "text": "為模擬污染物在空間中的濃度梯度，本評估採用了比傳統「完全混合模型」更真實的雙區（近場／遠場）模型，將空間劃分為作業人員呼吸區周圍的「近場」與其餘空間的「遠場」。\n運用IHMOD 2.0軟體進行了兩種分析：\n\n決定論分析：使用單一「點估計值」輸入參數，得到一個特定的預測結果。\n\n機率性（蒙地卡羅）分析：為關鍵輸入參數（如生成率、通風率）設定機率分佈，進行上萬次模擬，從而得到一個暴露濃度的可能性分佈，更完整地體現真實世界的不確定性。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH13_Mixture-modeling.html#核心結果與風險判斷",
-    "href": "docs/info/Rmd/web_CH13_Mixture-modeling.html#核心結果與風險判斷",
-    "title": "CH13",
-    "section": "",
-    "text": "兩種分析方法都聚焦於作業期間（前30秒）的近場峰值濃度：\n\n決定論峰值濃度：預測為 1.98 mg/m³。\n\n機率性第95百分位數峰值濃度：作為「合理最壞情況」的估計，預測為 2.5 mg/m³。\n\n在風險判斷上，將這些預測值與健康基準比較：\n\n職業暴露限值 (OELs)：兩種方法的預測結果均遠低於最嚴格的NIOSH建議限值 (24 mg/m³)。\n\n環境參考濃度 (EPA RfC)：預測結果超過了針對一般民眾終身暴露所設的RfC值 (1.6 mg/m³)。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH13_Mixture-modeling.html#ih-mod-模擬",
-    "href": "docs/info/Rmd/web_CH13_Mixture-modeling.html#ih-mod-模擬",
-    "title": "CH13",
-    "section": "",
-    "text": "決定論峰值\n機率論峰值"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH13_Mixture-modeling.html#結論",
-    "href": "docs/info/Rmd/web_CH13_Mixture-modeling.html#結論",
-    "title": "CH13",
-    "section": "",
-    "text": "綜合判斷，對於單次、短暫的消費者使用情境，此產品的暴露風險低且可接受。然而，由於預測濃度超過了慢性的健康基準(RfC)，對於需要每日頻繁操作的職業人員（如汽車維修技師），其長期風險則需進一步的審慎評估。\n本案例完整展示了IHMOD 2.0作為現代工業衛生工具的價值：它不僅能處理複雜的混合物情境，實現前瞻性的「設計安全」評估，更能透過蒙地卡羅模擬來量化不確定性，為風險管理提供更穩健、更具信服力的科學依據。\n———————\n參考資料：Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations prepared by Peter Ho. 114.08.18"
-  },
-  {
-    "objectID": "modeling.html#oxygen-deficiency",
-    "href": "modeling.html#oxygen-deficiency",
-    "title": "Modeling",
-    "section": "14. Oxygen Deficiency",
-    "text": "14. Oxygen Deficiency\nChapter 14 Oxygen Deficiency Hazard in a Storage Tank"
-  },
-  {
-    "objectID": "modeling.html#sanding-ea",
-    "href": "modeling.html#sanding-ea",
-    "title": "Modeling",
-    "section": "4. Sanding EA",
-    "text": "4. Sanding EA\nCh4 Local Exhaust Ventilation for a Sanding\n*🕎摘要"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH15_Autoshop-solvent.html",
-    "href": "docs/info/Rmd/web_CH15_Autoshop-solvent.html",
-    "title": "CH15",
-    "section": "",
-    "text": "汽車維修廠常使用氣膠溶劑進行零件清潔與除油。\n\n為減少揮發性有機化合物（VOCs）排放，氣膠溶劑配方中加入了正己烷。\n\n正己烷經肝臟代謝產生神經毒性物質2,5-己二酮（2,5-HD）。\n\n同時暴露於丙酮會顯著增強2,5-HD的神經毒性，這是一種「加乘作用」。\n\n這表示單純依據單一物質的職業暴露標準（OEL）不足以保護勞工。\n\n\n\n\n\n採用二暴露區模式（Two-Zone Model）評估暴露，該模型能區分靠近污染源的「近場」（Near-Field, NF）與房間其他區域的「遠場」（Far-Field, FF）濃度差異。\n\n計算了兩種逸散源生成速率：\n\n連續性逸散 (G1)：模擬長期平均暴露，正己烷生成速率為 2,100 mg/min。\n\n間歇性逸散 (G2)：模擬短時間高峰暴露，正己烷生成速率為 88,000 mg/min。\n\n\n模型假設：房間體積 400 m³，換氣率 1 ACH，近場體積 7.1 m³，近場與遠場空氣交換率 β 為 36.7 m³/min。\n\n模擬結果顯示：\n\n連續性逸散情境下，105分鐘時量平均濃度（TWA）為 220 mg/m³。\n\n間歇性逸散情境下，105分鐘 TWA 為 290 mg/m³，峰值濃度高達 2,450 mg/m³。\n\n\n\n\n\n\n\n\n評估結果： 模擬的105分鐘時量平均濃度（TWA）在連續逸散情境下為220 mg/m³，間歇逸散情境下為290 mg/m³。這兩者均顯著超過了ACGIH TLV-TWA和台灣PEL-TWA（皆為176 mg/m³）。\n\n峰值濃度： 間歇逸散情境下的峰值濃度高達2,450 mg/m³，遠高於任何TWA標準，顯示出高度急性風險。\n\n關鍵毒理學考量： 由於丙酮會顯著加乘正己烷的神經毒性，單純依賴現有針對單一物質的OELs並不足以保護勞工。此混合暴露的危害遠超過各成分的簡單相加。即使濃度略低於OEL，也必須採取控制措施。\n\n\n\n\n\n模式高估： 模式預測的任務平均濃度（220-290 mg/m³）顯著高於一份現場研究中測得的平均濃度（38 mg/m³）。\n\n診斷價值： 這種差異不應被視為模式錯誤，而是作為診斷工具，用於重新審視模式的假設（例如：逸散率是否過高，或換氣率是否過低）。模式的高估有助於理解暴露的關鍵驅動因素，並將模式轉化為一種調查工具。\n\n\n\n\n\n\n\n連續逸散情境下為220 mg/m³\n間歇逸散情境下為290 mg/m³\n\n\n\n\n\n\n\n\n\n\n\n與OELs比較： 模擬的兩種情境下 TWA 均超過 ACGIH TLV-TWA 和台灣 PEL-TWA（176 mg/m³），且峰值濃度遠超標準，存在高度急性風險。\n\n毒理學考量： 由於正己烷與丙酮的加乘作用，現有單一物質的OELs不足以保護勞工健康。\n\n控制措施（依控制層級優先順序）：\n\n替代： 優先使用「無正己烷」的煞車清潔劑，如正庚烷。\n\n工程控制： 導入局部排氣通風（LEV），改善整體換氣。\n\n行政管理控制： 限制溶劑使用區域和時間，加強危害通識訓練。\n\n個人防護具（PPE）： 佩戴配有有機蒸氣濾罐的空氣淨化式呼吸防護具，並制定濾罐更換時程；佩戴適當的化學防護手套。\n\n\n\n\n\n\n本案例強調選擇正確的暴露模式（雙區模式）、深入理解毒理學交互作用、將模式作為調查工具來識別關鍵暴露驅動因素，以及實施具體的控制措施（尤其是從源頭替代）對於職業衛生風險評估的重要性。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH15_Autoshop-solvent.html#情境與毒理學背景",
-    "href": "docs/info/Rmd/web_CH15_Autoshop-solvent.html#情境與毒理學背景",
-    "title": "CH15",
-    "section": "",
-    "text": "汽車維修廠常使用氣膠溶劑進行零件清潔與除油。\n\n為減少揮發性有機化合物（VOCs）排放，氣膠溶劑配方中加入了正己烷。\n\n正己烷經肝臟代謝產生神經毒性物質2,5-己二酮（2,5-HD）。\n\n同時暴露於丙酮會顯著增強2,5-HD的神經毒性，這是一種「加乘作用」。\n\n這表示單純依據單一物質的職業暴露標準（OEL）不足以保護勞工。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH15_Autoshop-solvent.html#暴露評估模型與結果",
-    "href": "docs/info/Rmd/web_CH15_Autoshop-solvent.html#暴露評估模型與結果",
-    "title": "CH15",
-    "section": "",
-    "text": "採用二暴露區模式（Two-Zone Model）評估暴露，該模型能區分靠近污染源的「近場」（Near-Field, NF）與房間其他區域的「遠場」（Far-Field, FF）濃度差異。\n\n計算了兩種逸散源生成速率：\n\n連續性逸散 (G1)：模擬長期平均暴露，正己烷生成速率為 2,100 mg/min。\n\n間歇性逸散 (G2)：模擬短時間高峰暴露，正己烷生成速率為 88,000 mg/min。\n\n\n模型假設：房間體積 400 m³，換氣率 1 ACH，近場體積 7.1 m³，近場與遠場空氣交換率 β 為 36.7 m³/min。\n\n模擬結果顯示：\n\n連續性逸散情境下，105分鐘時量平均濃度（TWA）為 220 mg/m³。\n\n間歇性逸散情境下，105分鐘 TWA 為 290 mg/m³，峰值濃度高達 2,450 mg/m³。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH15_Autoshop-solvent.html#全面風險評估與模式驗證",
-    "href": "docs/info/Rmd/web_CH15_Autoshop-solvent.html#全面風險評估與模式驗證",
-    "title": "CH15",
-    "section": "",
-    "text": "評估結果： 模擬的105分鐘時量平均濃度（TWA）在連續逸散情境下為220 mg/m³，間歇逸散情境下為290 mg/m³。這兩者均顯著超過了ACGIH TLV-TWA和台灣PEL-TWA（皆為176 mg/m³）。\n\n峰值濃度： 間歇逸散情境下的峰值濃度高達2,450 mg/m³，遠高於任何TWA標準，顯示出高度急性風險。\n\n關鍵毒理學考量： 由於丙酮會顯著加乘正己烷的神經毒性，單純依賴現有針對單一物質的OELs並不足以保護勞工。此混合暴露的危害遠超過各成分的簡單相加。即使濃度略低於OEL，也必須採取控制措施。\n\n\n\n\n\n模式高估： 模式預測的任務平均濃度（220-290 mg/m³）顯著高於一份現場研究中測得的平均濃度（38 mg/m³）。\n\n診斷價值： 這種差異不應被視為模式錯誤，而是作為診斷工具，用於重新審視模式的假設（例如：逸散率是否過高，或換氣率是否過低）。模式的高估有助於理解暴露的關鍵驅動因素，並將模式轉化為一種調查工具。\n\n\n\n\n\n\n\n連續逸散情境下為220 mg/m³\n間歇逸散情境下為290 mg/m³\n\n\n\n\n\n\n\n\n\n\n\n與OELs比較： 模擬的兩種情境下 TWA 均超過 ACGIH TLV-TWA 和台灣 PEL-TWA（176 mg/m³），且峰值濃度遠超標準，存在高度急性風險。\n\n毒理學考量： 由於正己烷與丙酮的加乘作用，現有單一物質的OELs不足以保護勞工健康。\n\n控制措施（依控制層級優先順序）：\n\n替代： 優先使用「無正己烷」的煞車清潔劑，如正庚烷。\n\n工程控制： 導入局部排氣通風（LEV），改善整體換氣。\n\n行政管理控制： 限制溶劑使用區域和時間，加強危害通識訓練。\n\n個人防護具（PPE）： 佩戴配有有機蒸氣濾罐的空氣淨化式呼吸防護具，並制定濾罐更換時程；佩戴適當的化學防護手套。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH15_Autoshop-solvent.html#結論",
-    "href": "docs/info/Rmd/web_CH15_Autoshop-solvent.html#結論",
-    "title": "CH15",
-    "section": "",
-    "text": "本案例強調選擇正確的暴露模式（雙區模式）、深入理解毒理學交互作用、將模式作為調查工具來識別關鍵暴露驅動因素，以及實施具體的控制措施（尤其是從源頭替代）對於職業衛生風險評估的重要性。"
-  },
-  {
-    "objectID": "modeling.html#reconstruction-of-spill",
-    "href": "modeling.html#reconstruction-of-spill",
-    "title": "Modeling",
-    "section": "17 Reconstruction of spill",
-    "text": "17 Reconstruction of spill\nChapter 17 Reconstruction of a Laboratory Spill\n*摘要"
-  },
-  {
-    "objectID": "modeling.html#modeling-limitation",
-    "href": "modeling.html#modeling-limitation",
-    "title": "Modeling",
-    "section": "18 Modeling limitation",
-    "text": "18 Modeling limitation\nChapter 18 Understanding the Limitations of Mathematical Models and Proactive Communication of Modeling Results\n*摘要"
-  },
-  {
-    "objectID": "modeling.html#feeding-model",
-    "href": "modeling.html#feeding-model",
-    "title": "Modeling",
-    "section": "19 Feeding model",
-    "text": "19 Feeding model\nChapter 19 Feeding Models Using Simple and Some Not-So-Simple Means\n*摘要"
   },
   {
     "objectID": "docs/Noise/noise_EA.html",
@@ -1673,7 +1008,7 @@
     "href": "noise_EA.html#耳朵與聽覺的解剖學與生理學",
     "title": "Occupational Noise-EA",
     "section": "2.耳朵與聽覺的解剖學與生理學",
-    "text": "2.耳朵與聽覺的解剖學與生理學\n\n聲音的旅程 - 解剖構造 (Anatomy)：聲波從進入外耳開始，一路經過中耳，最終抵達內耳，認識沿途的各個重要結構。\n從振動到感知 - 生理功能(Physiology)：耳朵結構如何協同工作，將聲音放大、轉換並進行初步分析的。\n\n\n\nQ1Q2Q3\n\n\n我們剛剛提到了外耳負責「收集」聲波，而中耳像一個「放大器」，解決了空氣到液體的能量傳遞問題。綜合這兩點，您認為從聲波進到耳朵，到它準備進入內耳之前，聲音的能量是變強了還是變弱了？為什麼這一步驟對於聽覺至關重要？\n\n\n噪音造成聽力損傷，最主要攻擊的目標是內耳的聽覺感測細胞(它們坐落在基底膜上)，且其一旦死亡便無法再生的毛細胞。特別是脆弱的內？ / 外？毛細胞\n\n\n很多早期噪音性聽損的患者會說：「在安靜的地方我聽得還不錯，可是一到吵雜的環境，我就完全聽不清楚別人在說什麼了」，而且他們對較大的聲音會感覺特別刺耳（這種現象稱為響度重振 Loudness Recruitment）。\n您認為這個現象，比較可能跟哪一種毛細胞（內毛細胞或外毛細胞）的損傷有關？為什麼？\n\n\n\n\n\n\n提醒\n\n\n\n早期噪音聽損主要與外毛細胞 (OHCs) 的損傷有關。它們的受損不僅造成了聽力損失，也破壞了我們聽覺的精細調節能力，導致在吵雜環境中分辨語音的能力下降。"
+    "text": "2.耳朵與聽覺的解剖學與生理學\n\n聲音的旅程 - 解剖構造 (Anatomy)：聲波從進入外耳開始，一路經過中耳，最終抵達內耳，認識沿途的各個重要結構。\n從振動到感知 - 生理功能(Physiology)：耳朵結構如何協同工作，將聲音放大、轉換並進行初步分析的。\n\n\n\nQ1Q2Q3\n\n\n我們剛剛提到了外耳負責「收集」聲波，而中耳像一個「放大器」，解決了空氣到液體的能量傳遞問題。綜合這兩點，您認為從聲波進到耳朵，到它準備進入內耳之前，聲音的能量是變強了還是變弱了？為什麼這一步驟對於聽覺至關重要？\n\n\n噪音造成聽力損傷，最主要攻擊的目標是內耳的聽覺感測細胞(它們坐落在基底膜上)，且其一旦死亡便無法再生的毛細胞。特別是脆弱的內？ / 外？毛細胞\n\n\n很多早期噪音性聽損的患者會說：「在安靜的地方我聽得還不錯，可是一到吵雜的環境，我就完全聽不清楚別人在說什麼了」，而且他們對較大的聲音會感覺特別刺耳（這種現象稱為響度重振 Loudness Recruitment）。\n您認為這個現象，比較可能跟哪一種毛細胞（內毛細胞或外毛細胞）的損傷有關？為什麼？\n\n\n\n\n\n\nTip提醒\n\n\n\n早期噪音聽損主要與外毛細胞 (OHCs) 的損傷有關。它們的受損不僅造成了聽力損失，也破壞了我們聽覺的精細調節能力，導致在吵雜環境中分辨語音的能力下降。"
   },
   {
     "objectID": "noise_EA.html#section",
@@ -1813,7 +1148,7 @@
     "href": "DRI.html#section-1",
     "title": "MSA直讀氣體偵測器",
     "section": "",
-    "text": "相關法規一\n「四用 或 複合式氣體偵測器」，通常是指能同時偵測以下四種氣體\n\n氧氣 (O₂) ： &gt;18%__《缺氧症預防規則》第5條\n可燃性氣體LEL ：&lt;30%__《職業安全衛生設施規則》第177條\n硫化氫 (H₂S) ：&lt;10 ppm__《勞工作業場所容許暴露標準》附表一\n一氧化碳 (CO) ：&lt;35 ppm __《勞工作業場所容許暴露標準》附表一\n\n\n《缺氧症預防規則》《職安衛設施規則》《作業場所容許暴露標準》\n\n\n雇主使勞工從事缺氧危險作業時，應予適當換氣，以保持該作業場所空氣中氧氣濃度在百分之十八以上。\n\n\n易燃液體之蒸氣、可燃性氣體或爆燃性粉塵達LEL之30%以上時，應即刻使勞工退避至安全場所，並停止使用煙火及其他為點火源之虞之機具，並應加強通風。\n\n\n勞工作業環境空氣中有害物之濃度應符合下列規定： 全程工作日之時量平均濃度不得超過PEL-TWA。 任何一次連續十五分鐘內之時量平均濃度不得超過STEL。 任何時間均不得超過最高容許濃度。"
+    "text": "「四用 或 複合式氣體偵測器」，通常是指能同時偵測以下四種氣體\n\n氧氣 (O₂) ： &gt;18%__《缺氧症預防規則》第5條\n可燃性氣體LEL ：&lt;30%__《職業安全衛生設施規則》第177條\n硫化氫 (H₂S) ：&lt;10 ppm__《勞工作業場所容許暴露標準》附表一\n一氧化碳 (CO) ：&lt;35 ppm __《勞工作業場所容許暴露標準》附表一\n\n\n《缺氧症預防規則》《職安衛設施規則》《作業場所容許暴露標準》\n\n\n雇主使勞工從事缺氧危險作業時，應予適當換氣，以保持該作業場所空氣中氧氣濃度在百分之十八以上。\n\n\n易燃液體之蒸氣、可燃性氣體或爆燃性粉塵達LEL之30%以上時，應即刻使勞工退避至安全場所，並停止使用煙火及其他為點火源之虞之機具，並應加強通風。\n\n\n勞工作業環境空氣中有害物之濃度應符合下列規定： 全程工作日之時量平均濃度不得超過PEL-TWA。 任何一次連續十五分鐘內之時量平均濃度不得超過STEL。 任何時間均不得超過最高容許濃度。"
   },
   {
     "objectID": "DRI.html#section-2",
@@ -1826,15 +1161,15 @@
     "objectID": "DRI.html#相關法規二",
     "href": "DRI.html#相關法規二",
     "title": "MSA直讀氣體偵測器",
-    "section": "相關法規二",
-    "text": "相關法規二\n職業安全衛生設施規則29-1~29-7、277-1\n\n雇主應制定局限空間危害防止計畫，其中必須明確規範氧氣、危險物及有害物濃度的測定方式。包含提供必要的測定儀器，在作業前必須確認氧氣及危害物質的濃度，並且在整個作業期間採取連續確認的措施。\n局限空間作業的「進入許可」上，也應清楚載明氧氣和危害物質的測定結果，並由測定人員簽名確認。\n\n高壓氣體勞工安全規則60、167\n\n為確保高壓氣體作業場所的絕對安全，無論是製造設備或消費設備，只要存在可燃性氣體或毒性氣體洩漏並積滯的潛在風險，都必須強制設置氣體洩漏檢知警報設備。\n\n缺氧症預防規則4、16、18、23\n\n雇主必須備有必要的氧氣濃度測定儀器，並採取措施隨時確認空氣中的氧氣濃度，同時也要密切監測硫化氫等其他有害氣體濃度。\n雇主必須在每日作業開始前、勞工離開作業場所後再次開始作業前，以及當勞工身體出現異狀或換氣裝置有異常時，再次確認作業場所的氧氣及有害氣體濃度。\n雇主應將包含測定儀器保管場所等重要注意事項，公告於作業場所入口顯眼處。"
+    "section": "",
+    "text": "雇主應制定局限空間危害防止計畫，其中必須明確規範氧氣、危險物及有害物濃度的測定方式。包含提供必要的測定儀器，在作業前必須確認氧氣及危害物質的濃度，並且在整個作業期間採取連續確認的措施。\n局限空間作業的「進入許可」上，也應清楚載明氧氣和危害物質的測定結果，並由測定人員簽名確認。\n\n\n\n\n\n為確保高壓氣體作業場所的絕對安全，無論是製造設備或消費設備，只要存在可燃性氣體或毒性氣體洩漏並積滯的潛在風險，都必須強制設置氣體洩漏檢知警報設備。\n\n\n\n\n\n雇主必須備有必要的氧氣濃度測定儀器，並採取措施隨時確認空氣中的氧氣濃度，同時也要密切監測硫化氫等其他有害氣體濃度。\n雇主必須在每日作業開始前、勞工離開作業場所後再次開始作業前，以及當勞工身體出現異狀或換氣裝置有異常時，再次確認作業場所的氧氣及有害氣體濃度。\n雇主應將包含測定儀器保管場所等重要注意事項，公告於作業場所入口顯眼處。"
   },
   {
     "objectID": "DRI.html#altair-5x-pid-六用voc氣體偵測器簡介",
     "href": "DRI.html#altair-5x-pid-六用voc氣體偵測器簡介",
     "title": "MSA直讀氣體偵測器",
-    "section": "ALTAIR 5X PID 六用VOC氣體偵測器簡介",
-    "text": "ALTAIR 5X PID 六用VOC氣體偵測器簡介\n結合光電離 (PID) 感測技術與 MSA X 智慧感測器(資料處理、自我診斷和通訊能力)技術。\n\n多功能性：它能夠偵測數百種揮發性有機化合物 (VOC) 氣體，並可應用於任何複雜的場合，把測爆炸、測缺氧、測毒害或職業健康評定等功能集為一體。\n設計優勢：儀器配備吸力強大的內建泵(吸氣能力為0.3公升/分鐘，最遠達 30米)，可節省其他配件和外部零件，操作人員在遠端監控時更易用、更可靠，從而簡化工作。\n主要用途：ALTAIR 5X PID 偵測儀主要面向受過專門培訓的合格人員，用於在進行風險評估時：\n\n評估作業人員接觸可燃、有毒氣體及蒸氣和缺氧環境的潛在暴露危險。\n確定工作區所需氣體和蒸氣的監控措施"
+    "section": "",
+    "text": "結合光電離 (PID) 感測技術與 MSA X 智慧感測器(資料處理、自我診斷和通訊能力)技術。\n\n多功能性：它能夠偵測數百種揮發性有機化合物 (VOC) 氣體，並可應用於任何複雜的場合，把測爆炸、測缺氧、測毒害或職業健康評定等功能集為一體。\n設計優勢：儀器配備吸力強大的內建泵(吸氣能力為0.3公升/分鐘，最遠達 30米)，可節省其他配件和外部零件，操作人員在遠端監控時更易用、更可靠，從而簡化工作。\n主要用途：ALTAIR 5X PID 偵測儀主要面向受過專門培訓的合格人員，用於在進行風險評估時：\n\n評估作業人員接觸可燃、有毒氣體及蒸氣和缺氧環境的潛在暴露危險。\n確定工作區所需氣體和蒸氣的監控措施"
   },
   {
     "objectID": "DRI.html#scrollable-.smaller",
@@ -1861,8 +1196,8 @@
     "objectID": "DRI.html#職業暴露限值",
     "href": "DRI.html#職業暴露限值",
     "title": "MSA直讀氣體偵測器",
-    "section": "職業暴露限值",
-    "text": "職業暴露限值\n\nPEL (容許暴露極限):\n\n由國家制定閾值(法律)，如我國籍美國OSHA。\n\nTLV (閾限值):\n\n由美國政府工業衛生學家會議 (ACGIH) 提出的建議性職業暴露限值 。\n代表幾乎所有健康工作者每天重複暴露於該濃度或以下，而不會產生不良健康影響的空氣中化學物質濃度 。\n\nTWA (工作日8 小時時間加權平均值):\n\n勞工可以安全暴露的污染物濃度平均值 。\n\nSTEL (短期暴露極限):\n\n指在工作日中的任何時間裡，任一連續15 分鐘時間的加權平均暴露值 。\n旨在防止短時間暴露引起的刺激、急性或不可逆組織損傷、與劑量相關的毒性效應。\n特別適用於具有急性影響的物質，並非所有物質都有 STEL 。\n\nIDLH (立即危及生命或健康濃度) :\n\n暴露 10~30 分鐘內，可能會導致死亡、永久性傷害、或無法逃離暴露環境的空氣中污染物濃度。\n這個值通常用於決定在沒有呼吸防護裝備的情況下，人員可以安全進入受污染區域的最長時間。\n\n\n\n\n\n\n\n\nImportant\n\n\nTLV 是科學建議值 ，而 PEL 是法律強制執行的限制 。 PEL (容許閾值) 通常會比 TLV 高。"
+    "section": "",
+    "text": "PEL (容許暴露極限):\n\n由國家制定閾值(法律)，如我國籍美國OSHA。\n\nTLV (閾限值):\n\n由美國政府工業衛生學家會議 (ACGIH) 提出的建議性職業暴露限值 。\n代表幾乎所有健康工作者每天重複暴露於該濃度或以下，而不會產生不良健康影響的空氣中化學物質濃度 。\n\nTWA (工作日8 小時時間加權平均值):\n\n勞工可以安全暴露的污染物濃度平均值 。\n\nSTEL (短期暴露極限):\n\n指在工作日中的任何時間裡，任一連續15 分鐘時間的加權平均暴露值 。\n旨在防止短時間暴露引起的刺激、急性或不可逆組織損傷、與劑量相關的毒性效應。\n特別適用於具有急性影響的物質，並非所有物質都有 STEL 。\n\nIDLH (立即危及生命或健康濃度) :\n\n暴露 10~30 分鐘內，可能會導致死亡、永久性傷害、或無法逃離暴露環境的空氣中污染物濃度。\n這個值通常用於決定在沒有呼吸防護裝備的情況下，人員可以安全進入受污染區域的最長時間。\n\n\n\n\n\n\n\n\nImportant\n\n\n\nTLV 是科學建議值 ，而 PEL 是法律強制執行的限制 。 PEL (容許閾值) 通常會比 TLV 高。"
   },
   {
     "objectID": "DRI.html#直讀式氣體偵測儀器的應用",
@@ -1875,8 +1210,8 @@
     "objectID": "DRI.html#偵測原理與關鍵概念",
     "href": "DRI.html#偵測原理與關鍵概念",
     "title": "MSA直讀氣體偵測器",
-    "section": "偵測原理與關鍵概念",
-    "text": "偵測原理與關鍵概念\n\n依被測氣體種類常見三種偵測方式\n\n\n\n\n\n\n\n\n\n\n\n觸媒燃燒式\n電化學反應式\nPID\n\n\n\n\n偵測物質\n可燃性氣體\n氧氣、特定有毒氣體\n揮發性有機化合物(VOCs)\n\n\nMSA sensors\n\n\n\n\n\n\n註：探頭(sensors)細節可洽產品代理商或產品經理"
+    "section": "",
+    "text": "依被測氣體種類常見三種偵測方式\n\n\n\n\n\n\n\n\n\n\n\n觸媒燃燒式\n電化學反應式\nPID\n\n\n\n\n偵測物質\n可燃性氣體\n氧氣、特定有毒氣體\n揮發性有機化合物(VOCs)\n\n\nMSA sensors\n\n\n\n\n\n\n註：探頭(sensors)細節可洽產品代理商或產品經理"
   },
   {
     "objectID": "MSA.html",
@@ -2068,62 +1403,6 @@
     "text": "生成速率(G)是模式評估的最大挑戰。文章提供了一套層次分明的策略框架，從保守性估算、高精度的腔體研究，到實用的簡易實驗方法，旨在幫助工業衛生師更有信心地應用暴露評估模式，做出更準確的判斷。"
   },
   {
-    "objectID": "docs/web_CH17_Reconstruction-spill.html",
-    "href": "docs/web_CH17_Reconstruction-spill.html",
-    "title": "CH17",
-    "section": "",
-    "text": "實驗室濃醋酸洩漏事件為案例，兩名清理員工出現健康效應。最初的評估採用WMB模式，指出醋酸蒸氣濃度可能已達危害等級。於是設立了兩個主要目標：\n\n利用二暴露區模式計算員工在洩漏源頭附近的「近場」濃度。\n運用機率性模擬方法進行暴露評估。\n\n\n\n\nWMB單箱室模式 (One-Box Model)：將整個房間視為單一、均勻混合的空間，僅能預測全室平均濃度（遠場濃度）。優點是簡單快速，但無法捕捉洩漏源附近的高濃度區域。\n二暴露區雙箱室模式 (Two-Box Model)：將房間概念化為「遠場」（一般室內空間）和「近場」（圍繞污染源的較小虛擬容積）。此模式能同時預測兩個區域的濃度，對於評估清理洩漏等高風險作業至關重要。\n\n\n\n\n\n確定性方法 (Deterministic Approach)：為每個變數賦予固定單一數值，產生單一預測結果，無法捕捉真實世界中參數的變異性或評估者對其估計值的不確定性。\n機率性方法 (Probabilistic Approach)：為關鍵變數分配統計分佈，將參數的自然變異性與估計值的不確定性納入考量。它產生的是「暴露概況」（由大量可能結果構成的分佈圖），提供對潛在暴露範圍更全面理解。除了量化不確定性外，並為應對措施建立更穩固的科學依據。\n\n\n\n\n\n\n穩態遠場濃度 (CF,SS​)：指系統達到平衡狀態時，污染物生成速率等於移除速率，導致穩定且最高的濃度值。方程式為：CF,SS​= G / Q (G為污染物生成速率，Q為房間整體換氣率)。\n穩態近場濃度 (CN,SS​)：在遠場濃度基礎上疊加近場內源頭的貢獻。方程式為：CN,SS​= CF,SS​ + (G / β) (β為近場的區間氣流交換率)。\n\n進行「最壞情況」的快速計算，使用推算參數：G=1,340 mg/min，Q=28.3 m3/min，β=9.6 m3/min。結果顯示，遠場穩態濃度約為19.2 ppm（超過STEL 15 ppm），近場穩態濃度高達76.0 ppm（顯著超過IDLH 50 ppm）。此初步評估迅速提供了明確的「紅燈」警示，證實為高危險情境。\n\n\n\n本章提出一套系統性暴露評估工作流程，執行WMB模擬的最佳實踐標準，步驟如下：\n\n開始：選擇模擬軟體。\n陳述問題：明確定義評估目標。\n定義情境：收集化學品特性、房間與通風參數、作業流程、勞工位置及防護措施等資訊。\n\n化學品特性：醋酸的物理性質、健康效應及暴露指引。\n房間與通風參數：房間有效容積V為85 m3，換氣率Q為28.3 m3/min。\n作業資訊：清理直徑約2英尺的濃醋酸洩漏物，員工未佩戴呼吸防護具。\n\n新增一項或多項任務：選擇合適模型（雙箱室、恆定生成率模型），並為每個模型變數設定參數。選擇「恆定生成率」是基於洩漏最初15至30分鐘內，蒸發速率相對穩定。\n\n為G（生成速率）和β（近場換氣率）選擇三角分佈模型，將參數估計的不確定性和內在變異性納入模型。\n\n模擬隨機暴露：運行模型產生大量隨機暴露值。\n評估結果：將模擬出的暴露概況與相關限值比較，識別關鍵影響變數。\n建立報告：完整記錄評估過程、參數、結果及結論。\n\n\n\n\n污染物生成速率（G）和近場相關參數（VN​ 與 β）的估算和參數化。\n\n\n\nHummel方程式的應用：採用Hummel方程式估算醋酸從洩漏池的蒸發速率，經修改後可應用於圓形洩漏情境。\n變數參數化：為洩漏直徑和空氣流速這兩個不易精確測量的參數採用三角分佈；醋酸溶液濃度採用均勻分佈。這種做法是機率性模擬的核心，承認並量化輸入數據的不確定性。\nG值分佈的推導：透過蒙地卡羅模擬（運行50,000次計算），得到G值的機率分佈圖，其形狀近似三角分佈（眾數=1330，最小值=810，最大值=1900 mg/min）。此分佈隨後被用作主WMR模型中G值的輸入。\n\n\n\n\n\n計算近場容積 (VN​)：本研究選擇半球體作為近場形狀，直徑為1公尺，體積約為0.26 m3。\n計算近場氣流交換率 (β)：通用公式為β=1/2​⋅FSA⋅s (FSA為近場虛擬邊界未被阻擋的「自由表面積」，s為穿越此表面的平均空氣流速)。對於底部接觸地面的半球體，專用公式為β=π⋅r2⋅s。\nβ值分佈的推導：為現場測量的地板水平空氣流速設定±25%的三角分佈：眾數=9.6，最小值=7.1，最大值=11.9 m3/min。\n\n\n\n\n\n\n\n在運行完整模擬前，進行小規模單次運行並檢視濃度隨時間變化的曲線，確認模型行為符合預期：洩漏後濃度迅速上升，約10至15分鐘內趨於平緩接近穩態值。遠場濃度很快超過STEL，近場濃度迅速突破IDLH。此步驟確認模型設定合理性，並初步印證情境嚴重性。\n\n\n\n\n直方圖分析：10,000次模擬後，30分鐘平均遠場濃度的分佈直方圖顯示，分佈中心（中位數17.3 ppm）已高於STEL（15 ppm），絕大多數結果高於STEL。\n統計詮釋：遠場濃度的第95百分位數為22 ppm，明顯高於STEL。高達78%的模擬情境顯示，30分鐘平均遠場濃度超過STEL。\n\n\n\n\n\n直方圖分析：近場30分鐘平均濃度的模擬結果顯示，其分佈中心（中位數74.6 ppm）遠高於IDLH（50 ppm）。\n統計詮釋：近場的第95百分位數高達99 ppm。100%的模擬結果超過STEL，高達98%的模擬結果超過IDLH。這意味著在洩漏源附近清理的員工幾乎不可避免地暴露於立即致危等級的濃度\n\n\n\n\n綜合遠場與近場的模擬結果，可以得出一個明確的「紅燈」（red light）結論。這個術語由Perry Logan提出，用以描述一種高風險情境，其中預測的第95百分位數暴露遠大於職業暴露限值，且此結論非常穩健，即使合理地改變輸入參數也不會發生實質性改變。\n此處的分析不僅僅是一個技術練習，它揭示了暴露模擬在組織中的一個關鍵作用：作為推動變革的工具。本章提及，最初的模擬分析直接促使該機構制定了新的洩漏應急處理規程。這正是因為模擬所產生的量化結果——如直方圖、百分位數，以及「98%的近場暴露超過IDLH」這樣清晰的結論——為風險溝通提供了客觀且極具說服力的證據。職業衛生師利用這些證據，能有效地將一個定性的擔憂（「這個情況很危險」）轉化為一個定量的風險評估，從而向非技術背景的管理層證明投資於新設備（如應急呼吸器）、強化培訓和修訂安全程序的必要性與急迫性。模型在此扮演了風險管理與組織說服的關鍵角色。\n\n\n\n\n儘管WMR模型功能強大，但仍存在局限性：\n\n均勻混合假設的局限性：WMR模型假設箱室內的空氣是完全均勻混合的。在真實世界中，尤其是在通風不良的空間，污染物可能形成濃度梯度，導致局部熱點。\n穩態假設的局限性：雖然本章使用瞬時模型，但穩態方程式在初期評估中仍扮演角色。然而，許多真實情境並非完全穩態，污染物生成速率可能隨時間變化，例如洩漏液體蒸發面積逐漸縮小。\n參數估計的不確定性：儘管機率性方法能處理不確定性，但輸入分佈的選擇（如三角分佈的範圍）仍基於專家判斷，可能引入偏差。\n非理想氣流模式：模型的準確性依賴於對房間換氣率和近場氣流交換率的合理估計。實際氣流可能受到建築結構、家具、人員移動等因素的影響，導致複雜的湍流模式。\n\n\n\n本章主要採用恆定生成率模型，但實際洩漏情境中，污染物的蒸發速率會隨著洩漏面積的減少而下降。對於長時間洩漏或洩漏液體面積顯著變化的情況，採用「遞減生成率」模型將更為精確。此模型能模擬濃度隨時間的自然衰減，提供更符合實際情況的暴露概況。\n\n\n\n\n本章透過一宗實驗室濃醋酸洩漏事件的重建分析，全面展示了雙箱室均勻混合模式（WMR）與機率性模擬方法的應用。此案例研究強調了以下幾個關鍵點：\n\n分層評估的重要性：從簡單的確定性穩態計算快速識別高風險，到使用複雜的機率性瞬時模擬進行精確的暴露評估，這種分層方法既高效又全面。\n雙箱室模型的優勢：相較於單箱室模型，雙箱室模型能更精確地評估洩漏源附近的「近場」高濃度暴露，這對於評估特定作業（如清理洩漏）的風險至關重要。\n機率性模擬的價值：機率性方法克服了確定性方法的局限性，它能將輸入參數的不確定性和變異性納入考量，產生「暴露概況」而非單一數值，從而提供對潛在暴露範圍更全面和穩健的理解。本案例中98%近場暴露超過IDLH的結論，為風險溝通提供了強有力的科學依據。\n推動決策與變革：模擬結果不僅是技術報告，更是支持職業衛生決策的有力工具。它們能說服管理層投資於必要的工程控制、行政控制和個人防護設備，例如促使該機構制定新的洩漏應急處理規程。"
-  },
-  {
-    "objectID": "docs/web_CH17_Reconstruction-spill.html#事故情境下的暴露模擬",
-    "href": "docs/web_CH17_Reconstruction-spill.html#事故情境下的暴露模擬",
-    "title": "CH17",
-    "section": "",
-    "text": "實驗室濃醋酸洩漏事件為案例，兩名清理員工出現健康效應。最初的評估採用WMB模式，指出醋酸蒸氣濃度可能已達危害等級。於是設立了兩個主要目標：\n\n利用二暴露區模式計算員工在洩漏源頭附近的「近場」濃度。\n運用機率性模擬方法進行暴露評估。\n\n\n\n\nWMB單箱室模式 (One-Box Model)：將整個房間視為單一、均勻混合的空間，僅能預測全室平均濃度（遠場濃度）。優點是簡單快速，但無法捕捉洩漏源附近的高濃度區域。\n二暴露區雙箱室模式 (Two-Box Model)：將房間概念化為「遠場」（一般室內空間）和「近場」（圍繞污染源的較小虛擬容積）。此模式能同時預測兩個區域的濃度，對於評估清理洩漏等高風險作業至關重要。\n\n\n\n\n\n確定性方法 (Deterministic Approach)：為每個變數賦予固定單一數值，產生單一預測結果，無法捕捉真實世界中參數的變異性或評估者對其估計值的不確定性。\n機率性方法 (Probabilistic Approach)：為關鍵變數分配統計分佈，將參數的自然變異性與估計值的不確定性納入考量。它產生的是「暴露概況」（由大量可能結果構成的分佈圖），提供對潛在暴露範圍更全面理解。除了量化不確定性外，並為應對措施建立更穩固的科學依據。"
-  },
-  {
-    "objectID": "docs/web_CH17_Reconstruction-spill.html#初步危害評估穩態方程式快速評估",
-    "href": "docs/web_CH17_Reconstruction-spill.html#初步危害評估穩態方程式快速評估",
-    "title": "CH17",
-    "section": "",
-    "text": "穩態遠場濃度 (CF,SS​)：指系統達到平衡狀態時，污染物生成速率等於移除速率，導致穩定且最高的濃度值。方程式為：CF,SS​= G / Q (G為污染物生成速率，Q為房間整體換氣率)。\n穩態近場濃度 (CN,SS​)：在遠場濃度基礎上疊加近場內源頭的貢獻。方程式為：CN,SS​= CF,SS​ + (G / β) (β為近場的區間氣流交換率)。\n\n進行「最壞情況」的快速計算，使用推算參數：G=1,340 mg/min，Q=28.3 m3/min，β=9.6 m3/min。結果顯示，遠場穩態濃度約為19.2 ppm（超過STEL 15 ppm），近場穩態濃度高達76.0 ppm（顯著超過IDLH 50 ppm）。此初步評估迅速提供了明確的「紅燈」警示，證實為高危險情境。"
-  },
-  {
-    "objectID": "docs/web_CH17_Reconstruction-spill.html#機率性暴露模擬",
-    "href": "docs/web_CH17_Reconstruction-spill.html#機率性暴露模擬",
-    "title": "CH17",
-    "section": "",
-    "text": "本章提出一套系統性暴露評估工作流程，執行WMB模擬的最佳實踐標準，步驟如下：\n\n開始：選擇模擬軟體。\n陳述問題：明確定義評估目標。\n定義情境：收集化學品特性、房間與通風參數、作業流程、勞工位置及防護措施等資訊。\n\n化學品特性：醋酸的物理性質、健康效應及暴露指引。\n房間與通風參數：房間有效容積V為85 m3，換氣率Q為28.3 m3/min。\n作業資訊：清理直徑約2英尺的濃醋酸洩漏物，員工未佩戴呼吸防護具。\n\n新增一項或多項任務：選擇合適模型（雙箱室、恆定生成率模型），並為每個模型變數設定參數。選擇「恆定生成率」是基於洩漏最初15至30分鐘內，蒸發速率相對穩定。\n\n為G（生成速率）和β（近場換氣率）選擇三角分佈模型，將參數估計的不確定性和內在變異性納入模型。\n\n模擬隨機暴露：運行模型產生大量隨機暴露值。\n評估結果：將模擬出的暴露概況與相關限值比較，識別關鍵影響變數。\n建立報告：完整記錄評估過程、參數、結果及結論。"
-  },
-  {
-    "objectID": "docs/web_CH17_Reconstruction-spill.html#二暴露區模型的技術參數估算",
-    "href": "docs/web_CH17_Reconstruction-spill.html#二暴露區模型的技術參數估算",
-    "title": "CH17",
-    "section": "",
-    "text": "污染物生成速率（G）和近場相關參數（VN​ 與 β）的估算和參數化。\n\n\n\nHummel方程式的應用：採用Hummel方程式估算醋酸從洩漏池的蒸發速率，經修改後可應用於圓形洩漏情境。\n變數參數化：為洩漏直徑和空氣流速這兩個不易精確測量的參數採用三角分佈；醋酸溶液濃度採用均勻分佈。這種做法是機率性模擬的核心，承認並量化輸入數據的不確定性。\nG值分佈的推導：透過蒙地卡羅模擬（運行50,000次計算），得到G值的機率分佈圖，其形狀近似三角分佈（眾數=1330，最小值=810，最大值=1900 mg/min）。此分佈隨後被用作主WMR模型中G值的輸入。\n\n\n\n\n\n計算近場容積 (VN​)：本研究選擇半球體作為近場形狀，直徑為1公尺，體積約為0.26 m3。\n計算近場氣流交換率 (β)：通用公式為β=1/2​⋅FSA⋅s (FSA為近場虛擬邊界未被阻擋的「自由表面積」，s為穿越此表面的平均空氣流速)。對於底部接觸地面的半球體，專用公式為β=π⋅r2⋅s。\nβ值分佈的推導：為現場測量的地板水平空氣流速設定±25%的三角分佈：眾數=9.6，最小值=7.1，最大值=11.9 m3/min。"
-  },
-  {
-    "objectID": "docs/web_CH17_Reconstruction-spill.html#暴露概況的模擬分析與詮釋",
-    "href": "docs/web_CH17_Reconstruction-spill.html#暴露概況的模擬分析與詮釋",
-    "title": "CH17",
-    "section": "",
-    "text": "在運行完整模擬前，進行小規模單次運行並檢視濃度隨時間變化的曲線，確認模型行為符合預期：洩漏後濃度迅速上升，約10至15分鐘內趨於平緩接近穩態值。遠場濃度很快超過STEL，近場濃度迅速突破IDLH。此步驟確認模型設定合理性，並初步印證情境嚴重性。\n\n\n\n\n直方圖分析：10,000次模擬後，30分鐘平均遠場濃度的分佈直方圖顯示，分佈中心（中位數17.3 ppm）已高於STEL（15 ppm），絕大多數結果高於STEL。\n統計詮釋：遠場濃度的第95百分位數為22 ppm，明顯高於STEL。高達78%的模擬情境顯示，30分鐘平均遠場濃度超過STEL。\n\n\n\n\n\n直方圖分析：近場30分鐘平均濃度的模擬結果顯示，其分佈中心（中位數74.6 ppm）遠高於IDLH（50 ppm）。\n統計詮釋：近場的第95百分位數高達99 ppm。100%的模擬結果超過STEL，高達98%的模擬結果超過IDLH。這意味著在洩漏源附近清理的員工幾乎不可避免地暴露於立即致危等級的濃度\n\n\n\n\n綜合遠場與近場的模擬結果，可以得出一個明確的「紅燈」（red light）結論。這個術語由Perry Logan提出，用以描述一種高風險情境，其中預測的第95百分位數暴露遠大於職業暴露限值，且此結論非常穩健，即使合理地改變輸入參數也不會發生實質性改變。\n此處的分析不僅僅是一個技術練習，它揭示了暴露模擬在組織中的一個關鍵作用：作為推動變革的工具。本章提及，最初的模擬分析直接促使該機構制定了新的洩漏應急處理規程。這正是因為模擬所產生的量化結果——如直方圖、百分位數，以及「98%的近場暴露超過IDLH」這樣清晰的結論——為風險溝通提供了客觀且極具說服力的證據。職業衛生師利用這些證據，能有效地將一個定性的擔憂（「這個情況很危險」）轉化為一個定量的風險評估，從而向非技術背景的管理層證明投資於新設備（如應急呼吸器）、強化培訓和修訂安全程序的必要性與急迫性。模型在此扮演了風險管理與組織說服的關鍵角色。"
-  },
-  {
-    "objectID": "docs/web_CH17_Reconstruction-spill.html#批判性評估模型假設與真實世界的差距",
-    "href": "docs/web_CH17_Reconstruction-spill.html#批判性評估模型假設與真實世界的差距",
-    "title": "CH17",
-    "section": "",
-    "text": "儘管WMR模型功能強大，但仍存在局限性：\n\n均勻混合假設的局限性：WMR模型假設箱室內的空氣是完全均勻混合的。在真實世界中，尤其是在通風不良的空間，污染物可能形成濃度梯度，導致局部熱點。\n穩態假設的局限性：雖然本章使用瞬時模型，但穩態方程式在初期評估中仍扮演角色。然而，許多真實情境並非完全穩態，污染物生成速率可能隨時間變化，例如洩漏液體蒸發面積逐漸縮小。\n參數估計的不確定性：儘管機率性方法能處理不確定性，但輸入分佈的選擇（如三角分佈的範圍）仍基於專家判斷，可能引入偏差。\n非理想氣流模式：模型的準確性依賴於對房間換氣率和近場氣流交換率的合理估計。實際氣流可能受到建築結構、家具、人員移動等因素的影響，導致複雜的湍流模式。\n\n\n\n本章主要採用恆定生成率模型，但實際洩漏情境中，污染物的蒸發速率會隨著洩漏面積的減少而下降。對於長時間洩漏或洩漏液體面積顯著變化的情況，採用「遞減生成率」模型將更為精確。此模型能模擬濃度隨時間的自然衰減，提供更符合實際情況的暴露概況。"
-  },
-  {
-    "objectID": "docs/web_CH17_Reconstruction-spill.html#結論wmr模型在職業衛生領域的策略性應用價值",
-    "href": "docs/web_CH17_Reconstruction-spill.html#結論wmr模型在職業衛生領域的策略性應用價值",
-    "title": "CH17",
-    "section": "",
-    "text": "本章透過一宗實驗室濃醋酸洩漏事件的重建分析，全面展示了雙箱室均勻混合模式（WMR）與機率性模擬方法的應用。此案例研究強調了以下幾個關鍵點：\n\n分層評估的重要性：從簡單的確定性穩態計算快速識別高風險，到使用複雜的機率性瞬時模擬進行精確的暴露評估，這種分層方法既高效又全面。\n雙箱室模型的優勢：相較於單箱室模型，雙箱室模型能更精確地評估洩漏源附近的「近場」高濃度暴露，這對於評估特定作業（如清理洩漏）的風險至關重要。\n機率性模擬的價值：機率性方法克服了確定性方法的局限性，它能將輸入參數的不確定性和變異性納入考量，產生「暴露概況」而非單一數值，從而提供對潛在暴露範圍更全面和穩健的理解。本案例中98%近場暴露超過IDLH的結論，為風險溝通提供了強有力的科學依據。\n推動決策與變革：模擬結果不僅是技術報告，更是支持職業衛生決策的有力工具。它們能說服管理層投資於必要的工程控制、行政控制和個人防護設備，例如促使該機構制定新的洩漏應急處理規程。"
-  },
-  {
     "objectID": "docs/web_CH18_model-limitation.html",
     "href": "docs/web_CH18_model-limitation.html",
     "title": "CH18",
@@ -2164,139 +1443,6 @@
     "title": "CH18",
     "section": "",
     "text": "數學模型是工業衛生不可或缺的工具，但其有效性高度依賴於使用者對其「適用範圍」與「基本假設」的深刻理解。必須警惕因誤用模型（如WMR、紊流擴散或NF/FF）而導致的錯誤決策。\n與建立一個好模型同樣重要的是，知道如何「主動地」與不同利害關係人溝通模型結果。溝通策略必須根據受眾客製化，並利用視覺化工具將複雜數據轉化為直觀風險資訊。最終目標是增進人們對模型的理解與信任，擴大其應用機會。\n透過穩健的建模結果與主動溝通，即使在暴露測量數據有限的情況下，也能為工程控制提出有效對策，降低危害暴露。本章為工業衛生建模的初學者提供了實用參考，並為模型結果的應用、詮釋與溝通帶來新啟示。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH18_model-limitation.html",
-    "href": "docs/info/Rmd/web_CH18_model-limitation.html",
-    "title": "CH18",
-    "section": "",
-    "text": "所有模型都是「錯的」，但有些是「有用」的。模型是現實的簡化，其價值在於結果「足夠接近現實」以提供決策依據。專業人員必須培養批判性思維，質疑模型假設與現實的一致性。\n\n\n\n模型的適用範圍：模型設計用來解決特定問題的邊界。\n\n模型與輸入參數的基本假設：模型建立時所依賴的前提條件。\n\n\n\n\n\n\n\nWMR模型假設室內空氣「確實」均勻混合，或污染物在多點釋放。\n限制與評估應用：現實中可能存在通風短路導致濃度差異。\n\n\n\n\n忽略物體佔用體積，及假設補充空氣為零濃度。\n\n\n\n\n\n限制與評估應用：此模型不適用於評估非常靠近污染源（如小於10公分）位置的濃度。這是模型數學結構本身的限制，需了解其應用邊界。\n\n\n\n\n用於估算勞工呼吸帶附近化學品的室內濃度梯度，假設污染物在近場（NF）和遠場（FF）內部相對均勻混合。\n\n限制與評估應用：關鍵參數是β（兩場之間的區間氣流交換率）。\n\n實務警訊：若增加模型複雜度所依賴的假設被現實情況嚴重違反（如強力風扇導致全室高度混合），NF/FF模型的準確性可能「低於均勻混合室模型」。\n\n\n\n\n\n3.1 利害關係人識別與分析框架\n3.2 針對不同對象的客製化溝通策略\n\n企業高層領導：使用商業語言，強調投資回報率 (ROI)、商譽、法律責任。報告應包含背景、假設、限制、改善機會及ROI分析的執行摘要。\n\n員工與公眾：直截了當、易於理解的語言，開放雙向溝通。嚴守倫理，不歪曲風險概況。強調已有的防護措施，證明風險已被控制在「合理可行之盡低原則」（ALARP）水平。\n\n政府監管機構：提供完整的原始數據、詳細的方法學、假設與邊界條件，證明合規性。\n\n學術與研究機構：採用更科學的方式，詳述參數、假設、簡化過程，開放同行審查。\n\n3.3 進階視覺化：使用貝氏分析工具直觀溝通風險\n\nExpostats 軟體：採用貝氏決策分析（BDA）詮釋暴露數據，整合專業判斷與數據，即使樣本數小也能計算決策機率。\n\n\n\n\n4.1 模型限制指導溝通\n4.2 將原則融入實務\n建模並非取代採樣，而是作為風險管理計畫的關鍵、前瞻性組成部分。\n\n數學模型的優勢：時間效率高、成本效益好，能提供「早期及時的潛在過度暴露風險警報」，支持「回溯性暴露評估」，並指導採樣策略。\n\n\n\n\n\n數學模型是工業衛生不可或缺的工具，但其有效性高度依賴於使用者對其「適用範圍」與「基本假設」的深刻理解。必須警惕因誤用模型（如WMR、紊流擴散或NF/FF）而導致的錯誤決策。\n\n與建立一個好模型同樣重要的是，知道如何「主動地」與不同利害關係人溝通模型結果。溝通策略必須根據受眾客製化，並利用視覺化工具將複雜數據轉化為直觀風險資訊。最終目標是增進人們對模型的理解與信任，擴大其應用機會。\n\n透過穩健的建模結果與主動溝通，即使在暴露測量數據有限的情況下，也能為工程控制提出有效對策，降低危害暴露。本章為工業衛生建模的初學者提供了實用參考，並為模型結果的應用、詮釋與溝通帶來新啟示。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH18_model-limitation.html#核心概念模型效用與不完美性",
-    "href": "docs/info/Rmd/web_CH18_model-limitation.html#核心概念模型效用與不完美性",
-    "title": "CH18",
-    "section": "",
-    "text": "所有模型都是「錯的」，但有些是「有用」的。模型是現實的簡化，其價值在於結果「足夠接近現實」以提供決策依據。專業人員必須培養批判性思維，質疑模型假設與現實的一致性。\n\n\n\n模型的適用範圍：模型設計用來解決特定問題的邊界。\n\n模型與輸入參數的基本假設：模型建立時所依賴的前提條件。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH18_model-limitation.html#實務陷阱特定模型限制的系統性解析",
-    "href": "docs/info/Rmd/web_CH18_model-limitation.html#實務陷阱特定模型限制的系統性解析",
-    "title": "CH18",
-    "section": "",
-    "text": "WMR模型假設室內空氣「確實」均勻混合，或污染物在多點釋放。\n限制與評估應用：現實中可能存在通風短路導致濃度差異。\n\n\n\n\n忽略物體佔用體積，及假設補充空氣為零濃度。\n\n\n\n\n\n限制與評估應用：此模型不適用於評估非常靠近污染源（如小於10公分）位置的濃度。這是模型數學結構本身的限制，需了解其應用邊界。\n\n\n\n\n用於估算勞工呼吸帶附近化學品的室內濃度梯度，假設污染物在近場（NF）和遠場（FF）內部相對均勻混合。\n\n限制與評估應用：關鍵參數是β（兩場之間的區間氣流交換率）。\n\n實務警訊：若增加模型複雜度所依賴的假設被現實情況嚴重違反（如強力風扇導致全室高度混合），NF/FF模型的準確性可能「低於均勻混合室模型」。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH18_model-limitation.html#模型結果的主動與策略性溝通",
-    "href": "docs/info/Rmd/web_CH18_model-limitation.html#模型結果的主動與策略性溝通",
-    "title": "CH18",
-    "section": "",
-    "text": "3.1 利害關係人識別與分析框架\n3.2 針對不同對象的客製化溝通策略\n\n企業高層領導：使用商業語言，強調投資回報率 (ROI)、商譽、法律責任。報告應包含背景、假設、限制、改善機會及ROI分析的執行摘要。\n\n員工與公眾：直截了當、易於理解的語言，開放雙向溝通。嚴守倫理，不歪曲風險概況。強調已有的防護措施，證明風險已被控制在「合理可行之盡低原則」（ALARP）水平。\n\n政府監管機構：提供完整的原始數據、詳細的方法學、假設與邊界條件，證明合規性。\n\n學術與研究機構：採用更科學的方式，詳述參數、假設、簡化過程，開放同行審查。\n\n3.3 進階視覺化：使用貝氏分析工具直觀溝通風險\n\nExpostats 軟體：採用貝氏決策分析（BDA）詮釋暴露數據，整合專業判斷與數據，即使樣本數小也能計算決策機率。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH18_model-limitation.html#綜合與專業應用",
-    "href": "docs/info/Rmd/web_CH18_model-limitation.html#綜合與專業應用",
-    "title": "CH18",
-    "section": "",
-    "text": "4.1 模型限制指導溝通\n4.2 將原則融入實務\n建模並非取代採樣，而是作為風險管理計畫的關鍵、前瞻性組成部分。\n\n數學模型的優勢：時間效率高、成本效益好，能提供「早期及時的潛在過度暴露風險警報」，支持「回溯性暴露評估」，並指導採樣策略。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH18_model-limitation.html#結論",
-    "href": "docs/info/Rmd/web_CH18_model-limitation.html#結論",
-    "title": "CH18",
-    "section": "",
-    "text": "數學模型是工業衛生不可或缺的工具，但其有效性高度依賴於使用者對其「適用範圍」與「基本假設」的深刻理解。必須警惕因誤用模型（如WMR、紊流擴散或NF/FF）而導致的錯誤決策。\n\n與建立一個好模型同樣重要的是，知道如何「主動地」與不同利害關係人溝通模型結果。溝通策略必須根據受眾客製化，並利用視覺化工具將複雜數據轉化為直觀風險資訊。最終目標是增進人們對模型的理解與信任，擴大其應用機會。\n\n透過穩健的建模結果與主動溝通，即使在暴露測量數據有限的情況下，也能為工程控制提出有效對策，降低危害暴露。本章為工業衛生建模的初學者提供了實用參考，並為模型結果的應用、詮釋與溝通帶來新啟示。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH17_Reconstruction-spill.html",
-    "href": "docs/info/Rmd/web_CH17_Reconstruction-spill.html",
-    "title": "CH17",
-    "section": "",
-    "text": "實驗室濃醋酸洩漏事件為案例，兩名清理員工出現健康效應。最初的評估採用WMB模式，指出醋酸蒸氣濃度可能已達危害等級。於是設立了兩個主要目標：\n\n利用二暴露區模式計算員工在洩漏源頭附近的「近場」濃度。\n\n運用機率性模擬方法進行暴露評估。\n\n\n\n\nWMB單箱室模式 (One-Box Model)：將整個房間視為單一、均勻混合的空間，僅能預測全室平均濃度（遠場濃度）。優點是簡單快速，但無法捕捉洩漏源附近的高濃度區域。\n\n二暴露區雙箱室模式 (Two-Box Model)：將房間概念化為「遠場」（一般室內空間）和「近場」（圍繞污染源的較小虛擬容積）。此模式能同時預測兩個區域的濃度，對於評估清理洩漏等高風險作業至關重要。\n\n\n\n\n\n確定性方法 (Deterministic Approach)：為每個變數賦予固定單一數值，產生單一預測結果，無法捕捉真實世界中參數的變異性或評估者對其估計值的不確定性。\n\n機率性方法 (Probabilistic Approach)：為關鍵變數分配統計分佈，將參數的自然變異性與估計值的不確定性納入考量。它產生的是「暴露概況」（由大量可能結果構成的分佈圖），提供對潛在暴露範圍更全面理解。除了量化不確定性外，並為應對措施建立更穩固的科學依據。\n\n\n\n\n\n\n穩態遠場濃度 (CF,SS​)：指系統達到平衡狀態時，污染物生成速率等於移除速率，導致穩定且最高的濃度值。方程式為：CF,SS​ = G / Q (G為污染物生成速率，Q為房間整體換氣率)。\n\n穩態近場濃度 (CN,SS​)：在遠場濃度基礎上疊加近場內源頭的貢獻。方程式為：CN,SS​ = CF,SS​ + (G / β) (β為近場的區間氣流交換率)。\n\n進行「最壞情況」的快速計算，使用推算參數：G=1,340 mg/min，Q=28.3 m3/min，β=9.6 m3/min。結果顯示，遠場穩態濃度約為19.2 ppm（超過STEL 15 ppm），近場穩態濃度高達76.0 ppm（顯著超過IDLH 50 ppm）。此初步評估迅速提供了明確的「紅燈」警示，證實為高危險情境。\n\n\n\n本章提出一套系統性暴露評估工作流程，執行WMB模擬的最佳實踐標準，步驟如下：\n\n開始：選擇模擬軟體。\n\n陳述問題：明確定義評估目標。\n\n定義情境：收集化學品特性、房間與通風參數、作業流程、勞工位置及防護措施等資訊。\n\n化學品特性：醋酸的物理性質、健康效應及暴露指引。\n\n房間與通風參數：房間有效容積V為85 m3，換氣率Q為28.3 m3/min。\n\n作業資訊：清理直徑約2英尺的濃醋酸洩漏物，員工未佩戴呼吸防護具。\n\n\n新增一項或多項任務：選擇合適模型（雙箱室、恆定生成率模型），並為每個模型變數設定參數。選擇「恆定生成率」是基於洩漏最初15至30分鐘內，蒸發速率相對穩定。\n\n為G（生成速率）和β（近場換氣率）選擇三角分佈模型，將參數估計的不確定性和內在變異性納入模型。\n\n\n模擬隨機暴露：運行模型產生大量隨機暴露值。\n\n評估結果：將模擬出的暴露概況與相關限值比較，識別關鍵影響變數。\n\n建立報告：完整記錄評估過程、參數、結果及結論。\n\n\n\n\n污染物生成速率（G）和近場相關參數（VN​ 與 β）的估算和參數化。\n\n\n\nHummel方程式的應用：採用Hummel方程式估算醋酸從洩漏池的蒸發速率，經修改後可應用於圓形洩漏情境。\n\n變數參數化：為洩漏直徑和空氣流速這兩個不易精確測量的參數採用三角分佈；醋酸溶液濃度採用均勻分佈。這種做法是機率性模擬的核心，承認並量化輸入數據的不確定性。\n\nG值分佈的推導：透過蒙地卡羅模擬（運行50,000次計算），得到G值的機率分佈圖，其形狀近似三角分佈（眾數=1330，最小值=810，最大值=1900 mg/min）。此分佈隨後被用作主WMR模型中G值的輸入。\n\n\n\n\n\n計算近場容積 (VN​)：本研究選擇半球體作為近場形狀，直徑為1公尺，體積約為0.26 m3。\n\n計算近場氣流交換率 (β)：通用公式為β=1/2​⋅FSA⋅s (FSA為近場虛擬邊界未被阻擋的「自由表面積」，s為穿越此表面的平均空氣流速)。對於底部接觸地面的半球體，專用公式為β=π⋅r2⋅s。\n\nβ值分佈的推導：為現場測量的地板水平空氣流速設定±25%的三角分佈：眾數=9.6，最小值=7.1，最大值=11.9 m3/min。\n\n\n\n\n\n\n\n在運行完整模擬前，進行小規模單次運行並檢視濃度隨時間變化的曲線，確認模型行為符合預期：洩漏後濃度迅速上升，約10至15分鐘內趨於平緩接近穩態值。遠場濃度很快超過STEL，近場濃度迅速突破IDLH。此步驟確認模型設定合理性，並初步印證情境嚴重性。\n\n\n\n\n直方圖分析：10,000次模擬後，30分鐘平均遠場濃度的分佈直方圖顯示，分佈中心（中位數17.3 ppm）已高於STEL（15 ppm），絕大多數結果高於STEL。\n\n統計詮釋：遠場濃度的第95百分位數為22 ppm，明顯高於STEL。高達78%的模擬情境顯示，30分鐘平均遠場濃度超過STEL。\n\n\n\n\n\n直方圖分析：近場30分鐘平均濃度的模擬結果顯示，其分佈中心（中位數74.6 ppm）遠高於IDLH（50 ppm）。\n\n統計詮釋：近場的第95百分位數高達99 ppm。100%的模擬結果超過STEL，高達98%的模擬結果超過IDLH。這意味著在洩漏源附近清理的員工幾乎不可避免地暴露於立即致危等級的濃度\n\n\n\n\n綜合遠場與近場的模擬結果，可以得出一個明確的「紅燈」（red light）結論。這個術語由Perry Logan提出，用以描述一種高風險情境，其中預測的第95百分位數暴露遠大於職業暴露限值，且此結論非常穩健，即使合理地改變輸入參數也不會發生實質性改變。\n此處的分析不僅僅是一個技術練習，它揭示了暴露模擬在組織中的一個關鍵作用：作為推動變革的工具。本章提及，最初的模擬分析直接促使該機構制定了新的洩漏應急處理規程。這正是因為模擬所產生的量化結果——如直方圖、百分位數，以及「98%的近場暴露超過IDLH」這樣清晰的結論——為風險溝通提供了客觀且極具說服力的證據。職業衛生師利用這些證據，能有效地將一個定性的擔憂（「這個情況很危險」）轉化為一個定量的風險評估，從而向非技術背景的管理層證明投資於新設備（如應急呼吸器）、強化培訓和修訂安全程序的必要性與急迫性。模型在此扮演了風險管理與組織說服的關鍵角色。\n\n\n\n\n儘管WMR模型功能強大，但仍存在局限性：\n\n均勻混合假設的局限性：WMR模型假設箱室內的空氣是完全均勻混合的。在真實世界中，尤其是在通風不良的空間，污染物可能形成濃度梯度，導致局部熱點。\n\n穩態假設的局限性：雖然本章使用瞬時模型，但穩態方程式在初期評估中仍扮演角色。然而，許多真實情境並非完全穩態，污染物生成速率可能隨時間變化，例如洩漏液體蒸發面積逐漸縮小。\n\n參數估計的不確定性：儘管機率性方法能處理不確定性，但輸入分佈的選擇（如三角分佈的範圍）仍基於專家判斷，可能引入偏差。\n\n非理想氣流模式：模型的準確性依賴於對房間換氣率和近場氣流交換率的合理估計。實際氣流可能受到建築結構、家具、人員移動等因素的影響，導致複雜的湍流模式。\n\n\n\n本章主要採用恆定生成率模型，但實際洩漏情境中，污染物的蒸發速率會隨著洩漏面積的減少而下降。對於長時間洩漏或洩漏液體面積顯著變化的情況，採用「遞減生成率」模型將更為精確。此模型能模擬濃度隨時間的自然衰減，提供更符合實際情況的暴露概況。\n\n\n\n\n本章透過一宗實驗室濃醋酸洩漏事件的重建分析，全面展示了雙箱室均勻混合模式（WMR）與機率性模擬方法的應用。此案例研究強調了以下幾個關鍵點：\n\n分層評估的重要性：從簡單的確定性穩態計算快速識別高風險，到使用複雜的機率性瞬時模擬進行精確的暴露評估，這種分層方法既高效又全面。\n\n雙箱室模型的優勢：相較於單箱室模型，雙箱室模型能更精確地評估洩漏源附近的「近場」高濃度暴露，這對於評估特定作業（如清理洩漏）的風險至關重要。\n\n機率性模擬的價值：機率性方法克服了確定性方法的局限性，它能將輸入參數的不確定性和變異性納入考量，產生「暴露概況」而非單一數值，從而提供對潛在暴露範圍更全面和穩健的理解。本案例中98%近場暴露超過IDLH的結論，為風險溝通提供了強有力的科學依據。\n\n推動決策與變革：模擬結果不僅是技術報告，更是支持職業衛生決策的有力工具。它們能說服管理層投資於必要的工程控制、行政控制和個人防護設備，例如促使該機構制定新的洩漏應急處理規程。\n\n總而言之，WMR模型結合機率性模擬不僅是重建歷史暴露情境的利器，更是職業衛生專業人員在風險管理、控制設計和政策制定中不可或缺的策略性工具。它使得職業衛生師能更科學、更具說服力地量化風險，從而有效保護勞工健康與安全。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH17_Reconstruction-spill.html#事故情境下的暴露模擬",
-    "href": "docs/info/Rmd/web_CH17_Reconstruction-spill.html#事故情境下的暴露模擬",
-    "title": "CH17",
-    "section": "",
-    "text": "實驗室濃醋酸洩漏事件為案例，兩名清理員工出現健康效應。最初的評估採用WMB模式，指出醋酸蒸氣濃度可能已達危害等級。於是設立了兩個主要目標：\n\n利用二暴露區模式計算員工在洩漏源頭附近的「近場」濃度。\n\n運用機率性模擬方法進行暴露評估。\n\n\n\n\nWMB單箱室模式 (One-Box Model)：將整個房間視為單一、均勻混合的空間，僅能預測全室平均濃度（遠場濃度）。優點是簡單快速，但無法捕捉洩漏源附近的高濃度區域。\n\n二暴露區雙箱室模式 (Two-Box Model)：將房間概念化為「遠場」（一般室內空間）和「近場」（圍繞污染源的較小虛擬容積）。此模式能同時預測兩個區域的濃度，對於評估清理洩漏等高風險作業至關重要。\n\n\n\n\n\n確定性方法 (Deterministic Approach)：為每個變數賦予固定單一數值，產生單一預測結果，無法捕捉真實世界中參數的變異性或評估者對其估計值的不確定性。\n\n機率性方法 (Probabilistic Approach)：為關鍵變數分配統計分佈，將參數的自然變異性與估計值的不確定性納入考量。它產生的是「暴露概況」（由大量可能結果構成的分佈圖），提供對潛在暴露範圍更全面理解。除了量化不確定性外，並為應對措施建立更穩固的科學依據。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH17_Reconstruction-spill.html#初步危害評估穩態方程式快速評估",
-    "href": "docs/info/Rmd/web_CH17_Reconstruction-spill.html#初步危害評估穩態方程式快速評估",
-    "title": "CH17",
-    "section": "",
-    "text": "穩態遠場濃度 (CF,SS​)：指系統達到平衡狀態時，污染物生成速率等於移除速率，導致穩定且最高的濃度值。方程式為：CF,SS​ = G / Q (G為污染物生成速率，Q為房間整體換氣率)。\n\n穩態近場濃度 (CN,SS​)：在遠場濃度基礎上疊加近場內源頭的貢獻。方程式為：CN,SS​ = CF,SS​ + (G / β) (β為近場的區間氣流交換率)。\n\n進行「最壞情況」的快速計算，使用推算參數：G=1,340 mg/min，Q=28.3 m3/min，β=9.6 m3/min。結果顯示，遠場穩態濃度約為19.2 ppm（超過STEL 15 ppm），近場穩態濃度高達76.0 ppm（顯著超過IDLH 50 ppm）。此初步評估迅速提供了明確的「紅燈」警示，證實為高危險情境。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH17_Reconstruction-spill.html#機率性暴露模擬",
-    "href": "docs/info/Rmd/web_CH17_Reconstruction-spill.html#機率性暴露模擬",
-    "title": "CH17",
-    "section": "",
-    "text": "本章提出一套系統性暴露評估工作流程，執行WMB模擬的最佳實踐標準，步驟如下：\n\n開始：選擇模擬軟體。\n\n陳述問題：明確定義評估目標。\n\n定義情境：收集化學品特性、房間與通風參數、作業流程、勞工位置及防護措施等資訊。\n\n化學品特性：醋酸的物理性質、健康效應及暴露指引。\n\n房間與通風參數：房間有效容積V為85 m3，換氣率Q為28.3 m3/min。\n\n作業資訊：清理直徑約2英尺的濃醋酸洩漏物，員工未佩戴呼吸防護具。\n\n\n新增一項或多項任務：選擇合適模型（雙箱室、恆定生成率模型），並為每個模型變數設定參數。選擇「恆定生成率」是基於洩漏最初15至30分鐘內，蒸發速率相對穩定。\n\n為G（生成速率）和β（近場換氣率）選擇三角分佈模型，將參數估計的不確定性和內在變異性納入模型。\n\n\n模擬隨機暴露：運行模型產生大量隨機暴露值。\n\n評估結果：將模擬出的暴露概況與相關限值比較，識別關鍵影響變數。\n\n建立報告：完整記錄評估過程、參數、結果及結論。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH17_Reconstruction-spill.html#二暴露區模型的技術參數估算",
-    "href": "docs/info/Rmd/web_CH17_Reconstruction-spill.html#二暴露區模型的技術參數估算",
-    "title": "CH17",
-    "section": "",
-    "text": "污染物生成速率（G）和近場相關參數（VN​ 與 β）的估算和參數化。\n\n\n\nHummel方程式的應用：採用Hummel方程式估算醋酸從洩漏池的蒸發速率，經修改後可應用於圓形洩漏情境。\n\n變數參數化：為洩漏直徑和空氣流速這兩個不易精確測量的參數採用三角分佈；醋酸溶液濃度採用均勻分佈。這種做法是機率性模擬的核心，承認並量化輸入數據的不確定性。\n\nG值分佈的推導：透過蒙地卡羅模擬（運行50,000次計算），得到G值的機率分佈圖，其形狀近似三角分佈（眾數=1330，最小值=810，最大值=1900 mg/min）。此分佈隨後被用作主WMR模型中G值的輸入。\n\n\n\n\n\n計算近場容積 (VN​)：本研究選擇半球體作為近場形狀，直徑為1公尺，體積約為0.26 m3。\n\n計算近場氣流交換率 (β)：通用公式為β=1/2​⋅FSA⋅s (FSA為近場虛擬邊界未被阻擋的「自由表面積」，s為穿越此表面的平均空氣流速)。對於底部接觸地面的半球體，專用公式為β=π⋅r2⋅s。\n\nβ值分佈的推導：為現場測量的地板水平空氣流速設定±25%的三角分佈：眾數=9.6，最小值=7.1，最大值=11.9 m3/min。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH17_Reconstruction-spill.html#暴露概況的模擬分析與詮釋",
-    "href": "docs/info/Rmd/web_CH17_Reconstruction-spill.html#暴露概況的模擬分析與詮釋",
-    "title": "CH17",
-    "section": "",
-    "text": "在運行完整模擬前，進行小規模單次運行並檢視濃度隨時間變化的曲線，確認模型行為符合預期：洩漏後濃度迅速上升，約10至15分鐘內趨於平緩接近穩態值。遠場濃度很快超過STEL，近場濃度迅速突破IDLH。此步驟確認模型設定合理性，並初步印證情境嚴重性。\n\n\n\n\n直方圖分析：10,000次模擬後，30分鐘平均遠場濃度的分佈直方圖顯示，分佈中心（中位數17.3 ppm）已高於STEL（15 ppm），絕大多數結果高於STEL。\n\n統計詮釋：遠場濃度的第95百分位數為22 ppm，明顯高於STEL。高達78%的模擬情境顯示，30分鐘平均遠場濃度超過STEL。\n\n\n\n\n\n直方圖分析：近場30分鐘平均濃度的模擬結果顯示，其分佈中心（中位數74.6 ppm）遠高於IDLH（50 ppm）。\n\n統計詮釋：近場的第95百分位數高達99 ppm。100%的模擬結果超過STEL，高達98%的模擬結果超過IDLH。這意味著在洩漏源附近清理的員工幾乎不可避免地暴露於立即致危等級的濃度\n\n\n\n\n綜合遠場與近場的模擬結果，可以得出一個明確的「紅燈」（red light）結論。這個術語由Perry Logan提出，用以描述一種高風險情境，其中預測的第95百分位數暴露遠大於職業暴露限值，且此結論非常穩健，即使合理地改變輸入參數也不會發生實質性改變。\n此處的分析不僅僅是一個技術練習，它揭示了暴露模擬在組織中的一個關鍵作用：作為推動變革的工具。本章提及，最初的模擬分析直接促使該機構制定了新的洩漏應急處理規程。這正是因為模擬所產生的量化結果——如直方圖、百分位數，以及「98%的近場暴露超過IDLH」這樣清晰的結論——為風險溝通提供了客觀且極具說服力的證據。職業衛生師利用這些證據，能有效地將一個定性的擔憂（「這個情況很危險」）轉化為一個定量的風險評估，從而向非技術背景的管理層證明投資於新設備（如應急呼吸器）、強化培訓和修訂安全程序的必要性與急迫性。模型在此扮演了風險管理與組織說服的關鍵角色。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH17_Reconstruction-spill.html#批判性評估模型假設與真實世界的差距",
-    "href": "docs/info/Rmd/web_CH17_Reconstruction-spill.html#批判性評估模型假設與真實世界的差距",
-    "title": "CH17",
-    "section": "",
-    "text": "儘管WMR模型功能強大，但仍存在局限性：\n\n均勻混合假設的局限性：WMR模型假設箱室內的空氣是完全均勻混合的。在真實世界中，尤其是在通風不良的空間，污染物可能形成濃度梯度，導致局部熱點。\n\n穩態假設的局限性：雖然本章使用瞬時模型，但穩態方程式在初期評估中仍扮演角色。然而，許多真實情境並非完全穩態，污染物生成速率可能隨時間變化，例如洩漏液體蒸發面積逐漸縮小。\n\n參數估計的不確定性：儘管機率性方法能處理不確定性，但輸入分佈的選擇（如三角分佈的範圍）仍基於專家判斷，可能引入偏差。\n\n非理想氣流模式：模型的準確性依賴於對房間換氣率和近場氣流交換率的合理估計。實際氣流可能受到建築結構、家具、人員移動等因素的影響，導致複雜的湍流模式。\n\n\n\n本章主要採用恆定生成率模型，但實際洩漏情境中，污染物的蒸發速率會隨著洩漏面積的減少而下降。對於長時間洩漏或洩漏液體面積顯著變化的情況，採用「遞減生成率」模型將更為精確。此模型能模擬濃度隨時間的自然衰減，提供更符合實際情況的暴露概況。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH17_Reconstruction-spill.html#結論wmr模型在職業衛生領域的策略性應用價值",
-    "href": "docs/info/Rmd/web_CH17_Reconstruction-spill.html#結論wmr模型在職業衛生領域的策略性應用價值",
-    "title": "CH17",
-    "section": "",
-    "text": "本章透過一宗實驗室濃醋酸洩漏事件的重建分析，全面展示了雙箱室均勻混合模式（WMR）與機率性模擬方法的應用。此案例研究強調了以下幾個關鍵點：\n\n分層評估的重要性：從簡單的確定性穩態計算快速識別高風險，到使用複雜的機率性瞬時模擬進行精確的暴露評估，這種分層方法既高效又全面。\n\n雙箱室模型的優勢：相較於單箱室模型，雙箱室模型能更精確地評估洩漏源附近的「近場」高濃度暴露，這對於評估特定作業（如清理洩漏）的風險至關重要。\n\n機率性模擬的價值：機率性方法克服了確定性方法的局限性，它能將輸入參數的不確定性和變異性納入考量，產生「暴露概況」而非單一數值，從而提供對潛在暴露範圍更全面和穩健的理解。本案例中98%近場暴露超過IDLH的結論，為風險溝通提供了強有力的科學依據。\n\n推動決策與變革：模擬結果不僅是技術報告，更是支持職業衛生決策的有力工具。它們能說服管理層投資於必要的工程控制、行政控制和個人防護設備，例如促使該機構制定新的洩漏應急處理規程。\n\n總而言之，WMR模型結合機率性模擬不僅是重建歷史暴露情境的利器，更是職業衛生專業人員在風險管理、控制設計和政策制定中不可或缺的策略性工具。它使得職業衛生師能更科學、更具說服力地量化風險，從而有效保護勞工健康與安全。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH19_Feeding-models.html",
-    "href": "docs/info/Rmd/web_CH19_Feeding-models.html",
-    "title": "CH19",
-    "section": "",
-    "text": "這篇文章探討了暴露評估模式在工業衛生領域的應用，特別是關於「生成速率(G)」這個最難估計的參數。\n\n\n\n模式的價值與挑戰： 物理化學模式能有效預測空氣中有毒物質濃度，但工業衛生師因難以提供準確的輸入數據（尤其是生成速率G）而應用不足。\n\n雙區域模式： 以雙區域近場/遠場(NF/FF)模式為例，解釋了呼吸帶/近場體積(BZ/NF)、生成速率(G)和通風/移除機制(β, Q)這三大輸入參數。\n\n\n\n\n\n「以數據換取保守性」原則： 在數據有限時，透過採取保守假設（例如高估G值、低估通風）來初步評估風險，若仍低於容許限值則可判定安全。若超出則需進一步量測。\n\n腔體研究： 最準確的實證方法，透過在受控環境下測量穩態濃度、通風率和區域間交換率，反推出G值。文中還介紹了半衰期計算來確定穩態時間。\n\n實驗案例： 透過「洩漏的腔體」和「消失的殺菌劑」兩個案例，說明模式不僅是預測工具，更是診斷工具，能揭示未知的物理化學機制（如沉降效應和表面介導降解）。\n\n\n\n\n\n質量損失法： 直接測量化學品蒸發時的重量損失。\n\n質量平衡法： 稱量塗佈材料使用前後的重量差來量化釋放量。\n\n示蹤氣體法： 利用示蹤氣體衰減曲線計算換氣率。\n\n\n\n\n生成速率(G)是模式評估的最大挑戰。文章提供了一套層次分明的策略框架，從保守性估算、高精度的腔體研究，到實用的簡易實驗方法，旨在幫助工業衛生師更有信心地應用暴露評估模式，做出更準確的判斷。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH19_Feeding-models.html#核心概念",
-    "href": "docs/info/Rmd/web_CH19_Feeding-models.html#核心概念",
-    "title": "CH19",
-    "section": "",
-    "text": "模式的價值與挑戰： 物理化學模式能有效預測空氣中有毒物質濃度，但工業衛生師因難以提供準確的輸入數據（尤其是生成速率G）而應用不足。\n\n雙區域模式： 以雙區域近場/遠場(NF/FF)模式為例，解釋了呼吸帶/近場體積(BZ/NF)、生成速率(G)和通風/移除機制(β, Q)這三大輸入參數。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH19_Feeding-models.html#參數估算策略",
-    "href": "docs/info/Rmd/web_CH19_Feeding-models.html#參數估算策略",
-    "title": "CH19",
-    "section": "",
-    "text": "「以數據換取保守性」原則： 在數據有限時，透過採取保守假設（例如高估G值、低估通風）來初步評估風險，若仍低於容許限值則可判定安全。若超出則需進一步量測。\n\n腔體研究： 最準確的實證方法，透過在受控環境下測量穩態濃度、通風率和區域間交換率，反推出G值。文中還介紹了半衰期計算來確定穩態時間。\n\n實驗案例： 透過「洩漏的腔體」和「消失的殺菌劑」兩個案例，說明模式不僅是預測工具，更是診斷工具，能揭示未知的物理化學機制（如沉降效應和表面介導降解）。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH19_Feeding-models.html#簡易方法學",
-    "href": "docs/info/Rmd/web_CH19_Feeding-models.html#簡易方法學",
-    "title": "CH19",
-    "section": "",
-    "text": "質量損失法： 直接測量化學品蒸發時的重量損失。\n\n質量平衡法： 稱量塗佈材料使用前後的重量差來量化釋放量。\n\n示蹤氣體法： 利用示蹤氣體衰減曲線計算換氣率。"
-  },
-  {
-    "objectID": "docs/info/Rmd/web_CH19_Feeding-models.html#結論",
-    "href": "docs/info/Rmd/web_CH19_Feeding-models.html#結論",
-    "title": "CH19",
-    "section": "",
-    "text": "生成速率(G)是模式評估的最大挑戰。文章提供了一套層次分明的策略框架，從保守性估算、高精度的腔體研究，到實用的簡易實驗方法，旨在幫助工業衛生師更有信心地應用暴露評估模式，做出更準確的判斷。"
   },
   {
     "objectID": "docs/CH18.html",
@@ -2380,56 +1526,56 @@
     "href": "web_CH17_Reconstruction-spill.html",
     "title": "CH17",
     "section": "",
-    "text": "實驗室濃醋酸洩漏事件為案例，兩名清理員工出現健康效應。最初的評估採用WMB模式，指出醋酸蒸氣濃度可能已達危害等級。於是設立了兩個主要目標：\n\n利用二暴露區模式計算員工在洩漏源頭附近的「近場」濃度。\n運用機率性模擬方法進行暴露評估。\n\n\n\n\nWMB單箱室模式 (One-Box Model)：將整個房間視為單一、均勻混合的空間，僅能預測全室平均濃度（遠場濃度）。優點是簡單快速，但無法捕捉洩漏源附近的高濃度區域。\n二暴露區雙箱室模式 (Two-Box Model)：將房間概念化為「遠場」（一般室內空間）和「近場」（圍繞污染源的較小虛擬容積）。此模式能同時預測兩個區域的濃度，對於評估清理洩漏等高風險作業至關重要。\n\n\n\n\n\n確定性方法 (Deterministic Approach)：為每個變數賦予固定單一數值，產生單一預測結果，無法捕捉真實世界中參數的變異性或評估者對其估計值的不確定性。\n機率性方法 (Probabilistic Approach)：為關鍵變數分配統計分佈，將參數的自然變異性與估計值的不確定性納入考量。它產生的是「暴露概況」（由大量可能結果構成的分佈圖），提供對潛在暴露範圍更全面理解。除了量化不確定性外，並為應對措施建立更穩固的科學依據。\n\n\n\n\n\n\n穩態遠場濃度 (CF,SS​)：指系統達到平衡狀態時，污染物生成速率等於移除速率，導致穩定且最高的濃度值。方程式為：CF,SS​= G / Q (G為污染物生成速率，Q為房間整體換氣率)。\n穩態近場濃度 (CN,SS​)：在遠場濃度基礎上疊加近場內源頭的貢獻。方程式為：CN,SS​= CF,SS​ + (G / β) (β為近場的區間氣流交換率)。\n\n進行「最壞情況」的快速計算，使用推算參數：G=1,340 mg/min，Q=28.3 m3/min，β=9.6 m3/min。結果顯示，遠場穩態濃度約為19.2 ppm（超過STEL 15 ppm），近場穩態濃度高達76.0 ppm（顯著超過IDLH 50 ppm）。此初步評估迅速提供了明確的「紅燈」警示，證實為高危險情境。\n\n\n\n本章提出一套系統性暴露評估工作流程，執行WMB模擬的最佳實踐標準，步驟如下：\n\n開始：選擇模擬軟體。\n陳述問題：明確定義評估目標。\n定義情境：收集化學品特性、房間與通風參數、作業流程、勞工位置及防護措施等資訊。\n\n化學品特性：醋酸的物理性質、健康效應及暴露指引。\n房間與通風參數：房間有效容積V為85 m3，換氣率Q為28.3 m3/min。\n作業資訊：清理直徑約2英尺的濃醋酸洩漏物，員工未佩戴呼吸防護具。\n\n新增一項或多項任務：選擇合適模型（雙箱室、恆定生成率模型），並為每個模型變數設定參數。選擇「恆定生成率」是基於洩漏最初15至30分鐘內，蒸發速率相對穩定。\n\n為G（生成速率）和β（近場換氣率）選擇三角分佈模型，將參數估計的不確定性和內在變異性納入模型。\n\n模擬隨機暴露：運行模型產生大量隨機暴露值。\n評估結果：將模擬出的暴露概況與相關限值比較，識別關鍵影響變數。\n建立報告：完整記錄評估過程、參數、結果及結論。\n\n\n\n\n污染物生成速率（G）和近場相關參數（VN​ 與 β）的估算和參數化。\n\n\n\nHummel方程式的應用：採用Hummel方程式估算醋酸從洩漏池的蒸發速率，經修改後可應用於圓形洩漏情境。\n變數參數化：為洩漏直徑和空氣流速這兩個不易精確測量的參數採用三角分佈；醋酸溶液濃度採用均勻分佈。這種做法是機率性模擬的核心，承認並量化輸入數據的不確定性。\nG值分佈的推導：透過蒙地卡羅模擬（運行50,000次計算），得到G值的機率分佈圖，其形狀近似三角分佈（眾數=1330，最小值=810，最大值=1900 mg/min）。此分佈隨後被用作主WMR模型中G值的輸入。\n\n\n\n\n\n計算近場容積 (VN​)：本研究選擇半球體作為近場形狀，直徑為1公尺，體積約為0.26 m3。\n計算近場氣流交換率 (β)：通用公式為β=1/2​⋅FSA⋅s (FSA為近場虛擬邊界未被阻擋的「自由表面積」，s為穿越此表面的平均空氣流速)。對於底部接觸地面的半球體，專用公式為β=π⋅r2⋅s。\nβ值分佈的推導：為現場測量的地板水平空氣流速設定±25%的三角分佈：眾數=9.6，最小值=7.1，最大值=11.9 m3/min。\n\n\n\n\n\n\n\n在運行完整模擬前，進行小規模單次運行並檢視濃度隨時間變化的曲線，確認模型行為符合預期：洩漏後濃度迅速上升，約10至15分鐘內趨於平緩接近穩態值。遠場濃度很快超過STEL，近場濃度迅速突破IDLH。此步驟確認模型設定合理性，並初步印證情境嚴重性。\n\n\n\n\n直方圖分析：10,000次模擬後，30分鐘平均遠場濃度的分佈直方圖顯示，分佈中心（中位數17.3 ppm）已高於STEL（15 ppm），絕大多數結果高於STEL。\n統計詮釋：遠場濃度的第95百分位數為22 ppm，明顯高於STEL。高達78%的模擬情境顯示，30分鐘平均遠場濃度超過STEL。\n\n\n\n\n\n直方圖分析：近場30分鐘平均濃度的模擬結果顯示，其分佈中心（中位數74.6 ppm）遠高於IDLH（50 ppm）。\n統計詮釋：近場的第95百分位數高達99 ppm。100%的模擬結果超過STEL，高達98%的模擬結果超過IDLH。這意味著在洩漏源附近清理的員工幾乎不可避免地暴露於立即致危等級的濃度\n\n\n\n\n綜合遠場與近場的模擬結果，可以得出一個明確的「紅燈」（red light）結論。這個術語由Perry Logan提出，用以描述一種高風險情境，其中預測的第95百分位數暴露遠大於職業暴露限值，且此結論非常穩健，即使合理地改變輸入參數也不會發生實質性改變。\n此處的分析不僅僅是一個技術練習，它揭示了暴露模擬在組織中的一個關鍵作用：作為推動變革的工具。本章提及，最初的模擬分析直接促使該機構制定了新的洩漏應急處理規程。這正是因為模擬所產生的量化結果——如直方圖、百分位數，以及「98%的近場暴露超過IDLH」這樣清晰的結論——為風險溝通提供了客觀且極具說服力的證據。職業衛生師利用這些證據，能有效地將一個定性的擔憂（「這個情況很危險」）轉化為一個定量的風險評估，從而向非技術背景的管理層證明投資於新設備（如應急呼吸器）、強化培訓和修訂安全程序的必要性與急迫性。模型在此扮演了風險管理與組織說服的關鍵角色。\n\n\n\n\n儘管WMR模型功能強大，但仍存在局限性：\n\n均勻混合假設的局限性：WMR模型假設箱室內的空氣是完全均勻混合的。在真實世界中，尤其是在通風不良的空間，污染物可能形成濃度梯度，導致局部熱點。\n穩態假設的局限性：雖然本章使用瞬時模型，但穩態方程式在初期評估中仍扮演角色。然而，許多真實情境並非完全穩態，污染物生成速率可能隨時間變化，例如洩漏液體蒸發面積逐漸縮小。\n參數估計的不確定性：儘管機率性方法能處理不確定性，但輸入分佈的選擇（如三角分佈的範圍）仍基於專家判斷，可能引入偏差。\n非理想氣流模式：模型的準確性依賴於對房間換氣率和近場氣流交換率的合理估計。實際氣流可能受到建築結構、家具、人員移動等因素的影響，導致複雜的湍流模式。\n\n\n\n本章主要採用恆定生成率模型，但實際洩漏情境中，污染物的蒸發速率會隨著洩漏面積的減少而下降。對於長時間洩漏或洩漏液體面積顯著變化的情況，採用「遞減生成率」模型將更為精確。此模型能模擬濃度隨時間的自然衰減，提供更符合實際情況的暴露概況。\n\n\n\n\n本章透過一宗實驗室濃醋酸洩漏事件的重建分析，全面展示了雙箱室均勻混合模式（WMR）與機率性模擬方法的應用。此案例研究強調了以下幾個關鍵點：\n\n分層評估的重要性：從簡單的確定性穩態計算快速識別高風險，到使用複雜的機率性瞬時模擬進行精確的暴露評估，這種分層方法既高效又全面。\n雙箱室模型的優勢：相較於單箱室模型，雙箱室模型能更精確地評估洩漏源附近的「近場」高濃度暴露，這對於評估特定作業（如清理洩漏）的風險至關重要。\n機率性模擬的價值：機率性方法克服了確定性方法的局限性，它能將輸入參數的不確定性和變異性納入考量，產生「暴露概況」而非單一數值，從而提供對潛在暴露範圍更全面和穩健的理解。本案例中98%近場暴露超過IDLH的結論，為風險溝通提供了強有力的科學依據。\n推動決策與變革：模擬結果不僅是技術報告，更是支持職業衛生決策的有力工具。它們能說服管理層投資於必要的工程控制、行政控制和個人防護設備，例如促使該機構制定新的洩漏應急處理規程。"
+    "text": "實驗室濃醋酸洩漏事件為案例，兩名清理員工出現健康效應。最初的評估採用WMB模式，指出醋酸蒸氣濃度可能已達危害等級。於是設立了兩個主要目標：\n\n利用二暴露區模式計算員工在洩漏源頭附近的「近場」濃度。\n\n運用機率性模擬方法進行暴露評估。\n\n\n\n\nWMB單箱室模式 (One-Box Model)：將整個房間視為單一、均勻混合的空間，僅能預測全室平均濃度（遠場濃度）。優點是簡單快速，但無法捕捉洩漏源附近的高濃度區域。\n\n二暴露區雙箱室模式 (Two-Box Model)：將房間概念化為「遠場」（一般室內空間）和「近場」（圍繞污染源的較小虛擬容積）。此模式能同時預測兩個區域的濃度，對於評估清理洩漏等高風險作業至關重要。\n\n\n\n\n\n確定性方法 (Deterministic Approach)：為每個變數賦予固定單一數值，產生單一預測結果，無法捕捉真實世界中參數的變異性或評估者對其估計值的不確定性。\n\n機率性方法 (Probabilistic Approach)：為關鍵變數分配統計分佈，將參數的自然變異性與估計值的不確定性納入考量。它產生的是「暴露概況」（由大量可能結果構成的分佈圖），提供對潛在暴露範圍更全面理解。除了量化不確定性外，並為應對措施建立更穩固的科學依據。\n\n\n\n\n\n\n穩態遠場濃度 (CF,SS​)：指系統達到平衡狀態時，污染物生成速率等於移除速率，導致穩定且最高的濃度值。方程式為：CF,SS​ = G / Q (G為污染物生成速率，Q為房間整體換氣率)。\n\n穩態近場濃度 (CN,SS​)：在遠場濃度基礎上疊加近場內源頭的貢獻。方程式為：CN,SS​ = CF,SS​ + (G / β) (β為近場的區間氣流交換率)。\n\n進行「最壞情況」的快速計算，使用推算參數：G=1,340 mg/min，Q=28.3 m3/min，β=9.6 m3/min。結果顯示，遠場穩態濃度約為19.2 ppm（超過STEL 15 ppm），近場穩態濃度高達76.0 ppm（顯著超過IDLH 50 ppm）。此初步評估迅速提供了明確的「紅燈」警示，證實為高危險情境。\n\n\n\n本章提出一套系統性暴露評估工作流程，執行WMB模擬的最佳實踐標準，步驟如下：\n\n開始：選擇模擬軟體。\n\n陳述問題：明確定義評估目標。\n\n定義情境：收集化學品特性、房間與通風參數、作業流程、勞工位置及防護措施等資訊。\n\n化學品特性：醋酸的物理性質、健康效應及暴露指引。\n\n房間與通風參數：房間有效容積V為85 m3，換氣率Q為28.3 m3/min。\n\n作業資訊：清理直徑約2英尺的濃醋酸洩漏物，員工未佩戴呼吸防護具。\n\n\n新增一項或多項任務：選擇合適模型（雙箱室、恆定生成率模型），並為每個模型變數設定參數。選擇「恆定生成率」是基於洩漏最初15至30分鐘內，蒸發速率相對穩定。\n\n為G（生成速率）和β（近場換氣率）選擇三角分佈模型，將參數估計的不確定性和內在變異性納入模型。\n\n\n模擬隨機暴露：運行模型產生大量隨機暴露值。\n\n評估結果：將模擬出的暴露概況與相關限值比較，識別關鍵影響變數。\n\n建立報告：完整記錄評估過程、參數、結果及結論。\n\n\n\n\n污染物生成速率（G）和近場相關參數（VN​ 與 β）的估算和參數化。\n\n\n\nHummel方程式的應用：採用Hummel方程式估算醋酸從洩漏池的蒸發速率，經修改後可應用於圓形洩漏情境。\n\n變數參數化：為洩漏直徑和空氣流速這兩個不易精確測量的參數採用三角分佈；醋酸溶液濃度採用均勻分佈。這種做法是機率性模擬的核心，承認並量化輸入數據的不確定性。\n\nG值分佈的推導：透過蒙地卡羅模擬（運行50,000次計算），得到G值的機率分佈圖，其形狀近似三角分佈（眾數=1330，最小值=810，最大值=1900 mg/min）。此分佈隨後被用作主WMR模型中G值的輸入。\n\n\n\n\n\n計算近場容積 (VN​)：本研究選擇半球體作為近場形狀，直徑為1公尺，體積約為0.26 m3。\n\n計算近場氣流交換率 (β)：通用公式為β=1/2​⋅FSA⋅s (FSA為近場虛擬邊界未被阻擋的「自由表面積」，s為穿越此表面的平均空氣流速)。對於底部接觸地面的半球體，專用公式為β=π⋅r2⋅s。\n\nβ值分佈的推導：為現場測量的地板水平空氣流速設定±25%的三角分佈：眾數=9.6，最小值=7.1，最大值=11.9 m3/min。\n\n\n\n\n\n\n\n在運行完整模擬前，進行小規模單次運行並檢視濃度隨時間變化的曲線，確認模型行為符合預期：洩漏後濃度迅速上升，約10至15分鐘內趨於平緩接近穩態值。遠場濃度很快超過STEL，近場濃度迅速突破IDLH。此步驟確認模型設定合理性，並初步印證情境嚴重性。\n\n\n\n\n直方圖分析：10,000次模擬後，30分鐘平均遠場濃度的分佈直方圖顯示，分佈中心（中位數17.3 ppm）已高於STEL（15 ppm），絕大多數結果高於STEL。\n\n統計詮釋：遠場濃度的第95百分位數為22 ppm，明顯高於STEL。高達78%的模擬情境顯示，30分鐘平均遠場濃度超過STEL。\n\n\n\n\n\n直方圖分析：近場30分鐘平均濃度的模擬結果顯示，其分佈中心（中位數74.6 ppm）遠高於IDLH（50 ppm）。\n\n統計詮釋：近場的第95百分位數高達99 ppm。100%的模擬結果超過STEL，高達98%的模擬結果超過IDLH。這意味著在洩漏源附近清理的員工幾乎不可避免地暴露於立即致危等級的濃度\n\n\n\n\n綜合遠場與近場的模擬結果，可以得出一個明確的「紅燈」（red light）結論。這個術語由Perry Logan提出，用以描述一種高風險情境，其中預測的第95百分位數暴露遠大於職業暴露限值，且此結論非常穩健，即使合理地改變輸入參數也不會發生實質性改變。\n此處的分析不僅僅是一個技術練習，它揭示了暴露模擬在組織中的一個關鍵作用：作為推動變革的工具。本章提及，最初的模擬分析直接促使該機構制定了新的洩漏應急處理規程。這正是因為模擬所產生的量化結果——如直方圖、百分位數，以及「98%的近場暴露超過IDLH」這樣清晰的結論——為風險溝通提供了客觀且極具說服力的證據。職業衛生師利用這些證據，能有效地將一個定性的擔憂（「這個情況很危險」）轉化為一個定量的風險評估，從而向非技術背景的管理層證明投資於新設備（如應急呼吸器）、強化培訓和修訂安全程序的必要性與急迫性。模型在此扮演了風險管理與組織說服的關鍵角色。\n\n\n\n\n儘管WMR模型功能強大，但仍存在局限性：\n\n均勻混合假設的局限性：WMR模型假設箱室內的空氣是完全均勻混合的。在真實世界中，尤其是在通風不良的空間，污染物可能形成濃度梯度，導致局部熱點。\n\n穩態假設的局限性：雖然本章使用瞬時模型，但穩態方程式在初期評估中仍扮演角色。然而，許多真實情境並非完全穩態，污染物生成速率可能隨時間變化，例如洩漏液體蒸發面積逐漸縮小。\n\n參數估計的不確定性：儘管機率性方法能處理不確定性，但輸入分佈的選擇（如三角分佈的範圍）仍基於專家判斷，可能引入偏差。\n\n非理想氣流模式：模型的準確性依賴於對房間換氣率和近場氣流交換率的合理估計。實際氣流可能受到建築結構、家具、人員移動等因素的影響，導致複雜的湍流模式。\n\n\n\n本章主要採用恆定生成率模型，但實際洩漏情境中，污染物的蒸發速率會隨著洩漏面積的減少而下降。對於長時間洩漏或洩漏液體面積顯著變化的情況，採用「遞減生成率」模型將更為精確。此模型能模擬濃度隨時間的自然衰減，提供更符合實際情況的暴露概況。\n\n\n\n\n本章透過一宗實驗室濃醋酸洩漏事件的重建分析，全面展示了雙箱室均勻混合模式（WMR）與機率性模擬方法的應用。此案例研究強調了以下幾個關鍵點：\n\n分層評估的重要性：從簡單的確定性穩態計算快速識別高風險，到使用複雜的機率性瞬時模擬進行精確的暴露評估，這種分層方法既高效又全面。\n\n雙箱室模型的優勢：相較於單箱室模型，雙箱室模型能更精確地評估洩漏源附近的「近場」高濃度暴露，這對於評估特定作業（如清理洩漏）的風險至關重要。\n\n機率性模擬的價值：機率性方法克服了確定性方法的局限性，它能將輸入參數的不確定性和變異性納入考量，產生「暴露概況」而非單一數值，從而提供對潛在暴露範圍更全面和穩健的理解。本案例中98%近場暴露超過IDLH的結論，為風險溝通提供了強有力的科學依據。\n\n推動決策與變革：模擬結果不僅是技術報告，更是支持職業衛生決策的有力工具。它們能說服管理層投資於必要的工程控制、行政控制和個人防護設備，例如促使該機構制定新的洩漏應急處理規程。\n\n總而言之，WMR模型結合機率性模擬不僅是重建歷史暴露情境的利器，更是職業衛生專業人員在風險管理、控制設計和政策制定中不可或缺的策略性工具。它使得職業衛生師能更科學、更具說服力地量化風險，從而有效保護勞工健康與安全。"
   },
   {
     "objectID": "web_CH17_Reconstruction-spill.html#事故情境下的暴露模擬",
     "href": "web_CH17_Reconstruction-spill.html#事故情境下的暴露模擬",
     "title": "CH17",
     "section": "",
-    "text": "實驗室濃醋酸洩漏事件為案例，兩名清理員工出現健康效應。最初的評估採用WMB模式，指出醋酸蒸氣濃度可能已達危害等級。於是設立了兩個主要目標：\n\n利用二暴露區模式計算員工在洩漏源頭附近的「近場」濃度。\n運用機率性模擬方法進行暴露評估。\n\n\n\n\nWMB單箱室模式 (One-Box Model)：將整個房間視為單一、均勻混合的空間，僅能預測全室平均濃度（遠場濃度）。優點是簡單快速，但無法捕捉洩漏源附近的高濃度區域。\n二暴露區雙箱室模式 (Two-Box Model)：將房間概念化為「遠場」（一般室內空間）和「近場」（圍繞污染源的較小虛擬容積）。此模式能同時預測兩個區域的濃度，對於評估清理洩漏等高風險作業至關重要。\n\n\n\n\n\n確定性方法 (Deterministic Approach)：為每個變數賦予固定單一數值，產生單一預測結果，無法捕捉真實世界中參數的變異性或評估者對其估計值的不確定性。\n機率性方法 (Probabilistic Approach)：為關鍵變數分配統計分佈，將參數的自然變異性與估計值的不確定性納入考量。它產生的是「暴露概況」（由大量可能結果構成的分佈圖），提供對潛在暴露範圍更全面理解。除了量化不確定性外，並為應對措施建立更穩固的科學依據。"
+    "text": "實驗室濃醋酸洩漏事件為案例，兩名清理員工出現健康效應。最初的評估採用WMB模式，指出醋酸蒸氣濃度可能已達危害等級。於是設立了兩個主要目標：\n\n利用二暴露區模式計算員工在洩漏源頭附近的「近場」濃度。\n\n運用機率性模擬方法進行暴露評估。\n\n\n\n\nWMB單箱室模式 (One-Box Model)：將整個房間視為單一、均勻混合的空間，僅能預測全室平均濃度（遠場濃度）。優點是簡單快速，但無法捕捉洩漏源附近的高濃度區域。\n\n二暴露區雙箱室模式 (Two-Box Model)：將房間概念化為「遠場」（一般室內空間）和「近場」（圍繞污染源的較小虛擬容積）。此模式能同時預測兩個區域的濃度，對於評估清理洩漏等高風險作業至關重要。\n\n\n\n\n\n確定性方法 (Deterministic Approach)：為每個變數賦予固定單一數值，產生單一預測結果，無法捕捉真實世界中參數的變異性或評估者對其估計值的不確定性。\n\n機率性方法 (Probabilistic Approach)：為關鍵變數分配統計分佈，將參數的自然變異性與估計值的不確定性納入考量。它產生的是「暴露概況」（由大量可能結果構成的分佈圖），提供對潛在暴露範圍更全面理解。除了量化不確定性外，並為應對措施建立更穩固的科學依據。"
   },
   {
     "objectID": "web_CH17_Reconstruction-spill.html#初步危害評估穩態方程式快速評估",
     "href": "web_CH17_Reconstruction-spill.html#初步危害評估穩態方程式快速評估",
     "title": "CH17",
     "section": "",
-    "text": "穩態遠場濃度 (CF,SS​)：指系統達到平衡狀態時，污染物生成速率等於移除速率，導致穩定且最高的濃度值。方程式為：CF,SS​= G / Q (G為污染物生成速率，Q為房間整體換氣率)。\n穩態近場濃度 (CN,SS​)：在遠場濃度基礎上疊加近場內源頭的貢獻。方程式為：CN,SS​= CF,SS​ + (G / β) (β為近場的區間氣流交換率)。\n\n進行「最壞情況」的快速計算，使用推算參數：G=1,340 mg/min，Q=28.3 m3/min，β=9.6 m3/min。結果顯示，遠場穩態濃度約為19.2 ppm（超過STEL 15 ppm），近場穩態濃度高達76.0 ppm（顯著超過IDLH 50 ppm）。此初步評估迅速提供了明確的「紅燈」警示，證實為高危險情境。"
+    "text": "穩態遠場濃度 (CF,SS​)：指系統達到平衡狀態時，污染物生成速率等於移除速率，導致穩定且最高的濃度值。方程式為：CF,SS​ = G / Q (G為污染物生成速率，Q為房間整體換氣率)。\n\n穩態近場濃度 (CN,SS​)：在遠場濃度基礎上疊加近場內源頭的貢獻。方程式為：CN,SS​ = CF,SS​ + (G / β) (β為近場的區間氣流交換率)。\n\n進行「最壞情況」的快速計算，使用推算參數：G=1,340 mg/min，Q=28.3 m3/min，β=9.6 m3/min。結果顯示，遠場穩態濃度約為19.2 ppm（超過STEL 15 ppm），近場穩態濃度高達76.0 ppm（顯著超過IDLH 50 ppm）。此初步評估迅速提供了明確的「紅燈」警示，證實為高危險情境。"
   },
   {
     "objectID": "web_CH17_Reconstruction-spill.html#機率性暴露模擬",
     "href": "web_CH17_Reconstruction-spill.html#機率性暴露模擬",
     "title": "CH17",
     "section": "",
-    "text": "本章提出一套系統性暴露評估工作流程，執行WMB模擬的最佳實踐標準，步驟如下：\n\n開始：選擇模擬軟體。\n陳述問題：明確定義評估目標。\n定義情境：收集化學品特性、房間與通風參數、作業流程、勞工位置及防護措施等資訊。\n\n化學品特性：醋酸的物理性質、健康效應及暴露指引。\n房間與通風參數：房間有效容積V為85 m3，換氣率Q為28.3 m3/min。\n作業資訊：清理直徑約2英尺的濃醋酸洩漏物，員工未佩戴呼吸防護具。\n\n新增一項或多項任務：選擇合適模型（雙箱室、恆定生成率模型），並為每個模型變數設定參數。選擇「恆定生成率」是基於洩漏最初15至30分鐘內，蒸發速率相對穩定。\n\n為G（生成速率）和β（近場換氣率）選擇三角分佈模型，將參數估計的不確定性和內在變異性納入模型。\n\n模擬隨機暴露：運行模型產生大量隨機暴露值。\n評估結果：將模擬出的暴露概況與相關限值比較，識別關鍵影響變數。\n建立報告：完整記錄評估過程、參數、結果及結論。"
+    "text": "本章提出一套系統性暴露評估工作流程，執行WMB模擬的最佳實踐標準，步驟如下：\n\n開始：選擇模擬軟體。\n\n陳述問題：明確定義評估目標。\n\n定義情境：收集化學品特性、房間與通風參數、作業流程、勞工位置及防護措施等資訊。\n\n化學品特性：醋酸的物理性質、健康效應及暴露指引。\n\n房間與通風參數：房間有效容積V為85 m3，換氣率Q為28.3 m3/min。\n\n作業資訊：清理直徑約2英尺的濃醋酸洩漏物，員工未佩戴呼吸防護具。\n\n\n新增一項或多項任務：選擇合適模型（雙箱室、恆定生成率模型），並為每個模型變數設定參數。選擇「恆定生成率」是基於洩漏最初15至30分鐘內，蒸發速率相對穩定。\n\n為G（生成速率）和β（近場換氣率）選擇三角分佈模型，將參數估計的不確定性和內在變異性納入模型。\n\n\n模擬隨機暴露：運行模型產生大量隨機暴露值。\n\n評估結果：將模擬出的暴露概況與相關限值比較，識別關鍵影響變數。\n\n建立報告：完整記錄評估過程、參數、結果及結論。"
   },
   {
     "objectID": "web_CH17_Reconstruction-spill.html#二暴露區模型的技術參數估算",
     "href": "web_CH17_Reconstruction-spill.html#二暴露區模型的技術參數估算",
     "title": "CH17",
     "section": "",
-    "text": "污染物生成速率（G）和近場相關參數（VN​ 與 β）的估算和參數化。\n\n\n\nHummel方程式的應用：採用Hummel方程式估算醋酸從洩漏池的蒸發速率，經修改後可應用於圓形洩漏情境。\n變數參數化：為洩漏直徑和空氣流速這兩個不易精確測量的參數採用三角分佈；醋酸溶液濃度採用均勻分佈。這種做法是機率性模擬的核心，承認並量化輸入數據的不確定性。\nG值分佈的推導：透過蒙地卡羅模擬（運行50,000次計算），得到G值的機率分佈圖，其形狀近似三角分佈（眾數=1330，最小值=810，最大值=1900 mg/min）。此分佈隨後被用作主WMR模型中G值的輸入。\n\n\n\n\n\n計算近場容積 (VN​)：本研究選擇半球體作為近場形狀，直徑為1公尺，體積約為0.26 m3。\n計算近場氣流交換率 (β)：通用公式為β=1/2​⋅FSA⋅s (FSA為近場虛擬邊界未被阻擋的「自由表面積」，s為穿越此表面的平均空氣流速)。對於底部接觸地面的半球體，專用公式為β=π⋅r2⋅s。\nβ值分佈的推導：為現場測量的地板水平空氣流速設定±25%的三角分佈：眾數=9.6，最小值=7.1，最大值=11.9 m3/min。"
+    "text": "污染物生成速率（G）和近場相關參數（VN​ 與 β）的估算和參數化。\n\n\n\nHummel方程式的應用：採用Hummel方程式估算醋酸從洩漏池的蒸發速率，經修改後可應用於圓形洩漏情境。\n\n變數參數化：為洩漏直徑和空氣流速這兩個不易精確測量的參數採用三角分佈；醋酸溶液濃度採用均勻分佈。這種做法是機率性模擬的核心，承認並量化輸入數據的不確定性。\n\nG值分佈的推導：透過蒙地卡羅模擬（運行50,000次計算），得到G值的機率分佈圖，其形狀近似三角分佈（眾數=1330，最小值=810，最大值=1900 mg/min）。此分佈隨後被用作主WMR模型中G值的輸入。\n\n\n\n\n\n計算近場容積 (VN​)：本研究選擇半球體作為近場形狀，直徑為1公尺，體積約為0.26 m3。\n\n計算近場氣流交換率 (β)：通用公式為β=1/2​⋅FSA⋅s (FSA為近場虛擬邊界未被阻擋的「自由表面積」，s為穿越此表面的平均空氣流速)。對於底部接觸地面的半球體，專用公式為β=π⋅r2⋅s。\n\nβ值分佈的推導：為現場測量的地板水平空氣流速設定±25%的三角分佈：眾數=9.6，最小值=7.1，最大值=11.9 m3/min。"
   },
   {
     "objectID": "web_CH17_Reconstruction-spill.html#暴露概況的模擬分析與詮釋",
     "href": "web_CH17_Reconstruction-spill.html#暴露概況的模擬分析與詮釋",
     "title": "CH17",
     "section": "",
-    "text": "在運行完整模擬前，進行小規模單次運行並檢視濃度隨時間變化的曲線，確認模型行為符合預期：洩漏後濃度迅速上升，約10至15分鐘內趨於平緩接近穩態值。遠場濃度很快超過STEL，近場濃度迅速突破IDLH。此步驟確認模型設定合理性，並初步印證情境嚴重性。\n\n\n\n\n直方圖分析：10,000次模擬後，30分鐘平均遠場濃度的分佈直方圖顯示，分佈中心（中位數17.3 ppm）已高於STEL（15 ppm），絕大多數結果高於STEL。\n統計詮釋：遠場濃度的第95百分位數為22 ppm，明顯高於STEL。高達78%的模擬情境顯示，30分鐘平均遠場濃度超過STEL。\n\n\n\n\n\n直方圖分析：近場30分鐘平均濃度的模擬結果顯示，其分佈中心（中位數74.6 ppm）遠高於IDLH（50 ppm）。\n統計詮釋：近場的第95百分位數高達99 ppm。100%的模擬結果超過STEL，高達98%的模擬結果超過IDLH。這意味著在洩漏源附近清理的員工幾乎不可避免地暴露於立即致危等級的濃度\n\n\n\n\n綜合遠場與近場的模擬結果，可以得出一個明確的「紅燈」（red light）結論。這個術語由Perry Logan提出，用以描述一種高風險情境，其中預測的第95百分位數暴露遠大於職業暴露限值，且此結論非常穩健，即使合理地改變輸入參數也不會發生實質性改變。\n此處的分析不僅僅是一個技術練習，它揭示了暴露模擬在組織中的一個關鍵作用：作為推動變革的工具。本章提及，最初的模擬分析直接促使該機構制定了新的洩漏應急處理規程。這正是因為模擬所產生的量化結果——如直方圖、百分位數，以及「98%的近場暴露超過IDLH」這樣清晰的結論——為風險溝通提供了客觀且極具說服力的證據。職業衛生師利用這些證據，能有效地將一個定性的擔憂（「這個情況很危險」）轉化為一個定量的風險評估，從而向非技術背景的管理層證明投資於新設備（如應急呼吸器）、強化培訓和修訂安全程序的必要性與急迫性。模型在此扮演了風險管理與組織說服的關鍵角色。"
+    "text": "在運行完整模擬前，進行小規模單次運行並檢視濃度隨時間變化的曲線，確認模型行為符合預期：洩漏後濃度迅速上升，約10至15分鐘內趨於平緩接近穩態值。遠場濃度很快超過STEL，近場濃度迅速突破IDLH。此步驟確認模型設定合理性，並初步印證情境嚴重性。\n\n\n\n\n直方圖分析：10,000次模擬後，30分鐘平均遠場濃度的分佈直方圖顯示，分佈中心（中位數17.3 ppm）已高於STEL（15 ppm），絕大多數結果高於STEL。\n\n統計詮釋：遠場濃度的第95百分位數為22 ppm，明顯高於STEL。高達78%的模擬情境顯示，30分鐘平均遠場濃度超過STEL。\n\n\n\n\n\n直方圖分析：近場30分鐘平均濃度的模擬結果顯示，其分佈中心（中位數74.6 ppm）遠高於IDLH（50 ppm）。\n\n統計詮釋：近場的第95百分位數高達99 ppm。100%的模擬結果超過STEL，高達98%的模擬結果超過IDLH。這意味著在洩漏源附近清理的員工幾乎不可避免地暴露於立即致危等級的濃度\n\n\n\n\n綜合遠場與近場的模擬結果，可以得出一個明確的「紅燈」（red light）結論。這個術語由Perry Logan提出，用以描述一種高風險情境，其中預測的第95百分位數暴露遠大於職業暴露限值，且此結論非常穩健，即使合理地改變輸入參數也不會發生實質性改變。\n此處的分析不僅僅是一個技術練習，它揭示了暴露模擬在組織中的一個關鍵作用：作為推動變革的工具。本章提及，最初的模擬分析直接促使該機構制定了新的洩漏應急處理規程。這正是因為模擬所產生的量化結果——如直方圖、百分位數，以及「98%的近場暴露超過IDLH」這樣清晰的結論——為風險溝通提供了客觀且極具說服力的證據。職業衛生師利用這些證據，能有效地將一個定性的擔憂（「這個情況很危險」）轉化為一個定量的風險評估，從而向非技術背景的管理層證明投資於新設備（如應急呼吸器）、強化培訓和修訂安全程序的必要性與急迫性。模型在此扮演了風險管理與組織說服的關鍵角色。"
   },
   {
     "objectID": "web_CH17_Reconstruction-spill.html#批判性評估模型假設與真實世界的差距",
     "href": "web_CH17_Reconstruction-spill.html#批判性評估模型假設與真實世界的差距",
     "title": "CH17",
     "section": "",
-    "text": "儘管WMR模型功能強大，但仍存在局限性：\n\n均勻混合假設的局限性：WMR模型假設箱室內的空氣是完全均勻混合的。在真實世界中，尤其是在通風不良的空間，污染物可能形成濃度梯度，導致局部熱點。\n穩態假設的局限性：雖然本章使用瞬時模型，但穩態方程式在初期評估中仍扮演角色。然而，許多真實情境並非完全穩態，污染物生成速率可能隨時間變化，例如洩漏液體蒸發面積逐漸縮小。\n參數估計的不確定性：儘管機率性方法能處理不確定性，但輸入分佈的選擇（如三角分佈的範圍）仍基於專家判斷，可能引入偏差。\n非理想氣流模式：模型的準確性依賴於對房間換氣率和近場氣流交換率的合理估計。實際氣流可能受到建築結構、家具、人員移動等因素的影響，導致複雜的湍流模式。\n\n\n\n本章主要採用恆定生成率模型，但實際洩漏情境中，污染物的蒸發速率會隨著洩漏面積的減少而下降。對於長時間洩漏或洩漏液體面積顯著變化的情況，採用「遞減生成率」模型將更為精確。此模型能模擬濃度隨時間的自然衰減，提供更符合實際情況的暴露概況。"
+    "text": "儘管WMR模型功能強大，但仍存在局限性：\n\n均勻混合假設的局限性：WMR模型假設箱室內的空氣是完全均勻混合的。在真實世界中，尤其是在通風不良的空間，污染物可能形成濃度梯度，導致局部熱點。\n\n穩態假設的局限性：雖然本章使用瞬時模型，但穩態方程式在初期評估中仍扮演角色。然而，許多真實情境並非完全穩態，污染物生成速率可能隨時間變化，例如洩漏液體蒸發面積逐漸縮小。\n\n參數估計的不確定性：儘管機率性方法能處理不確定性，但輸入分佈的選擇（如三角分佈的範圍）仍基於專家判斷，可能引入偏差。\n\n非理想氣流模式：模型的準確性依賴於對房間換氣率和近場氣流交換率的合理估計。實際氣流可能受到建築結構、家具、人員移動等因素的影響，導致複雜的湍流模式。\n\n\n\n本章主要採用恆定生成率模型，但實際洩漏情境中，污染物的蒸發速率會隨著洩漏面積的減少而下降。對於長時間洩漏或洩漏液體面積顯著變化的情況，採用「遞減生成率」模型將更為精確。此模型能模擬濃度隨時間的自然衰減，提供更符合實際情況的暴露概況。"
   },
   {
     "objectID": "web_CH17_Reconstruction-spill.html#結論wmr模型在職業衛生領域的策略性應用價值",
     "href": "web_CH17_Reconstruction-spill.html#結論wmr模型在職業衛生領域的策略性應用價值",
     "title": "CH17",
     "section": "",
-    "text": "本章透過一宗實驗室濃醋酸洩漏事件的重建分析，全面展示了雙箱室均勻混合模式（WMR）與機率性模擬方法的應用。此案例研究強調了以下幾個關鍵點：\n\n分層評估的重要性：從簡單的確定性穩態計算快速識別高風險，到使用複雜的機率性瞬時模擬進行精確的暴露評估，這種分層方法既高效又全面。\n雙箱室模型的優勢：相較於單箱室模型，雙箱室模型能更精確地評估洩漏源附近的「近場」高濃度暴露，這對於評估特定作業（如清理洩漏）的風險至關重要。\n機率性模擬的價值：機率性方法克服了確定性方法的局限性，它能將輸入參數的不確定性和變異性納入考量，產生「暴露概況」而非單一數值，從而提供對潛在暴露範圍更全面和穩健的理解。本案例中98%近場暴露超過IDLH的結論，為風險溝通提供了強有力的科學依據。\n推動決策與變革：模擬結果不僅是技術報告，更是支持職業衛生決策的有力工具。它們能說服管理層投資於必要的工程控制、行政控制和個人防護設備，例如促使該機構制定新的洩漏應急處理規程。"
+    "text": "本章透過一宗實驗室濃醋酸洩漏事件的重建分析，全面展示了雙箱室均勻混合模式（WMR）與機率性模擬方法的應用。此案例研究強調了以下幾個關鍵點：\n\n分層評估的重要性：從簡單的確定性穩態計算快速識別高風險，到使用複雜的機率性瞬時模擬進行精確的暴露評估，這種分層方法既高效又全面。\n\n雙箱室模型的優勢：相較於單箱室模型，雙箱室模型能更精確地評估洩漏源附近的「近場」高濃度暴露，這對於評估特定作業（如清理洩漏）的風險至關重要。\n\n機率性模擬的價值：機率性方法克服了確定性方法的局限性，它能將輸入參數的不確定性和變異性納入考量，產生「暴露概況」而非單一數值，從而提供對潛在暴露範圍更全面和穩健的理解。本案例中98%近場暴露超過IDLH的結論，為風險溝通提供了強有力的科學依據。\n\n推動決策與變革：模擬結果不僅是技術報告，更是支持職業衛生決策的有力工具。它們能說服管理層投資於必要的工程控制、行政控制和個人防護設備，例如促使該機構制定新的洩漏應急處理規程。\n\n總而言之，WMR模型結合機率性模擬不僅是重建歷史暴露情境的利器，更是職業衛生專業人員在風險管理、控制設計和政策制定中不可或缺的策略性工具。它使得職業衛生師能更科學、更具說服力地量化風險，從而有效保護勞工健康與安全。"
   },
   {
     "objectID": "web_CH18_model-limitation.html",
@@ -2477,50 +1623,50 @@
     "objectID": "DRI.html#直讀式氣體偵測儀器的實務應用1",
     "href": "DRI.html#直讀式氣體偵測儀器的實務應用1",
     "title": "MSA直讀氣體偵測器",
-    "section": "直讀式氣體偵測儀器的實務應用1",
-    "text": "直讀式氣體偵測儀器的實務應用1\n\n雇主實施作業環境監測時，得以直讀式儀器有效監測之下列化學性因子： -二氧化碳(CO2)-可以測量 – 紅外線 (IR) 型二氧化碳感測器\n\n二硫化碳(CS2)-可以測量 – PID_修正係數為 1.2\n二氯聯苯胺及其鹽類((3,3-Dichlorobenzidine, C12​H10​Cl2​N2​))-原則上可以 – PID_輸入自訂氣體及其修正係數\n次乙亞胺(Ethyleneimine / Aziridine, C2​H5​N)-原則上可以 – PID輸入自訂氣體及其修正係數\n二異氰酸甲苯(Toluene Diisocyanate, TDI, C9​H6​N2​O2)-原則上可以 – PID輸入自訂氣體及其修正係數\n硫化氫-可以 – 電化學探頭或PID修正係數3.2\n汞及其無機化合物-目前不行"
+    "section": "",
+    "text": "雇主實施作業環境監測時，得以直讀式儀器有效監測之下列化學性因子： -二氧化碳(CO2)-可以測量 – 紅外線 (IR) 型二氧化碳感測器\n\n二硫化碳(CS2)-可以測量 – PID_修正係數為 1.2\n二氯聯苯胺及其鹽類((3,3-Dichlorobenzidine, C12​H10​Cl2​N2​))-原則上可以 – PID_輸入自訂氣體及其修正係數\n次乙亞胺(Ethyleneimine / Aziridine, C2​H5​N)-原則上可以 – PID輸入自訂氣體及其修正係數\n二異氰酸甲苯(Toluene Diisocyanate, TDI, C9​H6​N2​O2)-原則上可以 – PID輸入自訂氣體及其修正係數\n硫化氫-可以 – 電化學探頭或PID修正係數3.2\n汞及其無機化合物-目前不行"
   },
   {
     "objectID": "DRI.html#直讀式氣體偵測儀器的實務應用2",
     "href": "DRI.html#直讀式氣體偵測儀器的實務應用2",
     "title": "MSA直讀氣體偵測器",
-    "section": "直讀式氣體偵測儀器的實務應用2",
-    "text": "直讀式氣體偵測儀器的實務應用2\n精確度（或再現性/重現性） - 精確性為 ±2 ppm (±5000 ppb) 或 10%，以較大者為準。 - 絕對偏差 (Absolute Deviation)：±2 ppm（等同於 ±5000 ppb）。這表示無論實際濃度多高或多低，儀器的讀數與真實值之間的誤差可能在正負 2 ppm 的範圍內。 - 相對偏差 (Relative Deviation)：10%。這表示儀器的讀數與真實值之間的誤差可能是實際濃度的正負 10%。 - 以較大者為準：是指在實際應用中，會取這兩種計算方式中誤差較大的那個值，作為該濃度下的最大可能偏差。\n\n範例 1範例 2\n\n\n儀器的讀數為 10 ppm 根據絕對偏差：±2 ppm 根據相對偏差：10 ppm 的 10% = ±1 ppm 「以較大者為準」：由於 ±2 ppm 大於 ±1 ppm， 實際濃度可能在 8 ppm 到 12 ppm 之間\n\n\n儀器的讀數為 200 ppm 根據絕對偏差：±2 ppm 根據相對偏差：10 ppm 的 10% = ±20 ppm 「以較大者為準」：由於 ±20 ppm 大於 ±2 ppm， 實際濃度可能180 ppm 到 220 ppm 之間"
+    "section": "",
+    "text": "精確度（或再現性/重現性） - 精確性為 ±2 ppm (±5000 ppb) 或 10%，以較大者為準。 - 絕對偏差 (Absolute Deviation)：±2 ppm（等同於 ±5000 ppb）。這表示無論實際濃度多高或多低，儀器的讀數與真實值之間的誤差可能在正負 2 ppm 的範圍內。 - 相對偏差 (Relative Deviation)：10%。這表示儀器的讀數與真實值之間的誤差可能是實際濃度的正負 10%。 - 以較大者為準：是指在實際應用中，會取這兩種計算方式中誤差較大的那個值，作為該濃度下的最大可能偏差。\n\n範例 1範例 2\n\n\n儀器的讀數為 10 ppm 根據絕對偏差：±2 ppm 根據相對偏差：10 ppm 的 10% = ±1 ppm 「以較大者為準」：由於 ±2 ppm 大於 ±1 ppm， 實際濃度可能在 8 ppm 到 12 ppm 之間\n\n\n儀器的讀數為 200 ppm 根據絕對偏差：±2 ppm 根據相對偏差：10 ppm 的 10% = ±20 ppm 「以較大者為準」：由於 ±20 ppm 大於 ±2 ppm， 實際濃度可能180 ppm 到 220 ppm 之間"
   },
   {
     "objectID": "DRI.html#直讀式氣體偵測儀器的實務應用3",
     "href": "DRI.html#直讀式氣體偵測儀器的實務應用3",
     "title": "MSA直讀氣體偵測器",
-    "section": "直讀式氣體偵測儀器的實務應用3",
-    "text": "直讀式氣體偵測儀器的實務應用3\n\n可即時評估長短期危害暴露風險安全性\n\n即時計算與顯示 STEL / TWA：\n\n可顯示當前的氣體讀數、15分鐘時間內的平均暴露值(STEL)、從開機或重置後，8 小時內的平均暴露值(TWA)\n\nSTEL 、 TWA 警報功能：\n\n內建高低警報、STEL警報和 TWA 警報(亦可以手動重置)\n使用不同偵測模式測量多種氣體\n\n探頭(sensors)多樣選配性：\n\nVOC揮發性有機化合物 (PID)\n氧氣與有毒氣體 (電化學探頭)\n可燃性氣體 (觸媒燃燒探頭)"
+    "section": "",
+    "text": "可即時評估長短期危害暴露風險安全性\n\n即時計算與顯示 STEL / TWA：\n\n可顯示當前的氣體讀數、15分鐘時間內的平均暴露值(STEL)、從開機或重置後，8 小時內的平均暴露值(TWA)\n\nSTEL 、 TWA 警報功能：\n\n內建高低警報、STEL警報和 TWA 警報(亦可以手動重置)\n使用不同偵測模式測量多種氣體\n\n探頭(sensors)多樣選配性：\n\nVOC揮發性有機化合物 (PID)\n氧氣與有毒氣體 (電化學探頭)\n可燃性氣體 (觸媒燃燒探頭)"
   },
   {
     "objectID": "DRI.html#修正係數response-factor-rf-的應用與重要性",
     "href": "DRI.html#修正係數response-factor-rf-的應用與重要性",
     "title": "MSA直讀氣體偵測器",
-    "section": "修正係數(Response Factor, RF) 的應用與重要性",
-    "text": "修正係數(Response Factor, RF) 的應用與重要性\n修正係數是實現精確 VOC 偵測的關鍵。\n\n轉換為實際濃度：PID偵測器通常使用異丁烯作為校準氣體，並將異丁烯的修正係數設為 1。當偵測其他 VOCs時，儀器會先偵測到一個相當於異丁烯的等效值。此時，就需要使用該目標氣體的修正係數，將這個異丁烯等效值轉換為目標氣體的實際濃度。這是透過將儀器讀數（已校準為異丁烯）乘以修正係數來實現的 。\n\n實際目標化學品濃度 = 目標化學品修正係數 × 儀器報告的濃度。\n範例：如果偵測己烷時儀器讀數為 100 ppm(異丁烯等效值)，而己烷的修正係數為 4.5，則實際的己烷濃度為 4.5 × 100 ppm = 450 ppm 。\n\n擴展偵測氣體種類：即使儀器預設列表中沒有某種特定氣體，只要該氣體的修正係數已知或可以透過實驗測定，使用者就可以將其輸入到儀器中，從而擴展儀器的偵測能力。\n警報設定：在設定氣體的警報值（如暴露值、STEL、TWA）時，必須考量修正係數。儀器會利用使用者指定目標氣體的修正係數將信號轉換為正確的濃度，從而觸發精確的警報 。"
+    "section": "",
+    "text": "修正係數是實現精確 VOC 偵測的關鍵。\n\n轉換為實際濃度：PID偵測器通常使用異丁烯作為校準氣體，並將異丁烯的修正係數設為 1。當偵測其他 VOCs時，儀器會先偵測到一個相當於異丁烯的等效值。此時，就需要使用該目標氣體的修正係數，將這個異丁烯等效值轉換為目標氣體的實際濃度。這是透過將儀器讀數（已校準為異丁烯）乘以修正係數來實現的 。\n\n實際目標化學品濃度 = 目標化學品修正係數 × 儀器報告的濃度。\n範例：如果偵測己烷時儀器讀數為 100 ppm(異丁烯等效值)，而己烷的修正係數為 4.5，則實際的己烷濃度為 4.5 × 100 ppm = 450 ppm 。\n\n擴展偵測氣體種類：即使儀器預設列表中沒有某種特定氣體，只要該氣體的修正係數已知或可以透過實驗測定，使用者就可以將其輸入到儀器中，從而擴展儀器的偵測能力。\n警報設定：在設定氣體的警報值（如暴露值、STEL、TWA）時，必須考量修正係數。儀器會利用使用者指定目標氣體的修正係數將信號轉換為正確的濃度，從而觸發精確的警報 。"
   },
   {
     "objectID": "DRI.html#應用範例甲苯-toluene",
     "href": "DRI.html#應用範例甲苯-toluene",
     "title": "MSA直讀氣體偵測器",
-    "section": "應用範例：甲苯 (Toluene)",
-    "text": "應用範例：甲苯 (Toluene)\n\n感測器(探頭)類型：PID\n設定甲苯修正係數(RF)：(10.6eV PID) 為 0.53\n實際偵測流程與警報設定：\n\n\n儀器校準：將 ALTAIR 5X PID 儀器以 100 ppm 異丁烯作為量程氣體進行校準。\n設定目標氣體：在儀器設定中選擇「甲苯」作為目標 VOC 氣體。\n讀數解釋：當偵測到甲苯時，顯示屏上的讀數將自動修正為實際的甲苯 ppm 值。\n警報值設定：PID 感測器的出廠預設值(low 50 ppm，high 100 ppm，STEL 25 ppm，TWA 10 ppm。(使用者得根據所偵測的特定 VOC (例如甲苯) 及其所選用的修正係數，來更改 VOC 的低警報和高警報值)。"
+    "section": "",
+    "text": "感測器(探頭)類型：PID\n設定甲苯修正係數(RF)：(10.6eV PID) 為 0.53\n實際偵測流程與警報設定：\n\n\n儀器校準：將 ALTAIR 5X PID 儀器以 100 ppm 異丁烯作為量程氣體進行校準。\n設定目標氣體：在儀器設定中選擇「甲苯」作為目標 VOC 氣體。\n讀數解釋：當偵測到甲苯時，顯示屏上的讀數將自動修正為實際的甲苯 ppm 值。\n警報值設定：PID 感測器的出廠預設值(low 50 ppm，high 100 ppm，STEL 25 ppm，TWA 10 ppm。(使用者得根據所偵測的特定 VOC (例如甲苯) 及其所選用的修正係數，來更改 VOC 的低警報和高警報值)。"
   },
   {
     "objectID": "DRI.html#應用範例硫化氫-hydrogen-sulfide-h2s",
     "href": "DRI.html#應用範例硫化氫-hydrogen-sulfide-h2s",
     "title": "MSA直讀氣體偵測器",
-    "section": "應用範例：硫化氫 (hydrogen sulfide) H2​S",
-    "text": "應用範例：硫化氫 (hydrogen sulfide) H2​S\n\n感測器類型：電化學感測器。(偵測範圍：0-200 ppm ，解析度：1 ppm)。\n反應時間 (Response time)：典型 t(90)&lt;15 秒 (正常溫度)。\n警報值預設(ppm)：LOW 10，HIGH 15，STEL 15，TWA 10 ppm。\n\n當氣體濃度達到或超過警報設定點或 STEL/TWA 限制時，設備會顯示並閃爍警報訊息及對應氣體濃度、開啟背光、發出警報聲 、警報 LED 閃爍 、並觸發震動警報 。\n\n與磷化氫(PH3)​ 感測器的交互影響 (Cross Sensitivity)：如果 ALTAIR 5X 檢測器同時配置了 H2​S 和 PH3​ 感測器，長時間暴露於 H2​S會導致 PH3​ 感測器的靈敏度逐漸下降並縮短其壽命，在某些情況下甚至會縮短至數個月。"
+    "section": "",
+    "text": "感測器類型：電化學感測器。(偵測範圍：0-200 ppm ，解析度：1 ppm)。\n反應時間 (Response time)：典型 t(90)&lt;15 秒 (正常溫度)。\n警報值預設(ppm)：LOW 10，HIGH 15，STEL 15，TWA 10 ppm。\n\n當氣體濃度達到或超過警報設定點或 STEL/TWA 限制時，設備會顯示並閃爍警報訊息及對應氣體濃度、開啟背光、發出警報聲 、警報 LED 閃爍 、並觸發震動警報 。\n\n與磷化氫(PH3)​ 感測器的交互影響 (Cross Sensitivity)：如果 ALTAIR 5X 檢測器同時配置了 H2​S 和 PH3​ 感測器，長時間暴露於 H2​S會導致 PH3​ 感測器的靈敏度逐漸下降並縮短其壽命，在某些情況下甚至會縮短至數個月。"
   },
   {
     "objectID": "DRI.html#結語與安全注意事項",
     "href": "DRI.html#結語與安全注意事項",
     "title": "MSA直讀氣體偵測器",
-    "section": "結語與安全注意事項",
-    "text": "結語與安全注意事項\n\n正確使用與培訓：ALTAIR 5X PID 多氣體偵測儀僅供受過MSA專門培訓的合格人員。\n日常檢查：建議每天使用前執行流量阻塞測試和快速測試(bump test)，以驗證儀器是否正常工作。\n環境因素考量：壓力、濕度、溫度等環境因素可能影響感測器讀數，應予以注意。\n維護與校準：定期對儀器進行清潔、維護和校準，以確保其準確性。 持續學習：儀器使用者應不斷擴展和更新其知識與技能，以應對不斷變化的環境和技術。\n注意事項：若目標化合物的暴露限值低於 0.1 ppm，不應使用 ALTAIR 5X PID 偵測儀(包含其他偵測儀器，除非該產品已標註可偵測極低濃度之用途)，否則可能導致過度暴露，造成人員傷亡。"
+    "section": "",
+    "text": "正確使用與培訓：ALTAIR 5X PID 多氣體偵測儀僅供受過MSA專門培訓的合格人員。\n日常檢查：建議每天使用前執行流量阻塞測試和快速測試(bump test)，以驗證儀器是否正常工作。\n環境因素考量：壓力、濕度、溫度等環境因素可能影響感測器讀數，應予以注意。\n維護與校準：定期對儀器進行清潔、維護和校準，以確保其準確性。 持續學習：儀器使用者應不斷擴展和更新其知識與技能，以應對不斷變化的環境和技術。\n注意事項：若目標化合物的暴露限值低於 0.1 ppm，不應使用 ALTAIR 5X PID 偵測儀(包含其他偵測儀器，除非該產品已標註可偵測極低濃度之用途)，否則可能導致過度暴露，造成人員傷亡。"
   },
   {
     "objectID": "DRI.html#thank-you-for-concerning-workers-health-safety.",
@@ -2533,8 +1679,8 @@
     "objectID": "DRI.html#氣體偵測器使用注意事項",
     "href": "DRI.html#氣體偵測器使用注意事項",
     "title": "MSA直讀氣體偵測器",
-    "section": "氣體偵測器使用注意事項",
-    "text": "氣體偵測器使用注意事項\n\n操作人員需詳讀手冊與認識儀器操作功能。\n使用前先檢查校正，必要時調整(FAS)及執行BUMP test。\n曝露於矽化物、矽酸鹽、含鉛混合物(如有鉛汽油)、硫化氫或高汙染程度時需更常校正檢查。\n不能量測可燃性的粉塵。\n等待精確的讀值，回應時間依氣體/蒸氣濃度和取樣管長度為基準變化。\n勿在具可燃性氣體的環境中充電使用。\n體偵測器是預警,不是分析設備。\n讀值為負:瞬間受到大量氣體的汙染導致電流快速上升與下降造成。(請在一般環境先做FAS或ZERO)。"
+    "section": "",
+    "text": "操作人員需詳讀手冊與認識儀器操作功能。\n使用前先檢查校正，必要時調整(FAS)及執行BUMP test。\n曝露於矽化物、矽酸鹽、含鉛混合物(如有鉛汽油)、硫化氫或高汙染程度時需更常校正檢查。\n不能量測可燃性的粉塵。\n等待精確的讀值，回應時間依氣體/蒸氣濃度和取樣管長度為基準變化。\n勿在具可燃性氣體的環境中充電使用。\n體偵測器是預警,不是分析設備。\n讀值為負:瞬間受到大量氣體的汙染導致電流快速上升與下降造成。(請在一般環境先做FAS或ZERO)。"
   },
   {
     "objectID": "DRI.html#讓msa與您一起維護勞工健康與安全",
@@ -2605,5 +1751,684 @@
     "title": "MSA直讀氣體偵測器",
     "section": "",
     "text": "製作中~~~"
+  },
+  {
+    "objectID": "modeling.html",
+    "href": "modeling.html",
+    "title": "Modeling",
+    "section": "",
+    "text": "Important\n\n\n\n本網站主要內容係來自2023 AIHA 新書各章 [@acase-b2023]"
+  },
+  {
+    "objectID": "modeling.html#why-modeling",
+    "href": "modeling.html#why-modeling",
+    "title": "Modeling",
+    "section": "1. Why modeling",
+    "text": "1. Why modeling\nCh1 Modeling in the Framework of Industrial Hygiene Practice\n*💾摘要 *📶 圖"
+  },
+  {
+    "objectID": "modeling.html#gathering-informaiton",
+    "href": "modeling.html#gathering-informaiton",
+    "title": "Modeling",
+    "section": "2. Gathering informaiton",
+    "text": "2. Gathering informaiton\nCh2 Information Gathering for modeling\n*💾摘要"
+  },
+  {
+    "objectID": "modeling.html#volatile-liquid-spill",
+    "href": "modeling.html#volatile-liquid-spill",
+    "title": "Modeling",
+    "section": "3. Volatile liquid spill",
+    "text": "3. Volatile liquid spill\nCh3 Volatile Liquid Spill\n*⚛️摘要"
+  },
+  {
+    "objectID": "modeling.html#sanding-ea",
+    "href": "modeling.html#sanding-ea",
+    "title": "Modeling",
+    "section": "4. Sanding EA",
+    "text": "4. Sanding EA\nCh4 Local Exhaust Ventilation for a Sanding\n*🕎摘要"
+  },
+  {
+    "objectID": "modeling.html#container-uncovered",
+    "href": "modeling.html#container-uncovered",
+    "title": "Modeling",
+    "section": "5. Container uncovered",
+    "text": "5. Container uncovered\nCh5 Volatile Liquid Container Left Open\n*摘要"
+  },
+  {
+    "objectID": "modeling.html#barrel-filling",
+    "href": "modeling.html#barrel-filling",
+    "title": "Modeling",
+    "section": "6. Barrel filling",
+    "text": "6. Barrel filling\nCh6 Barrel filling indoors\n*摘要"
+  },
+  {
+    "objectID": "modeling.html#historic-exposure",
+    "href": "modeling.html#historic-exposure",
+    "title": "Modeling",
+    "section": "7. Historic exposure",
+    "text": "7. Historic exposure\nCh7 Historic exposure\n*摘要"
+  },
+  {
+    "objectID": "modeling.html#pressurized-gas-release",
+    "href": "modeling.html#pressurized-gas-release",
+    "title": "Modeling",
+    "section": "8. Pressurized gas release",
+    "text": "8. Pressurized gas release\nCh8 Pressurized gas release\n*摘要"
+  },
+  {
+    "objectID": "modeling.html#flavoring-process",
+    "href": "modeling.html#flavoring-process",
+    "title": "Modeling",
+    "section": "9. Flavoring Process",
+    "text": "9. Flavoring Process\nChapter 9 Ventilation Requirements for a Flavoring Process\n*摘要"
+  },
+  {
+    "objectID": "modeling.html#cleaning-process",
+    "href": "modeling.html#cleaning-process",
+    "title": "Modeling",
+    "section": "10. Cleaning Process",
+    "text": "10. Cleaning Process\nChapter 10 Cleaning With Product Containing Acetic Acid\n*摘要"
+  },
+  {
+    "objectID": "modeling.html#model-parameters",
+    "href": "modeling.html#model-parameters",
+    "title": "Modeling",
+    "section": "11. Model parameters",
+    "text": "11. Model parameters\nChapter 11 Experimental Determination of Model Parameters\n*摘要"
+  },
+  {
+    "objectID": "modeling.html#monte-carlo-modeling",
+    "href": "modeling.html#monte-carlo-modeling",
+    "title": "Modeling",
+    "section": "12. Monte Carlo modeling",
+    "text": "12. Monte Carlo modeling\nChapter 12 Organic Chemistry Teaching Lab Exposure and a First Exploration of Monte Carlo Modeling\n*摘要"
+  },
+  {
+    "objectID": "modeling.html#mixture-modleing",
+    "href": "modeling.html#mixture-modleing",
+    "title": "Modeling",
+    "section": "13. Mixture modleing",
+    "text": "13. Mixture modleing\nChapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations\n*摘要"
+  },
+  {
+    "objectID": "modeling.html#oxygen-deficiency",
+    "href": "modeling.html#oxygen-deficiency",
+    "title": "Modeling",
+    "section": "14. Oxygen Deficiency",
+    "text": "14. Oxygen Deficiency\nChapter 14 Oxygen Deficiency Hazard in a Storage Tank"
+  },
+  {
+    "objectID": "modeling.html#autoshop-solvents",
+    "href": "modeling.html#autoshop-solvents",
+    "title": "Modeling",
+    "section": "15. Autoshop solvents",
+    "text": "15. Autoshop solvents\nChapter 15 Use of Aerosol Solvents in an Auto Shop\n*摘要"
+  },
+  {
+    "objectID": "modeling.html#reconstruction-of-spill",
+    "href": "modeling.html#reconstruction-of-spill",
+    "title": "Modeling",
+    "section": "17 Reconstruction of spill",
+    "text": "17 Reconstruction of spill\nChapter 17 Reconstruction of a Laboratory Spill\n*摘要"
+  },
+  {
+    "objectID": "modeling.html#modeling-limitation",
+    "href": "modeling.html#modeling-limitation",
+    "title": "Modeling",
+    "section": "18 Modeling limitation",
+    "text": "18 Modeling limitation\nChapter 18 Understanding the Limitations of Mathematical Models and Proactive Communication of Modeling Results\n*摘要"
+  },
+  {
+    "objectID": "modeling.html#feeding-model",
+    "href": "modeling.html#feeding-model",
+    "title": "Modeling",
+    "section": "19 Feeding model",
+    "text": "19 Feeding model\nChapter 19 Feeding Models Using Simple and Some Not-So-Simple Means\n*摘要"
+  },
+  {
+    "objectID": "modeling.html#references",
+    "href": "modeling.html#references",
+    "title": "Modeling",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "web_CH1 Why modeling.html",
+    "href": "web_CH1 Why modeling.html",
+    "title": "CH1 Why modeling",
+    "section": "",
+    "text": "暴露評估(系統性地描述勞工暴露狀況)並做出風險管理決策。包含幾個核心概念：\n\n暴露輪廓 (Exposure Profile)：SEG或勞工所經歷的完整暴露分佈。\n評估決策：將暴露輪廓與職業暴露限值 (OEL) 進行比較，判斷暴露風險。\n\n\n\n\n傳統上依賴的空氣採樣，在樣本數有限時，其統計證據力非常薄弱。\n關鍵例證：少量採樣的信心陷阱 。僅憑少量採樣數據無法做出可靠的「安全」判斷。\n核心結論：傳統採樣的統計局限性，而暴露評估模型可以輔助專業判斷。\n\n\n\n模型並非要取代採樣，是輔助使暴露評估更科學且高效，提供量化的科學依據。\n\n核心價值：\n\n支持與校正專業判斷、優化資源、提供書面佐證。\n\n超越時間的應用：\n\n回溯過去：為訴訟案件或流行病學研究進行歷史暴露重建。\n評估現在：補充數據不足的暴露輪廓，為當前風險定級。\n預測未來：在製程變更或新化學品引入前，預測潛在暴露。\n\n\n\n\n\n決策的黃金法則：一個模型或一組採樣數據是否有用，並非取決於它能否完美預測真實濃度，而是取決於其結果（暴露分佈）與職業暴露限值（OEL）的相對距離。\n最終思想：暴露評估的目標不是追求完美的預測值，而是利用所有可得工具（包括模型與採樣），在考量不確定性的前提下，做出足夠好」的決策來保護勞工健康。"
+  },
+  {
+    "objectID": "web_CH1 Why modeling.html#暴露評估職業衛生的核心",
+    "href": "web_CH1 Why modeling.html#暴露評估職業衛生的核心",
+    "title": "CH1 Why modeling",
+    "section": "",
+    "text": "暴露評估(系統性地描述勞工暴露狀況)並做出風險管理決策。包含幾個核心概念：\n\n暴露輪廓 (Exposure Profile)：SEG或勞工所經歷的完整暴露分佈。\n評估決策：將暴露輪廓與職業暴露限值 (OEL) 進行比較，判斷暴露風險。"
+  },
+  {
+    "objectID": "web_CH1 Why modeling.html#傳統採樣的限制與模型的必要性",
+    "href": "web_CH1 Why modeling.html#傳統採樣的限制與模型的必要性",
+    "title": "CH1 Why modeling",
+    "section": "",
+    "text": "傳統上依賴的空氣採樣，在樣本數有限時，其統計證據力非常薄弱。\n關鍵例證：少量採樣的信心陷阱 。僅憑少量採樣數據無法做出可靠的「安全」判斷。\n核心結論：傳統採樣的統計局限性，而暴露評估模型可以輔助專業判斷。"
+  },
+  {
+    "objectID": "web_CH1 Why modeling.html#暴露評估模型的角色與應用",
+    "href": "web_CH1 Why modeling.html#暴露評估模型的角色與應用",
+    "title": "CH1 Why modeling",
+    "section": "",
+    "text": "模型並非要取代採樣，是輔助使暴露評估更科學且高效，提供量化的科學依據。\n\n核心價值：\n\n支持與校正專業判斷、優化資源、提供書面佐證。\n\n超越時間的應用：\n\n回溯過去：為訴訟案件或流行病學研究進行歷史暴露重建。\n評估現在：補充數據不足的暴露輪廓，為當前風險定級。\n預測未來：在製程變更或新化學品引入前，預測潛在暴露。"
+  },
+  {
+    "objectID": "web_CH1 Why modeling.html#解讀模型結果不確定性與決策關鍵",
+    "href": "web_CH1 Why modeling.html#解讀模型結果不確定性與決策關鍵",
+    "title": "CH1 Why modeling",
+    "section": "",
+    "text": "決策的黃金法則：一個模型或一組採樣數據是否有用，並非取決於它能否完美預測真實濃度，而是取決於其結果（暴露分佈）與職業暴露限值（OEL）的相對距離。\n最終思想：暴露評估的目標不是追求完美的預測值，而是利用所有可得工具（包括模型與採樣），在考量不確定性的前提下，做出足夠好」的決策來保護勞工健康。"
+  },
+  {
+    "objectID": "web_CH1 Why modeling.html#footnotes",
+    "href": "web_CH1 Why modeling.html#footnotes",
+    "title": "CH1 Why modeling",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nChapter 1 Modeling in the Framework of Industrial Hygiene Practice↩︎"
+  },
+  {
+    "objectID": "web_CH2 Information Gathering.html",
+    "href": "web_CH2 Information Gathering.html",
+    "title": "CH2 Information Gathering",
+    "section": "",
+    "text": "任何暴露評估模式的準確性，都完全取決於其輸入資訊的品質。系統性地收集建立一個可靠空氣濃度模型需要三大類關鍵資訊。\n\n\n\n\n暴露輪廓 = 模擬出的空氣濃度 + 勞工活動模式\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n將計算出的「環境濃度」轉化為「個人暴露劑量」，再與暴露限值比較，進行風險評估。\n\n\n\n\n\n成功的暴露評估模式，建立在系統性且嚴謹的資訊收集之上。在進行評估時，務必記錄您所做的每一個假設與資訊來源。如果您的估算偏向保守（高估暴露），要註明為何如此；如果使用了文獻值，也要記錄出處。這將使您的評估報告更加專業、可信，也便於日後回溯與更新。"
+  },
+  {
+    "objectID": "web_CH2 Information Gathering.html#一-暴露評估的核心濃度與時間的結合",
+    "href": "web_CH2 Information Gathering.html#一-暴露評估的核心濃度與時間的結合",
+    "title": "CH2 Information Gathering",
+    "section": "",
+    "text": "暴露輪廓 = 模擬出的空氣濃度 + 勞工活動模式"
+  },
+  {
+    "objectID": "web_CH2 Information Gathering.html#四-關鍵資訊三勞工活動形態資訊",
+    "href": "web_CH2 Information Gathering.html#四-關鍵資訊三勞工活動形態資訊",
+    "title": "CH2 Information Gathering",
+    "section": "",
+    "text": "將計算出的「環境濃度」轉化為「個人暴露劑量」，再與暴露限值比較，進行風險評估。"
+  },
+  {
+    "objectID": "web_CH2 Information Gathering.html#總結",
+    "href": "web_CH2 Information Gathering.html#總結",
+    "title": "CH2 Information Gathering",
+    "section": "",
+    "text": "成功的暴露評估模式，建立在系統性且嚴謹的資訊收集之上。在進行評估時，務必記錄您所做的每一個假設與資訊來源。如果您的估算偏向保守（高估暴露），要註明為何如此；如果使用了文獻值，也要記錄出處。這將使您的評估報告更加專業、可信，也便於日後回溯與更新。"
+  },
+  {
+    "objectID": "web_CH2 Information Gathering.html#footnotes",
+    "href": "web_CH2 Information Gathering.html#footnotes",
+    "title": "CH2 Information Gathering",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nCH2 Information Gathering for modeling↩︎"
+  },
+  {
+    "objectID": "web_CH3 Volatile Liquid Spill.html",
+    "href": "web_CH3 Volatile Liquid Spill.html",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "運用兩種基礎的暴露評估模式，快速估算化學品（甲苯）意外洩漏，勞工暴露風險。\n\n\n\n\n事件概述：一名工廠員工通報，前一天在工作站打翻了半瓶甲苯（約250 mL），用抹布擦拭後放置一旁晾乾，約2小時後蒸發完畢。員工當下聞到濃烈氣味，隔日出現胃痙攣症狀。\n任務：身為職衛專業人員，需回溯性評估該名員工在洩漏事件中的8小時日時量平均暴露量 (TWA-8)，及判斷其症狀是否與此次暴露相關。\n關鍵參數彙整：\n\n化學品：甲苯 (Toluene)，洩漏體積：250 mL，液體密度：0.87 g/mL，蒸發時間：2 小時 (120 分鐘)\n作業空間：房間體積 (V)：240 m3，通風狀況 (Q)：未知(無機械排氣)\n暴露時間：正常背景濃度 (C1​)：25 mg/m³ (之前環測)，正常工作時間 (t1​)：5 小時，洩漏後暴露時間 (t2​)：3 小時\n暴露標準 (OELs)：\n\nOSHA PEL (TWA-8)：750 mg/m³，ACGIH TLV (TWA-8)：75 mg/m³ (國際公認、更具健康保護性的建議值)\n\n\n\n\n\n\n此為Tier 1 的篩選評估，採用最保守（最糟情況）的假設，以快速判斷風險等級。\n\n模式原理與假設：作業空間為完全密閉的盒子 (無任何通風)。所有洩漏的甲苯瞬間蒸發，並立即均勻混合至整個房間空氣中。\n公式與演算：Czero_vent​=M/V​=910m3mg​\n\nTWA-8 暴露量計算：≈360m3mg​\n\n初步判斷：\n\n低於OSHA PEL (750 mg/m³)，但遠高於ACGIH TLV (75 mg/m³)。\n有必要進行更精確的評估。\n\n\n\n\n\n此模式比零通風模式更進一步，它考慮了通風的影響，能提供更貼近現實的估算。\n\n模式原理與假設：空氣以一個固定的速率 (Q) 進出房間，並與室內空氣完全均勻混合。污染物以一個固定的平均速率 (G) 釋放到空氣中。濃度達到一個穩態 (Css​)，即污染物進入速率等於被排出的速率。\n公式與演算過程：Css​=G/Q ​​≈ 150m3mg​\nTWA-8 暴露量計算：≈72m3mg​\n精緻化判斷：\n\n這個結果非常接近 ACGIH 的 TLV (75 mg/m³)。\n雖然此次暴露可能沒有違法，但已經達到了需要關注的水平。\nIH MOD 模式推估\n\n\n\n\n\n\n\n暴露水平判斷：\n\n此次洩漏事件導致的8小時日時量平均暴露濃度，很可能非常接近甚至短時間內超過了具健康保護意義的ACGIH TLV標準。\n\n健康風險分析：\n\n暴露情境：TLV是基於長期、每日重複暴露所設定的標準。考量到這是一次性的短時間暴露，其造成的長期健康風險可能很小。\n症狀比對：員工回報「胃痙攣」症狀，與甲苯典型急性中毒症狀（如頭暈、噁心、中樞神經抑制）不太相符，兩者直接關聯性可能不大。\n\n後續管理行動建議：\n\n善盡職責：身為職衛專業人員，已透過合理的模式評估，完成對此次事件的暴露評估與記錄，善盡了調查之責。\n持續關懷：應持續追蹤該員工的健康狀況。\n預防未來：此事件暴露了管理上的不足。最重要的行動是著眼於未來，建議公司應加強小型化學品洩漏的應變計畫與教育訓練，以預防未來類似事件的風險。\n\n\n\nprepared by Peter Ho"
+  },
+  {
+    "objectID": "web_CH3 Volatile Liquid Spill.html#核心目標",
+    "href": "web_CH3 Volatile Liquid Spill.html#核心目標",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "運用兩種基礎的暴露評估模式，快速估算化學品（甲苯）意外洩漏，勞工暴露風險。"
+  },
+  {
+    "objectID": "web_CH3 Volatile Liquid Spill.html#情境與資訊蒐集",
+    "href": "web_CH3 Volatile Liquid Spill.html#情境與資訊蒐集",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "事件概述：一名工廠員工通報，前一天在工作站打翻了半瓶甲苯（約250 mL），用抹布擦拭後放置一旁晾乾，約2小時後蒸發完畢。員工當下聞到濃烈氣味，隔日出現胃痙攣症狀。\n任務：身為職衛專業人員，需回溯性評估該名員工在洩漏事件中的8小時日時量平均暴露量 (TWA-8)，及判斷其症狀是否與此次暴露相關。\n關鍵參數彙整：\n\n化學品：甲苯 (Toluene)，洩漏體積：250 mL，液體密度：0.87 g/mL，蒸發時間：2 小時 (120 分鐘)\n作業空間：房間體積 (V)：240 m3，通風狀況 (Q)：未知(無機械排氣)\n暴露時間：正常背景濃度 (C1​)：25 mg/m³ (之前環測)，正常工作時間 (t1​)：5 小時，洩漏後暴露時間 (t2​)：3 小時\n暴露標準 (OELs)：\n\nOSHA PEL (TWA-8)：750 mg/m³，ACGIH TLV (TWA-8)：75 mg/m³ (國際公認、更具健康保護性的建議值)"
+  },
+  {
+    "objectID": "web_CH3 Volatile Liquid Spill.html#模式評估一零通風模式-zero-ventilation-model",
+    "href": "web_CH3 Volatile Liquid Spill.html#模式評估一零通風模式-zero-ventilation-model",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "此為Tier 1 的篩選評估，採用最保守（最糟情況）的假設，以快速判斷風險等級。\n\n模式原理與假設：作業空間為完全密閉的盒子 (無任何通風)。所有洩漏的甲苯瞬間蒸發，並立即均勻混合至整個房間空氣中。\n公式與演算：Czero_vent​=M/V​=910m3mg​\n\nTWA-8 暴露量計算：≈360m3mg​\n\n初步判斷：\n\n低於OSHA PEL (750 mg/m³)，但遠高於ACGIH TLV (75 mg/m³)。\n有必要進行更精確的評估。"
+  },
+  {
+    "objectID": "web_CH3 Volatile Liquid Spill.html#模式評估二均勻混合模式-well-mixed-room-model",
+    "href": "web_CH3 Volatile Liquid Spill.html#模式評估二均勻混合模式-well-mixed-room-model",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "此模式比零通風模式更進一步，它考慮了通風的影響，能提供更貼近現實的估算。\n\n模式原理與假設：空氣以一個固定的速率 (Q) 進出房間，並與室內空氣完全均勻混合。污染物以一個固定的平均速率 (G) 釋放到空氣中。濃度達到一個穩態 (Css​)，即污染物進入速率等於被排出的速率。\n公式與演算過程：Css​=G/Q ​​≈ 150m3mg​\nTWA-8 暴露量計算：≈72m3mg​\n精緻化判斷：\n\n這個結果非常接近 ACGIH 的 TLV (75 mg/m³)。\n雖然此次暴露可能沒有違法，但已經達到了需要關注的水平。\nIH MOD 模式推估"
+  },
+  {
+    "objectID": "web_CH3 Volatile Liquid Spill.html#結論與專業建議",
+    "href": "web_CH3 Volatile Liquid Spill.html#結論與專業建議",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "",
+    "text": "暴露水平判斷：\n\n此次洩漏事件導致的8小時日時量平均暴露濃度，很可能非常接近甚至短時間內超過了具健康保護意義的ACGIH TLV標準。\n\n健康風險分析：\n\n暴露情境：TLV是基於長期、每日重複暴露所設定的標準。考量到這是一次性的短時間暴露，其造成的長期健康風險可能很小。\n症狀比對：員工回報「胃痙攣」症狀，與甲苯典型急性中毒症狀（如頭暈、噁心、中樞神經抑制）不太相符，兩者直接關聯性可能不大。\n\n後續管理行動建議：\n\n善盡職責：身為職衛專業人員，已透過合理的模式評估，完成對此次事件的暴露評估與記錄，善盡了調查之責。\n持續關懷：應持續追蹤該員工的健康狀況。\n預防未來：此事件暴露了管理上的不足。最重要的行動是著眼於未來，建議公司應加強小型化學品洩漏的應變計畫與教育訓練，以預防未來類似事件的風險。\n\n\n\nprepared by Peter Ho"
+  },
+  {
+    "objectID": "web_CH3 Volatile Liquid Spill.html#核心目標-1",
+    "href": "web_CH3 Volatile Liquid Spill.html#核心目標-1",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "核心目標",
+    "text": "核心目標\n運用兩種基礎的暴露評估模式，快速估算化學品（甲苯）意外洩漏，勞工暴露風險。"
+  },
+  {
+    "objectID": "web_CH3 Volatile Liquid Spill.html#情境與資訊蒐集-1",
+    "href": "web_CH3 Volatile Liquid Spill.html#情境與資訊蒐集-1",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "1. 情境與資訊蒐集",
+    "text": "1. 情境與資訊蒐集\n\n事件概述：一名工廠員工通報，前一天在工作站打翻了半瓶甲苯（約250 mL），用抹布擦拭後放置一旁晾乾，約2小時後蒸發完畢。員工當下聞到濃烈氣味，隔日出現胃痙攣症狀。\n任務：身為職衛專業人員，需回溯性評估該名員工在洩漏事件中的8小時日時量平均暴露量 (TWA-8)，及判斷其症狀是否與此次暴露相關。\n關鍵參數彙整：\n\n化學品：甲苯 (Toluene)，洩漏體積：250 mL，液體密度：0.87 g/mL，蒸發時間：2 小時 (120 分鐘)\n作業空間：房間體積 (V)：240 m3，通風狀況 (Q)：未知(無機械排氣)\n暴露時間：正常背景濃度 (C1​)：25 mg/m³ (之前環測)，正常工作時間 (t1​)：5 小時，洩漏後暴露時間 (t2​)：3 小時\n暴露標準 (OELs)：\n\nOSHA PEL (TWA-8)：750 mg/m³，ACGIH TLV (TWA-8)：75 mg/m³ (國際公認、更具健康保護性的建議值)"
+  },
+  {
+    "objectID": "web_CH3 Volatile Liquid Spill.html#模式評估一零通風模式-zero-ventilation-model-1",
+    "href": "web_CH3 Volatile Liquid Spill.html#模式評估一零通風模式-zero-ventilation-model-1",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "2. 模式評估一：零通風模式 (Zero-Ventilation Model)",
+    "text": "2. 模式評估一：零通風模式 (Zero-Ventilation Model)\n此為Tier 1 的篩選評估，採用最保守（最糟情況）的假設，以快速判斷風險等級。\n\n模式原理與假設：作業空間為完全密閉的盒子 (無任何通風)。所有洩漏的甲苯瞬間蒸發，並立即均勻混合至整個房間空氣中。\n公式與演算：Czero_vent​=M/V​=910m3mg​\n\nTWA-8 暴露量計算：≈360m3mg​\n\n初步判斷：\n\n低於OSHA PEL (750 mg/m³)，但遠高於ACGIH TLV (75 mg/m³)。\n有必要進行更精確的評估。"
+  },
+  {
+    "objectID": "web_CH3 Volatile Liquid Spill.html#模式評估二均勻混合模式-well-mixed-room-model-1",
+    "href": "web_CH3 Volatile Liquid Spill.html#模式評估二均勻混合模式-well-mixed-room-model-1",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "3. 模式評估二：均勻混合模式 (Well-Mixed Room Model)",
+    "text": "3. 模式評估二：均勻混合模式 (Well-Mixed Room Model)\n此模式比零通風模式更進一步，它考慮了通風的影響，能提供更貼近現實的估算。\n\n模式原理與假設：空氣以一個固定的速率 (Q) 進出房間，並與室內空氣完全均勻混合。污染物以一個固定的平均速率 (G) 釋放到空氣中。濃度達到一個穩態 (Css​)，即污染物進入速率等於被排出的速率。\n公式與演算過程：Css​=G/Q ​​≈ 150m3mg​\nTWA-8 暴露量計算：≈72m3mg​\n精緻化判斷：\n\n這個結果非常接近 ACGIH 的 TLV (75 mg/m³)。\n雖然此次暴露可能沒有違法，但已經達到了需要關注的水平。\nIH MOD 模式推估 (均勻混合模型)"
+  },
+  {
+    "objectID": "web_CH3 Volatile Liquid Spill.html#結論與專業建議-1",
+    "href": "web_CH3 Volatile Liquid Spill.html#結論與專業建議-1",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "4. 結論與專業建議",
+    "text": "4. 結論與專業建議\n\n暴露水平判斷：\n\n此次洩漏事件導致的8小時日時量平均暴露濃度，很可能非常接近甚至短時間內超過了具健康保護意義的ACGIH TLV標準。\n\n健康風險分析：\n\n暴露情境：TLV是基於長期、每日重複暴露所設定的標準。考量到這是一次性的短時間暴露，其造成的長期健康風險可能很小。\n症狀比對：員工回報「胃痙攣」症狀，與甲苯典型急性中毒症狀（如頭暈、噁心、中樞神經抑制）不太相符，兩者直接關聯性可能不大。\n\n後續管理行動建議：\n\n善盡職責：身為職衛專業人員，已透過合理的模式評估，完成對此次事件的暴露評估與記錄，善盡了調查之責。\n持續關懷：應持續追蹤該員工的健康狀況。\n預防未來：此事件暴露了管理上的不足。最重要的行動是著眼於未來，建議公司應加強小型化學品洩漏的應變計畫與教育訓練，以預防未來類似事件的風險。\n\n\n\nprepared by Peter Ho"
+  },
+  {
+    "objectID": "web_CH3 Volatile Liquid Spill.html#footnotes",
+    "href": "web_CH3 Volatile Liquid Spill.html#footnotes",
+    "title": "Ch3 Volatile Liquid Spill",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nChapter 3 Volatile Liquid Spill↩︎\nChapter 3 Volatile Liquid Spill↩︎"
+  },
+  {
+    "objectID": "web_CH4 Sanding.html",
+    "href": "web_CH4 Sanding.html",
+    "title": "CH4 sanding",
+    "section": "",
+    "text": "背景問題：一間木工廠因產能不足，廠長提議臨時使用一張**無局部排氣裝置（LEV）**的工作台，每天進行2小時的打磨作業。\n\n職衛任務：預測此臨時作業是否會產生不可接受的木塵暴露濃度。\n\n\n\n\n為進行評估，我們採用完全混合室模式（Well-Mixed Room Model），並估算了以下關鍵參數：\n* 暴露標準：選用較嚴格的 ACGIH TLV 作為主要判斷基準：1.0 mg/m³。\n* 粉塵產生率 (G)：估算出粉塵產生率 G 約為 2,170 mg/min。粉塵粒徑極小，假設其完全懸浮於空氣中。\n* 房間資訊：房間體積 (V) 為 3,120 m³，總排氣量 (Q) 為 240 m³/min。\n\n\n\n模型評估假設是污染物均勻混合 (但，操作人員呼吸帶的實際濃度必定更高)。\n* 穩態濃度 (Css)：若此無通風作業持續進行，房間平均濃度將達到 9.0 mg/m³，遠超所有職業暴露標準。\n* 2小時作業的日時量平均濃度 (TWA-8)：2.25 mg/m³，是 TLV 的兩倍多。\n* 濃度累積速度：風險累積極為迅速。模型顯示，作業開始後僅需 1.5 分鐘，房間的平均濃度就會超過 ACGIH 的建議標準。\n\n模式推估 IH MOD\n\n\n\n\n\n\n明確的風險判斷：\n廠長提議的臨時方案是不安全的，會產生不可接受的木塵暴露濃度。\n\n建議措施：\n\n臨時方案：可考慮採用附有整合式集塵裝置的砂輪機作為臨時措施，但仍建議進行現場測定確認其有效性。\n\n最終解決方案：最理想的工程控制方法是添購一台新的下吸式排氣桌，從根本上解決問題。\n\nmade by Peter Ho. 1140813"
+  },
+  {
+    "objectID": "web_CH4 Sanding.html#核心情境與評估任務",
+    "href": "web_CH4 Sanding.html#核心情境與評估任務",
+    "title": "CH4 sanding",
+    "section": "",
+    "text": "背景問題：一間木工廠因產能不足，廠長提議臨時使用一張**無局部排氣裝置（LEV）**的工作台，每天進行2小時的打磨作業。\n\n職衛任務：預測此臨時作業是否會產生不可接受的木塵暴露濃度。"
+  },
+  {
+    "objectID": "web_CH4 Sanding.html#關鍵參數與評估模型",
+    "href": "web_CH4 Sanding.html#關鍵參數與評估模型",
+    "title": "CH4 sanding",
+    "section": "",
+    "text": "為進行評估，我們採用完全混合室模式（Well-Mixed Room Model），並估算了以下關鍵參數：\n* 暴露標準：選用較嚴格的 ACGIH TLV 作為主要判斷基準：1.0 mg/m³。\n* 粉塵產生率 (G)：估算出粉塵產生率 G 約為 2,170 mg/min。粉塵粒徑極小，假設其完全懸浮於空氣中。\n* 房間資訊：房間體積 (V) 為 3,120 m³，總排氣量 (Q) 為 240 m³/min。"
+  },
+  {
+    "objectID": "web_CH4 Sanding.html#風險分析與關鍵發現",
+    "href": "web_CH4 Sanding.html#風險分析與關鍵發現",
+    "title": "CH4 sanding",
+    "section": "",
+    "text": "模型評估假設是污染物均勻混合 (但，操作人員呼吸帶的實際濃度必定更高)。\n* 穩態濃度 (Css)：若此無通風作業持續進行，房間平均濃度將達到 9.0 mg/m³，遠超所有職業暴露標準。\n* 2小時作業的日時量平均濃度 (TWA-8)：2.25 mg/m³，是 TLV 的兩倍多。\n* 濃度累積速度：風險累積極為迅速。模型顯示，作業開始後僅需 1.5 分鐘，房間的平均濃度就會超過 ACGIH 的建議標準。\n\n模式推估 IH MOD"
+  },
+  {
+    "objectID": "web_CH4 Sanding.html#結論與專業建議",
+    "href": "web_CH4 Sanding.html#結論與專業建議",
+    "title": "CH4 sanding",
+    "section": "",
+    "text": "明確的風險判斷：\n廠長提議的臨時方案是不安全的，會產生不可接受的木塵暴露濃度。\n\n建議措施：\n\n臨時方案：可考慮採用附有整合式集塵裝置的砂輪機作為臨時措施，但仍建議進行現場測定確認其有效性。\n\n最終解決方案：最理想的工程控制方法是添購一台新的下吸式排氣桌，從根本上解決問題。\n\nmade by Peter Ho. 1140813"
+  },
+  {
+    "objectID": "CH5 Container left open.html",
+    "href": "CH5 Container left open.html",
+    "title": "CH5 Container left open",
+    "section": "",
+    "text": "本章節透過一個正己烷容器未加蓋的意外，展示如何使用三種模型來評估暴露風險，從瞬間高濃度危害到房間恢復安全的過程。\n\n\n一名工作人員發現儲存櫃內的正己烷容器未蓋，立即蓋上並撤離。我們的評估旨在回答三個核心問題：櫃內瞬間濃度多高？污染物擴散至房間後的濃度是多少？房間何時能安全進入？\n\n\n在收集了正己烷的化學特性與空間參數後，我們依序進行了三階段的暴露評估：\n\n櫃內濃度 (飽和蒸氣壓模式): 此模型用於估算密閉空間中最壞情況下的濃度。計算結果顯示，櫃內濃度高達 163,000 ppm，遠超職業暴露限值與爆炸極限，構成立即性的嚴重危害。\n\n房間初始濃度 (無通風推估模式): 當櫃門打開，污染物瞬間擴散。此模型估算出房間的初始平均濃度介於 550 至 1,100 mg/m³ 之間，同樣遠高於安全標準，顯示整個房間的暴露風險也相當高。\n\n濃度衰減 (完全混合模式WMR): 在汙染源被移除後，此模型預測房間濃度會因通風而下降。計算顯示，大約需要 50分鐘，濃度才能降至安全的TLV-TWA標準以下，這為安全進入提供了時間依據。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n此次意外凸顯了「逸散性排放」的潛在危險。綜合評估顯示，雖然通風系統能最終清除污染物，但無法預防初期的危險暴露。\n因此，本章的關鍵學習重點是：對於揮發性化學品，應優先採用 源頭控制 措施。持續通風或開放通風等工程控制設備，是預防此類意外最有效的方法，其效益遠勝於僅依賴後端的通風換氣。\n參考：Chapter 5 Volatile Liquid Container Left Open 整理：Peter Ho. 114.08.14"
+  },
+  {
+    "objectID": "CH5 Container left open.html#情境評估",
+    "href": "CH5 Container left open.html#情境評估",
+    "title": "CH5 Container left open",
+    "section": "",
+    "text": "一名工作人員發現儲存櫃內的正己烷容器未蓋，立即蓋上並撤離。我們的評估旨在回答三個核心問題：櫃內瞬間濃度多高？污染物擴散至房間後的濃度是多少？房間何時能安全進入？\n\n\n在收集了正己烷的化學特性與空間參數後，我們依序進行了三階段的暴露評估：\n\n櫃內濃度 (飽和蒸氣壓模式): 此模型用於估算密閉空間中最壞情況下的濃度。計算結果顯示，櫃內濃度高達 163,000 ppm，遠超職業暴露限值與爆炸極限，構成立即性的嚴重危害。\n\n房間初始濃度 (無通風推估模式): 當櫃門打開，污染物瞬間擴散。此模型估算出房間的初始平均濃度介於 550 至 1,100 mg/m³ 之間，同樣遠高於安全標準，顯示整個房間的暴露風險也相當高。\n\n濃度衰減 (完全混合模式WMR): 在汙染源被移除後，此模型預測房間濃度會因通風而下降。計算顯示，大約需要 50分鐘，濃度才能降至安全的TLV-TWA標準以下，這為安全進入提供了時間依據。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n此次意外凸顯了「逸散性排放」的潛在危險。綜合評估顯示，雖然通風系統能最終清除污染物，但無法預防初期的危險暴露。\n因此，本章的關鍵學習重點是：對於揮發性化學品，應優先採用 源頭控制 措施。持續通風或開放通風等工程控制設備，是預防此類意外最有效的方法，其效益遠勝於僅依賴後端的通風換氣。\n參考：Chapter 5 Volatile Liquid Container Left Open 整理：Peter Ho. 114.08.14"
+  },
+  {
+    "objectID": "web_CH5 container left open.html",
+    "href": "web_CH5 container left open.html",
+    "title": "CH5 Container left open",
+    "section": "",
+    "text": "本章節透過一個正己烷容器未加蓋的意外，展示如何使用三種模型來評估暴露風險，從瞬間高濃度危害到房間恢復安全的過程。\n\n\n一名工作人員發現儲存櫃內的正己烷容器未蓋，立即蓋上並撤離。我們的評估旨在回答三個核心問題：櫃內瞬間濃度多高？污染物擴散至房間後的濃度是多少？房間何時能安全進入？\n\n\n在收集了正己烷的化學特性與空間參數後，我們依序進行了三階段的暴露評估：\n\n櫃內濃度 (飽和蒸氣壓模式): 此模型用於估算密閉空間中最壞情況下的濃度。計算結果顯示，櫃內濃度高達 163,000 ppm，遠超職業暴露限值與爆炸極限，構成立即性的嚴重危害。\n\n房間初始濃度 (無通風推估模式): 當櫃門打開，污染物瞬間擴散。此模型估算出房間的初始平均濃度介於 550 至 1,100 mg/m³ 之間，同樣遠高於安全標準，顯示整個房間的暴露風險也相當高。\n\n濃度衰減 (完全混合模式WMR): 在汙染源被移除後，此模型預測房間濃度會因通風而下降。計算顯示，大約需要 50分鐘，濃度才能降至安全的TLV-TWA標準以下，這為安全進入提供了時間依據。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n此次意外凸顯了「逸散性排放」的潛在危險。綜合評估顯示，雖然通風系統能最終清除污染物，但無法預防初期的危險暴露。\n因此，本章的關鍵學習重點是：對於揮發性化學品，應優先採用 源頭控制 措施。持續通風或開放通風等工程控制設備，是預防此類意外最有效的方法，其效益遠勝於僅依賴後端的通風換氣。\n參考：Chapter 5 Volatile Liquid Container Left Open 整理：Peter Ho. 114.08.14"
+  },
+  {
+    "objectID": "web_CH5 container left open.html#情境評估",
+    "href": "web_CH5 container left open.html#情境評估",
+    "title": "CH5 Container left open",
+    "section": "",
+    "text": "一名工作人員發現儲存櫃內的正己烷容器未蓋，立即蓋上並撤離。我們的評估旨在回答三個核心問題：櫃內瞬間濃度多高？污染物擴散至房間後的濃度是多少？房間何時能安全進入？\n\n\n在收集了正己烷的化學特性與空間參數後，我們依序進行了三階段的暴露評估：\n\n櫃內濃度 (飽和蒸氣壓模式): 此模型用於估算密閉空間中最壞情況下的濃度。計算結果顯示，櫃內濃度高達 163,000 ppm，遠超職業暴露限值與爆炸極限，構成立即性的嚴重危害。\n\n房間初始濃度 (無通風推估模式): 當櫃門打開，污染物瞬間擴散。此模型估算出房間的初始平均濃度介於 550 至 1,100 mg/m³ 之間，同樣遠高於安全標準，顯示整個房間的暴露風險也相當高。\n\n濃度衰減 (完全混合模式WMR): 在汙染源被移除後，此模型預測房間濃度會因通風而下降。計算顯示，大約需要 50分鐘，濃度才能降至安全的TLV-TWA標準以下，這為安全進入提供了時間依據。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n此次意外凸顯了「逸散性排放」的潛在危險。綜合評估顯示，雖然通風系統能最終清除污染物，但無法預防初期的危險暴露。\n因此，本章的關鍵學習重點是：對於揮發性化學品，應優先採用 源頭控制 措施。持續通風或開放通風等工程控制設備，是預防此類意外最有效的方法，其效益遠勝於僅依賴後端的通風換氣。\n參考：Chapter 5 Volatile Liquid Container Left Open 整理：Peter Ho. 114.08.14"
+  },
+  {
+    "objectID": "web_CH6 barrel filling.html",
+    "href": "web_CH6 barrel filling.html",
+    "title": "CH6 barrel filling",
+    "section": "",
+    "text": "應用渦流擴散模式(Turbulent Eddy diffusion model)，科學地評估在通風條件不佳或空氣流動緩慢的區域中，作業點附近的化學品蒸氣濃度分布。相較於假設整個空間濃度均勻的傳統模型，擴散模型更能反映靠近污染源的局部高濃度現實情況。\n\n\n\n情境: 一名員工報告在室內填充 NMP (N-甲基-2-吡咯烷酮) 廢液桶（作業時間5分鐘，填充速率 2 L/min）時，聞到刺激性異味並感到身體不適。評估的目標是，量化在填充作業期間，員工呼吸帶附近可能的 NMP 蒸氣濃度。\n\n資訊: 經由質量平衡計算，NMP 蒸氣的產生率 (G) 約為 4.9 mg/min。此化學品的8小時日時量平均容許濃度 (TWA-8 OEL) 為 60mg/m3。\n\n\n\n\n由於廢液桶被放置在空氣流動性差的牆角，遠離主要的通風氣流，因此非常適合使用擴散模型來估算近距離的濃度梯度。此模型的主要輸入參數包括污染物產生率 (G)、反映物理屏障的幾何因子 (Kg​，此案例為角落=1)，以及反映室內空氣微觀擾動程度的紊流擴散係數 (DT​)。\n\n模型參數: 為確保評估的保守性與保護性，我們採用了工業環境中較低的擴散係數 (DT​=0.1m2/min) 進行評估，這代表假設污染物擴散較慢，會在源頭附近累積較高濃度。\n\n模型結果: 在此最保守的假設情境下，距離填充口 0.25 公尺處，作業進行到第5分鐘時的瞬時濃度預估為 50.2mg/m3。\n\n\n\n\n\n\n\n\n預估的最高瞬時濃度 (50.2mg/m3) 雖然顯著，但仍低於法定的8小時日時量平均容許濃度 (60mg/m3)。進一步考量到此作業的暴露時間極短（僅5分鐘）且頻率不高（並非每日發生），將此短時間高濃度暴露平均至8小時工作日後，其日時量平均暴露值遠低於容許標準，因此整體暴露風險可判斷為**「可接受」**。\n此案例清晰地展示了擴散模型作為一種暴露評估工具的實用價值。它允許我們在缺乏直接採樣數據的情況下，透過選擇合理的保守參數，對通風不良區域的近源暴露情境進行量化且具保護性的風險判斷。\n參考資料： Chapter 6 barrel filling indoors. Made by Peter Ho. 114.08.14"
+  },
+  {
+    "objectID": "web_CH6 barrel filling.html#情境與評估",
+    "href": "web_CH6 barrel filling.html#情境與評估",
+    "title": "CH6 barrel filling",
+    "section": "",
+    "text": "情境: 一名員工報告在室內填充 NMP (N-甲基-2-吡咯烷酮) 廢液桶（作業時間5分鐘，填充速率 2 L/min）時，聞到刺激性異味並感到身體不適。評估的目標是，量化在填充作業期間，員工呼吸帶附近可能的 NMP 蒸氣濃度。\n\n資訊: 經由質量平衡計算，NMP 蒸氣的產生率 (G) 約為 4.9 mg/min。此化學品的8小時日時量平均容許濃度 (TWA-8 OEL) 為 60mg/m3。"
+  },
+  {
+    "objectID": "web_CH6 barrel filling.html#擴散模型應用與結果",
+    "href": "web_CH6 barrel filling.html#擴散模型應用與結果",
+    "title": "CH6 barrel filling",
+    "section": "",
+    "text": "由於廢液桶被放置在空氣流動性差的牆角，遠離主要的通風氣流，因此非常適合使用擴散模型來估算近距離的濃度梯度。此模型的主要輸入參數包括污染物產生率 (G)、反映物理屏障的幾何因子 (Kg​，此案例為角落=1)，以及反映室內空氣微觀擾動程度的紊流擴散係數 (DT​)。\n\n模型參數: 為確保評估的保守性與保護性，我們採用了工業環境中較低的擴散係數 (DT​=0.1m2/min) 進行評估，這代表假設污染物擴散較慢，會在源頭附近累積較高濃度。\n\n模型結果: 在此最保守的假設情境下，距離填充口 0.25 公尺處，作業進行到第5分鐘時的瞬時濃度預估為 50.2mg/m3。"
+  },
+  {
+    "objectID": "web_CH6 barrel filling.html#結論風險可接受",
+    "href": "web_CH6 barrel filling.html#結論風險可接受",
+    "title": "CH6 barrel filling",
+    "section": "",
+    "text": "預估的最高瞬時濃度 (50.2mg/m3) 雖然顯著，但仍低於法定的8小時日時量平均容許濃度 (60mg/m3)。進一步考量到此作業的暴露時間極短（僅5分鐘）且頻率不高（並非每日發生），將此短時間高濃度暴露平均至8小時工作日後，其日時量平均暴露值遠低於容許標準，因此整體暴露風險可判斷為**「可接受」**。\n此案例清晰地展示了擴散模型作為一種暴露評估工具的實用價值。它允許我們在缺乏直接採樣數據的情況下，透過選擇合理的保守參數，對通風不良區域的近源暴露情境進行量化且具保護性的風險判斷。\n參考資料： Chapter 6 barrel filling indoors. Made by Peter Ho. 114.08.14"
+  },
+  {
+    "objectID": "web_CH7_Historic exposure.html",
+    "href": "web_CH7_Historic exposure.html",
+    "title": "CH7 Historic exposure",
+    "section": "",
+    "text": "本章節旨在透過暴露評估模型，重建1990年代因TCE蒸氣脫脂槽作業引發的歷史暴露情境。由於缺乏實際監測數據，此回溯性評估對於釐清潛在的法律與健康問題至關重要。\n\n\n為重建暴露情境，我們首先收集了製程、化學品及作業空間的關鍵資訊。根據文獻與舊藍圖，估算出TCE逸散率(G)約為 3,300 mg/min，房間整體換氣率(Q)約為 73.6 m³/min。\n考量到工人活動範圍包含高濃度的污染源周邊及濃度較低的房間其他區域，我們採用了近場/遠場 (NF/FF) 二暴露區模式（Two-Zone Model）進行評估。模型計算結果顯示：\n\n遠場 (FF) 穩態濃度：約 45 mg/m³\n\n近場 (NF) 穩態濃度：約 112 mg/m³\n\n\n\n\n\n\n\n\n結合工人的作業活動模式（每日約20%時間在近場，80%在遠場），計算出的八小時日時量平均(TWA-8)暴露濃度約為 51 mg/m³。此數值已非常接近當時的職業暴露限值 (TLV®-TWA, 54 mg/m³)，顯示工人處於臨界或超標的風險水平。\n\n\n\n進一步的敏感度分析顯示，在一個合理的「最差情境」（逸散增加、通風變差）下，TWA-8暴露濃度可能飆升至 89 mg/m³，證實此作業具有高度的暴露超標風險。\n\n\n\n綜合評估結果，此作業的暴露風險被判定為不可接受。為保護勞工，應依循控制層級提出改善建議：\n\n工程控制 (最優先)：於脫脂槽加裝局部排氣裝置(LEV)，從源頭捕集污染物。\n\n行政管理：限制工人在近場的作業時間，並強化安全作業訓練。\n\n個人防護：要求佩戴合適的呼吸防護具（如有機蒸氣濾罐口罩）。\n\n環境監測：建立定期監測計畫，以驗證控制措施的成效。"
+  },
+  {
+    "objectID": "web_CH7_Historic exposure.html#評估流程與模型建立",
+    "href": "web_CH7_Historic exposure.html#評估流程與模型建立",
+    "title": "CH7 Historic exposure",
+    "section": "",
+    "text": "為重建暴露情境，我們首先收集了製程、化學品及作業空間的關鍵資訊。根據文獻與舊藍圖，估算出TCE逸散率(G)約為 3,300 mg/min，房間整體換氣率(Q)約為 73.6 m³/min。\n考量到工人活動範圍包含高濃度的污染源周邊及濃度較低的房間其他區域，我們採用了近場/遠場 (NF/FF) 二暴露區模式（Two-Zone Model）進行評估。模型計算結果顯示：\n\n遠場 (FF) 穩態濃度：約 45 mg/m³\n\n近場 (NF) 穩態濃度：約 112 mg/m³"
+  },
+  {
+    "objectID": "web_CH7_Historic exposure.html#風險分析與結論",
+    "href": "web_CH7_Historic exposure.html#風險分析與結論",
+    "title": "CH7 Historic exposure",
+    "section": "",
+    "text": "結合工人的作業活動模式（每日約20%時間在近場，80%在遠場），計算出的八小時日時量平均(TWA-8)暴露濃度約為 51 mg/m³。此數值已非常接近當時的職業暴露限值 (TLV®-TWA, 54 mg/m³)，顯示工人處於臨界或超標的風險水平。"
+  },
+  {
+    "objectID": "web_CH7_Historic exposure.html#敏感度分析",
+    "href": "web_CH7_Historic exposure.html#敏感度分析",
+    "title": "CH7 Historic exposure",
+    "section": "",
+    "text": "進一步的敏感度分析顯示，在一個合理的「最差情境」（逸散增加、通風變差）下，TWA-8暴露濃度可能飆升至 89 mg/m³，證實此作業具有高度的暴露超標風險。"
+  },
+  {
+    "objectID": "web_CH7_Historic exposure.html#評估後建議",
+    "href": "web_CH7_Historic exposure.html#評估後建議",
+    "title": "CH7 Historic exposure",
+    "section": "",
+    "text": "綜合評估結果，此作業的暴露風險被判定為不可接受。為保護勞工，應依循控制層級提出改善建議：\n\n工程控制 (最優先)：於脫脂槽加裝局部排氣裝置(LEV)，從源頭捕集污染物。\n\n行政管理：限制工人在近場的作業時間，並強化安全作業訓練。\n\n個人防護：要求佩戴合適的呼吸防護具（如有機蒸氣濾罐口罩）。\n\n環境監測：建立定期監測計畫，以驗證控制措施的成效。"
+  },
+  {
+    "objectID": "web_CH8 presurized gas release.html",
+    "href": "web_CH8 presurized gas release.html",
+    "title": "CH8 presurized gas release",
+    "section": "",
+    "text": "研究實驗室的案例，模擬了高壓氯氣 (Cl2​) 鋼瓶在兩種情境下的洩漏風險：(1) 調節閥災難性失效導致的瞬時大量洩漏，以及 (2) 設備接頭鬆脫造成的緩慢持續洩漏，旨在回答「調節閥失效是否會致命？」的關鍵問題。\n\n\n\n此評估基於一個含有 75 ppm 氯氣的鋼瓶，在一個淨體積 (V) 為 107.2m3、通風率 (Q) 為 15m3/min 的實驗室中。評估的關鍵暴露限值為 IDLH (立即危害生命健康濃度) 30mg/m3。\n\n\n\n此最壞情境假設整瓶氣體 (總質量 M=1,850mg) 瞬間釋放。使用零通風模型計算：\nCzero_vent​ = M/V​ = 107.2m31,850mg​ = 17.2mg/m3\n結果顯示，平均濃度高達 17.2mg/m3，已達 IDLH 的 57%，證實此情境會立即對人員構成生命威脅。\n\n\n\n此情境模擬接頭鬆脫導致一小時的持續洩漏，洩漏率 (G) 經計算為 7.45mg/min。我們使用雙區模型來估算洩漏點附近（近場）與房間其他區域（遠場）的穩態濃度。\n利用已計算出的 G、Q 和 β，可分別計算遠場和近場的穩態濃度。\n分析結果顯示，近場濃度為 1.14mg/m3，遠場濃度為 0.50mg/m3。與 OELs 相比，這些值低於 3mg/m3 的 PEL-C 和 TLV-STEL，且略低於 1.45mg/m3 的 REL-C 5。\n\n\n\n模式比較\n零通風模式\n雙區模式\n\n\n\n\n情境類型\n災難性、瞬間釋放\n緩慢、持續洩漏\n\n\n關鍵輸出\n全室平均濃度\n近場/遠場濃度\n\n\n模擬濃度 (mg/m3)\n17.2\n近場: 1.14 / 遠場: 0.50\n\n\n與限值比較\n&gt; 50% IDLH\n&lt; REL-C\n\n\n\n\n\n\n\n\n\n\n模型分析明確指出，災難性洩漏是致命的，而緩慢洩漏則提供了評估潛在危害的基準。此評估結果不僅回答了最初的風險問題，更為制定具體的預防措施（如洩漏測試、安裝警報器）提供了清晰的數據支持，展現了暴露評估模型在將理論計算轉化為實際安全行動中的價值。"
+  },
+  {
+    "objectID": "web_CH8 presurized gas release.html#情境",
+    "href": "web_CH8 presurized gas release.html#情境",
+    "title": "CH8 presurized gas release",
+    "section": "",
+    "text": "研究實驗室的案例，模擬了高壓氯氣 (Cl2​) 鋼瓶在兩種情境下的洩漏風險：(1) 調節閥災難性失效導致的瞬時大量洩漏，以及 (2) 設備接頭鬆脫造成的緩慢持續洩漏，旨在回答「調節閥失效是否會致命？」的關鍵問題。"
+  },
+  {
+    "objectID": "web_CH8 presurized gas release.html#一核心參數",
+    "href": "web_CH8 presurized gas release.html#一核心參數",
+    "title": "CH8 presurized gas release",
+    "section": "",
+    "text": "此評估基於一個含有 75 ppm 氯氣的鋼瓶，在一個淨體積 (V) 為 107.2m3、通風率 (Q) 為 15m3/min 的實驗室中。評估的關鍵暴露限值為 IDLH (立即危害生命健康濃度) 30mg/m3。"
+  },
+  {
+    "objectID": "web_CH8 presurized gas release.html#二情境一災難性失效-無通風模型",
+    "href": "web_CH8 presurized gas release.html#二情境一災難性失效-無通風模型",
+    "title": "CH8 presurized gas release",
+    "section": "",
+    "text": "此最壞情境假設整瓶氣體 (總質量 M=1,850mg) 瞬間釋放。使用零通風模型計算：\nCzero_vent​ = M/V​ = 107.2m31,850mg​ = 17.2mg/m3\n結果顯示，平均濃度高達 17.2mg/m3，已達 IDLH 的 57%，證實此情境會立即對人員構成生命威脅。"
+  },
+  {
+    "objectID": "web_CH8 presurized gas release.html#三情境二緩慢洩漏-雙區模型",
+    "href": "web_CH8 presurized gas release.html#三情境二緩慢洩漏-雙區模型",
+    "title": "CH8 presurized gas release",
+    "section": "",
+    "text": "此情境模擬接頭鬆脫導致一小時的持續洩漏，洩漏率 (G) 經計算為 7.45mg/min。我們使用雙區模型來估算洩漏點附近（近場）與房間其他區域（遠場）的穩態濃度。\n利用已計算出的 G、Q 和 β，可分別計算遠場和近場的穩態濃度。\n分析結果顯示，近場濃度為 1.14mg/m3，遠場濃度為 0.50mg/m3。與 OELs 相比，這些值低於 3mg/m3 的 PEL-C 和 TLV-STEL，且略低於 1.45mg/m3 的 REL-C 5。\n\n\n\n模式比較\n零通風模式\n雙區模式\n\n\n\n\n情境類型\n災難性、瞬間釋放\n緩慢、持續洩漏\n\n\n關鍵輸出\n全室平均濃度\n近場/遠場濃度\n\n\n模擬濃度 (mg/m3)\n17.2\n近場: 1.14 / 遠場: 0.50\n\n\n與限值比較\n&gt; 50% IDLH\n&lt; REL-C"
+  },
+  {
+    "objectID": "web_CH8 presurized gas release.html#四結論與應用",
+    "href": "web_CH8 presurized gas release.html#四結論與應用",
+    "title": "CH8 presurized gas release",
+    "section": "",
+    "text": "模型分析明確指出，災難性洩漏是致命的，而緩慢洩漏則提供了評估潛在危害的基準。此評估結果不僅回答了最初的風險問題，更為制定具體的預防措施（如洩漏測試、安裝警報器）提供了清晰的數據支持，展現了暴露評估模型在將理論計算轉化為實際安全行動中的價值。"
+  },
+  {
+    "objectID": "web_CH10 Cleaning process.html",
+    "href": "web_CH10 Cleaning process.html",
+    "title": "CH10_Cleaning-process",
+    "section": "",
+    "text": "評估一項使用4%醋酸溶液清潔面板的作業，透過3種不同情境WMB模式推估，量化工作者的暴露風險。"
+  },
+  {
+    "objectID": "web_CH10 Cleaning process.html#ih-mod-模擬-穩態",
+    "href": "web_CH10 Cleaning process.html#ih-mod-模擬-穩態",
+    "title": "CH10_Cleaning-process",
+    "section": "IH MOD 模擬 (穩態)",
+    "text": "IH MOD 模擬 (穩態)\nThe Well-Mixed Room Model with a Constant Emission Rate"
+  },
+  {
+    "objectID": "web_CH10 Cleaning process.html#ih-mod-模擬-3分鐘",
+    "href": "web_CH10 Cleaning process.html#ih-mod-模擬-3分鐘",
+    "title": "CH10_Cleaning-process",
+    "section": "IH MOD 模擬 (3分鐘)",
+    "text": "IH MOD 模擬 (3分鐘)\nWell-Mixed Room Model Decreasing Emission Rate, Spill Model\n\n\n\n3分鐘\n每3分鐘累加 (疊加原理)\n\n\n\n\n\n\n\n\nprepared by Peter Ho. 114.08.17"
+  },
+  {
+    "objectID": "web_CH11 model parameters.html",
+    "href": "web_CH11 model parameters.html",
+    "title": "CH11 model parameters",
+    "section": "",
+    "text": "本章的核心精神在於**「化被動為主動」——當缺乏關鍵的模型輸入參數，如污染物發生率 (G)** 與換氣率 (Q) 時，我們能主動透過實驗設計來獲取數據。本章展示了兩種實用的方法：\n\n測試艙法：用以測定粉塵等污染物的逸散率 (G)。\n\n示蹤氣體衰退法：用以計算空間的實際換氣率 (Q)。"
+  },
+  {
+    "objectID": "web_CH11 model parameters.html#實驗取得之關鍵參數",
+    "href": "web_CH11 model parameters.html#實驗取得之關鍵參數",
+    "title": "CH11 model parameters",
+    "section": "1. 實驗取得之關鍵參數",
+    "text": "1. 實驗取得之關鍵參數\n\n粉塵逸散率 (G)：透過測試艙實驗，測得平均逸散率為：G=1,800minmg​\n\n房間換氣率 (Q)：透過示蹤氣體衰退法，測得廠房的自然換氣率為：Q≈45.3minm3​"
+  },
+  {
+    "objectID": "web_CH11 model parameters.html#暴露濃度計算",
+    "href": "web_CH11 model parameters.html#暴露濃度計算",
+    "title": "CH11 model parameters",
+    "section": "2. 暴露濃度計算",
+    "text": "2. 暴露濃度計算\n採用均勻混合模型，並考慮作業的間歇性（每日暴露120分鐘），計算出8小時日時量平均濃度 (TWA-8)：\nTWA-8=(G/Q​×暴露時間)​/480 分鐘=(1,800/45.3​×120)/480 ​≈ 9.9m3mg​"
+  },
+  {
+    "objectID": "web_CH11 model parameters.html#風險評估與結論",
+    "href": "web_CH11 model parameters.html#風險評估與結論",
+    "title": "CH11 model parameters",
+    "section": "3. 風險評估與結論",
+    "text": "3. 風險評估與結論\n評估結果顯示，預估的 9.9 mg/m3 濃度雖低於總粉塵基準，卻顯著超過了對健康危害更大的可呼吸性粉塵職業暴露基準 (OSHA PEL: 5 mg/m3; ACGIH TLV: 3 mg/m3)。"
+  },
+  {
+    "objectID": "web_CH11 model parameters.html#ih-mod-模擬",
+    "href": "web_CH11 model parameters.html#ih-mod-模擬",
+    "title": "CH11 model parameters",
+    "section": "IH MOD 模擬",
+    "text": "IH MOD 模擬"
+  },
+  {
+    "objectID": "web_CH11 model parameters.html#此結果表明即使在遠離污染源處不良的通風也會導致細小粉塵累積對全體員工構成潛在的健康風險",
+    "href": "web_CH11 model parameters.html#此結果表明即使在遠離污染源處不良的通風也會導致細小粉塵累積對全體員工構成潛在的健康風險",
+    "title": "CH11 model parameters",
+    "section": "此結果表明，即使在遠離污染源處，不良的通風也會導致細小粉塵累積，對全體員工構成潛在的健康風險。",
+    "text": "此結果表明，即使在遠離污染源處，不良的通風也會導致細小粉塵累積，對全體員工構成潛在的健康風險。\n基於此數據，專業建議應立即採取行動：優先從源頭安裝局部排氣通風 (LEV) 進行工程控制，並輔以個人空氣採樣驗證與過渡期的個人防護具使用。\nprepared by Peter Ho. 114.08.17"
+  },
+  {
+    "objectID": "web_CH12 Monte Carlo modeling.html",
+    "href": "web_CH12 Monte Carlo modeling.html",
+    "title": "CH12 Monte Carlo modeling",
+    "section": "",
+    "text": "以大學化學實驗室的二氯甲烷暴露為例，展示如何從初步的確定性(定值)模型，逐步演進至更精確的蒙地卡羅機率模型，以全面評估暴露風險。\n\n\n首先，我們使用穩態單區均勻混合模型 WMB (Css​=G/Q) 進行初步評估。根據實驗室體積、通風量，並假設所有學生的溶劑完全蒸發，計算出的穩態濃度約為 110 mg/m³。這個結果高於職業暴露限值 (PEL) 的 87 mg/m³，顯示存在潛在風險，需要進一步分析。\n\n\n\n然而，現實中的參數並非固定不變。學生人數、溶劑實際蒸發量及通風效率都會變動。若考慮這些變數的最佳與最差情境，會得到一個從 6.7 mg/m³ 到 106 mg/m³ 的極寬濃度範圍。這個結果雖然點出了不確定性，但因範圍過大，無法有效判斷真實風險發生的可能性，決策參考價值有限。\n\n\n\n為了解決此問題，我們引入蒙地卡羅模擬。此方法不再使用單一固定值，而是為各個變動參數（如學生人數、蒸發率、通風量）設定機率分佈。透過上萬次的隨機抽樣與計算，模型最終生成一個暴露濃度的完整機率分佈圖。\n\n\n\n\n\n\n\n\n\n\n\n最佳\n最糟\nMonte Carlo\n\n\n\n\n\n\n\n\n\n\n\n模擬結果顯示，暴露濃度的第95百分位數 (95th Percentile) 為 57 mg/m³。這意味著在所有可能的情境組合下，有95%的機率，實驗室的平均濃度會低於此數值，且該值明顯低於87 mg/m³的暴露限值。\n這個結論比最差情境分析更具參考價值，它告訴我們：儘管極端高濃度可能發生，但其機率很低。整體而言，此暴露情境的風險應屬可接受範圍。(仍須溝通與加強教育訓練改善行為)\nprepared by Peter Ho. 114.08.18"
+  },
+  {
+    "objectID": "web_CH12 Monte Carlo modeling.html#初步評估與警訊",
+    "href": "web_CH12 Monte Carlo modeling.html#初步評估與警訊",
+    "title": "CH12 Monte Carlo modeling",
+    "section": "",
+    "text": "首先，我們使用穩態單區均勻混合模型 WMB (Css​=G/Q) 進行初步評估。根據實驗室體積、通風量，並假設所有學生的溶劑完全蒸發，計算出的穩態濃度約為 110 mg/m³。這個結果高於職業暴露限值 (PEL) 的 87 mg/m³，顯示存在潛在風險，需要進一步分析。"
+  },
+  {
+    "objectID": "web_CH12 Monte Carlo modeling.html#考量變異性與其侷限",
+    "href": "web_CH12 Monte Carlo modeling.html#考量變異性與其侷限",
+    "title": "CH12 Monte Carlo modeling",
+    "section": "",
+    "text": "然而，現實中的參數並非固定不變。學生人數、溶劑實際蒸發量及通風效率都會變動。若考慮這些變數的最佳與最差情境，會得到一個從 6.7 mg/m³ 到 106 mg/m³ 的極寬濃度範圍。這個結果雖然點出了不確定性，但因範圍過大，無法有效判斷真實風險發生的可能性，決策參考價值有限。"
+  },
+  {
+    "objectID": "web_CH12 Monte Carlo modeling.html#蒙地卡羅模擬更真實的風險圖像",
+    "href": "web_CH12 Monte Carlo modeling.html#蒙地卡羅模擬更真實的風險圖像",
+    "title": "CH12 Monte Carlo modeling",
+    "section": "",
+    "text": "為了解決此問題，我們引入蒙地卡羅模擬。此方法不再使用單一固定值，而是為各個變動參數（如學生人數、蒸發率、通風量）設定機率分佈。透過上萬次的隨機抽樣與計算，模型最終生成一個暴露濃度的完整機率分佈圖。"
+  },
+  {
+    "objectID": "web_CH12 Monte Carlo modeling.html#ih-mod-模擬",
+    "href": "web_CH12 Monte Carlo modeling.html#ih-mod-模擬",
+    "title": "CH12 Monte Carlo modeling",
+    "section": "",
+    "text": "最佳\n最糟\nMonte Carlo"
+  },
+  {
+    "objectID": "web_CH12 Monte Carlo modeling.html#最終結論風險可控",
+    "href": "web_CH12 Monte Carlo modeling.html#最終結論風險可控",
+    "title": "CH12 Monte Carlo modeling",
+    "section": "",
+    "text": "模擬結果顯示，暴露濃度的第95百分位數 (95th Percentile) 為 57 mg/m³。這意味著在所有可能的情境組合下，有95%的機率，實驗室的平均濃度會低於此數值，且該值明顯低於87 mg/m³的暴露限值。\n這個結論比最差情境分析更具參考價值，它告訴我們：儘管極端高濃度可能發生，但其機率很低。整體而言，此暴露情境的風險應屬可接受範圍。(仍須溝通與加強教育訓練改善行為)\nprepared by Peter Ho. 114.08.18"
+  },
+  {
+    "objectID": "web_CH13 Mixture modeling.html",
+    "href": "web_CH13 Mixture modeling.html",
+    "title": "CH13 Mixture modeling",
+    "section": "",
+    "text": "應用IHMOD 2.0軟體，評估在車庫內傾倒含2-丁氧基乙醇(2BE)的擋風玻璃清洗液所產生的消費者暴露風險。此評估的核心挑戰在於該清洗液為非理想的化學混合物，而非純物質。\n\n\n對於水與2BE的非理想混合物，不能直接使用傳統的拉午耳定律，否則將嚴重低估風險。本案例的關鍵是引入活性係數 (γ) 來校正分子間的交互作用力。透過UNIFAC方法計算，2BE在此水溶液中的活性係數高達 7.31，這表示其真實蒸發趨勢是理想模型預測的7倍以上。經此校正後，計算出的蒸氣生成率 (G) 約為 20 mg/min，此數值是後續暴露模擬的關鍵輸入。\n\n\n\n為模擬污染物在空間中的濃度梯度，本評估採用了比傳統「完全混合模型」更真實的雙區（近場／遠場）模型，將空間劃分為作業人員呼吸區周圍的「近場」與其餘空間的「遠場」。\n運用IHMOD 2.0軟體進行了兩種分析：\n\n決定論分析：使用單一「點估計值」輸入參數，得到一個特定的預測結果。\n\n機率性（蒙地卡羅）分析：為關鍵輸入參數（如生成率、通風率）設定機率分佈，進行上萬次模擬，從而得到一個暴露濃度的可能性分佈，更完整地體現真實世界的不確定性。\n\n\n\n\n兩種分析方法都聚焦於作業期間（前30秒）的近場峰值濃度：\n\n決定論峰值濃度：預測為 1.98 mg/m³。\n\n機率性第95百分位數峰值濃度：作為「合理最壞情況」的估計，預測為 2.5 mg/m³。\n\n在風險判斷上，將這些預測值與健康基準比較：\n\n職業暴露限值 (OELs)：兩種方法的預測結果均遠低於最嚴格的NIOSH建議限值 (24 mg/m³)。\n\n環境參考濃度 (EPA RfC)：預測結果超過了針對一般民眾終身暴露所設的RfC值 (1.6 mg/m³)。\n\n\n\n\n\n\n\n決定論峰值\n機率論峰值\n\n\n\n\n\n\n\n\n\n\n綜合判斷，對於單次、短暫的消費者使用情境，此產品的暴露風險低且可接受。然而，由於預測濃度超過了慢性的健康基準(RfC)，對於需要每日頻繁操作的職業人員（如汽車維修技師），其長期風險則需進一步的審慎評估。\n本案例完整展示了IHMOD 2.0作為現代工業衛生工具的價值：它不僅能處理複雜的混合物情境，實現前瞻性的「設計安全」評估，更能透過蒙地卡羅模擬來量化不確定性，為風險管理提供更穩健、更具信服力的科學依據。\n———————\n參考資料：Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations prepared by Peter Ho. 114.08.18"
+  },
+  {
+    "objectID": "web_CH13 Mixture modeling.html#關鍵挑戰計算混合物生成率-g",
+    "href": "web_CH13 Mixture modeling.html#關鍵挑戰計算混合物生成率-g",
+    "title": "CH13 Mixture modeling",
+    "section": "",
+    "text": "對於水與2BE的非理想混合物，不能直接使用傳統的拉午耳定律，否則將嚴重低估風險。本案例的關鍵是引入活性係數 (γ) 來校正分子間的交互作用力。透過UNIFAC方法計算，2BE在此水溶液中的活性係數高達 7.31，這表示其真實蒸發趨勢是理想模型預測的7倍以上。經此校正後，計算出的蒸氣生成率 (G) 約為 20 mg/min，此數值是後續暴露模擬的關鍵輸入。"
+  },
+  {
+    "objectID": "web_CH13 Mixture modeling.html#模型與分析方法",
+    "href": "web_CH13 Mixture modeling.html#模型與分析方法",
+    "title": "CH13 Mixture modeling",
+    "section": "",
+    "text": "為模擬污染物在空間中的濃度梯度，本評估採用了比傳統「完全混合模型」更真實的雙區（近場／遠場）模型，將空間劃分為作業人員呼吸區周圍的「近場」與其餘空間的「遠場」。\n運用IHMOD 2.0軟體進行了兩種分析：\n\n決定論分析：使用單一「點估計值」輸入參數，得到一個特定的預測結果。\n\n機率性（蒙地卡羅）分析：為關鍵輸入參數（如生成率、通風率）設定機率分佈，進行上萬次模擬，從而得到一個暴露濃度的可能性分佈，更完整地體現真實世界的不確定性。"
+  },
+  {
+    "objectID": "web_CH13 Mixture modeling.html#核心結果與風險判斷",
+    "href": "web_CH13 Mixture modeling.html#核心結果與風險判斷",
+    "title": "CH13 Mixture modeling",
+    "section": "",
+    "text": "兩種分析方法都聚焦於作業期間（前30秒）的近場峰值濃度：\n\n決定論峰值濃度：預測為 1.98 mg/m³。\n\n機率性第95百分位數峰值濃度：作為「合理最壞情況」的估計，預測為 2.5 mg/m³。\n\n在風險判斷上，將這些預測值與健康基準比較：\n\n職業暴露限值 (OELs)：兩種方法的預測結果均遠低於最嚴格的NIOSH建議限值 (24 mg/m³)。\n\n環境參考濃度 (EPA RfC)：預測結果超過了針對一般民眾終身暴露所設的RfC值 (1.6 mg/m³)。"
+  },
+  {
+    "objectID": "web_CH13 Mixture modeling.html#ih-mod-模擬",
+    "href": "web_CH13 Mixture modeling.html#ih-mod-模擬",
+    "title": "CH13 Mixture modeling",
+    "section": "",
+    "text": "決定論峰值\n機率論峰值"
+  },
+  {
+    "objectID": "web_CH13 Mixture modeling.html#結論",
+    "href": "web_CH13 Mixture modeling.html#結論",
+    "title": "CH13 Mixture modeling",
+    "section": "",
+    "text": "綜合判斷，對於單次、短暫的消費者使用情境，此產品的暴露風險低且可接受。然而，由於預測濃度超過了慢性的健康基準(RfC)，對於需要每日頻繁操作的職業人員（如汽車維修技師），其長期風險則需進一步的審慎評估。\n本案例完整展示了IHMOD 2.0作為現代工業衛生工具的價值：它不僅能處理複雜的混合物情境，實現前瞻性的「設計安全」評估，更能透過蒙地卡羅模擬來量化不確定性，為風險管理提供更穩健、更具信服力的科學依據。\n———————\n參考資料：Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations prepared by Peter Ho. 114.08.18"
+  },
+  {
+    "objectID": "web_CH15 Autoshop solvent.html",
+    "href": "web_CH15 Autoshop solvent.html",
+    "title": "CH15 Autoshop solvent",
+    "section": "",
+    "text": "汽車維修廠常使用氣膠溶劑進行零件清潔與除油。\n\n為減少揮發性有機化合物（VOCs）排放，氣膠溶劑配方中加入了正己烷。\n\n正己烷經肝臟代謝產生神經毒性物質2,5-己二酮（2,5-HD）。\n\n同時暴露於丙酮會顯著增強2,5-HD的神經毒性，這是一種「加乘作用」。\n\n這表示單純依據單一物質的職業暴露標準（OEL）不足以保護勞工。\n\n\n\n\n\n採用二暴露區模式（Two-Zone Model）評估暴露，該模型能區分靠近污染源的「近場」（Near-Field, NF）與房間其他區域的「遠場」（Far-Field, FF）濃度差異。\n\n計算了兩種逸散源生成速率：\n\n連續性逸散 (G1)：模擬長期平均暴露，正己烷生成速率為 2,100 mg/min。\n\n間歇性逸散 (G2)：模擬短時間高峰暴露，正己烷生成速率為 88,000 mg/min。\n\n\n模型假設：房間體積 400 m³，換氣率 1 ACH，近場體積 7.1 m³，近場與遠場空氣交換率 β 為 36.7 m³/min。\n\n模擬結果顯示：\n\n連續性逸散情境下，105分鐘時量平均濃度（TWA）為 220 mg/m³。\n\n間歇性逸散情境下，105分鐘 TWA 為 290 mg/m³，峰值濃度高達 2,450 mg/m³。\n\n\n\n\n\n\n\n\n評估結果： 模擬的105分鐘時量平均濃度（TWA）在連續逸散情境下為220 mg/m³，間歇逸散情境下為290 mg/m³。這兩者均顯著超過了ACGIH TLV-TWA和台灣PEL-TWA（皆為176 mg/m³）。\n\n峰值濃度： 間歇逸散情境下的峰值濃度高達2,450 mg/m³，遠高於任何TWA標準，顯示出高度急性風險。\n\n關鍵毒理學考量： 由於丙酮會顯著加乘正己烷的神經毒性，單純依賴現有針對單一物質的OELs並不足以保護勞工。此混合暴露的危害遠超過各成分的簡單相加。即使濃度略低於OEL，也必須採取控制措施。\n\n\n\n\n\n模式高估： 模式預測的任務平均濃度（220-290 mg/m³）顯著高於一份現場研究中測得的平均濃度（38 mg/m³）。\n\n診斷價值： 這種差異不應被視為模式錯誤，而是作為診斷工具，用於重新審視模式的假設（例如：逸散率是否過高，或換氣率是否過低）。模式的高估有助於理解暴露的關鍵驅動因素，並將模式轉化為一種調查工具。\n\n\n\n\n\n\n\n連續逸散情境下為220 mg/m³\n間歇逸散情境下為290 mg/m³\n\n\n\n\n\n\n\n\n\n\n\n與OELs比較： 模擬的兩種情境下 TWA 均超過 ACGIH TLV-TWA 和台灣 PEL-TWA（176 mg/m³），且峰值濃度遠超標準，存在高度急性風險。\n\n毒理學考量： 由於正己烷與丙酮的加乘作用，現有單一物質的OELs不足以保護勞工健康。\n\n控制措施（依控制層級優先順序）：\n\n替代： 優先使用「無正己烷」的煞車清潔劑，如正庚烷。\n\n工程控制： 導入局部排氣通風（LEV），改善整體換氣。\n\n行政管理控制： 限制溶劑使用區域和時間，加強危害通識訓練。\n\n個人防護具（PPE）： 佩戴配有有機蒸氣濾罐的空氣淨化式呼吸防護具，並制定濾罐更換時程；佩戴適當的化學防護手套。\n\n\n\n\n\n\n本案例強調選擇正確的暴露模式（雙區模式）、深入理解毒理學交互作用、將模式作為調查工具來識別關鍵暴露驅動因素，以及實施具體的控制措施（尤其是從源頭替代）對於職業衛生風險評估的重要性。"
+  },
+  {
+    "objectID": "web_CH15 Autoshop solvent.html#情境與毒理學背景",
+    "href": "web_CH15 Autoshop solvent.html#情境與毒理學背景",
+    "title": "CH15 Autoshop solvent",
+    "section": "",
+    "text": "汽車維修廠常使用氣膠溶劑進行零件清潔與除油。\n\n為減少揮發性有機化合物（VOCs）排放，氣膠溶劑配方中加入了正己烷。\n\n正己烷經肝臟代謝產生神經毒性物質2,5-己二酮（2,5-HD）。\n\n同時暴露於丙酮會顯著增強2,5-HD的神經毒性，這是一種「加乘作用」。\n\n這表示單純依據單一物質的職業暴露標準（OEL）不足以保護勞工。"
+  },
+  {
+    "objectID": "web_CH15 Autoshop solvent.html#暴露評估模型與結果",
+    "href": "web_CH15 Autoshop solvent.html#暴露評估模型與結果",
+    "title": "CH15 Autoshop solvent",
+    "section": "",
+    "text": "採用二暴露區模式（Two-Zone Model）評估暴露，該模型能區分靠近污染源的「近場」（Near-Field, NF）與房間其他區域的「遠場」（Far-Field, FF）濃度差異。\n\n計算了兩種逸散源生成速率：\n\n連續性逸散 (G1)：模擬長期平均暴露，正己烷生成速率為 2,100 mg/min。\n\n間歇性逸散 (G2)：模擬短時間高峰暴露，正己烷生成速率為 88,000 mg/min。\n\n\n模型假設：房間體積 400 m³，換氣率 1 ACH，近場體積 7.1 m³，近場與遠場空氣交換率 β 為 36.7 m³/min。\n\n模擬結果顯示：\n\n連續性逸散情境下，105分鐘時量平均濃度（TWA）為 220 mg/m³。\n\n間歇性逸散情境下，105分鐘 TWA 為 290 mg/m³，峰值濃度高達 2,450 mg/m³。"
+  },
+  {
+    "objectID": "web_CH15 Autoshop solvent.html#全面風險評估與模式驗證",
+    "href": "web_CH15 Autoshop solvent.html#全面風險評估與模式驗證",
+    "title": "CH15 Autoshop solvent",
+    "section": "",
+    "text": "評估結果： 模擬的105分鐘時量平均濃度（TWA）在連續逸散情境下為220 mg/m³，間歇逸散情境下為290 mg/m³。這兩者均顯著超過了ACGIH TLV-TWA和台灣PEL-TWA（皆為176 mg/m³）。\n\n峰值濃度： 間歇逸散情境下的峰值濃度高達2,450 mg/m³，遠高於任何TWA標準，顯示出高度急性風險。\n\n關鍵毒理學考量： 由於丙酮會顯著加乘正己烷的神經毒性，單純依賴現有針對單一物質的OELs並不足以保護勞工。此混合暴露的危害遠超過各成分的簡單相加。即使濃度略低於OEL，也必須採取控制措施。\n\n\n\n\n\n模式高估： 模式預測的任務平均濃度（220-290 mg/m³）顯著高於一份現場研究中測得的平均濃度（38 mg/m³）。\n\n診斷價值： 這種差異不應被視為模式錯誤，而是作為診斷工具，用於重新審視模式的假設（例如：逸散率是否過高，或換氣率是否過低）。模式的高估有助於理解暴露的關鍵驅動因素，並將模式轉化為一種調查工具。\n\n\n\n\n\n\n\n連續逸散情境下為220 mg/m³\n間歇逸散情境下為290 mg/m³\n\n\n\n\n\n\n\n\n\n\n\n與OELs比較： 模擬的兩種情境下 TWA 均超過 ACGIH TLV-TWA 和台灣 PEL-TWA（176 mg/m³），且峰值濃度遠超標準，存在高度急性風險。\n\n毒理學考量： 由於正己烷與丙酮的加乘作用，現有單一物質的OELs不足以保護勞工健康。\n\n控制措施（依控制層級優先順序）：\n\n替代： 優先使用「無正己烷」的煞車清潔劑，如正庚烷。\n\n工程控制： 導入局部排氣通風（LEV），改善整體換氣。\n\n行政管理控制： 限制溶劑使用區域和時間，加強危害通識訓練。\n\n個人防護具（PPE）： 佩戴配有有機蒸氣濾罐的空氣淨化式呼吸防護具，並制定濾罐更換時程；佩戴適當的化學防護手套。"
+  },
+  {
+    "objectID": "web_CH15 Autoshop solvent.html#結論",
+    "href": "web_CH15 Autoshop solvent.html#結論",
+    "title": "CH15 Autoshop solvent",
+    "section": "",
+    "text": "本案例強調選擇正確的暴露模式（雙區模式）、深入理解毒理學交互作用、將模式作為調查工具來識別關鍵暴露驅動因素，以及實施具體的控制措施（尤其是從源頭替代）對於職業衛生風險評估的重要性。"
+  },
+  {
+    "objectID": "web_CH9 Flavoring process.html",
+    "href": "web_CH9 Flavoring process.html",
+    "title": "CH9 Flavoring process",
+    "section": "",
+    "text": "本案例利用暴露評估模型，分析食品廠一項新的乙醇基底調味製程，識別出其中潛在的爆炸安全與勞工健康雙重風險。\n\n\n新製程在加熱滾筒中為產品進行調味塗層，過程中會蒸發大量乙醇。主要風險點有二：\n\n安全風險：排氣管道內的乙醇濃度是否超過 3.3% 的爆炸下限 (LEL)。\n\n衛生風險：作業區勞工的乙醇暴露量是否超過 1000 ppm 的容許濃度標準 (PEL)。\n\n\n\n\n\n爆炸風險：嚴重且立即\n模型分析顯示，雖然平均濃度看似安全，但在製程啟動後的前3至4分鐘內，排氣管內的乙醇濃度將會顯著超過3.3%的爆炸下限。這構成了極高的立即性爆炸風險。\n\n勞工暴露風險：在標準內但仍需關注\n滾筒的局部排氣捕集效率偏低，導致約10%的乙醇蒸氣逸散至作業區。模型估算勞工短時間暴露濃度約為 450 ppm。此數值雖低於法規標準，但基於合理抑低(ALARA)原則，此一顯著的逸散量仍應被控制與改善。\n\n\n\n\n\n立即危害：此製程存在嚴重的爆炸安全隱患，必須立即停止，直到風險被有效控制。\n\n改善方向：首要目標是將排氣管道內的濃度穩定控制在LEL的10%以下。任何能達成此目標的措施，通常也能同時降低作業區的勞工暴露。\n\n具體措施：\n\n工程控制：優先考慮增加排氣量，以稀釋管道濃度並提升捕集效率。\n\n管理控制：若工程手段受限，則需評估調整製程（如降低乙醇配方比例）的可行性。\n\n驗證：所有改善措施皆須透過重新評估與現場監測來驗證其成效。"
+  },
+  {
+    "objectID": "web_CH9 Flavoring process.html#背景與風險",
+    "href": "web_CH9 Flavoring process.html#背景與風險",
+    "title": "CH9 Flavoring process",
+    "section": "",
+    "text": "新製程在加熱滾筒中為產品進行調味塗層，過程中會蒸發大量乙醇。主要風險點有二：\n\n安全風險：排氣管道內的乙醇濃度是否超過 3.3% 的爆炸下限 (LEL)。\n\n衛生風險：作業區勞工的乙醇暴露量是否超過 1000 ppm 的容許濃度標準 (PEL)。"
+  },
+  {
+    "objectID": "web_CH9 Flavoring process.html#評估發現",
+    "href": "web_CH9 Flavoring process.html#評估發現",
+    "title": "CH9 Flavoring process",
+    "section": "",
+    "text": "爆炸風險：嚴重且立即\n模型分析顯示，雖然平均濃度看似安全，但在製程啟動後的前3至4分鐘內，排氣管內的乙醇濃度將會顯著超過3.3%的爆炸下限。這構成了極高的立即性爆炸風險。\n\n勞工暴露風險：在標準內但仍需關注\n滾筒的局部排氣捕集效率偏低，導致約10%的乙醇蒸氣逸散至作業區。模型估算勞工短時間暴露濃度約為 450 ppm。此數值雖低於法規標準，但基於合理抑低(ALARA)原則，此一顯著的逸散量仍應被控制與改善。"
+  },
+  {
+    "objectID": "web_CH9 Flavoring process.html#結論與核心建議",
+    "href": "web_CH9 Flavoring process.html#結論與核心建議",
+    "title": "CH9 Flavoring process",
+    "section": "",
+    "text": "立即危害：此製程存在嚴重的爆炸安全隱患，必須立即停止，直到風險被有效控制。\n\n改善方向：首要目標是將排氣管道內的濃度穩定控制在LEL的10%以下。任何能達成此目標的措施，通常也能同時降低作業區的勞工暴露。\n\n具體措施：\n\n工程控制：優先考慮增加排氣量，以稀釋管道濃度並提升捕集效率。\n\n管理控制：若工程手段受限，則需評估調整製程（如降低乙醇配方比例）的可行性。\n\n驗證：所有改善措施皆須透過重新評估與現場監測來驗證其成效。"
   }
 ]

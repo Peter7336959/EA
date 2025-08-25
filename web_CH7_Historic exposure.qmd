@@ -19,7 +19,7 @@ output: html_document
 
 ## IH MOD 模擬 (二暴露區模式 Two Zone Model)
 
-![](info/images/CH7.png)
+![](docs/info/images/CH7.png)
 
 ## **風險分析與結論**
 

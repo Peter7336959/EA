@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-08-13">
+<meta name="dcterms.date" content="2025-08-12">
 
-<title>Ch3 Volatile Liquid Spill – OH模式推估-Peter Ho</title>
+<title>CH1 Why modeling – OH模式推估-Peter Ho</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,27 +24,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-3583d19fe7148877488d27afd856c3c0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-3583d19fe7148877488d27afd856c3c0.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-3583d19fe7148877488d27afd856c3c0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-00795b83cb0e6b49b0b240184203094c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-3a93edfe7c196ac470ffeb29ab4cf0e0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-00795b83cb0e6b49b0b240184203094c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-3583d19fe7148877488d27afd856c3c0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-3583d19fe7148877488d27afd856c3c0.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-3583d19fe7148877488d27afd856c3c0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-00795b83cb0e6b49b0b240184203094c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-3a93edfe7c196ac470ffeb29ab4cf0e0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-00795b83cb0e6b49b0b240184203094c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -246,9 +246,9 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">OH模式推估-Peter Ho</span>
     </a>
   </div>
@@ -259,31 +259,31 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">首頁</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
+    <a class="nav-link" href="../../../news.html"> 
 <span class="menu-text">職安衛新知</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./modeling.html"> 
+    <a class="nav-link" href="../../../modeling.html"> 
 <span class="menu-text">模式推估</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./MSA.html"> 
+    <a class="nav-link" href="../../../MSA.html"> 
 <span class="menu-text">直讀式儀器與RPE</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./noise_EA.html"> 
+    <a class="nav-link" href="../../../noise_EA.html"> 
 <span class="menu-text">噪音-高溫EA</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./others.html"> 
+    <a class="nav-link" href="../../../others.html"> 
 <span class="menu-text">其他</span></a>
   </li>  
 </ul>
@@ -303,13 +303,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#第三章揮發性液體洩漏---單頁摘要1" id="toc-第三章揮發性液體洩漏---單頁摘要1" class="nav-link active" data-scroll-target="#第三章揮發性液體洩漏---單頁摘要1"><strong>第三章：揮發性液體洩漏&nbsp; - (單頁摘要)</strong></a>
+  <li><a href="#職業衛生模式推估框架-單頁摘要-1" id="toc-職業衛生模式推估框架-單頁摘要-1" class="nav-link active" data-scroll-target="#職業衛生模式推估框架-單頁摘要-1"><strong>職業衛生模式推估框架 (單頁摘要)</strong> </a>
   <ul class="collapse">
-  <li><a href="#核心目標" id="toc-核心目標" class="nav-link" data-scroll-target="#核心目標"><strong>核心目標</strong></a></li>
-  <li><a href="#情境與資訊蒐集" id="toc-情境與資訊蒐集" class="nav-link" data-scroll-target="#情境與資訊蒐集"><strong>1. 情境與資訊蒐集</strong></a></li>
-  <li><a href="#模式評估一零通風模式-zero-ventilation-model" id="toc-模式評估一零通風模式-zero-ventilation-model" class="nav-link" data-scroll-target="#模式評估一零通風模式-zero-ventilation-model"><strong>2. 模式評估一：零通風模式 (Zero-Ventilation Model)</strong></a></li>
-  <li><a href="#模式評估二均勻混合模式-well-mixed-room-model" id="toc-模式評估二均勻混合模式-well-mixed-room-model" class="nav-link" data-scroll-target="#模式評估二均勻混合模式-well-mixed-room-model"><strong>3. 模式評估二：均勻混合模式 (Well-Mixed Room Model)</strong></a></li>
-  <li><a href="#結論與專業建議" id="toc-結論與專業建議" class="nav-link" data-scroll-target="#結論與專業建議"><strong>4. 結論與專業建議</strong></a></li>
+  <li><a href="#暴露評估職業衛生的核心" id="toc-暴露評估職業衛生的核心" class="nav-link" data-scroll-target="#暴露評估職業衛生的核心"><strong>1. 暴露評估：職業衛生的核心</strong></a></li>
+  <li><a href="#傳統採樣的限制與模型的必要性" id="toc-傳統採樣的限制與模型的必要性" class="nav-link" data-scroll-target="#傳統採樣的限制與模型的必要性"><strong>2. 傳統採樣的限制與模型的必要性</strong></a></li>
+  <li><a href="#暴露評估模型的角色與應用" id="toc-暴露評估模型的角色與應用" class="nav-link" data-scroll-target="#暴露評估模型的角色與應用"><strong>3. 暴露評估模型的角色與應用</strong></a></li>
+  <li><a href="#解讀模型結果不確定性與決策關鍵" id="toc-解讀模型結果不確定性與決策關鍵" class="nav-link" data-scroll-target="#解讀模型結果不確定性與決策關鍵"><strong>4. 解讀模型結果：不確定性與決策關鍵</strong></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -320,7 +319,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ch3 Volatile Liquid Spill</h1>
+<h1 class="title">CH1 Why modeling</h1>
 </div>
 
 
@@ -331,7 +330,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 13, 2025</p>
+      <p class="date">August 12, 2025</p>
     </div>
   </div>
   
@@ -343,82 +342,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="第三章揮發性液體洩漏---單頁摘要1" class="level1">
-<h1><strong>第三章：揮發性液體洩漏&nbsp; - (單頁摘要)</strong><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h1>
-<section id="核心目標" class="level2">
-<h2 class="anchored" data-anchor-id="核心目標"><strong>核心目標</strong></h2>
-<p>運用兩種基礎的暴露評估模式，快速估算化學品（甲苯）意外洩漏，勞工暴露風險。</p>
+<section id="職業衛生模式推估框架-單頁摘要-1" class="level1">
+<h1><strong>職業衛生模式推估框架 (單頁摘要)</strong> <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h1>
+<section id="暴露評估職業衛生的核心" class="level2">
+<h2 class="anchored" data-anchor-id="暴露評估職業衛生的核心"><strong>1. 暴露評估：職業衛生的核心</strong></h2>
+<p><strong>暴露評估(</strong>系統性地描述勞工暴露狀況)並做出風險管理決策。包含幾個核心概念：</p>
+<ul>
+<li><p><strong>暴露輪廓 (Exposure Profile)</strong>：SEG或勞工所經歷的<strong>完整暴露分佈</strong>。</p></li>
+<li><p><strong>評估決策</strong>：將暴露輪廓與<strong>職業暴露限值 (OEL)</strong> 進行比較，判斷暴露風險。</p></li>
+</ul>
 </section>
-<section id="情境與資訊蒐集" class="level2">
-<h2 class="anchored" data-anchor-id="情境與資訊蒐集"><strong>1. 情境與資訊蒐集</strong></h2>
+<section id="傳統採樣的限制與模型的必要性" class="level2">
+<h2 class="anchored" data-anchor-id="傳統採樣的限制與模型的必要性"><strong>2. 傳統採樣的限制與模型的必要性</strong></h2>
+<p>傳統上依賴的空氣採樣，在樣本數有限時，其統計證據力非常薄弱。</p>
+<p><strong>關鍵例證：少量採樣的信心陷阱</strong> 。僅憑少量採樣數據無法做出可靠的「安全」判斷。</p>
+<p><strong>核心結論</strong>：傳統採樣的統計局限性，而<strong>暴露評估模型可以</strong>輔助專業判斷。</p>
+</section>
+<section id="暴露評估模型的角色與應用" class="level2">
+<h2 class="anchored" data-anchor-id="暴露評估模型的角色與應用"><strong>3. 暴露評估模型的角色與應用</strong></h2>
+<p>模型並非要取代採樣，是輔助使暴露評估更科學且高效，提供量化的科學依據。</p>
 <ul>
-<li><p><strong>事件概述</strong>：一名工廠員工通報，前一天在工作站打翻了半瓶甲苯（約250 mL），用抹布擦拭後放置一旁晾乾，約2小時後蒸發完畢。員工當下聞到濃烈氣味，隔日出現胃痙攣症狀。</p></li>
-<li><p><strong>任務</strong>：身為職衛專業人員，需回溯性評估該名員工在洩漏事件中的8小時日時量平均暴露量 (TWA-8)，及判斷其症狀是否與此次暴露相關。</p></li>
-<li><p><strong>關鍵參數彙整</strong>：</p>
+<li><p><strong>核心價值</strong>：</p>
 <ul>
-<li><p><strong>化學品</strong>：甲苯 (Toluene)，洩漏體積：250 mL，液體密度：0.87 g/mL，蒸發時間：2 小時 (120 分鐘)</p></li>
-<li><p><strong>作業空間</strong>：房間體積 (V)：240 m3，通風狀況 (Q)：未知(無機械排氣)</p></li>
-<li><p><strong>暴露時間</strong>：正常背景濃度 (C1​)：25 mg/m³ (之前環測)，正常工作時間 (t1​)：5 小時，洩漏後暴露時間 (t2​)：3 小時</p></li>
-<li><p><strong>暴露標準 (OELs)</strong>：</p>
-<ul>
-<li>OSHA PEL (TWA-8)：750 mg/m³，<strong>ACGIH TLV (TWA-8)</strong>：<strong>75 mg/m³</strong> (國際公認、更具健康保護性的建議值)</li>
+<li><strong>支持與校正專業判斷</strong>、<strong>優化資源、提供書面佐證</strong>。</li>
 </ul></li>
+<li><p><strong>超越時間的應用</strong>：</p>
+<ul>
+<li><p><strong>回溯過去</strong>：為訴訟案件或流行病學研究進行歷史暴露重建。</p></li>
+<li><p><strong>評估現在</strong>：補充數據不足的暴露輪廓，為當前風險定級。</p></li>
+<li><p><strong>預測未來</strong>：在製程變更或新化學品引入前，預測潛在暴露。</p></li>
 </ul></li>
 </ul>
 </section>
-<section id="模式評估一零通風模式-zero-ventilation-model" class="level2">
-<h2 class="anchored" data-anchor-id="模式評估一零通風模式-zero-ventilation-model"><strong>2. 模式評估一：零通風模式 (Zero-Ventilation Model)</strong></h2>
-<p>此為Tier 1 的篩選評估，採用最保守（最糟情況）的假設，以快速判斷風險等級。</p>
-<ul>
-<li><p><strong>模式原理與假設</strong>：作業空間為完全密閉的盒子 (<strong>無任何通風</strong>)。所有洩漏的甲苯<strong>瞬間</strong>蒸發，並<strong>立即均勻混合</strong>至整個房間空氣中。</p></li>
-<li><p><strong>公式與演算</strong>：Czero_vent​=M/V​=910m3mg​</p>
-<ul>
-<li>TWA-8 暴露量計算：≈360m3mg​</li>
-</ul></li>
-<li><p><strong>初步判斷</strong>：</p>
-<ul>
-<li><p>低於OSHA PEL (750 mg/m³)，但<strong>遠高於ACGIH TLV (75 mg/m³)</strong>。</p></li>
-<li><p>有必要進行更精確的評估。</p></li>
-</ul></li>
-</ul>
-</section>
-<section id="模式評估二均勻混合模式-well-mixed-room-model" class="level2">
-<h2 class="anchored" data-anchor-id="模式評估二均勻混合模式-well-mixed-room-model"><strong>3. 模式評估二：均勻混合模式 (Well-Mixed Room Model)</strong></h2>
-<p>此模式比零通風模式更進一步，它考慮了<strong>通風</strong>的影響，能提供更貼近現實的估算。</p>
-<ul>
-<li><p><strong>模式原理與假設</strong>：空氣以一個固定的速率 (Q) 進出房間，並與室內空氣<strong>完全均勻混合</strong>。污染物以一個<strong>固定的平均速率 (</strong>G<strong>)</strong> 釋放到空氣中。濃度達到一個<strong>穩態 (</strong>Css​<strong>)</strong>，即污染物進入速率等於被排出的速率。</p></li>
-<li><p><strong>公式與演算過程</strong>：Css​=G/Q ​​≈ 150m3mg​</p></li>
-<li><p>TWA-8 暴露量計算：≈72m3mg​</p></li>
-<li><p><strong>精緻化判斷</strong>：</p>
-<ul>
-<li><p>這個結果<strong>非常接近</strong> ACGIH 的 TLV (75 mg/m³)。</p></li>
-<li><p>雖然此次暴露可能沒有違法，但已經達到了需要關注的水平。</p></li>
-<li><p>IH MOD 模式推估</p></li>
-</ul></li>
-</ul>
-<p><img src="info/images/CH3 IHMOD.png" class="img-fluid"></p>
-</section>
-<section id="結論與專業建議" class="level2">
-<h2 class="anchored" data-anchor-id="結論與專業建議"><strong>4. 結論與專業建議</strong></h2>
-<ol type="1">
-<li><p><strong>暴露水平判斷</strong>：</p>
-<ul>
-<li>此次洩漏事件導致的8小時日時量平均暴露濃度，很可能<strong>非常接近甚至短時間內超過</strong>了具健康保護意義的ACGIH TLV標準。</li>
-</ul></li>
-<li><p><strong>健康風險分析</strong>：</p>
-<ul>
-<li><p><strong>暴露情境</strong>：TLV是基於<strong>長期、每日</strong>重複暴露所設定的標準。考量到這是一次性的短時間暴露，其造成的<strong>長期健康風險可能很小</strong>。</p></li>
-<li><p><strong>症狀比對</strong>：員工回報「胃痙攣」症狀，與甲苯典型急性中毒症狀（如頭暈、噁心、中樞神經抑制）不太相符，兩者<strong>直接關聯性可能不大</strong>。</p></li>
-</ul></li>
-<li><p><strong>後續管理行動建議</strong>：</p>
-<ul>
-<li><p><strong>善盡職責</strong>：身為職衛專業人員，已透過合理的模式評估，完成對此次事件的暴露評估與記錄，善盡了調查之責。</p></li>
-<li><p><strong>持續關懷</strong>：應持續追蹤該員工的健康狀況。</p></li>
-<li><p><strong>預防未來</strong>：此事件暴露了管理上的不足。最重要的行動是著眼於未來，建議公司應<strong>加強小型化學品洩漏的應變計畫與教育訓練</strong>，以預防未來類似事件的風險。</p></li>
-</ul></li>
-</ol>
-<hr>
-<div class="line-block">prepared by Peter Ho</div>
+<section id="解讀模型結果不確定性與決策關鍵" class="level2">
+<h2 class="anchored" data-anchor-id="解讀模型結果不確定性與決策關鍵"><strong>4. 解讀模型結果：不確定性與決策關鍵</strong></h2>
+<p><strong>決策的黃金法則：</strong>一個模型或一組採樣數據是否有用，並非取決於它能否完美預測真實濃度，而是取決於<strong>其結果（暴露分佈）與職業暴露限值（OEL）的相對距離</strong>。</p>
+<p><strong>最終思想</strong>：暴露評估的目標不是追求完美的預測值，而是利用所有可得工具（包括模型與採樣），在考量不確定性的前提下，做出<strong>足夠好」的決策</strong>來保護勞工健康。</p>
 
 
 </section>
@@ -428,7 +387,7 @@ ul.task-list li input[type="checkbox"] {
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>Chapter 3 Volatile Liquid Spill<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Chapter 1 Modeling in the Framework of Industrial Hygiene Practice<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

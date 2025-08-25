@@ -12,61 +12,61 @@ title: "Modeling"
 
 Ch1 Modeling in the Framework of Industrial Hygiene Practice
 
-\*💾[**摘要**](web_CH1%20Why%20modeling.html) \*📶 [**圖**](info\info_CH1_Why_modeling.html)
+\*💾[**摘要**](web_CH1-Why-modeling.html) \*📶 [**圖**](info\info_CH1_Why_modeling.html)
 
 ## *2. Gathering informaiton*
 
 *Ch2 Information Gathering for modeling*
 
-\*💾[摘要](web_CH2%20Information%20Gathering.html)
+\*💾[摘要](web_CH2-Information-Gathering.html)
 
 ## 3. Volatile liquid spill
 
 Ch3 Volatile Liquid Spill
 
-\*⚛️[摘要](web_CH3%20Volatile%20Liquid%20Spill.html)
+\*⚛️[摘要](web_CH3-Volatile-Liquid-Spill.html)
 
 ## 4. Sanding EA
 
 *Ch4 Local Exhaust Ventilation for a Sanding*
 
-\*🕎[摘要](web_CH4%20Sanding.html)
+\*🕎[摘要](web_CH4-Sanding.html)
 
 ## 5. Container uncovered
 
 Ch5 Volatile Liquid Container Left Open
 
-\*[摘要](web_CH5%20container%20left%20open.html)
+\*[摘要](web_CH5-container-left-open.html)
 
 ## 6. Barrel filling
 
 Ch6 Barrel filling indoors
 
-\*[摘要](web_CH6%20Barrel%20filling.html)
+\*[摘要](web_CH6-Barrel-filling.html)
 
 ## 7. Historic exposure
 
 Ch7 Historic exposure
 
-\*[摘要](web_CH7_Historic%20exposure.html)
+\*[摘要](web_CH7-Historic-exposure.html)
 
 ## 8. Pressurized gas release
 
 Ch8 Pressurized gas release
 
-\*[摘要](web_CH8%20presurized%20gas%20release.html)
+\*[摘要](web_CH8-presurized-gas-release.html)
 
 ## 9. Flavoring Process
 
 Chapter 9 Ventilation Requirements for a Flavoring Process
 
-\*[摘要](web_CH9%20Flavoring%20process.html)
+\*[摘要](web_CH9-Flavoring-process.html)
 
 ## 10. Cleaning Process
 
 Chapter 10 Cleaning With Product Containing Acetic Acid
 
-\*[摘要](web_CH10%20Cleaning%20process.html)
+\*[摘要](web_CH10-Cleaning-process.html)
 :::
 
 ::: {.column width="10%"}
@@ -78,19 +78,19 @@ Chapter 10 Cleaning With Product Containing Acetic Acid
 
 Chapter 11 Experimental Determination of Model Parameters
 
-\*[摘要](web_CH11%20Model%20parameters.html)
+\*[摘要](web_CH11-Model-parameters.html)
 
 ## 12. Monte Carlo modeling
 
 Chapter 12 Organic Chemistry Teaching Lab Exposure and a First Exploration of Monte Carlo Modeling
 
-\*[摘要](web_CH12%20Monte%20Carlo%20modeling.html)
+\*[摘要](web_CH12-Monte-Carlo-modeling.html)
 
 ## 13. Mixture modleing
 
 Chapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations
 
-\*[摘要](web_CH13%20Mixture%20modeling.html)
+\*[摘要](web_CH13-Mixture-modeling.html)
 
 ## 14. Oxygen Deficiency
 
@@ -100,25 +100,25 @@ Chapter 14 Oxygen Deficiency Hazard in a Storage Tank
 
 Chapter 15 Use of Aerosol Solvents in an Auto Shop
 
-\*[摘要](web_CH15%20Autoshop%20solvent.html)
+\*[摘要](web_CH15-Autoshop-solvent.html)
 
 ## 17 Reconstruction of spill
 
 Chapter 17 Reconstruction of a Laboratory Spill
 
-\*[摘要](web_CH17_Reconstruction-spill.html)
+\*[摘要](web_CH17-Reconstruction-spill.html)
 
 ## 18 Modeling limitation
 
 Chapter 18 Understanding the Limitations of Mathematical Models and Proactive Communication of Modeling Results
 
-\*[摘要](web_CH18_model-limitation.html)
+\*[摘要](web_CH18-model-limitation.html)
 
 ## 19 Feeding model
 
 Chapter 19 Feeding Models Using Simple and Some Not-So-Simple Means
 
-\*[摘要](web_CH19_Feeding-models.html)
+\*[摘要](web_CH19-Feeding-models.html)
 :::
 ::::::
 

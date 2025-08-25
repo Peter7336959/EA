@@ -42,7 +42,7 @@ Ch5 Volatile Liquid Container Left Open
 
 Ch6 Barrel filling indoors
 
-\*[摘要](web_CH6-Barrel-filling.html)
+\*[摘要](web_CH6-barrel-filling.html)
 
 ## 7. Historic exposure
 
@@ -78,7 +78,7 @@ Chapter 10 Cleaning With Product Containing Acetic Acid
 
 Chapter 11 Experimental Determination of Model Parameters
 
-\*[摘要](web_CH11-Model-parameters.html)
+\*[摘要](web_CH11-model-parameters.html)
 
 ## 12. Monte Carlo modeling
 

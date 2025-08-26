@@ -1,18 +1,26 @@
 ---
-title: "Modeling"
+title: "EA Modeling"
 ---
 
 ::: callout-important
 **本網站主要內容係來自2023 AIHA 新書各章** [@acase-b2023]
 :::
 
+<!-- your comment -->
+
+<details>
+
 :::::: columns
 ::: {.column width="45%"}
 ## 1. Why modeling
 
+<details>
+
 Ch1 Modeling in the Framework of Industrial Hygiene Practice
 
 \*💾[**摘要**](web_CH1-Why-modeling.html) \*📶 [**圖**](info\info_CH1_Why_modeling.html)
+
+</details>
 
 ## *2. Gathering informaiton*
 
@@ -121,5 +129,7 @@ Chapter 19 Feeding Models Using Simple and Some Not-So-Simple Means
 \*[摘要](web_CH19-Feeding-models.html)
 :::
 ::::::
+
+</details>
 
 ## References {.unnumbered}

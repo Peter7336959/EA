@@ -1,6 +1,5 @@
 ---
 title: "Occupational Exposure Assessment"
-#lang: zh    
 bibliography: references.bib
 ---
 
@@ -11,6 +10,8 @@ bibliography: references.bib
 :::
 
 ## I.目前初步完成推估模式介紹：(化學品暴露)
+
+<details>
 
 :::::: columns
 ::: {.column width="45%"}
@@ -57,6 +58,8 @@ bibliography: references.bib
 ### 19 Feeding model
 :::
 ::::::
+
+</details>
 
 ## II.規劃展開推估模式介紹：(噪音與高氣溫)
 

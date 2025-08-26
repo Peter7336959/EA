@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.21">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -29,21 +29,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-3583d19fe7148877488d27afd856c3c0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-3583d19fe7148877488d27afd856c3c0.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-3583d19fe7148877488d27afd856c3c0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-00795b83cb0e6b49b0b240184203094c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-3a93edfe7c196ac470ffeb29ab4cf0e0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-00795b83cb0e6b49b0b240184203094c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-8d46e75ce6dd233c64cbb744be3589af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-d49b862318db43bee8a03fcfe0a93fa7.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,177 +72,13 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">OH模式推估-Peter Ho</span>
     </a>
@@ -305,10 +137,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#聲音的物理學" id="toc-聲音的物理學" class="nav-link active" data-scroll-target="#聲音的物理學">1. 聲音的物理學</a></li>
   <li><a href="#耳朵與聽覺的解剖學與生理學" id="toc-耳朵與聽覺的解剖學與生理學" class="nav-link" data-scroll-target="#耳朵與聽覺的解剖學與生理學">2.耳朵與聽覺的解剖學與生理學</a></li>
   <li><a href="#暴露標準與職業暴露量" id="toc-暴露標準與職業暴露量" class="nav-link" data-scroll-target="#暴露標準與職業暴露量">3. 暴露標準與職業暴露量</a></li>
-  <li><a href="#噪音來源-noise-source" id="toc-噪音來源-noise-source" class="nav-link" data-scroll-target="#噪音來源-noise-source">4. 噪音來源 (Noise Source)</a></li>
-  <li><a href="#聲音測量儀器-sound-measuring-instruments" id="toc-聲音測量儀器-sound-measuring-instruments" class="nav-link" data-scroll-target="#聲音測量儀器-sound-measuring-instruments">5. 聲音測量儀器 (Sound Measuring Instruments)</a></li>
-  <li><a href="#噪音暴露調查策略-strategies-for-noise-surveys" id="toc-噪音暴露調查策略-strategies-for-noise-surveys" class="nav-link" data-scroll-target="#噪音暴露調查策略-strategies-for-noise-surveys">6. 噪音暴露調查策略 (Strategies for Noise Surveys)</a></li>
-  <li><a href="#聽力測量-hearing-measurement" id="toc-聽力測量-hearing-measurement" class="nav-link" data-scroll-target="#聽力測量-hearing-measurement">7. 聽力測量 (Hearing Measurement)</a></li>
+  <li><a href="#噪音來源" id="toc-噪音來源" class="nav-link" data-scroll-target="#噪音來源">4. 噪音來源</a></li>
+  <li><a href="#聲音測量儀器" id="toc-聲音測量儀器" class="nav-link" data-scroll-target="#聲音測量儀器">5. 聲音測量儀器</a></li>
+  <li><a href="#噪音暴露調查策略" id="toc-噪音暴露調查策略" class="nav-link" data-scroll-target="#噪音暴露調查策略">6. 噪音暴露調查策略</a></li>
+  <li><a href="#聽力測量" id="toc-聽力測量" class="nav-link" data-scroll-target="#聽力測量">7. 聽力測量</a></li>
   <li><a href="#聽力保護計畫" id="toc-聽力保護計畫" class="nav-link" data-scroll-target="#聽力保護計畫">8. 聽力保護計畫</a></li>
   <li><a href="#噪音控制" id="toc-噪音控制" class="nav-link" data-scroll-target="#噪音控制">9. 噪音控制</a></li>
   <li><a href="#聽力防護具與密合度測試" id="toc-聽力防護具與密合度測試" class="nav-link" data-scroll-target="#聽力防護具與密合度測試">10. 聽力防護具與密合度測試</a></li>
@@ -317,7 +149,6 @@ ul.task-list li input[type="checkbox"] {
     </div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
-
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -338,13 +169,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<!-- your comment -->
 <section id="聲音的物理學" class="level2">
 <h2 class="anchored" data-anchor-id="聲音的物理學">1. 聲音的物理學</h2>
 <ul>
-<li><strong>聲音的物理學</strong>：學習聲音的本質、基本特性（頻率、波長、振幅），以及聲音如何在空間中傳播（聲場）。</li>
-<li><strong>聲音的量化</strong> ：學習如何用科學的單位來描述聲音，核心概念—<strong>分貝 (decibel, dB)</strong>，以及聲功率、聲強度與聲壓之間的區別。</li>
-<li><strong>心理聲學 (Psycho-acoustics)</strong>：探討人耳是如何感知聲音的。頻率加權（例如 A-weighted）讓測量儀器模擬人耳的聽覺反應。</li>
-<li><strong>噪音評估指標</strong> ：在職業衛生領域中，用來評估不同類型噪音（穩態、變動、衝擊性）暴露量的關鍵指標，例如最重要的<strong>等效連續聲級 (LAeq,T​)</strong>。</li>
+<li><p><strong>聲音的物理學</strong>：學習聲音的本質、基本特性（頻率、波長、振幅），以及聲音如何在空間中傳播（聲場）。</p></li>
+<li><p><strong>聲音的量化</strong> ：學習如何用科學的單位來描述聲音，核心概念—<strong>分貝 (decibel, dB)</strong>，以及聲功率、聲強度與聲壓之間的區別。</p></li>
+<li><p><strong>心理聲學 (Psycho-acoustics)</strong>：探討人耳是如何感知聲音的。頻率加權（例如 A-weighted）讓測量儀器模擬人耳的聽覺反應。</p></li>
+<li><p><strong>噪音評估指標</strong> ：在職業衛生領域中，用來評估不同類型噪音（穩態、變動、衝擊性）暴露量的關鍵指標，例如最重要的<strong>等效連續聲級 (LAeq,T​)</strong>。</p></li>
 </ul>
 <div class="border">
 <div class="tabset-margin-container"></div><div class="panel-tabset" data-group="CH1" style="color:darkblue">
@@ -372,8 +204,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="耳朵與聽覺的解剖學與生理學" class="level2">
 <h2 class="anchored" data-anchor-id="耳朵與聽覺的解剖學與生理學">2.耳朵與聽覺的解剖學與生理學</h2>
 <ul>
-<li><strong>聲音的旅程 - 解剖構造 (Anatomy)</strong>：聲波從進入外耳開始，一路經過中耳，最終抵達內耳，認識沿途的各個重要結構。</li>
-<li><strong>從振動到感知 - 生理功能(Physiology)</strong>：耳朵結構如何協同工作，將聲音放大、轉換並進行初步分析的。</li>
+<li><p><strong>聲音的旅程 - 解剖構造 (Anatomy)</strong>：聲波從進入外耳開始，一路經過中耳，最終抵達內耳，認識沿途的各個重要結構。</p></li>
+<li><p><strong>從振動到感知 - 生理功能(Physiology)</strong>：耳朵結構如何協同工作，將聲音放大、轉換並進行初步分析的。</p></li>
 </ul>
 <div class="border">
 <div class="tabset-margin-container"></div><div class="panel-tabset" data-group="CH2" style="color: darkblue">
@@ -388,19 +220,21 @@ ul.task-list li input[type="checkbox"] {
 <div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
 <p>很多早期噪音性聽損的患者會說：「在安靜的地方我聽得還不錯，可是一到吵雜的環境，我就完全聽不清楚別人在說什麼了」，而且他們對較大的聲音會感覺特別刺耳（這種現象稱為響度重振 Loudness Recruitment）。</p>
 <p>您認為這個現象，比較可能跟哪一種毛細胞（內毛細胞或外毛細胞）的損傷有關？為什麼？</p>
-<div class="callout callout-style-default callout-tip callout-titled" title="提醒" style="color">
+<ul>
+<li><div class="callout callout-style-default callout-tip callout-titled" title="提醒" style="color">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>提醒
+提醒
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>早期噪音聽損主要與<strong>外毛細胞 (OHCs)</strong> 的損傷有關。它們的受損不僅造成了聽力損失，也破壞了我們聽覺的精細調節能力，導致在吵雜環境中分辨語音的能力下降。</p>
 </div>
-</div>
+</div></li>
+</ul>
 </div>
 </div>
 </div>
@@ -409,14 +243,14 @@ ul.task-list li input[type="checkbox"] {
 <section id="暴露標準與職業暴露量" class="level2">
 <h2 class="anchored" data-anchor-id="暴露標準與職業暴露量">3. 暴露標準與職業暴露量</h2>
 <ul>
-<li><strong>「為什麼」</strong>- 噪音限值的科學基礎：探討我們為何需要設定限值，以及這些限值的目標是什麼。–&gt; 預防噪音引發之永久性聽力閾值偏移 (Noise-Induced Permanent Threshold Shift, <strong>NIPTS</strong>)</li>
-<li><strong>「如何算」</strong>- 關鍵的暴露參數：學習評估噪音暴露的三個最重要數字：暴露限值 (85 vs 90 dB(A))、時間-能量交換率 (3 dB vs 5 dB) 以及峰值上限。</li>
-<li><strong>「誰定規則」</strong>- 各國/地區的法規瀏覽。</li>
+<li><p><strong>「為什麼」</strong>- 噪音限值的科學基礎：探討我們為何需要設定限值，以及這些限值的目標是什麼。–&gt; 預防噪音引發之永久性聽力閾值偏移 (Noise-Induced Permanent Threshold Shift, <strong>NIPTS</strong>)</p></li>
+<li><p><strong>「如何算」</strong>- 關鍵的暴露參數：學習評估噪音暴露的三個最重要數字：暴露限值 (85 vs 90 dB(A))、時間-能量交換率 (3 dB vs 5 dB) 以及峰值上限。</p></li>
+<li><p><strong>「誰定規則」</strong>- 各國/地區的法規瀏覽。</p></li>
 </ul>
 <div class="border">
-<div class="tabset-margin-container"></div><div class="panel-tabset" data-group="CH2" style="color: darkblue">
+<div class="tabset-margin-container"></div><div class="panel-tabset" data-group="CH3" style="color: darkblue">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Q1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Q2</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false">Q3</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-4" role="tab" aria-controls="tabset-3-4" aria-selected="false">Q4</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-5" role="tab" aria-controls="tabset-3-5" aria-selected="false">Q5</a></li></ul>
-<div class="tab-content" data-group="CH2" style="color: darkblue">
+<div class="tab-content" data-group="CH3" style="color: darkblue">
 <div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
 <p>早期的聽力損傷計算公式（只看 500、1000、2000Hz），為了更好地保護我們聽懂別人說話的能力，專家們決定將哪個高頻音頻率也納入考量來計算聽力損傷，從而促使標準變得更嚴格。您能猜猜看嗎？（<strong>提示：這個頻率在 2000 Hz 到 4000 Hz 之間</strong>）</p>
 </div>
@@ -436,13 +270,21 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="噪音來源-noise-source" class="level2">
-<h2 class="anchored" data-anchor-id="噪音來源-noise-source">4. 噪音來源 (Noise Source)</h2>
-<p>噪音的來源(依物理機制分)，基本上可以歸納為三大類： - 1. 機械性噪音：固體表面的振動，推動空氣產生聲波。 - 2. 流體動力噪音：氣液體的高速或不穩定流動。 - 3. 電磁性噪音：電流在馬達、變壓器等設備中變化所產生的電磁力，導致設備部件振動而發出噪音。如低頻的「嗡嗡」聲。 - <strong>速度的關鍵影響</strong>：無論是機械轉速或流體速度，都是噪音控制中最敏感、最關鍵的參數。「降速」是降噪的第一要務。</p>
+<section id="噪音來源" class="level2">
+<h2 class="anchored" data-anchor-id="噪音來源">4. 噪音來源</h2>
+<p>噪音的來源(依物理機制分)，基本上可以歸納為三大類：</p>
+<ol type="1">
+<li><p><strong>機械性噪音</strong>：固體表面的振動，推動空氣產生聲波。</p></li>
+<li><p><strong>流體動力噪音</strong>：氣液體的高速或不穩定流動。</p></li>
+<li><p><strong>電磁性噪音</strong>：電流在馬達、變壓器等設備中變化所產生的電磁力，導致設備部件振動而發出噪音。如低頻的「嗡嗡」聲。</p>
+<ul>
+<li><strong>速度的關鍵影響</strong>：無論是機械轉速或流體速度，都是噪音控制中最敏感、最關鍵的參數。「降速」是降噪的第一要務。</li>
+</ul></li>
+</ol>
 <div class="border">
-<div class="tabset-margin-container"></div><div class="panel-tabset" data-group="CH2" style="color: darkblue">
+<div class="tabset-margin-container"></div><div class="panel-tabset" data-group="CH4" style="color: darkblue">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">Q1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">Q2</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-3" role="tab" aria-controls="tabset-4-3" aria-selected="false">Q3</a></li></ul>
-<div class="tab-content" data-group="CH2" style="color: darkblue">
+<div class="tab-content" data-group="CH4" style="color: darkblue">
 <div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
 <p>工業氣槍或高壓排氣口 (Industrial Gas Jets)。 這是在工廠中用來清潔、乾燥或吹走零件的常見工具，噪音通常非常大，可以輕易超過 105 dB(A) 。您認為這種噪音主要是由哪一種物理機制產生的？</p>
 </div>
@@ -456,14 +298,140 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="聲音測量儀器-sound-measuring-instruments" class="level2">
-<h2 class="anchored" data-anchor-id="聲音測量儀器-sound-measuring-instruments">5. 聲音測量儀器 (Sound Measuring Instruments)</h2>
+<section id="聲音測量儀器" class="level2">
+<h2 class="anchored" data-anchor-id="聲音測量儀器">5. 聲音測量儀器</h2>
+<ul>
+<li><strong>測量不同的噪音</strong>，需要用不同的麥克風(<strong>自由音場</strong>與<strong>擴散音場</strong>)。
+<ul>
+<li>測量「音源」本身 → 用自由音場麥克風，像聚光燈一樣對準它。</li>
+<li>測量「人員」暴露 → 用擴散音場麥克風，像燈泡一樣接收所有方向的聲音。</li>
+</ul></li>
+<li>LAeq,T​ <strong>(等效連續音壓級)</strong>
+<ul>
+<li>聽力損傷，是由耳朵接收到的「總聲能 (Total Sound Energy)」決定的。</li>
+<li>把一天中所有高高低低的噪音能量全部收集起來，然後像鋪平沙子一樣，均勻地鋪在8小時的工作時間上。這個鋪平後的、恆定不變的噪音等級，就是 LAeq,T​。</li>
+<li>使用「積分式噪音計」和「個人聲音暴露計」。</li>
+</ul></li>
+<li><strong>溫濕度是精密儀器的天敵</strong></li>
+</ul>
+<div class="border">
+<div class="tabset-margin-container"></div><div class="panel-tabset" data-group="CH5" style="color: darkblue">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true">Q1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false">Q2</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-3" role="tab" aria-controls="tabset-5-3" aria-selected="false">Q3</a></li></ul>
+<div class="tab-content" data-group="CH5" style="color: darkblue">
+<div id="tabset-5-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-5-1-tab">
+<ul>
+<li><p>為什麼測量不同的噪音，需要用不同的麥克風？如果用錯了，會發生什麼事？</p></li>
+<li><p>你需要評估一位在狹小、水泥牆面的鍋爐室工作的勞工，他一整天的噪音暴露量是否超標。鍋爐的噪音會從牆壁、地板、天花板四處反射。您會選擇哪種麥克風？又該如何擺放？</p></li>
+</ul>
+</div>
+<div id="tabset-5-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-2-tab">
+<p>一位勞工在 8 小時的輪班中，其噪音暴露情況如下：4 小時處於穩定的 85 dB(A) 環境，3 小時處於穩定的 91 dB(A) 環境，1 小時處於穩定的 100 dB(A) 環境，請問該勞工的噪音暴露風險為何？ (等效連續音壓級 (LAeq,T​ 或 LEX,8h​)=92.1 dB(A))</p>
+</div>
+<div id="tabset-5-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-3-tab">
+<p>一位新手職業衛生師，習慣將他的精密第一級 (Class 1) 噪音計放在汽車後車廂過夜。在一個炎熱潮濕的早晨，他直接將儀器帶入吵雜的廠房，用校正器做了一次快速檢查，讀值似乎正常，便開始進行測量。請問，這位衛生師的做法隱含了哪兩項可能導致測量數據無效的重大風險？</p>
+</div>
+</div>
+</div>
+</div>
 </section>
-<section id="噪音暴露調查策略-strategies-for-noise-surveys" class="level2">
-<h2 class="anchored" data-anchor-id="噪音暴露調查策略-strategies-for-noise-surveys">6. 噪音暴露調查策略 (Strategies for Noise Surveys)</h2>
+<section id="噪音暴露調查策略" class="level2">
+<h2 class="anchored" data-anchor-id="噪音暴露調查策略">6. 噪音暴露調查策略</h2>
+<p>一場專業的噪音調查，絕對不是隨意拿著噪音計到處測量就好。它通常有四種非常明確的目的。</p>
+<ul>
+<li><p><strong>「風險評估」</strong>：以安全衛生人員來說，以下哪一個目標可能是需要達成的？<strong>噪音放射評估、噪音源排序、法規符合性驗證、風險評估</strong>(預測工人長期下來聽力受損的機率？)</p>
+<ul>
+<li>噪音風險暴露主要回答：「如果超標了，到底有多危險？」以及「就算沒超標，長期下來風險有多高？」。</li>
+</ul></li>
+<li><p>測量噪音數據後，需要做的就是<strong>「比較」</strong> (與「尺」做比較)。</p>
+<ul>
+<li>法規的「尺」、行動的「尺」、風險的「尺」(將92 dB(A)代入像ISO 1999這樣的風險評估模型，計算出在這個暴露水平下，勞工未來發生聽力損失的具體機率)。</li>
+</ul></li>
+<li><div>
+<h4 id="如何定義聽力損失-最常用的標準" class="anchored"><strong>如何定義「聽力損失」？</strong> (最常用的標準)</h4>
+</div>
+<blockquote class="blockquote">
+<p>當一個人在<strong>語言溝通頻率</strong>（通常是 500, 1000, 2000, 3000 Hz 或 1000, 2000, 3000, 4000 Hz 的平均值）的聽力閾值<strong>超過25分貝</strong>時，就代表他開始在日常溝通中（尤其是在吵雜環境下）感到困難，達到了「聽力障礙」的程度。</p>
+</blockquote></li>
+</ul>
+<div class="border">
+<div class="tabset-margin-container"></div><div class="panel-tabset" data-group="CH5" style="color: darkblue">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-6-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-1" role="tab" aria-controls="tabset-6-1" aria-selected="true">Q1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-2" role="tab" aria-controls="tabset-6-2" aria-selected="false">Q2</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-3" role="tab" aria-controls="tabset-6-3" aria-selected="false">Q3</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-4" role="tab" aria-controls="tabset-6-4" aria-selected="false">Q4</a></li></ul>
+<div class="tab-content" data-group="CH5" style="color: darkblue">
+<div id="tabset-6-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-6-1-tab">
+<p>你覺得，一個勞工在90分貝的環境下工作8小時，跟他在100分貝的環境下工作8小時，後者聽力– 受損的風險，大概會是前者的幾倍呢？ - 差不多，只稍微高一點點。 - 大約是2倍左右。 - 遠超過2倍，可能是5倍甚至10倍。</p>
+</div>
+<div id="tabset-6-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-2-tab">
+<p><strong>「調查有三大步驟」</strong>？在你開始一場噪音調查之前，你覺得第一步應該是什麼？</p>
+<ol type="1">
+<li><p>立刻開始用噪音計進行測量。</p></li>
+<li><p>先對工作環境和勞工的活動進行詳細的觀察與了解。</p></li>
+<li><p>直接發放耳塞給所有工人。</p></li>
+</ol>
+</div>
+<div id="tabset-6-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-3-tab">
+<p>進行「暴露評估」時，，你發現有一位維修人員，他的工作地點不固定，每天會在工廠各處遊走，處理不同的問題。對於這樣一位「移動中的目標」，你覺得用哪種測量方式最能準確地評估他的噪音暴露？</p>
+<ol type="1">
+<li><p>任務基準採樣： 跟在他旁邊，在他進行每項不同維修任務時，分別用手持噪音計測量幾分鐘。</p></li>
+<li><p>連續測量： 讓他在上班時，佩戴一個小型的「個人噪音劑量計」，記錄一整天的暴露。</p></li>
+<li><p>定點測量： 在工廠中心選一個點，測量該點的噪音，用來代表他的暴露。</p></li>
+</ol>
+</div>
+<div id="tabset-6-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-4-tab">
+<p>假設一天結束後，我們從劑量計上讀出了一個總結的數值，例如，這位維修人員的8小時日暴露量 (L EX,8h​ ) 是 92 dB(A)。將這位25歲勞工的數據代入ISO 1999噪音暴露風險模型進行評估，得到下列結果，你如何跟該勞工或老闆說明？</p>
+<p><strong>評估結果：</strong></p>
+<p>下表顯示了這位勞工在不同年齡時，發生「聽力障礙」（平均聽力損失 &gt; 25 dB）的機率。為了凸顯噪音的影響，我們同時列出了一個<strong>未暴露於職業噪音</strong>的對照組。</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 19%">
+<col style="width: 26%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>暴露年資</th>
+<th>勞工年齡</th>
+<th><p><strong>未暴露噪音者</strong></p>
+<p>發生聽障的機率</p></th>
+<th><p><strong>暴露於 92 dB(A) 者</strong></p>
+<p>發生聽障的機率</p></th>
+<th><p><strong>因噪音暴露</strong></p>
+<p><strong>「額外增加」的風險</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>10 年</strong></td>
+<td><strong>35 歲</strong></td>
+<td>約 1%</td>
+<td><strong>約 17%</strong></td>
+<td><strong>約 16%</strong></td>
+</tr>
+<tr class="even">
+<td><strong>20 年</strong></td>
+<td><strong>45 歲</strong></td>
+<td>約 3%</td>
+<td><strong>約 25%</strong></td>
+<td><strong>約 22%</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>40 年</strong></td>
+<td><strong>65 歲</strong></td>
+<td>約 17%</td>
+<td><strong>約 43%</strong></td>
+<td><strong>約 26%</strong></td>
+</tr>
+</tbody>
+</table>
+<p><em>註：數據是根據ISO 1999模型計算的典型中位數值。</em></p>
+</div>
+</div>
+</div>
+</div>
 </section>
-<section id="聽力測量-hearing-measurement" class="level2">
-<h2 class="anchored" data-anchor-id="聽力測量-hearing-measurement">7. 聽力測量 (Hearing Measurement)</h2>
+<section id="聽力測量" class="level2">
+<h2 class="anchored" data-anchor-id="聽力測量">7. 聽力測量</h2>
 </section>
 <section id="聽力保護計畫" class="level2">
 <h2 class="anchored" data-anchor-id="聽力保護計畫">8. 聽力保護計畫</h2>
@@ -480,255 +448,380 @@ ul.task-list li input[type="checkbox"] {
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
     }
-    setColorSchemeToggle(hasAlternateSentinel())
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
         }
       }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
       return false;
     }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
       }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
     }
-    const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
-        }
-        return codeEl.innerText;
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
     }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
     });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
-      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
-      var isInternal = (href) => {
-          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-      }
-      // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-      for (var i=0; i<links.length; i++) {
-        const link = links[i];
-        if (!isInternal(link.href)) {
-          // undo the damage that might have been done by quarto-nav.js in the case of
-          // links that we want to consider external
-          if (link.dataset.originalHref !== undefined) {
-            link.href = link.dataset.originalHref;
-          }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
         }
       }
-    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-      const config = {
-        allowHTML: true,
-        maxWidth: 500,
-        delay: 100,
-        arrow: false,
-        appendTo: function(el) {
-            return el.parentElement;
-        },
-        interactive: true,
-        interactiveBorder: 10,
-        theme: 'quarto',
-        placement: 'bottom-start',
-      };
-      if (contentFn) {
-        config.content = contentFn;
-      }
-      if (onTriggerFn) {
-        config.onTrigger = onTriggerFn;
-      }
-      if (onUntriggerFn) {
-        config.onUntrigger = onUntriggerFn;
-      }
-      window.tippy(el, config); 
     }
-    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-    for (var i=0; i<noterefs.length; i++) {
-      const ref = noterefs[i];
-      tippyHover(ref, function() {
-        // use id or data attribute instead here
-        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-        try { href = new URL(href).hash; } catch {}
-        const id = href.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note) {
-          return note.innerHTML;
-        } else {
-          return "";
-        }
-      });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
     }
-    const xrefs = window.document.querySelectorAll('a.quarto-xref');
-    const processXRef = (id, note) => {
-      // Strip column container classes
-      const stripColumnClz = (el) => {
-        el.classList.remove("page-full", "page-columns");
-        if (el.children) {
-          for (const child of el.children) {
-            stripColumnClz(child);
-          }
-        }
-      }
-      stripColumnClz(note)
-      if (id === null || id.startsWith('sec-')) {
-        // Special case sections, only their first couple elements
-        const container = document.createElement("div");
-        if (note.children && note.children.length > 2) {
-          container.appendChild(note.children[0].cloneNode(true));
-          for (let i = 1; i < note.children.length; i++) {
-            const child = note.children[i];
-            if (child.tagName === "P" && child.innerText === "") {
-              continue;
-            } else {
-              container.appendChild(child.cloneNode(true));
-              break;
-            }
-          }
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(container);
-          }
-          return container.innerHTML
-        } else {
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(note);
-          }
-          return note.innerHTML;
-        }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
       } else {
-        // Remove any anchor links if they are present
-        const anchorLink = note.querySelector('a.anchorjs-link');
-        if (anchorLink) {
-          anchorLink.remove();
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
         }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        if (note.classList.contains("callout")) {
-          return note.outerHTML;
-        } else {
-          return note.innerHTML;
-        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
       }
     }
-    for (var i=0; i<xrefs.length; i++) {
-      const xref = xrefs[i];
-      tippyHover(xref, undefined, function(instance) {
-        instance.disable();
-        let url = xref.getAttribute('href');
-        let hash = undefined; 
-        if (url.startsWith('#')) {
-          hash = url;
-        } else {
-          try { hash = new URL(url).hash; } catch {}
-        }
-        if (hash) {
-          const id = hash.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note !== null) {
-            try {
-              const html = processXRef(id, note.cloneNode(true));
-              instance.setContent(html);
-            } finally {
-              instance.enable();
-              instance.show();
-            }
-          } else {
-            // See if we can fetch this
-            fetch(url.split('#')[0])
-            .then(res => res.text())
-            .then(html => {
-              const parser = new DOMParser();
-              const htmlDoc = parser.parseFromString(html, "text/html");
-              const note = htmlDoc.getElementById(id);
-              if (note !== null) {
-                const html = processXRef(id, note);
-                instance.setContent(html);
-              } 
-            }).finally(() => {
-              instance.enable();
-              instance.show();
-            });
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
           }
         } else {
-          // See if we can fetch a full url (with no hash to target)
-          // This is a special case and we should probably do some content thinning / targeting
-          fetch(url)
+          // See if we can fetch this
+          fetch(url.split('#')[0])
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.querySelector('main.content');
+            const note = htmlDoc.getElementById(id);
             if (note !== null) {
-              // This should only happen for chapter cross references
-              // (since there is no id in the URL)
-              // remove the first header
-              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-                note.children[0].remove();
-              }
-              const html = processXRef(null, note);
+              const html = processXRef(id, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -736,161 +829,185 @@ ul.task-list li input[type="checkbox"] {
             instance.show();
           });
         }
-      }, function(instance) {
-      });
-    }
-        let selectedAnnoteEl;
-        const selectorForAnnotation = ( cell, annotation) => {
-          let cellAttr = 'data-code-cell="' + cell + '"';
-          let lineAttr = 'data-code-annotation="' +  annotation + '"';
-          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-          return selector;
-        }
-        const selectCodeLines = (annoteEl) => {
-          const doc = window.document;
-          const targetCell = annoteEl.getAttribute("data-target-cell");
-          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-          const lineIds = lines.map((line) => {
-            return targetCell + "-" + line;
-          })
-          let top = null;
-          let height = null;
-          let parent = null;
-          if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
-            }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
-            }
-            selectedAnnoteEl = annoteEl;
-          }
-        };
-        const unselectCodeLines = () => {
-          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-          elementsIds.forEach((elId) => {
-            const div = window.document.getElementById(elId);
-            if (div) {
-              div.remove();
-            }
-          });
-          selectedAnnoteEl = undefined;
-        };
-          // Handle positioning of the toggle
-      window.addEventListener(
-        "resize",
-        throttle(() => {
-          elRect = undefined;
-          if (selectedAnnoteEl) {
-            selectCodeLines(selectedAnnoteEl);
-          }
-        }, 10)
-      );
-      function throttle(fn, ms) {
-      let throttle = false;
-      let timer;
-        return (...args) => {
-          if(!throttle) { // first call gets through
-              fn.apply(this, args);
-              throttle = true;
-          } else { // all the others get throttled
-              if(timer) clearTimeout(timer); // cancel #2
-              timer = setTimeout(() => {
-                fn.apply(this, args);
-                timer = throttle = false;
-              }, ms);
-          }
-        };
-      }
-        // Attach click handler to the DT
-        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-        for (const annoteDlNode of annoteDls) {
-          annoteDlNode.addEventListener('click', (event) => {
-            const clickedEl = event.target;
-            if (clickedEl !== selectedAnnoteEl) {
-              unselectCodeLines();
-              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-              if (activeEl) {
-                activeEl.classList.remove('code-annotation-active');
-              }
-              selectCodeLines(clickedEl);
-              clickedEl.classList.add('code-annotation-active');
-            } else {
-              // Unselect the line
-              unselectCodeLines();
-              clickedEl.classList.remove('code-annotation-active');
-            }
-          });
-        }
-    const findCites = (el) => {
-      const parentEl = el.parentElement;
-      if (parentEl) {
-        const cites = parentEl.dataset.cites;
-        if (cites) {
-          return {
-            el,
-            cites: cites.split(' ')
-          };
-        } else {
-          return findCites(el.parentElement)
-        }
       } else {
-        return undefined;
-      }
-    };
-    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-    for (var i=0; i<bibliorefs.length; i++) {
-      const ref = bibliorefs[i];
-      const citeInfo = findCites(ref);
-      if (citeInfo) {
-        tippyHover(citeInfo.el, function() {
-          var popup = window.document.createElement('div');
-          citeInfo.cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
             }
-            popup.appendChild(citeDiv);
-          });
-          return popup.innerHTML;
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
         });
       }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
     }
-  });
-  </script>
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

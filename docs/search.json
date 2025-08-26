@@ -432,9 +432,9 @@
   {
     "objectID": "EA.html",
     "href": "EA.html",
-    "title": "EA",
+    "title": "OH EA",
     "section": "",
-    "text": "準備中~\n\n\n\n Back to top"
+    "text": "Q：如果，正確配戴耳塞或耳罩(NRR=25dBA)，也經過密合度測試(實際只衰減10dBA)，這要如何使用ISO 1999來做暴露風險評估？結果是？\n\n\n\n實驗室的防護數據 (NRR) 和現場的實際防護效果，往往存在巨大的落差。\n\n\n\n\n\n環境噪音暴露量: 92 dB(A)\n不使用包裝上的 NRR=25 dBA (這是實驗理想值，不切實際)\n使用密合度測試後的實際衰減值: 10 dBA (使用戴老師設計之密合度測試藍芽耳塞)\n計算有效暴露量: L_EX,8h=92dB(A)−10dBA=82dB(A)\n\n這意味著，這位正確佩戴了防護具的勞工，他耳內實際感受到的噪音強度，相當於在一個 82 dB(A) 的環境下工作。\n\n\n\n現在，我們用這個更接近真實的 82 dB(A) 作為新的輸入條件，來重新評估這位25歲勞工的長期風險。\n\n\n\n\n\n\n\n\n\n\n\n\n\n暴露年資\n勞工年齡\n未暴露噪音者 發生聽障的機率\n暴露於 82 dB(A) 者 發生聽障的機率\n因噪音暴露 「額外增加」的風險\n\n\n\n\n10 年\n35 歲\n約 1%\n約 5%\n約 4%\n\n\n20 年\n45 歲\n約 3%\n約 8%\n約 5%\n\n\n40 年\n65 歲\n約 17%\n約 20%\n約 3%\n\n\n\n\n\n\n讓我們把佩戴防護具前後的風險並列比較，效果會非常驚人：\n\n\n\n暴露10年後 (35歲)\n發生聽障的機率\n\n\n\n\n未佩戴防護具 (暴露於 92 dB(A))\n約 17%\n\n\n正確佩戴防護具 (暴露於 82 dB(A))\n約 5%\n\n\n風險降低幅度\n超過 70%"
   },
   {
     "objectID": "about.html#公司設立與基本資訊",
@@ -840,7 +840,7 @@
     "href": "index.html#i.目前初步完成推估模式介紹化學品暴露",
     "title": "Occupational Exposure Assessment",
     "section": "I.目前初步完成推估模式介紹：(化學品暴露)",
-    "text": "I.目前初步完成推估模式介紹：(化學品暴露)\n\n\n\n1. Why modeling\n\n\n2. Gathering information\n\n\n3. Volatile liquid spill\n\n\n4. Sanding\n\n\n5. Container uncovered\n\n\n6. Barrel filling\n\n\n7. Historic exposure\n\n\n8. Presurized gas release\n\n\n9. Flavoring Process\n\n\n10. Cleaning Process\n\n\n\n\n\n11. Model parameters\n\n\n12. Monte Carlo modeling\n\n\n13. Mixture modeling\n\n\n14. Oxygen Deficiency\n\n\n15. Autoshop solvents\n\n\n17 Reconstruction of spill\n\n\n18 Modeling limitation\n\n\n19 Feeding model"
+    "text": "I.目前初步完成推估模式介紹：(化學品暴露)\n\n\n\n\n1. Why modeling\n\n\n2. Gathering information\n\n\n3. Volatile liquid spill\n\n\n4. Sanding\n\n\n5. Container uncovered\n\n\n6. Barrel filling\n\n\n7. Historic exposure\n\n\n8. Presurized gas release\n\n\n9. Flavoring Process\n\n\n10. Cleaning Process\n\n\n\n\n\n11. Model parameters\n\n\n12. Monte Carlo modeling\n\n\n13. Mixture modeling\n\n\n14. Oxygen Deficiency\n\n\n15. Autoshop solvents\n\n\n17 Reconstruction of spill\n\n\n18 Modeling limitation\n\n\n19 Feeding model"
   },
   {
     "objectID": "index.html#ii.規劃展開推估模式介紹噪音與高氣溫",
@@ -1008,7 +1008,7 @@
     "href": "noise_EA.html#耳朵與聽覺的解剖學與生理學",
     "title": "Occupational Noise-EA",
     "section": "2.耳朵與聽覺的解剖學與生理學",
-    "text": "2.耳朵與聽覺的解剖學與生理學\n\n聲音的旅程 - 解剖構造 (Anatomy)：聲波從進入外耳開始，一路經過中耳，最終抵達內耳，認識沿途的各個重要結構。\n從振動到感知 - 生理功能(Physiology)：耳朵結構如何協同工作，將聲音放大、轉換並進行初步分析的。\n\n\n\nQ1Q2Q3\n\n\n我們剛剛提到了外耳負責「收集」聲波，而中耳像一個「放大器」，解決了空氣到液體的能量傳遞問題。綜合這兩點，您認為從聲波進到耳朵，到它準備進入內耳之前，聲音的能量是變強了還是變弱了？為什麼這一步驟對於聽覺至關重要？\n\n\n噪音造成聽力損傷，最主要攻擊的目標是內耳的聽覺感測細胞(它們坐落在基底膜上)，且其一旦死亡便無法再生的毛細胞。特別是脆弱的內？ / 外？毛細胞\n\n\n很多早期噪音性聽損的患者會說：「在安靜的地方我聽得還不錯，可是一到吵雜的環境，我就完全聽不清楚別人在說什麼了」，而且他們對較大的聲音會感覺特別刺耳（這種現象稱為響度重振 Loudness Recruitment）。\n您認為這個現象，比較可能跟哪一種毛細胞（內毛細胞或外毛細胞）的損傷有關？為什麼？\n\n\n\n\n\n\nTip提醒\n\n\n\n早期噪音聽損主要與外毛細胞 (OHCs) 的損傷有關。它們的受損不僅造成了聽力損失，也破壞了我們聽覺的精細調節能力，導致在吵雜環境中分辨語音的能力下降。"
+    "text": "2.耳朵與聽覺的解剖學與生理學\n\n聲音的旅程 - 解剖構造 (Anatomy)：聲波從進入外耳開始，一路經過中耳，最終抵達內耳，認識沿途的各個重要結構。\n從振動到感知 - 生理功能(Physiology)：耳朵結構如何協同工作，將聲音放大、轉換並進行初步分析的。\n\n\n\nQ1Q2Q3\n\n\n我們剛剛提到了外耳負責「收集」聲波，而中耳像一個「放大器」，解決了空氣到液體的能量傳遞問題。綜合這兩點，您認為從聲波進到耳朵，到它準備進入內耳之前，聲音的能量是變強了還是變弱了？為什麼這一步驟對於聽覺至關重要？\n\n\n噪音造成聽力損傷，最主要攻擊的目標是內耳的聽覺感測細胞(它們坐落在基底膜上)，且其一旦死亡便無法再生的毛細胞。特別是脆弱的內？ / 外？毛細胞\n\n\n很多早期噪音性聽損的患者會說：「在安靜的地方我聽得還不錯，可是一到吵雜的環境，我就完全聽不清楚別人在說什麼了」，而且他們對較大的聲音會感覺特別刺耳（這種現象稱為響度重振 Loudness Recruitment）。\n您認為這個現象，比較可能跟哪一種毛細胞（內毛細胞或外毛細胞）的損傷有關？為什麼？\n\n\n\n\n\n\n\n提醒\n\n\n\n早期噪音聽損主要與外毛細胞 (OHCs) 的損傷有關。它們的受損不僅造成了聽力損失，也破壞了我們聽覺的精細調節能力，導致在吵雜環境中分辨語音的能力下降。"
   },
   {
     "objectID": "noise_EA.html#section",
@@ -1036,14 +1036,14 @@
     "href": "noise_EA.html#噪音來源-noise-source",
     "title": "Occupational Noise-EA",
     "section": "4. 噪音來源 (Noise Source)",
-    "text": "4. 噪音來源 (Noise Source)\n噪音的來源(依物理機制分)，基本上可以歸納為三大類： - 1. 機械性噪音：固體表面的振動，推動空氣產生聲波。 - 2. 流體動力噪音：氣液體的高速或不穩定流動。 - 3. 電磁性噪音：電流在馬達、變壓器等設備中變化所產生的電磁力，導致設備部件振動而發出噪音。如低頻的「嗡嗡」聲。 - 速度的關鍵影響：無論是機械轉速或流體速度，都是噪音控制中最敏感、最關鍵的參數。「降速」是降噪的第一要務。\n\n\nQ1Q2Q3\n\n\n工業氣槍或高壓排氣口 (Industrial Gas Jets)。 這是在工廠中用來清潔、乾燥或吹走零件的常見工具，噪音通常非常大，可以輕易超過 105 dB(A) 。您認為這種噪音主要是由哪一種物理機制產生的？\n\n\n工業場所無所不在的通風機與排風扇 (Ventilator and Exhaust Fans)。這和家用電風扇有點像，但工業風扇的噪音等級要高得多。您認為工業風扇的噪音主要包含哪幾種物理機制？\n\n\n在噪音源頭管理的優先性上，您認為在哪方面著手，是成本效益最高的策略，遠比事後進行隔音、吸音等補救工程來得有效？"
+    "text": "4. 噪音來源 (Noise Source)\n噪音的來源(依物理機制分)，基本上可以歸納為三大類：\n\n機械性噪音：固體表面的振動，推動空氣產生聲波。\n流體動力噪音：氣液體的高速或不穩定流動。\n電磁性噪音：電流在馬達、變壓器等設備中變化所產生的電磁力，導致設備部件振動而發出噪音。如低頻的「嗡嗡」聲。\n\n速度的關鍵影響：無論是機械轉速或流體速度，都是噪音控制中最敏感、最關鍵的參數。「降速」是降噪的第一要務。\n\n\n\n\nQ1Q2Q3\n\n\n工業氣槍或高壓排氣口 (Industrial Gas Jets)。 這是在工廠中用來清潔、乾燥或吹走零件的常見工具，噪音通常非常大，可以輕易超過 105 dB(A) 。您認為這種噪音主要是由哪一種物理機制產生的？\n\n\n工業場所無所不在的通風機與排風扇 (Ventilator and Exhaust Fans)。這和家用電風扇有點像，但工業風扇的噪音等級要高得多。您認為工業風扇的噪音主要包含哪幾種物理機制？\n\n\n在噪音源頭管理的優先性上，您認為在哪方面著手，是成本效益最高的策略，遠比事後進行隔音、吸音等補救工程來得有效？"
   },
   {
     "objectID": "noise_EA.html#聲音測量儀器-sound-measuring-instruments",
     "href": "noise_EA.html#聲音測量儀器-sound-measuring-instruments",
     "title": "Occupational Noise-EA",
     "section": "5. 聲音測量儀器 (Sound Measuring Instruments)",
-    "text": "5. 聲音測量儀器 (Sound Measuring Instruments)"
+    "text": "5. 聲音測量儀器 (Sound Measuring Instruments)\n\n測量不同的噪音，需要用不同的麥克風(自由音場與擴散音場)。\n\n測量「音源」本身 → 用自由音場麥克風，像聚光燈一樣對準它。\n測量「人員」暴露 → 用擴散音場麥克風，像燈泡一樣接收所有方向的聲音。\n\nLAeq,T​ (等效連續音壓級)\n\n聽力損傷，是由耳朵接收到的「總聲能 (Total Sound Energy)」決定的。\n把一天中所有高高低低的噪音能量全部收集起來，然後像鋪平沙子一樣，均勻地鋪在8小時的工作時間上。這個鋪平後的、恆定不變的噪音等級，就是 LAeq,T​。\n使用「積分式噪音計」和「個人聲音暴露計」。\n\n溫濕度是精密儀器的天敵\n\n\n\nQ1Q2Q3\n\n\n\n為什麼測量不同的噪音，需要用不同的麥克風？如果用錯了，會發生什麼事？\n你需要評估一位在狹小、水泥牆面的鍋爐室工作的勞工，他一整天的噪音暴露量是否超標。鍋爐的噪音會從牆壁、地板、天花板四處反射。您會選擇哪種麥克風？又該如何擺放？\n\n\n\n一位勞工在 8 小時的輪班中，其噪音暴露情況如下：4 小時處於穩定的 85 dB(A) 環境，3 小時處於穩定的 91 dB(A) 環境，1 小時處於穩定的 100 dB(A) 環境，請問該勞工的噪音暴露風險為何？ (等效連續音壓級 (LAeq,T​ 或 LEX,8h​)=92.1 dB(A))\n\n\n一位新手職業衛生師，習慣將他的精密第一級 (Class 1) 噪音計放在汽車後車廂過夜。在一個炎熱潮濕的早晨，他直接將儀器帶入吵雜的廠房，用校正器做了一次快速檢查，讀值似乎正常，便開始進行測量。請問，這位衛生師的做法隱含了哪兩項可能導致測量數據無效的重大風險？"
   },
   {
     "objectID": "noise_EA.html#噪音暴露調查策略-strategies-for-noise-surveys",
@@ -1755,140 +1755,140 @@
   {
     "objectID": "modeling.html",
     "href": "modeling.html",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "",
     "text": "Important\n\n\n\n本網站主要內容係來自2023 AIHA 新書各章 [@acase-b2023]"
   },
   {
     "objectID": "modeling.html#why-modeling",
     "href": "modeling.html#why-modeling",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "1. Why modeling",
-    "text": "1. Why modeling\nCh1 Modeling in the Framework of Industrial Hygiene Practice\n*💾摘要 *📶 圖"
+    "text": "1. Why modeling\n\nCh1 Modeling in the Framework of Industrial Hygiene Practice\n*💾摘要 *📶 圖"
   },
   {
     "objectID": "modeling.html#gathering-informaiton",
     "href": "modeling.html#gathering-informaiton",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "2. Gathering informaiton",
     "text": "2. Gathering informaiton\nCh2 Information Gathering for modeling\n*💾摘要"
   },
   {
     "objectID": "modeling.html#volatile-liquid-spill",
     "href": "modeling.html#volatile-liquid-spill",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "3. Volatile liquid spill",
     "text": "3. Volatile liquid spill\nCh3 Volatile Liquid Spill\n*⚛️摘要"
   },
   {
     "objectID": "modeling.html#sanding-ea",
     "href": "modeling.html#sanding-ea",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "4. Sanding EA",
     "text": "4. Sanding EA\nCh4 Local Exhaust Ventilation for a Sanding\n*🕎摘要"
   },
   {
     "objectID": "modeling.html#container-uncovered",
     "href": "modeling.html#container-uncovered",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "5. Container uncovered",
     "text": "5. Container uncovered\nCh5 Volatile Liquid Container Left Open\n*摘要"
   },
   {
     "objectID": "modeling.html#barrel-filling",
     "href": "modeling.html#barrel-filling",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "6. Barrel filling",
     "text": "6. Barrel filling\nCh6 Barrel filling indoors\n*摘要"
   },
   {
     "objectID": "modeling.html#historic-exposure",
     "href": "modeling.html#historic-exposure",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "7. Historic exposure",
     "text": "7. Historic exposure\nCh7 Historic exposure\n*摘要"
   },
   {
     "objectID": "modeling.html#pressurized-gas-release",
     "href": "modeling.html#pressurized-gas-release",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "8. Pressurized gas release",
     "text": "8. Pressurized gas release\nCh8 Pressurized gas release\n*摘要"
   },
   {
     "objectID": "modeling.html#flavoring-process",
     "href": "modeling.html#flavoring-process",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "9. Flavoring Process",
     "text": "9. Flavoring Process\nChapter 9 Ventilation Requirements for a Flavoring Process\n*摘要"
   },
   {
     "objectID": "modeling.html#cleaning-process",
     "href": "modeling.html#cleaning-process",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "10. Cleaning Process",
     "text": "10. Cleaning Process\nChapter 10 Cleaning With Product Containing Acetic Acid\n*摘要"
   },
   {
     "objectID": "modeling.html#model-parameters",
     "href": "modeling.html#model-parameters",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "11. Model parameters",
     "text": "11. Model parameters\nChapter 11 Experimental Determination of Model Parameters\n*摘要"
   },
   {
     "objectID": "modeling.html#monte-carlo-modeling",
     "href": "modeling.html#monte-carlo-modeling",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "12. Monte Carlo modeling",
     "text": "12. Monte Carlo modeling\nChapter 12 Organic Chemistry Teaching Lab Exposure and a First Exploration of Monte Carlo Modeling\n*摘要"
   },
   {
     "objectID": "modeling.html#mixture-modleing",
     "href": "modeling.html#mixture-modleing",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "13. Mixture modleing",
     "text": "13. Mixture modleing\nChapter 13 Filling a Container With a Mixture and Using IHMOD 2.0 for Modeling Calculations\n*摘要"
   },
   {
     "objectID": "modeling.html#oxygen-deficiency",
     "href": "modeling.html#oxygen-deficiency",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "14. Oxygen Deficiency",
     "text": "14. Oxygen Deficiency\nChapter 14 Oxygen Deficiency Hazard in a Storage Tank"
   },
   {
     "objectID": "modeling.html#autoshop-solvents",
     "href": "modeling.html#autoshop-solvents",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "15. Autoshop solvents",
     "text": "15. Autoshop solvents\nChapter 15 Use of Aerosol Solvents in an Auto Shop\n*摘要"
   },
   {
     "objectID": "modeling.html#reconstruction-of-spill",
     "href": "modeling.html#reconstruction-of-spill",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "17 Reconstruction of spill",
     "text": "17 Reconstruction of spill\nChapter 17 Reconstruction of a Laboratory Spill\n*摘要"
   },
   {
     "objectID": "modeling.html#modeling-limitation",
     "href": "modeling.html#modeling-limitation",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "18 Modeling limitation",
     "text": "18 Modeling limitation\nChapter 18 Understanding the Limitations of Mathematical Models and Proactive Communication of Modeling Results\n*摘要"
   },
   {
     "objectID": "modeling.html#feeding-model",
     "href": "modeling.html#feeding-model",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "19 Feeding model",
     "text": "19 Feeding model\nChapter 19 Feeding Models Using Simple and Some Not-So-Simple Means\n*摘要"
   },
   {
     "objectID": "modeling.html#references",
     "href": "modeling.html#references",
-    "title": "Modeling",
+    "title": "EA Modeling",
     "section": "References",
     "text": "References"
   },
@@ -3053,5 +3053,61 @@
     "title": "CH8 presurized gas release",
     "section": "",
     "text": "模型分析明確指出，災難性洩漏是致命的，而緩慢洩漏則提供了評估潛在危害的基準。此評估結果不僅回答了最初的風險問題，更為制定具體的預防措施（如洩漏測試、安裝警報器）提供了清晰的數據支持，展現了暴露評估模型在將理論計算轉化為實際安全行動中的價值。"
+  },
+  {
+    "objectID": "noise_EA.html#噪音來源",
+    "href": "noise_EA.html#噪音來源",
+    "title": "Occupational Noise-EA",
+    "section": "4. 噪音來源",
+    "text": "4. 噪音來源\n噪音的來源(依物理機制分)，基本上可以歸納為三大類：\n\n機械性噪音：固體表面的振動，推動空氣產生聲波。\n流體動力噪音：氣液體的高速或不穩定流動。\n電磁性噪音：電流在馬達、變壓器等設備中變化所產生的電磁力，導致設備部件振動而發出噪音。如低頻的「嗡嗡」聲。\n\n速度的關鍵影響：無論是機械轉速或流體速度，都是噪音控制中最敏感、最關鍵的參數。「降速」是降噪的第一要務。\n\n\n\n\nQ1Q2Q3\n\n\n工業氣槍或高壓排氣口 (Industrial Gas Jets)。 這是在工廠中用來清潔、乾燥或吹走零件的常見工具，噪音通常非常大，可以輕易超過 105 dB(A) 。您認為這種噪音主要是由哪一種物理機制產生的？\n\n\n工業場所無所不在的通風機與排風扇 (Ventilator and Exhaust Fans)。這和家用電風扇有點像，但工業風扇的噪音等級要高得多。您認為工業風扇的噪音主要包含哪幾種物理機制？\n\n\n在噪音源頭管理的優先性上，您認為在哪方面著手，是成本效益最高的策略，遠比事後進行隔音、吸音等補救工程來得有效？"
+  },
+  {
+    "objectID": "noise_EA.html#聲音測量儀器",
+    "href": "noise_EA.html#聲音測量儀器",
+    "title": "Occupational Noise-EA",
+    "section": "5. 聲音測量儀器",
+    "text": "5. 聲音測量儀器\n\n測量不同的噪音，需要用不同的麥克風(自由音場與擴散音場)。\n\n測量「音源」本身 → 用自由音場麥克風，像聚光燈一樣對準它。\n測量「人員」暴露 → 用擴散音場麥克風，像燈泡一樣接收所有方向的聲音。\n\nLAeq,T​ (等效連續音壓級)\n\n聽力損傷，是由耳朵接收到的「總聲能 (Total Sound Energy)」決定的。\n把一天中所有高高低低的噪音能量全部收集起來，然後像鋪平沙子一樣，均勻地鋪在8小時的工作時間上。這個鋪平後的、恆定不變的噪音等級，就是 LAeq,T​。\n使用「積分式噪音計」和「個人聲音暴露計」。\n\n溫濕度是精密儀器的天敵\n\n\n\nQ1Q2Q3\n\n\n\n為什麼測量不同的噪音，需要用不同的麥克風？如果用錯了，會發生什麼事？\n你需要評估一位在狹小、水泥牆面的鍋爐室工作的勞工，他一整天的噪音暴露量是否超標。鍋爐的噪音會從牆壁、地板、天花板四處反射。您會選擇哪種麥克風？又該如何擺放？\n\n\n\n一位勞工在 8 小時的輪班中，其噪音暴露情況如下：4 小時處於穩定的 85 dB(A) 環境，3 小時處於穩定的 91 dB(A) 環境，1 小時處於穩定的 100 dB(A) 環境，請問該勞工的噪音暴露風險為何？ (等效連續音壓級 (LAeq,T​ 或 LEX,8h​)=92.1 dB(A))\n\n\n一位新手職業衛生師，習慣將他的精密第一級 (Class 1) 噪音計放在汽車後車廂過夜。在一個炎熱潮濕的早晨，他直接將儀器帶入吵雜的廠房，用校正器做了一次快速檢查，讀值似乎正常，便開始進行測量。請問，這位衛生師的做法隱含了哪兩項可能導致測量數據無效的重大風險？"
+  },
+  {
+    "objectID": "noise_EA.html#噪音暴露調查策略",
+    "href": "noise_EA.html#噪音暴露調查策略",
+    "title": "Occupational Noise-EA",
+    "section": "6. 噪音暴露調查策略",
+    "text": "6. 噪音暴露調查策略\n一場專業的噪音調查，絕對不是隨意拿著噪音計到處測量就好。它通常有四種非常明確的目的。\n\n「風險評估」：以安全衛生人員來說，以下哪一個目標可能是需要達成的？噪音放射評估、噪音源排序、法規符合性驗證、風險評估(預測工人長期下來聽力受損的機率？)\n\n噪音風險暴露主要回答：「如果超標了，到底有多危險？」以及「就算沒超標，長期下來風險有多高？」。\n\n測量噪音數據後，需要做的就是「比較」 (與「尺」做比較)。\n\n法規的「尺」、行動的「尺」、風險的「尺」(將92 dB(A)代入像ISO 1999這樣的風險評估模型，計算出在這個暴露水平下，勞工未來發生聽力損失的具體機率)。\n\n\n如何定義「聽力損失」？ (最常用的標準)\n\n\n當一個人在語言溝通頻率（通常是 500, 1000, 2000, 3000 Hz 或 1000, 2000, 3000, 4000 Hz 的平均值）的聽力閾值超過25分貝時，就代表他開始在日常溝通中（尤其是在吵雜環境下）感到困難，達到了「聽力障礙」的程度。\n\n\n\n\nQ1Q2Q3Q4\n\n\n你覺得，一個勞工在90分貝的環境下工作8小時，跟他在100分貝的環境下工作8小時，後者聽力– 受損的風險，大概會是前者的幾倍呢？ - 差不多，只稍微高一點點。 - 大約是2倍左右。 - 遠超過2倍，可能是5倍甚至10倍。\n\n\n「調查有三大步驟」？在你開始一場噪音調查之前，你覺得第一步應該是什麼？\n\n立刻開始用噪音計進行測量。\n先對工作環境和勞工的活動進行詳細的觀察與了解。\n直接發放耳塞給所有工人。\n\n\n\n進行「暴露評估」時，，你發現有一位維修人員，他的工作地點不固定，每天會在工廠各處遊走，處理不同的問題。對於這樣一位「移動中的目標」，你覺得用哪種測量方式最能準確地評估他的噪音暴露？\n\n任務基準採樣： 跟在他旁邊，在他進行每項不同維修任務時，分別用手持噪音計測量幾分鐘。\n連續測量： 讓他在上班時，佩戴一個小型的「個人噪音劑量計」，記錄一整天的暴露。\n定點測量： 在工廠中心選一個點，測量該點的噪音，用來代表他的暴露。\n\n\n\n假設一天結束後，我們從劑量計上讀出了一個總結的數值，例如，這位維修人員的8小時日暴露量 (L EX,8h​ ) 是 92 dB(A)。將這位25歲勞工的數據代入ISO 1999噪音暴露風險模型進行評估，得到下列結果，你如何跟該勞工或老闆說明？\n評估結果：\n下表顯示了這位勞工在不同年齡時，發生「聽力障礙」（平均聽力損失 &gt; 25 dB）的機率。為了凸顯噪音的影響，我們同時列出了一個未暴露於職業噪音的對照組。\n\n\n\n\n\n\n\n\n\n\n暴露年資\n勞工年齡\n未暴露噪音者\n發生聽障的機率\n暴露於 92 dB(A) 者\n發生聽障的機率\n因噪音暴露\n「額外增加」的風險\n\n\n\n\n10 年\n35 歲\n約 1%\n約 17%\n約 16%\n\n\n20 年\n45 歲\n約 3%\n約 25%\n約 22%\n\n\n40 年\n65 歲\n約 17%\n約 43%\n約 26%\n\n\n\n註：數據是根據ISO 1999模型計算的典型中位數值。"
+  },
+  {
+    "objectID": "noise_EA.html#聽力測量",
+    "href": "noise_EA.html#聽力測量",
+    "title": "Occupational Noise-EA",
+    "section": "7. 聽力測量",
+    "text": "7. 聽力測量"
+  },
+  {
+    "objectID": "EA.html#hpd與噪音暴露評估",
+    "href": "EA.html#hpd與噪音暴露評估",
+    "title": "OH EA",
+    "section": "",
+    "text": "Q：如果，正確配戴耳塞或耳罩(NRR=25dBA)，也經過密合度測試(實際只衰減10dBA)，這要如何使用ISO 1999來做暴露風險評估？結果是？\n\n\n\n實驗室的防護數據 (NRR) 和現場的實際防護效果，往往存在巨大的落差。\n\n\n\n\n\n環境噪音暴露量: 92 dB(A)\n不使用包裝上的 NRR=25 dBA (這是實驗理想值，不切實際)\n使用密合度測試後的實際衰減值: 10 dBA (使用戴老師設計之密合度測試藍芽耳塞)\n計算有效暴露量: L_EX,8h=92dB(A)−10dBA=82dB(A)\n\n這意味著，這位正確佩戴了防護具的勞工，他耳內實際感受到的噪音強度，相當於在一個 82 dB(A) 的環境下工作。"
+  },
+  {
+    "objectID": "EA.html#第二步將新的有效暴露量代入-iso-1999-模型",
+    "href": "EA.html#第二步將新的有效暴露量代入-iso-1999-模型",
+    "title": "OH EA",
+    "section": "第二步：將新的「有效暴露量」代入 ISO 1999 模型",
+    "text": "第二步：將新的「有效暴露量」代入 ISO 1999 模型\n現在，我們用這個更接近真實的 82 dB(A) 作為新的輸入條件，來重新評估這位25歲勞工的長期風險。\n\n評估結果 (佩戴HPD後)\n\n\n\n\n\n\n\n\n\n\n暴露年資\n勞工年齡\n未暴露噪音者 發生聽障的機率\n暴露於 82 dB(A) 者 發生聽障的機率\n因噪音暴露 「額外增加」的風險\n\n\n\n\n10 年\n35 歲\n約 1%\n約 5%\n約 4%\n\n\n20 年\n45 歲\n約 3%\n約 8%\n約 5%\n\n\n40 年\n65 歲\n約 17%\n約 20%\n約 3%\n\n\n\n\n\n結果說明與比較\n讓我們把佩戴防護具前後的風險並列比較，效果會非常驚人：\n\n\n\n暴露10年後 (35歲)\n發生聽障的機率\n\n\n\n\n未佩戴防護具 (暴露於 92 dB(A))\n約 17%\n\n\n正確佩戴防護具 (暴露於 82 dB(A))\n約 5%\n\n\n風險降低幅度\n超過 70%"
+  },
+  {
+    "objectID": "EA.html#三種情境下的噪音聽損風險比較評估",
+    "href": "EA.html#三種情境下的噪音聽損風險比較評估",
+    "title": "OH EA",
+    "section": "2. 三種情境下的噪音聽損風險比較評估",
+    "text": "2. 三種情境下的噪音聽損風險比較評估\nQ：評估比較一位25歲勞工，在每日噪音暴露量為 92 dB(A) 的工作環境下，採取三種不同保護措施時，其長期聽力障礙風險的變化。評估模型採用國際標準 ISO 1999。\n基本條件設定：\n\n環境噪音: 92 dB(A)\n勞工起始年齡: 25 歲\n聽力障礙定義: 語言頻率平均聽力損失超過 25 分貝\n\n\n情境一：未佩戴任何聽力防護具\n\n評估基礎: 勞工的耳朵完全暴露在環境噪音中。\n有效暴露量: 92 dB(A)\n\n\n\n情境二：佩戴防護具，僅依賴NRR值\n\n評估基礎: 雇主提供了標示 NRR=25 的防護具，但未進行密合度測試，僅依賴理論值進行評估。\n\n註：在實務上，美國OSHA建議將NRR值減7後再從A權衡音壓級中扣除，以估算防護效果。此處我們採用此方法進行「理論上」的計算。\n\n\n理論衰減值: 25 - 7 = 18 dBA\n「理論上」的有效暴露量: 92 dB(A) - 18 dBA = 74 dB(A)\n\n\n\n情境三：佩戴防護具，並經密合度測試 (Protection with Fit-Testing)\n\n密合度測試：使用戴老師開發之密合度聽力測試藍芽耳機及測試方法\n評估基礎: 勞工佩戴了同樣NRR=25的防護具(耳罩或耳塞)，但透過客觀的密合度測試，確認其實際能達到的衰減效果。\n實際衰減值: 10 dBA\n「實際上」的有效暴露量: 92 dB(A) - 10 dBA = 82 dB(A)\n\n\n\n聽力障礙風險比較評估表\n下表彙整了在上述三種情境下，該勞工在不同暴露年資後，發生聽力障礙的機率。\n\n\n\n\n\n\n\n\n\n\n暴露\n年資\n勞工\n年齡\n一：未佩戴\n(有效暴露: 92 dB(A))\n二：僅依賴NRR\n(理論暴露: 74 dB(A))\n三：經密合度測試\n(實際暴露: 82 dB(A))\n\n\n\n\n\n\n發生聽障的機率\n發生聽障的機率\n發生聽障的機率\n\n\n10 年\n35 歲\n約 17%\n約 2%\n約 5%\n\n\n20 年\n45 歲\n約 25%\n約 4%\n約 8%\n\n\n40 年\n65 歲\n約 43%\n約 18%\n約 20%\n\n\n額外風險(相對於無暴露者)\n40年後\n+26%\n+1% (理論上)\n+3% (實際上)\n\n\n\n\n\n結論與說明\n\n不設防的嚴重後果 (情境一):\n\n在未採取任何防護措施的情況下，暴露於92 dB(A)的風險是驚人且不可接受的。僅僅10年，一位年輕勞工就有接近六分之一的機會面臨聽力障礙，這將嚴重影響其生活品質與職涯發展。\n\nNRR值的巨大誤導性 (情境二 vs. 情境三):\n\n這是本評估的核心。如果管理者僅僅是「發了耳塞」，然後天真地用包裝上的NRR值來計算，他們會得出一個極度樂觀且完全錯誤的結論——認為勞工的有效暴露僅為74 dB(A)，風險幾乎與一般人無異（40年後額外風險僅1%）。\n然而，密合度測試告訴我們殘酷的真相。由於佩戴不當、尺寸不合等因素，實際的防護效果遠遠不如預期，勞工的有效暴露量是82 dB(A)，而非74 dB(A)。\n這8分貝的差距，在風險上的體現是巨大的：在職涯初期（暴露10年後），真實的風險(5%)是理論上風險(2%)的兩倍以上。\n\n密合度測試的關鍵價值 (情境三):\n\n密合度測試是從「形式上的保護」走向「實質性保護」的橋樑。 它讓管理者和勞工都能客觀地了解防護具真正提供了多少保護。\n雖然82 dB(A)的暴露仍然存在一定的殘餘風險（40年後額外風險約3%），但相較於完全不設防的26%，風險已經降低了將近90%。這證明了正確佩戴並確認有效的聽力防護具，是現階段保護勞工聽力不可或缺的手段。\n它同時也提醒我們，個人防護具並不能完全消除風險，再次印證了噪音防治的優先順序：應優先考慮從源頭進行工程控制，將環境噪音降至85 dB(A)以下，再以個人防護具作為輔助或過渡時期的措施。\n\n\n總結而言，這份比較評估清楚地表明：\n僅僅提供聽力防護具是遠遠不夠的。若沒有透過密合度測試來確保其有效性，整個聽力保護計畫很可能只是建立在一個虛假的安全感之上。客觀的數據證明，實施密合度測試，是將聽力保護從紙上談兵轉化為真正有效的健康保障的關鍵一步。"
+  },
+  {
+    "objectID": "EA.html#hpd與噪音暴露風險評估",
+    "href": "EA.html#hpd與噪音暴露風險評估",
+    "title": "OH EA",
+    "section": "",
+    "text": "Q：如果，正確配戴耳塞或耳罩(NRR=25dBA)，也經過密合度測試(實際只衰減10dBA)，這要如何使用ISO 1999來做暴露風險評估？結果是？\n\n\n\n實驗室的防護數據 (NRR) 和現場的實際防護效果，往往存在巨大的落差。\n\n\n\n\n\n環境噪音暴露量: 92 dB(A)\n不使用包裝上的 NRR=25 dBA (這是實驗理想值，不切實際)\n使用密合度測試後的實際衰減值: 10 dBA (使用戴老師設計之密合度測試藍芽耳塞)\n計算有效暴露量: L_EX,8h=92dB(A)−10dBA=82dB(A)\n\n這意味著，這位正確佩戴了防護具的勞工，他耳內實際感受到的噪音強度，相當於在一個 82 dB(A) 的環境下工作。\n\n\n\n現在，我們用這個更接近真實的 82 dB(A) 作為新的輸入條件，來重新評估這位25歲勞工的長期風險。\n\n\n\n\n\n\n\n\n\n\n\n\n\n暴露年資\n勞工年齡\n未暴露噪音者 發生聽障的機率\n暴露於 82 dB(A) 者 發生聽障的機率\n因噪音暴露 「額外增加」的風險\n\n\n\n\n10 年\n35 歲\n約 1%\n約 5%\n約 4%\n\n\n20 年\n45 歲\n約 3%\n約 8%\n約 5%\n\n\n40 年\n65 歲\n約 17%\n約 20%\n約 3%\n\n\n\n\n\n\n讓我們把佩戴防護具前後的風險並列比較，效果會非常驚人：\n\n\n\n暴露10年後 (35歲)\n發生聽障的機率\n\n\n\n\n未佩戴防護具 (暴露於 92 dB(A))\n約 17%\n\n\n正確佩戴防護具 (暴露於 82 dB(A))\n約 5%\n\n\n風險降低幅度\n超過 70%"
   }
 ]

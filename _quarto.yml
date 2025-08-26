@@ -20,8 +20,8 @@ website:
   title: "OH模式推估-Peter Ho"
   navbar:
     left:
-      - text: 首頁
-        href: index.html
+#      - text: 首頁
+#        href: index.html
       - text: About us
         href: about.qmd
       - href: news.qmd
@@ -32,6 +32,8 @@ website:
         text: 直讀式儀器與RPE
       - href: noise_EA.qmd
         text: 噪音-高溫EA
+      - href: EA.qmd
+        text: HPD與噪音暴露風險
       - href: others.qmd
         text: 其他
 

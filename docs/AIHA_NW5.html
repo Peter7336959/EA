@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<style type="text/css">
+.inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.sng {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.def {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>噪音危害與聽力保護計畫 資訊圖表</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .pyramid-level {
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            padding: 2rem 1rem;
+        }
+        .flowchart-arrow {
+            color: #7A5195;
+            font-size: 2.5rem;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body class="bg-slate-100 text-slate-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-[#003F5C] mb-2">職業噪音：不可逆的無聲威脅</h1>
+            <p class="text-lg text-slate-600">深入了解工作場所的噪音危害，並學習如何透過系統化的聽力保護計畫保護勞工的聽覺健康。</p>
+        </header>
+
+        <main class="space-y-12">
+            
+            <section id="problem-scope" class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-[#003F5C] text-center mb-8">一、噪音問題的嚴重性</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="bg-slate-50 p-6 rounded-lg">
+                        <div class="text-6xl text-[#EF5675] mb-4">📈</div>
+                        <h3 class="text-xl font-bold mb-2">通報率第一</h3>
+                        <p>根據勞動部統計，噪音性聽力損失長年高居我國職業病通報量首位，佔總通報量超過40%，是職場最普遍的健康危害。</p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-lg">
+                        <div class="text-6xl text-[#EF5675] mb-4">🚫</div>
+                        <h3 class="text-xl font-bold mb-2">永久性傷害</h3>
+                        <p>噪音造成的內耳毛細胞損傷是不可逆的。一旦受損死亡便無法再生，這意味著「預防」是唯一的防線。</p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-lg">
+                         <div class="text-6xl text-[#EF5675] mb-4">🌍</div>
+                        <h3 class="text-xl font-bold mb-2">普遍性危害</h3>
+                        <p>從製造業、營造業到服務業，超過50種職業都潛藏噪音風險，影響著廣大的勞動人口。</p>
+                    </div>
+                </div>
+                 <div class="mt-8">
+                    <h3 class="text-2xl font-bold text-[#374C80] text-center mb-4">噪音如何損傷聽力？</h3>
+                    <p class="text-center text-slate-600 mb-6">長期暴露在高分貝環境下，會對內耳中脆弱的毛細胞造成壓力，導致其損傷。聽力圖上最典型的特徵是在4000Hz附近出現一個明顯的凹陷(Notch)，這也是職業性聽損的關鍵指標。</p>
+                    <div class="chart-container h-80 md:h-96 max-w-3xl">
+                        <canvas id="audiogramChart"></canvas>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="hcp-elements" class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-[#003F5C] text-center mb-8">二、聽力保護計畫 (HCP) 六大核心要素</h2>
+                <p class="text-center text-slate-600 mb-10 max-w-3xl mx-auto">一個有效的聽力保護計畫 (HCP) 是一個系統性的管理循環，旨在辨識、評估並控制工作場所的噪音危害，保護勞工免於聽力損失。以下為其六大核心要素，環環相扣，缺一不可。</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-slate-50 p-6 rounded-lg text-center border-l-4 border-[#FFA600]">
+                        <div class="text-4xl mb-3">📋</div><h3 class="text-xl font-bold mb-2">1. 噪音暴露評估</h3><p>科學化地量測並評估勞工的實際噪音暴露量，以確認誰需要被納入計畫管理。</p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-lg text-center border-l-4 border-[#FF764A]">
+                        <div class="text-4xl mb-3">🛠️</div><h3 class="text-xl font-bold mb-2">2. 工程與行政管制</h3><p>從源頭改善噪音問題，例如使用低噪音設備或設置隔音屏障，並調整工作流程以減少暴露。</p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-lg text-center border-l-4 border-[#EF5675]">
+                        <div class="text-4xl mb-3">🎧</div><h3 class="text-xl font-bold mb-2">3. 聽力防護具</h3><p>當噪音無法有效降低時，提供並確保勞工正確佩戴合適的耳塞或耳罩。</p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-lg text-center border-l-4 border-[#BC5090]">
+                        <div class="text-4xl mb-3">🩺</div><h3 class="text-xl font-bold mb-2">4. 聽力檢查</h3><p>定期進行聽力測試，建立基準並追蹤變化，以監測計畫成效並及早發現聽損警訊。</p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-lg text-center border-l-4 border-[#7A5195]">
+                        <div class="text-4xl mb-3">🎓</div><h3 class="text-xl font-bold mb-2">5. 教育訓練</h3><p>教導勞工噪音危害、防護具使用及計畫內容，提升其自我保護意識與能力。</p>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-lg text-center border-l-4 border-[#374C80]">
+                        <div class="text-4xl mb-3">📊</div><h3 class="text-xl font-bold mb-2">6. 紀錄保存與評估</h3><p>完整記錄所有執行過程，並每年定期評估計畫成效，作為持續改善的依據。</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="controls-law" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                    <h2 class="text-3xl font-bold text-[#003F5C] text-center mb-8">三、噪音控制層級金字塔</h2>
+                    <p class="text-center text-slate-600 mb-6">解決噪音問題應遵循「控制層級」原則，優先從最有效的方法著手，而非僅僅依賴個人防護。</p>
+                    <div class="w-full max-w-sm mx-auto flex flex-col items-center space-y-1">
+                        <div style="width: 60%; background-color: #374C80;" class="pyramid-level h-28">工程控制<br><span class="text-sm font-normal">(源頭改善)</span></div>
+                        <div style="width: 80%; background-color: #7A5195;" class="pyramid-level h-28">行政管理控制<br><span class="text-sm font-normal">(改變工作方式)</span></div>
+                        <div style="width: 100%; background-color: #BC5090;" class="pyramid-level h-28">個人防護具<br><span class="text-sm font-normal">(最後防線)</span></div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                    <h2 class="text-3xl font-bold text-[#003F5C] text-center mb-8">四、台灣法規關鍵數值</h2>
+                     <p class="text-center text-slate-600 mb-6">《職業安全衛生設施規則》明確定義了雇主應採取的行動標準，了解這些數值是執行計畫的基礎。</p>
+                    <div class="chart-container h-80 md:h-[24.5rem]">
+                        <canvas id="lawChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+             <section id="sts-monitoring" class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-[#003F5C] text-center mb-8">五、成效監測 - 聽力閾值變化</h2>
+                <p class="text-center text-slate-600 mb-6 max-w-3xl mx-auto">聽力保護計畫的成功與否，可透過追蹤勞工聽力檢查結果來評估。若年度聽力圖與基準相比出現「顯著聽力閾值變異 (STS)」，即代表保護措施可能不足，需立即檢討並介入。</p>
+                <div class="chart-container h-80 md:h-96 max-w-3xl">
+                    <canvas id="stsChart"></canvas>
+                </div>
+            </section>
+
+        </main>
+        
+        <footer class="text-center mt-12 py-6 border-t border-slate-300">
+            <p class="text-slate-500">此資訊圖表內容係基於AIHA噪音手冊CH1及台灣相關法規指引進行彙整。</p>
+            <p class="text-slate-500 mt-2">prepared by Peter Ho. 114.08.31</p>
+        </footer>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            
+            const sharedTooltipTitleCallback = {
+                title: function(tooltipItems) {
+                    const item = tooltipItems[0];
+                    let label = item.chart.data.labels[item.dataIndex];
+                    if (Array.isArray(label)) {
+                        return label.join(' ');
+                    }
+                    return label;
+                }
+            };
+
+            const wrapLabel = (label) => {
+                const maxLength = 16;
+                if (label.length <= maxLength) return label;
+                
+                const words = label.split(' ');
+                const lines = [];
+                let currentLine = '';
+                
+                words.forEach(word => {
+                    if ((currentLine + ' ' + word).trim().length > maxLength) {
+                        lines.push(currentLine.trim());
+                        currentLine = word;
+                    } else {
+                        currentLine = (currentLine + ' ' + word).trim();
+                    }
+                });
+                lines.push(currentLine.trim());
+                return lines;
+            };
+
+            const audiogramCtx = document.getElementById('audiogramChart').getContext('2d');
+            new Chart(audiogramCtx, {
+                type: 'line',
+                data: {
+                    labels: ['250', '500', '1000', '2000', '3000', '4000', '6000', '8000'],
+                    datasets: [{
+                        label: '正常聽力',
+                        data: [-5, 0, 0, 5, 5, 0, -5, -10],
+                        borderColor: '#7A5195',
+                        backgroundColor: 'rgba(122, 81, 149, 0.1)',
+                        fill: false,
+                        tension: 0.1
+                    }, {
+                        label: '典型職業性聽損',
+                        data: [5, 5, 10, 15, 35, 45, 30, 20],
+                        borderColor: '#EF5675',
+                        backgroundColor: 'rgba(239, 86, 117, 0.1)',
+                        fill: false,
+                        tension: 0.1,
+                        borderDash: [5, 5]
+                    }]
+                },
+                options: {
+                    maintainAspectRatio: false,
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: '聽力圖 (Audiogram) 示例',
+                            font: { size: 16 }
+                        },
+                        tooltip: { callbacks: sharedTooltipTitleCallback }
+                    },
+                    scales: {
+                        y: {
+                            title: {
+                                display: true,
+                                text: '聽力閾值 (dB HL)'
+                            },
+                            reverse: true,
+                            min: -10,
+                            max: 100
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: '頻率 (Hz)'
+                            }
+                        }
+                    }
+                }
+            });
+
+            const lawCtx = document.getElementById('lawChart').getContext('2d');
+            new Chart(lawCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['行動水平 (AL)', '容許暴露標準 (PEL)'],
+                    datasets: [{
+                        label: '8小時日時量平均音壓級 (dBA)',
+                        data: [85, 90],
+                        backgroundColor: ['#FFA600', '#FF764A'],
+                        borderColor: ['#FFA600', '#FF764A'],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    maintainAspectRatio: false,
+                    responsive: true,
+                    indexAxis: 'y',
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: '噪音暴露標準',
+                            font: { size: 16 }
+                        },
+                        legend: {
+                            display: false
+                        },
+                        tooltip: { callbacks: sharedTooltipTitleCallback }
+                    },
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            max: 100,
+                             title: {
+                                display: true,
+                                text: '音壓級 (dBA)'
+                            }
+                        }
+                    }
+                }
+            });
+
+            const stsCtx = document.getElementById('stsChart').getContext('2d');
+            new Chart(stsCtx, {
+                type: 'line',
+                data: {
+                    labels: ['500', '1000', '2000', '3000', '4000', '6000'],
+                    datasets: [{
+                        label: '基準聽力圖',
+                        data: [10, 5, 10, 15, 20, 15],
+                        borderColor: '#003F5C',
+                        fill: false,
+                        tension: 0.1
+                    }, {
+                        label: '年度聽力圖 (出現STS)',
+                        data: [10, 10, 25, 30, 35, 20],
+                        borderColor: '#EF5675',
+                        backgroundColor: 'rgba(239, 86, 117, 0.1)',
+                        fill: true,
+                        tension: 0.1,
+                        borderDash: [5, 5]
+                    }]
+                },
+                options: {
+                    maintainAspectRatio: false,
+                    responsive: true,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: '基準與年度聽力圖比較',
+                            font: { size: 16 }
+                        },
+                         tooltip: { callbacks: sharedTooltipTitleCallback }
+                    },
+                    scales: {
+                        y: {
+                            title: {
+                                display: true,
+                                text: '聽力閾值 (dB HL)'
+                            },
+                            reverse: true,
+                             min: -10,
+                            max: 60
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: '頻率 (Hz)'
+                            }
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+

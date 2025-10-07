@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>呼吸防護具濾毒罐更換管理指引</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #F8F5F1;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .hierarchy-step {
+            position: relative;
+            border-left: 4px solid #01949A;
+            padding-left: 1.5rem;
+            margin-left: 1rem;
+        }
+        .hierarchy-step:not(:last-child) {
+            padding-bottom: 2.5rem;
+        }
+        .hierarchy-step::before {
+            content: attr(data-step);
+            position: absolute;
+            left: -1.2rem;
+            top: -0.2rem;
+            width: 2.25rem;
+            height: 2.25rem;
+            border-radius: 9999px;
+            background-color: #004369;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.125rem;
+        }
+    </style>
+</head>
+<body class="text-[#004369]">
+
+    <header class="bg-[#004369] text-white text-center py-12 px-4">
+        <h1 class="text-4xl md:text-5xl font-bold">呼吸防護具濾毒罐更換管理指引</h1>
+        <p class="mt-4 text-xl md:text-2xl text-gray-200">別再用「聞」的！科學化管理，守護您的呼吸安全</p>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+
+        <section id="danger" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-2">為何絕對不能依賴嗅覺？</h2>
+            <p class="text-center text-lg text-[#01949A] mb-8 max-w-3xl mx-auto">依賴嗅覺判斷濾毒罐壽命看似直觀，實則隱藏巨大風險，是導致職業暴露超標的常見原因。以下是四大關鍵陷阱：</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-5xl mb-4">👃</div>
+                    <h3 class="text-xl font-bold mb-2">嗅覺疲勞</h3>
+                    <p class="text-gray-600">長時間暴露下，嗅覺神經會麻痺，即使有害物持續滲漏也渾然不覺。</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-5xl mb-4">📈</div>
+                    <h3 class="text-xl font-bold mb-2">警示性差</h3>
+                    <p class="text-gray-600">許多物質的嗅覺閾值遠高於容許濃度，聞到味道時早已嚴重超標。</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-5xl mb-4">🧍‍♂️</div>
+                    <h3 class="text-xl font-bold mb-2">個體差異</h3>
+                    <p class="text-gray-600">每個人的嗅覺敏感度不同，且受健康、年齡等因素影響，標準不一。</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-5xl mb-4">🧪</div>
+                    <h3 class="text-xl font-bold mb-2">混合物干擾</h3>
+                    <p class="text-gray-600">強烈氣味可能掩蓋劇毒物質的氣味，造成錯誤的安全感。</p>
+                </div>
+            </div>
+             <div class="mt-8 bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-2xl font-bold text-center mb-4 text-[#DB1F48]">警示性差的致命陷阱：濃度比較</h3>
+                <p class="text-center text-gray-600 mb-6">下圖顯示部分化學物質的嗅覺閾值（聞到味道的濃度）遠高於法定容許暴露濃度(PEL)。這意味著在您能聞到它之前，暴露量早已對健康構成威脅。</p>
+                <div class="chart-container">
+                    <canvas id="warningPropertiesChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section id="assessment" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-8">如何評估使用壽命？（評估方法階層）</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="hierarchy-step" data-step="1">
+                    <h3 class="text-2xl font-bold text-[#004369]">壽命終止指示計 (ESLI)</h3>
+                    <p class="mt-2 text-gray-700">最理想、最直觀的方式。透過顏色變化等方式直接顯示濾毒罐效能。</p>
+                    <p class="mt-1 font-bold text-red-600">限制：技術與成本高，市面上產品極為稀少。</p>
+                </div>
+                <div class="hierarchy-step" data-step="2">
+                    <h3 class="text-2xl font-bold text-[#004369]">實驗室測試</h3>
+                    <p class="mt-2 text-gray-700">科學上的「黃金標準」，在模擬現場最嚴苛條件下，提供最準確的破出時間數據。</p>
+                    <p class="mt-1 font-bold text-red-600">限制：成本高昂且耗時，實務上難以執行。</p>
+                </div>
+                <div class="hierarchy-step" data-step="3">
+                    <h3 class="text-2xl font-bold text-[#004369]">製造商計算軟體</h3>
+                    <p class="mt-2 text-gray-700">實務上的**最佳首選**。輸入現場參數，軟體即可估算其產品的建議使用壽命。</p>
+                    <p class="mt-1 font-bold text-red-600">限制：結果僅適用該品牌產品，且資料庫可能不齊全。</p>
+                </div>
+                <div class="hierarchy-step" data-step="4">
+                    <h3 class="text-2xl font-bold text-[#004369]">數學模型推估</h3>
+                    <p class="mt-2 text-gray-700">製造商軟體的理論基礎，需專業知識，可透過NIOSH Multi-Vapor™軟體概算。</p>
+                    <p class="mt-1 font-bold text-red-600">限制：專業門檻高，關鍵參數不易取得。</p>
+                </div>
+                <div class="hierarchy-step" data-step="5">
+                    <h3 class="text-2xl font-bold text-[#004369]">經驗法則</h3>
+                    <p class="mt-2 text-gray-700">缺乏數據時的基礎概算工具，例如濃度減10倍，壽命約增5倍。</p>
+                    <p class="mt-1 font-bold text-red-600">限制：最不精確，僅供輔助判斷，絕不可作為唯一依據。</p>
+                </div>
+            </div>
+             <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-2xl font-bold text-center mb-4">關鍵影響因素：濕度</h3>
+                    <p class="text-center text-gray-600 mb-6">相對濕度是濾毒罐效能的殺手。水氣會與有害物競爭吸附位置，濕度越高，使用壽命越短。</p>
+                     <div class="chart-container h-64 sm:h-72">
+                        <canvas id="humidityImpactChart"></canvas>
+                    </div>
+                </div>
+                 <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-2xl font-bold text-center mb-4">關鍵影響因素：濃度</h3>
+                    <p class="text-center text-gray-600 mb-6">暴露濃度越高，濾毒罐飽和越快，使用壽命急遽縮短。兩者並非線性關係。</p>
+                     <div class="chart-container h-64 sm:h-72">
+                        <canvas id="concentrationImpactChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="application" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-8">建立更換計畫三步驟</h2>
+            <div class="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8">
+                <div class="bg-white rounded-lg shadow-lg p-6 w-full md:w-1/3 text-center">
+                    <div class="bg-[#004369] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-2xl font-bold">1</div>
+                    <h3 class="text-xl font-bold mb-2">前置作業：數據收集</h3>
+                    <p class="text-gray-600">系統性地收集危害物、暴露濃度 (取最高值)、環境溫濕度、工作強度及使用時間等關鍵資訊。</p>
+                </div>
+                 <div class="text-4xl font-bold text-[#01949A] hidden md:block">→</div>
+                <div class="bg-white rounded-lg shadow-lg p-6 w-full md:w-1/3 text-center">
+                    <div class="bg-[#004369] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-2xl font-bold">2</div>
+                    <h3 class="text-xl font-bold mb-2">推估壽命：科學計算</h3>
+                    <p class="text-gray-600">優先使用製造商軟體，並堅持採用「最劣勢條件」(Worst-Case) 進行計算，以確保安全。</p>
+                </div>
+                 <div class="text-4xl font-bold text-[#01949A] hidden md:block">→</div>
+                <div class="bg-white rounded-lg shadow-lg p-6 w-full md:w-1/3 text-center">
+                    <div class="bg-[#004369] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-2xl font-bold">3</div>
+                    <h3 class="text-xl font-bold mb-2">執行管理：落實計畫</h3>
+                    <p class="text-gray-600">制定明確更換週期、加入安全係數、在罐體上標示日期、確實記錄並對使用者進行教育訓練。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="special-cases" class="mb-16 bg-[#DB1F48] text-white rounded-lg shadow-lg p-8">
+            <h2 class="text-3xl font-bold text-center mb-8">⚠️ 高風險！特殊情況必須留意</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white/20 backdrop-blur-sm rounded-lg p-6">
+                    <h3 class="text-xl font-bold mb-2">低沸點化合物 (< 65°C)</h3>
+                    <p>如甲醇、丙酮等，吸附力極弱、易脫附。對應的AX型濾毒罐**僅限單次、單一班別內使用**，不可重複使用。</p>
+                </div>
+                <div class="bg-white/20 backdrop-blur-sm rounded-lg p-6">
+                    <h3 class="text-xl font-bold mb-2">間歇性與重複使用</h3>
+                    <p>已吸附物質會在儲存期間遷移，導致下次使用時「立即破出」。應盡量避免，或建立嚴格的「開封後使用時限」。</p>
+                </div>
+                <div class="bg-white/20 backdrop-blur-sm rounded-lg p-6">
+                    <h3 class="text-xl font-bold mb-2">特定管制化學品</h3>
+                    <p>如苯、甲醛等高危害物質，其更換頻率有專門法規。**必須優先遵循法規**，而非通用計算軟體。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="storage" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-8">如何正確保存濾毒罐？</h2>
+            <div class="max-w-3xl mx-auto bg-white rounded-lg shadow-lg p-8">
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <span class="text-2xl text-[#01949A] mr-4">✔️</span>
+                        <div><strong class="font-bold">保持絕對密封：</strong>未使用前不拆封，已開封者放入密封袋或密封罐中。</div>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-2xl text-[#01949A] mr-4">✔️</span>
+                        <div><strong class="font-bold">遠離任何污染源：</strong>儲存於乾淨、無化學品逸散的環境，絕不可放置於作業區。</div>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-2xl text-[#01949A] mr-4">✔️</span>
+                        <div><strong class="font-bold">控制溫濕度：</strong>存放於陰涼、乾燥處，避免陽光直射及高溫高濕。</div>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-2xl text-[#01949A] mr-4">✔️</span>
+                        <div><strong class="font-bold">避免物理損傷：</strong>避免擠壓、摔落，以免破壞結構產生「穿隧效應」。</div>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-2xl text-[#01949A] mr-4">✔️</span>
+                        <div><strong class="font-bold">嚴格遵循有效期限：</strong>過期品不得使用，即使包裝完好。</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-[#004369] text-white text-center py-8 px-4 mt-8">
+        <p class="text-lg">科學化的濾毒罐更換管理，是保護勞工呼吸健康的關鍵防線。</p>
+        <p class="text-lg">Prepared by Peter Ho.(OHS specialist), River Ho.(MSA 產品經理) 2025-10-07</p>
+        <p class="mt-2 text-gray-300">本指引內容僅供參考，實際應用請遵循貴單位之呼吸防護計畫與相關法規。</p>
+    </footer>
+    <script>
+        const palette = {
+            darkBlue: '#004369',
+            teal: '#01949A',
+            redAccent: '#DB1F48',
+            lightBeige: '#E5DDC8',
+            offWhite: '#F8F5F1'
+        };
+
+        const processLabels = (labels) => {
+            const maxLen = 16;
+            return labels.map(label => {
+                if (typeof label === 'string' && label.length > maxLen) {
+                    const words = label.split(' ');
+                    const lines = [];
+                    let currentLine = '';
+                    words.forEach(word => {
+                        if ((currentLine + ' ' + word).trim().length > maxLen) {
+                            lines.push(currentLine.trim());
+                            currentLine = word;
+                        } else {
+                            currentLine = (currentLine + ' ' + word).trim();
+                        }
+                    });
+                    if (currentLine) {
+                        lines.push(currentLine.trim());
+                    }
+                    return lines;
+                }
+                return label;
+            });
+        };
+
+        const tooltipTitleCallback = function(tooltipItems) {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+              return label.join(' ');
+            } else {
+              return label;
+            }
+        };
+
+        const defaultChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    labels: {
+                        color: palette.darkBlue,
+                        font: { size: 14, family: "'Noto Sans TC', sans-serif" }
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        title: tooltipTitleCallback
+                    },
+                    bodyFont: { family: "'Noto Sans TC', sans-serif" },
+                    titleFont: { family: "'Noto Sans TC', sans-serif" }
+                }
+            },
+            scales: {
+                x: {
+                    ticks: { color: palette.darkBlue, font: { family: "'Noto Sans TC', sans-serif" } },
+                    grid: { color: 'rgba(0, 67, 105, 0.1)' }
+                },
+                y: {
+                    ticks: { color: palette.darkBlue, font: { family: "'Noto Sans TC', sans-serif" } },
+                    grid: { color: 'rgba(0, 67, 105, 0.1)' }
+                }
+            }
+        };
+
+        const warningCtx = document.getElementById('warningPropertiesChart').getContext('2d');
+        new Chart(warningCtx, {
+            type: 'bar',
+            data: {
+                labels: processLabels(['苯 (Benzene)', '聯胺 (Hydrazine)', '甲苯 (Toluene)']),
+                datasets: [{
+                    label: '法定容許暴露濃度 (PEL)',
+                    data: [1, 0.01, 100],
+                    backgroundColor: palette.teal,
+                    borderColor: palette.teal,
+                    borderWidth: 1
+                }, {
+                    label: '嗅覺閾值 (Odor Threshold)',
+                    data: [4.68, 3.5, 2.14],
+                    backgroundColor: palette.redAccent,
+                    borderColor: palette.redAccent,
+                    borderWidth: 1
+                }]
+            },
+            options: { ...defaultChartOptions,
+                scales: {
+                    y: {
+                        type: 'logarithmic',
+                        title: {
+                            display: true,
+                            text: '濃度 (ppm, 對數標尺)',
+                            color: palette.darkBlue,
+                            font: { size: 14, family: "'Noto Sans TC', sans-serif" }
+                        },
+                        ticks: { color: palette.darkBlue, font: { family: "'Noto Sans TC', sans-serif" } },
+                        grid: { color: 'rgba(0, 67, 105, 0.1)' }
+                    },
+                    x: {
+                        ticks: { color: palette.darkBlue, font: { family: "'Noto Sans TC', sans-serif" } },
+                        grid: { color: 'rgba(0, 67, 105, 0.1)' }
+                    }
+                }
+            }
+        });
+        
+        const humidityCtx = document.getElementById('humidityImpactChart').getContext('2d');
+        new Chart(humidityCtx, {
+            type: 'line',
+            data: {
+                labels: ['20%', '40%', '60%', '80%', '90%'],
+                datasets: [{
+                    label: '預估使用壽命百分比',
+                    data: [100, 95, 80, 50, 35],
+                    fill: true,
+                    borderColor: palette.darkBlue,
+                    backgroundColor: 'rgba(0, 67, 105, 0.2)',
+                    tension: 0.1
+                }]
+            },
+            options: { ...defaultChartOptions,
+                scales: {
+                     x: {
+                        title: { display: true, text: '相對濕度 (%)', color: palette.darkBlue, font: { family: "'Noto Sans TC', sans-serif" } },
+                        ticks: { color: palette.darkBlue, font: { family: "'Noto Sans TC', sans-serif" } },
+                        grid: { color: 'rgba(0, 67, 105, 0.1)' }
+                    },
+                    y: {
+                        beginAtZero: true,
+                        max: 110,
+                        title: { display: true, text: '壽命 (%)', color: palette.darkBlue, font: { family: "'Noto Sans TC', sans-serif" } },
+                        ticks: { color: palette.darkBlue, font: { family: "'Noto Sans TC', sans-serif" } },
+                        grid: { color: 'rgba(0, 67, 105, 0.1)' }
+                    }
+                }
+            }
+        });
+
+        const concentrationCtx = document.getElementById('concentrationImpactChart').getContext('2d');
+        new Chart(concentrationCtx, {
+            type: 'bar',
+            data: {
+                labels: ['1x 濃度', '2x 濃度', '5x 濃度', '10x 濃度'],
+                datasets: [{
+                    label: '預估使用壽命 (小時)',
+                    data: [8, 3.5, 1.5, 0.8],
+                    backgroundColor: [
+                        'rgba(1, 148, 154, 0.6)',
+                        'rgba(1, 148, 154, 0.7)',
+                        'rgba(1, 148, 154, 0.8)',
+                        'rgba(1, 148, 154, 1.0)'
+                    ],
+                    borderColor: palette.teal,
+                    borderWidth: 1
+                }]
+            },
+            options: { ...defaultChartOptions,
+                 scales: {
+                     x: {
+                        title: { display: true, text: '相對暴露濃度', color: palette.darkBlue, font: { family: "'Noto Sans TC', sans-serif" } },
+                        ticks: { color: palette.darkBlue, font: { family: "'Noto Sans TC', sans-serif" } },
+                        grid: { color: 'rgba(0, 67, 105, 0.1)' }
+                    },
+                    y: {
+                        beginAtZero: true,
+                        title: { display: true, text: '壽命 (小時)', color: palette.darkBlue, font: { family: "'Noto Sans TC', sans-serif" } },
+                        ticks: { color: palette.darkBlue, font: { family: "'Noto Sans TC', sans-serif" } },
+                        grid: { color: 'rgba(0, 67, 105, 0.1)' }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

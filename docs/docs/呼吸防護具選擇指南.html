@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<style type="text/css">
+.inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.sng {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.def {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>呼吸防護具選擇指南：基於風險評估</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #F0F4F8;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .step-arrow {
+            color: #BFD7EA;
+            font-size: 4rem;
+            line-height: 1;
+            text-align: center;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body class="bg-[#F0F4F8] text-[#0B3954]">
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-[#0B3954] mb-4">呼吸防護具選擇的智慧決策</h1>
+            <p class="text-lg md:text-xl text-[#087E8B]">基於風險評估的五步驟科學指南</p>
+            <div class="mt-4 text-sm bg-[#BFD7EA] text-[#0B3954] inline-block px-4 py-2 rounded-full">
+                提醒：呼吸防護具是控制危害的最後一道防線
+            </div>
+        </header>
+        
+        <main>
+            <section id="step1" class="mb-16">
+                <div class="bg-white rounded-xl shadow-lg p-6 md:p-8">
+                    <h2 class="text-3xl font-bold mb-2 text-[#087E8B]"><span class="text-5xl font-black text-[#FF5A5F] mr-2">1</span>第一步：危害辨識與暴露評估</h2>
+                    <p class="mb-6 text-gray-600">選擇正確的防護具，始於深入了解您所面對的敵人。此步驟是整個評估的基石，必須鉅細靡遺。</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <div class="bg-[#F0F4F8] p-5 rounded-lg">
+                            <h3 class="font-bold text-lg mb-2">危害物種類 <span class="text-2xl ml-2">🧪</span></h3>
+                            <p class="text-sm">精確指認空氣中的有害物，如甲苯、二氧化矽粉塵等。查閱化學品安全資料表 (SDS) 是關鍵。</p>
+                        </div>
+                        <div class="bg-[#F0F4F8] p-5 rounded-lg">
+                            <h3 class="font-bold text-lg mb-2">物理型態 <span class="text-2xl ml-2">💨</span></h3>
+                            <p class="text-sm">是固體/液體微粒（粉塵、燻煙、霧滴）還是氣體/蒸氣？這決定了過濾元件的選擇。</p>
+                        </div>
+                        <div class="bg-[#F0F4F8] p-5 rounded-lg">
+                            <h3 class="font-bold text-lg mb-2">暴露濃度 <span class="text-2xl ml-2">📈</span></h3>
+                            <p class="text-sm">透過作業環境監測，取得勞工實際暴露濃度。這是計算防護等級的核心數據。</p>
+                        </div>
+                        <div class="bg-[#F0F4F8] p-5 rounded-lg bg-[#FF5A5F] text-white">
+                            <h3 class="font-bold text-lg mb-2">特殊狀況 <span class="text-2xl ml-2">⚠️</span></h3>
+                            <p class="text-sm">確認是否為缺氧環境 (O₂ < 19.5%) 或立即致危濃度 (IDLH)，此時必須使用供氣式防護具。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="step-arrow">▼</div>
+
+            <section id="step2" class="mb-16">
+                <div class="bg-white rounded-xl shadow-lg p-6 md:p-8">
+                    <h2 class="text-3xl font-bold mb-2 text-[#087E8B]"><span class="text-5xl font-black text-[#FF5A5F] mr-2">2</span>第二步：決定所需防護等級</h2>
+                    <p class="mb-6 text-gray-600">了解危害強度後，需計算要將其降低多少倍才能達到安全標準，這就是「危害比」的概念。</p>
+                    <div class="text-center bg-[#F0F4F8] p-6 rounded-lg mb-8">
+                        <p class="text-lg">計算公式：</p>
+                        <p class="text-2xl font-bold my-2">
+                            <span class="text-[#0B3954]">危害比 (HR)</span> = 
+                            <span class="text-[#087E8B]">作業環境中有害物濃度</span> / 
+                            <span class="text-[#C81D25]">該物質的容許暴露濃度 (PEL)</span>
+                        </p>
+                        <p class="mt-4 text-xl font-bold bg-[#FF5A5F] text-white py-2 px-4 rounded-lg inline-block">選擇原則：指定防護係數 (APF) ≥ 危害比 (HR)</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="text-xl font-bold text-center mb-2">案例 1：有機溶劑作業</h3>
+                            <p class="text-center text-sm mb-4 text-gray-500">甲苯濃度 150 ppm (PEL: 50 ppm)，危害比為 3。需選擇 APF ≥ 3 的防護具。</p>
+                            <div class="chart-container h-64">
+                                <canvas id="hrChart1"></canvas>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-center mb-2">案例 2：人造石切割</h3>
+                            <p class="text-center text-sm mb-4 text-gray-500">二氧化矽濃度 1 mg/m³ (PEL: 0.05 mg/m³)，危害比為 20。需選擇 APF ≥ 20 的防護具。</p>
+                            <div class="chart-container h-64">
+                                <canvas id="hrChart2"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="step-arrow">▼</div>
+
+            <section id="step3" class="mb-16">
+                <div class="bg-white rounded-xl shadow-lg p-6 md:p-8">
+                    <h2 class="text-3xl font-bold mb-2 text-[#087E8B]"><span class="text-5xl font-black text-[#FF5A5F] mr-2">3</span>第三步：選擇足夠防護的防護具類型</h2>
+                    <p class="mb-6 text-gray-600">根據計算出的 APF 值與危害物型態，從眾多防護具中，篩選出符合防護需求的類型。</p>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="text-xl font-bold mb-4">依 APF 值選擇面體類型</h3>
+                            <div class="chart-container h-96 md:h-[500px]">
+                                <canvas id="apfChart"></canvas>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-4">依危害物型態選擇過濾元件</h3>
+                            <div class="space-y-4">
+                                <div class="p-4 rounded-lg border-2 border-gray-300">
+                                    <h4 class="font-bold">僅粒狀物 (粉塵/燻煙/霧滴)</h4>
+                                    <p class="text-sm">選擇防塵濾材。如 NIOSH N95, R99, P100 等級。</p>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold mb-2">僅氣狀物 (氣體/蒸氣)</h4>
+                                    <div class="grid grid-cols-2 gap-3 text-center text-white text-sm">
+                                        <div class="p-3 rounded bg-black">有機氣體/蒸氣</div>
+                                        <div class="p-3 rounded bg-yellow-400">酸性氣體</div>
+                                        <div class="p-3 rounded bg-green-500">氨氣</div>
+                                        <div class="p-3 rounded bg-gray-500">無機氣體</div>
+                                    </div>
+                                </div>
+                                <div class="p-4 rounded-lg border-2 border-red-400 bg-red-50">
+                                     <h4 class="font-bold text-red-700">混合型態 (粒狀物 + 氣狀物)</h4>
+                                     <p class="text-sm text-red-600">選擇「綜合型」濾毒罐，或在濾毒罐外加裝「預濾棉」。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="step-arrow">▼</div>
+
+            <section id="step4" class="mb-16">
+                <div class="bg-white rounded-xl shadow-lg p-6 md:p-8">
+                    <h2 class="text-3xl font-bold mb-2 text-[#087E8B]"><span class="text-5xl font-black text-[#FF5A5F] mr-2">4</span>第四步：考量適用性因素</h2>
+                    <p class="mb-6 text-gray-600">防護具光是「防護等級足夠」還不夠，還必須「適用」。一個勞工不願意或無法正確配戴的防護具，其防護效果等於零。</p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="border-t-4 border-[#087E8B] bg-gray-50 p-5 rounded-b-lg">
+                            <h3 class="text-2xl font-bold mb-3 text-center">👤 使用者因素</h3>
+                            <ul class="list-disc list-inside space-y-2 text-sm">
+                                <li><span class="font-bold">密合度：</span>臉型、鬍鬚、疤痕都會影響密合。</li>
+                                <li><span class="font-bold">生理狀況：</span>心肺功能、幽閉恐懼症等需評估。</li>
+                                <li><span class="font-bold">個人需求：</span>是否需配戴眼鏡或頻繁溝通。</li>
+                            </ul>
+                        </div>
+                        <div class="border-t-4 border-[#087E8B] bg-gray-50 p-5 rounded-b-lg">
+                            <h3 class="text-2xl font-bold mb-3 text-center">🛠️ 任務因素</h3>
+                             <ul class="list-disc list-inside space-y-2 text-sm">
+                                <li><span class="font-bold">工作強度：</span>高強度工作應考慮 PAPR 或供氣式。</li>
+                                <li><span class="font-bold">持續時間：</span>長時間配戴需考量舒適性。</li>
+                                <li><span class="font-bold">視野需求：</span>確保面鏡視野清晰且寬廣。</li>
+                            </ul>
+                        </div>
+                        <div class="border-t-4 border-[#087E8B] bg-gray-50 p-5 rounded-b-lg">
+                           <h3 class="text-2xl font-bold mb-3 text-center">🌍 環境因素</h3>
+                           <ul class="list-disc list-inside space-y-2 text-sm">
+                                <li><span class="font-bold">高溫高濕：</span>影響舒適度與濾毒罐壽命。</li>
+                                <li><span class="font-bold">活動範圍：</span>供氣式管線可能受限，PAPR 機動性高。</li>
+                                <li><span class="font-bold">與其他 PPE 衝突：</span>需與安全帽、護目鏡等整合測試。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="step-arrow">▼</div>
+
+            <section id="step5" class="mb-16">
+                 <div class="bg-white rounded-xl shadow-lg p-6 md:p-8">
+                    <h2 class="text-3xl font-bold mb-2 text-[#087E8B]"><span class="text-5xl font-black text-[#FF5A5F] mr-2">5</span>第五步：執行密合度測試 (Fit Testing)</h2>
+                    <p class="mb-6 text-gray-600">這是確保緊密式防護具有效的最終驗證，也是法規的強制要求。每年、首次使用、更換型號或臉型變化時都必須執行。</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
+                           <h3 class="font-bold text-xl mb-2">定性密合度測試 (QLFT)</h3>
+                           <p class="text-sm mb-3">透過甜味/苦味測試劑，由使用者主觀判斷是否聞到味道。適用於 APF ≤ 10 的半面體防護具。</p>
+                           <span class="text-3xl">👍 / 👎</span>
+                        </div>
+                         <div class="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg">
+                           <h3 class="font-bold text-xl mb-2">定量密合度測試 (QNFT)</h3>
+                           <p class="text-sm mb-3">利用儀器測量面體內外微粒濃度比值，得出客觀的密合係數。適用於所有緊密式防護具，為黃金標準。</p>
+                           <span class="text-3xl font-mono">FF > 100</span>
+                        </div>
+                    </div>
+                    <div class="mt-8 bg-[#FF5A5F] text-white p-4 rounded-lg text-center">
+                       <h4 class="font-bold">使用者密合檢點 (User Seal Check)</h4>
+                       <p class="text-sm">這不是密合度測試！是使用者「每次」配戴時都必須做的簡易檢查（正壓與負壓檢點）。</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="text-center border-t-2 border-[#BFD7EA] pt-8 mt-12">
+            <h3 class="text-2xl font-bold mb-4">重要注意事項</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+                <div class="p-3 bg-white rounded-lg shadow">
+                    <p class="font-bold">🎯 最後防線</p>
+                    <p>永遠優先考慮工程控制。</p>
+                </div>
+                 <div class="p-3 bg-white rounded-lg shadow">
+                    <p class="font-bold">🎓 教育訓練</p>
+                    <p>成功的關鍵，確保使用者知能合一。</p>
+                </div>
+                 <div class="p-3 bg-white rounded-lg shadow">
+                    <p class="font-bold">🔧 維護與儲存</p>
+                    <p>定期檢查、清潔，並妥善存放。</p>
+                </div>
+                 <div class="p-3 bg-white rounded-lg shadow">
+                    <p class="font-bold">📅 濾罐更換計畫</p>
+                    <p>法定義務，絕不可憑感覺更換。</p>
+                </div>
+            </div>
+            <p class="text-sl text-gray-400 mt-8">此資訊圖表根據「呼吸防護具選擇指南：基於暴露風險評估」文件製作。</p>
+            <p class="text-2xl text-gray-400 mt-2">Prepared by Peter Ho.(OHS specialist), River Ho.(MSA 產品經理) 2025-10-07</p>
+        </footer>
+
+    </div>
+
+    <script>
+        const tooltipCallback = {
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            const item = tooltipItems[0];
+                            let label = item.chart.data.labels[item.dataIndex];
+                            if (Array.isArray(label)) {
+                              return label.join(' ');
+                            } else {
+                              return label;
+                            }
+                        }
+                    }
+                }
+            }
+        };
+
+        const commonBarOptions = {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                x: {
+                    beginAtZero: true,
+                    grid: {
+                        color: '#E0E0E0'
+                    }
+                },
+                y: {
+                     grid: {
+                        display: false
+                    }
+                }
+            },
+            ...tooltipCallback
+        };
+
+        new Chart(document.getElementById('hrChart1'), {
+            type: 'bar',
+            data: {
+                labels: ['實際濃度', '容許濃度 (PEL)'],
+                datasets: [{
+                    label: '甲苯濃度 (ppm)',
+                    data: [150, 50],
+                    backgroundColor: ['#FF5A5F', '#087E8B'],
+                    borderColor: ['#C81D25', '#0B3954'],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                ...commonBarOptions,
+                 plugins: { ...commonBarOptions.plugins, legend: { display: false } }
+            }
+        });
+
+        new Chart(document.getElementById('hrChart2'), {
+            type: 'bar',
+            data: {
+                labels: ['實際濃度', '容許濃度 (PEL)'],
+                datasets: [{
+                    label: '二氧化矽濃度 (mg/m³)',
+                    data: [1, 0.05],
+                    backgroundColor: ['#FF5A5F', '#087E8B'],
+                    borderColor: ['#C81D25', '#0B3954'],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                ...commonBarOptions,
+                plugins: { ...commonBarOptions.plugins, legend: { display: false } }
+            }
+        });
+        
+        const apfLabels = [
+            ['自給式呼吸器(SCBA)', '壓力需求型全面體'],
+            ['供氣式(SAR)搭配', '全面體或特定頭罩'],
+            ['動力過濾式(PAPR)搭配', '全面體或特定頭罩'],
+            '供氣式(SAR)搭配半面體',
+            '動力過濾式(PAPR)搭配半面體',
+            '緊密貼合式全面體',
+            ['動力過濾式(PAPR)搭配', '頭罩或安全帽'],
+            '緊密貼合式半面體'
+        ];
+
+        new Chart(document.getElementById('apfChart'), {
+            type: 'bar',
+            data: {
+                labels: apfLabels,
+                datasets: [{
+                    label: '指定防護係數 (APF)',
+                    data: [10000, 1000, 1000, 50, 50, 50, 25, 10],
+                    backgroundColor: '#087E8B',
+                    borderColor: '#0B3954',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                ...commonBarOptions,
+                scales: {
+                     x: {
+                        type: 'logarithmic',
+                        beginAtZero: false,
+                        ticks: {
+                           callback: function(value, index, values) {
+                                if (value === 10000 || value === 1000 || value === 100 || value === 10) {
+                                    return value;
+                                }
+                           }
+                        },
+                        grid: { color: '#E0E0E0' }
+                    },
+                    y: { 
+                        grid: { display: false },
+                        ticks: { autoSkip: false } 
+                    }
+                },
+                plugins: { ...commonBarOptions.plugins, legend: { display: false } }
+            }
+        });
+
+    </script>
+</body>
+</html>
+

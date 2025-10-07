@@ -26,4 +26,6 @@ title: "MSA"
 
 {{< video https://www.youtube.com/watch?v=zXLNaAGEOOY width="600" height="400">}}
 
-# **A. [呼吸防護具濾毒罐更換管理指引](docs/呼吸防護具濾毒罐更換管理指引.html)**
+## **A.** [呼吸防護具選擇指南：基於風險評估](docs\呼吸防護具選擇指南.html)
+
+## B. [**呼吸防護具濾毒罐更換管理指引**](docs/呼吸防護具濾毒罐更換管理指引.html)

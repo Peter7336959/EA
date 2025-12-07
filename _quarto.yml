@@ -35,7 +35,7 @@ website:
       - href: EA.qmd
         text: HPD與噪音暴露風險
       - href: others.qmd
-        text: 其他
+        text: 其他(安全議題)
 
     search: true
     background: darkgreen

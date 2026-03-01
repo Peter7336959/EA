@@ -1,0 +1,89 @@
+---
+title: "Occupational Exposure Assessment"
+bibliography: references.bib
+---
+
+> 本識做網站主要係分享職業衛生概念與知識為主，職業安全議題可另尋其他資源或參考其他的網頁 \|
+
+::: {.callout-important title="參考書籍" style="color"}
+**主要內容係來自2023 AIHA 新書各章**[@acase-b2023]
+:::
+
+## I.目前初步完成推估模式介紹：(化學品暴露)
+
+<details>
+
+:::::: columns
+::: {.column width="45%"}
+### 1. Why modeling
+
+### 2. Gathering information
+
+### 3. Volatile liquid spill
+
+### 4. Sanding
+
+### 5. Container uncovered
+
+### 6. Barrel filling
+
+### 7. Historic exposure
+
+### 8. Presurized gas release
+
+### 9. Flavoring Process
+
+### 10. Cleaning Process
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+### 11. Model parameters
+
+### 12. Monte Carlo modeling
+
+### 13. Mixture modeling
+
+### 14. Oxygen Deficiency
+
+### 15. Autoshop solvents
+
+### 17 Reconstruction of spill
+
+### 18 Modeling limitation
+
+### 19 Feeding model
+:::
+::::::
+
+</details>
+
+## II.規劃展開推估模式介紹：(噪音與高氣溫)
+
+### 1. Noise EA
+
+### 2. Heat EA
+
+::: border
+## 職業衛生領域
+
+```{mermaid}
+flowchart LR
+  A[健康危害預期] --> B(辨識)
+  B ==> C{評估}
+  C --> D[控制] 
+  C --> E[確認] 
+
+```
+:::
+
+::: border
+## modeling 軟體 (IH MOD )教學影片
+
+{{< video <https://www.youtube.com/watch?v=cSIlqi8hk4E width="500" height="300">}}
+:::
+
+### References {.unnumbered}

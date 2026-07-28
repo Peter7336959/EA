@@ -3165,5 +3165,250 @@
     "title": "OSHA4480 鋰離子電池危害評估與控制",
     "section": "",
     "text": "美國OSHA官方資料 (Factsheet)\n主題： 【工作場所鋰離子電池之危害分析與風險控制實務】\n\n著重全生命週期管理： 從化學危害、熱失控防護到 NFPA 855 儲能安全標準的整合應用\n著重工程與管理控制： 探討源頭安全設計（Safety by Design）與緊急應變建構\n法規與標準： 跨越 OSHA 規範與國際產業標準的安全與健康管理系統（SHMS）\n\n\n\n\nOSHA4480\n\n\n\n「危害分析」\n鋰電池生命週期（包含製造、安裝、儲能與回收）的潛在風險包含了化學毒理學領域（如電解液遇水反應生成劇毒氟化氫）、物理與熱力學領域（因內部短路或極端溫度引發的熱失控連鎖反應），以及電氣危害。提醒職安衛人員必須擴大視角，從跨學科的角度來進行風險評估。\n\n\n「系統化風險控制」\n現代職業衛生管理強調主動性與系統性，這文件提倡防護措施必須依循「危害控制層級（Hierarchy of Controls）」來建構。對雇主而言，不僅仰賴末端的個人防護裝備（PPE），更必須從最上游的「源頭安全設計（Safety by Design）」（如主動替換危害較低的技術）著手，並結合工程控制（如局部排氣通風、自動化隔離）以及成熟的安全與健康管理系統（SHMS），建構全面性防護網策略。\n\n\n「實務」與標準整合\n這份 OSHA 資訊為缺乏單一職安衛專屬標準的鋰電池領域提供一套整合性的實務指引。不僅指出雇主需遵守《職業安全與健康法》的一般責任條款，更廣泛引介了 NFPA 855（固定式儲能系統安裝標準）、IEC、UL 以及 ISO 45001 等國際共識標準作為輔助。對於工程人員與職安衛人員在編寫緊急應變計畫（EAP）、規劃勞工 危害通識教育訓練的實際執行需求。\nOSHA資料網址：Lithium-ion Battery Safety OSHA4480\n消防與PPE可諮詢MSA專業公司代表\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "EAD.html#course-outline",
+    "href": "EAD.html#course-outline",
+    "title": "Exposure Risk Decisions",
+    "section": "Course Outline",
+    "text": "Course Outline\n\n1A: Exposure Variability and the Importance of Using Statistics to Improve Judgements 暴露變異性與使用統計學改善判斷的重要性\n1B: Rules of Thumb for Interpreting Exposure Monitoring Data 解釋暴露監測數據的經驗法則\n2: Introduction to Bayesian Statistical Approaches and Their Advantages 貝氏統計方法介紹及其優勢\n3A: Free Bayesian Statistical Tools: IHDA Student Edition 免費的貝氏統計工具示範：IHDA 學生\n3B: Free Bayesian Statistical Tools: Expostats 免費的貝氏統計工具示範：Expostats\n3C: Introduction to IHSTAT_Bayes™ IHSTAT_Bayes™ 軟體簡介\n4: Implementing AIHA Strategy Using Statistical Tools: Examples 使用統計工具實施 AIHA 策略之範例\nMaking Accurate Exposure Risk Decisions Practice Questions 做出準確暴露風險決策練習"
+  },
+  {
+    "objectID": "EAD.html#a-exposure-variability-and-the-importance-of-using-statistics-to-improve-judgements",
+    "href": "EAD.html#a-exposure-variability-and-the-importance-of-using-statistics-to-improve-judgements",
+    "title": "Exposure Risk Decisions",
+    "section": "1A: Exposure Variability and the Importance of Using Statistics to Improve Judgements",
+    "text": "1A: Exposure Variability and the Importance of Using Statistics to Improve Judgements"
+  },
+  {
+    "objectID": "EAD.html#a-暴露變異性與使用統計學改善判斷的重要性",
+    "href": "EAD.html#a-暴露變異性與使用統計學改善判斷的重要性",
+    "title": "Exposure Risk Decisions",
+    "section": "1A: 暴露變異性與使用統計學改善判斷的重要性",
+    "text": "1A: 暴露變異性與使用統計學改善判斷的重要性\nExposure Variability and the Importance of Using Statistics to Improve Judgements _ John R. Mulhausen 博士主講"
+  },
+  {
+    "objectID": "EAD.html#為什麼需要統計學-why-important",
+    "href": "EAD.html#為什麼需要統計學-why-important",
+    "title": "Exposure Risk Decisions",
+    "section": "1. 為什麼需要統計學？ (Why Important?)",
+    "text": "1. 為什麼需要統計學？ (Why Important?)\n\n兼顧有效性與效率：良好的暴露風險管理必須是「有效性的」（確保沒有勞工暴露於不可接受的風險中），同時也是「有效率的」（以最低成本達成）。\n判斷錯誤的代價：如果低估暴露，會增加員工的健康風險；如果高估，則會導致不必要的控制設備支出與生產限制。\n人為判斷的侷限：研究顯示，當僅憑少量的監測數據進行直覺判斷時，結果往往是不準確的，且通常帶有「低估風險」的偏誤。然而，只要提供簡單的統計學訓練，就能大幅提升判斷的準確性並消除偏誤。"
+  },
+  {
+    "objectID": "EAD.html#成功的暴露風險策略-exposure-risk-strategy",
+    "href": "EAD.html#成功的暴露風險策略-exposure-risk-strategy",
+    "title": "Exposure Risk Decisions",
+    "section": "成功的暴露風險策略 (Exposure Risk Strategy) ？",
+    "text": "成功的暴露風險策略 (Exposure Risk Strategy) ？\n\n建立在能夠做出準確的暴露風險決策的基礎上。良好的策略必須兼顧「有效性 (Effective)」（確保沒有勞工面臨不可接受的暴露風險）與「效率 (Efficient)」（以最低成本達成保護目標）。\n\n\n\n\n\n\n\nCaution\n\n\nQ：低估或高估暴露會怎樣？ Who should care?\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n克服人為判斷偏誤與暴露變異性 勞工每天的暴露濃度具有高度的變異性。在實務上，我們通常只能採樣到極少數的工作日（例如在每年 250 個工作天中僅採樣 5 天，只看見 2% 的真實暴露情況），這使得掌握整體暴露特徵變得非常困難。研究顯示，如果僅依賴直覺來解釋這些少量的監測數據，專業人員的判斷往往是不準確的，且通常帶有「低估風險」的偏誤。然而，只要提供簡單的統計學訓練，就能大幅提升判斷的準確度並消除這些偏誤。"
+  },
+  {
+    "objectID": "EAD.html#決策統計值-decision-statistic-與-aiha-暴露類別",
+    "href": "EAD.html#決策統計值-decision-statistic-與-aiha-暴露類別",
+    "title": "Exposure Risk Decisions",
+    "section": "2. 決策統計值 (Decision Statistic) 與 AIHA 暴露類別",
+    "text": "2. 決策統計值 (Decision Statistic) 與 AIHA 暴露類別\n\n決策目標的設定：在進行評估前，必須先定義可接受暴露的客觀標準。業界共識的決策目標為：「致力於達到至少 95% 的信心水準，確信真實的第 95 百分位數 (95th percentile) 暴露量小於職業暴露容許標準 (OEL)」。這意味著在 100 天的工作日中，目標是讓超過 OEL 的天數不超過 5 天。\nAIHA 暴露控制類別 (Exposure Rating Categories)：將暴露水準分為 0 到 4 級（例如：Category 4 代表暴露大於 100% OEL），並為不同類別提供標準化的建議控制措施（如：實施危害通識、定期監測、醫療監測或使用呼吸防護具）。這有助於避免過度精細化分析造成的資源浪費，並推動一致的風險管理行動。"
+  },
+  {
+    "objectID": "EAD.html#暴露變異性與對數常態分布-exposure-variability-lognormal-distribution",
+    "href": "EAD.html#暴露變異性與對數常態分布-exposure-variability-lognormal-distribution",
+    "title": "Exposure Risk Decisions",
+    "section": "3. 暴露變異性與對數常態分布 (Exposure Variability & Lognormal Distribution)",
+    "text": "3. 暴露變異性與對數常態分布 (Exposure Variability & Lognormal Distribution)\n\n暴露數據的變異性：員工每天的暴露量高度變動。如果一年工作 250 天，通常我們只能抽樣極少數的天數（例如 5 個樣本，僅能看見 2% 的暴露情況），這使得掌握整體暴露特徵非常困難。\n對數常態分布模型：過去數十年的研究顯示，職業暴露數據通常呈現「對數常態分布 (Lognormally Distributed)」。這個分布主要由兩個參數定義：幾何平均數 (GM)（衡量中心位置，即中位數）和幾何標準差 (GSD)（衡量變異性）。"
+  },
+  {
+    "objectID": "EAD.html#推論統計學的應用-inferential-statistics",
+    "href": "EAD.html#推論統計學的應用-inferential-statistics",
+    "title": "Exposure Risk Decisions",
+    "section": "4. 推論統計學的應用 (Inferential Statistics)",
+    "text": "4. 推論統計學的應用 (Inferential Statistics)\n為了解決樣本數過少的問題，我們必須依靠推論統計學，從已知樣本推估整體的暴露輪廓：\n\n點估計 (Point Estimate)：利用 GM 和 GSD 來計算出第 95 百分位數的最佳估計值。\n量化不確定性 (Uncertainty)：因為樣本數很少，點估計存在不確定性。我們需要計算第 95 百分位數的 95% 上限容忍極限 (UTL95%,95%，這與 95% 上限信賴區間 UCL95%,95% 是相同的概念)。如果這個 UTL 值小於 OEL，我們就能有超過 95% 的信心認定整體暴露情況未超標。\n\n\n\n推論母體過程中的潛在誤差與挑戰\n\n採樣規劃不當（未隨機、未涵蓋所有作業狀況）\n樣本數不足（導致統計檢定力不足）\n數據處理不當（如未正確處理未檢出值、異常值）\n統計方法錯誤（如未檢驗數據是否符合對數常態分佈）\nSEG 定義錯誤（將不同暴露特性的工作合併在一起）"
+  },
+  {
+    "objectID": "EAD.html#使用統計工具-如-ihstat-進行資料解釋",
+    "href": "EAD.html#使用統計工具-如-ihstat-進行資料解釋",
+    "title": "Exposure Risk Decisions",
+    "section": "5. 使用統計工具 (如 IHSTAT) 進行資料解釋",
+    "text": "5. 使用統計工具 (如 IHSTAT) 進行資料解釋\n講義介紹了如何利用免費的傳統統計工具（如 AIHA 提供的 IHSTAT 表格）來執行上述分析。標準的資料分析與解釋步驟包含以下五步：\n\n輸入資料：將監測數據輸入適當的統計工具。\n評估適配度 (Goodness-of-fit)：透過圖表檢查數據是否真的符合對數常態分布的假設。\n檢視統計數據：將計算出的「第 95 百分位數」與「95% UCL」與 OEL 進行比較。\n指定最終評級與確定性水準 (Final Rating and Certainty Level)：\n\n評級：判斷 95%ile 落在 AIHA 哪一個控制類別中。\n確定性：根據 95% UCL 來評估。如果 95% UCL 跨越超過 2 個類別，代表「低確定性」；跨越 1 個類別為「中確定性」；落在同一個類別內則為「高確定性」。\n\n記錄分析與建議：記錄結果並建議相應的控制措施或後續採樣計畫。"
+  },
+  {
+    "objectID": "EAD.html#處理低於偵測極限的數據-handling-censored-data",
+    "href": "EAD.html#處理低於偵測極限的數據-handling-censored-data",
+    "title": "Exposure Risk Decisions",
+    "section": "6. 處理低於偵測極限的數據 (Handling Censored Data)",
+    "text": "6. 處理低於偵測極限的數據 (Handling Censored Data)\n當有採樣數據低於實驗室的偵測極限 (Limit of Detection, LOD) 時，稱為「受限數據 (Censored Data)」：\n\n錯誤作法：絕對不要將未檢出數據直接從分析中刪除，也不要直接用偵測極限值來代替。\n正確作法：在計畫階段應盡量確保 LOD 低於 OEL 的 10%。對於資料分析，若樣本數少且受限比例低，可使用**簡單替代法（將 LOD 除以 2​，即 DL/1.414）**來替代該數據。對於較複雜或受限比例高的數據，則建議使用最大概似估計法 (MLE) 或貝氏分析 (BDA) 等更進階的工具。"
+  },
+  {
+    "objectID": "EAD.html#統計決策-decision-statistic",
+    "href": "EAD.html#統計決策-decision-statistic",
+    "title": "Exposure Risk Decisions",
+    "section": "統計決策 (Decision Statistic)",
+    "text": "統計決策 (Decision Statistic)\n\n克服人為判斷偏誤與暴露變異性 勞工每天的暴露濃度具有高度的變異性。在實務上，我們通常只能採樣到極少數的工作日（例如在每年 250 個工作天中僅採樣 5 天，只看見 2% 的真實暴露情況），這使得掌握整體暴露特徵變得非常困難。研究顯示，如果僅依賴直覺來解釋這些少量的監測數據，專業人員的判斷往往是不準確的，且通常帶有「低估風險」的偏誤。然而，只要提供簡單的統計學訓練，就能大幅提升判斷的準確度並消除這些偏誤。\n確立明確的決策統計值 (Decision Statistic) 在進行評估前，策略要求必須先定義客觀的可接受標準。目前專業領域的共識目標為：100 個工作天中，暴露量超過職業暴露容許標準 (OEL) 的天數不應多於 5 天。在統計學上，這被定義為：「致力於達到至少 95% 的信心水準，確信真實的第 95 百分位數 (95th percentile) 小於 OEL」\n應用 AIHA 暴露評級與控制類別 為了提升效率並推動一致的風險管理行動，策略中採用了 AIHA 的暴露控制類別。使用這些標準化類別可以避免過度追求估計值的精確度而造成資源遞減效應 (diminishing returns)，並能自動對接後續應採取的管理措施。\n使用推論統計學與分析工具 因為樣本數極少，策略規定必須利用推論統計學（通常假設數據符合對數常態分布 Lognormal Distribution）來從樣本推估全體員工的暴露輪廓。這包含了標準化的五個分析步驟：\n\n將數據輸入免費的統計工具（如 IHSTAT）。\n評估數據是否確實符合對數常態分布的適配度。\n檢視「第 95 百分位數的估計值」以及用於量化不確定性的「95% 上限容忍極限 (UTL95%,95% 或 UCL)」。\n將上述數值與 AIHA 類別進行比較，給定最終的評級 (Rating) 以及評估該結果的確定性水準 (Certainty Level)（例如 95% UCL 若跨越太多類別則屬於低確定性）。\n記錄分析結果並提出控制建議。\n\n正確處理受限數據 (Censored Data) 當遇到低於實驗室偵測極限 (LOD) 的未檢出數據時，策略強調絕對不能直接將其從分析中刪除，也不應直接用偵測極限值來替代。對於受限比例較低（低於 25-50%）且樣本數少的情況，建議使用簡單替代法，將偵測極限值除以 根號2​ (即 DL/1.414) 後再進行分析；而對於更複雜的情況，則應依賴貝氏分析或最大概似估計法 (MLE) 等進階工具。"
+  },
+  {
+    "objectID": "EAD.html#決策統計量-decision-statistic",
+    "href": "EAD.html#決策統計量-decision-statistic",
+    "title": "Exposure Risk Decisions",
+    "section": "決策統計量 (Decision Statistic)",
+    "text": "決策統計量 (Decision Statistic)\n\n在進行暴露風險評估之前，我們必須先定義：什麼樣的暴露情況是「可接受的」？ 這個定義就是「決策統計量」。\nQ1：假設一位員工每年工作 100 天。如果你在這 100 天都進行個人暴露採樣，你認為在「不戴呼吸防護具」的情況下，一年中有多少天暴露超過 OEL 是可以接受的？\n\n選項：1) 0、 2) 1、 3) 5、 4) 10、 5) 25、 6) 50\nWHY？ 在統計學上，多數專業人員的共識是：不超過 5 天（即 5%） 超過 OEL。這對應的是 95th 百分位數（95th Percentile），也就是說：我們希望 95% 的暴露值都低於 OEL。\n\n\n\n\n\n\n\n\nCaution\n\n\n然而，點出現實狀況：在多數工業衛生實務中，我們實際能採集的樣本數通常遠少於 100 個 (Usual Number of Samples &lt;&lt; 100)。這種小樣本的情況，會對我們估計整體暴露狀況（特別是估算第 95 百分位數時）帶來極大的「不確定性 (Uncertainty)」。"
+  },
+  {
+    "objectID": "EAD.html#決策統計量-decision-statistic-續",
+    "href": "EAD.html#決策統計量-decision-statistic-續",
+    "title": "Exposure Risk Decisions",
+    "section": "決策統計量 (Decision Statistic) (續)",
+    "text": "決策統計量 (Decision Statistic) (續)\n\n界定決策的信心水準\nQ2：面對不確定性，你對自己的判斷有多大的把握（確定程度）？\n\n選項：1) 100% 確定、 2) 99%、 3) 95%、 4) 90%、 5) 70%、 6) 50%。\nWHY？ 實務上不可能 100% 確定，但專業共識是追求 95% 的信心水準。\n\n\n最終決策統計量：\n\n「我們要至少有 95% 的信心，確信真正的 95th 百分位數暴露值低於 OEL。」"
+  },
+  {
+    "objectID": "EAD.html#決策統計量-decision-statistic-續-1",
+    "href": "EAD.html#決策統計量-decision-statistic-續-1",
+    "title": "Exposure Risk Decisions",
+    "section": "決策統計量 (Decision Statistic) (續)",
+    "text": "決策統計量 (Decision Statistic) (續)\nQ3：什麼是 95% 上限容忍極限 (UTL)？\nQ4：為何不用第 95 百分位數直接與OEL比較即可？\n\n因為「點估計」沒有考慮「抽樣誤差（sampling uncertainty）」。\n當樣本數很少時，我們對點估計的信心很低，所以需要用 UTL（上限） 來「補償」這種不確定性。\n\n\n\n\n\n\n\nTip\n\n\n\n如果 UTL &lt; OEL：\n➤ 有 95% 信心 說真正的 95th 百分位數低於 OEL（✅ 可接受）\n如果 UTL &gt; OEL，但 95th 百分位數點估計 &lt; OEL：\n➤ 表示「可能過關，但信心不足」，屬於 中或低度信心，需要更多數據或暫時控管\n\n\n\n\n\n第 95 百分位數（點估計）→ 決定「最終評級」，判斷落在 Category 0~4。\n95% UCL / UTL → 決定「確定性水準」(需要 UTL 來抓出「最壞情況的邊界」)\n\nHigh certainty：若 UCL 落在同一類別內。Medium certainty：若 UCL 僅高出 1 個類別。Low certainty：若 UCL 高出 2 個（含）以上類別。\n\n\n\n\n\n引自AIHA"
+  },
+  {
+    "objectID": "EAD.html#aiha-暴露類別",
+    "href": "EAD.html#aiha-暴露類別",
+    "title": "Exposure Risk Decisions",
+    "section": "2. AIHA 暴露類別",
+    "text": "2. AIHA 暴露類別\n\nAIHA 暴露控制類別 (Exposure Rating Categories)：將暴露水準分為 0 到 4 級（例如：Category 4 代表暴露大於 100% OEL），並為不同類別提供標準化的建議控制措施（如：實施危害通識、定期監測、醫療監測或使用呼吸防護具）。這有助於避免過度精細化分析造成的資源浪費，並推動一致的風險管理行動。"
+  },
+  {
+    "objectID": "EAD.html#暴露變異性-exposure-variability",
+    "href": "EAD.html#暴露變異性-exposure-variability",
+    "title": "Exposure Risk Decisions",
+    "section": "3. 暴露變異性 (Exposure Variability)",
+    "text": "3. 暴露變異性 (Exposure Variability)\n\nIH EA 核心問題：暴露變異性 + 非常少的樣本數\n\n後果：用極少數的樣本去推估高度變異的母體，誤差風險極高。\n這說明了：用極低比例的樣本去做決策，風險極高。\n\n暴露數據的變異性：員工每天的暴露量高度變動。如果一年工作 250 天，通常我們只能抽樣極少數的天數（例如 5 個樣本，僅能看見 2% 的暴露情況），這使得掌握整體暴露特徵非常困難。"
+  },
+  {
+    "objectID": "EAD.html#對數常態分布-lognormal-distribution",
+    "href": "EAD.html#對數常態分布-lognormal-distribution",
+    "title": "Exposure Risk Decisions",
+    "section": "3. 對數常態分布 (Lognormal Distribution)",
+    "text": "3. 對數常態分布 (Lognormal Distribution)\n\n為了解決只能看到極少數數據的困境，解決方案就是採用推論統計學 (Inferential Statistics)。 我們必須利用我們「已經看到」的極少量樣本，並結合我們對數據潛在分布形狀的知識——也就是假設這些暴露數據符合對數常態分布 —來推估整個 SEG 真實的母體暴露輪廓。\n對數常態分布模型：過去數十年的研究顯示，職業暴露數據通常呈現「對數常態分布 (Lognormally Distributed)」。這個分布主要由兩個參數定義：幾何平均數 (GM)（衡量中心位置，即中位數）和幾何標準差 (GSD)（衡量變異性）。\n務實的作法 (A Pragmatic Approach)：雖然有正式的統計檢定可以使用，但對於小樣本來說檢定能力很低，而對大樣本又過於嚴苛。因此，業界採取務實的作法：先基於歷史證據「假設」數據呈對數常態分布，然後透過圖表（如對數機率圖 Log-probit plot）進行視覺檢查，以揪出明顯的偏差。誠如統計學家 George E. P. Box 所言：「所有的模型都是錯的，但有些是有用的」。\n如果不符合怎麼辦？：如果在分析前發現數據不符合對數常態分布，必須回頭檢視您的「相似暴露族群 (SEG)」設定是否合理。可能的原因包含：勞工的工作任務其實並不相似、數據有誤差、或者應該將 SEG 拆分成更小的群體來評估。或…."
+  },
+  {
+    "objectID": "EAD.html#即時監測或直讀式儀器",
+    "href": "EAD.html#即時監測或直讀式儀器",
+    "title": "Exposure Risk Decisions",
+    "section": "3. 即時監測或直讀式儀器",
+    "text": "3. 即時監測或直讀式儀器\n\n問問AI如何？\n\n\n\n\n\n\n\nPrompt\n\n\nQ1：隨著科技進步，若使用直讀式儀器監測或即時偵測設備，且時間解析度可以到秒或分，紀錄便可完整呈現整天每天的暴露，這樣不是可以完整呈現變異性，且樣本數夠，這不就可以真實呈現人員或SEG的暴露實態？\nQ2：如果把直讀式儀器測值的時間解析度，調整為8小TWA加權，或是15分鐘的STEL，這樣連續測定250天， 還有你上述說的自相關或是不符對數常態分布等等問題？\n\n\n\nAI say…..\n不再是「推論」，而是「普查 (Census)」，不需要算 UTL。\n\n若要計算 STEL，應該取「不重疊的 15 分鐘區間」（例如 8:00~8:15, 8:15~8:30…），這樣每一筆 STEL 數據才會相互獨立。"
+  },
+  {
+    "objectID": "EAD.html#現代插曲即時監測或直讀式儀器介入",
+    "href": "EAD.html#現代插曲即時監測或直讀式儀器介入",
+    "title": "Exposure Risk Decisions",
+    "section": "3. 現代插曲：即時監測或直讀式儀器介入",
+    "text": "3. 現代插曲：即時監測或直讀式儀器介入\n\n問問AI如何？\n\n\n\n\n\n\n\nPrompt\n\n\nQ1：隨著科技進步，若使用直讀式儀器監測或即時偵測設備，且時間解析度可以到秒或分，紀錄便可完整呈現整天每天的暴露，這樣不是可以完整呈現變異性，且樣本數夠，這不就可以真實呈現人員或SEG的暴露實態？\nQ2：如果把直讀式儀器測值的時間解析度，調整為8小TWA加權，或是15分鐘的STEL，這樣連續測定250天， 還有你上述說的自相關或是不符對數常態分布等等問題？\n\n\n\nAI say…..\n不再是「推論」，而是「普查 (Census)」，不需要算 UTL。\n\n若要計算 STEL，應該取「不重疊的 15 分鐘區間」（例如 8:00~8:15, 8:15~8:30…），這樣每一筆 STEL 數據才會相互獨立。"
+  },
+  {
+    "objectID": "EAD.html#對數常態分布的兩個關鍵參數",
+    "href": "EAD.html#對數常態分布的兩個關鍵參數",
+    "title": "Exposure Risk Decisions",
+    "section": "4. 對數常態分布的兩個關鍵參數",
+    "text": "4. 對數常態分布的兩個關鍵參數\n\n幾何平均數 (Geometric Mean, GM)\n幾何標準差 (Geometric Standard Deviation, GSD)\n如何計算 GM 與 GSD？ (用軟體😇)"
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#暴露評估ea",
+    "href": "先期暴露風險評估技術手冊.html#暴露評估ea",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "暴露評估(EA)？",
+    "text": "暴露評估(EA)？\nEA 定位與演進 [1]\n預期、認知、評估與控制 + 確認（Confirm）"
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#風險評估",
+    "href": "先期暴露風險評估技術手冊.html#風險評估",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "風險評估？",
+    "text": "風險評估？\n\nHealth Risk = (Exposure) (Toxicity) \n\n健康風險 = f (暴露量 ， 毒性)\n\n「毒性」（每單位暴露量對目標器官所產生的健康效應）\n\n暴露風險？ 評估+分級+管理？\n\n暴露數據必須連結健康效應才有意義。\n\n\n暴露評估（EA）與 風險評估（RA）？\n\n準確性？效率？效能？\n\n取決於 OH 執行 EA 的品質。"
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#ea-評估範圍工具思維進化",
+    "href": "先期暴露風險評估技術手冊.html#ea-評估範圍工具思維進化",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "EA 評估範圍、工具、思維進化",
+    "text": "EA 評估範圍、工具、思維進化\n\n範圍不僅限於化學物質，還擴及皮膚暴露、噪音、熱危害與人因工程等領域。\n評估工具越來越依賴數學模型及貝氏決策分析（Bayesian Decision Analysis, BDA）\n\n這對於處理含有未檢出值的小型數據集特別有用，能提供更高信賴度的決策支持。\n\n從「合規性」到「全面性」\n\n傳統「合規性策略（Compliance Strategy）」-–&gt; 「全面性評估策略（Comprehensive Strategy）」\n\n許多化學品缺乏OEL，且現有標準未必能保護最敏感的勞工，也無法提供員工每日暴露變異的歷史數據。\n評估「所有勞工、在所有工作日、對所有危害物」的暴露情況。建立全面的歷史暴露數據庫，不僅能在法規標準變嚴格時迅速因應，還能協助流行病學研究與員工的健康管理。"
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#ea-評估步驟",
+    "href": "先期暴露風險評估技術手冊.html#ea-評估步驟",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "EA 評估步驟",
+    "text": "EA 評估步驟\n\n起始（Start）：確立企業的評估目標與策略\n基本特徵描述（Basic Characterization）\n暴露評估：SEGs， OEL，決策統計值（Decision Statistic）\\(X_{95}, UTL\\)\n進一步收集資訊（Further Information Gathering）：針對「不確定」的暴露。\n\n優先安排空氣或生物監測、數學建模，或收集毒理/流行病學數據等。\n\n危害控制（Health Hazard Control）：Hierarchy control and confirm\n重新評估（Reassessment）：定期，變更\n溝通與文件化（Communications and Documentation）\n\n\n成功執行的關鍵：專業判斷（Professional Judgment）+ 利害關係人的參與 + 資源的有效配置。 (雇主支持？)"
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#ea策略",
+    "href": "先期暴露風險評估技術手冊.html#ea策略",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "EA策略",
+    "text": "EA策略\n\n策略類型\n\n全面性策略 (Comprehensive Strategy)\n\n掌握暴露強度與時間變異性\n\n合規性策略 (Compliance Strategy)\n\n非例行性作業 (Non-routine Operations)\n\n\n\n\n\n專業判斷 (Professional Judgment)\n\n以科學(含統計)為底\n\n整合成「書面」暴露評估計畫"
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#暴露實態exposure-profile",
+    "href": "先期暴露風險評估技術手冊.html#暴露實態exposure-profile",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "暴露實態（Exposure Profile）",
+    "text": "暴露實態（Exposure Profile）\n\n暴露強度的時間變異性（如每日變化）與推估值"
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#初始ea-initial-ea",
+    "href": "先期暴露風險評估技術手冊.html#初始ea-initial-ea",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "初始EA (Initial EA)",
+    "text": "初始EA (Initial EA)\n\n是整個暴露評估分層、循環過程中的第一個階段\n利用手邊現有的資訊來進行評估，但通常缺乏足夠定量數據。\n\n\n\n初始評估主要作為篩選工具。\n\n迅速判斷出微不足道（可接受）及明顯超標的暴露（不可接受）。\n\nmajor/minor cuts： 1/10 OEL + 不太可能導致不良健康後果 + 不違反法規要求\n\n\n後續循環釐清「不確定」的風險"
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#暴露分級exposure-ratings",
+    "href": "先期暴露風險評估技術手冊.html#暴露分級exposure-ratings",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "暴露分級（Exposure Ratings）",
+    "text": "暴露分級（Exposure Ratings）\n\n估算暴露量相對於「職業暴露容許標準（OEL）」的比例\n\n在缺乏大量監測數據的初始評估階段非常有用\n假設沒有使用個人防護裝備 (PPE)\n缺乏 OEL 時：可以根據基礎資料收集到的毒理學資訊，估算並設定一個「暫定/工作 OEL (working OEL)」，進行分級。\n\n推估暴露實態與分級的工具主要有三種：[1]\n\n監測數據 (Monitoring Data)\n替代數據 (Surrogate Data)\n數學建模 (Modeling)"
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#監測數據-monitoring-data",
+    "href": "先期暴露風險評估技術手冊.html#監測數據-monitoring-data",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "監測數據 (Monitoring Data)",
+    "text": "監測數據 (Monitoring Data)\n\n分「過去的個人監測數據」與「篩檢測量 Screening」\n篩檢測量 (Screening measurements) ：合適的直讀式測量\n\n工具：使用如檢知管、光離子化偵測器（PID）、可呼吸性氣膠監測儀或噪音計等技術，提供快速的測量結果，協助校準工業衛生人員的專業判斷。\n應用：可用於檢查「最壞情況（worst case）」或典型的暴露水準。釐清不同勞工或SEGs間的變異性。\n效能：透過篩檢測量，可以減少甚至消除進行昂貴個人監測的需求。"
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#替代數據surrogate-data",
+    "href": "先期暴露風險評估技術手冊.html#替代數據surrogate-data",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "替代數據（Surrogate Data）",
+    "text": "替代數據（Surrogate Data）\n\n替代數據的應用必須非常謹慎，並高度仰賴專業判斷\n替代數據也常用於估算混合物引起的暴露\n主要分為以下兩大類應用方式：\n\n來自其他危害因子的暴露數據 (Exposure data from another agent)\n來自其他作業的暴露數據 (Exposure data from another operation)\n\n替代數據是在初始暴露評估階段缺乏直接監測數據時，填補資訊空白並協助完成暴露分級的重要實用工具。"
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#數學建模modeling",
+    "href": "先期暴露風險評估技術手冊.html#數學建模modeling",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "數學建模（Modeling）",
+    "text": "數學建模（Modeling）\n\n兩大類別：\n\n基於物理與化學特性的預測模型 (Predictive modeling based on physical and chemical properties)\n\n估計目前，還能推算歷史暴露\n階層式方法 (Tiered approach)\n刻意高估 (Purposeful overestimation)\n\n基於製程資訊的預測模型 (Predictive modeling based on process information)\n\n包含許多製程參數\n建置製程模型(如G)來進行暴露評估"
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#暴露判定judging-exposures",
+    "href": "先期暴露風險評估技術手冊.html#暴露判定judging-exposures",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "暴露判定（Judging Exposures）",
+    "text": "暴露判定（Judging Exposures）\n\n初始EA伴隨著極大的不確定性\nOEL 本身也可能存在不確定性\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n解決策略\n\n收集更多資訊：縮小不確定性。\n直接視為不可接受：成本效益評估，直接採控制措施。"
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#不確定的暴露-uncertain-exposures",
+    "href": "先期暴露風險評估技術手冊.html#不確定的暴露-uncertain-exposures",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "不確定的暴露 (Uncertain Exposures)",
+    "text": "不確定的暴露 (Uncertain Exposures)\n\n兩大主因：\n\n暴露實態尚未充分掌握：強度與變異\n缺乏健康效應數據：無可靠的OEL\n\n管理不確定性 (Managing Uncertainty)\n\n如果危害因子的毒性很低，且發生暴露的可能性也很低，那麼即使評估存在不確定性也無妨。\n不確定性的重要性極高：如果暴露可能導致極端、不可逆的傷害 (irreversible harm)，那麼對於不確定性的容忍度就必須非常低，必須盡可能釐清暴露。\n\n不確定性的兩大來源：\n\n暴露的變異性：日常變異。\n缺乏知識 (Lack of knowledge)：當完全沒有數據或知識時，這種不確定性的程度會非常巨大，甚至會完全掩蓋掉日常的變異性。\n\n評估不確定性的工具： 主觀估計 (subjective estimate)；傳統統計分析(有實際的測量數值，計算95%CI）；機率分析工具 (如蒙地卡羅分析 Monte Carlo analysis，非常複雜或關鍵的暴露評估)。"
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#ea循環持續改善",
+    "href": "先期暴露風險評估技術手冊.html#ea循環持續改善",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "EA循環，持續改善",
+    "text": "EA循環，持續改善"
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#ea的具體產出-assessment-outcomes",
+    "href": "先期暴露風險評估技術手冊.html#ea的具體產出-assessment-outcomes",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "EA的具體產出 (Assessment Outcomes)",
+    "text": "EA的具體產出 (Assessment Outcomes)\n\n掌握SEG暴露實態推估\n量化相對風險：相對於OEL的暴露分級\n決策判定：暴露風險判定\n後續風險管理\n\n排定後須行動優先順序並落實\n釐清未知風險(不確定分級)，進一步收集資訊並解決。"
   }
 ]

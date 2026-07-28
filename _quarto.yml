@@ -17,7 +17,7 @@ website:
       - icon: twitter 
         href: https://twitter.com/ 
 
-  title: "OH模式推估-Peter Ho"
+  title: "OH模式推估-何明信"
   navbar:
     left:
 #      - text: 首頁
@@ -25,8 +25,11 @@ website:
       - text: About us
         href: about.qmd
       - href: news.qmd
-        text: 職安衛新知
+        text: 職安衛訊息
       - href: modeling.qmd
+        text: Making Accurate Exposure Risk Decisions (AIHA)
+      - href: EAD.qmd
+        target: _blank
         text: 模式推估
       - href: MSA.qmd
         text: 直讀式儀器與RPE

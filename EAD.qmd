@@ -1,7 +1,30 @@
 ---
 title: "Exposure Risk Decisions"
 author: "何明信"
-format: revealjs
+
+date: "2026-07-30"
+format:
+  revealjs:
+    theme: default
+    smaller: true
+    scrollable: true
+    transition: slide
+    transition-speed: slow
+    slide-number: c/t
+    chalkboard: true
+    preview-links: auto
+    toc: true
+    toc-depth: 1
+    hash: true
+    embed-resources: false
+    slide-level: 2
+    code-link: true
+    incremental: false
+    center: true
+    background-transition: fade
+    width: 1050
+    height: 720
+    css: style/custom.css
 ---
 
 # **Making Accurate Exposure Risk Decisions (AIHA)**

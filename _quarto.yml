@@ -24,23 +24,22 @@ website:
 #        href: index.html
       - text: About us
         href: about.qmd
-      - href: news.qmd
-        text: 職安衛訊息
-      - href: modeling.qmd
-        text: Making Accurate Exposure Risk Decisions (AIHA)
-      - href: EAD.qmd
+      - text: 職安衛訊息
+        href: news.qmd
+      - text: Making Accurate Exposure Risk Decisions (AIHA)
+        href: EAD.qmd
         target: _blank
-        text: 模式推估
-      - href: MSA.qmd
-        text: 直讀式儀器與RPE
-      - href: noise_EA.qmd
-        text: 噪音-高溫EA
-      - href: EA.qmd
-        text: HPD與噪音暴露風險
-      - href: others.qmd
-        text: 其他(安全議題)
+      - text: 模式推估
+        href: MSA.qmd
+      - text: 直讀式儀器與RPE
+        href: noise_EA.qmd
+      - text: 噪音-高溫EA
+        href: EA.qmd
+      - text: HPD與噪音暴露風險
+        href: others.qmd
+      - text: 其他(安全議題)
       - text: 先期暴露風險評估技術手冊
-      - href: 先期暴露風險評估技術手冊.qmd
+        href: 先期暴露風險評估技術手冊.qmd
         target: _blank        
 
     search: true

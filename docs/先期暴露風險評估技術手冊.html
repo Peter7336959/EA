@@ -13,6 +13,7 @@
   <meta name="generator" content="quarto-1.8.21">
 
   <meta name="author" content="何明信">
+  <meta name="dcterms.date" content="2026-07-30">
   <title>OH模式推估-何明信 – 先期暴露風險評估技術介紹</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -52,9 +53,12 @@
       margin-left: 2em;
     }  </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-66491ebadb995524f2d267691edb411d.css">
+  <link rel="stylesheet" href="style/custom.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
@@ -67,6 +71,7 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
+      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -159,13 +164,22 @@
 </div>
 </div>
 
+  <p class="date">2026-07-30</p>
+</section><section id="TOC">
+<nav role="doc-toc"> 
+<h2 id="toc-title">Table of contents</h2>
+<ul>
+<li><a href="#/整體ea概念" id="/toc-整體ea概念">1.整體EA概念？</a></li>
+<li><a href="#/先期暴露風險評估ea技術" id="/toc-先期暴露風險評估ea技術">2.先期暴露風險評估(EA)技術</a></li>
+</ul>
+</nav>
 </section>
 <section>
 <section id="整體ea概念" class="title-slide slide level1 center">
 <h1>1.整體EA概念？</h1>
 
 </section>
-<section id="暴露評估ea" class="slide level2">
+<section id="暴露評估ea" class="slide level2 center">
 <h2>暴露評估(EA)？</h2>
 <ul>
 <li>暴露：從「危害源 (Source) -&gt; 傳輸 (Transport) -&gt; 接觸 (Contact)」的連續過程。</li>
@@ -174,7 +188,7 @@
 <h5 id="預期認知評估與控制-確認confirm">預期、認知、評估與控制 + <strong>確認（Confirm）</strong></h5>
 <p><a href="images/先期EA/F1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="images/先期EA/F1.png" style="width:50.0%"></a></p>
 </section>
-<section id="風險評估" class="slide level2">
+<section id="風險評估" class="slide level2 center">
 <h2>風險評估？</h2>
 <ul>
 <li>Health Risk = (Exposure) (Toxicity)
@@ -197,7 +211,7 @@
 </ul></li>
 </ul>
 </section>
-<section id="ea-評估範圍工具思維進化" class="slide level2">
+<section id="ea-評估範圍工具思維進化" class="slide level2 center">
 <h2>EA 評估範圍、工具、思維進化</h2>
 <ul>
 <li>範圍不僅限於化學物質，還擴及皮膚暴露、噪音、熱危害與人因工程等領域。</li>
@@ -215,7 +229,7 @@
 </ul></li>
 </ul>
 </section>
-<section id="ea-評估步驟" class="slide level2">
+<section id="ea-評估步驟" class="slide level2 center scrollable">
 <h2>EA <strong>評估步驟</strong></h2>
 <ol type="1">
 <li><strong>起始（Start）</strong>：確立企業的評估目標與策略</li>
@@ -233,7 +247,7 @@
 <li>成功執行的關鍵：專業判斷（Professional Judgment）+ 利害關係人的參與 + 資源的有效配置。 (雇主支持？)</li>
 </ul>
 </section>
-<section id="ea策略" class="slide level2">
+<section id="ea策略" class="slide level2 center">
 <h2>EA策略</h2>
 <ul>
 <li>策略類型
@@ -257,14 +271,14 @@
 <li>整合成「書面」暴露評估計畫</li>
 </ul>
 </section>
-<section id="暴露實態exposure-profile" class="slide level2">
+<section id="暴露實態exposure-profile" class="slide level2 center">
 <h2>暴露實態（Exposure Profile）</h2>
 <ul>
 <li>暴露強度的時間變異性（如每日變化）與推估值</li>
 </ul>
 <p><a href="images/先期EA/F5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="images/先期EA/F5.png" style="width:50.0%"></a></p>
 </section>
-<section id="初始ea-initial-ea" class="slide level2">
+<section id="初始ea-initial-ea" class="slide level2 center">
 <h2>初始EA (Initial EA)</h2>
 <ul>
 <li>是整個暴露評估分層、循環過程中的第一個階段</li>
@@ -282,7 +296,7 @@
 <li>後續循環釐清「不確定」的風險</li>
 </ul>
 </section>
-<section id="暴露分級exposure-ratings" class="slide level2">
+<section id="暴露分級exposure-ratings" class="slide level2 center">
 <h2>暴露分級（Exposure Ratings）</h2>
 <ul>
 <li><p>估算暴露量相對於「職業暴露容許標準（OEL）」的比例</p>
@@ -300,7 +314,7 @@
 <p><a href="images/先期EA/T5_2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="images/先期EA/T5_2.png" style="width:50.0%"></a></p></li>
 </ul>
 </section>
-<section id="監測數據-monitoring-data" class="slide level2">
+<section id="監測數據-monitoring-data" class="slide level2 center">
 <h2>監測數據 (Monitoring Data)</h2>
 <ul>
 <li>分「過去的個人監測數據」與「篩檢測量 <strong>Screening</strong>」</li>
@@ -312,7 +326,7 @@
 </ul></li>
 </ul>
 </section>
-<section id="替代數據surrogate-data" class="slide level2">
+<section id="替代數據surrogate-data" class="slide level2 center scrollable">
 <h2>替代數據（Surrogate Data）</h2>
 <ul>
 <li>替代數據的應用必須非常謹慎，並高度仰賴專業判斷</li>
@@ -325,7 +339,7 @@
 <li>替代數據是在初始暴露評估階段缺乏直接監測數據時，填補資訊空白並協助完成暴露分級的重要實用工具。</li>
 </ul>
 </section>
-<section id="數學建模modeling" class="slide level2">
+<section id="數學建模modeling" class="slide level2 center scrollable">
 <h2>數學建模（Modeling）</h2>
 <ul>
 <li><p>兩大類別：</p>
@@ -344,7 +358,7 @@
 </ol></li>
 </ul>
 </section>
-<section id="暴露判定judging-exposures" class="slide level2">
+<section id="暴露判定judging-exposures" class="slide level2 center">
 <h2>暴露判定（Judging Exposures）</h2>
 <ul>
 <li>初始EA伴隨著極大的不確定性</li>
@@ -370,7 +384,7 @@
 </ul></li>
 </ul>
 </section>
-<section id="不確定的暴露-uncertain-exposures" class="slide level2">
+<section id="不確定的暴露-uncertain-exposures" class="slide level2 center">
 <h2>不確定的暴露 (Uncertain Exposures)</h2>
 <ul>
 <li><strong>兩大主因</strong>：
@@ -391,11 +405,11 @@
 <li><strong>評估不確定性的工具</strong>： <strong>主觀估計 (subjective estimate)</strong>；<strong>傳統統計分析(</strong>有實際的測量數值，計算95%CI）；<strong>機率分析工具 (如蒙地卡羅分析 Monte Carlo analysis，</strong>非常複雜或關鍵的暴露評估<strong>)</strong>。</li>
 </ul>
 </section>
-<section id="ea循環持續改善" class="slide level2">
+<section id="ea循環持續改善" class="slide level2 center">
 <h2>EA循環，持續改善</h2>
 <p><a href="images/先期EA/T5_4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="images/先期EA/T5_4.png" style="width:50.0%"></a></p>
 </section>
-<section id="ea的具體產出-assessment-outcomes" class="slide level2">
+<section id="ea的具體產出-assessment-outcomes" class="slide level2 center">
 <h2><strong>EA的具體產出 (Assessment Outcomes)</strong></h2>
 <ul>
 <li><strong>掌握SEG</strong>暴露實態推估</li>
@@ -413,7 +427,7 @@
 <h1>2.先期暴露風險評估(EA)技術</h1>
 
 </section>
-<section id="數學建模modeling-1" class="slide level2">
+<section id="數學建模modeling-1" class="slide level2 center">
 <h2>數學建模（Modeling）</h2>
 <ul>
 <li>EA目的：建立SEGs的暴露實態（含途徑、強度、持續時間與頻率），並將其與OEL（如 TWA-8、STEL）進行比較，以判定暴露是「可接受」、「不可接受」或「不確定」。</li>
@@ -423,7 +437,7 @@
 </ul></li>
 </ul>
 </section>
-<section id="數學建模modeling-2" class="slide level2">
+<section id="數學建模modeling-2" class="slide level2 center">
 <h2>數學建模（Modeling）</h2>
 <h3 id="為什麼需要數學建模">為什麼需要數學建模？</h3>
 <ul>
@@ -439,7 +453,7 @@
 </ul></li>
 </ul>
 </section>
-<section id="如何建模" class="slide level2">
+<section id="如何建模" class="slide level2 center">
 <h2>如何建模？</h2>
 <ul>
 <li>物理化學特徵 + 暴露時間</li>
@@ -456,7 +470,7 @@
 <li><strong>數據品質決定模型價值 (Garbage in, garbage out)</strong> 本章總結強調，模型輸出的結果高度依賴輸入資訊的品質。</li>
 </ul>
 </section>
-<section id="定量-ea" class="slide level2">
+<section id="定量-ea" class="slide level2 center scrollable">
 <h2>定量 EA</h2>
 <h3 id="分類">分類</h3>
 <ul>
@@ -474,11 +488,11 @@
 </ol></li>
 </ul>
 </section>
-<section id="推估模式方法分層tiered-approach" class="slide level2">
+<section id="推估模式方法分層tiered-approach" class="slide level2 center">
 <h2>推估模式方法分層(Tiered Approach)</h2>
 <p><a href="images/先期EA/T9.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="images/先期EA/T9.png" style="width:100.0%"></a></p>
 </section>
-<section id="basic-pollutant-generation-rates" class="slide level2">
+<section id="basic-pollutant-generation-rates" class="slide level2 center scrollable">
 <h2>BASIC: Pollutant Generation Rates</h2>
 <ul>
 <li><p>在空氣濃度建模中，準確估算化學物質釋放到空氣中的「生成率（或稱排放率）」是極為關鍵的步驟。</p></li>
@@ -496,7 +510,7 @@
 </ul></li>
 </ul>
 </section>
-<section id="tier-i-模式" class="slide level2">
+<section id="tier-i-模式" class="slide level2 center">
 <h2>Tier I 模式</h2>
 <h3 id="無通風推估模式zero-ventilation-model">1. 無通風推估模式(Zero Ventilation Model)</h3>
 <ul>
@@ -512,7 +526,7 @@
 </ul></li>
 </ul>
 </section>
-<section id="實作情境--1.無通風推估模式" class="slide level2">
+<section id="實作情境--1.無通風推估模式" class="slide level2 center">
 <h2>實作情境- 1.無通風推估模式</h2>
 <h4 id="第一階段情境描述-scenario">第一階段：情境描述 (Scenario)</h4>
 <ul>
@@ -521,7 +535,7 @@
 <li><strong>你的任務</strong>：由於症狀是延遲發作的，你需要針對這起非典型暴露事件進行調查。你必須推估該員工在此次溢漏事件中的暴露濃度，以判斷其腹痛是否與暴露有關。</li>
 </ul>
 </section>
-<section id="實作情境--1.無通風推估模式-續" class="slide level2">
+<section id="實作情境--1.無通風推估模式-續" class="slide level2 center">
 <h2>實作情境- 1.無通風推估模式 (續)</h2>
 <h4 id="第二階段收集建模資訊-information-gathering">第二階段：收集建模資訊 (Information Gathering)</h4>
 <ul>
@@ -538,7 +552,7 @@
 </ul></li>
 </ul>
 </section>
-<section id="實作情境--1.無通風推估模式-續-1" class="slide level2">
+<section id="實作情境--1.無通風推估模式-續-1" class="slide level2 center">
 <h2>實作情境- 1.無通風推估模式 (續)</h2>
 <h4 id="第三階段模型推估演練-modeling-approach">第三階段：模型推估演練 (Modeling Approach)</h4>
 <ul>
@@ -546,7 +560,7 @@
 <li><strong>請估算空氣濃度 (C)，並做出結果專業判定。</strong></li>
 </ul>
 </section>
-<section id="實作情境--1.無通風推估模式-續-2" class="slide level2">
+<section id="實作情境--1.無通風推估模式-續-2" class="slide level2 center">
 <h2>實作情境- 1.無通風推估模式 (續)</h2>
 <h4 id="參考建議">參考建議</h4>
 <ul>
@@ -558,7 +572,7 @@
 <li>思考：是否適用於污水中有害物(硫化氫)逸散評估，或消防系統窒息性氣體(壓縮二氧化碳)於地下室突洩情境評估？</li>
 </ul>
 </section>
-<section id="tier-i-模式-1" class="slide level2">
+<section id="tier-i-模式-1" class="slide level2 center">
 <h2>Tier I 模式</h2>
 <h3 id="蒸氣壓模型vapor-pressure-models"><strong>2.蒸氣壓模型（Vapor Pressure Models）</strong></h3>
 <ul>
@@ -567,8 +581,8 @@
 </ul>
 <table class="caption-top">
 <colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
+<col style="width: 36%">
+<col style="width: 63%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -581,7 +595,7 @@
 <li>留意應用限制與專業考量</li>
 </ul>
 </section>
-<section id="實作情境-2.蒸氣壓模型" class="slide level2">
+<section id="實作情境-2.蒸氣壓模型" class="slide level2 center">
 <h2>實作情境-2.<strong>蒸氣壓模型</strong></h2>
 <h4 id="第一階段情境描述-tenberge2009a">第一階段：情境描述 <span class="citation" data-cites="tenberge2009a">[<a href="#/參考資料" role="doc-biblioref" onclick="">2</a>]</span></h4>
 <ul>
@@ -589,7 +603,7 @@
 <li><strong>任務</strong>：身為環安衛人員，您必須推算：<strong>當這名勞工打開櫃門的那一瞬間，他面臨的暴露濃度有多高？</strong></li>
 </ul>
 </section>
-<section id="實作情境--2.蒸氣壓模型-續" class="slide level2">
+<section id="實作情境--2.蒸氣壓模型-續" class="slide level2 center">
 <h2>實作情境- 2.<strong>蒸氣壓模型 (續)</strong></h2>
 <h4 id="第二階段收集建模資訊">第二階段：收集建模資訊</h4>
 <ul>
@@ -602,13 +616,13 @@
 </ul></li>
 </ul>
 </section>
-<section id="實作情境--2.蒸氣壓模型-續-1" class="slide level2">
+<section id="實作情境--2.蒸氣壓模型-續-1" class="slide level2 center">
 <h2>實作情境- 2.<strong>蒸氣壓模型 (續)</strong></h2>
 <ul>
 <li><strong>請估算空氣濃度 (C)，並做出結果專業判定。</strong></li>
 </ul>
 </section>
-<section id="實作情境--2.蒸氣壓模型-續-2" class="slide level2">
+<section id="實作情境--2.蒸氣壓模型-續-2" class="slide level2 center">
 <h2><strong>2.</strong>實作情境- 2.<strong>蒸氣壓模型 (續)</strong></h2>
 <h4 id="第三階段模型推估演練-飽和蒸氣壓模型">第三階段：模型推估演練 (飽和蒸氣壓模型)</h4>
 <ul>
@@ -620,7 +634,7 @@
 </ul></li>
 </ul>
 </section>
-<section id="實作情境-蒸氣壓模型-續" class="slide level2">
+<section id="實作情境-蒸氣壓模型-續" class="slide level2 center">
 <h2><strong>2.</strong>實作情境-<strong>蒸氣壓模型 (續)</strong></h2>
 <h4 id="第四階段結果判定-interpreting-the-result">第四階段：結果判定 (Interpreting the Result)</h4>
 <ul>
@@ -635,7 +649,7 @@
 <li>請試試 <a href="https://oemd.osha.gov.tw/exposure/content/tools/Tools3.aspx">官方工具</a></li>
 </ul>
 </section>
-<section id="tier-i-模式-2" class="slide level2">
+<section id="tier-i-模式-2" class="slide level2 center">
 <h2>Tier I 模式</h2>
 <h3 id="暴露空間模式box-models">3.暴露空間模式（Box Models）</h3>
 <ul>
@@ -668,7 +682,7 @@ C_{A,\mathrm{in}}
 </ul>
 <p><span class="math inline">\(C_{\mathrm{avg}}=C_{A,\mathrm{in}}+\frac{G_A}{Q}+\frac{V}{Q(t-t_0)}\left[\left(C_{A,\mathrm{room},0}-C_{A,\mathrm{in}}-\frac{G_A}{Q}\right)\left(e^{-\frac{Q(t-t_0)}{V}}-1\right)\right]\)</span></p>
 </section>
-<section id="實作情境-3.暴露空間模式" class="slide level2">
+<section id="實作情境-3.暴露空間模式" class="slide level2 center scrollable">
 <h2>實作情境-3.暴露空間模式</h2>
 <ul>
 <li><p>情境描述：在一間尺寸為5m×6m×2m(體積V=60 m³)的實驗室內，一名勞工將進行甲苯塗層作業。已知該作業的甲苯逸散率G經評估為50 mg/s。實驗室的通風換氣率Q為0.1 m³/s。作業開始前，室內與進氣的甲苯背景濃度均為10 mg/m³。假設：完全混合、無沉積效應(Sinks)。</p>
@@ -679,7 +693,7 @@ C_{A,\mathrm{in}}
 <li><p>請試試 <a href="https://oemd.osha.gov.tw/exposure/content/tools/Tools4.aspx">官方工具</a></p></li>
 </ul>
 </section>
-<section id="tier-ii-模式" class="slide level2">
+<section id="tier-ii-模式" class="slide level2 center">
 <h2>Tier II 模式</h2>
 <h3 id="完全混合模式well-mixed-room-model-wmr">4.完全混合模式(Well-mixed Room Model, WMR)</h3>
 <ul>
@@ -708,7 +722,7 @@ C_{A,\mathrm{in}}
 </tbody>
 </table>
 </section>
-<section id="實作情境--4.完全混合模式動態變化" class="slide level2">
+<section id="實作情境--4.完全混合模式動態變化" class="slide level2 center">
 <h2>實作情境- 4.完全混合模式(動態變化)</h2>
 <h4 id="有機溶劑塗佈-濃度動態變化">有機溶劑塗佈-濃度動態變化</h4>
 <ul>
@@ -721,7 +735,7 @@ C_{A,\mathrm{in}}
 <li><p>請提出你的風險評估與後續行動 (手冊說的恰當嗎？)</p></li>
 </ul>
 </section>
-<section id="實作情境--4.完全混合模式動態變化-續" class="slide level2">
+<section id="實作情境--4.完全混合模式動態變化-續" class="slide level2 center">
 <h2>實作情境- 4.完全混合模式(動態變化) (續)</h2>
 <h4 id="第一階段情境描述-排放率隨時間指數遞減acase-b2023">第一階段：情境描述 (排放率隨時間指數遞減)<span class="citation" data-cites="acase-b2023">[<a href="#/參考資料" role="doc-biblioref" onclick="">3</a>]</span></h4>
 <ul>
@@ -730,7 +744,7 @@ C_{A,\mathrm{in}}
 <li><strong>評估</strong>：醋酸的蒸氣壓較低，揮發速度慢。如果假設它「瞬間完全揮發」，算出來的濃度會被過度高估（TWA-8 約為 7 mg/m³）。因此，建立一個「隨時間變動、緩慢揮發並疊加」的排放指數遞減模型，來求得更精確的暴露濃度。</li>
 </ul>
 </section>
-<section id="實作情境--4.完全混合模式動態變化-續-1" class="slide level2">
+<section id="實作情境--4.完全混合模式動態變化-續-1" class="slide level2 center">
 <h2>實作情境- 4.完全混合模式(動態變化) (續)</h2>
 <ul>
 <li>濃度解(排放指數遞減)</li>
@@ -744,7 +758,7 @@ C_{A,\mathrm{in}}
 <li><p><strong>Q (通風量)</strong>：根據現場氣流速度與箱體截面積，算出通過箱體的通風量為 <strong>20.0 m³/min</strong>。</p></li>
 </ul>
 </section>
-<section id="實作情境--4.完全混合模式動態變化-續-2" class="slide level2">
+<section id="實作情境--4.完全混合模式動態變化-續-2" class="slide level2 center">
 <h2>實作情境- 4.完全混合模式(動態變化) (續)</h2>
 <h4 id="第三階段數學模型估算">第三階段：數學模型估算</h4>
 <ul>
@@ -752,7 +766,7 @@ C_{A,\mathrm{in}}
 <li><strong>估算連續作業的濃度疊加</strong>：每 3 分鐘就會噴灑一次新的面板，前一次噴灑的醋酸還沒揮發完，新的醋酸又加進來了。因此，特定時間點的總濃度，是「所有過去噴灑」在該時間點殘留濃度的<strong>總和</strong>。</li>
 </ul>
 </section>
-<section id="實作情境--4.完全混合模式動態變化-續-3" class="slide level2">
+<section id="實作情境--4.完全混合模式動態變化-續-3" class="slide level2 center scrollable">
 <h2>實作情境- 4.完全混合模式(動態變化) (續)</h2>
 <h4 id="第四階段結果判定-interpreting-the-result-1">第四階段：結果判定 (Interpreting the Result)</h4>
 <ul>
@@ -769,7 +783,7 @@ C_{A,\mathrm{in}}
 </ul></li>
 </ol>
 </section>
-<section id="tier-ii-模式-1" class="slide level2">
+<section id="tier-ii-模式-1" class="slide level2 center">
 <h2>Tier II 模式</h2>
 <h3 id="二暴露區模式two-zone-model">5. 二暴露區模式（Two-Zone Model）</h3>
 <ul>
@@ -818,7 +832,7 @@ C_{A,\mathrm{in}}
 </tbody>
 </table>
 </section>
-<section id="實作情境1--5.二暴露區模式" class="slide level2">
+<section id="實作情境1--5.二暴露區模式" class="slide level2 center">
 <h2>實作情境1- 5.二暴露區模式</h2>
 <ul>
 <li>情境描述：一名勞工坐在工作台旁，手動塗抹含甲苯的黏合劑，甲苯以恆定速率&nbsp;G=1,000 mg/min蒸發。</li>
@@ -827,7 +841,7 @@ C_{A,\mathrm{in}}
 <li>請進行該名勞工暴露評估。</li>
 </ul>
 </section>
-<section id="實作情境--5.二暴露區模式-續" class="slide level2">
+<section id="實作情境--5.二暴露區模式-續" class="slide level2 center">
 <h2>實作情境- 5.二暴露區模式 (續)</h2>
 <ul>
 <li><p>暴露濃度推估？</p></li>
@@ -835,7 +849,7 @@ C_{A,\mathrm{in}}
 <li><p>試試 <a href="https://oemd.osha.gov.tw/exposure/content/tools/Tools5.aspx">官方版工具</a></p></li>
 </ul>
 </section>
-<section id="實作情境2--5.二暴露區模式-續" class="slide level2">
+<section id="實作情境2--5.二暴露區模式-續" class="slide level2 center">
 <h2>實作情境2- 5.二暴露區模式 (續)</h2>
 <h4 id="回溯性評估個案">回溯性評估個案</h4>
 <h4 id="第一階段情境描述">第一階段：情境描述</h4>
@@ -845,7 +859,7 @@ C_{A,\mathrm{in}}
 <li><strong>任務</strong>：身為專家，您必須利用數學建模來回溯推估當時脫脂槽周圍的 TCE 歷史濃度，以釐清這些暴露是否可能導致勞工的健康危害。</li>
 </ul>
 </section>
-<section id="實作情境2--5.二暴露區模式-續-1" class="slide level2">
+<section id="實作情境2--5.二暴露區模式-續-1" class="slide level2 center">
 <h2>實作情境2- 5.二暴露區模式 (續)</h2>
 <h4 id="第二階段收集建模資訊-1">第二階段：收集建模資訊</h4>
 <ul>
@@ -859,7 +873,7 @@ C_{A,\mathrm{in}}
 <li>房間有 4 個送風口，每個設計風量為 650 ft³/min，總通風量為 2,600 ft³/min。換算為公制單位：Q=<strong>73.6&nbsp;m</strong>3<strong>/min</strong>。</li>
 </ul></li>
 </ul>
-<table class="caption-top">
+<table class="caption-top" style="width:99%;">
 <colgroup>
 <col style="width: 33%">
 <col style="width: 33%">
@@ -874,7 +888,7 @@ C_{A,\mathrm{in}}
 </tbody>
 </table>
 </section>
-<section id="實作情境2--5.二暴露區模式-續-2" class="slide level2">
+<section id="實作情境2--5.二暴露區模式-續-2" class="slide level2 center">
 <h2>實作情境2- 5.二暴露區模式 (續)</h2>
 <h4 id="第三階段雙區模型推估">第三階段：雙區模型推估</h4>
 <ul>
@@ -883,7 +897,7 @@ C_{A,\mathrm{in}}
 <li><strong>計算近區穩態濃度 (</strong>CN,SS​<strong>)</strong> 近區濃度 = 遠區的背景濃度 + 污染源在近區產生的局部濃度。公式：CN,SS​=(G/Q)+(G/β) = <strong>112&nbsp;mg/m</strong>3</li>
 </ul>
 </section>
-<section id="實作情境2--5.二暴露區模式-續-3" class="slide level2">
+<section id="實作情境2--5.二暴露區模式-續-3" class="slide level2 center">
 <h2>實作情境2- 5.二暴露區模式 (續)</h2>
 <h4 id="第四階段結果判定與風險評估">第四階段：結果判定與風險評估</h4>
 <ul>
@@ -900,12 +914,12 @@ C_{A,\mathrm{in}}
 <li><p><strong>試算表與情境變更</strong>：在法庭上，可能會質疑參數設定。您可以利用模型，隨時調整變數來因應質疑。例如，若對方主張「當時設備老舊排氣不佳，且冷卻盤管故障導致排放量多 30%」，您只要將參數更改，模型就能立即算出新的 TWA 為 <strong>89 mg/m³</strong>。此結果明顯超標，更能支持勞工暴露過量的主張。</p></li>
 </ul>
 </section>
-<section id="tier-ii-模式-2" class="slide level2">
+<section id="tier-ii-模式-2" class="slide level2 center">
 <h2>Tier II 模式</h2>
 <h3 id="渦流擴散模式turbulent-eddy-diffusion-model">6.渦流擴散模式(Turbulent Eddy diffusion model)</h3>
 <p>(略) 自行參酌技術手冊介紹，使用 官方版工具</p>
 </section>
-<section id="tier-iii-模式" class="slide level2">
+<section id="tier-iii-模式" class="slide level2 center">
 <h2>Tier III 模式</h2>
 <h3 id="統計推估模式statistical-models">7.統計推估模式(Statistical Models)</h3>
 <ul>
@@ -914,7 +928,7 @@ C_{A,\mathrm{in}}
 <li>實作情境：(略) 請參考技術手冊</li>
 </ul>
 </section>
-<section id="模式選用-搭配工具" class="slide level2">
+<section id="模式選用-搭配工具" class="slide level2 center">
 <h2>模式選用 (搭配工具)</h2>
 <ul>
 <li>面對特定的暴露情境，該如何選擇最合適的評估模式？</li>
@@ -927,7 +941,7 @@ C_{A,\mathrm{in}}
 <li>模式演練 (WMB + 蒙地卡羅模型)</li>
 </ul>
 </section>
-<section id="實作演練比較-wmb-蒙地卡羅模型" class="slide level2">
+<section id="實作演練比較-wmb-蒙地卡羅模型" class="slide level2 center">
 <h2>實作演練比較 (WMB + 蒙地卡羅模型)</h2>
 <h4 id="第一階段情境描述-1">第一階段：情境描述</h4>
 <ul>
@@ -936,7 +950,7 @@ C_{A,\mathrm{in}}
 </ul>
 <p><a href="images/先期EA/F12_1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img data-src="images/先期EA/F12_1.png" style="width:50.0%"></a></p>
 </section>
-<section id="實作演練比較-續" class="slide level2">
+<section id="實作演練比較-續" class="slide level2 center">
 <h2>實作演練比較 (續)</h2>
 <h4 id="第二階段收集建模資訊-2">第二階段：收集建模資訊</h4>
 <ul>
@@ -951,7 +965,7 @@ C_{A,\mathrm{in}}
 </ul></li>
 </ul>
 </section>
-<section id="實作演練比較-續-1" class="slide level2">
+<section id="實作演練比較-續-1" class="slide level2 center scrollable">
 <h2>實作演練比較 (續)</h2>
 <h4 id="第三階段模型推估">第三階段：模型推估</h4>
 <h4 id="模式一wmb-最壞與最佳情況">模式一：(WMB) (最壞與最佳情況)</h4>
@@ -969,14 +983,14 @@ C_{A,\mathrm{in}}
 <li><strong>風險評估決策？</strong>：算出的濃度範圍從 6.7 到 159 mg/m³，範圍極大。實務上，「所有最壞條件同時發生」或「所有最佳條件同時發生」的機率微乎其微。</li>
 </ul>
 </section>
-<section id="實作演練比較-續-2" class="slide level2">
+<section id="實作演練比較-續-2" class="slide level2 center">
 <h2>實作演練比較 (續)</h2>
 <h4 id="模式二蒙地卡羅模型-機率性推估">模式二：蒙地卡羅模型 機率性推估</h4>
 <ul>
 <li>實作：使用 AIHA <a href="https://www.aiha.org/public-resources/healthierworkplaces/workplace-hazards/apps-and-tools-resource-center/aiha-risk-assessment-tools/ihmod-tool"><strong>IHMOD Tool</strong></a></li>
 </ul>
 </section>
-<section id="課程結論" class="slide level2">
+<section id="課程結論" class="slide level2 center scrollable">
 <h2>課程結論</h2>
 <ol type="1">
 <li class="fragment">數學建模的目的並非要完全取代實體的空氣採樣，而是作為暴露評估的第一道、也是最具成本效益的篩選工具。</li>
@@ -1017,6 +1031,7 @@ C_{A,\mathrm{in}}
   <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -1032,14 +1047,15 @@ C_{A,\mathrm{in}}
       // https://revealjs.com/config/
       Reveal.initialize({
 'controlsAuto': true,
-'previewLinksAuto': false,
+'previewLinksAuto': true,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'jumpToSlide': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'smaller': false,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': true,
  
         // Display controls in the bottom right corner
         controls: false,
@@ -1059,7 +1075,7 @@ C_{A,\mathrm{in}}
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -1088,7 +1104,7 @@ C_{A,\mathrm{in}}
         disableLayout: false,
 
         // Vertical centering of slides
-        center: false,
+        center: true,
 
         // Enables touch navigation on devices with touch input
         touch: true,
@@ -1164,14 +1180,14 @@ C_{A,\mathrm{in}}
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'slide',
 
         // Transition speed (default/fast/slow)
-        transitionSpeed: 'default',
+        transitionSpeed: 'slow',
 
         // Transition style for full page slide backgrounds
         // (none/fade/slide/convex/concave/zoom)
-        backgroundTransition: 'none',
+        backgroundTransition: 'fade',
 
         // Number of slides away from the current that are visible
         viewDistance: 3,
@@ -1186,7 +1202,7 @@ C_{A,\mathrm{in}}
         // specified using percentage units.
         width: 1050,
 
-        height: 700,
+        height: 720,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
@@ -1209,7 +1225,7 @@ C_{A,\mathrm{in}}
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,

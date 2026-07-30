@@ -162,19 +162,22 @@
 </section>
 <section>
 <section id="整體ea概念" class="title-slide slide level1 center">
-<h1>整體EA概念？</h1>
+<h1>1.整體EA概念？</h1>
 
 </section>
 <section id="暴露評估ea" class="slide level2">
 <h2>暴露評估(EA)？</h2>
-<h3 id="ea-定位與演進-jahn2015b">EA 定位與演進 <span class="citation" data-cites="jahn2015b">[<a href="#/先期暴露風險評估ea技術" role="doc-biblioref" onclick="">1</a>]</span></h3>
+<ul>
+<li>暴露：從「危害源 (Source) -&gt; 傳輸 (Transport) -&gt; 接觸 (Contact)」的連續過程。</li>
+</ul>
+<h3 id="ea-定位與演進-jahn2015b">EA 定位與演進 <span class="citation" data-cites="jahn2015b">[<a href="#/參考資料" role="doc-biblioref" onclick="">1</a>]</span></h3>
 <h5 id="預期認知評估與控制-確認confirm">預期、認知、評估與控制 + <strong>確認（Confirm）</strong></h5>
 <p><a href="images/先期EA/F1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="images/先期EA/F1.png" style="width:50.0%"></a></p>
 </section>
 <section id="風險評估" class="slide level2">
 <h2>風險評估？</h2>
 <ul>
-<li>Health Risk = (Exposure) (Toxicity)&nbsp;
+<li>Health Risk = (Exposure) (Toxicity)
 <ul>
 <li>健康風險 = <strong>f</strong> (暴露量 ， 毒性)
 <ul>
@@ -288,7 +291,7 @@
 <li><strong>假設沒有使用個人防護裝備 (PPE)</strong></li>
 <li><strong>缺乏 OEL 時</strong>：可以根據基礎資料收集到的毒理學資訊，估算並設定一個「暫定/工作 OEL (working OEL)」，進行分級。</li>
 </ul></li>
-<li><p>推估暴露實態與分級的工具主要有三種：<span class="citation" data-cites="jahn2015b">[<a href="#/先期暴露風險評估ea技術" role="doc-biblioref" onclick="">1</a>]</span></p>
+<li><p>推估暴露實態與分級的工具主要有三種：<span class="citation" data-cites="jahn2015b">[<a href="#/參考資料" role="doc-biblioref" onclick="">1</a>]</span></p>
 <ul>
 <li>監測數據 (Monitoring Data)</li>
 <li>替代數據 (Surrogate Data)</li>
@@ -333,7 +336,7 @@
 <li><p>階層式方法 (Tiered approach)</p></li>
 <li><p>刻意高估 (Purposeful overestimation)</p></li>
 </ul></li>
-<li><p>基於製程資訊的預測模型 (Predictive modeling based on process information)</p>
+<li><p><strong>基於製程資訊的預測模型</strong> <strong>(Predictive modeling based on process information)</strong></p>
 <ul>
 <li><p>包含許多製程參數</p></li>
 <li><p>建置製程模型(如G)來進行暴露評估</p></li>
@@ -405,16 +408,601 @@
 </ul></li>
 </ul>
 </section></section>
-<section id="先期暴露風險評估ea技術" class="title-slide slide level1 smaller scrollable">
-<h1>先期暴露風險評估(EA)技術</h1>
+<section>
+<section id="先期暴露風險評估ea技術" class="title-slide slide level1 center">
+<h1>2.先期暴露風險評估(EA)技術</h1>
+
+</section>
+<section id="數學建模modeling-1" class="slide level2">
+<h2>數學建模（Modeling）</h2>
+<ul>
+<li>EA目的：建立SEGs的暴露實態（含途徑、強度、持續時間與頻率），並將其與OEL（如 TWA-8、STEL）進行比較，以判定暴露是「可接受」、「不可接受」或「不確定」。</li>
+<li>傳統上仰賴空氣採樣來建立暴露輪廓，但實際上，僅靠少數幾次測量是難以用參數統計學（如95%信賴區間）得出具備充分信賴度的結論的。例如，即使4次採樣結果都低於OEL，在無母數統計下，我們也只能有 32% 的把握說 75% 的暴露低於 OEL。
+<ul>
+<li>無母數統計（Non-parametric Statistics）：不假設數據符合任何分佈（如常態或對數常態），直接從樣本本身去推估母體。</li>
+</ul></li>
+</ul>
+</section>
+<section id="數學建模modeling-2" class="slide level2">
+<h2>數學建模（Modeling）</h2>
+<h3 id="為什麼需要數學建模">為什麼需要數學建模？</h3>
+<ul>
+<li>資源有限與專業判斷的盲點
+<ul>
+<li>純粹的專業判斷常會低估實際暴露</li>
+</ul></li>
+<li>跨越時間的多元應用 (過去、當下、與未來)</li>
+<li>測量只知結果，建模能知原因 (物化特性)</li>
+<li>數學模型並不是為了完全取代空氣採樣，而是要提升決策品質。
+<ul>
+<li>OH可以更自信地判定哪些低風險作業不需要採樣，進而<strong>將昂貴的採樣資源與分析成本，集中投入在真正高風險的暴露情境上</strong>。 (快篩？)</li>
+</ul></li>
+</ul>
+</section>
+<section id="如何建模" class="slide level2">
+<h2>如何建模？</h2>
+<ul>
+<li>物理化學特徵 + 暴露時間</li>
+<li>容許不確定性（夠接近了嗎？合理的最壞情況 reasonable worst case）</li>
+</ul>
+<h3 id="收集建模資訊">收集建模資訊</h3>
+<ul>
+<li class="fragment">化學物質資訊 (G…)</li>
+<li class="fragment">空氣空間資訊 (V…)</li>
+<li class="fragment">空氣混合狀態 (WMB, NF/FF)</li>
+<li class="fragment">勞工作業活動模式</li>
+</ul>
+<ul>
+<li><strong>數據品質決定模型價值 (Garbage in, garbage out)</strong> 本章總結強調，模型輸出的結果高度依賴輸入資訊的品質。</li>
+</ul>
+</section>
+<section id="定量-ea" class="slide level2">
+<h2>定量 EA</h2>
+<h3 id="分類">分類</h3>
+<ul>
+<li>監測 (略)</li>
+<li>推估模式
+<ol type="1">
+<li>無通風推估模式(Zero Ventilation Model)</li>
+<li>飽和蒸氣壓模式（Saturation Vapor Pressure Model）</li>
+<li>暴露空間模式（Box Models）</li>
+<li>完全混合模式（Well-mixed Room Model）</li>
+<li>二暴露區模式（Two-Zone Model）</li>
+<li>渦流擴散模式(Turbulent Eddy diffusion model)</li>
+<li>統計推估模式(Statistical models)</li>
+<li>其他具有相同效力或可有效推估勞工暴露之推估模式</li>
+</ol></li>
+</ul>
+</section>
+<section id="推估模式方法分層tiered-approach" class="slide level2">
+<h2>推估模式方法分層(Tiered Approach)</h2>
+<p><a href="images/先期EA/T9.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="images/先期EA/T9.png" style="width:100.0%"></a></p>
+</section>
+<section id="basic-pollutant-generation-rates" class="slide level2">
+<h2>BASIC: Pollutant Generation Rates</h2>
+<ul>
+<li><p>在空氣濃度建模中，準確估算化學物質釋放到空氣中的「生成率（或稱排放率）」是極為關鍵的步驟。</p></li>
+<li><p>質量平衡法 (Mass Balance)</p>
+<ul>
+<li><strong>限制</strong>
+<ol type="1">
+<li><p><strong>無法反映短期波動</strong>：<strong>無法呈現製程中忽高忽低的間歇性釋放或極端峰值（peaks）</strong>。</p></li>
+<li><p><strong>不等於實際空氣濃度</strong>：「總排放量」不能直接等同於室內空氣的濃度。</p></li>
+</ol></li>
+</ul></li>
+<li><p>排放係數法 (Emission Factors)</p>
+<ul>
+<li><strong>限制：</strong>除了前述外，還有製程差異「排放係數是製程的函數」。</li>
+</ul></li>
+</ul>
+</section>
+<section id="tier-i-模式" class="slide level2">
+<h2>Tier I 模式</h2>
+<h3 id="無通風推估模式zero-ventilation-model">1. 無通風推估模式(Zero Ventilation Model)</h3>
+<ul>
+<li>質量守恆原理，假設最糟情境，估算密閉空間中的最終平均濃度(最高值)。其基本假設為：
+<ul>
+<li>(1) 零通風(Zero Ventilation)</li>
+<li>(2) 完全逸散與混合</li>
+<li>(3) 無移除機制</li>
+</ul></li>
+<li><strong>公式</strong> <span class="math inline">\(C_{A}=\frac{M_{A}}{V}\)</span>
+<ul>
+<li>M<sub>A</sub>​：化學品A散布至空氣中的總質量(mg)；V：無通風室內之空氣體積(m³)。</li>
+</ul></li>
+</ul>
+</section>
+<section id="實作情境--1.無通風推估模式" class="slide level2">
+<h2>實作情境- 1.無通風推估模式</h2>
+<h4 id="第一階段情境描述-scenario">第一階段：情境描述 (Scenario)</h4>
+<ul>
+<li><strong>事件發生</strong>：你是一家中型製造廠的環安衛 (EHS) 人員。某天早上，一名員工打電話請病假，表示自己有嚴重的胃痙攣。</li>
+<li><strong>懷疑主因</strong>：該員工懷疑這與他昨天打翻液體有關。昨天他在工作站打翻了一瓶化學品，隨後用工廠抹布將其擦乾。他當時覺得化學品味道很重，但沒有感到不適。</li>
+<li><strong>你的任務</strong>：由於症狀是延遲發作的，你需要針對這起非典型暴露事件進行調查。你必須推估該員工在此次溢漏事件中的暴露濃度，以判斷其腹痛是否與暴露有關。</li>
+</ul>
+</section>
+<section id="實作情境--1.無通風推估模式-續" class="slide level2">
+<h2>實作情境- 1.無通風推估模式 (續)</h2>
+<h4 id="第二階段收集建模資訊-information-gathering">第二階段：收集建模資訊 (Information Gathering)</h4>
+<ul>
+<li><strong>化學品資訊</strong>：打翻的物質是<strong>甲苯 (Toluene)</strong>。液體密度為 <strong>0.87 g/mL</strong>。容許標準 (OELs)：PEL TWA-8 (8小時時量平均容許濃度) 為 <strong>750 mg/m³</strong>；更嚴格的 TLV TWA 為 <strong>75 mg/m³</strong>。</li>
+<li><strong>暴露時間與強度</strong>：
+<ul>
+<li>背景濃度：該工作區平時典型的甲苯暴露濃度為 <strong>25 mg/m³</strong>。</li>
+<li>溢漏時間點：事件發生在 8 小時班次中的第 5 個小時（這代表溢漏後的暴露時間最多只有 <strong>3 小時</strong>）。</li>
+<li>溢漏量：原本 500 mL 的瓶子大約半滿，因此約打翻了 <strong>250 mL</strong>。揮發時間：員工用抹布擦拭後將其放在 2 公尺外晾乾，約 <strong>2 小時後</strong>抹布全乾（代表甲苯已全數揮發）。</li>
+</ul></li>
+<li><strong>空間資訊</strong>：
+<ul>
+<li>房間尺寸為 10公尺 × 8公尺 × 3公尺高，算出總體積 (V) 為 <strong>240 m³</strong>。房間缺乏明確的通風率數據，也沒有機械排氣設備。</li>
+</ul></li>
+</ul>
+</section>
+<section id="實作情境--1.無通風推估模式-續-1" class="slide level2">
+<h2>實作情境- 1.無通風推估模式 (續)</h2>
+<h4 id="第三階段模型推估演練-modeling-approach">第三階段：模型推估演練 (Modeling Approach)</h4>
+<ul>
+<li>既然沒有通風數據，請先採用最保守的「無通風模式 (Zero-Ventilation Model)」來進行初步篩選。這個模型假設房間是密封的，污染物釋放後會立刻均勻混合在空間中。</li>
+<li><strong>請估算空氣濃度 (C)，並做出結果專業判定。</strong></li>
+</ul>
+</section>
+<section id="實作情境--1.無通風推估模式-續-2" class="slide level2">
+<h2>實作情境- 1.無通風推估模式 (續)</h2>
+<h4 id="參考建議">參考建議</h4>
+<ul>
+<li>C = <strong>910 mg/m³，C</strong> (TWA-8) = <strong>360 mg/m³</strong> 低於 PEL 標準 (750 mg/m³)，但高於 TLV 標準 (75 mg/m³)</li>
+<li><strong>風險等級：？</strong></li>
+<li>建議：改用「完全混合房間模型 (Well-Mixed Room Model)」重新計算更準確的數值。</li>
+<li><strong>健康關聯判定</strong>：對照安全資料表，甲苯通常造成的健康影響是眼鼻刺激、頭暈等急性症狀，與該員工「延遲發作的胃痙攣」並不吻合。因此可以推論其病症很可能與此次暴露無關。</li>
+<li>請試試 <a href="https://oemd.osha.gov.tw/exposure/content/tools/Tools2.aspx">官方版工具</a></li>
+<li>思考：是否適用於污水中有害物(硫化氫)逸散評估，或消防系統窒息性氣體(壓縮二氧化碳)於地下室突洩情境評估？</li>
+</ul>
+</section>
+<section id="tier-i-模式-1" class="slide level2">
+<h2>Tier I 模式</h2>
+<h3 id="蒸氣壓模型vapor-pressure-models"><strong>2.蒸氣壓模型（Vapor Pressure Models）</strong></h3>
+<ul>
+<li>包含飽和蒸氣壓模式、液體裝填釋放模式、開放液面蒸發模式及加壓容器洩漏釋放模式等。</li>
+<li>飽和蒸氣壓模式：評估最糟暴露情境</li>
+</ul>
+<table class="caption-top">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 63%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>簡化公式<span class="math inline">\(\frac{VP_A}{P_{atm}} \cdot 10^6 = \text{ppm}\)</span></td>
+<td>單位換算 (原ppm)<span class="math inline">\(\frac{VP_A}{P_{atm}} \cdot 10^6 \cdot \frac{\text{MW}}{24.45} = \text{mg/m}^3\)</span></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>留意應用限制與專業考量</li>
+</ul>
+</section>
+<section id="實作情境-2.蒸氣壓模型" class="slide level2">
+<h2>實作情境-2.<strong>蒸氣壓模型</strong></h2>
+<h4 id="第一階段情境描述-tenberge2009a">第一階段：情境描述 <span class="citation" data-cites="tenberge2009a">[<a href="#/參考資料" role="doc-biblioref" onclick="">2</a>]</span></h4>
+<ul>
+<li><strong>事件發生</strong>：週末過後，一名勞工打開了實驗室的化學品儲存櫃。他發現櫃內有一瓶 500 mL 廣口瓶的揮發性液體被忘記蓋上蓋子。瓶內還有液體，且儲存櫃內散發出極度強烈的溶劑氣味。該勞工立刻將瓶蓋鎖緊，但因為氣味太過強烈，他隨即離開房間（儲存櫃的門保持敞開），並通報環安室。</li>
+<li><strong>任務</strong>：身為環安衛人員，您必須推算：<strong>當這名勞工打開櫃門的那一瞬間，他面臨的暴露濃度有多高？</strong></li>
+</ul>
+</section>
+<section id="實作情境--2.蒸氣壓模型-續" class="slide level2">
+<h2>實作情境- 2.<strong>蒸氣壓模型 (續)</strong></h2>
+<h4 id="第二階段收集建模資訊">第二階段：收集建模資訊</h4>
+<ul>
+<li><p><strong>化學品資訊 (正己烷, n-Hexane)</strong>：分子量 (MW)：<strong>86.2 g/mol</strong></p>
+<ul>
+<li>液體密度 (ρ)：<strong>0.66 g/mL，</strong>蒸氣壓 (Pv​)：<strong>124 mmHg</strong></li>
+<li>爆炸極限：下限 (LEL) 為 <strong>1.1% (11,000 ppm)</strong>；上限 (UEL) 為 <strong>7.5% (75,000 ppm)</strong></li>
+<li><strong>容許標準 (OELs)</strong>：PEL TWA-8 (美國法定 8 小時容許濃度)：<strong>1,760 mg/m³；</strong>TLV TWA (更嚴格的建議值)：<strong>176 mg/m³；</strong>IDLH (立即致危濃度)：<strong>3,880 mg/m³</strong></li>
+<li><strong>空間資訊 (儲存櫃內部空間)</strong>：85 × 40× 40 cm= <strong>0.136 m³</strong>。</li>
+</ul></li>
+</ul>
+</section>
+<section id="實作情境--2.蒸氣壓模型-續-1" class="slide level2">
+<h2>實作情境- 2.<strong>蒸氣壓模型 (續)</strong></h2>
+<ul>
+<li><strong>請估算空氣濃度 (C)，並做出結果專業判定。</strong></li>
+</ul>
+</section>
+<section id="實作情境--2.蒸氣壓模型-續-2" class="slide level2">
+<h2><strong>2.</strong>實作情境- 2.<strong>蒸氣壓模型 (續)</strong></h2>
+<h4 id="第三階段模型推估演練-飽和蒸氣壓模型">第三階段：模型推估演練 (飽和蒸氣壓模型)</h4>
+<ul>
+<li>C = <strong>163,000&nbsp;ppm = 575,000&nbsp;mg/m³</strong></li>
+<li>驗證可達到飽和狀態？ (yes)
+<ul>
+<li>計算所需揮發質量575,000&nbsp;mg/m³×0.136&nbsp;m³=78,200&nbsp;mg</li>
+<li>換算為液體體積：78,200&nbsp;mg×(1&nbsp;g/1,000&nbsp;mg)/0.66&nbsp;g/mL=<strong>118&nbsp;mL</strong></li>
+</ul></li>
+</ul>
+</section>
+<section id="實作情境-蒸氣壓模型-續" class="slide level2">
+<h2><strong>2.</strong>實作情境-<strong>蒸氣壓模型 (續)</strong></h2>
+<h4 id="第四階段結果判定-interpreting-the-result">第四階段：結果判定 (Interpreting the Result)</h4>
+<ul>
+<li>遠超過了 IDLH (3,880 mg/m³) 與所有的 OELs 標準。</li>
+<li>TWA-8 依然高達 <strong>2,400 mg/m³？建議應立即安排該名勞工進行健康檢查。</strong></li>
+<li>火災/爆炸風險？
+<ul>
+<li>163,000 ppm 相當於空氣中有 <strong>16.3%</strong> 的正己烷氣體。</li>
+<li>這個數值不僅超過了爆炸下限 (LEL 1.1%)，甚至超過了爆炸上限 (UEL 7.5%)。</li>
+<li>當櫃門被打開、高濃度氣體往外擴散並被房間空氣稀釋的過程中，濃度一定會無可避免地「穿越」爆炸範圍（降至 7.5% 與 1.1% 之間）。此時只要有任何火花，就會引發嚴重的爆炸危險。</li>
+</ul></li>
+<li>請試試 <a href="https://oemd.osha.gov.tw/exposure/content/tools/Tools3.aspx">官方工具</a></li>
+</ul>
+</section>
+<section id="tier-i-模式-2" class="slide level2">
+<h2>Tier I 模式</h2>
+<h3 id="暴露空間模式box-models">3.暴露空間模式（Box Models）</h3>
+<ul>
+<li>基本元素：污染物釋放(G)及擴散(ventilation)</li>
+<li>時間濃度解
+<ul>
+<li>CA,room,0：初始濃度 (t=0)。 無沉降損失：K<sub>sink</sub>=0。(忽略沉降損失)。G<sub>A</sub>：恒定生成速率。 C<sub>A,in</sub>：進氣濃度。Q：通風率(m³/s)。</li>
+</ul></li>
+</ul>
+<p><span class="math inline">\(C_{A,\mathrm{room},t}
+=
+\left(
+C_{A,\mathrm{room},0}
+-
+C_{A,\mathrm{in}}
+-
+\frac{G_A}{Q}
+\right)
+e^{-\frac{Q(t-t_0)}{V}}
++
+C_{A,\mathrm{in}}
++
+\frac{G_A}{Q}\)</span></p>
+<ul>
+<li>穩態濃度</li>
+</ul>
+<p><span class="math inline">\(C_{A,\mathrm{room},\mathrm{SS}}=C_{A,\mathrm{in}}+\frac{G_A}{Q}\)</span></p>
+<ul>
+<li>平均暴露濃度-時間加權</li>
+</ul>
+<p><span class="math inline">\(C_{\mathrm{avg}}=C_{A,\mathrm{in}}+\frac{G_A}{Q}+\frac{V}{Q(t-t_0)}\left[\left(C_{A,\mathrm{room},0}-C_{A,\mathrm{in}}-\frac{G_A}{Q}\right)\left(e^{-\frac{Q(t-t_0)}{V}}-1\right)\right]\)</span></p>
+</section>
+<section id="實作情境-3.暴露空間模式" class="slide level2">
+<h2>實作情境-3.暴露空間模式</h2>
+<ul>
+<li><p>情境描述：在一間尺寸為5m×6m×2m(體積V=60 m³)的實驗室內，一名勞工將進行甲苯塗層作業。已知該作業的甲苯逸散率G經評估為50 mg/s。實驗室的通風換氣率Q為0.1 m³/s。作業開始前，室內與進氣的甲苯背景濃度均為10 mg/m³。假設：完全混合、無沉積效應(Sinks)。</p>
+<ol type="1">
+<li>請評估作業開始20分鐘後，實驗室內的平均甲苯濃度，以判斷是否可能超過短時間暴露限值。</li>
+<li>請估算房間內甲苯的穩態濃度，並評估其暴露風險。</li>
+</ol></li>
+<li><p>請試試 <a href="https://oemd.osha.gov.tw/exposure/content/tools/Tools4.aspx">官方工具</a></p></li>
+</ul>
+</section>
+<section id="tier-ii-模式" class="slide level2">
+<h2>Tier II 模式</h2>
+<h3 id="完全混合模式well-mixed-room-model-wmr">4.完全混合模式(Well-mixed Room Model, WMR)</h3>
+<ul>
+<li>當G, Q, and/or CA.in發生變化的動態情境下的建模
+<ul>
+<li>在許多真實情境下，污染物的生成率 (G)、通風量 (Q)，或是進氣中的污染物濃度 (CA,in​) 都會隨著時間而改變。</li>
+</ul></li>
+<li>模式包括濃度隨時間的動態變化解、穩態濃度解，以及考量背壓效應(back pressure effect)、間歇性排放等進階情境。</li>
+<li>濃度變化估算公式</li>
+</ul>
+<table class="caption-top">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>微分質量平衡的數值解</p>
+<p><span class="math inline">\(\frac{dC_{A,\text{room}}}{dt} = C_{A,\text{room}} \cdot A(t) + B(t)\)</span></p></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(A(t) = \left[ \frac{-(Q + K_{\text{sink}})}{V} \right]\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(B(t) = \frac{Q_A}{V} \cdot C_{A,\text{in}} + \frac{G_A}{V}\)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="實作情境--4.完全混合模式動態變化" class="slide level2">
+<h2>實作情境- 4.完全混合模式(動態變化)</h2>
+<h4 id="有機溶劑塗佈-濃度動態變化">有機溶劑塗佈-濃度動態變化</h4>
+<ul>
+<li>某工廠零件塗佈機在室溫波動環境下運行，需評估甲苯濃度的動態變化及勞工暴露風險。<strong>已知條件</strong>：<strong>房間</strong>體積V=25 m3，通風率Q=1.0 m3/min(換氣次數2.4ACH)。<strong>甲苯排放率</strong>隨溫度變化(增減)，可依據Clausius-Clapeyron方程估算。</li>
+</ul>
+<p><span class="math inline">\(G_A(T) = 450 \cdot \exp \left[ 4660 \left( \frac{1}{294.3} - \frac{1}{T + 273.15} \right) \right] \text{ mg/min}\)</span></p>
+<p><a href="images/先期EA/F5_1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img data-src="images/先期EA/F5_1.png" style="width:50.0%"></a></p>
+<ul>
+<li><p>在作業持續480分鐘(8小時)後，濃度逐漸趨於穩定，最終達到約195 ppm。</p></li>
+<li><p>請提出你的風險評估與後續行動 (手冊說的恰當嗎？)</p></li>
+</ul>
+</section>
+<section id="實作情境--4.完全混合模式動態變化-續" class="slide level2">
+<h2>實作情境- 4.完全混合模式(動態變化) (續)</h2>
+<h4 id="第一階段情境描述-排放率隨時間指數遞減acase-b2023">第一階段：情境描述 (排放率隨時間指數遞減)<span class="citation" data-cites="acase-b2023">[<a href="#/參考資料" role="doc-biblioref" onclick="">3</a>]</span></h4>
+<ul>
+<li><strong>作業內容</strong>：某中型製造廠的員工在生產線旁清潔面板。每 3 分鐘會有一塊面板經過，員工會用噴瓶將含 4% 醋酸 (Acetic Acid) 的清潔液噴灑在面板上，接著用紙巾擦拭。</li>
+<li><strong>作息時間</strong>：員工早上 8:00 上班，10:00 休息 15 分鐘，12:00 午餐休息 30 分鐘，14:30 再休息 15 分鐘，16:00 下班。休息期間員工離開工作站，暴露為零。</li>
+<li><strong>評估</strong>：醋酸的蒸氣壓較低，揮發速度慢。如果假設它「瞬間完全揮發」，算出來的濃度會被過度高估（TWA-8 約為 7 mg/m³）。因此，建立一個「隨時間變動、緩慢揮發並疊加」的排放指數遞減模型，來求得更精確的暴露濃度。</li>
+</ul>
+</section>
+<section id="實作情境--4.完全混合模式動態變化-續-1" class="slide level2">
+<h2>實作情境- 4.完全混合模式(動態變化) (續)</h2>
+<ul>
+<li>濃度解(排放指數遞減)</li>
+</ul>
+<p><span class="math inline">\(C_t = \sum_{i=1}^{n} \frac{\alpha \cdot M}{\alpha \cdot V - Q} \cdot \left( e^{\frac{-Q \cdot t_i}{V}} - e^{-\alpha \cdot (t - t_i)} \right)\)</span></p>
+<h4 id="第二階段收集建模參數">第二階段：收集建模參數</h4>
+<ul>
+<li><p>α <strong>(排放率常數)</strong>：根據文獻，類似擦拭作業的醋酸排放率常數約為 <strong>0.006 min⁻¹</strong>。</p></li>
+<li><p><strong>M (每次投入質量)</strong>：經換算清潔液的濃度與噴灑體積，每次清潔一塊面板會投入 <strong>481 mg</strong> 的醋酸。</p></li>
+<li><p><strong>V (箱體體積)</strong>：根據工作站與員工活動範圍，設定一個虛擬的完全混合箱體，體積為 <strong>18.75 m³</strong>。</p></li>
+<li><p><strong>Q (通風量)</strong>：根據現場氣流速度與箱體截面積，算出通過箱體的通風量為 <strong>20.0 m³/min</strong>。</p></li>
+</ul>
+</section>
+<section id="實作情境--4.完全混合模式動態變化-續-2" class="slide level2">
+<h2>實作情境- 4.完全混合模式(動態變化) (續)</h2>
+<h4 id="第三階段數學模型估算">第三階段：數學模型估算</h4>
+<ul>
+<li><strong>單次噴灑的濃度變化</strong>：指數遞減的揮發率與通風稀釋。每一次噴灑（投入 M = 481 mg）後，醋酸會慢慢揮發，同時又被通風 (Q) 帶走。</li>
+<li><strong>估算連續作業的濃度疊加</strong>：每 3 分鐘就會噴灑一次新的面板，前一次噴灑的醋酸還沒揮發完，新的醋酸又加進來了。因此，特定時間點的總濃度，是「所有過去噴灑」在該時間點殘留濃度的<strong>總和</strong>。</li>
+</ul>
+</section>
+<section id="實作情境--4.完全混合模式動態變化-續-3" class="slide level2">
+<h2>實作情境- 4.完全混合模式(動態變化) (續)</h2>
+<h4 id="第四階段結果判定-interpreting-the-result-1">第四階段：結果判定 (Interpreting the Result)</h4>
+<ul>
+<li>透過試算表完成一整天 8 小時 (480 分鐘) 的模擬後，您可以進行以下決策：</li>
+</ul>
+<ol type="1">
+<li><p><strong>檢視最大極值</strong>： 隨著時間推移，作業區的氣體濃度會像爬樓梯一樣慢慢累積，並在班次結束前達到最高峰的 <strong>6.6 mg/m³</strong>。</p></li>
+<li><p><strong>計算 TWA-8 (8小時時量平均濃度)</strong>： 將各個工作時段與休息時段的濃度平均起來，算出該員工真實的 TWA-8 為 <strong>4.7 mg/m³</strong>。</p></li>
+<li><p><strong>做出風險管理決策</strong>：</p>
+<ul>
+<li>法定標準 (PEL/TLV) 為 25 mg/m³。這代表員工的暴露量符合法規標準。</li>
+<li>然而，該公司內部的安全目標是「維持在 OEL 的 10% 以下 (即 2.5 mg/m³)」。</li>
+<li><strong>最終判定</strong>：既然算出的 4.7 mg/m³ 超過了內部 10% 的標準（約佔 16%），環安衛團隊應判定此風險「無法僅憑專業判斷結案」，並決定安排後續的實體空氣採樣監測計畫來驗證此結果。</li>
+</ul></li>
+</ol>
+</section>
+<section id="tier-ii-模式-1" class="slide level2">
+<h2>Tier II 模式</h2>
+<h3 id="二暴露區模式two-zone-model">5. 二暴露區模式（Two-Zone Model）</h3>
+<ul>
+<li>又稱近場/遠場模式 (NF/FF)</li>
+<li>非WMB模式架設 - 全部空間均勻混合。
+<ul>
+<li>近場：緊鄰污染源的區域，通常涵蓋勞工的呼吸帶。
+<ul>
+<li>以污染源為中心、半徑約為1-2公尺的半球體。</li>
+</ul></li>
+<li>二區域間空氣速率(β)的進行動態質量交換。</li>
+<li>模式基本假設是：每個區域內部完全混合。</li>
+</ul></li>
+<li>特別適用：點源汙染逸散、 通風不良。</li>
+<li>模式數學公式
+<ul>
+<li>時間濃度解</li>
+</ul></li>
+</ul>
+<table class="caption-top">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(C_N(t) = \frac{G}{\left(\frac{\beta}{\beta + Q}\right)Q} + G \left[ \frac{\beta Q + \lambda_2 V_N (\beta + Q)}{\beta Q V_N (\lambda_1 - \lambda_2)} \right] e^{\lambda_1 t} - G \left[ \frac{\beta Q + \lambda_1 V_N (\beta + Q)}{\beta Q V_N (\lambda_1 - \lambda_2)} \right] e^{\lambda_2 t}\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(C_F(t) = \frac{G}{Q} + G \left[ \frac{\lambda_1 V_N + \beta}{\beta} \right] \left[ \frac{\beta Q + \lambda_2 V_N (\beta + Q)}{\beta Q V_N (\lambda_1 - \lambda_2)} \right] e^{\lambda_1 t} - G \left[ \frac{\lambda_2 V_N + \beta}{\beta} \right] \left[ \frac{\beta Q + \lambda_1 V_N (\beta + Q)}{\beta Q V_N (\lambda_1 - \lambda_2)} \right] e^{\lambda_2 t}\)</span></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>穩態濃度</li>
+</ul>
+<table class="caption-top">
+<colgroup>
+<col style="width: 62%">
+<col style="width: 37%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(C_{N,SS} = \frac{G}{Q} + \frac{G}{\beta}\)</span></td>
+<td><span class="math inline">\(C_{F,SS} = \frac{G}{Q}\)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="實作情境1--5.二暴露區模式" class="slide level2">
+<h2>實作情境1- 5.二暴露區模式</h2>
+<ul>
+<li>情境描述：一名勞工坐在工作台旁，手動塗抹含甲苯的黏合劑，甲苯以恆定速率&nbsp;G=1,000 mg/min蒸發。</li>
+<li>近場(NF)：假設為半球形(半徑&nbsp;r = 0.76 m)，體積V<sub>N</sub> = 0.93 m<sup>3</sup>，自由表面積&nbsp;FSA=3.6 m<sup>2</sup>。空氣流速：隨機空氣速度S=3.7 m/min(中位數)。</li>
+<li>房間參數：總體積200 m<sup>3</sup>，通風速率&nbsp;Q=20 m<sup>3</sup>/min(每小時6次換氣)，初始條件：甲苯濃度為 0。</li>
+<li>請進行該名勞工暴露評估。</li>
+</ul>
+</section>
+<section id="實作情境--5.二暴露區模式-續" class="slide level2">
+<h2>實作情境- 5.二暴露區模式 (續)</h2>
+<ul>
+<li><p>暴露濃度推估？</p></li>
+<li><p>暴露風險與建議行動？</p></li>
+<li><p>試試 <a href="https://oemd.osha.gov.tw/exposure/content/tools/Tools5.aspx">官方版工具</a></p></li>
+</ul>
+</section>
+<section id="實作情境2--5.二暴露區模式-續" class="slide level2">
+<h2>實作情境2- 5.二暴露區模式 (續)</h2>
+<h4 id="回溯性評估個案">回溯性評估個案</h4>
+<h4 id="第一階段情境描述">第一階段：情境描述</h4>
+<ul>
+<li><strong>事件背景</strong>：一家製造廠使用了「開放式三氯乙烯（TCE）蒸氣脫脂槽」來清洗金屬零件。當時在該廠工作的勞工後來出現了不良健康反應，並引發了法律訴訟。</li>
+<li><strong>現場狀況</strong>：勞工每天會在脫脂槽附近（距離幾公尺的長凳上）進行零件準備與組裝，也會直接操作脫脂槽。廠方缺乏系統性的暴露評估紀錄，僅有三筆濃度數據（22、25、40 mg/m³），但缺乏採樣位置、時間與人員的資訊，無法直接採用。</li>
+<li><strong>任務</strong>：身為專家，您必須利用數學建模來回溯推估當時脫脂槽周圍的 TCE 歷史濃度，以釐清這些暴露是否可能導致勞工的健康危害。</li>
+</ul>
+</section>
+<section id="實作情境2--5.二暴露區模式-續-1" class="slide level2">
+<h2>實作情境2- 5.二暴露區模式 (續)</h2>
+<h4 id="第二階段收集建模資訊-1">第二階段：收集建模資訊</h4>
+<ul>
+<li><strong>化學品</strong>：TCE 是一種無色、具甜味且高度揮發的液體。其法定的 PEL TWA-8 為 537 mg/m³，但更嚴格的建議標準 TLV TWA 僅為 <strong>54 mg/m³</strong>。</li>
+<li><strong>計算排放率 (G)</strong>：
+<ul>
+<li>根據文獻，開放式 TCE 脫脂槽的排放係數為 2.9 g/min/m²。脫脂槽的開放表面積為 1.14 m²。推算排放率約等於 <strong>3,300 mg/min</strong>。</li>
+</ul></li>
+<li><strong>計算房間通風量 (Q)</strong>：
+<ul>
+<li>房間有 4 個送風口，每個設計風量為 650 ft³/min，總通風量為 2,600 ft³/min。換算為公制單位：Q=<strong>73.6&nbsp;m</strong>3<strong>/min</strong>。</li>
+</ul></li>
+</ul>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><a href="images/先期EA/F7_1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img data-src="images/先期EA/F7_1.png"></a></td>
+<td><a href="images/先期EA/F7_2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img data-src="images/先期EA/F7_2.png"></a></td>
+<td><a href="images/先期EA/F7_4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img data-src="images/先期EA/F7_4.png"></a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="實作情境2--5.二暴露區模式-續-2" class="slide level2">
+<h2>實作情境2- 5.二暴露區模式 (續)</h2>
+<h4 id="第三階段雙區模型推估">第三階段：雙區模型推估</h4>
+<ul>
+<li><strong>遠區穩態濃度 (</strong>CF,SS​<strong>)</strong> ：遠區的濃度是由整體的通風量來稀釋。公式：CF,SS​=G/Q = <strong>45&nbsp;mg/m</strong>3</li>
+<li><strong>區域間空氣交換率 (</strong>β<strong>)</strong> ：公式：β=1/2​×FSA×s = 0.5×26.5&nbsp;m2×3.7&nbsp;m/min(文獻)=<strong>49.0&nbsp;m</strong>3<strong>/min</strong></li>
+<li><strong>計算近區穩態濃度 (</strong>CN,SS​<strong>)</strong> 近區濃度 = 遠區的背景濃度 + 污染源在近區產生的局部濃度。公式：CN,SS​=(G/Q)+(G/β) = <strong>112&nbsp;mg/m</strong>3</li>
+</ul>
+</section>
+<section id="實作情境2--5.二暴露區模式-續-3" class="slide level2">
+<h2>實作情境2- 5.二暴露區模式 (續)</h2>
+<h4 id="第四階段結果判定與風險評估">第四階段：結果判定與風險評估</h4>
+<ul>
+<li><p><strong>計算 8 小時時量平均濃度 (TWA-8)</strong></p>
+<ul>
+<li><strong>勞工作息</strong>：8 小時的班次 (480 分鐘) 中，有 60 分鐘在午餐與休息區 (濃度為 0)；在作業房間內的 420 分鐘裡，約 20% 的時間 (84 分鐘) 待在近區，80% 的時間 (336 分鐘) 待在遠區。</li>
+</ul></li>
+<li><p><strong>TWA 計算</strong>： <span class="math inline">\(\frac{(112\text{ mg/m}^3 \times 84\text{ min}) + (45\text{ mg/m}^3 \times 336\text{ min}) + (0 \times 60\text{ min})}{480\text{ min}}\)</span></p>
+<p>​=<strong>51&nbsp;mg/m</strong>3</p></li>
+<li><p><strong>風險評估與敏感度分析</strong></p>
+<ul>
+<li><strong>比對標準</strong>：推算 TWA 為 51 mg/m³，這個數值剛好落在 TLV 標準 (54 mg/m³) 的邊緣。這代表當時勞工的暴露風險確實不容忽視。</li>
+</ul></li>
+<li><p><strong>試算表與情境變更</strong>：在法庭上，可能會質疑參數設定。您可以利用模型，隨時調整變數來因應質疑。例如，若對方主張「當時設備老舊排氣不佳，且冷卻盤管故障導致排放量多 30%」，您只要將參數更改，模型就能立即算出新的 TWA 為 <strong>89 mg/m³</strong>。此結果明顯超標，更能支持勞工暴露過量的主張。</p></li>
+</ul>
+</section>
+<section id="tier-ii-模式-2" class="slide level2">
+<h2>Tier II 模式</h2>
+<h3 id="渦流擴散模式turbulent-eddy-diffusion-model">6.渦流擴散模式(Turbulent Eddy diffusion model)</h3>
+<p>(略) 自行參酌技術手冊介紹，使用 官方版工具</p>
+</section>
+<section id="tier-iii-模式" class="slide level2">
+<h2>Tier III 模式</h2>
+<h3 id="統計推估模式statistical-models">7.統計推估模式(Statistical Models)</h3>
+<ul>
+<li>從「已發生的暴露數據」著手，運用統計學方法來「解釋」濃度變化的原因，並據此建立預測模型。</li>
+<li>模式種類：參見技術手冊 表 7 統計模式整理表</li>
+<li>實作情境：(略) 請參考技術手冊</li>
+</ul>
+</section>
+<section id="模式選用-搭配工具" class="slide level2">
+<h2>模式選用 (搭配工具)</h2>
+<ul>
+<li>面對特定的暴露情境，該如何選擇最合適的評估模式？</li>
+<li>「多層次評估」(Tiered Approach)概念(AIHA)
+<ul>
+<li>Tier I 模式(第一層初步篩選模式)</li>
+<li>Tier II 模式(第二層精緻化評估模式)</li>
+<li>Tier III 模式(第三層機率性評估模式)</li>
+</ul></li>
+<li>模式演練 (WMB + 蒙地卡羅模型)</li>
+</ul>
+</section>
+<section id="實作演練比較-wmb-蒙地卡羅模型" class="slide level2">
+<h2>實作演練比較 (WMB + 蒙地卡羅模型)</h2>
+<h4 id="第一階段情境描述-1">第一階段：情境描述</h4>
+<ul>
+<li><strong>事件</strong>：一所大學化學系老師反映，在進行有機化學實驗（使用二氯甲烷進行萃取）時，溶劑氣味特別明顯。因為學校預算吃緊，在花錢進行實體空氣採樣之前，您希望先透過數學建模來進行初步的暴露評估。</li>
+<li><strong>任務</strong>：推算實驗室內的二氯甲烷（Methylene Chloride, MeCl2）濃度，並評估學生的暴露風險是否在可接受範圍內。</li>
+</ul>
+<p><a href="images/先期EA/F12_1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img data-src="images/先期EA/F12_1.png" style="width:50.0%"></a></p>
+</section>
+<section id="實作演練比較-續" class="slide level2">
+<h2>實作演練比較 (續)</h2>
+<h4 id="第二階段收集建模資訊-2">第二階段：收集建模資訊</h4>
+<ul>
+<li>透過SDS、閱讀實驗手冊並與講師訪談，收集以下關鍵數據：
+<ul>
+<li><strong>化學品與法規標準</strong>：二氯甲烷的液體密度為 1.33 g/mL，法定的 PEL TWA-8 為 <strong>87 mg/m³</strong>。</li>
+</ul></li>
+<li><strong>空間與通風資訊</strong>：實驗室體積為 294 m³。透過測量排氣櫃表面風速，估算出房間平均總通風量 (Q) 波動範圍落在 <strong>67 至 133 m³/min</strong> 之間。</li>
+<li><strong>作業與排放資訊</strong>：
+<ul>
+<li><strong>時間</strong>：實驗課程長度為 180 分鐘。每班最多 24 名學生，但也可能少至 12 名學生。每位學生配發 60 mL 溶劑。實際上學生會回收溶劑，真正揮發的量約在 10 至 40 mL 之間。因此，推估每位學生的實際排放率落在 <strong>74 至 296 mg/min</strong> 之間。</li>
+</ul></li>
+</ul>
+</section>
+<section id="實作演練比較-續-1" class="slide level2">
+<h2>實作演練比較 (續)</h2>
+<h4 id="第三階段模型推估">第三階段：模型推估</h4>
+<h4 id="模式一wmb-最壞與最佳情況">模式一：(WMB) (最壞與最佳情況)</h4>
+<ol type="1">
+<li><strong>最壞情況</strong>：假設 24 名學生將 60 mL 溶劑全數揮發 (總排放率 G = 10,640 mg/min)，且通風量為 67 m³/min。
+<ul>
+<li>計算：Css​=G/Q=10,640/97=<strong>159&nbsp;mg/m³</strong>。此數值高於 PEL (87 mg/m³)。</li>
+</ul></li>
+<li><strong>最佳情況</strong> ：只有 12 名學生，且操作謹慎（每人排放 74 mg/min），且通風量達到最高的 133 m³/min。
+<ul>
+<li>計算：Css​=(12×74)/133=<strong>6.7&nbsp;mg/m³</strong>。</li>
+</ul></li>
+</ol>
+<ul>
+<li><strong>風險評估決策？</strong>：算出的濃度範圍從 6.7 到 159 mg/m³，範圍極大。實務上，「所有最壞條件同時發生」或「所有最佳條件同時發生」的機率微乎其微。</li>
+</ul>
+</section>
+<section id="實作演練比較-續-2" class="slide level2">
+<h2>實作演練比較 (續)</h2>
+<h4 id="模式二蒙地卡羅模型-機率性推估">模式二：蒙地卡羅模型 機率性推估</h4>
+<ul>
+<li>實作：使用 AIHA <a href="https://www.aiha.org/public-resources/healthierworkplaces/workplace-hazards/apps-and-tools-resource-center/aiha-risk-assessment-tools/ihmod-tool"><strong>IHMOD Tool</strong></a></li>
+</ul>
+</section>
+<section id="課程結論" class="slide level2">
+<h2>課程結論</h2>
+<ol type="1">
+<li class="fragment">數學建模的目的並非要完全取代實體的空氣採樣，而是作為暴露評估的第一道、也是最具成本效益的篩選工具。</li>
+<li class="fragment">模型的選擇具備「階層性」：從極端保守到貼近真實。</li>
+<li class="fragment">評估成敗的關鍵在於數據品質。</li>
+<li class="fragment">多利用工具軟體</li>
+<li class="fragment">決策的核心：推估值與 OEL 的比較與專業建議</li>
+</ol>
+</section>
+<section id="參考資料" class="slide level2 smaller scrollable">
+<h2>參考資料</h2>
+<p>實作演練(<a href="EA實作演練Q.html">網頁</a>)</p>
 
 
 <div id="refs" class="references csl-bib-body" role="list">
 <div id="ref-jahn2015b" class="csl-entry" role="listitem">
 <div class="csl-left-margin">1. </div><div class="csl-right-inline">Jahn SD, Bullock WH, Ignacio JS, others (2015) A strategy for assessing and managing occupational exposures. AIHA Fairfax, VA</div>
 </div>
+<div id="ref-tenberge2009a" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Ten Berge WF, Simmons CE, Anthony RT (2009) Mathematical models for estimating occupational exposure to chemicals, 2nd ed. AIHA</div>
 </div>
-</section>
+<div id="ref-acase-b2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Keil C (2023) A case-based introduction to modeling occupational inhalation exposures to chemicals. AIHA, Falls Church, VA</div>
+</div>
+</div>
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">

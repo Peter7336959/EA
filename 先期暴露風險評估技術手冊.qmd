@@ -673,4 +673,4 @@ $C_t = \sum_{i=1}^{n} \frac{\alpha \cdot M}{\alpha \cdot V - Q} \cdot \left( e^{
 
 ## 參考資料
 
-實作演練([網頁](EA實作演練Q.html)) ([參考](EA實作演練A.html))
+實作演練([網頁](EA實作演練Q.html))

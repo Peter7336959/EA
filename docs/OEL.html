@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-3583d19fe7148877488d27afd856c3c0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.21">
+
+  <meta name="author" content="何明信">
+  <meta name="dcterms.date" content="2026-07-31">
+  <title>OH模式推估-何明信 – OEL ?</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-66491ebadb995524f2d267691edb411d.css">
+  <link rel="stylesheet" href="style/custom.css">
+  <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">OEL ?</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+何明信 
+</div>
+</div>
+</div>
+
+  <p class="date">2026-07-31</p>
+</section>
+<section id="講師簡介" class="slide level2">
+<h2>講師簡介</h2>
+<ul>
+<li><p>姓名：何明信</p></li>
+<li><p>學歷：成大環醫所 、職安衛技師</p></li>
+<li><p>經歷：檢查員30年 (製造、危機設、營造、化工職衛科、專委)</p></li>
+<li><p>現職：114年退休</p></li>
+<li><p>E-mail：msho7336959@gmail.com</p></li>
+</ul>
+</section>
+<section id="職業風險的暴露推估與解釋" class="slide level2">
+<h2>職業風險的暴露推估與解釋</h2>
+<h6 id="文獻waters-m.-mckernan-l.-maier-a.-jayjock-m.-schaeffer-v.-brosseau-l.-2015.-exposure-estimation-and-interpretation-of-occupational-risk-enhanced-information-for-the-occupational-risk-manager.-journal-of-occupational-and-environmental-hygiene-12sup1-s99-s111.">文獻：Waters, M., McKernan, L., Maier, A., Jayjock, M., Schaeffer, V., &amp; Brosseau, L. (2015). Exposure estimation and interpretation of occupational risk: enhanced information for the occupational risk manager.&nbsp;<em>Journal of occupational and environmental hygiene</em>,&nbsp;<em>12</em>(sup1), S99-S111.</h6>
+<ul>
+<li>職業風險在本質上是機率性的（probabilistic），最準確的看待方式是將其視為一種「分佈（distribution）」，而非單一數值。</li>
+<li>「變異性」與「不確定性」？
+<ul>
+<li><strong>變異性（Variability）</strong>：這是自然界中固有的異質性（例如勞工之間或不同工作日之間的差異），無法藉由收集更多數據來消除，只能更精確地去描述它。</li>
+<li><strong>不確定性（Uncertainty）</strong>：這是由於對暴露情境、模型參數或測量數據缺乏完美資訊所造成的。不確定性通常可以透過收集更多或更好的數據（如實體採樣）來降低。</li>
+</ul></li>
+</ul>
+</section>
+<section id="監測進階工具" class="slide level2">
+<h2>監測+進階工具？</h2>
+<ul>
+<li>OH除了傳統的實體測量，更應採用更進階的工具。</li>
+<li>數學建模與進階推估方法
+<ul>
+<li><strong>蒙地卡羅方法（Monte Carlo methods）</strong>：透過電腦隨機抽樣來量化不確定性並模擬出暴露的機率分佈。</li>
+<li><strong>貝式分析法（Bayesian methods）</strong>：結合專家的專業判斷（先驗機率）與少量的實際測量數據，來推估更可靠的暴露落點機率。</li>
+</ul></li>
+<li><strong>評估策略與實務決策工具</strong>
+<ul>
+<li>決策方法：危害商數（Hazard Quotient）、NIOSH/OSHA 的單一樣本合規判定法、AIHA 的 95 百分位數暴露評估策略，以及更嚴謹的統計檢定與貝式決策法。</li>
+<li>工具：如 <strong>IH Stats、IHMOD、SPEED 與 IH Data Analyst</strong> 等現成的量化分析軟體，鼓勵OH積極使用這些工具來視覺化暴露數據並協助決策。</li>
+</ul></li>
+</ul>
+</section>
+<section id="全球主要機構所發布的職業暴露限值oels" class="slide level2">
+<h2>全球主要機構所發布的職業暴露限值（OELs）</h2>
+<h5 id="表-1.-由各組織制定的職業暴露限值-oels">表 1. 由各組織制定的職業暴露限值 (OELs)</h5>
+<table class="caption-top">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 53%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>職業暴露限值 (OEL)</th>
+<th>定義</th>
+<th>健康基礎</th>
+<th>分析可行性</th>
+<th>經濟可行性</th>
+<th>工程可行性</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>ACGIH TLV</strong></td>
+<td>閾限值 (TLVs) 是指化學物質的空氣濃度，代表幾乎所有勞工在整個工作生涯中，日復一日反覆暴露而不會產生不良健康效應的條件。<strong>TLVs 是為了保護正常、健康的成年勞工而制定的。</strong>它們並非安全與危險暴露之間的精確界線，也不是毒性的相對指標。</td>
+<td><strong>是</strong></td>
+<td>否</td>
+<td>否</td>
+<td>否</td>
+</tr>
+<tr class="even">
+<td>AIHA-WEEL</td>
+<td>工作場所環境暴露基準 (WEELs) 是基於健康的空氣化學品 OELs，旨在缺乏其他 OELs 可用時提供實務指引。WEELs 為保護大多數勞工免受與職業化學品暴露相關的不良健康影響提供指引。WEELs 以時量平均值 (TWA) 或上限值 (ceiling limits) 來表示。</td>
+<td>是</td>
+<td>否</td>
+<td>否</td>
+<td>否</td>
+</tr>
+<tr class="odd">
+<td>DFG MAK</td>
+<td>MAK 值是每日 8 小時時量平均值，適用於健康的成年人。MAK 提供了工作場所中化學物質的最大濃度。</td>
+<td>是</td>
+<td>否</td>
+<td>否</td>
+<td>否</td>
+</tr>
+<tr class="even">
+<td>EC SCOEL</td>
+<td>SCOEL 的 8 小時時量平均暴露，代表勞工在整個工作生涯中，每週 5 天、每天 8 小時透過空氣途徑暴露，而不會對勞工自身或其後代健康造成不良影響的限值。</td>
+<td>是</td>
+<td>否</td>
+<td>否</td>
+<td>否</td>
+</tr>
+<tr class="odd">
+<td><strong>NIOSH REL</strong></td>
+<td>RELs 是由 NIOSH 建議的職業暴露限值，旨在保護勞工整個工作生涯的健康與安全。REL 通常與工程及工作實務控制、暴露與醫療監測、標示、公告、勞工訓練以及個人防護具結合使用。此限值通常以每週 40 小時工作期間內最高 10 小時工作日的時量平均值 (TWA) 來表示。</td>
+<td>是</td>
+<td>是</td>
+<td>否</td>
+<td>是</td>
+</tr>
+<tr class="even">
+<td><strong>OSHA PEL</strong></td>
+<td>OSHA 制定具強制執行力的容許暴露限值 (PELs) 以保護勞工免受暴露於有害物質的健康影響。PELs 是對空氣中物質數量或濃度的法規限制。<strong>OSHA PELs 是基於 8 小時時量平均 (TWA) 暴露來制定的。</strong></td>
+<td><strong>是</strong></td>
+<td><strong>是</strong></td>
+<td><strong>是</strong></td>
+<td><strong>是</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="職業健康風險評估核心" class="slide level2">
+<h2><strong>職業健康風險評估？(核心)</strong></h2>
+<ul>
+<li><p>要針對職業暴露情境做出基於風險的決策，通常需要將工作場所的暴露濃度與健康保護暴露限制值（OEL）進行比較。這個決策過程包含兩個主要部分：</p></li>
+<li><p><strong>暴露評估 (Exposure assessment)</strong>：表達工作場所中化學物質的暴露濃度。</p></li>
+<li><p><strong>風險特徵化 (Risk characterization)</strong>：將暴露評估的結果與化學物質的毒性效力進行比較，並將其轉化為發生不良健康結果的「風險」。</p></li>
+</ul>
+</section>
+<section id="風險特徵化-risk-characterization" class="slide level2 scrollable">
+<h2><strong>風險特徵化 (Risk characterization)</strong></h2>
+<ul>
+<li>EA 結果與OEL比較，主要方法：
+<ol type="1">
+<li><strong>危害商數 (Hazard Quotients)</strong> ：最基本的形式，<strong>HQ=暴露點估計值 / OEL</strong>。
+<ul>
+<li>接近或大於 1 時，即需要進一步檢視暴露狀況。</li>
+</ul></li>
+<li><strong>NIOSH/OSHA 合規判定法(Compliance Approaches)：</strong>採集最壞情況或來自特定相似暴露群體的隨機樣本。
+<ul>
+<li><p>將單一測量結果與 OEL 比較後，分為三類：明顯低於限值、明顯高於限值，或<strong>「太接近限值而無法立即決定」</strong>。</p></li>
+<li><p>當數值太接近時，會計算一個圍繞該測量值的「信賴區間 (CI)」。</p>
+<ul>
+<li><strong>這個信賴區間只考量了採樣與分析的誤差，完全忽略了隨時間或勞工之間改變的「環境變異性」。</strong></li>
+</ul></li>
+</ul></li>
+<li><strong>AIHA 暴露評估策略：</strong>為了解決單一測量與合規方法的盲點，AIHA) 提出全盤性的策略，旨在適用於所有勞工與所有工作日。
+<ul>
+<li><p><strong>將時量平均 OEL 視為每個「相似暴露群體 (SEG)」的暴露分佈上限（例如第 95 百分位數）</strong>。</p></li>
+<li><p>風險管理的目標是控制整個 SEG 的暴露分佈，確保其第 95 百分位數能長期維持在 OEL 以下。</p></li>
+<li><p>建議每個 SEG 至少收集 6 個測量值；此方法規範明確，<strong>但缺乏正式的統計假設檢定架構</strong>。</p></li>
+</ul></li>
+<li><strong>具備充足樣本的頻率論方法：</strong>一種結合<strong>正式假設檢定</strong>的嚴謹評估法。
+<ul>
+<li><p>要求每個受測勞工至少有兩次重複測量。首先評估數據是否符合對數常態分佈，接著使用 Wald 檢定來確認群體內的「過度暴露機率（即隨機抽取一名勞工，其平均暴露大於 OEL 的機率）」是否低於預設值（例如小於 10%）。</p></li>
+<li><p>如果暴露變化極大，控制重點將放在個人任務上；若群體變化不大但整體不合格，則需實施全面性的工程控制。</p></li>
+<li><p><strong>優缺點</strong>：最大優勢是能提供基於證據的控制措施；缺點則是當暴露量接近 OEL 時，需要非常龐大的樣本數。</p></li>
+</ul></li>
+<li><strong>貝氏方法 (Bayesian Methods)：</strong>一種極具發展潛力的方法，特別適合在<u>只有少量測量數據時使用</u>。
+<ul>
+<li><p>利用階層式貝氏更新，<strong>將「專家的專業判斷（先驗機率）」與「一或多個實際測量值」結合</strong>，推算出暴露量落在各個 OEL 比例區間的「後驗機率」。</p></li>
+<li><p>與 AIHA 策略相似，貝氏方法使用的暴露指標通常不是平均值，而是第 95 百分位數的暴露量。</p></li>
+</ul></li>
+<li><strong>輔助軟體工具：</strong>實務上常常因為缺乏工具而沒有對數據進行量化分析。目前已有許多現成的軟體工具可協助評估，將暴露數據視覺化，找出最適合的理想機率分佈，並計算出超標機率與第 95 百分位數等關鍵指標，從而做出更科學的風險決策。例如：
+<ul>
+<li><p><strong>SPEED</strong> (The Statistical Program for the Evaluation of Exposure Data)</p></li>
+<li><p><strong>IH Stats</strong> (由 AIHA 提供的 Excel 工具)</p></li>
+<li><p><strong>IH Data Analyst (IHDA)</strong></p></li>
+</ul></li>
+</ol></li>
+</ul>
+</section>
+<section id="模式推估" class="slide level2">
+<h2>模式推估？</h2>
+<h5 id="利用數學模型來量化勞工暴露並處理參數中的變異性與不確定性">利用數學模型來量化勞工暴露，並處理參數中的變異性與不確定性。</h5>
+<ul>
+<li><strong>建模取代極少量採樣的優勢</strong>
+<ul>
+<li>當空氣監測的樣本數只有 3 天或更少時，使用數學建模來估算長期的平均暴露量，實際上會比實體的空氣監測還要準確<sub><strong>(</strong>Nicas&nbsp;&amp;&nbsp;Jayjock,&nbsp;2002)</sub> 。(成本效益)</li>
+</ul></li>
+<li>處理不確定性的兩大建模策略
+<ul>
+<li><p><strong>邊界分析 (Boundary analyses)</strong>：</p>
+<ul>
+<li>這是描述整體變異性與不確定性最簡單的方式。</li>
+<li>作法是將各個輸入參數的極大值與極小值（如物理極限、偵測極限或歷史數據）帶入模型中，推算出「最壞情況 (worst case)」與「最佳情況 (best case)」。其最大優點是能直接提供反映暴露不確定性的上下限範圍。</li>
+</ul></li>
+<li><p><strong>機率性方法與蒙地卡羅模擬</strong></p></li>
+<li><p>根據每個輸入參數的機率分佈進行重複的「隨機抽樣」。</p>
+<ul>
+<li>經過多次重複計算與聚合後，會產生一個預測暴露的機率分佈圖，並提供點估計值與不確定性的區間估計。</li>
+<li>實務的職業衛生應用中，通常不會去量化各個隨機輸入變數之間的相關性。</li>
+</ul></li>
+<li><p>敏感度分析 (Sensitivity analyses)</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="小結" class="slide level2">
+<h2>小結</h2>
+<ul>
+<li><p><strong>職業風險本質上是「機率性的 (probabilistic)」</strong></p></li>
+<li><p>EA/RA 必須展示並溝通「變異性」與「不確定性」</p></li>
+<li><p><strong>加強相關教育與輔助工具的推廣</strong></p>
+<ul>
+<li>加強對這些機率與統計技術的教育和推廣，並為從業人員提供實用的使用者指南與相關資訊。</li>
+</ul></li>
+</ul>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': true,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': true,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'slow',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 720,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
+              }
+            }
+            return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

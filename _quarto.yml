@@ -32,15 +32,18 @@ website:
       - text: 模式推估
         href: MSA.qmd
       - text: 直讀式儀器與RPE
-        href: noise_EA.qmd
-      - text: 噪音-高溫EA
-        href: EA.qmd
-      - text: HPD與噪音暴露風險
-        href: others.qmd
-      - text: 其他(安全議題)
+#        href: noise_EA.qmd
+#      - text: 噪音-高溫EA
+#        href: EA.qmd
+#      - text: HPD與噪音暴露風險
+#        href: others.qmd
+#      - text: 其他(安全議題)
       - text: 先期暴露風險評估技術手冊
         href: 先期暴露風險評估技術手冊.qmd
         target: _blank        
+      - text: OEL與EA
+        href: OEL.qmd
+        target: _blank             
 
     search: true
     background: darkgreen

@@ -43,7 +43,10 @@ website:
         target: _blank        
       - text: OEL與EA
         href: OEL.qmd
-        target: _blank             
+        target: _blank
+      - text: 115技師班
+        href: 案例分析及演練(115技師班).qmd
+        target: _blank                     
 
     search: true
     background: darkgreen

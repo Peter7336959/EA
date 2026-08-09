@@ -1,0 +1,226 @@
+---
+title: "EA 案例分析及演練"
+subtitle: "(115技師班，含作業環境監測計畫及監測結果報告撰寫實務)"
+author: "Peter Ho."
+date: "2026-08-07"
+format:
+  revealjs:
+    theme: default
+#    smaller: true
+    scrollable: true
+    navigation-mode: linear
+    controls: true
+    center-title-slide: false
+#    transition: slide
+    transition-speed: slow
+    slide-number: c/t
+#    chalkboard: true
+#    preview-links: auto
+    toc-title: "課程目錄"    
+#    footer: "prepared by Peter Ho."
+    logo: "images/logo.jpg"
+    toc: true
+    toc-depth: 1
+    hash: true
+    embed-resources: false
+    slide-level: 2
+    code-link: true
+    incremental: false
+#    center: true
+    background-transition: fade
+    width: 100%
+    height: 900
+    css: style/custom.css
+---
+
+## 講師簡介 {.custom}
+
+- 姓名：何明信
+- 學歷：成大環醫所 、職安衛技師
+- 經歷：檢查員30年 (製造、危機設、營造、化工**職衛科**、專委)
+- 現職：114年退休
+- E-mail：msho7336959\@gmail.com
+
+# 1.案例分析及演練
+
+## 暴露評估基本回顧
+
+::: incremental
+- **源頭**：採樣策略規劃
+  - 《勞工作業環境監測實施辦法》第9條規定，雇主在實施監測前，應就[作業環境危害特性]{.underline}、監測[目的]{.underline}，[**規劃採樣策略**]{.underline}，並訂定包含採樣策略之「作業環境監測計畫」（以下簡稱[監測計畫]{.underline}）確實執行 。
+- **Q**：監測計畫應涵蓋哪**6大要素**
+- **Q**：評估甚麼風險？ (暴露風險/健康風險？)
+:::
+
+## 暴露風險評估 EA？
+
+請問(老師請教學員)
+
+::: incremental
+- **暴露評估(EA)？** ([2](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL075605&flno=2)) ，([2](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL015045&flno=2))
+- 管理分級？ (2 & [7](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL075605&flno=7))
+- 依監測辦法實施定期監測，需分級管理？ ([10](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL075605&flno=10)) (各有定見？)
+- **如何EA (工具方法)？** (有PEL&大型 [5](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=5)，[6](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=6)) ([8](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=8))
+:::
+
+**Q**：這些都需要**數據**？ (只有適用環測辦法才要？)
+
+## **暴露評估判定與分級？**
+
+請問(老師請教學員)
+
+- 統計機制 **(**與 **PEL比較？）**([7](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=7))
+- 管理分3級？對應措施？AIHA-5級？ ([10](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL075605&flno=10))
+  - 作業場所分級管理清單？ ([10](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=10))
+- AIHA分級管理？(後面有空再介紹)
+
+# 2.監測計畫 (採樣策略)
+
+接下來，說說監測辦法...
+
+::: incremental
+- 採樣是為了收集數據？
+- 專業「監測評估小組」？ 做那些事？產出？([10](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL015045&flno=10))
+- 規劃採樣策略？
+  - 準備資訊？前置作業？
+:::
+
+## 採樣策略？
+
+::: incremental
+- 合規性（Compliance）單點監測？
+- 全盤性暴露評估策略(Comprehensive Exposure Assessment Strategy) ？
+- 採樣策略擬定技術手冊？
+
+![](images/cases%20study/F1.jpeg){.lightbox width="360"}
+:::
+
+## 規劃採樣策略？
+
+#### **需要準備哪些資訊**？
+
+- 工作場所資訊 + 暴露資訊(人+時) + 危害健康物質資訊 + 既有資訊(歷史暴露與健康檢查資料)
+
+#### **需要那些人合作？ 需具備哪些技能？** ([10](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL015045&flno=10))
+
+1.  危害辨識與基本資料蒐集
+2.  SEG 建立與暴露剖面分析
+3.  採樣策略規劃與儀器選用
+4.  定性、半定量與定量暴露評估工具應用
+5.  數據分析與高階統計判定
+6.  計畫撰寫、溝通
+
+## 規劃採樣策略？
+
+::: incremental
+- 採樣策略(planing) –\> **監測計畫**(output)
+  - **監測計畫應包含？**([9](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL015045&flno=9))
+- 監測計畫 –\> **監測結果** –\> 通報-\> 暴露評估報告
+:::
+
+# 3.監測計畫
+
+## 3.1 監測計畫基本要項
+
+ref: 作業環境監測計畫撰寫與審查之技術手冊 (113年)
+
+- 監測計畫 -\> 監測結果 + 暴露評估報告
+  - 監測計畫：蒐集情資並規劃執行方式。
+  - 暴露評估報告：依監測計畫具體執行與科學論證的紀錄。
+- 計畫主要項目： ([細節請參考技術手冊附件-作業環境監測計畫撰寫要項]{.underline})
+  1.  **暴露危害**：危害鑑別與基本資料蒐集
+  2.  **資源最佳化**：SEG劃分(定性)與先期風險評估(定性、半定量、定量模式)
+  3.  **合理與代表性**：採樣策略與品保品管(SEG / MEG、方法、樣本數)
+  4.  **分析與暴露評估**：統計量與OEL比較、管理分級
+  5.  **產出與紀錄**：監測結果(通報) + 暴露評估報告(下次EA參考用)
+
+## 3.2 監測計畫之審查
+
+1.  環測承攬商篩選與能力審查
+2.  監測計畫之技術驗收審查
+3.  環測承攬商之年度績效評鑑
+
+**自建監測計畫查檢表 - 試試讓AI幫你？**
+
+# 4.監測結果
+
+## 事業單位監測資料申報
+
+[![](images/cases%20study/F2.png){.lightbox width="367"}](https://oemd.osha.gov.tw/exposure/content/login/Login.aspx)
+
+# 5.暴露評估報告
+
+ref: 作業環境監測暴露評估報告撰寫之技術手冊 (113)
+
+- **暴露評估**：證據科學。將監測數據透過嚴謹的統計方法與專業判斷，轉化為具備科學證據力之「暴露實態描述（Exposure Profile）」與「風險分級決策（Banding Management）」。
+
+主要項目與實質內容 (請參考技術手冊 附表 )
+
+- ......................
+- 十一、數據分析與評估
+- 十二、監測結果建議
+- ...
+
+# 5.暴露評估報告
+
+展現OH專業的地方...
+
+- 基本資訊與職責
+- 採樣策略與執行
+- 採樣與樣本分析
+- 監測結果與數據分析
+- 暴露評估與建議
+
+接下來，來看看**數據分析、暴露評估判定與建議？**
+
+## 5.1 數據分析、暴露評估判定與建議
+
+主要介紹兩個部分：
+
+#### **最大暴露危險群評估**
+
+- NIOSH 《職業暴露採樣策略手冊》Occupational Exposure Sampling Strategy Manual，[1977 年](https://stacks.cdc.gov/view/cdc/11158)
+  - Nelson A. Leidel、Kenneth A. Busch 與 Jeremiah R. Lynch 等人編著
+
+#### **全盤性暴露評估**
+
+- AIHA - A Strategy for Assessing and Managing Occupational Exposures, [4th edition](https://www.aiha.org/education/marketplace/strategy-book-4th-edition)，2015年
+
+## 最大暴露危險群評估
+
+ref: Busch, Kenneth A. et al. (1977). Occupational Exposure Sampling Strategy Manual. *National Institute for Occupational Safety and Health*.
+
+- 特性：具保護效能的「化學性危害採樣策略」與「數據合規決策」
+- **採樣代表性**：最大風險 (MEG) vs. 隨機抽樣 (HEG / SEG)
+- **決策量**：AL (Action Level) = 1/2 PEL）
+- 採樣策略 (TWA-8hr)：全時段連續樣本、全時段單一樣本、部分時段連續樣本、瞬時採樣。
+- 數據分析與假設檢定：(單邊 95% 信賴區間)
+  - 檢查員(證明違規)：LCL \> 1.0
+  - 雇主(證明合規)：UCL \< 1.0 (**這是我們關心的**)
+
+![](images/cases%20study/F3.png){.lightbox width="410"}
+
+## 最大暴露危險群評估 (續)
+
+### Case5.1 案例演練 (單一樣本)
+
+- 情境：使用活性碳管和個人幫浦採樣，採樣時間為8小時單一樣本，PEL是0.05 ppm。實驗室報告的濃度X為0.04 ppm，此方法的CV~T~值為0.09。
+- UCL(95%)公式：$\mathrm{UCL}(95\%) = x + (1.645)(CV_T)$
+- 請做管理分級與建議
+  - UCL ( 95%)=0.95 ？
+  - If x \> 1, no statistical test for compliance would be made.
+
+## 最大暴露危險群評估 (續)
+
+### Case5.2 案例演練 (連續多樣本)
+
+- 情境：使用個人幫浦和兩根活性碳管監測一名員工暴露，採樣時間為8小時多樣本，PEL=100 ppm，實驗室報告：X1 = 30 ppm，X2 = 140 ppm，T1 = 300 分鐘，T2 = 180 分鐘，該分析方法的 CV~T~ = 0.08。
+- UCL(95%)公式：$\mathrm{UCL}(\geq 95\%)=\left(\frac{\mathrm{TWA}}{\mathrm{STD}}\right)+\frac{1.645(CV_T)\sqrt{T_1^2X_1^2+\cdots+T_n^2X_n^2}}{(\mathrm{STD})(T_1+\cdots+T_n)\sqrt{1+CV_T^2}}$
+- 請做管理分級與建議
+  - UCL ( 95%)=0.78 ？
+
+#### 其他請自己看手冊囉 - 別把自己搞混了
+
+## **全盤性暴露評估**
+
+### [**Exposure Risk Decisions**](EAD.html)

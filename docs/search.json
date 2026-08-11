@@ -4144,7 +4144,7 @@
     "href": "EAD.html#case1.1-案例分析及演練",
     "title": "Exposure Risk Decisions",
     "section": "Case1.1 案例分析及演練",
-    "text": "Case1.1 案例分析及演練\n\n使用IHSTAT 或 IHDA_AIHA免費軟體\n案例：(感謝黃奕孝老師提供，報告10)\n\n有一家公司某一SEG有5個人，所用的化學品OEL是10，監測結果是 0.01、0.03、0.01、0.02、0.01、0.03、0.01、0.02、0.01、0.03、0.01、0.02， 如何進行推論統計陳現暴露實態?\n如果監測結果是0.1、0.3、0.1、0.2、0.1、9 ，結果？你的專業建議?\n\n請進行暴露實態描述、管理分級(推論統計)與專業建議"
+    "text": "Case1.1 案例分析及演練\n\n使用IHSTAT 或 IHDA_AIHA免費軟體\n案例：(感謝黃奕孝老師提供，報告10)\n\n有一家公司某一SEG有5個人，所用的化學品OEL是10，監測結果是 0.01、0.03、0.01、0.02、0.01、0.03、0.01、0.02、0.01、0.03、0.01、0.02， 如何進行推論統計呈現暴露實態?\n如果監測結果是0.1、0.3、0.1、0.2、0.1、9 ，結果？你的專業建議?\n\n請進行暴露實態描述、管理分級(推論統計)與專業建議"
   },
   {
     "objectID": "EAD.html#case1.2-案例演練",
@@ -4402,8 +4402,8 @@
     "objectID": "EAD_NIOSH.html#講師簡介",
     "href": "EAD_NIOSH.html#講師簡介",
     "title": "EAD_NOISH manual",
-    "section": "",
-    "text": "姓名：何明信\n學歷：成大環醫所 、職安衛技師\n經歷：檢查員30年 (製造、危機設、營造、化工職衛科、專委)\n現職：114年退休\nE-mail：msho7336959@gmail.com"
+    "section": "講師簡介",
+    "text": "講師簡介\n\n姓名：何明信\n學歷：成大環醫所 、職安衛技師\n經歷：檢查員30年 (製造、危機設、營造、化工職衛科、專委)\n現職：114年退休\nE-mail：msho7336959@gmail.com"
   },
   {
     "objectID": "EAD_NIOSH.html#niosh1977",
@@ -4438,14 +4438,14 @@
     "href": "EAD_NIOSH.html#case1-案例演練",
     "title": "EAD_NOISH manual",
     "section": "Case1 案例演練",
-    "text": "Case1 案例演練\n\n簡答題\n\n請說明 隨機取樣 與 最大風險員工取樣 的差異。\n為何在暴露評估中需要使用 對數常態分布模型？"
+    "text": "Case1 案例演練\n簡答題\n\n請說明 隨機取樣 與 最大風險員工取樣 的差異。\n為何在暴露評估中需要使用 對數常態分布模型？"
   },
   {
     "objectID": "EAD_NIOSH.html#case2-案例演練",
     "href": "EAD_NIOSH.html#case2-案例演練",
     "title": "EAD_NOISH manual",
     "section": "Case2 案例演練",
-    "text": "Case2 案例演練\n\n情境：某化工廠有 40 名員工，主要作業為使用揮發性有機化合物 (VOC) 進行清洗與溶劑操作。近期有員工反映眼睛刺激與呼吸不適，管理層決定啟動暴露監測計畫。\n請依據你的專業，規劃採樣策略 (樣本具代表性、取樣推論具90%信心水準以上)\n\n\n提示\n\n需求分析 (目的+MEG / SEG)\n採樣設計 (人數、方法)\n數據分析 (工具、決策標準OEL-TWA / STEL / Celling)\n管理分級與建議"
+    "text": "Case2 案例演練\n\n情境：某化工廠有 40 名員工，主要作業為使用揮發性有機化合物 (VOC) 進行清洗與溶劑操作。近期有員工反映眼睛刺激與呼吸不適，管理層決定啟動暴露監測計畫。\n請依據你的專業，規劃採樣策略 (樣本具代表性、取樣推論具90%信心水準以上)\n\n提示\n\n需求分析 (目的+MEG / SEG)\n採樣設計 (人數、方法)\n數據分析 (工具、決策標準OEL-TWA / STEL / Celling)\n管理分級與建議"
   },
   {
     "objectID": "EAD_NIOSH.html#採樣方式規劃",
@@ -4459,7 +4459,7 @@
     "href": "EAD_NIOSH.html#統計分析概念",
     "title": "EAD_NOISH manual",
     "section": "4. 統計分析概念",
-    "text": "4. 統計分析概念\n\n4.1 信賴區間 (4.1 Confidence Interval Limits)\n\n表示數據不確定性範圍，常見設定為 95% 信心水準。\n實務\n\n單一測量值不足以判定合規，需要透過信賴區間來確保判斷的科學性。\n\n\n\n樣本數越多，信賴區間越窄，判定越精確。\n當信賴區間涵蓋OEL時，必須進行補充取樣或加強監測。\n\n判定流程\n\n收集數據 + 計算平均值及標準差\n建立信賴區間\n\n統計計算 95% 信賴區間的上下限 (LCL/UCL)。\n\n與標準比較 (TWA、STEL、Celling)\n判定 (合規、可能過度暴露、不合規)\n後續措施"
+    "text": "4. 統計分析概念\n4.1 信賴區間 (4.1 Confidence Interval Limits)\n\n表示數據不確定性範圍，常見設定為 95% 信心水準。\n實務\n\n單一測量值不足以判定合規，需要透過信賴區間來確保判斷的科學性。\n\n\n\n樣本數越多，信賴區間越窄，判定越精確。\n當信賴區間涵蓋OEL時，必須進行補充取樣或加強監測。\n\n判定流程\n\n收集數據 + 計算平均值及標準差\n建立信賴區間\n\n統計計算 95% 信賴區間的上下限 (LCL/UCL)。\n\n與標準比較 (TWA、STEL、Celling)\n判定 (合規、可能過度暴露、不合規)\n後續措施"
   },
   {
     "objectID": "EAD_NIOSH.html#統計分析概念-續",
@@ -4473,7 +4473,7 @@
     "href": "EAD_NIOSH.html#ea-of-twa_8hr",
     "title": "EAD_NOISH manual",
     "section": "4.2 EA of TWA_8hr",
-    "text": "4.2 EA of TWA_8hr\n\n4.2.1 全時段單一樣本（Full Period Single Sample Measurement）\n\n計算參數與步驟\n\n​數據標準化 (使OEL=1) x= X / OEL\n計算信賴上限（​UCL95%）\n\n檢查員：「違規檢定」（H0: μ≤OEL）： LCL95%​=x−1.645×CVT​\n\n若 x ≤1.0，檢查員無須計算 LCL，直接判定無法證明違規。\n\n雇主的：「合規檢定」（H0: μ&gt;OEL）： UCL95%​=x+1.645×CVT​\n\n若 x&gt;1.0，雇主無須計算 UCL，判定可能超標或不合規。\n\n\n暴露風險分類\n\nA區：LCL95%​ &gt; 1.0\n\n指排除測量隨機誤差後，仍有 95% 以上的統計信心確信勞工真實暴露平均值已超越標準。必須控制並重新採樣。\n\nB區：LCL95%​ ≤ 1.0 ≤ UCL95%​。\n\n重新採樣，提高監測頻率以降低不確定性。\n\nC區：UCL95% ​&lt; 1.0。\n\n有 95% 以上的統計信心確認真實暴露低於OEL，維持定期評估。"
+    "text": "4.2 EA of TWA_8hr\n4.2.1 全時段單一樣本（Full Period Single Sample Measurement）\n\n計算參數與步驟\n\n​數據標準化 (使OEL=1) \\(x= X / OEL\\)\n計算信賴上限（​UCL95%）\n\n檢查員：「違規檢定」（H0: μ≤OEL）： LCL95%​=x−1.645×CVT​\n\n若 \\(x\\) ≤1.0，檢查員無須計算 LCL，直接判定無法證明違規。\n\n雇主的：「合規檢定」（H0: μ&gt;OEL）： UCL95%​=x+1.645×CVT​\n\n若 \\(x\\)&gt;1.0，雇主無須計算 UCL，判定可能超標或不合規。\n\n\n暴露風險分類\n\nA區：LCL95%​ &gt; 1.0\n\n指排除測量隨機誤差後，仍有 95% 以上的統計信心確信勞工真實暴露平均值已超越標準。必須控制並重新採樣。\n\nB區：LCL95%​ ≤ 1.0 ≤ UCL95%​。\n\n重新採樣，提高監測頻率以降低不確定性。\n\nC區：UCL95% ​&lt; 1.0。\n\n有 95% 以上的統計信心確認真實暴露低於OEL，維持定期評估。"
   },
   {
     "objectID": "EAD_NIOSH.html#case3-案例演練",
@@ -4487,7 +4487,7 @@
     "href": "EAD_NIOSH.html#ea-of-twa_8hr-續",
     "title": "EAD_NOISH manual",
     "section": "4.2 EA of TWA_8hr (續)",
-    "text": "4.2 EA of TWA_8hr (續)\n\n4.2.2.1 全時段連續樣品量測（Full Period Consecutive Samples）\n\n黃金標準，相較於單一 8 小時的樣品，連續收集數個短時間樣品（例如 2 個 4 小時樣品）能提供EA優勢：\n\n縮小信賴區間：因為增加樣本數（n）。\n考慮日間變異：掌握暴露實態。\n\n假設：在各時段內，為均勻暴露（Uniform Exposure）？"
+    "text": "4.2 EA of TWA_8hr (續)\n4.2.2.1 全時段連續樣品量測（Full Period Consecutive Samples）\n\n黃金標準，相較於單一 8 小時的樣品，連續收集數個短時間樣品（例如 2 個 4 小時樣品）能提供EA優勢：\n\n縮小信賴區間：因為增加樣本數（n）。\n考慮日間變異：掌握暴露實態。\n\n假設：在各時段內，為均勻暴露（Uniform Exposure）？"
   },
   {
     "objectID": "EAD_NIOSH.html#case4-案例演練",
@@ -4501,49 +4501,49 @@
     "href": "EAD_NIOSH.html#ea-of-twa_8hr-續-1",
     "title": "EAD_NOISH manual",
     "section": "4.2 EA of TWA_8hr (續)",
-    "text": "4.2 EA of TWA_8hr (續)\n\n4.2.2.2 部分時段連續樣品量測（Partial Period Measurement）\n(略) 沒研究，有興趣請自習"
+    "text": "4.2 EA of TWA_8hr (續)\n4.2.2.2 部分時段連續樣品量測（Partial Period Measurement）\n(略) 沒研究，有興趣請自習"
   },
   {
     "objectID": "EAD_NIOSH.html#ea-of-twa_8hr-續-2",
     "href": "EAD_NIOSH.html#ea-of-twa_8hr-續-2",
     "title": "EAD_NOISH manual",
     "section": "4.2 EA of TWA_8hr (續)",
-    "text": "4.2 EA of TWA_8hr (續)\n\n4.2.3 瞬時採樣策略（Grab Samples Measurement）\n\n儀器：使用直讀式氣體偵測器、檢知管等時\n當小樣本(n&lt;30)時，用對數常態模型\n計算參數與步驟\n\n​數據標準化 x= X / OEL\n對數轉換 y_i =log_{10}(x_i)\n計算算術平均值與樣本標準差，查圖( Figure 4.3)判定"
+    "text": "4.2 EA of TWA_8hr (續)\n4.2.3 瞬時採樣策略（Grab Samples Measurement）\n\n儀器：使用直讀式氣體偵測器、檢知管等時\n當小樣本(n&lt;30)時，用對數常態模型\n計算參數與步驟\n\n​數據標準化 \\(x= X / OEL\\)\n對數轉換 \\(y_i =log_{10}(x_i)\\)\n計算算術平均值與樣本標準差，查圖( Figure 4.3)判定"
   },
   {
     "objectID": "EAD_NIOSH.html#case5-案例演練",
     "href": "EAD_NIOSH.html#case5-案例演練",
     "title": "EAD_NOISH manual",
     "section": "Case5 案例演練",
-    "text": "Case5 案例演練\n\n已知現場監測數據：\n\n被測化學因子：乙醇（Ethyl Alcohol）\n量測方法：個人採樣泵（流率 25 cc/min），共採集 8 個活性碳管抓樣，每管暴露 20 分鐘\n法定 8 小時 TWA 標準（OEL）：1000 ppm\n該方法的總變異係數（CVT​）：0.06\n實驗室報告的 8 筆原始測定濃度（Xi​）： 1225, 800, 1120, 1460, 975, 980, 525, 1290 ppm\n\n\n\n\n請進行暴露管理分級與建議 (使用AIHA方法)\n\n提示： X_{95}=GM⋅GSD^{1.645}=1.71"
+    "text": "Case5 案例演練\n\n已知現場監測數據：\n\n被測化學因子：乙醇（Ethyl Alcohol）\n量測方法：個人採樣泵（流率 25 cc/min），共採集 8 個活性碳管抓樣，每管暴露 20 分鐘\n法定 8 小時 TWA 標準（OEL）：1000 ppm\n該方法的總變異係數（CVT​）：0.06\n實驗室報告的 8 筆原始測定濃度（Xi​）： 1225, 800, 1120, 1460, 975, 980, 525, 1290 ppm\n\n\n\n\n請進行暴露管理分級與建議 (使用AIHA方法)\n\n提示： \\(X_{95}=GM⋅GSD^{1.645}=1.71\\)"
   },
   {
     "objectID": "EAD_NIOSH.html#ea-of-twa_8hr-續-3",
     "href": "EAD_NIOSH.html#ea-of-twa_8hr-續-3",
     "title": "EAD_NOISH manual",
     "section": "4.2 EA of TWA_8hr (續)",
-    "text": "4.2 EA of TWA_8hr (續)\n\n4.2.4 瞬時採樣策略（Grab Samples Measurement）\n\n儀器：使用直讀式氣體偵測器、檢知管等時\n當大樣本(n&gt;30)時，用常態模型(中央極限定理)\n計算式： UCL_{95\\%} =\\overline{x} +1.645⋅\\frac{s}{\\sqrt{n}}​​"
+    "text": "4.2 EA of TWA_8hr (續)\n4.2.4 瞬時採樣策略（Grab Samples Measurement）\n\n儀器：使用直讀式氣體偵測器、檢知管等時\n當大樣本(n&gt;30)時，用常態模型(中央極限定理)\n計算式： \\(UCL_{95\\%} =\\overline{x} +1.645⋅\\frac{s}{\\sqrt{n}}​​\\)"
   },
   {
     "objectID": "EAD_NIOSH.html#case6-案例演練",
     "href": "EAD_NIOSH.html#case6-案例演練",
     "title": "EAD_NOISH manual",
     "section": "Case6 案例演練",
-    "text": "Case6 案例演練\n\n已知現場監測數據：\n\n量測對象：用直讀式臭氧分析儀與紀錄器，監測一名固定站點勞工的暴露。\n法定 8 小時 TWA 標準（OEL）：0.1 ppm。\n樣本數 n：於 8 小時班次內隨機選取 35 個時間點讀取濃度值（大樣本 n&gt;30）。\n35 筆原始測定濃度 Xi​（ppm）： 0.077, 0.043, 0.061, 0.070, 0.107, 0.084, 0.062, 0.127, 0.057, 0.101, 0.072, 0.145, 0.084, 0.101, 0.105, 0.125, 0.076, 0.079, 0.078, 0.067, 0.073, 0.069, 0.084, 0.066, 0.085, 0.080, 0.071, 0.103, 0.075, 0.048, 0.092, 0.066, 0.109, 0.110, 0.057\n\n請進行暴露管理分級與建議\n\n提示： UCL_{95\\%} =\\overline{x} +1.645⋅\\frac{s}{\\sqrt{n}}​"
+    "text": "Case6 案例演練\n\n已知現場監測數據：\n\n量測對象：用直讀式臭氧分析儀與紀錄器，監測一名固定站點勞工的暴露。\n法定 8 小時 TWA 標準（OEL）：0.1 ppm。\n樣本數 n：於 8 小時班次內隨機選取 35 個時間點讀取濃度值（大樣本 n&gt;30）。\n35 筆原始測定濃度 Xi​（ppm）： 0.077, 0.043, 0.061, 0.070, 0.107, 0.084, 0.062, 0.127, 0.057, 0.101, 0.072, 0.145, 0.084, 0.101, 0.105, 0.125, 0.076, 0.079, 0.078, 0.067, 0.073, 0.069, 0.084, 0.066, 0.085, 0.080, 0.071, 0.103, 0.075, 0.048, 0.092, 0.066, 0.109, 0.110, 0.057\n\n請進行暴露管理分級與建議\n\n提示： \\(UCL_{95\\%} =\\overline{x} +1.645⋅\\frac{s}{\\sqrt{n}}​\\)"
   },
   {
     "objectID": "EAD_NIOSH.html#ea-of-最高容許濃度ceiling",
     "href": "EAD_NIOSH.html#ea-of-最高容許濃度ceiling",
     "title": "EAD_NOISH manual",
     "section": "4.2 EA of 最高容許濃度（Ceiling)",
-    "text": "4.2 EA of 最高容許濃度（Ceiling)\n\n防止急性毒性、嚴重刺激或麻醉效應\n在預期高濃度時段採集的短期樣本，通過統計學假設檢定，評估勞工暴露風險。\n計算參數與步驟\n\n篩選最大值並標準化\n計算 UCL_{95\\%} =max{(x)} +1.645⋅CV_T​\n暴露風險判定"
+    "text": "4.2 EA of 最高容許濃度（Ceiling)\n\n防止急性毒性、嚴重刺激或麻醉效應\n在預期高濃度時段採集的短期樣本，通過統計學假設檢定，評估勞工暴露風險。\n計算參數與步驟\n\n篩選最大值並標準化\n計算 \\(UCL_{95\\%} =max{(x)} +1.645⋅CV_T​\\)\n暴露風險判定"
   },
   {
     "objectID": "EAD_NIOSH.html#case7-案例演練",
     "href": "EAD_NIOSH.html#case7-案例演練",
     "title": "EAD_NOISH manual",
     "section": "Case7 案例演練",
-    "text": "Case7 案例演練\n\n已知現場監測數據：(硫化氫（Hydrogen Sulfide, H2​S）。\n\n方法：檢知管，CVT：0.14，Celling：20 ppm (OSHA)\n暴露量測：該勞工在班次內約有 16 個短暫暴露時段，評估者隨機抽選其中 5 個時段進行量測（n=5），獲得以下 5 筆原始測定濃度： 12, 14, 13, 16, 15 ppm\n\n請進行暴露管理分級與建議\n\n提示：UCL_{95\\%} =max{(x)} +1.645⋅CV_T​\n\n如果使用MSA ALTAIR 5X (內建幫浦) 來量測，結果是？\n\n直讀式偵測器經氣體校正後，CVT=0.05"
+    "text": "Case7 案例演練\n\n已知現場監測數據：(硫化氫（Hydrogen Sulfide, H2​S）。\n\n方法：檢知管，CVT：0.14，Celling：20 ppm (OSHA)\n暴露量測：該勞工在班次內約有 16 個短暫暴露時段，評估者隨機抽選其中 5 個時段進行量測（n=5），獲得以下 5 筆原始測定濃度： 12, 14, 13, 16, 15 ppm\n\n請進行暴露管理分級與建議\n\n提示：\\(UCL_{95\\%} =max{(x)} +1.645⋅CV_T​\\)\n\n如果使用MSA ALTAIR 5X (內建幫浦) 來量測，結果是？\n\n直讀式偵測器經氣體校正後，CVT=0.05"
   },
   {
     "objectID": "EAD_NIOSH.html#小結",

@@ -18,7 +18,7 @@ format:
 #    preview-links: auto
     toc-title: "課程目錄"    
 #    footer: "prepared by Peter Ho."
-    logo: "images/logo.jpg"
+#    logo: "images/logo.jpg"
     toc: true
     toc-depth: 1
     hash: true

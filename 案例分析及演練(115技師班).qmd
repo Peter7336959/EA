@@ -2,7 +2,7 @@
 title: "EA 案例分析及演練"
 subtitle: "(115技師班，含作業環境監測計畫及監測結果報告撰寫實務)"
 author: "Peter Ho."
-date: "2026-08-07"
+date: "2026-08-14"
 format:
   revealjs:
     theme: default
@@ -57,13 +57,17 @@ format:
 請問(老師請教學員)
 
 ::: incremental
-- **暴露評估(EA)？** ([2](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL075605&flno=2)) ，([2](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL015045&flno=2))
+- **暴露評估(EA)？** ([2](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL075605&flno=2)) ，([2](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL015045&flno=2))  - (哪個較ok？)
 - 管理分級？ (2 & [7](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL075605&flno=7))
-- 依監測辦法實施定期監測，需分級管理？ ([10](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL075605&flno=10)) (各有定見？)
-- **如何EA (工具方法)？** (有PEL&大型 [5](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=5)，[6](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=6)) ([8](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=8))
+- 依監測辦法實施定期監測，需分級管理？ ([10](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL075605&flno=10))  - (各有定見？)
+- **如何EA (工具方法)？** (有PEL&大型 [5](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=5)，[6](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=6)) ([8](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=8))  - (準用？)
 :::
 
 **Q**：這些都需要**數據**？ (只有適用環測辦法才要？)
+
+**Q**：EA人員需要**訓練合格**？ (只有職業衛生技師才要？)
+
+**Q**：那些法規有**EA規定**？ (方法以那些？)
 
 ## **暴露評估判定與分級？**
 
@@ -72,7 +76,7 @@ format:
 - 統計機制 **(**與 **PEL比較？）**([7](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=7))
 - 管理分3級？對應措施？AIHA-5級？ ([10](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL075605&flno=10))
   - 作業場所分級管理清單？ ([10](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=10))
-- AIHA分級管理？(後面有空再介紹)
+- AIHA分級管理？(有空再介紹)
 
 # 2.監測計畫 (採樣策略)
 
@@ -91,9 +95,11 @@ format:
 - 合規性（Compliance）單點監測？
 - 全盤性暴露評估策略(Comprehensive Exposure Assessment Strategy) ？
 - 採樣策略擬定技術手冊？
-
-![](images/cases%20study/F1.jpeg){.lightbox width="360"}
 :::
+
+|  |  |
+|----|----|
+| ![](images/cases study/F0.png){.lightbox} | ![](images/cases study/F1.jpeg){.lightbox} |
 
 ## 規劃採樣策略？
 
@@ -115,7 +121,7 @@ format:
 ::: incremental
 - 採樣策略(planing) –\> **監測計畫**(output)
   - **監測計畫應包含？**([9](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL015045&flno=9))
-- 監測計畫 –\> **監測結果** –\> 通報-\> 暴露評估報告
+- 監測計畫 –\> **監測結果與通報**([12](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL015045&flno=12)) –\> 暴露評估報告 ([10](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL015045&flno=10)、[13](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL015045&flno=13))
 :::
 
 # 3.監測計畫
@@ -124,7 +130,7 @@ format:
 
 ref: 作業環境監測計畫撰寫與審查之技術手冊 (113年)
 
-- 監測計畫 -\> 監測結果 + 暴露評估報告
+- 監測計畫 -\> 監測結果(通報) + 暴露評估報告
   - 監測計畫：蒐集情資並規劃執行方式。
   - 暴露評估報告：依監測計畫具體執行與科學論證的紀錄。
 - 計畫主要項目： ([細節請參考技術手冊附件-作業環境監測計畫撰寫要項]{.underline})
@@ -161,7 +167,7 @@ ref: 作業環境監測暴露評估報告撰寫之技術手冊 (113)
 - 十二、監測結果建議
 - ...
 
-# 5.暴露評估報告
+## 5.暴露評估報告主要內容
 
 展現OH專業的地方...
 
@@ -192,11 +198,11 @@ ref: Busch, Kenneth A. et al. (1977). Occupational Exposure Sampling Strategy Ma
 
 - 特性：具保護效能的「化學性危害採樣策略」與「數據合規決策」
 - **採樣代表性**：最大風險 (MEG) vs. 隨機抽樣 (HEG / SEG)
-- **決策量**：AL (Action Level) = 1/2 PEL）
+- **決策量**：AL (Action Level) = 1/2 PEL
 - 採樣策略 (TWA-8hr)：全時段連續樣本、全時段單一樣本、部分時段連續樣本、瞬時採樣。
 - 數據分析與假設檢定：(單邊 95% 信賴區間)
   - 檢查員(證明違規)：LCL \> 1.0
-  - 雇主(證明合規)：UCL \< 1.0 (**這是我們關心的**)
+  - 雇主 (證明合規)：UCL \< 1.0 (**這是我們關心的**)
 
 ![](images/cases%20study/F3.png){.lightbox width="410"}
 

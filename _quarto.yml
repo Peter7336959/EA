@@ -18,20 +18,37 @@ website:
         href: https://twitter.com/ 
 
   title: "OH模式推估-何明信"
-  navbar:
-    left:
+#  navbar:
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+#    left:
 #      - text: 首頁
 #        href: index.html
-      - text: About us
-        href: about.qmd
+#      - text: About us
+#        href: about.qmd
       - text: 職安衛訊息
         href: news.qmd
-      - text: Making Accurate Exposure Risk Decisions (AIHA)
-        href: EAD.qmd
+      - text: 115技師班
+        href: 案例分析及演練(115技師班).qmd
+        target: _blank                     
+      - text: EAD_NIOSH
+        href: EAD_NIOSH.qmd
         target: _blank
-      - text: 模式推估
+      - text: EAD_AIHA
+        href: EAD.qmd
+        target: _blank        
+      - text: OEL與EA
+        href: OEL.qmd
+        target: _blank
+      - text: MSA DRI
         href: MSA.qmd
+        target: _blank
       - text: 直讀式儀器與RPE
+        href: DRI.qmd
+        target: _blank
+    
 #        href: noise_EA.qmd
 #      - text: 噪音-高溫EA
 #        href: EA.qmd
@@ -41,17 +58,7 @@ website:
       - text: 先期暴露風險評估技術手冊
         href: 先期暴露風險評估技術手冊.qmd
         target: _blank        
-      - text: OEL與EA
-        href: OEL.qmd
-        target: _blank
-      - text: 115技師班
-        href: 案例分析及演練(115技師班).qmd
-        target: _blank                     
 
-    search: true
-    background: darkgreen
-    pinned: true
-  
 format:
   html:
     theme: 

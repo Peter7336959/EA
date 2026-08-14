@@ -427,7 +427,10 @@
     "href": "news.html",
     "title": "news",
     "section": "",
-    "text": "115.03.01 美國OSHA官方公告-鋰離子電池危害評估與控制\n\n\n115.02.26 一名工人因接觸有毒膠水死亡，維修公司被罰款40萬英鎊\n\n\n115.02.26 鋰電池危害辨識、評估與控制 (含緊急應變) 建議\n\n\n114.12.07 職安法修正(114.12.19 ，施行日期: 由行政院定之)\n\n\n\n職安法罰則比較(新修）\n\n\n\n\n\n\n Back to top"
+    "text": "115.03.01 美國OSHA官方公告-鋰離子電池危害評估與控制\n\n\n115.02.26 一名工人因接觸有毒膠水死亡，維修公司被罰款40萬英鎊\n\n\n115.02.26 鋰電池危害辨識、評估與控制 (含緊急應變) 建議\n\n\n114.12.07 職安法修正(114.12.19 ，施行日期: 由行政院定之)\n\n\n\n職安法罰則比較(新修）\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "職安衛訊息"
+    ]
   },
   {
     "objectID": "EA.html",
@@ -1134,7 +1137,10 @@
     "href": "DRI.html#section",
     "title": "MSA直讀氣體偵測器",
     "section": "",
-    "text": "相關法規\nALTAIR 5X PID 六用VOC氣體偵測器簡介\n職業暴露限制(TLV,PEL,STEL,TWA,IDHL)\n直讀式儀器作業環境監測的應用\n偵測原理與關鍵概念\n修正係數(Response Factor, RF) 的應用與重要性\n應用範例：甲苯 (Toluene)\n應用範例：甲基乙基酮 (MEK)\n應用範例：苯 (Benzene)\n結語與安全注意事項"
+    "text": "相關法規\nALTAIR 5X PID 六用VOC氣體偵測器簡介\n職業暴露限制(TLV,PEL,STEL,TWA,IDHL)\n直讀式儀器作業環境監測的應用\n偵測原理與關鍵概念\n修正係數(Response Factor, RF) 的應用與重要性\n應用範例：甲苯 (Toluene)\n應用範例：甲基乙基酮 (MEK)\n應用範例：苯 (Benzene)\n結語與安全注意事項",
+    "crumbs": [
+      "直讀式儀器與RPE"
+    ]
   },
   {
     "objectID": "DRI.html#相關法規一",
@@ -1148,7 +1154,10 @@
     "href": "DRI.html#section-1",
     "title": "MSA直讀氣體偵測器",
     "section": "",
-    "text": "相關法規一\n「四用 或 複合式氣體偵測器」，通常是指能同時偵測以下四種氣體\n\n氧氣 (O₂) ： &gt;18%__《缺氧症預防規則》第5條\n可燃性氣體LEL ：&lt;30%__《職業安全衛生設施規則》第177條\n硫化氫 (H₂S) ：&lt;10 ppm__《勞工作業場所容許暴露標準》附表一\n一氧化碳 (CO) ：&lt;35 ppm __《勞工作業場所容許暴露標準》附表一\n\n\n《缺氧症預防規則》《職安衛設施規則》《作業場所容許暴露標準》\n\n\n雇主使勞工從事缺氧危險作業時，應予適當換氣，以保持該作業場所空氣中氧氣濃度在百分之十八以上。\n\n\n易燃液體之蒸氣、可燃性氣體或爆燃性粉塵達LEL之30%以上時，應即刻使勞工退避至安全場所，並停止使用煙火及其他為點火源之虞之機具，並應加強通風。\n\n\n勞工作業環境空氣中有害物之濃度應符合下列規定： 全程工作日之時量平均濃度不得超過PEL-TWA。 任何一次連續十五分鐘內之時量平均濃度不得超過STEL。 任何時間均不得超過最高容許濃度。"
+    "text": "相關法規一\n「四用 或 複合式氣體偵測器」，通常是指能同時偵測以下四種氣體\n\n氧氣 (O₂) ： &gt;18%__《缺氧症預防規則》第5條\n可燃性氣體LEL ：&lt;30%__《職業安全衛生設施規則》第177條\n硫化氫 (H₂S) ：&lt;10 ppm__《勞工作業場所容許暴露標準》附表一\n一氧化碳 (CO) ：&lt;35 ppm __《勞工作業場所容許暴露標準》附表一\n\n\n《缺氧症預防規則》《職安衛設施規則》《作業場所容許暴露標準》\n\n\n雇主使勞工從事缺氧危險作業時，應予適當換氣，以保持該作業場所空氣中氧氣濃度在百分之十八以上。\n\n\n易燃液體之蒸氣、可燃性氣體或爆燃性粉塵達LEL之30%以上時，應即刻使勞工退避至安全場所，並停止使用煙火及其他為點火源之虞之機具，並應加強通風。\n\n\n勞工作業環境空氣中有害物之濃度應符合下列規定： 全程工作日之時量平均濃度不得超過PEL-TWA。 任何一次連續十五分鐘內之時量平均濃度不得超過STEL。 任何時間均不得超過最高容許濃度。",
+    "crumbs": [
+      "直讀式儀器與RPE"
+    ]
   },
   {
     "objectID": "DRI.html#section-2",
@@ -1162,14 +1171,20 @@
     "href": "DRI.html#相關法規二",
     "title": "MSA直讀氣體偵測器",
     "section": "相關法規二",
-    "text": "相關法規二\n職業安全衛生設施規則29-1~29-7、277-1\n\n雇主應制定局限空間危害防止計畫，其中必須明確規範氧氣、危險物及有害物濃度的測定方式。包含提供必要的測定儀器，在作業前必須確認氧氣及危害物質的濃度，並且在整個作業期間採取連續確認的措施。\n局限空間作業的「進入許可」上，也應清楚載明氧氣和危害物質的測定結果，並由測定人員簽名確認。\n\n高壓氣體勞工安全規則60、167\n\n為確保高壓氣體作業場所的絕對安全，無論是製造設備或消費設備，只要存在可燃性氣體或毒性氣體洩漏並積滯的潛在風險，都必須強制設置氣體洩漏檢知警報設備。\n\n缺氧症預防規則4、16、18、23\n\n雇主必須備有必要的氧氣濃度測定儀器，並採取措施隨時確認空氣中的氧氣濃度，同時也要密切監測硫化氫等其他有害氣體濃度。\n雇主必須在每日作業開始前、勞工離開作業場所後再次開始作業前，以及當勞工身體出現異狀或換氣裝置有異常時，再次確認作業場所的氧氣及有害氣體濃度。\n雇主應將包含測定儀器保管場所等重要注意事項，公告於作業場所入口顯眼處。"
+    "text": "相關法規二\n職業安全衛生設施規則29-1~29-7、277-1\n\n雇主應制定局限空間危害防止計畫，其中必須明確規範氧氣、危險物及有害物濃度的測定方式。包含提供必要的測定儀器，在作業前必須確認氧氣及危害物質的濃度，並且在整個作業期間採取連續確認的措施。\n局限空間作業的「進入許可」上，也應清楚載明氧氣和危害物質的測定結果，並由測定人員簽名確認。\n\n高壓氣體勞工安全規則60、167\n\n為確保高壓氣體作業場所的絕對安全，無論是製造設備或消費設備，只要存在可燃性氣體或毒性氣體洩漏並積滯的潛在風險，都必須強制設置氣體洩漏檢知警報設備。\n\n缺氧症預防規則4、16、18、23\n\n雇主必須備有必要的氧氣濃度測定儀器，並採取措施隨時確認空氣中的氧氣濃度，同時也要密切監測硫化氫等其他有害氣體濃度。\n雇主必須在每日作業開始前、勞工離開作業場所後再次開始作業前，以及當勞工身體出現異狀或換氣裝置有異常時，再次確認作業場所的氧氣及有害氣體濃度。\n雇主應將包含測定儀器保管場所等重要注意事項，公告於作業場所入口顯眼處。",
+    "crumbs": [
+      "直讀式儀器與RPE"
+    ]
   },
   {
     "objectID": "DRI.html#altair-5x-pid-六用voc氣體偵測器簡介",
     "href": "DRI.html#altair-5x-pid-六用voc氣體偵測器簡介",
     "title": "MSA直讀氣體偵測器",
     "section": "ALTAIR 5X PID 六用VOC氣體偵測器簡介",
-    "text": "ALTAIR 5X PID 六用VOC氣體偵測器簡介\n結合光電離 (PID) 感測技術與 MSA X 智慧感測器(資料處理、自我診斷和通訊能力)技術。\n\n多功能性：它能夠偵測數百種揮發性有機化合物 (VOC) 氣體，並可應用於任何複雜的場合，把測爆炸、測缺氧、測毒害或職業健康評定等功能集為一體。\n設計優勢：儀器配備吸力強大的內建泵(吸氣能力為0.3公升/分鐘，最遠達 30米)，可節省其他配件和外部零件，操作人員在遠端監控時更易用、更可靠，從而簡化工作。\n主要用途：ALTAIR 5X PID 偵測儀主要面向受過專門培訓的合格人員，用於在進行風險評估時：\n\n評估作業人員接觸可燃、有毒氣體及蒸氣和缺氧環境的潛在暴露危險。\n確定工作區所需氣體和蒸氣的監控措施"
+    "text": "ALTAIR 5X PID 六用VOC氣體偵測器簡介\n結合光電離 (PID) 感測技術與 MSA X 智慧感測器(資料處理、自我診斷和通訊能力)技術。\n\n多功能性：它能夠偵測數百種揮發性有機化合物 (VOC) 氣體，並可應用於任何複雜的場合，把測爆炸、測缺氧、測毒害或職業健康評定等功能集為一體。\n設計優勢：儀器配備吸力強大的內建泵(吸氣能力為0.3公升/分鐘，最遠達 30米)，可節省其他配件和外部零件，操作人員在遠端監控時更易用、更可靠，從而簡化工作。\n主要用途：ALTAIR 5X PID 偵測儀主要面向受過專門培訓的合格人員，用於在進行風險評估時：\n\n評估作業人員接觸可燃、有毒氣體及蒸氣和缺氧環境的潛在暴露危險。\n確定工作區所需氣體和蒸氣的監控措施",
+    "crumbs": [
+      "直讀式儀器與RPE"
+    ]
   },
   {
     "objectID": "DRI.html#scrollable-.smaller",
@@ -1197,7 +1212,10 @@
     "href": "DRI.html#職業暴露限值",
     "title": "MSA直讀氣體偵測器",
     "section": "職業暴露限值",
-    "text": "職業暴露限值\n\nPEL (容許暴露極限):\n\n由國家制定閾值(法律)，如我國籍美國OSHA。\n\nTLV (閾限值):\n\n由美國政府工業衛生學家會議 (ACGIH) 提出的建議性職業暴露限值 。\n代表幾乎所有健康工作者每天重複暴露於該濃度或以下，而不會產生不良健康影響的空氣中化學物質濃度 。\n\nTWA (工作日8 小時時間加權平均值):\n\n勞工可以安全暴露的污染物濃度平均值 。\n\nSTEL (短期暴露極限):\n\n指在工作日中的任何時間裡，任一連續15 分鐘時間的加權平均暴露值 。\n旨在防止短時間暴露引起的刺激、急性或不可逆組織損傷、與劑量相關的毒性效應。\n特別適用於具有急性影響的物質，並非所有物質都有 STEL 。\n\nIDLH (立即危及生命或健康濃度) :\n\n暴露 10~30 分鐘內，可能會導致死亡、永久性傷害、或無法逃離暴露環境的空氣中污染物濃度。\n這個值通常用於決定在沒有呼吸防護裝備的情況下，人員可以安全進入受污染區域的最長時間。\n\n\n\n\n\n\n\n\nImportant\n\n\nTLV 是科學建議值 ，而 PEL 是法律強制執行的限制 。 PEL (容許閾值) 通常會比 TLV 高。"
+    "text": "職業暴露限值\n\nPEL (容許暴露極限):\n\n由國家制定閾值(法律)，如我國籍美國OSHA。\n\nTLV (閾限值):\n\n由美國政府工業衛生學家會議 (ACGIH) 提出的建議性職業暴露限值 。\n代表幾乎所有健康工作者每天重複暴露於該濃度或以下，而不會產生不良健康影響的空氣中化學物質濃度 。\n\nTWA (工作日8 小時時間加權平均值):\n\n勞工可以安全暴露的污染物濃度平均值 。\n\nSTEL (短期暴露極限):\n\n指在工作日中的任何時間裡，任一連續15 分鐘時間的加權平均暴露值 。\n旨在防止短時間暴露引起的刺激、急性或不可逆組織損傷、與劑量相關的毒性效應。\n特別適用於具有急性影響的物質，並非所有物質都有 STEL 。\n\nIDLH (立即危及生命或健康濃度) :\n\n暴露 10~30 分鐘內，可能會導致死亡、永久性傷害、或無法逃離暴露環境的空氣中污染物濃度。\n這個值通常用於決定在沒有呼吸防護裝備的情況下，人員可以安全進入受污染區域的最長時間。\n\n\n\n\n\n\n\n\nImportant\n\n\nTLV 是科學建議值 ，而 PEL 是法律強制執行的限制 。 PEL (容許閾值) 通常會比 TLV 高。",
+    "crumbs": [
+      "直讀式儀器與RPE"
+    ]
   },
   {
     "objectID": "DRI.html#直讀式氣體偵測儀器的應用",
@@ -1211,7 +1229,10 @@
     "href": "DRI.html#偵測原理與關鍵概念",
     "title": "MSA直讀氣體偵測器",
     "section": "偵測原理與關鍵概念",
-    "text": "偵測原理與關鍵概念\n\n依被測氣體種類常見三種偵測方式\n\n\n\n\n\n\n\n\n\n\n\n觸媒燃燒式\n電化學反應式\nPID\n\n\n\n\n偵測物質\n可燃性氣體\n氧氣、特定有毒氣體\n揮發性有機化合物(VOCs)\n\n\nMSA sensors\n\n\n\n\n\n\n註：探頭(sensors)細節可洽產品代理商或產品經理"
+    "text": "偵測原理與關鍵概念\n\n依被測氣體種類常見三種偵測方式\n\n\n\n\n\n\n\n\n\n\n\n觸媒燃燒式\n電化學反應式\nPID\n\n\n\n\n偵測物質\n可燃性氣體\n氧氣、特定有毒氣體\n揮發性有機化合物(VOCs)\n\n\nMSA sensors\n\n\n\n\n\n\n註：探頭(sensors)細節可洽產品代理商或產品經理",
+    "crumbs": [
+      "直讀式儀器與RPE"
+    ]
   },
   {
     "objectID": "MSA.html",
@@ -1365,7 +1386,10 @@
     "href": "MSA.html#使用與維護影片",
     "title": "MSA",
     "section": "使用與維護影片",
-    "text": "使用與維護影片"
+    "text": "使用與維護影片",
+    "crumbs": [
+      "MSA DRI"
+    ]
   },
   {
     "objectID": "docs/web_CH19_Feeding-models.html",
@@ -1624,49 +1648,70 @@
     "href": "DRI.html#直讀式氣體偵測儀器的實務應用1",
     "title": "MSA直讀氣體偵測器",
     "section": "直讀式氣體偵測儀器的實務應用1",
-    "text": "直讀式氣體偵測儀器的實務應用1\n\n雇主實施作業環境監測時，得以直讀式儀器有效監測之下列化學性因子： -二氧化碳(CO2)-可以測量 – 紅外線 (IR) 型二氧化碳感測器\n\n二硫化碳(CS2)-可以測量 – PID_修正係數為 1.2\n二氯聯苯胺及其鹽類((3,3-Dichlorobenzidine, C12​H10​Cl2​N2​))-原則上可以 – PID_輸入自訂氣體及其修正係數\n次乙亞胺(Ethyleneimine / Aziridine, C2​H5​N)-原則上可以 – PID輸入自訂氣體及其修正係數\n二異氰酸甲苯(Toluene Diisocyanate, TDI, C9​H6​N2​O2)-原則上可以 – PID輸入自訂氣體及其修正係數\n硫化氫-可以 – 電化學探頭或PID修正係數3.2\n汞及其無機化合物-目前不行"
+    "text": "直讀式氣體偵測儀器的實務應用1\n\n雇主實施作業環境監測時，得以直讀式儀器有效監測之下列化學性因子： -二氧化碳(CO2)-可以測量 – 紅外線 (IR) 型二氧化碳感測器\n\n二硫化碳(CS2)-可以測量 – PID_修正係數為 1.2\n二氯聯苯胺及其鹽類((3,3-Dichlorobenzidine, C12​H10​Cl2​N2​))-原則上可以 – PID_輸入自訂氣體及其修正係數\n次乙亞胺(Ethyleneimine / Aziridine, C2​H5​N)-原則上可以 – PID輸入自訂氣體及其修正係數\n二異氰酸甲苯(Toluene Diisocyanate, TDI, C9​H6​N2​O2)-原則上可以 – PID輸入自訂氣體及其修正係數\n硫化氫-可以 – 電化學探頭或PID修正係數3.2\n汞及其無機化合物-目前不行",
+    "crumbs": [
+      "直讀式儀器與RPE"
+    ]
   },
   {
     "objectID": "DRI.html#直讀式氣體偵測儀器的實務應用2",
     "href": "DRI.html#直讀式氣體偵測儀器的實務應用2",
     "title": "MSA直讀氣體偵測器",
     "section": "直讀式氣體偵測儀器的實務應用2",
-    "text": "直讀式氣體偵測儀器的實務應用2\n精確度（或再現性/重現性） - 精確性為 ±2 ppm (±5000 ppb) 或 10%，以較大者為準。 - 絕對偏差 (Absolute Deviation)：±2 ppm（等同於 ±5000 ppb）。這表示無論實際濃度多高或多低，儀器的讀數與真實值之間的誤差可能在正負 2 ppm 的範圍內。 - 相對偏差 (Relative Deviation)：10%。這表示儀器的讀數與真實值之間的誤差可能是實際濃度的正負 10%。 - 以較大者為準：是指在實際應用中，會取這兩種計算方式中誤差較大的那個值，作為該濃度下的最大可能偏差。\n\n範例 1範例 2\n\n\n儀器的讀數為 10 ppm 根據絕對偏差：±2 ppm 根據相對偏差：10 ppm 的 10% = ±1 ppm 「以較大者為準」：由於 ±2 ppm 大於 ±1 ppm， 實際濃度可能在 8 ppm 到 12 ppm 之間\n\n\n儀器的讀數為 200 ppm 根據絕對偏差：±2 ppm 根據相對偏差：10 ppm 的 10% = ±20 ppm 「以較大者為準」：由於 ±20 ppm 大於 ±2 ppm， 實際濃度可能180 ppm 到 220 ppm 之間"
+    "text": "直讀式氣體偵測儀器的實務應用2\n精確度（或再現性/重現性） - 精確性為 ±2 ppm (±5000 ppb) 或 10%，以較大者為準。 - 絕對偏差 (Absolute Deviation)：±2 ppm（等同於 ±5000 ppb）。這表示無論實際濃度多高或多低，儀器的讀數與真實值之間的誤差可能在正負 2 ppm 的範圍內。 - 相對偏差 (Relative Deviation)：10%。這表示儀器的讀數與真實值之間的誤差可能是實際濃度的正負 10%。 - 以較大者為準：是指在實際應用中，會取這兩種計算方式中誤差較大的那個值，作為該濃度下的最大可能偏差。\n\n範例 1範例 2\n\n\n儀器的讀數為 10 ppm 根據絕對偏差：±2 ppm 根據相對偏差：10 ppm 的 10% = ±1 ppm 「以較大者為準」：由於 ±2 ppm 大於 ±1 ppm， 實際濃度可能在 8 ppm 到 12 ppm 之間\n\n\n儀器的讀數為 200 ppm 根據絕對偏差：±2 ppm 根據相對偏差：10 ppm 的 10% = ±20 ppm 「以較大者為準」：由於 ±20 ppm 大於 ±2 ppm， 實際濃度可能180 ppm 到 220 ppm 之間",
+    "crumbs": [
+      "直讀式儀器與RPE"
+    ]
   },
   {
     "objectID": "DRI.html#直讀式氣體偵測儀器的實務應用3",
     "href": "DRI.html#直讀式氣體偵測儀器的實務應用3",
     "title": "MSA直讀氣體偵測器",
     "section": "直讀式氣體偵測儀器的實務應用3",
-    "text": "直讀式氣體偵測儀器的實務應用3\n\n可即時評估長短期危害暴露風險安全性\n\n即時計算與顯示 STEL / TWA：\n\n可顯示當前的氣體讀數、15分鐘時間內的平均暴露值(STEL)、從開機或重置後，8 小時內的平均暴露值(TWA)\n\nSTEL 、 TWA 警報功能：\n\n內建高低警報、STEL警報和 TWA 警報(亦可以手動重置)\n使用不同偵測模式測量多種氣體\n\n探頭(sensors)多樣選配性：\n\nVOC揮發性有機化合物 (PID)\n氧氣與有毒氣體 (電化學探頭)\n可燃性氣體 (觸媒燃燒探頭)"
+    "text": "直讀式氣體偵測儀器的實務應用3\n\n可即時評估長短期危害暴露風險安全性\n\n即時計算與顯示 STEL / TWA：\n\n可顯示當前的氣體讀數、15分鐘時間內的平均暴露值(STEL)、從開機或重置後，8 小時內的平均暴露值(TWA)\n\nSTEL 、 TWA 警報功能：\n\n內建高低警報、STEL警報和 TWA 警報(亦可以手動重置)\n使用不同偵測模式測量多種氣體\n\n探頭(sensors)多樣選配性：\n\nVOC揮發性有機化合物 (PID)\n氧氣與有毒氣體 (電化學探頭)\n可燃性氣體 (觸媒燃燒探頭)",
+    "crumbs": [
+      "直讀式儀器與RPE"
+    ]
   },
   {
     "objectID": "DRI.html#修正係數response-factor-rf-的應用與重要性",
     "href": "DRI.html#修正係數response-factor-rf-的應用與重要性",
     "title": "MSA直讀氣體偵測器",
     "section": "修正係數(Response Factor, RF) 的應用與重要性",
-    "text": "修正係數(Response Factor, RF) 的應用與重要性\n修正係數是實現精確 VOC 偵測的關鍵。\n\n轉換為實際濃度：PID偵測器通常使用異丁烯作為校準氣體，並將異丁烯的修正係數設為 1。當偵測其他 VOCs時，儀器會先偵測到一個相當於異丁烯的等效值。此時，就需要使用該目標氣體的修正係數，將這個異丁烯等效值轉換為目標氣體的實際濃度。這是透過將儀器讀數（已校準為異丁烯）乘以修正係數來實現的 。\n\n實際目標化學品濃度 = 目標化學品修正係數 × 儀器報告的濃度。\n範例：如果偵測己烷時儀器讀數為 100 ppm(異丁烯等效值)，而己烷的修正係數為 4.5，則實際的己烷濃度為 4.5 × 100 ppm = 450 ppm 。\n\n擴展偵測氣體種類：即使儀器預設列表中沒有某種特定氣體，只要該氣體的修正係數已知或可以透過實驗測定，使用者就可以將其輸入到儀器中，從而擴展儀器的偵測能力。\n警報設定：在設定氣體的警報值（如暴露值、STEL、TWA）時，必須考量修正係數。儀器會利用使用者指定目標氣體的修正係數將信號轉換為正確的濃度，從而觸發精確的警報 。"
+    "text": "修正係數(Response Factor, RF) 的應用與重要性\n修正係數是實現精確 VOC 偵測的關鍵。\n\n轉換為實際濃度：PID偵測器通常使用異丁烯作為校準氣體，並將異丁烯的修正係數設為 1。當偵測其他 VOCs時，儀器會先偵測到一個相當於異丁烯的等效值。此時，就需要使用該目標氣體的修正係數，將這個異丁烯等效值轉換為目標氣體的實際濃度。這是透過將儀器讀數（已校準為異丁烯）乘以修正係數來實現的 。\n\n實際目標化學品濃度 = 目標化學品修正係數 × 儀器報告的濃度。\n範例：如果偵測己烷時儀器讀數為 100 ppm(異丁烯等效值)，而己烷的修正係數為 4.5，則實際的己烷濃度為 4.5 × 100 ppm = 450 ppm 。\n\n擴展偵測氣體種類：即使儀器預設列表中沒有某種特定氣體，只要該氣體的修正係數已知或可以透過實驗測定，使用者就可以將其輸入到儀器中，從而擴展儀器的偵測能力。\n警報設定：在設定氣體的警報值（如暴露值、STEL、TWA）時，必須考量修正係數。儀器會利用使用者指定目標氣體的修正係數將信號轉換為正確的濃度，從而觸發精確的警報 。",
+    "crumbs": [
+      "直讀式儀器與RPE"
+    ]
   },
   {
     "objectID": "DRI.html#應用範例甲苯-toluene",
     "href": "DRI.html#應用範例甲苯-toluene",
     "title": "MSA直讀氣體偵測器",
     "section": "應用範例：甲苯 (Toluene)",
-    "text": "應用範例：甲苯 (Toluene)\n\n感測器(探頭)類型：PID\n設定甲苯修正係數(RF)：(10.6eV PID) 為 0.53\n實際偵測流程與警報設定：\n\n\n儀器校準：將 ALTAIR 5X PID 儀器以 100 ppm 異丁烯作為量程氣體進行校準。\n設定目標氣體：在儀器設定中選擇「甲苯」作為目標 VOC 氣體。\n讀數解釋：當偵測到甲苯時，顯示屏上的讀數將自動修正為實際的甲苯 ppm 值。\n警報值設定：PID 感測器的出廠預設值(low 50 ppm，high 100 ppm，STEL 25 ppm，TWA 10 ppm。(使用者得根據所偵測的特定 VOC (例如甲苯) 及其所選用的修正係數，來更改 VOC 的低警報和高警報值)。"
+    "text": "應用範例：甲苯 (Toluene)\n\n感測器(探頭)類型：PID\n設定甲苯修正係數(RF)：(10.6eV PID) 為 0.53\n實際偵測流程與警報設定：\n\n\n儀器校準：將 ALTAIR 5X PID 儀器以 100 ppm 異丁烯作為量程氣體進行校準。\n設定目標氣體：在儀器設定中選擇「甲苯」作為目標 VOC 氣體。\n讀數解釋：當偵測到甲苯時，顯示屏上的讀數將自動修正為實際的甲苯 ppm 值。\n警報值設定：PID 感測器的出廠預設值(low 50 ppm，high 100 ppm，STEL 25 ppm，TWA 10 ppm。(使用者得根據所偵測的特定 VOC (例如甲苯) 及其所選用的修正係數，來更改 VOC 的低警報和高警報值)。",
+    "crumbs": [
+      "直讀式儀器與RPE"
+    ]
   },
   {
     "objectID": "DRI.html#應用範例硫化氫-hydrogen-sulfide-h2s",
     "href": "DRI.html#應用範例硫化氫-hydrogen-sulfide-h2s",
     "title": "MSA直讀氣體偵測器",
     "section": "應用範例：硫化氫 (hydrogen sulfide) H2​S",
-    "text": "應用範例：硫化氫 (hydrogen sulfide) H2​S\n\n感測器類型：電化學感測器。(偵測範圍：0-200 ppm ，解析度：1 ppm)。\n反應時間 (Response time)：典型 t(90)&lt;15 秒 (正常溫度)。\n警報值預設(ppm)：LOW 10，HIGH 15，STEL 15，TWA 10 ppm。\n\n當氣體濃度達到或超過警報設定點或 STEL/TWA 限制時，設備會顯示並閃爍警報訊息及對應氣體濃度、開啟背光、發出警報聲 、警報 LED 閃爍 、並觸發震動警報 。\n\n與磷化氫(PH3)​ 感測器的交互影響 (Cross Sensitivity)：如果 ALTAIR 5X 檢測器同時配置了 H2​S 和 PH3​ 感測器，長時間暴露於 H2​S會導致 PH3​ 感測器的靈敏度逐漸下降並縮短其壽命，在某些情況下甚至會縮短至數個月。"
+    "text": "應用範例：硫化氫 (hydrogen sulfide) H2​S\n\n感測器類型：電化學感測器。(偵測範圍：0-200 ppm ，解析度：1 ppm)。\n反應時間 (Response time)：典型 t(90)&lt;15 秒 (正常溫度)。\n警報值預設(ppm)：LOW 10，HIGH 15，STEL 15，TWA 10 ppm。\n\n當氣體濃度達到或超過警報設定點或 STEL/TWA 限制時，設備會顯示並閃爍警報訊息及對應氣體濃度、開啟背光、發出警報聲 、警報 LED 閃爍 、並觸發震動警報 。\n\n與磷化氫(PH3)​ 感測器的交互影響 (Cross Sensitivity)：如果 ALTAIR 5X 檢測器同時配置了 H2​S 和 PH3​ 感測器，長時間暴露於 H2​S會導致 PH3​ 感測器的靈敏度逐漸下降並縮短其壽命，在某些情況下甚至會縮短至數個月。",
+    "crumbs": [
+      "直讀式儀器與RPE"
+    ]
   },
   {
     "objectID": "DRI.html#結語與安全注意事項",
     "href": "DRI.html#結語與安全注意事項",
     "title": "MSA直讀氣體偵測器",
     "section": "結語與安全注意事項",
-    "text": "結語與安全注意事項\n\n正確使用與培訓：ALTAIR 5X PID 多氣體偵測儀僅供受過MSA專門培訓的合格人員。\n日常檢查：建議每天使用前執行流量阻塞測試和快速測試(bump test)，以驗證儀器是否正常工作。\n環境因素考量：壓力、濕度、溫度等環境因素可能影響感測器讀數，應予以注意。\n維護與校準：定期對儀器進行清潔、維護和校準，以確保其準確性。 持續學習：儀器使用者應不斷擴展和更新其知識與技能，以應對不斷變化的環境和技術。\n注意事項：若目標化合物的暴露限值低於 0.1 ppm，不應使用 ALTAIR 5X PID 偵測儀(包含其他偵測儀器，除非該產品已標註可偵測極低濃度之用途)，否則可能導致過度暴露，造成人員傷亡。"
+    "text": "結語與安全注意事項\n\n正確使用與培訓：ALTAIR 5X PID 多氣體偵測儀僅供受過MSA專門培訓的合格人員。\n日常檢查：建議每天使用前執行流量阻塞測試和快速測試(bump test)，以驗證儀器是否正常工作。\n環境因素考量：壓力、濕度、溫度等環境因素可能影響感測器讀數，應予以注意。\n維護與校準：定期對儀器進行清潔、維護和校準，以確保其準確性。 持續學習：儀器使用者應不斷擴展和更新其知識與技能，以應對不斷變化的環境和技術。\n注意事項：若目標化合物的暴露限值低於 0.1 ppm，不應使用 ALTAIR 5X PID 偵測儀(包含其他偵測儀器，除非該產品已標註可偵測極低濃度之用途)，否則可能導致過度暴露，造成人員傷亡。",
+    "crumbs": [
+      "直讀式儀器與RPE"
+    ]
   },
   {
     "objectID": "DRI.html#thank-you-for-concerning-workers-health-safety.",
@@ -1680,21 +1725,30 @@
     "href": "DRI.html#氣體偵測器使用注意事項",
     "title": "MSA直讀氣體偵測器",
     "section": "氣體偵測器使用注意事項",
-    "text": "氣體偵測器使用注意事項\n\n操作人員需詳讀手冊與認識儀器操作功能。\n使用前先檢查校正，必要時調整(FAS)及執行BUMP test。\n曝露於矽化物、矽酸鹽、含鉛混合物(如有鉛汽油)、硫化氫或高汙染程度時需更常校正檢查。\n不能量測可燃性的粉塵。\n等待精確的讀值，回應時間依氣體/蒸氣濃度和取樣管長度為基準變化。\n勿在具可燃性氣體的環境中充電使用。\n體偵測器是預警,不是分析設備。\n讀值為負:瞬間受到大量氣體的汙染導致電流快速上升與下降造成。(請在一般環境先做FAS或ZERO)。"
+    "text": "氣體偵測器使用注意事項\n\n操作人員需詳讀手冊與認識儀器操作功能。\n使用前先檢查校正，必要時調整(FAS)及執行BUMP test。\n曝露於矽化物、矽酸鹽、含鉛混合物(如有鉛汽油)、硫化氫或高汙染程度時需更常校正檢查。\n不能量測可燃性的粉塵。\n等待精確的讀值，回應時間依氣體/蒸氣濃度和取樣管長度為基準變化。\n勿在具可燃性氣體的環境中充電使用。\n體偵測器是預警,不是分析設備。\n讀值為負:瞬間受到大量氣體的汙染導致電流快速上升與下降造成。(請在一般環境先做FAS或ZERO)。",
+    "crumbs": [
+      "直讀式儀器與RPE"
+    ]
   },
   {
     "objectID": "DRI.html#讓msa與您一起維護勞工健康與安全",
     "href": "DRI.html#讓msa與您一起維護勞工健康與安全",
     "title": "MSA直讀氣體偵測器",
     "section": "讓MSA與您一起維護勞工健康與安全。",
-    "text": "讓MSA與您一起維護勞工健康與安全。"
+    "text": "讓MSA與您一起維護勞工健康與安全。",
+    "crumbs": [
+      "直讀式儀器與RPE"
+    ]
   },
   {
     "objectID": "MSA.html#暴露評估監控應用---直讀式儀器-msa-5x-dri",
     "href": "MSA.html#暴露評估監控應用---直讀式儀器-msa-5x-dri",
     "title": "MSA",
     "section": "暴露評估監控應用 - 直讀式儀器 MSA 5X DRI",
-    "text": "暴露評估監控應用 - 直讀式儀器 MSA 5X DRI\n點選下方簡報後，按方向鍵瀏覽，向右 ⟶⟶ 或向下 ⤓⤓ 。\n\n\n\n\n\n\n\n\n\n\n\nTip提醒\n\n\n\n這是MSA產品應用展示區，包含直讀式儀器(DRI)及呼吸防護具(RPE)"
+    "text": "暴露評估監控應用 - 直讀式儀器 MSA 5X DRI\n點選下方簡報後，按方向鍵瀏覽，向右 ⟶⟶ 或向下 ⤓⤓ 。\n\n\n\n\n\n\n\n\n\n\n\n提醒\n\n\n\n這是MSA產品應用展示區，包含直讀式儀器(DRI)及呼吸防護具(RPE)",
+    "crumbs": [
+      "MSA DRI"
+    ]
   },
   {
     "objectID": "DRI-He.html",
@@ -3129,14 +3183,20 @@
     "href": "MSA.html#a.-呼吸防護具選擇指南基於風險評估",
     "title": "MSA",
     "section": "A. 呼吸防護具選擇指南：基於風險評估",
-    "text": "A. 呼吸防護具選擇指南：基於風險評估"
+    "text": "A. 呼吸防護具選擇指南：基於風險評估",
+    "crumbs": [
+      "MSA DRI"
+    ]
   },
   {
     "objectID": "MSA.html#b.-呼吸防護具濾毒罐更換管理指引",
     "href": "MSA.html#b.-呼吸防護具濾毒罐更換管理指引",
     "title": "MSA",
     "section": "B. 呼吸防護具濾毒罐更換管理指引",
-    "text": "B. 呼吸防護具濾毒罐更換管理指引"
+    "text": "B. 呼吸防護具濾毒罐更換管理指引",
+    "crumbs": [
+      "MSA DRI"
+    ]
   },
   {
     "objectID": "others.html#危險性機械設備管理-職安衛管理員用",
@@ -3171,7 +3231,10 @@
     "href": "EAD.html#course-outline",
     "title": "Exposure Risk Decisions",
     "section": "Course Outline",
-    "text": "Course Outline\n\n1A: Exposure Variability and the Importance of Using Statistics to Improve Judgements 暴露變異性與使用統計學改善判斷的重要性\n1B: Rules of Thumb for Interpreting Exposure Monitoring Data 解釋暴露監測數據的經驗法則\n2: Introduction to Bayesian Statistical Approaches and Their Advantages 貝氏統計方法介紹及其優勢\n3A: Free Bayesian Statistical Tools: IHDA Student Edition 免費的貝氏統計工具示範：IHDA 學生\n3B: Free Bayesian Statistical Tools: Expostats 免費的貝氏統計工具示範：Expostats\n3C: Introduction to IHSTAT_Bayes™ IHSTAT_Bayes™ 軟體簡介\n4: Implementing AIHA Strategy Using Statistical Tools: Examples 使用統計工具實施 AIHA 策略之範例\nMaking Accurate Exposure Risk Decisions Practice Questions 做出準確暴露風險決策練習"
+    "text": "Course Outline\n\n1A: Exposure Variability and the Importance of Using Statistics to Improve Judgements 暴露變異性與使用統計學改善判斷的重要性\n1B: Rules of Thumb for Interpreting Exposure Monitoring Data 解釋暴露監測數據的經驗法則\n2: Introduction to Bayesian Statistical Approaches and Their Advantages 貝氏統計方法介紹及其優勢\n3A: Free Bayesian Statistical Tools: IHDA Student Edition 免費的貝氏統計工具示範：IHDA 學生\n3B: Free Bayesian Statistical Tools: Expostats 免費的貝氏統計工具示範：Expostats\n3C: Introduction to IHSTAT_Bayes™ IHSTAT_Bayes™ 軟體簡介\n4: Implementing AIHA Strategy Using Statistical Tools: Examples 使用統計工具實施 AIHA 策略之範例\nMaking Accurate Exposure Risk Decisions Practice Questions 做出準確暴露風險決策練習",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#a-exposure-variability-and-the-importance-of-using-statistics-to-improve-judgements",
@@ -3248,42 +3311,60 @@
     "href": "EAD.html#決策統計量-decision-statistic",
     "title": "Exposure Risk Decisions",
     "section": "1.2 決策統計量 (Decision Statistic)？",
-    "text": "1.2 決策統計量 (Decision Statistic)？\n\n\n\n\n\n\n\nNote\n\n\n低估或高估暴露會怎樣？ Who should care?\n\n\n\nEA前先定義：什麼樣的暴露情況是「可接受的」？ 這就是「決策統計量」。\nQ1：假設一位員工每年工作 100 天。如果你在這 100 天都進行個人暴露採樣，你認為在「不戴呼吸防護具」的情況下，一年中有多少天暴露超過 OEL 是可以接受的？\n\n選項：1) 0、 2) 1、 3) 5、 4) 10、 5) 25、 6) 50\nWHY？ 在統計學上，多數專業人員的共識是：不超過 5 天（即 5%） 超過 OEL。\n\n這對應的是 95th 百分位數 （ \\(X_{95}\\) ）： 95% 的暴露值都低於 OEL。\n\n\n\n\n\n\n\n\n\nCaution\n\n\n現實狀況：在多數工業衛生實務中，實際能採集的樣本數通常遠少於 100 個 (Usual Number of Samples &lt;&lt; 100)。這種小樣本的情況，會對我們估計整體暴露狀況（特別是估算第 95 百分位數時）帶來極大的「不確定性 (Uncertainty)」。"
+    "text": "1.2 決策統計量 (Decision Statistic)？\n\n\n\n\n\n\n\nNote\n\n\n低估或高估暴露會怎樣？ Who should care?\n\n\n\nEA前先定義：什麼樣的暴露情況是「可接受的」？ 這就是「決策統計量」。\nQ1：假設一位員工每年工作 100 天。如果你在這 100 天都進行個人暴露採樣，你認為在「不戴呼吸防護具」的情況下，一年中有多少天暴露超過 OEL 是可以接受的？\n\n選項：1) 0、 2) 1、 3) 5、 4) 10、 5) 25、 6) 50\nWHY？ 在統計學上，多數專業人員的共識是：不超過 5 天（即 5%） 超過 OEL。\n\n這對應的是 95th 百分位數 （ \\(X_{95}\\) ）： 95% 的暴露值都低於 OEL。\n\n\n\n\n\n\n\n\n\nCaution\n\n\n現實狀況：在多數工業衛生實務中，實際能採集的樣本數通常遠少於 100 個 (Usual Number of Samples &lt;&lt; 100)。這種小樣本的情況，會對我們估計整體暴露狀況（特別是估算第 95 百分位數時）帶來極大的「不確定性 (Uncertainty)」。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#決策統計量-decision-statistic-續",
     "href": "EAD.html#決策統計量-decision-statistic-續",
     "title": "Exposure Risk Decisions",
     "section": "1.2 決策統計量 (Decision Statistic) (續)",
-    "text": "1.2 決策統計量 (Decision Statistic) (續)\n\n界定決策的信心水準\nQ：面對不確定性，你對自己的判斷有多大的把握（確定程度）？\n\n選項：1) 100% 確定、 2) 99%、 3) 95%、 4) 90%、 5) 70%、 6) 50%。\nWHY？ 實務上不可能 100% 確定，但專業共識是追求 95% 的信心水準。\n\n\n最終決策統計量：(判斷基準)\n\n「至少有 95% 的信心，確信真正的暴露值 \\(X_{95}\\) &lt; OEL。」"
+    "text": "1.2 決策統計量 (Decision Statistic) (續)\n\n界定決策的信心水準\nQ：面對不確定性，你對自己的判斷有多大的把握（確定程度）？\n\n選項：1) 100% 確定、 2) 99%、 3) 95%、 4) 90%、 5) 70%、 6) 50%。\nWHY？ 實務上不可能 100% 確定，但專業共識是追求 95% 的信心水準。\n\n\n最終決策統計量：(判斷基準)\n\n「至少有 95% 的信心，確信真正的暴露值 \\(X_{95}\\) &lt; OEL。」",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#決策統計量-decision-statistic-續-1",
     "href": "EAD.html#決策統計量-decision-statistic-續-1",
     "title": "Exposure Risk Decisions",
     "section": "1.2 決策統計量 (Decision Statistic) (續)",
-    "text": "1.2 決策統計量 (Decision Statistic) (續)\nQ：什麼是 \\(X_{95}\\)上限容忍極限 (UTL)？為何不用\\(X_{95}\\)直接與OEL比較即可？\n\n因為「點估計」沒有考慮「抽樣誤差」，當樣本數很少時，點估計的信心很低，需要用 UTL（上限） 來「補償」不確定性。\n\n\n\n\n\n\n\nTip\n\n\n\n如果 UTL &lt; OEL：有 95% 信心說真正的 95th 百分位數低於 OEL（✅ 可接受）\n如果 UTL &gt; OEL，但 \\(X_{95}\\) 點估計 &lt; OEL：「可能過關，但信心不足」，屬於 中或低度信心，需要更多數據或暫時控管\n\n\n\n\n\n\\(X_{95}\\)（點估計）→ 決定「最終評級」，判斷落在 Category 0~4。\n\\(X_{95}\\) UCL / UTL → 決定「確定性水準」(需要 UTL 來抓出「最壞情況的邊界」)\n\nHigh certainty：若 UCL 落在同一類別內。Medium certainty：若 UCL 僅高出 1 個類別。Low certainty：若 UCL 高出 2 個（含）以上類別。\n\n\n\n\n\n\n\n\n\n引自AIHA"
+    "text": "1.2 決策統計量 (Decision Statistic) (續)\nQ：什麼是 \\(X_{95}\\)上限容忍極限 (UTL)？為何不用\\(X_{95}\\)直接與OEL比較即可？\n\n因為「點估計」沒有考慮「抽樣誤差」，當樣本數很少時，點估計的信心很低，需要用 UTL（上限） 來「補償」不確定性。\n\n\n\n\n\n\n\nTip\n\n\n\n如果 UTL &lt; OEL：有 95% 信心說真正的 95th 百分位數低於 OEL（✅ 可接受）\n如果 UTL &gt; OEL，但 \\(X_{95}\\) 點估計 &lt; OEL：「可能過關，但信心不足」，屬於 中或低度信心，需要更多數據或暫時控管\n\n\n\n\n\n\\(X_{95}\\)（點估計）→ 決定「最終評級」，判斷落在 Category 0~4。\n\\(X_{95}\\) UCL / UTL → 決定「確定性水準」(需要 UTL 來抓出「最壞情況的邊界」)\n\nHigh certainty：若 UCL 落在同一類別內。Medium certainty：若 UCL 僅高出 1 個類別。Low certainty：若 UCL 高出 2 個（含）以上類別。\n\n\n\n\n\n\n\n\n\n引自AIHA",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#aiha-暴露類別",
     "href": "EAD.html#aiha-暴露類別",
     "title": "Exposure Risk Decisions",
     "section": "1.3 AIHA 暴露類別",
-    "text": "1.3 AIHA 暴露類別\n\nAIHA 暴露控制類別 (Exposure Rating Categories)\n\n第 0 級：&lt;1% OEL（無需行動，變更觀察）\n第 1 級：&lt;10% OEL（程序與訓練、一般危害通識）\n第 2 級：10-50% OEL（化學品特定危害通識、定期監測）\n第 3 級：50-100% OEL（強制暴露監測、健康監測）\n第 4 級：&gt;100% OEL（實施控制層級、呼吸防護具驗證）\n\n台灣\n\n危害性化學品評估及分級管理辦法 第 10 條"
+    "text": "1.3 AIHA 暴露類別\n\nAIHA 暴露控制類別 (Exposure Rating Categories)\n\n第 0 級：&lt;1% OEL（無需行動，變更觀察）\n第 1 級：&lt;10% OEL（程序與訓練、一般危害通識）\n第 2 級：10-50% OEL（化學品特定危害通識、定期監測）\n第 3 級：50-100% OEL（強制暴露監測、健康監測）\n第 4 級：&gt;100% OEL（實施控制層級、呼吸防護具驗證）\n\n台灣\n\n危害性化學品評估及分級管理辦法 第 10 條",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#暴露變異性-exposure-variability",
     "href": "EAD.html#暴露變異性-exposure-variability",
     "title": "Exposure Risk Decisions",
     "section": "1.4 暴露變異性 (Exposure Variability)",
-    "text": "1.4 暴露變異性 (Exposure Variability)\n\n實務問題：暴露高變異性 + 非常少的樣本數\n\n決策風險高：用極少數的樣本去推估高度變異的母體，誤差風險極高。\n\n暴露變異性：員工每天的暴露量高度變動。如果一年工作 250 天，通常我們只能抽樣極少數的天數（例如 5 個樣本，僅能看見 2% 的暴露情況），這使得掌握整體暴露實態非常困難。\n為解決只看到 2% 數據的困境，採用推論統計學 (Inferential Statistics)。但仍須留意：樣本代表性、測量數據品質、統計推論方法。"
+    "text": "1.4 暴露變異性 (Exposure Variability)\n\n實務問題：暴露高變異性 + 非常少的樣本數\n\n決策風險高：用極少數的樣本去推估高度變異的母體，誤差風險極高。\n\n暴露變異性：員工每天的暴露量高度變動。如果一年工作 250 天，通常我們只能抽樣極少數的天數（例如 5 個樣本，僅能看見 2% 的暴露情況），這使得掌握整體暴露實態非常困難。\n為解決只看到 2% 數據的困境，採用推論統計學 (Inferential Statistics)。但仍須留意：樣本代表性、測量數據品質、統計推論方法。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#對數常態分布-lognormal-distribution",
     "href": "EAD.html#對數常態分布-lognormal-distribution",
     "title": "Exposure Risk Decisions",
     "section": "1.5 對數常態分布 (Lognormal Distribution)",
-    "text": "1.5 對數常態分布 (Lognormal Distribution)\n\n統計學家 George E. P. Box ：「所有的模型都是錯的，但有些是有用的」。\n推論統計學：利用「已經看到」的極少量樣本，結合數據潛在分布形狀(假設數據符合對數常態分布)，推估整個 SEG 母體暴露實態。\n對數常態分布：過去數十年的研究顯示，職業暴露數據通常呈現「對數常態分布 」。主要參數：幾何平均數 (GM)和幾何標準差 (GSD)。\n實務作法 ：有正式的統計檢定可用(檢定力低)，亦可用對數機率圖視覺檢查。\n不符合怎麼辦？：如果在分析前發現數據不符合對數常態分布，必須回頭檢視您的「相似暴露族群 (SEG)」設定是否合理，或數據有誤差等。"
+    "text": "1.5 對數常態分布 (Lognormal Distribution)\n\n統計學家 George E. P. Box ：「所有的模型都是錯的，但有些是有用的」。\n推論統計學：利用「已經看到」的極少量樣本，結合數據潛在分布形狀(假設數據符合對數常態分布)，推估整個 SEG 母體暴露實態。\n對數常態分布：過去數十年的研究顯示，職業暴露數據通常呈現「對數常態分布 」。主要參數：幾何平均數 (GM)和幾何標準差 (GSD)。\n實務作法 ：有正式的統計檢定可用(檢定力低)，亦可用對數機率圖視覺檢查。\n不符合怎麼辦？：如果在分析前發現數據不符合對數常態分布，必須回頭檢視您的「相似暴露族群 (SEG)」設定是否合理，或數據有誤差等。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#即時監測或直讀式儀器",
@@ -3311,133 +3392,190 @@
     "href": "先期暴露風險評估技術手冊.html#暴露評估ea",
     "title": "先期暴露風險評估技術介紹",
     "section": "暴露評估(EA)？",
-    "text": "暴露評估(EA)？\n\n暴露：從「危害源 (Source) -&gt; 傳輸 (Transport) -&gt; 接觸 (Contact)」的連續過程。\n\nEA 定位與演進 [1]\n預期、認知、評估與控制 + 確認（Confirm）"
+    "text": "暴露評估(EA)？\n\n暴露：從「危害源 (Source) -&gt; 傳輸 (Transport) -&gt; 接觸 (Contact)」的連續過程。\n\nEA 定位與演進 [1]\n預期、認知、評估與控制 + 確認（Confirm）",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#風險評估",
     "href": "先期暴露風險評估技術手冊.html#風險評估",
     "title": "先期暴露風險評估技術介紹",
     "section": "風險評估？",
-    "text": "風險評估？\n\nHealth Risk = (Exposure) (Toxicity)\n\n健康風險 = f (暴露量 ， 毒性)\n\n「毒性」（每單位暴露量對目標器官所產生的健康效應）\n\n暴露風險？ 評估+分級+管理？\n\n暴露數據必須連結健康效應才有意義。\n\n\n暴露評估（EA）與 風險評估（RA）？\n\n準確性？效率？效能？\n\n取決於 OH 執行 EA 的品質。"
+    "text": "風險評估？\n\nHealth Risk = (Exposure) (Toxicity)\n\n健康風險 = f (暴露量 ， 毒性)\n\n「毒性」（每單位暴露量對目標器官所產生的健康效應）\n\n暴露風險？ 評估+分級+管理？\n\n暴露數據必須連結健康效應才有意義。\n\n\n暴露評估（EA）與 風險評估（RA）？\n\n準確性？效率？效能？\n\n取決於 OH 執行 EA 的品質。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#ea-評估範圍工具思維進化",
     "href": "先期暴露風險評估技術手冊.html#ea-評估範圍工具思維進化",
     "title": "先期暴露風險評估技術介紹",
     "section": "EA 評估範圍、工具、思維進化",
-    "text": "EA 評估範圍、工具、思維進化\n\n範圍不僅限於化學物質，還擴及皮膚暴露、噪音、熱危害與人因工程等領域。\n評估工具越來越依賴數學模型及貝氏決策分析（Bayesian Decision Analysis, BDA）\n\n這對於處理含有未檢出值的小型數據集特別有用，能提供更高信賴度的決策支持。\n\n從「合規性」到「全面性」\n\n傳統「合規性策略（Compliance Strategy）」-–&gt; 「全面性評估策略（Comprehensive Strategy）」\n\n許多化學品缺乏OEL，且現有標準未必能保護最敏感的勞工，也無法提供員工每日暴露變異的歷史數據。\n評估「所有勞工、在所有工作日、對所有危害物」的暴露情況。建立全面的歷史暴露數據庫，不僅能在法規標準變嚴格時迅速因應，還能協助流行病學研究與員工的健康管理。"
+    "text": "EA 評估範圍、工具、思維進化\n\n範圍不僅限於化學物質，還擴及皮膚暴露、噪音、熱危害與人因工程等領域。\n評估工具越來越依賴數學模型及貝氏決策分析（Bayesian Decision Analysis, BDA）\n\n這對於處理含有未檢出值的小型數據集特別有用，能提供更高信賴度的決策支持。\n\n從「合規性」到「全面性」\n\n傳統「合規性策略（Compliance Strategy）」-–&gt; 「全面性評估策略（Comprehensive Strategy）」\n\n許多化學品缺乏OEL，且現有標準未必能保護最敏感的勞工，也無法提供員工每日暴露變異的歷史數據。\n評估「所有勞工、在所有工作日、對所有危害物」的暴露情況。建立全面的歷史暴露數據庫，不僅能在法規標準變嚴格時迅速因應，還能協助流行病學研究與員工的健康管理。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#ea-評估步驟",
     "href": "先期暴露風險評估技術手冊.html#ea-評估步驟",
     "title": "先期暴露風險評估技術介紹",
     "section": "EA 評估步驟",
-    "text": "EA 評估步驟\n\n起始（Start）：確立企業的評估目標與策略\n基本特徵描述（Basic Characterization）\n暴露評估：SEGs， OEL，決策統計值（Decision Statistic）\\(X_{95}, UTL\\)\n進一步收集資訊（Further Information Gathering）：針對「不確定」的暴露。\n\n優先安排空氣或生物監測、數學建模，或收集毒理/流行病學數據等。\n\n危害控制（Health Hazard Control）：Hierarchy control and confirm\n重新評估（Reassessment）：定期，變更\n溝通與文件化（Communications and Documentation）\n\n\n成功執行的關鍵：專業判斷（Professional Judgment）+ 利害關係人的參與 + 資源的有效配置。 (雇主支持？)"
+    "text": "EA 評估步驟\n\n起始（Start）：確立企業的評估目標與策略\n基本特徵描述（Basic Characterization）\n暴露評估：SEGs， OEL，決策統計值（Decision Statistic）\\(X_{95}, UTL\\)\n進一步收集資訊（Further Information Gathering）：針對「不確定」的暴露。\n\n優先安排空氣或生物監測、數學建模，或收集毒理/流行病學數據等。\n\n危害控制（Health Hazard Control）：Hierarchy control and confirm\n重新評估（Reassessment）：定期，變更\n溝通與文件化（Communications and Documentation）\n\n\n成功執行的關鍵：專業判斷（Professional Judgment）+ 利害關係人的參與 + 資源的有效配置。 (雇主支持？)",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#ea策略",
     "href": "先期暴露風險評估技術手冊.html#ea策略",
     "title": "先期暴露風險評估技術介紹",
     "section": "EA策略",
-    "text": "EA策略\n\n策略類型\n\n全面性策略 (Comprehensive Strategy)\n\n掌握暴露強度與時間變異性\n\n合規性策略 (Compliance Strategy)\n\n非例行性作業 (Non-routine Operations)\n\n\n\n\n\n專業判斷 (Professional Judgment)\n\n以科學(含統計)為底\n\n整合成「書面」暴露評估計畫"
+    "text": "EA策略\n\n策略類型\n\n全面性策略 (Comprehensive Strategy)\n\n掌握暴露強度與時間變異性\n\n合規性策略 (Compliance Strategy)\n\n非例行性作業 (Non-routine Operations)\n\n\n\n\n\n專業判斷 (Professional Judgment)\n\n以科學(含統計)為底\n\n整合成「書面」暴露評估計畫",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#暴露實態exposure-profile",
     "href": "先期暴露風險評估技術手冊.html#暴露實態exposure-profile",
     "title": "先期暴露風險評估技術介紹",
     "section": "暴露實態（Exposure Profile）",
-    "text": "暴露實態（Exposure Profile）\n\n暴露強度的時間變異性（如每日變化）與推估值"
+    "text": "暴露實態（Exposure Profile）\n\n暴露強度的時間變異性（如每日變化）與推估值",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#初始ea-initial-ea",
     "href": "先期暴露風險評估技術手冊.html#初始ea-initial-ea",
     "title": "先期暴露風險評估技術介紹",
     "section": "初始EA (Initial EA)",
-    "text": "初始EA (Initial EA)\n\n是整個暴露評估分層、循環過程中的第一個階段\n利用手邊現有的資訊來進行評估，但通常缺乏足夠定量數據。\n\n\n\n初始評估主要作為篩選工具。\n\n迅速判斷出微不足道（可接受）及明顯超標的暴露（不可接受）。\n\nmajor/minor cuts： 1/10 OEL + 不太可能導致不良健康後果 + 不違反法規要求\n\n\n後續循環釐清「不確定」的風險"
+    "text": "初始EA (Initial EA)\n\n是整個暴露評估分層、循環過程中的第一個階段\n利用手邊現有的資訊來進行評估，但通常缺乏足夠定量數據。\n\n\n\n初始評估主要作為篩選工具。\n\n迅速判斷出微不足道（可接受）及明顯超標的暴露（不可接受）。\n\nmajor/minor cuts： 1/10 OEL + 不太可能導致不良健康後果 + 不違反法規要求\n\n\n後續循環釐清「不確定」的風險",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#暴露分級exposure-ratings",
     "href": "先期暴露風險評估技術手冊.html#暴露分級exposure-ratings",
     "title": "先期暴露風險評估技術介紹",
     "section": "暴露分級（Exposure Ratings）",
-    "text": "暴露分級（Exposure Ratings）\n\n估算暴露量相對於「職業暴露容許標準（OEL）」的比例\n\n在缺乏大量監測數據的初始評估階段非常有用\n假設沒有使用個人防護裝備 (PPE)\n缺乏 OEL 時：可以根據基礎資料收集到的毒理學資訊，估算並設定一個「暫定/工作 OEL (working OEL)」，進行分級。\n\n推估暴露實態與分級的工具主要有三種：[1]\n\n監測數據 (Monitoring Data)\n替代數據 (Surrogate Data)\n數學建模 (Modeling)"
+    "text": "暴露分級（Exposure Ratings）\n\n估算暴露量相對於「職業暴露容許標準（OEL）」的比例\n\n在缺乏大量監測數據的初始評估階段非常有用\n假設沒有使用個人防護裝備 (PPE)\n缺乏 OEL 時：可以根據基礎資料收集到的毒理學資訊，估算並設定一個「暫定/工作 OEL (working OEL)」，進行分級。\n\n推估暴露實態與分級的工具主要有三種：[1]\n\n監測數據 (Monitoring Data)\n替代數據 (Surrogate Data)\n數學建模 (Modeling)",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#監測數據-monitoring-data",
     "href": "先期暴露風險評估技術手冊.html#監測數據-monitoring-data",
     "title": "先期暴露風險評估技術介紹",
     "section": "監測數據 (Monitoring Data)",
-    "text": "監測數據 (Monitoring Data)\n\n分「過去的個人監測數據」與「篩檢測量 Screening」\n篩檢測量 (Screening measurements) ：合適的直讀式測量\n\n工具：使用如檢知管、光離子化偵測器（PID）、可呼吸性氣膠監測儀或噪音計等技術，提供快速的測量結果，協助校準工業衛生人員的專業判斷。\n應用：可用於檢查「最壞情況（worst case）」或典型的暴露水準。釐清不同勞工或SEGs間的變異性。\n效能：透過篩檢測量，可以減少甚至消除進行昂貴個人監測的需求。"
+    "text": "監測數據 (Monitoring Data)\n\n分「過去的個人監測數據」與「篩檢測量 Screening」\n篩檢測量 (Screening measurements) ：合適的直讀式測量\n\n工具：使用如檢知管、光離子化偵測器（PID）、可呼吸性氣膠監測儀或噪音計等技術，提供快速的測量結果，協助校準工業衛生人員的專業判斷。\n應用：可用於檢查「最壞情況（worst case）」或典型的暴露水準。釐清不同勞工或SEGs間的變異性。\n效能：透過篩檢測量，可以減少甚至消除進行昂貴個人監測的需求。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#替代數據surrogate-data",
     "href": "先期暴露風險評估技術手冊.html#替代數據surrogate-data",
     "title": "先期暴露風險評估技術介紹",
     "section": "替代數據（Surrogate Data）",
-    "text": "替代數據（Surrogate Data）\n\n替代數據的應用必須非常謹慎，並高度仰賴專業判斷\n替代數據也常用於估算混合物引起的暴露\n主要分為以下兩大類應用方式：\n\n來自其他危害因子的暴露數據 (Exposure data from another agent)\n來自其他作業的暴露數據 (Exposure data from another operation)\n\n替代數據是在初始暴露評估階段缺乏直接監測數據時，填補資訊空白並協助完成暴露分級的重要實用工具。"
+    "text": "替代數據（Surrogate Data）\n\n替代數據的應用必須非常謹慎，並高度仰賴專業判斷\n替代數據也常用於估算混合物引起的暴露\n主要分為以下兩大類應用方式：\n\n來自其他危害因子的暴露數據 (Exposure data from another agent)\n來自其他作業的暴露數據 (Exposure data from another operation)\n\n替代數據是在初始暴露評估階段缺乏直接監測數據時，填補資訊空白並協助完成暴露分級的重要實用工具。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#數學建模modeling",
     "href": "先期暴露風險評估技術手冊.html#數學建模modeling",
     "title": "先期暴露風險評估技術介紹",
     "section": "數學建模（Modeling）",
-    "text": "數學建模（Modeling）\n\n兩大類別：\n\n基於物理與化學特性的預測模型 (Predictive modeling based on physical and chemical properties)\n\n估計目前，還能推算歷史暴露\n階層式方法 (Tiered approach)\n刻意高估 (Purposeful overestimation)\n\n基於製程資訊的預測模型 (Predictive modeling based on process information)\n\n包含許多製程參數\n建置製程模型(如G)來進行暴露評估"
+    "text": "數學建模（Modeling）\n\n兩大類別：\n\n基於物理與化學特性的預測模型 (Predictive modeling based on physical and chemical properties)\n\n估計目前，還能推算歷史暴露\n階層式方法 (Tiered approach)\n刻意高估 (Purposeful overestimation)\n\n基於製程資訊的預測模型 (Predictive modeling based on process information)\n\n包含許多製程參數\n建置製程模型(如G)來進行暴露評估",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#暴露判定judging-exposures",
     "href": "先期暴露風險評估技術手冊.html#暴露判定judging-exposures",
     "title": "先期暴露風險評估技術介紹",
     "section": "暴露判定（Judging Exposures）",
-    "text": "暴露判定（Judging Exposures）\n\n初始EA伴隨著極大的不確定性\nOEL 本身也可能存在不確定性\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n解決策略\n\n收集更多資訊：縮小不確定性。\n直接視為不可接受：成本效益評估，直接採控制措施。"
+    "text": "暴露判定（Judging Exposures）\n\n初始EA伴隨著極大的不確定性\nOEL 本身也可能存在不確定性\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n解決策略\n\n收集更多資訊：縮小不確定性。\n直接視為不可接受：成本效益評估，直接採控制措施。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#不確定的暴露-uncertain-exposures",
     "href": "先期暴露風險評估技術手冊.html#不確定的暴露-uncertain-exposures",
     "title": "先期暴露風險評估技術介紹",
     "section": "不確定的暴露 (Uncertain Exposures)",
-    "text": "不確定的暴露 (Uncertain Exposures)\n\n兩大主因：\n\n暴露實態尚未充分掌握：強度與變異\n缺乏健康效應數據：無可靠的OEL\n\n管理不確定性 (Managing Uncertainty)\n\n如果危害因子的毒性很低，且發生暴露的可能性也很低，那麼即使評估存在不確定性也無妨。\n不確定性的重要性極高：如果暴露可能導致極端、不可逆的傷害 (irreversible harm)，那麼對於不確定性的容忍度就必須非常低，必須盡可能釐清暴露。\n\n不確定性的兩大來源：\n\n暴露的變異性：日常變異。\n缺乏知識 (Lack of knowledge)：當完全沒有數據或知識時，這種不確定性的程度會非常巨大，甚至會完全掩蓋掉日常的變異性。\n\n評估不確定性的工具： 主觀估計 (subjective estimate)；傳統統計分析(有實際的測量數值，計算95%CI）；機率分析工具 (如蒙地卡羅分析 Monte Carlo analysis，非常複雜或關鍵的暴露評估)。"
+    "text": "不確定的暴露 (Uncertain Exposures)\n\n兩大主因：\n\n暴露實態尚未充分掌握：強度與變異\n缺乏健康效應數據：無可靠的OEL\n\n管理不確定性 (Managing Uncertainty)\n\n如果危害因子的毒性很低，且發生暴露的可能性也很低，那麼即使評估存在不確定性也無妨。\n不確定性的重要性極高：如果暴露可能導致極端、不可逆的傷害 (irreversible harm)，那麼對於不確定性的容忍度就必須非常低，必須盡可能釐清暴露。\n\n不確定性的兩大來源：\n\n暴露的變異性：日常變異。\n缺乏知識 (Lack of knowledge)：當完全沒有數據或知識時，這種不確定性的程度會非常巨大，甚至會完全掩蓋掉日常的變異性。\n\n評估不確定性的工具： 主觀估計 (subjective estimate)；傳統統計分析(有實際的測量數值，計算95%CI）；機率分析工具 (如蒙地卡羅分析 Monte Carlo analysis，非常複雜或關鍵的暴露評估)。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#ea循環持續改善",
     "href": "先期暴露風險評估技術手冊.html#ea循環持續改善",
     "title": "先期暴露風險評估技術介紹",
     "section": "EA循環，持續改善",
-    "text": "EA循環，持續改善"
+    "text": "EA循環，持續改善",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#ea的具體產出-assessment-outcomes",
     "href": "先期暴露風險評估技術手冊.html#ea的具體產出-assessment-outcomes",
     "title": "先期暴露風險評估技術介紹",
     "section": "EA的具體產出 (Assessment Outcomes)",
-    "text": "EA的具體產出 (Assessment Outcomes)\n\n掌握SEG暴露實態推估\n量化相對風險：相對於OEL的暴露分級\n決策判定：暴露風險判定\n後續風險管理\n\n排定後須行動優先順序並落實\n釐清未知風險(不確定分級)，進一步收集資訊並解決。"
+    "text": "EA的具體產出 (Assessment Outcomes)\n\n掌握SEG暴露實態推估\n量化相對風險：相對於OEL的暴露分級\n決策判定：暴露風險判定\n後續風險管理\n\n排定後須行動優先順序並落實\n釐清未知風險(不確定分級)，進一步收集資訊並解決。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#數學建模modeling-1",
     "href": "先期暴露風險評估技術手冊.html#數學建模modeling-1",
     "title": "先期暴露風險評估技術介紹",
     "section": "數學建模（Modeling）",
-    "text": "數學建模（Modeling）\n\nEA目的：建立SEGs的暴露實態（含途徑、強度、持續時間與頻率），並將其與OEL（如 TWA-8、STEL）進行比較，以判定暴露是「可接受」、「不可接受」或「不確定」。\n傳統上仰賴空氣採樣來建立暴露輪廓，但實際上，僅靠少數幾次測量是難以用參數統計學（如95%信賴區間）得出具備充分信賴度的結論的。例如，即使4次採樣結果都低於OEL，在無母數統計下，我們也只能有 32% 的把握說 75% 的暴露低於 OEL。\n\n無母數統計（Non-parametric Statistics）：不假設數據符合任何分佈（如常態或對數常態），直接從樣本本身去推估母體。"
+    "text": "數學建模（Modeling）\n\nEA目的：建立SEGs的暴露實態（含途徑、強度、持續時間與頻率），並將其與OEL（如 TWA-8、STEL）進行比較，以判定暴露是「可接受」、「不可接受」或「不確定」。\n傳統上仰賴空氣採樣來建立暴露輪廓，但實際上，僅靠少數幾次測量是難以用參數統計學（如95%信賴區間）得出具備充分信賴度的結論的。例如，即使4次採樣結果都低於OEL，在無母數統計下，我們也只能有 32% 的把握說 75% 的暴露低於 OEL。\n\n無母數統計（Non-parametric Statistics）：不假設數據符合任何分佈（如常態或對數常態），直接從樣本本身去推估母體。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#數學建模modeling-2",
     "href": "先期暴露風險評估技術手冊.html#數學建模modeling-2",
     "title": "先期暴露風險評估技術介紹",
     "section": "數學建模（Modeling）",
-    "text": "數學建模（Modeling）\n為什麼需要數學建模？\n\n資源有限與專業判斷的盲點\n\n純粹的專業判斷常會低估實際暴露\n\n跨越時間的多元應用 (過去、當下、與未來)\n測量只知結果，建模能知原因 (物化特性)\n數學模型並不是為了完全取代空氣採樣，而是要提升決策品質。\n\nOH可以更自信地判定哪些低風險作業不需要採樣，進而將昂貴的採樣資源與分析成本，集中投入在真正高風險的暴露情境上。 (快篩？)"
+    "text": "數學建模（Modeling）\n為什麼需要數學建模？\n\n資源有限與專業判斷的盲點\n\n純粹的專業判斷常會低估實際暴露\n\n跨越時間的多元應用 (過去、當下、與未來)\n測量只知結果，建模能知原因 (物化特性)\n數學模型並不是為了完全取代空氣採樣，而是要提升決策品質。\n\nOH可以更自信地判定哪些低風險作業不需要採樣，進而將昂貴的採樣資源與分析成本，集中投入在真正高風險的暴露情境上。 (快篩？)",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#如何建模",
     "href": "先期暴露風險評估技術手冊.html#如何建模",
     "title": "先期暴露風險評估技術介紹",
     "section": "如何建模？",
-    "text": "如何建模？\n\n物理化學特徵 + 暴露時間\n容許不確定性（夠接近了嗎？合理的最壞情況 reasonable worst case）\n\n收集建模資訊\n\n化學物質資訊 (G…)\n空氣空間資訊 (V…)\n空氣混合狀態 (WMB, NF/FF)\n勞工作業活動模式\n\n\n數據品質決定模型價值 (Garbage in, garbage out) 本章總結強調，模型輸出的結果高度依賴輸入資訊的品質。"
+    "text": "如何建模？\n\n物理化學特徵 + 暴露時間\n容許不確定性（夠接近了嗎？合理的最壞情況 reasonable worst case）\n\n收集建模資訊\n\n\n化學物質資訊 (G…)\n空氣空間資訊 (V…)\n空氣混合狀態 (WMB, NF/FF)\n勞工作業活動模式\n\n\n\n數據品質決定模型價值 (Garbage in, garbage out) 本章總結強調，模型輸出的結果高度依賴輸入資訊的品質。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#定量-ea",
     "href": "先期暴露風險評估技術手冊.html#定量-ea",
     "title": "先期暴露風險評估技術介紹",
     "section": "定量 EA",
-    "text": "定量 EA\n分類\n\n監測 (略)\n推估模式\n\n無通風推估模式(Zero Ventilation Model)\n飽和蒸氣壓模式（Saturation Vapor Pressure Model）\n暴露空間模式（Box Models）\n完全混合模式（Well-mixed Room Model）\n二暴露區模式（Two-Zone Model）\n渦流擴散模式(Turbulent Eddy diffusion model)\n統計推估模式(Statistical models)\n其他具有相同效力或可有效推估勞工暴露之推估模式"
+    "text": "定量 EA\n分類\n\n監測 (略)\n推估模式\n\n無通風推估模式(Zero Ventilation Model)\n飽和蒸氣壓模式（Saturation Vapor Pressure Model）\n暴露空間模式（Box Models）\n完全混合模式（Well-mixed Room Model）\n二暴露區模式（Two-Zone Model）\n渦流擴散模式(Turbulent Eddy diffusion model)\n統計推估模式(Statistical models)\n其他具有相同效力或可有效推估勞工暴露之推估模式",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#pollutant-generation-rates",
@@ -3458,28 +3596,40 @@
     "href": "先期暴露風險評估技術手冊.html#推估模式方法分層tiered-approach",
     "title": "先期暴露風險評估技術介紹",
     "section": "推估模式方法分層(Tiered Approach)",
-    "text": "推估模式方法分層(Tiered Approach)"
+    "text": "推估模式方法分層(Tiered Approach)",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#basic-pollutant-generation-rates",
     "href": "先期暴露風險評估技術手冊.html#basic-pollutant-generation-rates",
     "title": "先期暴露風險評估技術介紹",
     "section": "BASIC: Pollutant Generation Rates",
-    "text": "BASIC: Pollutant Generation Rates\n\n在空氣濃度建模中，準確估算化學物質釋放到空氣中的「生成率（或稱排放率）」是極為關鍵的步驟。\n質量平衡法 (Mass Balance)\n\n限制\n\n無法反映短期波動：無法呈現製程中忽高忽低的間歇性釋放或極端峰值（peaks）。\n不等於實際空氣濃度：「總排放量」不能直接等同於室內空氣的濃度。\n\n\n排放係數法 (Emission Factors)\n\n限制：除了前述外，還有製程差異「排放係數是製程的函數」。"
+    "text": "BASIC: Pollutant Generation Rates\n\n在空氣濃度建模中，準確估算化學物質釋放到空氣中的「生成率（或稱排放率）」是極為關鍵的步驟。\n質量平衡法 (Mass Balance)\n\n限制\n\n無法反映短期波動：無法呈現製程中忽高忽低的間歇性釋放或極端峰值（peaks）。\n不等於實際空氣濃度：「總排放量」不能直接等同於室內空氣的濃度。\n\n\n排放係數法 (Emission Factors)\n\n限制：除了前述外，還有製程差異「排放係數是製程的函數」。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#tier-i-模式",
     "href": "先期暴露風險評估技術手冊.html#tier-i-模式",
     "title": "先期暴露風險評估技術介紹",
     "section": "Tier I 模式",
-    "text": "Tier I 模式\n1. 無通風推估模式(Zero Ventilation Model)\n\n質量守恆原理，假設最糟情境，估算密閉空間中的最終平均濃度(最高值)。其基本假設為：\n\n(1) 零通風(Zero Ventilation)\n(2) 完全逸散與混合\n(3) 無移除機制\n\n公式 \\(C_{A}=\\frac{M_{A}}{V}\\)\n\nMA​：化學品A散布至空氣中的總質量(mg)；V：無通風室內之空氣體積(m³)。"
+    "text": "Tier I 模式\n1. 無通風推估模式(Zero Ventilation Model)\n\n質量守恆原理，假設最糟情境，估算密閉空間中的最終平均濃度(最高值)。其基本假設為：\n\n(1) 零通風(Zero Ventilation)\n(2) 完全逸散與混合\n(3) 無移除機制\n\n公式 \\(C_{A}=\\frac{M_{A}}{V}\\)\n\nMA​：化學品A散布至空氣中的總質量(mg)；V：無通風室內之空氣體積(m³)。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#tier-i-模式-1",
     "href": "先期暴露風險評估技術手冊.html#tier-i-模式-1",
     "title": "先期暴露風險評估技術介紹",
     "section": "Tier I 模式",
-    "text": "Tier I 模式\n2.蒸氣壓模型（Vapor Pressure Models）\n\n包含飽和蒸氣壓模式、液體裝填釋放模式、開放液面蒸發模式及加壓容器洩漏釋放模式等。\n飽和蒸氣壓模式：評估最糟暴露情境\n\n\n\n\n\n\n\n\n簡化公式\\(\\frac{VP_A}{P_{atm}} \\cdot 10^6 = \\text{ppm}\\)\n單位換算 (原ppm)\\(\\frac{VP_A}{P_{atm}} \\cdot 10^6 \\cdot \\frac{\\text{MW}}{24.45} = \\text{mg/m}^3\\)\n\n\n\n\n留意應用限制與專業考量"
+    "text": "Tier I 模式\n2.蒸氣壓模型（Vapor Pressure Models）\n\n包含飽和蒸氣壓模式、液體裝填釋放模式、開放液面蒸發模式及加壓容器洩漏釋放模式等。\n飽和蒸氣壓模式：評估最糟暴露情境\n\n\n\n\n\n\n\n\n簡化公式\\(\\frac{VP_A}{P_{atm}} \\cdot 10^6 = \\text{ppm}\\)\n單位換算 (原ppm)\\(\\frac{VP_A}{P_{atm}} \\cdot 10^6 \\cdot \\frac{\\text{MW}}{24.45} = \\text{mg/m}^3\\)\n\n\n\n\n留意應用限制與專業考量",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#零通風模式-zero-ventilation-model",
@@ -3493,35 +3643,50 @@
     "href": "先期暴露風險評估技術手冊.html#tier-i-模式-2",
     "title": "先期暴露風險評估技術介紹",
     "section": "Tier I 模式",
-    "text": "Tier I 模式\n3.暴露空間模式（Box Models）\n\n基本元素：污染物釋放(G)及擴散(ventilation)\n時間濃度解\n\nCA,room,0：初始濃度 (t=0)。 無沉降損失：Ksink=0。(忽略沉降損失)。GA：恒定生成速率。 CA,in：進氣濃度。Q：通風率(m³/s)。\n\n\n\\(C_{A,\\mathrm{room},t}\n=\n\\left(\nC_{A,\\mathrm{room},0}\n-\nC_{A,\\mathrm{in}}\n-\n\\frac{G_A}{Q}\n\\right)\ne^{-\\frac{Q(t-t_0)}{V}}\n+\nC_{A,\\mathrm{in}}\n+\n\\frac{G_A}{Q}\\)\n\n穩態濃度\n\n\\(C_{A,\\mathrm{room},\\mathrm{SS}}=C_{A,\\mathrm{in}}+\\frac{G_A}{Q}\\)\n\n平均暴露濃度-時間加權\n\n\\(C_{\\mathrm{avg}}=C_{A,\\mathrm{in}}+\\frac{G_A}{Q}+\\frac{V}{Q(t-t_0)}\\left[\\left(C_{A,\\mathrm{room},0}-C_{A,\\mathrm{in}}-\\frac{G_A}{Q}\\right)\\left(e^{-\\frac{Q(t-t_0)}{V}}-1\\right)\\right]\\)"
+    "text": "Tier I 模式\n3.暴露空間模式（Box Models）\n\n基本元素：污染物釋放(G)及擴散(ventilation)\n時間濃度解\n\nCA,room,0：初始濃度 (t=0)。 無沉降損失：Ksink=0。(忽略沉降損失)。GA：恒定生成速率。 CA,in：進氣濃度。Q：通風率(m³/s)。\n\n\n\\(C_{A,\\mathrm{room},t}\n=\n\\left(\nC_{A,\\mathrm{room},0}\n-\nC_{A,\\mathrm{in}}\n-\n\\frac{G_A}{Q}\n\\right)\ne^{-\\frac{Q(t-t_0)}{V}}\n+\nC_{A,\\mathrm{in}}\n+\n\\frac{G_A}{Q}\\)\n\n穩態濃度\n\n\\(C_{A,\\mathrm{room},\\mathrm{SS}}=C_{A,\\mathrm{in}}+\\frac{G_A}{Q}\\)\n\n平均暴露濃度-時間加權\n\n\\(C_{\\mathrm{avg}}=C_{A,\\mathrm{in}}+\\frac{G_A}{Q}+\\frac{V}{Q(t-t_0)}\\left[\\left(C_{A,\\mathrm{room},0}-C_{A,\\mathrm{in}}-\\frac{G_A}{Q}\\right)\\left(e^{-\\frac{Q(t-t_0)}{V}}-1\\right)\\right]\\)",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境--1.無通風推估模式",
     "href": "先期暴露風險評估技術手冊.html#實作情境--1.無通風推估模式",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境- 1.無通風推估模式",
-    "text": "實作情境- 1.無通風推估模式\n第一階段：情境描述 (Scenario)\n\n事件發生：你是一家中型製造廠的環安衛 (EHS) 人員。某天早上，一名員工打電話請病假，表示自己有嚴重的胃痙攣。\n懷疑主因：該員工懷疑這與他昨天打翻液體有關。昨天他在工作站打翻了一瓶化學品，隨後用工廠抹布將其擦乾。他當時覺得化學品味道很重，但沒有感到不適。\n你的任務：由於症狀是延遲發作的，你需要針對這起非典型暴露事件進行調查。你必須推估該員工在此次溢漏事件中的暴露濃度，以判斷其腹痛是否與暴露有關。"
+    "text": "實作情境- 1.無通風推估模式\n第一階段：情境描述 (Scenario)\n\n事件發生：你是一家中型製造廠的環安衛 (EHS) 人員。某天早上，一名員工打電話請病假，表示自己有嚴重的胃痙攣。\n懷疑主因：該員工懷疑這與他昨天打翻液體有關。昨天他在工作站打翻了一瓶化學品，隨後用工廠抹布將其擦乾。他當時覺得化學品味道很重，但沒有感到不適。\n你的任務：由於症狀是延遲發作的，你需要針對這起非典型暴露事件進行調查。你必須推估該員工在此次溢漏事件中的暴露濃度，以判斷其腹痛是否與暴露有關。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境--1.無通風推估模式-續",
     "href": "先期暴露風險評估技術手冊.html#實作情境--1.無通風推估模式-續",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境- 1.無通風推估模式 (續)",
-    "text": "實作情境- 1.無通風推估模式 (續)\n第二階段：收集建模資訊 (Information Gathering)\n\n化學品資訊：打翻的物質是甲苯 (Toluene)。液體密度為 0.87 g/mL。容許標準 (OELs)：PEL TWA-8 (8小時時量平均容許濃度) 為 750 mg/m³；更嚴格的 TLV TWA 為 75 mg/m³。\n暴露時間與強度：\n\n背景濃度：該工作區平時典型的甲苯暴露濃度為 25 mg/m³。\n溢漏時間點：事件發生在 8 小時班次中的第 5 個小時（這代表溢漏後的暴露時間最多只有 3 小時）。\n溢漏量：原本 500 mL 的瓶子大約半滿，因此約打翻了 250 mL。揮發時間：員工用抹布擦拭後將其放在 2 公尺外晾乾，約 2 小時後抹布全乾（代表甲苯已全數揮發）。\n\n空間資訊：\n\n房間尺寸為 10公尺 × 8公尺 × 3公尺高，算出總體積 (V) 為 240 m³。房間缺乏明確的通風率數據，也沒有機械排氣設備。"
+    "text": "實作情境- 1.無通風推估模式 (續)\n第二階段：收集建模資訊 (Information Gathering)\n\n化學品資訊：打翻的物質是甲苯 (Toluene)。液體密度為 0.87 g/mL。容許標準 (OELs)：PEL TWA-8 (8小時時量平均容許濃度) 為 750 mg/m³；更嚴格的 TLV TWA 為 75 mg/m³。\n暴露時間與強度：\n\n背景濃度：該工作區平時典型的甲苯暴露濃度為 25 mg/m³。\n溢漏時間點：事件發生在 8 小時班次中的第 5 個小時（這代表溢漏後的暴露時間最多只有 3 小時）。\n溢漏量：原本 500 mL 的瓶子大約半滿，因此約打翻了 250 mL。揮發時間：員工用抹布擦拭後將其放在 2 公尺外晾乾，約 2 小時後抹布全乾（代表甲苯已全數揮發）。\n\n空間資訊：\n\n房間尺寸為 10公尺 × 8公尺 × 3公尺高，算出總體積 (V) 為 240 m³。房間缺乏明確的通風率數據，也沒有機械排氣設備。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境--1.無通風推估模式-續-1",
     "href": "先期暴露風險評估技術手冊.html#實作情境--1.無通風推估模式-續-1",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境- 1.無通風推估模式 (續)",
-    "text": "實作情境- 1.無通風推估模式 (續)\n第三階段：模型推估演練 (Modeling Approach)\n\n既然沒有通風數據，請先採用最保守的「無通風模式 (Zero-Ventilation Model)」來進行初步篩選。這個模型假設房間是密封的，污染物釋放後會立刻均勻混合在空間中。\n請估算空氣濃度 (C)，並做出結果專業判定。"
+    "text": "實作情境- 1.無通風推估模式 (續)\n第三階段：模型推估演練 (Modeling Approach)\n\n既然沒有通風數據，請先採用最保守的「無通風模式 (Zero-Ventilation Model)」來進行初步篩選。這個模型假設房間是密封的，污染物釋放後會立刻均勻混合在空間中。\n請估算空氣濃度 (C)，並做出結果專業判定。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境--1.無通風推估模式-續-2",
     "href": "先期暴露風險評估技術手冊.html#實作情境--1.無通風推估模式-續-2",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境- 1.無通風推估模式 (續)",
-    "text": "實作情境- 1.無通風推估模式 (續)\n參考建議\n\nC = 910 mg/m³，C (TWA-8) = 360 mg/m³ 低於 PEL 標準 (750 mg/m³)，但高於 TLV 標準 (75 mg/m³)\n風險等級：？\n建議：改用「完全混合房間模型 (Well-Mixed Room Model)」重新計算更準確的數值。\n健康關聯判定：對照安全資料表，甲苯通常造成的健康影響是眼鼻刺激、頭暈等急性症狀，與該員工「延遲發作的胃痙攣」並不吻合。因此可以推論其病症很可能與此次暴露無關。\n請試試 官方版工具\n思考：是否適用於污水中有害物(硫化氫)逸散評估，或消防系統窒息性氣體(壓縮二氧化碳)於地下室突洩情境評估？"
+    "text": "實作情境- 1.無通風推估模式 (續)\n參考建議\n\nC = 910 mg/m³，C (TWA-8) = 360 mg/m³ 低於 PEL 標準 (750 mg/m³)，但高於 TLV 標準 (75 mg/m³)\n風險等級：？\n建議：改用「完全混合房間模型 (Well-Mixed Room Model)」重新計算更準確的數值。\n健康關聯判定：對照安全資料表，甲苯通常造成的健康影響是眼鼻刺激、頭暈等急性症狀，與該員工「延遲發作的胃痙攣」並不吻合。因此可以推論其病症很可能與此次暴露無關。\n請試試 官方版工具\n思考：是否適用於污水中有害物(硫化氫)逸散評估，或消防系統窒息性氣體(壓縮二氧化碳)於地下室突洩情境評估？",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境-蒸氣壓模型",
@@ -3535,7 +3700,10 @@
     "href": "先期暴露風險評估技術手冊.html#實作情境-蒸氣壓模型-續",
     "title": "先期暴露風險評估技術介紹",
     "section": "2.實作情境-蒸氣壓模型 (續)",
-    "text": "2.實作情境-蒸氣壓模型 (續)\n第四階段：結果判定 (Interpreting the Result)\n\n遠超過了 IDLH (3,880 mg/m³) 與所有的 OELs 標準。\nTWA-8 依然高達 2,400 mg/m³？建議應立即安排該名勞工進行健康檢查。\n火災/爆炸風險？\n\n163,000 ppm 相當於空氣中有 16.3% 的正己烷氣體。\n這個數值不僅超過了爆炸下限 (LEL 1.1%)，甚至超過了爆炸上限 (UEL 7.5%)。\n當櫃門被打開、高濃度氣體往外擴散並被房間空氣稀釋的過程中，濃度一定會無可避免地「穿越」爆炸範圍（降至 7.5% 與 1.1% 之間）。此時只要有任何火花，就會引發嚴重的爆炸危險。\n\n請試試 官方工具"
+    "text": "2.實作情境-蒸氣壓模型 (續)\n第四階段：結果判定 (Interpreting the Result)\n\n遠超過了 IDLH (3,880 mg/m³) 與所有的 OELs 標準。\nTWA-8 依然高達 2,400 mg/m³？建議應立即安排該名勞工進行健康檢查。\n火災/爆炸風險？\n\n163,000 ppm 相當於空氣中有 16.3% 的正己烷氣體。\n這個數值不僅超過了爆炸下限 (LEL 1.1%)，甚至超過了爆炸上限 (UEL 7.5%)。\n當櫃門被打開、高濃度氣體往外擴散並被房間空氣稀釋的過程中，濃度一定會無可避免地「穿越」爆炸範圍（降至 7.5% 與 1.1% 之間）。此時只要有任何火花，就會引發嚴重的爆炸危險。\n\n請試試 官方工具",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境-蒸氣壓模型-續-1",
@@ -3563,189 +3731,270 @@
     "href": "先期暴露風險評估技術手冊.html#實作情境-2.蒸氣壓模型",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境-2.蒸氣壓模型",
-    "text": "實作情境-2.蒸氣壓模型\n第一階段：情境描述 [2]\n\n事件發生：週末過後，一名勞工打開了實驗室的化學品儲存櫃。他發現櫃內有一瓶 500 mL 廣口瓶的揮發性液體被忘記蓋上蓋子。瓶內還有液體，且儲存櫃內散發出極度強烈的溶劑氣味。該勞工立刻將瓶蓋鎖緊，但因為氣味太過強烈，他隨即離開房間（儲存櫃的門保持敞開），並通報環安室。\n任務：身為環安衛人員，您必須推算：當這名勞工打開櫃門的那一瞬間，他面臨的暴露濃度有多高？"
+    "text": "實作情境-2.蒸氣壓模型\n第一階段：情境描述 [2]\n\n事件發生：週末過後，一名勞工打開了實驗室的化學品儲存櫃。他發現櫃內有一瓶 500 mL 廣口瓶的揮發性液體被忘記蓋上蓋子。瓶內還有液體，且儲存櫃內散發出極度強烈的溶劑氣味。該勞工立刻將瓶蓋鎖緊，但因為氣味太過強烈，他隨即離開房間（儲存櫃的門保持敞開），並通報環安室。\n任務：身為環安衛人員，您必須推算：當這名勞工打開櫃門的那一瞬間，他面臨的暴露濃度有多高？",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境--2.蒸氣壓模型-續",
     "href": "先期暴露風險評估技術手冊.html#實作情境--2.蒸氣壓模型-續",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境- 2.蒸氣壓模型 (續)",
-    "text": "實作情境- 2.蒸氣壓模型 (續)\n第二階段：收集建模資訊\n\n化學品資訊 (正己烷, n-Hexane)：分子量 (MW)：86.2 g/mol\n\n液體密度 (ρ)：0.66 g/mL，蒸氣壓 (Pv​)：124 mmHg\n爆炸極限：下限 (LEL) 為 1.1% (11,000 ppm)；上限 (UEL) 為 7.5% (75,000 ppm)\n容許標準 (OELs)：PEL TWA-8 (美國法定 8 小時容許濃度)：1,760 mg/m³；TLV TWA (更嚴格的建議值)：176 mg/m³；IDLH (立即致危濃度)：3,880 mg/m³\n空間資訊 (儲存櫃內部空間)：85 × 40× 40 cm= 0.136 m³。"
+    "text": "實作情境- 2.蒸氣壓模型 (續)\n第二階段：收集建模資訊\n\n化學品資訊 (正己烷, n-Hexane)：分子量 (MW)：86.2 g/mol\n\n液體密度 (ρ)：0.66 g/mL，蒸氣壓 (Pv​)：124 mmHg\n爆炸極限：下限 (LEL) 為 1.1% (11,000 ppm)；上限 (UEL) 為 7.5% (75,000 ppm)\n容許標準 (OELs)：PEL TWA-8 (美國法定 8 小時容許濃度)：1,760 mg/m³；TLV TWA (更嚴格的建議值)：176 mg/m³；IDLH (立即致危濃度)：3,880 mg/m³\n空間資訊 (儲存櫃內部空間)：85 × 40× 40 cm= 0.136 m³。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境--2.蒸氣壓模型-續-1",
     "href": "先期暴露風險評估技術手冊.html#實作情境--2.蒸氣壓模型-續-1",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境- 2.蒸氣壓模型 (續)",
-    "text": "實作情境- 2.蒸氣壓模型 (續)\n\n請估算空氣濃度 (C)，並做出結果專業判定。"
+    "text": "實作情境- 2.蒸氣壓模型 (續)\n\n請估算空氣濃度 (C)，並做出結果專業判定。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境--2.蒸氣壓模型-續-2",
     "href": "先期暴露風險評估技術手冊.html#實作情境--2.蒸氣壓模型-續-2",
     "title": "先期暴露風險評估技術介紹",
     "section": "2.實作情境- 2.蒸氣壓模型 (續)",
-    "text": "2.實作情境- 2.蒸氣壓模型 (續)\n第三階段：模型推估演練 (飽和蒸氣壓模型)\n\nC = 163,000 ppm = 575,000 mg/m³\n驗證可達到飽和狀態？ (yes)\n\n計算所需揮發質量575,000 mg/m³×0.136 m³=78,200 mg\n換算為液體體積：78,200 mg×(1 g/1,000 mg)/0.66 g/mL=118 mL"
+    "text": "2.實作情境- 2.蒸氣壓模型 (續)\n第三階段：模型推估演練 (飽和蒸氣壓模型)\n\nC = 163,000 ppm = 575,000 mg/m³\n驗證可達到飽和狀態？ (yes)\n\n計算所需揮發質量575,000 mg/m³×0.136 m³=78,200 mg\n換算為液體體積：78,200 mg×(1 g/1,000 mg)/0.66 g/mL=118 mL",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境-3.暴露空間模式",
     "href": "先期暴露風險評估技術手冊.html#實作情境-3.暴露空間模式",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境-3.暴露空間模式",
-    "text": "實作情境-3.暴露空間模式\n\n情境描述：在一間尺寸為5m×6m×2m(體積V=60 m³)的實驗室內，一名勞工將進行甲苯塗層作業。已知該作業的甲苯逸散率G經評估為50 mg/s。實驗室的通風換氣率Q為0.1 m³/s。作業開始前，室內與進氣的甲苯背景濃度均為10 mg/m³。假設：完全混合、無沉積效應(Sinks)。\n\n請評估作業開始20分鐘後，實驗室內的平均甲苯濃度，以判斷是否可能超過短時間暴露限值。\n請估算房間內甲苯的穩態濃度，並評估其暴露風險。\n\n請試試 官方工具"
+    "text": "實作情境-3.暴露空間模式\n\n情境描述：在一間尺寸為5m×6m×2m(體積V=60 m³)的實驗室內，一名勞工將進行甲苯塗層作業。已知該作業的甲苯逸散率G經評估為50 mg/s。實驗室的通風換氣率Q為0.1 m³/s。作業開始前，室內與進氣的甲苯背景濃度均為10 mg/m³。假設：完全混合、無沉積效應(Sinks)。\n\n請評估作業開始20分鐘後，實驗室內的平均甲苯濃度，以判斷是否可能超過短時間暴露限值。\n請估算房間內甲苯的穩態濃度，並評估其暴露風險。\n\n請試試 官方工具",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#tier-ii-模式",
     "href": "先期暴露風險評估技術手冊.html#tier-ii-模式",
     "title": "先期暴露風險評估技術介紹",
     "section": "Tier II 模式",
-    "text": "Tier II 模式\n4.完全混合模式(Well-mixed Room Model, WMR)\n\n當G, Q, and/or CA.in發生變化的動態情境下的建模\n\n在許多真實情境下，污染物的生成率 (G)、通風量 (Q)，或是進氣中的污染物濃度 (CA,in​) 都會隨著時間而改變。\n\n模式包括濃度隨時間的動態變化解、穩態濃度解，以及考量背壓效應(back pressure effect)、間歇性排放等進階情境。\n濃度變化估算公式\n\n\n\n\n\n\n\n微分質量平衡的數值解\n\\(\\frac{dC_{A,\\text{room}}}{dt} = C_{A,\\text{room}} \\cdot A(t) + B(t)\\)\n\n\n\\(A(t) = \\left[ \\frac{-(Q + K_{\\text{sink}})}{V} \\right]\\)\n\n\n\\(B(t) = \\frac{Q_A}{V} \\cdot C_{A,\\text{in}} + \\frac{G_A}{V}\\)"
+    "text": "Tier II 模式\n4.完全混合模式(Well-mixed Room Model, WMR)\n\n當G, Q, and/or CA.in發生變化的動態情境下的建模\n\n在許多真實情境下，污染物的生成率 (G)、通風量 (Q)，或是進氣中的污染物濃度 (CA,in​) 都會隨著時間而改變。\n\n模式包括濃度隨時間的動態變化解、穩態濃度解，以及考量背壓效應(back pressure effect)、間歇性排放等進階情境。\n濃度變化估算公式\n\n\n\n\n\n\n\n微分質量平衡的數值解\n\\(\\frac{dC_{A,\\text{room}}}{dt} = C_{A,\\text{room}} \\cdot A(t) + B(t)\\)\n\n\n\\(A(t) = \\left[ \\frac{-(Q + K_{\\text{sink}})}{V} \\right]\\)\n\n\n\\(B(t) = \\frac{Q_A}{V} \\cdot C_{A,\\text{in}} + \\frac{G_A}{V}\\)",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境--4.完全混合模式動態變化",
     "href": "先期暴露風險評估技術手冊.html#實作情境--4.完全混合模式動態變化",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境- 4.完全混合模式(動態變化)",
-    "text": "實作情境- 4.完全混合模式(動態變化)\n有機溶劑塗佈-濃度動態變化\n\n某工廠零件塗佈機在室溫波動環境下運行，需評估甲苯濃度的動態變化及勞工暴露風險。已知條件：房間體積V=25 m3，通風率Q=1.0 m3/min(換氣次數2.4ACH)。甲苯排放率隨溫度變化(增減)，可依據Clausius-Clapeyron方程估算。\n\n\\(G_A(T) = 450 \\cdot \\exp \\left[ 4660 \\left( \\frac{1}{294.3} - \\frac{1}{T + 273.15} \\right) \\right] \\text{ mg/min}\\)\n\n\n在作業持續480分鐘(8小時)後，濃度逐漸趨於穩定，最終達到約195 ppm。\n請提出你的風險評估與後續行動 (手冊說的恰當嗎？)"
+    "text": "實作情境- 4.完全混合模式(動態變化)\n有機溶劑塗佈-濃度動態變化\n\n某工廠零件塗佈機在室溫波動環境下運行，需評估甲苯濃度的動態變化及勞工暴露風險。已知條件：房間體積V=25 m3，通風率Q=1.0 m3/min(換氣次數2.4ACH)。甲苯排放率隨溫度變化(增減)，可依據Clausius-Clapeyron方程估算。\n\n\\(G_A(T) = 450 \\cdot \\exp \\left[ 4660 \\left( \\frac{1}{294.3} - \\frac{1}{T + 273.15} \\right) \\right] \\text{ mg/min}\\)\n\n\n在作業持續480分鐘(8小時)後，濃度逐漸趨於穩定，最終達到約195 ppm。\n請提出你的風險評估與後續行動 (手冊說的恰當嗎？)",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境--4.完全混合模式動態變化-續",
     "href": "先期暴露風險評估技術手冊.html#實作情境--4.完全混合模式動態變化-續",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境- 4.完全混合模式(動態變化) (續)",
-    "text": "實作情境- 4.完全混合模式(動態變化) (續)\n第一階段：情境描述 (排放率隨時間指數遞減)[3]\n\n作業內容：某中型製造廠的員工在生產線旁清潔面板。每 3 分鐘會有一塊面板經過，員工會用噴瓶將含 4% 醋酸 (Acetic Acid) 的清潔液噴灑在面板上，接著用紙巾擦拭。\n作息時間：員工早上 8:00 上班，10:00 休息 15 分鐘，12:00 午餐休息 30 分鐘，14:30 再休息 15 分鐘，16:00 下班。休息期間員工離開工作站，暴露為零。\n評估：醋酸的蒸氣壓較低，揮發速度慢。如果假設它「瞬間完全揮發」，算出來的濃度會被過度高估（TWA-8 約為 7 mg/m³）。因此，建立一個「隨時間變動、緩慢揮發並疊加」的排放指數遞減模型，來求得更精確的暴露濃度。"
+    "text": "實作情境- 4.完全混合模式(動態變化) (續)\n第一階段：情境描述 (排放率隨時間指數遞減)[3]\n\n作業內容：某中型製造廠的員工在生產線旁清潔面板。每 3 分鐘會有一塊面板經過，員工會用噴瓶將含 4% 醋酸 (Acetic Acid) 的清潔液噴灑在面板上，接著用紙巾擦拭。\n作息時間：員工早上 8:00 上班，10:00 休息 15 分鐘，12:00 午餐休息 30 分鐘，14:30 再休息 15 分鐘，16:00 下班。休息期間員工離開工作站，暴露為零。\n評估：醋酸的蒸氣壓較低，揮發速度慢。如果假設它「瞬間完全揮發」，算出來的濃度會被過度高估（TWA-8 約為 7 mg/m³）。因此，建立一個「隨時間變動、緩慢揮發並疊加」的排放指數遞減模型，來求得更精確的暴露濃度。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境--4.完全混合模式動態變化-續-1",
     "href": "先期暴露風險評估技術手冊.html#實作情境--4.完全混合模式動態變化-續-1",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境- 4.完全混合模式(動態變化) (續)",
-    "text": "實作情境- 4.完全混合模式(動態變化) (續)\n\n濃度解(排放指數遞減)\n\n\\(C_t = \\sum_{i=1}^{n} \\frac{\\alpha \\cdot M}{\\alpha \\cdot V - Q} \\cdot \\left( e^{\\frac{-Q \\cdot t_i}{V}} - e^{-\\alpha \\cdot (t - t_i)} \\right)\\)\n第二階段：收集建模參數\n\nα (排放率常數)：根據文獻，類似擦拭作業的醋酸排放率常數約為 0.006 min⁻¹。\nM (每次投入質量)：經換算清潔液的濃度與噴灑體積，每次清潔一塊面板會投入 481 mg 的醋酸。\nV (箱體體積)：根據工作站與員工活動範圍，設定一個虛擬的完全混合箱體，體積為 18.75 m³。\nQ (通風量)：根據現場氣流速度與箱體截面積，算出通過箱體的通風量為 20.0 m³/min。"
+    "text": "實作情境- 4.完全混合模式(動態變化) (續)\n\n濃度解(排放指數遞減)\n\n\\(C_t = \\sum_{i=1}^{n} \\frac{\\alpha \\cdot M}{\\alpha \\cdot V - Q} \\cdot \\left( e^{\\frac{-Q \\cdot t_i}{V}} - e^{-\\alpha \\cdot (t - t_i)} \\right)\\)\n第二階段：收集建模參數\n\nα (排放率常數)：根據文獻，類似擦拭作業的醋酸排放率常數約為 0.006 min⁻¹。\nM (每次投入質量)：經換算清潔液的濃度與噴灑體積，每次清潔一塊面板會投入 481 mg 的醋酸。\nV (箱體體積)：根據工作站與員工活動範圍，設定一個虛擬的完全混合箱體，體積為 18.75 m³。\nQ (通風量)：根據現場氣流速度與箱體截面積，算出通過箱體的通風量為 20.0 m³/min。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境--4.完全混合模式動態變化-續-2",
     "href": "先期暴露風險評估技術手冊.html#實作情境--4.完全混合模式動態變化-續-2",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境- 4.完全混合模式(動態變化) (續)",
-    "text": "實作情境- 4.完全混合模式(動態變化) (續)\n第三階段：數學模型估算\n\n單次噴灑的濃度變化：指數遞減的揮發率與通風稀釋。每一次噴灑（投入 M = 481 mg）後，醋酸會慢慢揮發，同時又被通風 (Q) 帶走。\n估算連續作業的濃度疊加：每 3 分鐘就會噴灑一次新的面板，前一次噴灑的醋酸還沒揮發完，新的醋酸又加進來了。因此，特定時間點的總濃度，是「所有過去噴灑」在該時間點殘留濃度的總和。"
+    "text": "實作情境- 4.完全混合模式(動態變化) (續)\n第三階段：數學模型估算\n\n單次噴灑的濃度變化：指數遞減的揮發率與通風稀釋。每一次噴灑（投入 M = 481 mg）後，醋酸會慢慢揮發，同時又被通風 (Q) 帶走。\n估算連續作業的濃度疊加：每 3 分鐘就會噴灑一次新的面板，前一次噴灑的醋酸還沒揮發完，新的醋酸又加進來了。因此，特定時間點的總濃度，是「所有過去噴灑」在該時間點殘留濃度的總和。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境--4.完全混合模式動態變化-續-3",
     "href": "先期暴露風險評估技術手冊.html#實作情境--4.完全混合模式動態變化-續-3",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境- 4.完全混合模式(動態變化) (續)",
-    "text": "實作情境- 4.完全混合模式(動態變化) (續)\n第四階段：結果判定 (Interpreting the Result)\n\n透過試算表完成一整天 8 小時 (480 分鐘) 的模擬後，您可以進行以下決策：\n\n\n檢視最大極值： 隨著時間推移，作業區的氣體濃度會像爬樓梯一樣慢慢累積，並在班次結束前達到最高峰的 6.6 mg/m³。\n計算 TWA-8 (8小時時量平均濃度)： 將各個工作時段與休息時段的濃度平均起來，算出該員工真實的 TWA-8 為 4.7 mg/m³。\n做出風險管理決策：\n\n法定標準 (PEL/TLV) 為 25 mg/m³。這代表員工的暴露量符合法規標準。\n然而，該公司內部的安全目標是「維持在 OEL 的 10% 以下 (即 2.5 mg/m³)」。\n最終判定：既然算出的 4.7 mg/m³ 超過了內部 10% 的標準（約佔 16%），環安衛團隊應判定此風險「無法僅憑專業判斷結案」，並決定安排後續的實體空氣採樣監測計畫來驗證此結果。"
+    "text": "實作情境- 4.完全混合模式(動態變化) (續)\n第四階段：結果判定 (Interpreting the Result)\n\n透過試算表完成一整天 8 小時 (480 分鐘) 的模擬後，您可以進行以下決策：\n\n\n檢視最大極值： 隨著時間推移，作業區的氣體濃度會像爬樓梯一樣慢慢累積，並在班次結束前達到最高峰的 6.6 mg/m³。\n計算 TWA-8 (8小時時量平均濃度)： 將各個工作時段與休息時段的濃度平均起來，算出該員工真實的 TWA-8 為 4.7 mg/m³。\n做出風險管理決策：\n\n法定標準 (PEL/TLV) 為 25 mg/m³。這代表員工的暴露量符合法規標準。\n然而，該公司內部的安全目標是「維持在 OEL 的 10% 以下 (即 2.5 mg/m³)」。\n最終判定：既然算出的 4.7 mg/m³ 超過了內部 10% 的標準（約佔 16%），環安衛團隊應判定此風險「無法僅憑專業判斷結案」，並決定安排後續的實體空氣採樣監測計畫來驗證此結果。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#tier-ii-模式-1",
     "href": "先期暴露風險評估技術手冊.html#tier-ii-模式-1",
     "title": "先期暴露風險評估技術介紹",
     "section": "Tier II 模式",
-    "text": "Tier II 模式\n5. 二暴露區模式（Two-Zone Model）\n\n又稱近場/遠場模式 (NF/FF)\n非WMB模式架設 - 全部空間均勻混合。\n\n近場：緊鄰污染源的區域，通常涵蓋勞工的呼吸帶。\n\n以污染源為中心、半徑約為1-2公尺的半球體。\n\n二區域間空氣速率(β)的進行動態質量交換。\n模式基本假設是：每個區域內部完全混合。\n\n特別適用：點源汙染逸散、 通風不良。\n模式數學公式\n\n時間濃度解\n\n\n\n\n\n\n\n\n\\(C_N(t) = \\frac{G}{\\left(\\frac{\\beta}{\\beta + Q}\\right)Q} + G \\left[ \\frac{\\beta Q + \\lambda_2 V_N (\\beta + Q)}{\\beta Q V_N (\\lambda_1 - \\lambda_2)} \\right] e^{\\lambda_1 t} - G \\left[ \\frac{\\beta Q + \\lambda_1 V_N (\\beta + Q)}{\\beta Q V_N (\\lambda_1 - \\lambda_2)} \\right] e^{\\lambda_2 t}\\)\n\n\n\\(C_F(t) = \\frac{G}{Q} + G \\left[ \\frac{\\lambda_1 V_N + \\beta}{\\beta} \\right] \\left[ \\frac{\\beta Q + \\lambda_2 V_N (\\beta + Q)}{\\beta Q V_N (\\lambda_1 - \\lambda_2)} \\right] e^{\\lambda_1 t} - G \\left[ \\frac{\\lambda_2 V_N + \\beta}{\\beta} \\right] \\left[ \\frac{\\beta Q + \\lambda_1 V_N (\\beta + Q)}{\\beta Q V_N (\\lambda_1 - \\lambda_2)} \\right] e^{\\lambda_2 t}\\)\n\n\n\n\n穩態濃度\n\n\n\n\n\n\n\n\n\\(C_{N,SS} = \\frac{G}{Q} + \\frac{G}{\\beta}\\)\n\\(C_{F,SS} = \\frac{G}{Q}\\)"
+    "text": "Tier II 模式\n5. 二暴露區模式（Two-Zone Model）\n\n又稱近場/遠場模式 (NF/FF)\n非WMB模式架設 - 全部空間均勻混合。\n\n近場：緊鄰污染源的區域，通常涵蓋勞工的呼吸帶。\n\n以污染源為中心、半徑約為1-2公尺的半球體。\n\n二區域間空氣速率(β)的進行動態質量交換。\n模式基本假設是：每個區域內部完全混合。\n\n特別適用：點源汙染逸散、 通風不良。\n模式數學公式\n\n時間濃度解\n\n\n\n\n\n\n\n\n\\(C_N(t) = \\frac{G}{\\left(\\frac{\\beta}{\\beta + Q}\\right)Q} + G \\left[ \\frac{\\beta Q + \\lambda_2 V_N (\\beta + Q)}{\\beta Q V_N (\\lambda_1 - \\lambda_2)} \\right] e^{\\lambda_1 t} - G \\left[ \\frac{\\beta Q + \\lambda_1 V_N (\\beta + Q)}{\\beta Q V_N (\\lambda_1 - \\lambda_2)} \\right] e^{\\lambda_2 t}\\)\n\n\n\\(C_F(t) = \\frac{G}{Q} + G \\left[ \\frac{\\lambda_1 V_N + \\beta}{\\beta} \\right] \\left[ \\frac{\\beta Q + \\lambda_2 V_N (\\beta + Q)}{\\beta Q V_N (\\lambda_1 - \\lambda_2)} \\right] e^{\\lambda_1 t} - G \\left[ \\frac{\\lambda_2 V_N + \\beta}{\\beta} \\right] \\left[ \\frac{\\beta Q + \\lambda_1 V_N (\\beta + Q)}{\\beta Q V_N (\\lambda_1 - \\lambda_2)} \\right] e^{\\lambda_2 t}\\)\n\n\n\n\n穩態濃度\n\n\n\n\n\n\n\n\n\\(C_{N,SS} = \\frac{G}{Q} + \\frac{G}{\\beta}\\)\n\\(C_{F,SS} = \\frac{G}{Q}\\)",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境1--5.二暴露區模式",
     "href": "先期暴露風險評估技術手冊.html#實作情境1--5.二暴露區模式",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境1- 5.二暴露區模式",
-    "text": "實作情境1- 5.二暴露區模式\n\n情境描述：一名勞工坐在工作台旁，手動塗抹含甲苯的黏合劑，甲苯以恆定速率 G=1,000 mg/min蒸發。\n近場(NF)：假設為半球形(半徑 r = 0.76 m)，體積VN = 0.93 m3，自由表面積 FSA=3.6 m2。空氣流速：隨機空氣速度S=3.7 m/min(中位數)。\n房間參數：總體積200 m3，通風速率 Q=20 m3/min(每小時6次換氣)，初始條件：甲苯濃度為 0。\n請進行該名勞工暴露評估。"
+    "text": "實作情境1- 5.二暴露區模式\n\n情境描述：一名勞工坐在工作台旁，手動塗抹含甲苯的黏合劑，甲苯以恆定速率 G=1,000 mg/min蒸發。\n近場(NF)：假設為半球形(半徑 r = 0.76 m)，體積VN = 0.93 m3，自由表面積 FSA=3.6 m2。空氣流速：隨機空氣速度S=3.7 m/min(中位數)。\n房間參數：總體積200 m3，通風速率 Q=20 m3/min(每小時6次換氣)，初始條件：甲苯濃度為 0。\n請進行該名勞工暴露評估。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境--5.二暴露區模式-續",
     "href": "先期暴露風險評估技術手冊.html#實作情境--5.二暴露區模式-續",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境- 5.二暴露區模式 (續)",
-    "text": "實作情境- 5.二暴露區模式 (續)\n\n暴露濃度推估？\n暴露風險與建議行動？\n試試 官方版工具"
+    "text": "實作情境- 5.二暴露區模式 (續)\n\n暴露濃度推估？\n暴露風險與建議行動？\n試試 官方版工具",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境2--5.二暴露區模式-續",
     "href": "先期暴露風險評估技術手冊.html#實作情境2--5.二暴露區模式-續",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境2- 5.二暴露區模式 (續)",
-    "text": "實作情境2- 5.二暴露區模式 (續)\n回溯性評估個案\n第一階段：情境描述\n\n事件背景：一家製造廠使用了「開放式三氯乙烯（TCE）蒸氣脫脂槽」來清洗金屬零件。當時在該廠工作的勞工後來出現了不良健康反應，並引發了法律訴訟。\n現場狀況：勞工每天會在脫脂槽附近（距離幾公尺的長凳上）進行零件準備與組裝，也會直接操作脫脂槽。廠方缺乏系統性的暴露評估紀錄，僅有三筆濃度數據（22、25、40 mg/m³），但缺乏採樣位置、時間與人員的資訊，無法直接採用。\n任務：身為專家，您必須利用數學建模來回溯推估當時脫脂槽周圍的 TCE 歷史濃度，以釐清這些暴露是否可能導致勞工的健康危害。"
+    "text": "實作情境2- 5.二暴露區模式 (續)\n回溯性評估個案\n第一階段：情境描述\n\n事件背景：一家製造廠使用了「開放式三氯乙烯（TCE）蒸氣脫脂槽」來清洗金屬零件。當時在該廠工作的勞工後來出現了不良健康反應，並引發了法律訴訟。\n現場狀況：勞工每天會在脫脂槽附近（距離幾公尺的長凳上）進行零件準備與組裝，也會直接操作脫脂槽。廠方缺乏系統性的暴露評估紀錄，僅有三筆濃度數據（22、25、40 mg/m³），但缺乏採樣位置、時間與人員的資訊，無法直接採用。\n任務：身為專家，您必須利用數學建模來回溯推估當時脫脂槽周圍的 TCE 歷史濃度，以釐清這些暴露是否可能導致勞工的健康危害。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境2--5.二暴露區模式-續-1",
     "href": "先期暴露風險評估技術手冊.html#實作情境2--5.二暴露區模式-續-1",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境2- 5.二暴露區模式 (續)",
-    "text": "實作情境2- 5.二暴露區模式 (續)\n第二階段：收集建模資訊\n\n化學品：TCE 是一種無色、具甜味且高度揮發的液體。其法定的 PEL TWA-8 為 537 mg/m³，但更嚴格的建議標準 TLV TWA 僅為 54 mg/m³。\n計算排放率 (G)：\n\n根據文獻，開放式 TCE 脫脂槽的排放係數為 2.9 g/min/m²。脫脂槽的開放表面積為 1.14 m²。推算排放率約等於 3,300 mg/min。\n\n計算房間通風量 (Q)：\n\n房間有 4 個送風口，每個設計風量為 650 ft³/min，總通風量為 2,600 ft³/min。換算為公制單位：Q=73.6 m3/min。"
+    "text": "實作情境2- 5.二暴露區模式 (續)\n第二階段：收集建模資訊\n\n化學品：TCE 是一種無色、具甜味且高度揮發的液體。其法定的 PEL TWA-8 為 537 mg/m³，但更嚴格的建議標準 TLV TWA 僅為 54 mg/m³。\n計算排放率 (G)：\n\n根據文獻，開放式 TCE 脫脂槽的排放係數為 2.9 g/min/m²。脫脂槽的開放表面積為 1.14 m²。推算排放率約等於 3,300 mg/min。\n\n計算房間通風量 (Q)：\n\n房間有 4 個送風口，每個設計風量為 650 ft³/min，總通風量為 2,600 ft³/min。換算為公制單位：Q=73.6 m3/min。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境2--5.二暴露區模式-續-2",
     "href": "先期暴露風險評估技術手冊.html#實作情境2--5.二暴露區模式-續-2",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境2- 5.二暴露區模式 (續)",
-    "text": "實作情境2- 5.二暴露區模式 (續)\n第三階段：雙區模型推估\n\n遠區穩態濃度 (CF,SS​) ：遠區的濃度是由整體的通風量來稀釋。公式：CF,SS​=G/Q = 45 mg/m3\n區域間空氣交換率 (β) ：公式：β=1/2​×FSA×s = 0.5×26.5 m2×3.7 m/min(文獻)=49.0 m3/min\n計算近區穩態濃度 (CN,SS​) 近區濃度 = 遠區的背景濃度 + 污染源在近區產生的局部濃度。公式：CN,SS​=(G/Q)+(G/β) = 112 mg/m3"
+    "text": "實作情境2- 5.二暴露區模式 (續)\n第三階段：雙區模型推估\n\n遠區穩態濃度 (CF,SS​) ：遠區的濃度是由整體的通風量來稀釋。公式：CF,SS​=G/Q = 45 mg/m3\n區域間空氣交換率 (β) ：公式：β=1/2​×FSA×s = 0.5×26.5 m2×3.7 m/min(文獻)=49.0 m3/min\n計算近區穩態濃度 (CN,SS​) 近區濃度 = 遠區的背景濃度 + 污染源在近區產生的局部濃度。公式：CN,SS​=(G/Q)+(G/β) = 112 mg/m3",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作情境2--5.二暴露區模式-續-3",
     "href": "先期暴露風險評估技術手冊.html#實作情境2--5.二暴露區模式-續-3",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境2- 5.二暴露區模式 (續)",
-    "text": "實作情境2- 5.二暴露區模式 (續)\n第四階段：結果判定與風險評估\n\n計算 8 小時時量平均濃度 (TWA-8)\n\n勞工作息：8 小時的班次 (480 分鐘) 中，有 60 分鐘在午餐與休息區 (濃度為 0)；在作業房間內的 420 分鐘裡，約 20% 的時間 (84 分鐘) 待在近區，80% 的時間 (336 分鐘) 待在遠區。\n\nTWA 計算： \\(\\frac{(112\\text{ mg/m}^3 \\times 84\\text{ min}) + (45\\text{ mg/m}^3 \\times 336\\text{ min}) + (0 \\times 60\\text{ min})}{480\\text{ min}}\\)\n​=51 mg/m3\n風險評估與敏感度分析\n\n比對標準：推算 TWA 為 51 mg/m³，這個數值剛好落在 TLV 標準 (54 mg/m³) 的邊緣。這代表當時勞工的暴露風險確實不容忽視。\n\n試算表與情境變更：在法庭上，可能會質疑參數設定。您可以利用模型，隨時調整變數來因應質疑。例如，若對方主張「當時設備老舊排氣不佳，且冷卻盤管故障導致排放量多 30%」，您只要將參數更改，模型就能立即算出新的 TWA 為 89 mg/m³。此結果明顯超標，更能支持勞工暴露過量的主張。"
+    "text": "實作情境2- 5.二暴露區模式 (續)\n第四階段：結果判定與風險評估\n\n計算 8 小時時量平均濃度 (TWA-8)\n\n勞工作息：8 小時的班次 (480 分鐘) 中，有 60 分鐘在午餐與休息區 (濃度為 0)；在作業房間內的 420 分鐘裡，約 20% 的時間 (84 分鐘) 待在近區，80% 的時間 (336 分鐘) 待在遠區。\n\nTWA 計算： \\(\\frac{(112\\text{ mg/m}^3 \\times 84\\text{ min}) + (45\\text{ mg/m}^3 \\times 336\\text{ min}) + (0 \\times 60\\text{ min})}{480\\text{ min}}\\)\n​=51 mg/m3\n風險評估與敏感度分析\n\n比對標準：推算 TWA 為 51 mg/m³，這個數值剛好落在 TLV 標準 (54 mg/m³) 的邊緣。這代表當時勞工的暴露風險確實不容忽視。\n\n試算表與情境變更：在法庭上，可能會質疑參數設定。您可以利用模型，隨時調整變數來因應質疑。例如，若對方主張「當時設備老舊排氣不佳，且冷卻盤管故障導致排放量多 30%」，您只要將參數更改，模型就能立即算出新的 TWA 為 89 mg/m³。此結果明顯超標，更能支持勞工暴露過量的主張。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#tier-ii-模式-2",
     "href": "先期暴露風險評估技術手冊.html#tier-ii-模式-2",
     "title": "先期暴露風險評估技術介紹",
     "section": "Tier II 模式",
-    "text": "Tier II 模式\n6.渦流擴散模式(Turbulent Eddy diffusion model)\n(略) 自行參酌技術手冊介紹，使用 官方版工具"
+    "text": "Tier II 模式\n6.渦流擴散模式(Turbulent Eddy diffusion model)\n(略) 自行參酌技術手冊介紹，使用 官方版工具",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#tier-iii-模式",
     "href": "先期暴露風險評估技術手冊.html#tier-iii-模式",
     "title": "先期暴露風險評估技術介紹",
     "section": "Tier III 模式",
-    "text": "Tier III 模式\n7.統計推估模式(Statistical Models)\n\n從「已發生的暴露數據」著手，運用統計學方法來「解釋」濃度變化的原因，並據此建立預測模型。\n模式種類：參見技術手冊 表 7 統計模式整理表\n實作情境：(略) 請參考技術手冊"
+    "text": "Tier III 模式\n7.統計推估模式(Statistical Models)\n\n從「已發生的暴露數據」著手，運用統計學方法來「解釋」濃度變化的原因，並據此建立預測模型。\n模式種類：參見技術手冊 表 7 統計模式整理表\n實作情境：(略) 請參考技術手冊",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#模式選用-搭配工具",
     "href": "先期暴露風險評估技術手冊.html#模式選用-搭配工具",
     "title": "先期暴露風險評估技術介紹",
     "section": "模式選用 (搭配工具)",
-    "text": "模式選用 (搭配工具)\n\n面對特定的暴露情境，該如何選擇最合適的評估模式？\n「多層次評估」(Tiered Approach)概念(AIHA)\n\nTier I 模式(第一層初步篩選模式)\nTier II 模式(第二層精緻化評估模式)\nTier III 模式(第三層機率性評估模式)\n\n模式演練 (WMB + 蒙地卡羅模型)"
+    "text": "模式選用 (搭配工具)\n\n面對特定的暴露情境，該如何選擇最合適的評估模式？\n「多層次評估」(Tiered Approach)概念(AIHA)\n\nTier I 模式(第一層初步篩選模式)\nTier II 模式(第二層精緻化評估模式)\nTier III 模式(第三層機率性評估模式)\n\n模式演練 (WMB + 蒙地卡羅模型)",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作演練比較-wmb-蒙地卡羅模型",
     "href": "先期暴露風險評估技術手冊.html#實作演練比較-wmb-蒙地卡羅模型",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作演練比較 (WMB + 蒙地卡羅模型)",
-    "text": "實作演練比較 (WMB + 蒙地卡羅模型)\n第一階段：情境描述\n\n事件：一所大學化學系老師反映，在進行有機化學實驗（使用二氯甲烷進行萃取）時，溶劑氣味特別明顯。因為學校預算吃緊，在花錢進行實體空氣採樣之前，您希望先透過數學建模來進行初步的暴露評估。\n任務：推算實驗室內的二氯甲烷（Methylene Chloride, MeCl2）濃度，並評估學生的暴露風險是否在可接受範圍內。"
+    "text": "實作演練比較 (WMB + 蒙地卡羅模型)\n第一階段：情境描述\n\n事件：一所大學化學系老師反映，在進行有機化學實驗（使用二氯甲烷進行萃取）時，溶劑氣味特別明顯。因為學校預算吃緊，在花錢進行實體空氣採樣之前，您希望先透過數學建模來進行初步的暴露評估。\n任務：推算實驗室內的二氯甲烷（Methylene Chloride, MeCl2）濃度，並評估學生的暴露風險是否在可接受範圍內。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作演練比較-續",
     "href": "先期暴露風險評估技術手冊.html#實作演練比較-續",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作演練比較 (續)",
-    "text": "實作演練比較 (續)\n第二階段：收集建模資訊\n\n透過SDS、閱讀實驗手冊並與講師訪談，收集以下關鍵數據：\n\n化學品與法規標準：二氯甲烷的液體密度為 1.33 g/mL，法定的 PEL TWA-8 為 87 mg/m³。\n\n空間與通風資訊：實驗室體積為 294 m³。透過測量排氣櫃表面風速，估算出房間平均總通風量 (Q) 波動範圍落在 67 至 133 m³/min 之間。\n作業與排放資訊：\n\n時間：實驗課程長度為 180 分鐘。每班最多 24 名學生，但也可能少至 12 名學生。每位學生配發 60 mL 溶劑。實際上學生會回收溶劑，真正揮發的量約在 10 至 40 mL 之間。因此，推估每位學生的實際排放率落在 74 至 296 mg/min 之間。"
+    "text": "實作演練比較 (續)\n第二階段：收集建模資訊\n\n透過SDS、閱讀實驗手冊並與講師訪談，收集以下關鍵數據：\n\n化學品與法規標準：二氯甲烷的液體密度為 1.33 g/mL，法定的 PEL TWA-8 為 87 mg/m³。\n\n空間與通風資訊：實驗室體積為 294 m³。透過測量排氣櫃表面風速，估算出房間平均總通風量 (Q) 波動範圍落在 67 至 133 m³/min 之間。\n作業與排放資訊：\n\n時間：實驗課程長度為 180 分鐘。每班最多 24 名學生，但也可能少至 12 名學生。每位學生配發 60 mL 溶劑。實際上學生會回收溶劑，真正揮發的量約在 10 至 40 mL 之間。因此，推估每位學生的實際排放率落在 74 至 296 mg/min 之間。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作演練比較-續-1",
     "href": "先期暴露風險評估技術手冊.html#實作演練比較-續-1",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作演練比較 (續)",
-    "text": "實作演練比較 (續)\n第三階段：模型推估\n模式一：(WMB) (最壞與最佳情況)\n\n最壞情況：假設 24 名學生將 60 mL 溶劑全數揮發 (總排放率 G = 10,640 mg/min)，且通風量為 67 m³/min。\n\n計算：Css​=G/Q=10,640/97=159 mg/m³。此數值高於 PEL (87 mg/m³)。\n\n最佳情況 ：只有 12 名學生，且操作謹慎（每人排放 74 mg/min），且通風量達到最高的 133 m³/min。\n\n計算：Css​=(12×74)/133=6.7 mg/m³。\n\n\n\n風險評估決策？：算出的濃度範圍從 6.7 到 159 mg/m³，範圍極大。實務上，「所有最壞條件同時發生」或「所有最佳條件同時發生」的機率微乎其微。"
+    "text": "實作演練比較 (續)\n第三階段：模型推估\n模式一：(WMB) (最壞與最佳情況)\n\n最壞情況：假設 24 名學生將 60 mL 溶劑全數揮發 (總排放率 G = 10,640 mg/min)，且通風量為 67 m³/min。\n\n計算：Css​=G/Q=10,640/97=159 mg/m³。此數值高於 PEL (87 mg/m³)。\n\n最佳情況 ：只有 12 名學生，且操作謹慎（每人排放 74 mg/min），且通風量達到最高的 133 m³/min。\n\n計算：Css​=(12×74)/133=6.7 mg/m³。\n\n\n\n風險評估決策？：算出的濃度範圍從 6.7 到 159 mg/m³，範圍極大。實務上，「所有最壞條件同時發生」或「所有最佳條件同時發生」的機率微乎其微。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#實作演練比較-續-2",
     "href": "先期暴露風險評估技術手冊.html#實作演練比較-續-2",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作演練比較 (續)",
-    "text": "實作演練比較 (續)\n模式二：蒙地卡羅模型 機率性推估\n\n實作：使用 AIHA IHMOD Tool"
+    "text": "實作演練比較 (續)\n模式二：蒙地卡羅模型 機率性推估\n\n實作：使用 AIHA IHMOD Tool",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#課程結論",
     "href": "先期暴露風險評估技術手冊.html#課程結論",
     "title": "先期暴露風險評估技術介紹",
     "section": "課程結論",
-    "text": "課程結論\n\n數學建模的目的並非要完全取代實體的空氣採樣，而是作為暴露評估的第一道、也是最具成本效益的篩選工具。\n模型的選擇具備「階層性」：從極端保守到貼近真實。\n評估成敗的關鍵在於數據品質。\n多利用工具軟體\n決策的核心：推估值與 OEL 的比較與專業建議"
+    "text": "課程結論\n\n\n數學建模的目的並非要完全取代實體的空氣採樣，而是作為暴露評估的第一道、也是最具成本效益的篩選工具。\n模型的選擇具備「階層性」：從極端保守到貼近真實。\n評估成敗的關鍵在於數據品質。\n多利用工具軟體\n決策的核心：推估值與 OEL 的比較與專業建議",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html#參考資料",
     "href": "先期暴露風險評估技術手冊.html#參考資料",
     "title": "先期暴露風險評估技術介紹",
     "section": "參考資料",
-    "text": "參考資料\n實作演練(網頁)"
+    "text": "參考資料\n實作演練(網頁)",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
   },
   {
     "objectID": "先期暴露風險評估技術手冊.html",
@@ -3857,63 +4106,90 @@
     "href": "OEL.html#講師簡介",
     "title": "OEL ?",
     "section": "講師簡介",
-    "text": "講師簡介\n\n姓名：何明信\n學歷：成大環醫所 、職安衛技師\n經歷：檢查員30年 (製造、危機設、營造、化工職衛科、專委)\n現職：114年退休\nE-mail：msho7336959@gmail.com"
+    "text": "講師簡介\n\n姓名：何明信\n學歷：成大環醫所 、職安衛技師\n經歷：檢查員30年 (製造、危機設、營造、化工職衛科、專委)\n現職：114年退休\nE-mail：msho7336959@gmail.com",
+    "crumbs": [
+      "OEL與EA"
+    ]
   },
   {
     "objectID": "OEL.html#職業風險的暴露推估與解釋",
     "href": "OEL.html#職業風險的暴露推估與解釋",
     "title": "OEL ?",
     "section": "職業風險的暴露推估與解釋",
-    "text": "職業風險的暴露推估與解釋\n文獻：Waters, M., McKernan, L., Maier, A., Jayjock, M., Schaeffer, V., & Brosseau, L. (2015). Exposure estimation and interpretation of occupational risk: enhanced information for the occupational risk manager. Journal of occupational and environmental hygiene, 12(sup1), S99-S111.\n\n職業風險在本質上是機率性的（probabilistic），最準確的看待方式是將其視為一種「分佈（distribution）」，而非單一數值。\n「變異性」與「不確定性」？\n\n變異性（Variability）：這是自然界中固有的異質性（例如勞工之間或不同工作日之間的差異），無法藉由收集更多數據來消除，只能更精確地去描述它。\n不確定性（Uncertainty）：這是由於對暴露情境、模型參數或測量數據缺乏完美資訊所造成的。不確定性通常可以透過收集更多或更好的數據（如實體採樣）來降低。"
+    "text": "職業風險的暴露推估與解釋\n文獻：Waters, M., McKernan, L., Maier, A., Jayjock, M., Schaeffer, V., & Brosseau, L. (2015). Exposure estimation and interpretation of occupational risk: enhanced information for the occupational risk manager. Journal of occupational and environmental hygiene, 12(sup1), S99-S111.\n\n職業風險在本質上是機率性的（probabilistic），最準確的看待方式是將其視為一種「分佈（distribution）」，而非單一數值。\n「變異性」與「不確定性」？\n\n變異性（Variability）：這是自然界中固有的異質性（例如勞工之間或不同工作日之間的差異），無法藉由收集更多數據來消除，只能更精確地去描述它。\n不確定性（Uncertainty）：這是由於對暴露情境、模型參數或測量數據缺乏完美資訊所造成的。不確定性通常可以透過收集更多或更好的數據（如實體採樣）來降低。",
+    "crumbs": [
+      "OEL與EA"
+    ]
   },
   {
     "objectID": "OEL.html#監測進階工具",
     "href": "OEL.html#監測進階工具",
     "title": "OEL ?",
     "section": "監測+進階工具？",
-    "text": "監測+進階工具？\n\nOH除了傳統的實體測量，更應採用更進階的工具。\n數學建模與進階推估方法\n\n蒙地卡羅方法（Monte Carlo methods）：透過電腦隨機抽樣來量化不確定性並模擬出暴露的機率分佈。\n貝式分析法（Bayesian methods）：結合專家的專業判斷（先驗機率）與少量的實際測量數據，來推估更可靠的暴露落點機率。\n\n評估策略與實務決策工具\n\n決策方法：危害商數（Hazard Quotient）、NIOSH/OSHA 的單一樣本合規判定法、AIHA 的 95 百分位數暴露評估策略，以及更嚴謹的統計檢定與貝式決策法。\n工具：如 IH Stats、IHMOD、SPEED 與 IH Data Analyst 等現成的量化分析軟體，鼓勵OH積極使用這些工具來視覺化暴露數據並協助決策。"
+    "text": "監測+進階工具？\n\nOH除了傳統的實體測量，更應採用更進階的工具。\n數學建模與進階推估方法\n\n蒙地卡羅方法（Monte Carlo methods）：透過電腦隨機抽樣來量化不確定性並模擬出暴露的機率分佈。\n貝式分析法（Bayesian methods）：結合專家的專業判斷（先驗機率）與少量的實際測量數據，來推估更可靠的暴露落點機率。\n\n評估策略與實務決策工具\n\n決策方法：危害商數（Hazard Quotient）、NIOSH/OSHA 的單一樣本合規判定法、AIHA 的 95 百分位數暴露評估策略，以及更嚴謹的統計檢定與貝式決策法。\n工具：如 IH Stats、IHMOD、SPEED 與 IH Data Analyst 等現成的量化分析軟體，鼓勵OH積極使用這些工具來視覺化暴露數據並協助決策。",
+    "crumbs": [
+      "OEL與EA"
+    ]
   },
   {
     "objectID": "OEL.html#全球主要機構所發布的職業暴露限值oels",
     "href": "OEL.html#全球主要機構所發布的職業暴露限值oels",
     "title": "OEL ?",
     "section": "全球主要機構所發布的職業暴露限值（OELs）",
-    "text": "全球主要機構所發布的職業暴露限值（OELs）\n表 1. 由各組織制定的職業暴露限值 (OELs)\n\n\n\n\n\n\n\n\n\n\n\n職業暴露限值 (OEL)\n定義\n健康基礎\n分析可行性\n經濟可行性\n工程可行性\n\n\n\n\nACGIH TLV\n閾限值 (TLVs) 是指化學物質的空氣濃度，代表幾乎所有勞工在整個工作生涯中，日復一日反覆暴露而不會產生不良健康效應的條件。TLVs 是為了保護正常、健康的成年勞工而制定的。它們並非安全與危險暴露之間的精確界線，也不是毒性的相對指標。\n是\n否\n否\n否\n\n\nAIHA-WEEL\n工作場所環境暴露基準 (WEELs) 是基於健康的空氣化學品 OELs，旨在缺乏其他 OELs 可用時提供實務指引。WEELs 為保護大多數勞工免受與職業化學品暴露相關的不良健康影響提供指引。WEELs 以時量平均值 (TWA) 或上限值 (ceiling limits) 來表示。\n是\n否\n否\n否\n\n\nDFG MAK\nMAK 值是每日 8 小時時量平均值，適用於健康的成年人。MAK 提供了工作場所中化學物質的最大濃度。\n是\n否\n否\n否\n\n\nEC SCOEL\nSCOEL 的 8 小時時量平均暴露，代表勞工在整個工作生涯中，每週 5 天、每天 8 小時透過空氣途徑暴露，而不會對勞工自身或其後代健康造成不良影響的限值。\n是\n否\n否\n否\n\n\nNIOSH REL\nRELs 是由 NIOSH 建議的職業暴露限值，旨在保護勞工整個工作生涯的健康與安全。REL 通常與工程及工作實務控制、暴露與醫療監測、標示、公告、勞工訓練以及個人防護具結合使用。此限值通常以每週 40 小時工作期間內最高 10 小時工作日的時量平均值 (TWA) 來表示。\n是\n是\n否\n是\n\n\nOSHA PEL\nOSHA 制定具強制執行力的容許暴露限值 (PELs) 以保護勞工免受暴露於有害物質的健康影響。PELs 是對空氣中物質數量或濃度的法規限制。OSHA PELs 是基於 8 小時時量平均 (TWA) 暴露來制定的。\n是\n是\n是\n是"
+    "text": "全球主要機構所發布的職業暴露限值（OELs）\n表 1. 由各組織制定的職業暴露限值 (OELs)\n\n\n\n\n\n\n\n\n\n\n\n職業暴露限值 (OEL)\n定義\n健康基礎\n分析可行性\n經濟可行性\n工程可行性\n\n\n\n\nACGIH TLV\n閾限值 (TLVs) 是指化學物質的空氣濃度，代表幾乎所有勞工在整個工作生涯中，日復一日反覆暴露而不會產生不良健康效應的條件。TLVs 是為了保護正常、健康的成年勞工而制定的。它們並非安全與危險暴露之間的精確界線，也不是毒性的相對指標。\n是\n否\n否\n否\n\n\nAIHA-WEEL\n工作場所環境暴露基準 (WEELs) 是基於健康的空氣化學品 OELs，旨在缺乏其他 OELs 可用時提供實務指引。WEELs 為保護大多數勞工免受與職業化學品暴露相關的不良健康影響提供指引。WEELs 以時量平均值 (TWA) 或上限值 (ceiling limits) 來表示。\n是\n否\n否\n否\n\n\nDFG MAK\nMAK 值是每日 8 小時時量平均值，適用於健康的成年人。MAK 提供了工作場所中化學物質的最大濃度。\n是\n否\n否\n否\n\n\nEC SCOEL\nSCOEL 的 8 小時時量平均暴露，代表勞工在整個工作生涯中，每週 5 天、每天 8 小時透過空氣途徑暴露，而不會對勞工自身或其後代健康造成不良影響的限值。\n是\n否\n否\n否\n\n\nNIOSH REL\nRELs 是由 NIOSH 建議的職業暴露限值，旨在保護勞工整個工作生涯的健康與安全。REL 通常與工程及工作實務控制、暴露與醫療監測、標示、公告、勞工訓練以及個人防護具結合使用。此限值通常以每週 40 小時工作期間內最高 10 小時工作日的時量平均值 (TWA) 來表示。\n是\n是\n否\n是\n\n\nOSHA PEL\nOSHA 制定具強制執行力的容許暴露限值 (PELs) 以保護勞工免受暴露於有害物質的健康影響。PELs 是對空氣中物質數量或濃度的法規限制。OSHA PELs 是基於 8 小時時量平均 (TWA) 暴露來制定的。\n是\n是\n是\n是",
+    "crumbs": [
+      "OEL與EA"
+    ]
   },
   {
     "objectID": "OEL.html#職業健康風險評估核心",
     "href": "OEL.html#職業健康風險評估核心",
     "title": "OEL ?",
     "section": "職業健康風險評估？(核心)",
-    "text": "職業健康風險評估？(核心)\n\n要針對職業暴露情境做出基於風險的決策，通常需要將工作場所的暴露濃度與健康保護暴露限制值（OEL）進行比較。這個決策過程包含兩個主要部分：\n暴露評估 (Exposure assessment)：表達工作場所中化學物質的暴露濃度。\n風險特徵化 (Risk characterization)：將暴露評估的結果與化學物質的毒性效力進行比較，並將其轉化為發生不良健康結果的「風險」。"
+    "text": "職業健康風險評估？(核心)\n\n要針對職業暴露情境做出基於風險的決策，通常需要將工作場所的暴露濃度與健康保護暴露限制值（OEL）進行比較。這個決策過程包含兩個主要部分：\n暴露評估 (Exposure assessment)：表達工作場所中化學物質的暴露濃度。\n風險特徵化 (Risk characterization)：將暴露評估的結果與化學物質的毒性效力進行比較，並將其轉化為發生不良健康結果的「風險」。",
+    "crumbs": [
+      "OEL與EA"
+    ]
   },
   {
     "objectID": "OEL.html#風險特徵化-risk-characterization",
     "href": "OEL.html#風險特徵化-risk-characterization",
     "title": "OEL ?",
     "section": "風險特徵化 (Risk characterization)",
-    "text": "風險特徵化 (Risk characterization)\n\nEA 結果與OEL比較，主要方法：\n\n危害商數 (Hazard Quotients) ：最基本的形式，HQ=暴露點估計值 / OEL。\n\n接近或大於 1 時，即需要進一步檢視暴露狀況。\n\nNIOSH/OSHA 合規判定法(Compliance Approaches)：採集最壞情況或來自特定相似暴露群體的隨機樣本。\n\n將單一測量結果與 OEL 比較後，分為三類：明顯低於限值、明顯高於限值，或「太接近限值而無法立即決定」。\n當數值太接近時，會計算一個圍繞該測量值的「信賴區間 (CI)」。\n\n這個信賴區間只考量了採樣與分析的誤差，完全忽略了隨時間或勞工之間改變的「環境變異性」。\n\n\nAIHA 暴露評估策略：為了解決單一測量與合規方法的盲點，AIHA) 提出全盤性的策略，旨在適用於所有勞工與所有工作日。\n\n將時量平均 OEL 視為每個「相似暴露群體 (SEG)」的暴露分佈上限（例如第 95 百分位數）。\n風險管理的目標是控制整個 SEG 的暴露分佈，確保其第 95 百分位數能長期維持在 OEL 以下。\n建議每個 SEG 至少收集 6 個測量值；此方法規範明確，但缺乏正式的統計假設檢定架構。\n\n具備充足樣本的頻率論方法：一種結合正式假設檢定的嚴謹評估法。\n\n要求每個受測勞工至少有兩次重複測量。首先評估數據是否符合對數常態分佈，接著使用 Wald 檢定來確認群體內的「過度暴露機率（即隨機抽取一名勞工，其平均暴露大於 OEL 的機率）」是否低於預設值（例如小於 10%）。\n如果暴露變化極大，控制重點將放在個人任務上；若群體變化不大但整體不合格，則需實施全面性的工程控制。\n優缺點：最大優勢是能提供基於證據的控制措施；缺點則是當暴露量接近 OEL 時，需要非常龐大的樣本數。\n\n貝氏方法 (Bayesian Methods)：一種極具發展潛力的方法，特別適合在只有少量測量數據時使用。\n\n利用階層式貝氏更新，將「專家的專業判斷（先驗機率）」與「一或多個實際測量值」結合，推算出暴露量落在各個 OEL 比例區間的「後驗機率」。\n與 AIHA 策略相似，貝氏方法使用的暴露指標通常不是平均值，而是第 95 百分位數的暴露量。\n\n輔助軟體工具：實務上常常因為缺乏工具而沒有對數據進行量化分析。目前已有許多現成的軟體工具可協助評估，將暴露數據視覺化，找出最適合的理想機率分佈，並計算出超標機率與第 95 百分位數等關鍵指標，從而做出更科學的風險決策。例如：\n\nSPEED (The Statistical Program for the Evaluation of Exposure Data)\nIH Stats (由 AIHA 提供的 Excel 工具)\nIH Data Analyst (IHDA)"
+    "text": "風險特徵化 (Risk characterization)\n\nEA 結果與OEL比較，主要方法：\n\n危害商數 (Hazard Quotients) ：最基本的形式，HQ=暴露點估計值 / OEL。\n\n接近或大於 1 時，即需要進一步檢視暴露狀況。\n\nNIOSH/OSHA 合規判定法(Compliance Approaches)：採集最壞情況或來自特定相似暴露群體的隨機樣本。\n\n將單一測量結果與 OEL 比較後，分為三類：明顯低於限值、明顯高於限值，或「太接近限值而無法立即決定」。\n當數值太接近時，會計算一個圍繞該測量值的「信賴區間 (CI)」。\n\n這個信賴區間只考量了採樣與分析的誤差，完全忽略了隨時間或勞工之間改變的「環境變異性」。\n\n\nAIHA 暴露評估策略：為了解決單一測量與合規方法的盲點，AIHA) 提出全盤性的策略，旨在適用於所有勞工與所有工作日。\n\n將時量平均 OEL 視為每個「相似暴露群體 (SEG)」的暴露分佈上限（例如第 95 百分位數）。\n風險管理的目標是控制整個 SEG 的暴露分佈，確保其第 95 百分位數能長期維持在 OEL 以下。\n建議每個 SEG 至少收集 6 個測量值；此方法規範明確，但缺乏正式的統計假設檢定架構。\n\n具備充足樣本的頻率論方法：一種結合正式假設檢定的嚴謹評估法。\n\n要求每個受測勞工至少有兩次重複測量。首先評估數據是否符合對數常態分佈，接著使用 Wald 檢定來確認群體內的「過度暴露機率（即隨機抽取一名勞工，其平均暴露大於 OEL 的機率）」是否低於預設值（例如小於 10%）。\n如果暴露變化極大，控制重點將放在個人任務上；若群體變化不大但整體不合格，則需實施全面性的工程控制。\n優缺點：最大優勢是能提供基於證據的控制措施；缺點則是當暴露量接近 OEL 時，需要非常龐大的樣本數。\n\n貝氏方法 (Bayesian Methods)：一種極具發展潛力的方法，特別適合在只有少量測量數據時使用。\n\n利用階層式貝氏更新，將「專家的專業判斷（先驗機率）」與「一或多個實際測量值」結合，推算出暴露量落在各個 OEL 比例區間的「後驗機率」。\n與 AIHA 策略相似，貝氏方法使用的暴露指標通常不是平均值，而是第 95 百分位數的暴露量。\n\n輔助軟體工具：實務上常常因為缺乏工具而沒有對數據進行量化分析。目前已有許多現成的軟體工具可協助評估，將暴露數據視覺化，找出最適合的理想機率分佈，並計算出超標機率與第 95 百分位數等關鍵指標，從而做出更科學的風險決策。例如：\n\nSPEED (The Statistical Program for the Evaluation of Exposure Data)\nIH Stats (由 AIHA 提供的 Excel 工具)\nIH Data Analyst (IHDA)",
+    "crumbs": [
+      "OEL與EA"
+    ]
   },
   {
     "objectID": "OEL.html#模式推估",
     "href": "OEL.html#模式推估",
     "title": "OEL ?",
     "section": "模式推估？",
-    "text": "模式推估？\n利用數學模型來量化勞工暴露，並處理參數中的變異性與不確定性。\n\n建模取代極少量採樣的優勢\n\n當空氣監測的樣本數只有 3 天或更少時，使用數學建模來估算長期的平均暴露量，實際上會比實體的空氣監測還要準確(Nicas & Jayjock, 2002) 。(成本效益)\n\n處理不確定性的兩大建模策略\n\n邊界分析 (Boundary analyses)：\n\n這是描述整體變異性與不確定性最簡單的方式。\n作法是將各個輸入參數的極大值與極小值（如物理極限、偵測極限或歷史數據）帶入模型中，推算出「最壞情況 (worst case)」與「最佳情況 (best case)」。其最大優點是能直接提供反映暴露不確定性的上下限範圍。\n\n機率性方法與蒙地卡羅模擬\n根據每個輸入參數的機率分佈進行重複的「隨機抽樣」。\n\n經過多次重複計算與聚合後，會產生一個預測暴露的機率分佈圖，並提供點估計值與不確定性的區間估計。\n實務的職業衛生應用中，通常不會去量化各個隨機輸入變數之間的相關性。\n\n敏感度分析 (Sensitivity analyses)"
+    "text": "模式推估？\n利用數學模型來量化勞工暴露，並處理參數中的變異性與不確定性。\n\n建模取代極少量採樣的優勢\n\n當空氣監測的樣本數只有 3 天或更少時，使用數學建模來估算長期的平均暴露量，實際上會比實體的空氣監測還要準確(Nicas & Jayjock, 2002) 。(成本效益)\n\n處理不確定性的兩大建模策略\n\n邊界分析 (Boundary analyses)：\n\n這是描述整體變異性與不確定性最簡單的方式。\n作法是將各個輸入參數的極大值與極小值（如物理極限、偵測極限或歷史數據）帶入模型中，推算出「最壞情況 (worst case)」與「最佳情況 (best case)」。其最大優點是能直接提供反映暴露不確定性的上下限範圍。\n\n機率性方法與蒙地卡羅模擬\n根據每個輸入參數的機率分佈進行重複的「隨機抽樣」。\n\n經過多次重複計算與聚合後，會產生一個預測暴露的機率分佈圖，並提供點估計值與不確定性的區間估計。\n實務的職業衛生應用中，通常不會去量化各個隨機輸入變數之間的相關性。\n\n敏感度分析 (Sensitivity analyses)",
+    "crumbs": [
+      "OEL與EA"
+    ]
   },
   {
     "objectID": "OEL.html#小結",
     "href": "OEL.html#小結",
     "title": "OEL ?",
     "section": "小結",
-    "text": "小結\n\n職業風險本質上是「機率性的 (probabilistic)」\nEA/RA 必須展示並溝通「變異性」與「不確定性」\n加強相關教育與輔助工具的推廣\n\n加強對這些機率與統計技術的教育和推廣，並為從業人員提供實用的使用者指南與相關資訊。"
+    "text": "小結\n\n職業風險本質上是「機率性的 (probabilistic)」\nEA/RA 必須展示並溝通「變異性」與「不確定性」\n加強相關教育與輔助工具的推廣\n\n加強對這些機率與統計技術的教育和推廣，並為從業人員提供實用的使用者指南與相關資訊。",
+    "crumbs": [
+      "OEL與EA"
+    ]
   },
   {
     "objectID": "EAD.html#課程重點與學習成果",
     "href": "EAD.html#課程重點與學習成果",
     "title": "Exposure Risk Decisions",
     "section": "課程重點與學習成果",
-    "text": "課程重點與學習成果\n\n掌握數據特性 (對數常態分布的)\n認識傳統與貝氏（Bayesian）統計工具\n提升暴露評估判斷"
+    "text": "課程重點與學習成果\n\n掌握數據特性 (對數常態分布的)\n認識傳統與貝氏（Bayesian）統計工具\n提升暴露評估判斷",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#a-暴露變異性與用統計改善判斷",
@@ -3941,28 +4217,40 @@
     "href": "EAD.html#插曲即時監測或直讀式儀器介入",
     "title": "Exposure Risk Decisions",
     "section": "1.6 插曲：即時監測或直讀式儀器介入",
-    "text": "1.6 插曲：即時監測或直讀式儀器介入\n\n問問AI如何？\n\n\n\n\n\n\n\nPrompt\n\n\nQ1：隨著科技進步，若使用直讀式儀器監測或即時偵測設備，且時間解析度可以到秒或分，紀錄便可完整呈現整天每天的暴露，這樣不是可以完整呈現變異性，且樣本數夠，這不就可以真實呈現人員或SEG的暴露實態？\nQ2：如果把直讀式儀器測值的時間解析度，調整為8小TWA加權，或是15分鐘的STEL，這樣連續測定250天， 還有你上述說的自相關或是不符對數常態分布等等問題？\n\n\n\nAI say…..\n不再是「推論」，而是「普查 (Census)」，不需要算 UTL。\n\n若要計算 STEL，應該取「不重疊的 15 分鐘區間」（例如 8:00~8:15, 8:15~8:30…），這樣每一筆 STEL 數據才會相互獨立。\n\n你認為呢？🤪"
+    "text": "1.6 插曲：即時監測或直讀式儀器介入\n\n問問AI如何？\n\n\n\n\n\n\n\nPrompt\n\n\nQ1：隨著科技進步，若使用直讀式儀器監測或即時偵測設備，且時間解析度可以到秒或分，紀錄便可完整呈現整天每天的暴露，這樣不是可以完整呈現變異性，且樣本數夠，這不就可以真實呈現人員或SEG的暴露實態？\nQ2：如果把直讀式儀器測值的時間解析度，調整為8小TWA加權，或是15分鐘的STEL，這樣連續測定250天， 還有你上述說的自相關或是不符對數常態分布等等問題？\n\n\n\nAI say…..\n不再是「推論」，而是「普查 (Census)」，不需要算 UTL。\n\n若要計算 STEL，應該取「不重疊的 15 分鐘區間」（例如 8:00~8:15, 8:15~8:30…），這樣每一筆 STEL 數據才會相互獨立。\n\n你認為呢？🤪",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#推論統計",
     "href": "EAD.html#推論統計",
     "title": "Exposure Risk Decisions",
     "section": "1.7 推論統計",
-    "text": "1.7 推論統計\n\n點估計：利用 GM 和 GSD 來計算出\\(X_{95}\\)的最佳估計值。\n量化不確定性：計算\\(X_{95}\\)的上限容忍極限 (UTL95%,95%)。\n\n如果UTL &lt; OEL，表示有超過 95% 的信心認定整體暴露情況未超標。\n\n推論母體過程中的潛在誤差與挑戰\n\n採樣規劃不當（未隨機、未涵蓋所有作業狀況）\n樣本數不足（導致統計檢定力不足）\n數據處理不當（如未正確處理未檢出值、異常值）\n統計方法錯誤（如未檢驗數據是否符合對數常態分佈）\nSEG 分類錯誤（將不同暴露特性的作業合併在一起）"
+    "text": "1.7 推論統計\n\n點估計：利用 GM 和 GSD 來計算出\\(X_{95}\\)的最佳估計值。\n量化不確定性：計算\\(X_{95}\\)的上限容忍極限 (UTL95%,95%)。\n\n如果UTL &lt; OEL，表示有超過 95% 的信心認定整體暴露情況未超標。\n\n推論母體過程中的潛在誤差與挑戰\n\n採樣規劃不當（未隨機、未涵蓋所有作業狀況）\n樣本數不足（導致統計檢定力不足）\n數據處理不當（如未正確處理未檢出值、異常值）\n統計方法錯誤（如未檢驗數據是否符合對數常態分佈）\nSEG 分類錯誤（將不同暴露特性的作業合併在一起）",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#關鍵參數-對數常態分布",
     "href": "EAD.html#關鍵參數-對數常態分布",
     "title": "Exposure Risk Decisions",
     "section": "1.8 關鍵參數 (對數常態分布)",
-    "text": "1.8 關鍵參數 (對數常態分布)\n\n幾何平均數 (Geometric Mean, GM)\n幾何標準差 (Geometric Standard Deviation, GSD)\n計算 GM 與 GSD？ (建議用軟體😇)\n\n\n\n\n\n\n\n提醒\n\n\n進行統計分析前，要先檢查暴露數據是否符合對數常態分佈。"
+    "text": "1.8 關鍵參數 (對數常態分布)\n\n幾何平均數 (Geometric Mean, GM)\n幾何標準差 (Geometric Standard Deviation, GSD)\n計算 GM 與 GSD？ (建議用軟體😇)\n\n\n\n\n\n\n\n提醒\n\n\n進行統計分析前，要先檢查暴露數據是否符合對數常態分佈。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#使用統計工具解釋資料",
     "href": "EAD.html#使用統計工具解釋資料",
     "title": "Exposure Risk Decisions",
     "section": "1.9 使用統計工具解釋資料",
-    "text": "1.9 使用統計工具解釋資料\n\n使用免費的傳統統計工具（如 AIHA 提供的 IHSTAT）\n\n\n輸入資料：輸入監測數據。\n評估適配度：圖表檢查數據是否符合對數常態假設。\n檢視統計數據：\\(X{95}\\)、\\(X{95}\\) UCL 與 OEL 比較。\n評級與不確定性：\n\n管理分級：判斷 \\(X{95}\\) 落在 AIHA 哪一個控制類別中。\n不確定性：根據 \\(X{95}\\) UCL 評估，如果 UCL 跨越超過 2 個類別，代表「低確定性」；跨越 1 個類別為「中確定性」；落在同一個類別內則為「高確定性」。\n\n記錄與建議：記錄結果並建議相應的控制措施或後續採樣計畫。"
+    "text": "1.9 使用統計工具解釋資料\n\n使用免費的傳統統計工具（如 AIHA 提供的 IHSTAT）\n\n\n輸入資料：輸入監測數據。\n評估適配度：圖表檢查數據是否符合對數常態假設。\n檢視統計數據：\\(X{95}\\)、\\(X{95}\\) UCL 與 OEL 比較。\n評級與不確定性：\n\n管理分級：判斷 \\(X{95}\\) 落在 AIHA 哪一個控制類別中。\n不確定性：根據 \\(X{95}\\) UCL 評估，如果 UCL 跨越超過 2 個類別，代表「低確定性」；跨越 1 個類別為「中確定性」；落在同一個類別內則為「高確定性」。\n\n記錄與建議：記錄結果並建議相應的控制措施或後續採樣計畫。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#案例分析及演練-1",
@@ -3976,21 +4264,30 @@
     "href": "EAD.html#資料分析與解釋的步驟",
     "title": "Exposure Risk Decisions",
     "section": "1.10 資料分析與解釋的步驟",
-    "text": "1.10 資料分析與解釋的步驟\n\n先確實執行一個完善的監測計畫，包含：已定義好決策統計值、明確的相似暴露族群 (SEG)、適當的 OEL、以及有效的採樣與分析方法等。\n輸入數據 (合適的統計工具，如 IHSTAT）\n評估適配度 (是否符合假設的統計模型，即對數常態分布）\n檢視統計數據\n指定最終管理分級與確定性水準\n記錄分析與建議"
+    "text": "1.10 資料分析與解釋的步驟\n\n先確實執行一個完善的監測計畫，包含：已定義好決策統計值、明確的相似暴露族群 (SEG)、適當的 OEL、以及有效的採樣與分析方法等。\n輸入數據 (合適的統計工具，如 IHSTAT）\n評估適配度 (是否符合假設的統計模型，即對數常態分布）\n檢視統計數據\n指定最終管理分級與確定性水準\n記錄分析與建議",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#樣本數與統計不確定性",
     "href": "EAD.html#樣本數與統計不確定性",
     "title": "Exposure Risk Decisions",
     "section": "1.11 樣本數與統計不確定性",
-    "text": "1.11 樣本數與統計不確定性\n\n採集更多樣本是縮小信賴區間與容忍極限最有效的方法。"
+    "text": "1.11 樣本數與統計不確定性\n\n採集更多樣本是縮小信賴區間與容忍極限最有效的方法。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#處理低於偵測極限的數據-censored-data",
     "href": "EAD.html#處理低於偵測極限的數據-censored-data",
     "title": "Exposure Risk Decisions",
     "section": "1.12 處理低於偵測極限的數據 (Censored Data)",
-    "text": "1.12 處理低於偵測極限的數據 (Censored Data)\n\n當有採樣數據低於偵測極限 (Limit of Detection, LOD) 時，稱為「受限數據 (Censored Data)」\n錯誤作法：將未檢出數據直接從分析中刪除，或直接用偵測極限值來代替。(絕對不要)\n正確作法：在計畫階段應盡量確保 LOD 低於 OEL 的 10%。對於資料分析，若樣本數少且受限比例低，可使用簡單替代法（將 LOD 除以 2​，即 DL/1.414）來替代該數據。對於較複雜或受限比例高的數據，則建議使用最大概似估計法 (MLE) 或貝氏分析 (BDA) 等更進階的工具。\n處理未檢出（受限）數據之方法與特性對照表\n\n\n\n\n\n\n\n\n\n\n分析方法\n簡稱\n核心適用情境\n特點\n\n\n\n\n簡單替代法\n(DL/2 或 DL/2​)\n* 適用於小樣本 (n&lt;20) 且低到中等受限比例（&lt;25% 至 25%−50%）的情況。 估計第 95 百分位數時，以 DL/2​（即 LOD / 1.414）表現最合理。\n* 非常容易在一般的試算表（如 IHSTAT）中執行與實現。\n\n\n最大概似估計法\n(MLE)\n* 適用於各種數據分布，被視為最接近「最佳通用方法」的統計手段。\n* 統計效能與準確度極佳，但計算公式非常複雜。\n\n\nBeta 替代法\nβ-Sub.\n* 統計表現與最大概似估計法（MLE）非常類似。\n* 公式直觀，易於在 Excel 試算表中編寫程式進行計算。\n\n\n對數機率迴歸(又稱順序統計量迴歸)\nLPR或ROS\n* 適合用於受限比例介於 25% 至 50%，且樣本數較大（n&gt;10 或 15）的數據集。\n* 易於在試算表中編寫程式進行計算。 在特定樣本數下是極佳的分析選擇。\n\n\n貝氏決策分析\nBDA\n* 使用與 MLE 相同的數學方程，但在描述與量化參數的不確定性上具有更優異的表現。*可輕鬆處理包含完全受限（完全未檢出）的數據集。\n* 完全不需要數值替代（不需將 &lt; 填補為特定數字）。 可直接將原始含小於符號的數據（如 &lt;5）輸入 IHDA 或 Expostats 等分析工具中。"
+    "text": "1.12 處理低於偵測極限的數據 (Censored Data)\n\n當有採樣數據低於偵測極限 (Limit of Detection, LOD) 時，稱為「受限數據 (Censored Data)」\n錯誤作法：將未檢出數據直接從分析中刪除，或直接用偵測極限值來代替。(絕對不要)\n正確作法：在計畫階段應盡量確保 LOD 低於 OEL 的 10%。對於資料分析，若樣本數少且受限比例低，可使用簡單替代法（將 LOD 除以 2​，即 DL/1.414）來替代該數據。對於較複雜或受限比例高的數據，則建議使用最大概似估計法 (MLE) 或貝氏分析 (BDA) 等更進階的工具。\n處理未檢出（受限）數據之方法與特性對照表\n\n\n\n\n\n\n\n\n\n\n分析方法\n簡稱\n核心適用情境\n特點\n\n\n\n\n簡單替代法\n(DL/2 或 DL/2​)\n* 適用於小樣本 (n&lt;20) 且低到中等受限比例（&lt;25% 至 25%−50%）的情況。 估計第 95 百分位數時，以 DL/2​（即 LOD / 1.414）表現最合理。\n* 非常容易在一般的試算表（如 IHSTAT）中執行與實現。\n\n\n最大概似估計法\n(MLE)\n* 適用於各種數據分布，被視為最接近「最佳通用方法」的統計手段。\n* 統計效能與準確度極佳，但計算公式非常複雜。\n\n\nBeta 替代法\nβ-Sub.\n* 統計表現與最大概似估計法（MLE）非常類似。\n* 公式直觀，易於在 Excel 試算表中編寫程式進行計算。\n\n\n對數機率迴歸(又稱順序統計量迴歸)\nLPR或ROS\n* 適合用於受限比例介於 25% 至 50%，且樣本數較大（n&gt;10 或 15）的數據集。\n* 易於在試算表中編寫程式進行計算。 在特定樣本數下是極佳的分析選擇。\n\n\n貝氏決策分析\nBDA\n* 使用與 MLE 相同的數學方程，但在描述與量化參數的不確定性上具有更優異的表現。*可輕鬆處理包含完全受限（完全未檢出）的數據集。\n* 完全不需要數值替代（不需將 &lt; 填補為特定數字）。 可直接將原始含小於符號的數據（如 &lt;5）輸入 IHDA 或 Expostats 等分析工具中。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#案例演練",
@@ -4004,7 +4301,10 @@
     "href": "EAD.html#處理受限資料之原則",
     "title": "Exposure Risk Decisions",
     "section": "1.13 處理受限資料之原則",
-    "text": "1.13 處理受限資料之原則\n\n可做的事 (Do)：\n\n做好採樣規劃：在規劃階段就盡可能減少未檢出數據發生的可能性與其影響。\n確保足夠低的偵測極限：致力於讓檢測方法的 LOD 低於職業暴露容許標準（OEL）的 10%。\n請實驗室提供 LOD：分析時，要求偵測極限（LOD）數值， LOD 通常比定量極限（LOQ）低得多。\n\n不做的事 (Don’t)：\n\n不要刪除數據：會嚴重低估暴露風險。\n不要直接代入偵測極限值：傳統統計直接用原始的 LOD 數值（例如將 &lt;5 直接代入 5）來進行常態分布運算，這會扭曲估計結果。"
+    "text": "1.13 處理受限資料之原則\n\n可做的事 (Do)：\n\n做好採樣規劃：在規劃階段就盡可能減少未檢出數據發生的可能性與其影響。\n確保足夠低的偵測極限：致力於讓檢測方法的 LOD 低於職業暴露容許標準（OEL）的 10%。\n請實驗室提供 LOD：分析時，要求偵測極限（LOD）數值， LOD 通常比定量極限（LOQ）低得多。\n\n不做的事 (Don’t)：\n\n不要刪除數據：會嚴重低估暴露風險。\n不要直接代入偵測極限值：傳統統計直接用原始的 LOD 數值（例如將 &lt;5 直接代入 5）來進行常態分布運算，這會扭曲估計結果。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#a回顧",
@@ -4018,7 +4318,10 @@
     "href": "EAD.html#監測計畫與ea",
     "title": "Exposure Risk Decisions",
     "section": "1.14 監測計畫與EA",
-    "text": "1.14 監測計畫與EA\n\n完成一個完善規劃的暴露監測計畫後，才能進行可信賴的暴露評估與風險管理。"
+    "text": "1.14 監測計畫與EA\n\n完成一個完善規劃的暴露監測計畫後，才能進行可信賴的暴露評估與風險管理。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#rules-of-thumb-for-暴露資料",
@@ -4039,14 +4342,20 @@
     "href": "EAD.html#為什麼需要統計學",
     "title": "Exposure Risk Decisions",
     "section": "1.1 為什麼需要統計學？",
-    "text": "1.1 為什麼需要統計學？\n\n有效+效率：「有效」（確保沒有勞工暴露於不可接受的風險中） + 「有效率」（以最低成本達成） = 良好的暴露風險管理\n降低錯誤判斷：低估暴露，會增加員工的健康風險；高估，會導致不必要的控制設備支出與生產限制。\n消除人為偏誤：提供統計學訓練，提升判斷的準確性。"
+    "text": "1.1 為什麼需要統計學？\n\n有效+效率：「有效」（確保沒有勞工暴露於不可接受的風險中） + 「有效率」（以最低成本達成） = 良好的暴露風險管理\n降低錯誤判斷：低估暴露，會增加員工的健康風險；高估，會導致不必要的控制設備支出與生產限制。\n消除人為偏誤：提供統計學訓練，提升判斷的準確性。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#好的暴露風險管理策略",
     "href": "EAD.html#好的暴露風險管理策略",
     "title": "Exposure Risk Decisions",
     "section": "1.1 好的暴露風險管理策略？",
-    "text": "1.1 好的暴露風險管理策略？\n\nExposure Risk Strategy\n良好的策略必須兼顧「有效 (Effective)」（確保沒有勞工面臨不可接受的暴露風險）與「效率 (Efficient)」（以最低成本達成保護目標）。\n\n\n\n\n\n\n\n\nImportant\n\n\n克服判斷偏誤與暴露變異性 - 勞工每天的暴露濃度具有高度的變異性。\n在實務上，我們通常只能採樣到極少數的工作日（例如在每年 250 個工作天中僅採樣 5 天，只看見 2% 的真實暴露情況），這使得掌握整體暴露實態變得非常困難。研究顯示，如果僅依賴直覺來解釋這些少量的監測數據，專業人員的判斷往往是不準確的，且通常帶有「低估風險」的偏誤。然而，只要提供簡單的統計學訓練，就能大幅提升判斷的準確度並消除這些偏誤。"
+    "text": "1.1 好的暴露風險管理策略？\n\nExposure Risk Strategy\n良好的策略必須兼顧「有效 (Effective)」（確保沒有勞工面臨不可接受的暴露風險）與「效率 (Efficient)」（以最低成本達成保護目標）。\n\n\n\n\n\n\n\n\nImportant\n\n\n克服判斷偏誤與暴露變異性 - 勞工每天的暴露濃度具有高度的變異性。\n在實務上，我們通常只能採樣到極少數的工作日（例如在每年 250 個工作天中僅採樣 5 天，只看見 2% 的真實暴露情況），這使得掌握整體暴露實態變得非常困難。研究顯示，如果僅依賴直覺來解釋這些少量的監測數據，專業人員的判斷往往是不準確的，且通常帶有「低估風險」的偏誤。然而，只要提供簡單的統計學訓練，就能大幅提升判斷的準確度並消除這些偏誤。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#case1.-案例分析及演練",
@@ -4067,28 +4376,40 @@
     "href": "EAD.html#回顧",
     "title": "Exposure Risk Decisions",
     "section": "1.14 回顧",
-    "text": "1.14 回顧\n資料分析與解釋五大步驟\n\n監測數據輸入至合適的統計分析工具\n評估適配度\n檢視敘述與推論統計數據\n指定管理分級與確定性水準\n記錄分析與建議\n\n\n\n\n\n\n\nImportant\n\n\n若決策屬於「低確定性」（代表樣本數太少、誤差極大），即便評級落在安全的 Category 2，也應該適當提出追加採樣的行動建議，以收集更多數據來減少統計不確定性。"
+    "text": "1.14 回顧\n資料分析與解釋五大步驟\n\n監測數據輸入至合適的統計分析工具\n評估適配度\n檢視敘述與推論統計數據\n指定管理分級與確定性水準\n記錄分析與建議\n\n\n\n\n\n\n\nImportant\n\n\n若決策屬於「低確定性」（代表樣本數太少、誤差極大），即便評級落在安全的 Category 2，也應該適當提出追加採樣的行動建議，以收集更多數據來減少統計不確定性。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#解釋暴露監測數據的經驗法則",
     "href": "EAD.html#解釋暴露監測數據的經驗法則",
     "title": "Exposure Risk Decisions",
     "section": "1.15 解釋暴露監測數據的經驗法則",
-    "text": "1.15 解釋暴露監測數據的經驗法則\nRules of Thumb for 暴露資料\n\n經驗法則能幫助OH在面對極少量監測數據時，不用依靠軟體，就能快速估算出管理分級。\n經驗法則的數學原理 (對數常態分布)\n\n\\(X_{95}=GM * GSD^{1.645}\\)\nGSD = 1.5（低變異）：倍數為 1.95（約2）， GSD = 2.0：倍數為 3.13\nGSD = 2.5（中變異）：倍數為 4.51（約4）， GSD = 3.0（高變異）：倍數為 6.09（約6倍）\n\nFor Low n: If any measurement &gt; OEL then Category 4: 95%ile &gt; OEL\n\n\n還是使用統計工具，比較好又方便。\n第 1 章結束"
+    "text": "1.15 解釋暴露監測數據的經驗法則\nRules of Thumb for 暴露資料\n\n經驗法則能幫助OH在面對極少量監測數據時，不用依靠軟體，就能快速估算出管理分級。\n經驗法則的數學原理 (對數常態分布)\n\n\\(X_{95}=GM * GSD^{1.645}\\)\nGSD = 1.5（低變異）：倍數為 1.95（約2）， GSD = 2.0：倍數為 3.13\nGSD = 2.5（中變異）：倍數為 4.51（約4）， GSD = 3.0（高變異）：倍數為 6.09（約6倍）\n\nFor Low n: If any measurement &gt; OEL then Category 4: 95%ile &gt; OEL\n\n\n還是使用統計工具，比較好又方便。\n第 1 章結束",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#暴露分布點估計與不確定性分布",
     "href": "EAD.html#暴露分布點估計與不確定性分布",
     "title": "Exposure Risk Decisions",
     "section": "2.1 暴露分布、點估計與不確定性分布",
-    "text": "2.1 暴露分布、點估計與不確定性分布\n\n樣本數對「不確定性分布」的巨大影響\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n思考：這95%ile跨越了哪些管理分級？而落在各個分級（如 Category 2、3 或 4）中的機率（Likelihood）各是多少？"
+    "text": "2.1 暴露分布、點估計與不確定性分布\n\n樣本數對「不確定性分布」的巨大影響\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n思考：這95%ile跨越了哪些管理分級？而落在各個分級（如 Category 2、3 或 4）中的機率（Likelihood）各是多少？",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#暴露分布點估計與不確定性分布-續",
     "href": "EAD.html#暴露分布點估計與不確定性分布-續",
     "title": "Exposure Risk Decisions",
     "section": "2.1 暴露分布、點估計與不確定性分布 (續)",
-    "text": "2.1 暴露分布、點估計與不確定性分布 (續)\n\n示範：現場採樣數據：18, 15, 5, 8, 12 ppm（樣本數 n=5）\n\nGM = 10.5 ppm， GSD = 1.67，95%ile = 24.5，UCL = 91.6\nSEG 暴露分布、95%ile點估計與分布(不確定性) 之管理分級？\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n將「不確定性」轉為控管理分級的機率，是BDA的核心概念。"
+    "text": "2.1 暴露分布、點估計與不確定性分布 (續)\n\n示範：現場採樣數據：18, 15, 5, 8, 12 ppm（樣本數 n=5）\n\nGM = 10.5 ppm， GSD = 1.67，95%ile = 24.5，UCL = 91.6\nSEG 暴露分布、95%ile點估計與分布(不確定性) 之管理分級？\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n將「不確定性」轉為控管理分級的機率，是BDA的核心概念。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#bda",
@@ -4102,7 +4423,10 @@
     "href": "EAD.html#貝氏決策分析-bda",
     "title": "Exposure Risk Decisions",
     "section": "2.2 貝氏決策分析 (BDA)？",
-    "text": "2.2 貝氏決策分析 (BDA)？\n\n示範：乙醇（Ethanol，OEL = 1000 ppm）的SEG 監測。現場採樣數據 (n=5)：215, 52, 395, 700, 75 ppm。\n\nGM = 188 ppm，GSD = 3，95%ile = 1140 ，UTL95%,95% = 18,700 。\n\nBDA直接計算出95%ile落在各個管理分級的機率 (Likelihood)。"
+    "text": "2.2 貝氏決策分析 (BDA)？\n\n示範：乙醇（Ethanol，OEL = 1000 ppm）的SEG 監測。現場採樣數據 (n=5)：215, 52, 395, 700, 75 ppm。\n\nGM = 188 ppm，GSD = 3，95%ile = 1140 ，UTL95%,95% = 18,700 。\n\nBDA直接計算出95%ile落在各個管理分級的機率 (Likelihood)。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#貝氏決策分析-bda-1",
@@ -4116,105 +4440,150 @@
     "href": "EAD.html#貝氏決策分析-bda續",
     "title": "Exposure Risk Decisions",
     "section": "2.2 貝氏決策分析 (BDA)？(續)",
-    "text": "2.2 貝氏決策分析 (BDA)？(續)\n\nBDA 是計算與解釋傳統統計數據的輔助（或替代）方法。\n\n用來量化與描述第 95 %ile及其不確定性(管理分級機率)。\n呈現小樣本不確定性，易理解，易溝通。"
+    "text": "2.2 貝氏決策分析 (BDA)？(續)\n\nBDA 是計算與解釋傳統統計數據的輔助（或替代）方法。\n\n用來量化與描述第 95 %ile及其不確定性(管理分級機率)。\n呈現小樣本不確定性，易理解，易溝通。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#貝氏決策分析-bda續-1",
     "href": "EAD.html#貝氏決策分析-bda續-1",
     "title": "Exposure Risk Decisions",
     "section": "2.2 貝氏決策分析 (BDA)？(續)",
-    "text": "2.2 貝氏決策分析 (BDA)？(續)\n\n暴露分布 = BDA ？"
+    "text": "2.2 貝氏決策分析 (BDA)？(續)\n\n暴露分布 = BDA ？",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#bda概念general-approach",
     "href": "EAD.html#bda概念general-approach",
     "title": "Exposure Risk Decisions",
     "section": "2.3 BDA概念(General Approach)",
-    "text": "2.3 BDA概念(General Approach)\n\n第一步：「定義可能對數常態暴露輪廓的宇宙 (Universe)」\n\n不直接從樣本去算，而是先定義出一個由無數種可能符合對數常態分布之暴露輪廓所組成的Universe。\n\n參數的組合 (each GM, GSD -&gt; one 95%ile)。\n真實的現場暴露是屬於這無數條曲線中的一條。\n\n\n步驟二 ：拿實際採集到的監測數據，去計算數據來自於該宇宙中每一個暴露輪廓的概似值(Likelihood)。\n\n已經觀察到一組數據，某個模型參數能夠解釋這批數據的程度。(已知結果，反推原因)\n\n概似函數：把不同的參數帶入計算，看每個參數對現有數據對應的可能性。\n\n\n\n最大概似估计 (MLE)：尋找能讓概似值達到最高點的那個參數，這被視為對真實暴露情況的最佳猜測。(不一定唯一，也不一定存在) (解釋1？ 解釋2)\n\n\n步驟三：將這些概似值加總與標準化，得出落在各個 AIHA 暴露控制類別的決策機率。"
+    "text": "2.3 BDA概念(General Approach)\n\n第一步：「定義可能對數常態暴露輪廓的宇宙 (Universe)」\n\n不直接從樣本去算，而是先定義出一個由無數種可能符合對數常態分布之暴露輪廓所組成的Universe。\n\n參數的組合 (each GM, GSD -&gt; one 95%ile)。\n真實的現場暴露是屬於這無數條曲線中的一條。\n\n\n步驟二 ：拿實際採集到的監測數據，去計算數據來自於該宇宙中每一個暴露輪廓的概似值(Likelihood)。\n\n已經觀察到一組數據，某個模型參數能夠解釋這批數據的程度。(已知結果，反推原因)\n\n概似函數：把不同的參數帶入計算，看每個參數對現有數據對應的可能性。\n\n\n\n最大概似估计 (MLE)：尋找能讓概似值達到最高點的那個參數，這被視為對真實暴露情況的最佳猜測。(不一定唯一，也不一定存在) (解釋1？ 解釋2)\n\n\n步驟三：將這些概似值加總與標準化，得出落在各個 AIHA 暴露控制類別的決策機率。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#bda概念續",
     "href": "EAD.html#bda概念續",
     "title": "Exposure Risk Decisions",
     "section": "2.3 BDA概念(續)",
-    "text": "2.3 BDA概念(續)\n\n利用先驗知識（Prior Knowledge）調整與加權參數空間universe(GM-GSD 組合)。\n\n根據暴露情境已知的先驗知識，或各暴露輪廓發生的相對合理性(如定性模型、歷史數據、專家主觀判定、或推估模式)，來對這個參數空間進行調整與加權。\n\n不只能評估第 95 %ile，同時精確描述如GM、GSD、算術平均數 (AM) 或超標比例 (Exceedance Fraction) 等多種關鍵暴露指標的不確定性分布。"
+    "text": "2.3 BDA概念(續)\n\n利用先驗知識（Prior Knowledge）調整與加權參數空間universe(GM-GSD 組合)。\n\n根據暴露情境已知的先驗知識，或各暴露輪廓發生的相對合理性(如定性模型、歷史數據、專家主觀判定、或推估模式)，來對這個參數空間進行調整與加權。\n\n不只能評估第 95 %ile，同時精確描述如GM、GSD、算術平均數 (AM) 或超標比例 (Exceedance Fraction) 等多種關鍵暴露指標的不確定性分布。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#case1.1-案例分析及演練",
     "href": "EAD.html#case1.1-案例分析及演練",
     "title": "Exposure Risk Decisions",
     "section": "Case1.1 案例分析及演練",
-    "text": "Case1.1 案例分析及演練\n\n使用IHSTAT 或 IHDA_AIHA免費軟體\n案例：(感謝黃奕孝老師提供，報告10)\n\n有一家公司某一SEG有5個人，所用的化學品OEL是10，監測結果是 0.01、0.03、0.01、0.02、0.01、0.03、0.01、0.02、0.01、0.03、0.01、0.02， 如何進行推論統計呈現暴露實態?\n如果監測結果是0.1、0.3、0.1、0.2、0.1、9 ，結果？你的專業建議?\n\n請進行暴露實態描述、管理分級(推論統計)與專業建議"
+    "text": "Case1.1 案例分析及演練\n\n使用IHSTAT 或 IHDA_AIHA免費軟體\n案例：(感謝黃奕孝老師提供，報告10)\n\n有一家公司某一SEG有5個人，所用的化學品OEL是10，監測結果是 0.01、0.03、0.01、0.02、0.01、0.03、0.01、0.02、0.01、0.03、0.01、0.02， 如何進行推論統計呈現暴露實態?\n如果監測結果是0.1、0.3、0.1、0.2、0.1、9 ，結果？你的專業建議?\n\n請進行暴露實態描述、管理分級(推論統計)與專業建議",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#case1.2-案例演練",
     "href": "EAD.html#case1.2-案例演練",
     "title": "Exposure Risk Decisions",
     "section": "Case1.2 案例演練",
-    "text": "Case1.2 案例演練\n一組實際的受限數據範例（8, 25, &lt;5, 10, &lt;3, 7, 11），請使用工具進行暴露評估與建議。"
+    "text": "Case1.2 案例演練\n一組實際的受限數據範例（8, 25, &lt;5, 10, &lt;3, 7, 11），請使用工具進行暴露評估與建議。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#參數空間-略",
     "href": "EAD.html#參數空間-略",
     "title": "Exposure Risk Decisions",
     "section": "2.4 參數空間 (略)",
-    "text": "2.4 參數空間 (略)"
+    "text": "2.4 參數空間 (略)",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#判讀bda圖表",
     "href": "EAD.html#判讀bda圖表",
     "title": "Exposure Risk Decisions",
     "section": "2.5 判讀BDA圖表",
-    "text": "2.5 判讀BDA圖表\n\n確認「最有可能」的類別\n確認「超標風險」是否符合控制標準\n\n95%ile落在 Category 4 的機率是否小於 5%\n\n&lt; 5%：可接受 (Acceptable)。有高度信心確信暴露在安全範圍內。\n5% ~ 30%：可容忍 (Tolerable)。該 SEG 必須有定期執行的暴露監測計畫，隨時掌握暴露波動。\n&gt; 30%)：有問題。代表超標風險過高，SEG 須有後續監測計畫。"
+    "text": "2.5 判讀BDA圖表\n\n確認「最有可能」的類別\n確認「超標風險」是否符合控制標準\n\n95%ile落在 Category 4 的機率是否小於 5%\n\n&lt; 5%：可接受 (Acceptable)。有高度信心確信暴露在安全範圍內。\n5% ~ 30%：可容忍 (Tolerable)。該 SEG 必須有定期執行的暴露監測計畫，隨時掌握暴露波動。\n&gt; 30%)：有問題。代表超標風險過高，SEG 須有後續監測計畫。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#case2.1-案例演練",
     "href": "EAD.html#case2.1-案例演練",
     "title": "Exposure Risk Decisions",
     "section": "Case2.1 案例演練",
-    "text": "Case2.1 案例演練\n\n樣本監測值 (ppm)：13，26，18， OEL = 100 ppm\n請進行EA及BDA管理分級，並提出專業建議"
+    "text": "Case2.1 案例演練\n\n樣本監測值 (ppm)：13，26，18， OEL = 100 ppm\n請進行EA及BDA管理分級，並提出專業建議",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#case2.2-案例演練",
     "href": "EAD.html#case2.2-案例演練",
     "title": "Exposure Risk Decisions",
     "section": "Case2.2 案例演練",
-    "text": "Case2.2 案例演練\n\n樣本監測值 (ppm)：13，26，18，32，18，13\n樣本監測值 (ppm)：55，33，45，66，20\n噪音監測(Dose (80, 5))：55.9，30.8，67.8，85.9，41.8，34.4"
+    "text": "Case2.2 案例演練\n\n樣本監測值 (ppm)：13，26，18，32，18，13\n樣本監測值 (ppm)：55，33，45，66，20\n噪音監測(Dose (80, 5))：55.9，30.8，67.8，85.9，41.8，34.4",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#case2.3-案例演練",
     "href": "EAD.html#case2.3-案例演練",
     "title": "Exposure Risk Decisions",
     "section": "Case2.3 案例演練",
-    "text": "Case2.3 案例演練\nRPE選擇？\n\n將輸入工具中的 OEL 替換為「APF (指定防護係數) × OEL」\n\nCategory 4：戴上PRE後，勞工暴露量仍APF的機率(likelihood。\n\n個案：OEL=1 ppm，採樣值 0.99, 0.50, 2.0 ppm。\n請針對以下條件，評估呼吸防護是否足夠？\n\n選用 APF = 10。\n選用 APF = 50。"
+    "text": "Case2.3 案例演練\nRPE選擇？\n\n將輸入工具中的 OEL 替換為「APF (指定防護係數) × OEL」\n\nCategory 4：戴上PRE後，勞工暴露量仍APF的機率(likelihood。\n\n個案：OEL=1 ppm，採樣值 0.99, 0.50, 2.0 ppm。\n請針對以下條件，評估呼吸防護是否足夠？\n\n選用 APF = 10。\n選用 APF = 50。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#先驗機率略",
     "href": "EAD.html#先驗機率略",
     "title": "Exposure Risk Decisions",
     "section": "2.6 先驗機率(略)",
-    "text": "2.6 先驗機率(略)\n\n定性(專業主觀判斷)或定量(數學模型推估、監測)\n無資訊（Non-informative）先驗 vs. 資訊性(Informative)先驗\n\n除非有一個『經過驗證（validated）』的暴露評估模型，否則應優先使用無資訊先驗（flat prior）。"
+    "text": "2.6 先驗機率(略)\n\n定性(專業主觀判斷)或定量(數學模型推估、監測)\n無資訊（Non-informative）先驗 vs. 資訊性(Informative)先驗\n\n除非有一個『經過驗證（validated）』的暴露評估模型，否則應優先使用無資訊先驗（flat prior）。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#bda-處理受限資料-censored-data略",
     "href": "EAD.html#bda-處理受限資料-censored-data略",
     "title": "Exposure Risk Decisions",
     "section": "2.7 BDA 處理受限資料 (Censored Data)(略)",
-    "text": "2.7 BDA 處理受限資料 (Censored Data)(略)"
+    "text": "2.7 BDA 處理受限資料 (Censored Data)(略)",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#小結",
     "href": "EAD.html#小結",
     "title": "Exposure Risk Decisions",
     "section": "2.8 小結",
-    "text": "2.8 小結\n貝氏統計優勢\n\n更直覺的暴露與不確定性描繪\n易進行溝通\n極佳的小樣本評估能力（包括 n=1）\n高效處理受限（未檢出）數據\n\n第2章結束"
+    "text": "2.8 小結\n貝氏統計優勢\n\n更直覺的暴露與不確定性描繪\n易進行溝通\n極佳的小樣本評估能力（包括 n=1）\n高效處理受限（未檢出）數據\n\n第2章結束",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#free-bayesian-statistical-tools",
     "href": "EAD.html#free-bayesian-statistical-tools",
     "title": "Exposure Risk Decisions",
     "section": "Free Bayesian Statistical Tools",
-    "text": "Free Bayesian Statistical Tools\nRef: Free Bayesian Statistical Tools, Paul Hewett PhD CIH FIOH, Exposure Assessment Solutions, Inc.\n\n3.1 IHDA Student Edition\n3.2 Expostats\n3.3 IHSTAT_Bayes™"
+    "text": "Free Bayesian Statistical Tools\nRef: Free Bayesian Statistical Tools, Paul Hewett PhD CIH FIOH, Exposure Assessment Solutions, Inc.\n\n3.1 IHDA Student Edition\n3.2 Expostats\n3.3 IHSTAT_Bayes™",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#資料分析與解釋",
@@ -4228,336 +4597,480 @@
     "href": "EAD.html#case-3.1-案例演練",
     "title": "Exposure Risk Decisions",
     "section": "Case 3.1 案例演練",
-    "text": "Case 3.1 案例演練\n使用IHDA工具，進行EA、管理分級與建議\n\nnon-informative prior\n\nOEL=0.2 mg/m3 ，n = 4， x = {0.015, 0.008, 0.006, 0.016}\nOEL=1 ppm， n = 1， x = 0.05 ppm\n\ninformative prior\n\nOEL=1 ppm， n = 3， x = {0.25, 0.50, 1.00}\ndata as above, what RPE is suitable (APF)?"
+    "text": "Case 3.1 案例演練\n使用IHDA工具，進行EA、管理分級與建議\n\nnon-informative prior\n\nOEL=0.2 mg/m3 ，n = 4， x = {0.015, 0.008, 0.006, 0.016}\nOEL=1 ppm， n = 1， x = 0.05 ppm\n\ninformative prior\n\nOEL=1 ppm， n = 3， x = {0.25, 0.50, 1.00}\ndata as above, what RPE is suitable (APF)?",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#case-3.2-案例演練",
     "href": "EAD.html#case-3.2-案例演練",
     "title": "Exposure Risk Decisions",
     "section": "Case 3.2 案例演練",
-    "text": "Case 3.2 案例演練\nQ：數據顯示與判讀？\n\n\n根據此概似機率決策圖(Likelihood decision chart), 以下哪個陳述是對的？\n\n66% 的暴露值介於OEL的10% ~50%？\n有66% 機率，暴露值的95%ile介於OEL的10% ~50%？\n\n此SEG 判定為 Category 2（有 66% 的最高機率落在此區間），等於做出了「暴露安全、無須立即停工改善」的結論。 然而，仍需注意做出錯誤決策的機率 (誤判為安全而卻超標風險)是多少？"
+    "text": "Case 3.2 案例演練\nQ：數據顯示與判讀？\n\n\n根據此概似機率決策圖(Likelihood decision chart), 以下哪個陳述是對的？\n\n66% 的暴露值介於OEL的10% ~50%？\n有66% 機率，暴露值的95%ile介於OEL的10% ~50%？\n\n此SEG 判定為 Category 2（有 66% 的最高機率落在此區間），等於做出了「暴露安全、無須立即停工改善」的結論。 然而，仍需注意做出錯誤決策的機率 (誤判為安全而卻超標風險)是多少？",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#case-3.3-案例演練",
     "href": "EAD.html#case-3.3-案例演練",
     "title": "Exposure Risk Decisions",
     "section": "Case 3.3 案例演練",
-    "text": "Case 3.3 案例演練\n該相信軟體的基本設置？(當GSD大時)\n\nOEL = 1 ug/m3, X={0.25, 0.03, 0.02, 1.1, 0.14, 0.01 }\n請做BDA與專業建議"
+    "text": "Case 3.3 案例演練\n該相信軟體的基本設置？(當GSD大時)\n\nOEL = 1 ug/m3, X={0.25, 0.03, 0.02, 1.1, 0.14, 0.01 }\n請做BDA與專業建議",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#小結-1",
     "href": "EAD.html#小結-1",
     "title": "Exposure Risk Decisions",
     "section": "3.1.2 小結",
-    "text": "3.1.2 小結\n\n別單一依賴 BDA，將其與現有的其他統計工具搭配使用。\n在進行EA時，應同步驗證：\n\n適配度與檢定：驗證對數常態分布的假設，避免模型失真。\n敘述統計量。\n合規統計：95%ile與不確定性上限 (UCL)。\n\n得出結果後，自問(確保決策的科學性與合理性)：\n\nQ1：「BDA 圖是否合理解釋數據？」\nQ2：「哪一種解釋最可能是正確的？是 BDA 或現有的數據分析工具（傳統統計）？」\n\n\n第3章第1節結束"
+    "text": "3.1.2 小結\n\n別單一依賴 BDA，將其與現有的其他統計工具搭配使用。\n在進行EA時，應同步驗證：\n\n適配度與檢定：驗證對數常態分布的假設，避免模型失真。\n敘述統計量。\n合規統計：95%ile與不確定性上限 (UCL)。\n\n得出結果後，自問(確保決策的科學性與合理性)：\n\nQ1：「BDA 圖是否合理解釋數據？」\nQ2：「哪一種解釋最可能是正確的？是 BDA 或現有的數據分析工具（傳統統計）？」\n\n\n第3章第1節結束",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#expostats-介紹",
     "href": "EAD.html#expostats-介紹",
     "title": "Exposure Risk Decisions",
     "section": "3.2 Expostats 介紹",
-    "text": "3.2 Expostats 介紹\nref: Jérôme Lavoué, Lawrence Joseph, Peter Knott, Hugh Davies, France Labrèche, Frédéric Clerc, Gautier Mater, Tracy Kirkham, Expostats: A Bayesian Toolkit to Aid the Interpretation of Occupational Exposure Measurements, Annals of Work Exposures and Health, Volume 63, Issue 3, April 2019, Pages 267–279, https://doi.org/10.1093/annweh/wxy100\n\nTool 1：SEG 是否符合 OEL？\nTool 2：SEG 中不同勞工之間的暴露變異度有多大？\nTool 3：干預措施是否有效？SEGs間是否有顯著差異？"
+    "text": "3.2 Expostats 介紹\nref: Jérôme Lavoué, Lawrence Joseph, Peter Knott, Hugh Davies, France Labrèche, Frédéric Clerc, Gautier Mater, Tracy Kirkham, Expostats: A Bayesian Toolkit to Aid the Interpretation of Occupational Exposure Measurements, Annals of Work Exposures and Health, Volume 63, Issue 3, April 2019, Pages 267–279, https://doi.org/10.1093/annweh/wxy100\n\nTool 1：SEG 是否符合 OEL？\nTool 2：SEG 中不同勞工之間的暴露變異度有多大？\nTool 3：干預措施是否有效？SEGs間是否有顯著差異？",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#tool-1seg-是否符合-oel",
     "href": "EAD.html#tool-1seg-是否符合-oel",
     "title": "Exposure Risk Decisions",
     "section": "3.2.1 Tool 1：SEG 是否符合 OEL？",
-    "text": "3.2.1 Tool 1：SEG 是否符合 OEL？\n\n貝氏統計價值：即使不在現場，也能根據有限的樣本，推估並描述真實暴露輪廓的實況與不確定性。\n\n母體參數：GM 與 GSD 貝氏點估計值，以及可信區間 (Credible Intervals)。\n三種關鍵決策統計量 (Decision Statistics) 含CI：95%ile、超標比例 (Exceedance fraction)、算術平均值\n貝氏決策分析圖 (BDA chart)、風險溝通資訊圖表 (Infographics)"
+    "text": "3.2.1 Tool 1：SEG 是否符合 OEL？\n\n貝氏統計價值：即使不在現場，也能根據有限的樣本，推估並描述真實暴露輪廓的實況與不確定性。\n\n母體參數：GM 與 GSD 貝氏點估計值，以及可信區間 (Credible Intervals)。\n三種關鍵決策統計量 (Decision Statistics) 含CI：95%ile、超標比例 (Exceedance fraction)、算術平均值\n貝氏決策分析圖 (BDA chart)、風險溝通資訊圖表 (Infographics)",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#tool-2seg-中不同勞工之間的暴露變異度有多大",
     "href": "EAD.html#tool-2seg-中不同勞工之間的暴露變異度有多大",
     "title": "Exposure Risk Decisions",
     "section": "3.2.2 Tool 2：SEG 中不同勞工之間的暴露變異度有多大？",
-    "text": "3.2.2 Tool 2：SEG 中不同勞工之間的暴露變異度有多大？\n(略，如果有時間)"
+    "text": "3.2.2 Tool 2：SEG 中不同勞工之間的暴露變異度有多大？\n(略，如果有時間)",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#tool-3干預措施是否有效segs間是否有顯著差異",
     "href": "EAD.html#tool-3干預措施是否有效segs間是否有顯著差異",
     "title": "Exposure Risk Decisions",
     "section": "3.2.3 Tool 3：干預措施是否有效？SEGs間是否有顯著差異？",
-    "text": "3.2.3 Tool 3：干預措施是否有效？SEGs間是否有顯著差異？\n(略，如果有時間)"
+    "text": "3.2.3 Tool 3：干預措施是否有效？SEGs間是否有顯著差異？\n(略，如果有時間)",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#貝氏統計運作",
     "href": "EAD.html#貝氏統計運作",
     "title": "Exposure Risk Decisions",
     "section": "3.2.1 貝氏統計運作",
-    "text": "3.2.1 貝氏統計運作\n\n先驗知識（Prior）+ 實測觀測數據（Observations）+ 後驗知識（Posterior）。\n\n先驗分布 — 既有認知\n\nGM：預設Non-informative - 預期所有 ln(GM) 值的出現機率皆相同（均勻分布）。\nGSD：微資訊先驗Slightly Informative Prior (Rappaport 等學者 GSD 歷史數據庫)。\n\n實測數據 — 新資訊引入\n\n例如，Styrene（苯乙烯）：190, 47, 181, 89.5, 391, 82.7 mg/m³。\n這些觀測值與對數常態統計模型結合，計算出該組數據在不同 GM 與 GSD 組合下出現的「概似值（Likelihood）」。\n\n後驗分布 — 更新後的資訊 - 貝氏運算引擎（JAGS 吉布斯採樣器） - 將先驗知識與觀測數據的概似值進行乘積與標準化計算。 - 輸出更新後的 GM 與 GSD 後驗分布。\n\n此時的 GM 與 GSD 已不再是寬廣無邊的假設，而是被這 6 個實測數據緊密收斂、能切實反映該苯乙烯 SEG 暴露特徵的機率分布。"
+    "text": "3.2.1 貝氏統計運作\n\n先驗知識（Prior）+ 實測觀測數據（Observations）+ 後驗知識（Posterior）。\n\n先驗分布 — 既有認知\n\nGM：預設Non-informative - 預期所有 ln(GM) 值的出現機率皆相同（均勻分布）。\nGSD：微資訊先驗Slightly Informative Prior (Rappaport 等學者 GSD 歷史數據庫)。\n\n實測數據 — 新資訊引入\n\n例如，Styrene（苯乙烯）：190, 47, 181, 89.5, 391, 82.7 mg/m³。\n這些觀測值與對數常態統計模型結合，計算出該組數據在不同 GM 與 GSD 組合下出現的「概似值（Likelihood）」。\n\n後驗分布 — 更新後的資訊 - 貝氏運算引擎（JAGS 吉布斯採樣器） - 將先驗知識與觀測數據的概似值進行乘積與標準化計算。 - 輸出更新後的 GM 與 GSD 後驗分布。\n\n此時的 GM 與 GSD 已不再是寬廣無邊的假設，而是被這 6 個實測數據緊密收斂、能切實反映該苯乙烯 SEG 暴露特徵的機率分布。",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#case-3.4-案例演練",
     "href": "EAD.html#case-3.4-案例演練",
     "title": "Exposure Risk Decisions",
     "section": "Case 3.4 案例演練",
-    "text": "Case 3.4 案例演練\n\nStyrene（苯乙烯）：190, 47, 181, 89.5, 391, 82.7 mg/m³。OEL=350\n請進行EA、管理分級與專業建議 (依據產出圖表進行說明)"
+    "text": "Case 3.4 案例演練\n\nStyrene（苯乙烯）：190, 47, 181, 89.5, 391, 82.7 mg/m³。OEL=350\n請進行EA、管理分級與專業建議 (依據產出圖表進行說明)",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "案例分析及演練(115技師班).html#講師簡介",
     "href": "案例分析及演練(115技師班).html#講師簡介",
     "title": "EA 案例分析及演練",
     "section": "講師簡介",
-    "text": "講師簡介\n\n姓名：何明信\n學歷：成大環醫所 、職安衛技師\n經歷：檢查員30年 (製造、危機設、營造、化工職衛科、專委)\n現職：114年退休\nE-mail：msho7336959@gmail.com"
+    "text": "講師簡介\n\n姓名：何明信\n學歷：成大環醫所 、職安衛技師\n經歷：檢查員30年 (製造、危機設、營造、化工職衛科、專委)\n現職：114年退休\nE-mail：msho7336959@gmail.com",
+    "crumbs": [
+      "115技師班"
+    ]
   },
   {
     "objectID": "案例分析及演練(115技師班).html#暴露評估基本回顧",
     "href": "案例分析及演練(115技師班).html#暴露評估基本回顧",
     "title": "EA 案例分析及演練",
     "section": "暴露評估基本回顧",
-    "text": "暴露評估基本回顧\n\n源頭：採樣策略規劃\n\n《勞工作業環境監測實施辦法》第9條規定，雇主在實施監測前，應就作業環境危害特性、監測目的，規劃採樣策略，並訂定包含採樣策略之「作業環境監測計畫」（以下簡稱監測計畫）確實執行 。\n\nQ：監測計畫應涵蓋哪6大要素\nQ：評估甚麼風險？ (暴露風險/健康風險？)"
+    "text": "暴露評估基本回顧\n\n\n源頭：採樣策略規劃\n\n《勞工作業環境監測實施辦法》第9條規定，雇主在實施監測前，應就作業環境危害特性、監測目的，規劃採樣策略，並訂定包含採樣策略之「作業環境監測計畫」（以下簡稱監測計畫）確實執行 。\n\nQ：監測計畫應涵蓋哪6大要素\nQ：評估甚麼風險？ (暴露風險/健康風險？)",
+    "crumbs": [
+      "115技師班"
+    ]
   },
   {
     "objectID": "案例分析及演練(115技師班).html#暴露風險評估-ea",
     "href": "案例分析及演練(115技師班).html#暴露風險評估-ea",
     "title": "EA 案例分析及演練",
     "section": "暴露風險評估 EA？",
-    "text": "暴露風險評估 EA？\n請問(老師請教學員)\n\n暴露評估(EA)？ (2) ，(2)\n管理分級？ (2 & 7)\n依監測辦法實施定期監測，需分級管理？ (10) (各有定見？)\n如何EA (工具方法)？ (有PEL&大型 5，6) (8)\n\nQ：這些都需要數據？ (只有適用環測辦法才要？)"
+    "text": "暴露風險評估 EA？\n請問(老師請教學員)\n\n\n暴露評估(EA)？ (2) ，(2) - (哪個較ok？)\n管理分級？ (2 & 7)\n依監測辦法實施定期監測，需分級管理？ (10) - (各有定見？)\n如何EA (工具方法)？ (有PEL&大型 5，6) (8) - (準用？)\n\n\nQ：這些都需要數據？ (只有適用環測辦法才要？)\nQ：EA人員需要訓練合格？ (只有職業衛生技師才要？)\nQ：那些法規有EA規定？ (方法以那些？)",
+    "crumbs": [
+      "115技師班"
+    ]
   },
   {
     "objectID": "案例分析及演練(115技師班).html#暴露評估判定與分級",
     "href": "案例分析及演練(115技師班).html#暴露評估判定與分級",
     "title": "EA 案例分析及演練",
     "section": "暴露評估判定與分級？",
-    "text": "暴露評估判定與分級？\n請問(老師請教學員)\n\n統計機制 (與 PEL比較？）(7)\n管理分3級？對應措施？AIHA-5級？ (10)\n\n作業場所分級管理清單？ (10)\n\nAIHA分級管理？(後面有空再介紹)"
+    "text": "暴露評估判定與分級？\n請問(老師請教學員)\n\n統計機制 (與 PEL比較？）(7)\n管理分3級？對應措施？AIHA-5級？ (10)\n\n作業場所分級管理清單？ (10)\n\nAIHA分級管理？(有空再介紹)",
+    "crumbs": [
+      "115技師班"
+    ]
   },
   {
     "objectID": "案例分析及演練(115技師班).html#採樣策略",
     "href": "案例分析及演練(115技師班).html#採樣策略",
     "title": "EA 案例分析及演練",
     "section": "採樣策略？",
-    "text": "採樣策略？\n\n合規性（Compliance）單點監測？\n全盤性暴露評估策略(Comprehensive Exposure Assessment Strategy) ？\n採樣策略擬定技術手冊？"
+    "text": "採樣策略？\n\n\n合規性（Compliance）單點監測？\n全盤性暴露評估策略(Comprehensive Exposure Assessment Strategy) ？\n採樣策略擬定技術手冊？",
+    "crumbs": [
+      "115技師班"
+    ]
   },
   {
     "objectID": "案例分析及演練(115技師班).html#規劃採樣策略",
     "href": "案例分析及演練(115技師班).html#規劃採樣策略",
     "title": "EA 案例分析及演練",
     "section": "規劃採樣策略？",
-    "text": "規劃採樣策略？\n需要準備哪些資訊？\n\n工作場所資訊 + 暴露資訊(人+時) + 危害健康物質資訊 + 既有資訊(歷史暴露與健康檢查資料)\n\n需要那些人合作？ 需具備哪些技能？ (10)\n\n危害辨識與基本資料蒐集\nSEG 建立與暴露剖面分析\n採樣策略規劃與儀器選用\n定性、半定量與定量暴露評估工具應用\n數據分析與高階統計判定\n計畫撰寫、溝通"
+    "text": "規劃採樣策略？\n需要準備哪些資訊？\n\n工作場所資訊 + 暴露資訊(人+時) + 危害健康物質資訊 + 既有資訊(歷史暴露與健康檢查資料)\n\n需要那些人合作？ 需具備哪些技能？ (10)\n\n危害辨識與基本資料蒐集\nSEG 建立與暴露剖面分析\n採樣策略規劃與儀器選用\n定性、半定量與定量暴露評估工具應用\n數據分析與高階統計判定\n計畫撰寫、溝通",
+    "crumbs": [
+      "115技師班"
+    ]
   },
   {
     "objectID": "案例分析及演練(115技師班).html#規劃採樣策略-1",
     "href": "案例分析及演練(115技師班).html#規劃採樣策略-1",
     "title": "EA 案例分析及演練",
     "section": "規劃採樣策略？",
-    "text": "規劃採樣策略？\n\n採樣策略(planing) –&gt; 監測計畫(output)\n\n監測計畫應包含？(9)\n\n監測計畫 –&gt; 監測結果 –&gt; 通報-&gt; 暴露評估報告"
+    "text": "規劃採樣策略？\n\n\n採樣策略(planing) –&gt; 監測計畫(output)\n\n監測計畫應包含？(9)\n\n監測計畫 –&gt; 監測結果與通報(12) –&gt; 暴露評估報告 (10、13)",
+    "crumbs": [
+      "115技師班"
+    ]
   },
   {
     "objectID": "案例分析及演練(115技師班).html#監測計畫基本要項",
     "href": "案例分析及演練(115技師班).html#監測計畫基本要項",
     "title": "EA 案例分析及演練",
     "section": "3.1 監測計畫基本要項",
-    "text": "3.1 監測計畫基本要項\nref: 作業環境監測計畫撰寫與審查之技術手冊 (113年)\n\n監測計畫 -&gt; 監測結果 + 暴露評估報告\n\n監測計畫：蒐集情資並規劃執行方式。\n暴露評估報告：依監測計畫具體執行與科學論證的紀錄。\n\n計畫主要項目： (細節請參考技術手冊附件-作業環境監測計畫撰寫要項)\n\n暴露危害：危害鑑別與基本資料蒐集\n資源最佳化：SEG劃分(定性)與先期風險評估(定性、半定量、定量模式)\n合理與代表性：採樣策略與品保品管(SEG / MEG、方法、樣本數)\n分析與暴露評估：統計量與OEL比較、管理分級\n產出與紀錄：監測結果(通報) + 暴露評估報告(下次EA參考用)"
+    "text": "3.1 監測計畫基本要項\nref: 作業環境監測計畫撰寫與審查之技術手冊 (113年)\n\n監測計畫 -&gt; 監測結果(通報) + 暴露評估報告\n\n監測計畫：蒐集情資並規劃執行方式。\n暴露評估報告：依監測計畫具體執行與科學論證的紀錄。\n\n計畫主要項目： (細節請參考技術手冊附件-作業環境監測計畫撰寫要項)\n\n暴露危害：危害鑑別與基本資料蒐集\n資源最佳化：SEG劃分(定性)與先期風險評估(定性、半定量、定量模式)\n合理與代表性：採樣策略與品保品管(SEG / MEG、方法、樣本數)\n分析與暴露評估：統計量與OEL比較、管理分級\n產出與紀錄：監測結果(通報) + 暴露評估報告(下次EA參考用)",
+    "crumbs": [
+      "115技師班"
+    ]
   },
   {
     "objectID": "案例分析及演練(115技師班).html#監測計畫之審查",
     "href": "案例分析及演練(115技師班).html#監測計畫之審查",
     "title": "EA 案例分析及演練",
     "section": "3.2 監測計畫之審查",
-    "text": "3.2 監測計畫之審查\n\n環測承攬商篩選與能力審查\n監測計畫之技術驗收審查\n環測承攬商之年度績效評鑑\n\n自建監測計畫查檢表 - 試試讓AI幫你？"
+    "text": "3.2 監測計畫之審查\n\n環測承攬商篩選與能力審查\n監測計畫之技術驗收審查\n環測承攬商之年度績效評鑑\n\n自建監測計畫查檢表 - 試試讓AI幫你？",
+    "crumbs": [
+      "115技師班"
+    ]
   },
   {
     "objectID": "案例分析及演練(115技師班).html#事業單位監測資料申報",
     "href": "案例分析及演練(115技師班).html#事業單位監測資料申報",
     "title": "EA 案例分析及演練",
     "section": "事業單位監測資料申報",
-    "text": "事業單位監測資料申報"
+    "text": "事業單位監測資料申報",
+    "crumbs": [
+      "115技師班"
+    ]
   },
   {
     "objectID": "案例分析及演練(115技師班).html#數據分析暴露評估判定與建議",
     "href": "案例分析及演練(115技師班).html#數據分析暴露評估判定與建議",
     "title": "EA 案例分析及演練",
     "section": "5.1 數據分析、暴露評估判定與建議",
-    "text": "5.1 數據分析、暴露評估判定與建議\n主要介紹兩個部分：\n最大暴露危險群評估\n\nNIOSH 《職業暴露採樣策略手冊》Occupational Exposure Sampling Strategy Manual，1977 年\n\nNelson A. Leidel、Kenneth A. Busch 與 Jeremiah R. Lynch 等人編著\n\n\n全盤性暴露評估\n\nAIHA - A Strategy for Assessing and Managing Occupational Exposures, 4th edition，2015年"
+    "text": "5.1 數據分析、暴露評估判定與建議\n主要介紹兩個部分：\n最大暴露危險群評估\n\nNIOSH 《職業暴露採樣策略手冊》Occupational Exposure Sampling Strategy Manual，1977 年\n\nNelson A. Leidel、Kenneth A. Busch 與 Jeremiah R. Lynch 等人編著\n\n\n全盤性暴露評估\n\nAIHA - A Strategy for Assessing and Managing Occupational Exposures, 4th edition，2015年",
+    "crumbs": [
+      "115技師班"
+    ]
   },
   {
     "objectID": "案例分析及演練(115技師班).html#最大暴露危險群評估-1",
     "href": "案例分析及演練(115技師班).html#最大暴露危險群評估-1",
     "title": "EA 案例分析及演練",
     "section": "最大暴露危險群評估",
-    "text": "最大暴露危險群評估\nref: Busch, Kenneth A. et al. (1977). Occupational Exposure Sampling Strategy Manual. National Institute for Occupational Safety and Health.\n\n特性：具保護效能的「化學性危害採樣策略」與「數據合規決策」\n採樣代表性：最大風險 (MEG) vs. 隨機抽樣 (HEG / SEG)\n決策量：AL (Action Level) = 1/2 PEL）\n採樣策略 (TWA-8hr)：全時段連續樣本、全時段單一樣本、部分時段連續樣本、瞬時採樣。\n數據分析與假設檢定：(單邊 95% 信賴區間)\n\n檢查員(證明違規)：LCL &gt; 1.0\n雇主(證明合規)：UCL &lt; 1.0 (這是我們關心的)"
+    "text": "最大暴露危險群評估\nref: Busch, Kenneth A. et al. (1977). Occupational Exposure Sampling Strategy Manual. National Institute for Occupational Safety and Health.\n\n特性：具保護效能的「化學性危害採樣策略」與「數據合規決策」\n採樣代表性：最大風險 (MEG) vs. 隨機抽樣 (HEG / SEG)\n決策量：AL (Action Level) = 1/2 PEL\n採樣策略 (TWA-8hr)：全時段連續樣本、全時段單一樣本、部分時段連續樣本、瞬時採樣。\n數據分析與假設檢定：(單邊 95% 信賴區間)\n\n檢查員(證明違規)：LCL &gt; 1.0\n雇主 (證明合規)：UCL &lt; 1.0 (這是我們關心的)",
+    "crumbs": [
+      "115技師班"
+    ]
   },
   {
     "objectID": "案例分析及演練(115技師班).html#最大暴露危險群評估-續",
     "href": "案例分析及演練(115技師班).html#最大暴露危險群評估-續",
     "title": "EA 案例分析及演練",
     "section": "最大暴露危險群評估 (續)",
-    "text": "最大暴露危險群評估 (續)\nCase5.1 案例演練 (單一樣本)\n\n情境：使用活性碳管和個人幫浦採樣，採樣時間為8小時單一樣本，PEL是0.05 ppm。實驗室報告的濃度X為0.04 ppm，此方法的CVT值為0.09。\nUCL(95%)公式：\\(\\mathrm{UCL}(95\\%) = x + (1.645)(CV_T)\\)\n請做管理分級與建議\n\nUCL ( 95%)=0.95 ？\nIf x &gt; 1, no statistical test for compliance would be made."
+    "text": "最大暴露危險群評估 (續)\nCase5.1 案例演練 (單一樣本)\n\n情境：使用活性碳管和個人幫浦採樣，採樣時間為8小時單一樣本，PEL是0.05 ppm。實驗室報告的濃度X為0.04 ppm，此方法的CVT值為0.09。\nUCL(95%)公式：\\(\\mathrm{UCL}(95\\%) = x + (1.645)(CV_T)\\)\n請做管理分級與建議\n\nUCL ( 95%)=0.95 ？\nIf x &gt; 1, no statistical test for compliance would be made.",
+    "crumbs": [
+      "115技師班"
+    ]
   },
   {
     "objectID": "案例分析及演練(115技師班).html#最大暴露危險群評估-續-1",
     "href": "案例分析及演練(115技師班).html#最大暴露危險群評估-續-1",
     "title": "EA 案例分析及演練",
     "section": "最大暴露危險群評估 (續)",
-    "text": "最大暴露危險群評估 (續)\nCase5.2 案例演練 (連續多樣本)\n\n情境：使用個人幫浦和兩根活性碳管監測一名員工暴露，採樣時間為8小時多樣本，PEL=100 ppm，實驗室報告：X1 = 30 ppm，X2 = 140 ppm，T1 = 300 分鐘，T2 = 180 分鐘，該分析方法的 CVT = 0.08。\nUCL(95%)公式：\\(\\mathrm{UCL}(\\geq 95\\%)=\\left(\\frac{\\mathrm{TWA}}{\\mathrm{STD}}\\right)+\\frac{1.645(CV_T)\\sqrt{T_1^2X_1^2+\\cdots+T_n^2X_n^2}}{(\\mathrm{STD})(T_1+\\cdots+T_n)\\sqrt{1+CV_T^2}}\\)\n請做管理分級與建議\n\nUCL ( 95%)=0.78 ？\n\n\n其他請自己看手冊囉 - 別把自己搞混了"
+    "text": "最大暴露危險群評估 (續)\nCase5.2 案例演練 (連續多樣本)\n\n情境：使用個人幫浦和兩根活性碳管監測一名員工暴露，採樣時間為8小時多樣本，PEL=100 ppm，實驗室報告：X1 = 30 ppm，X2 = 140 ppm，T1 = 300 分鐘，T2 = 180 分鐘，該分析方法的 CVT = 0.08。\nUCL(95%)公式：\\(\\mathrm{UCL}(\\geq 95\\%)=\\left(\\frac{\\mathrm{TWA}}{\\mathrm{STD}}\\right)+\\frac{1.645(CV_T)\\sqrt{T_1^2X_1^2+\\cdots+T_n^2X_n^2}}{(\\mathrm{STD})(T_1+\\cdots+T_n)\\sqrt{1+CV_T^2}}\\)\n請做管理分級與建議\n\nUCL ( 95%)=0.78 ？\n\n\n其他請自己看手冊囉 - 別把自己搞混了",
+    "crumbs": [
+      "115技師班"
+    ]
   },
   {
     "objectID": "案例分析及演練(115技師班).html#全盤性暴露評估-1",
     "href": "案例分析及演練(115技師班).html#全盤性暴露評估-1",
     "title": "EA 案例分析及演練",
     "section": "全盤性暴露評估",
-    "text": "全盤性暴露評估\nExposure Risk Decisions"
+    "text": "全盤性暴露評估\nExposure Risk Decisions",
+    "crumbs": [
+      "115技師班"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#講師簡介",
     "href": "EAD_NIOSH.html#講師簡介",
     "title": "EAD_NOISH manual",
     "section": "講師簡介",
-    "text": "講師簡介\n\n姓名：何明信\n學歷：成大環醫所 、職安衛技師\n經歷：檢查員30年 (製造、危機設、營造、化工職衛科、專委)\n現職：114年退休\nE-mail：msho7336959@gmail.com"
+    "text": "講師簡介\n\n姓名：何明信\n學歷：成大環醫所 、職安衛技師\n經歷：檢查員30年 (製造、危機設、營造、化工職衛科、專委)\n現職：114年退休\nE-mail：msho7336959@gmail.com",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#niosh1977",
     "href": "EAD_NIOSH.html#niosh1977",
     "title": "EAD_NOISH manual",
     "section": "NIOSH(1977)",
-    "text": "NIOSH(1977)\n\n特色\n\n取樣策略：具代表性且有效的取樣。(捕捉暴露變異)\n合規性：結果符合職業安全與衛生標準？(EA)"
+    "text": "NIOSH(1977)\n\n特色\n\n取樣策略：具代表性且有效的取樣。(捕捉暴露變異)\n合規性：結果符合職業安全與衛生標準？(EA)",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#取樣策略",
     "href": "EAD_NIOSH.html#取樣策略",
     "title": "EAD_NOISH manual",
     "section": "1. 取樣策略",
-    "text": "1. 取樣策略\n\nMEG / SEG (隨機)\n取樣數量與信心水準 (Table 3.1)\n考慮統計分布模型(常態或對數常態），以利科學分析。\n\n\n\n\n\n\n\n\n\n標準類型\n定義\n應用場景\n\n\n\n\nTWA\n平均暴露濃度，通常以 8 小時工作日為基準\n長期慢性暴露風險\n\n\nSTEL\n15 分鐘平均暴露限值\n短時間高暴露但非瞬時\n\n\nCeiling\n任意時間點不得超過的最高濃度\n急性效應防護"
+    "text": "1. 取樣策略\n\nMEG / SEG (隨機)\n取樣數量與信心水準 (Table 3.1)\n考慮統計分布模型(常態或對數常態），以利科學分析。\n\n\n\n\n\n\n\n\n\n標準類型\n定義\n應用場景\n\n\n\n\nTWA\n平均暴露濃度，通常以 8 小時工作日為基準\n長期慢性暴露風險\n\n\nSTEL\n15 分鐘平均暴露限值\n短時間高暴露但非瞬時\n\n\nCeiling\n任意時間點不得超過的最高濃度\n急性效應防護",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#ea",
     "href": "EAD_NIOSH.html#ea",
     "title": "EAD_NOISH manual",
     "section": "2. EA",
-    "text": "2. EA\n\n透過系統化的辨識、測量與統計分析\n\n判斷員工是否可能超過OEL，並據此採取管理控制措施。\n結合了科學數據與專業判斷，避免急性或慢性健康危害。\n\nEA 步驟：危害辨識、暴露特徵化、暴露測量、統計分析\n統計決策：95% 信心水準下，合規、可能過度暴露、不合規。"
+    "text": "2. EA\n\n透過系統化的辨識、測量與統計分析\n\n判斷員工是否可能超過OEL，並據此採取管理控制措施。\n結合了科學數據與專業判斷，避免急性或慢性健康危害。\n\nEA 步驟：危害辨識、暴露特徵化、暴露測量、統計分析\n統計決策：95% 信心水準下，合規、可能過度暴露、不合規。",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#暴露監測計畫",
     "href": "EAD_NIOSH.html#暴露監測計畫",
     "title": "EAD_NOISH manual",
     "section": "3. 暴露監測計畫",
-    "text": "3. 暴露監測計畫\n\n為確保工作場所安全與合規，系統化規劃、執行與評估取樣，以便提供可靠的數據支持暴露風險管理。\n流程\n\n需求分析\n\n監測目的：合規、研究、或健康保護。\n監測群體：高風險員工、代表性群體或全體。\n\n取樣策略\n\n選擇代表性取樣方法（隨機、最大風險員工、週期性）。\n決定取樣數量與信心水準。\n\n數據分析\n\n使用統計模型。\n判斷合規、可能過度暴露或不合規。"
+    "text": "3. 暴露監測計畫\n\n為確保工作場所安全與合規，系統化規劃、執行與評估取樣，以便提供可靠的數據支持暴露風險管理。\n流程\n\n需求分析\n\n監測目的：合規、研究、或健康保護。\n監測群體：高風險員工、代表性群體或全體。\n\n取樣策略\n\n選擇代表性取樣方法（隨機、最大風險員工、週期性）。\n決定取樣數量與信心水準。\n\n數據分析\n\n使用統計模型。\n判斷合規、可能過度暴露或不合規。",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#case1-案例演練",
     "href": "EAD_NIOSH.html#case1-案例演練",
     "title": "EAD_NOISH manual",
     "section": "Case1 案例演練",
-    "text": "Case1 案例演練\n簡答題\n\n請說明 隨機取樣 與 最大風險員工取樣 的差異。\n為何在暴露評估中需要使用 對數常態分布模型？"
+    "text": "Case1 案例演練\n簡答題\n\n請說明 隨機取樣 與 最大風險員工取樣 的差異。\n為何在暴露評估中需要使用 對數常態分布模型？",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#case2-案例演練",
     "href": "EAD_NIOSH.html#case2-案例演練",
     "title": "EAD_NOISH manual",
     "section": "Case2 案例演練",
-    "text": "Case2 案例演練\n\n情境：某化工廠有 40 名員工，主要作業為使用揮發性有機化合物 (VOC) 進行清洗與溶劑操作。近期有員工反映眼睛刺激與呼吸不適，管理層決定啟動暴露監測計畫。\n請依據你的專業，規劃採樣策略 (樣本具代表性、取樣推論具90%信心水準以上)\n\n提示\n\n需求分析 (目的+MEG / SEG)\n採樣設計 (人數、方法)\n數據分析 (工具、決策標準OEL-TWA / STEL / Celling)\n管理分級與建議"
+    "text": "Case2 案例演練\n\n情境：某化工廠有 40 名員工，主要作業為使用揮發性有機化合物 (VOC) 進行清洗與溶劑操作。近期有員工反映眼睛刺激與呼吸不適，管理層決定啟動暴露監測計畫。\n請依據你的專業，規劃採樣策略 (樣本具代表性、取樣推論具90%信心水準以上)\n\n提示\n\n需求分析 (目的+MEG / SEG)\n採樣設計 (人數、方法)\n數據分析 (工具、決策標準OEL-TWA / STEL / Celling)\n管理分級與建議",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#採樣方式規劃",
     "href": "EAD_NIOSH.html#採樣方式規劃",
     "title": "EAD_NOISH manual",
     "section": "3.1 採樣方式規劃",
-    "text": "3.1 採樣方式規劃\n\n不同取樣方式會影響數據的代表性與統計分析方法。\n實務\n\n合規檢查：檢查員檢查時，最好是全期或全期連續樣本。\n\n\n\n研究或初步調查：隨機抓樣能快速提供分布概況。\n資源有限時：分期連續樣本可作為替代，但需謹慎解讀。"
+    "text": "3.1 採樣方式規劃\n\n不同取樣方式會影響數據的代表性與統計分析方法。\n實務\n\n合規檢查：檢查員檢查時，最好是全期或全期連續樣本。\n\n\n\n研究或初步調查：隨機抓樣能快速提供分布概況。\n資源有限時：分期連續樣本可作為替代，但需謹慎解讀。",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#統計分析概念",
     "href": "EAD_NIOSH.html#統計分析概念",
     "title": "EAD_NOISH manual",
     "section": "4. 統計分析概念",
-    "text": "4. 統計分析概念\n4.1 信賴區間 (4.1 Confidence Interval Limits)\n\n表示數據不確定性範圍，常見設定為 95% 信心水準。\n實務\n\n單一測量值不足以判定合規，需要透過信賴區間來確保判斷的科學性。\n\n\n\n樣本數越多，信賴區間越窄，判定越精確。\n當信賴區間涵蓋OEL時，必須進行補充取樣或加強監測。\n\n判定流程\n\n收集數據 + 計算平均值及標準差\n建立信賴區間\n\n統計計算 95% 信賴區間的上下限 (LCL/UCL)。\n\n與標準比較 (TWA、STEL、Celling)\n判定 (合規、可能過度暴露、不合規)\n後續措施"
+    "text": "4. 統計分析概念\n4.1 信賴區間 (4.1 Confidence Interval Limits)\n\n表示數據不確定性範圍，常見設定為 95% 信心水準。\n實務\n\n單一測量值不足以判定合規，需要透過信賴區間來確保判斷的科學性。\n\n\n\n樣本數越多，信賴區間越窄，判定越精確。\n當信賴區間涵蓋OEL時，必須進行補充取樣或加強監測。\n\n判定流程\n\n收集數據 + 計算平均值及標準差\n建立信賴區間\n\n統計計算 95% 信賴區間的上下限 (LCL/UCL)。\n\n與標準比較 (TWA、STEL、Celling)\n判定 (合規、可能過度暴露、不合規)\n後續措施",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#統計分析概念-續",
     "href": "EAD_NIOSH.html#統計分析概念-續",
     "title": "EAD_NOISH manual",
     "section": "4. 統計分析概念 (續)",
-    "text": "4. 統計分析概念 (續)\n\n誤差：隨機採樣誤差+化學分析誤差 = CVT (見附件D)\n測值 X 僅是真實暴露濃度 μ 的一個「點估計值」。\n為兼顧合規與保護勞工，引入單邊 95% 信賴區間的假說檢定。"
+    "text": "4. 統計分析概念 (續)\n\n誤差：隨機採樣誤差+化學分析誤差 = CVT (見附件D)\n測值 X 僅是真實暴露濃度 μ 的一個「點估計值」。\n為兼顧合規與保護勞工，引入單邊 95% 信賴區間的假說檢定。",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#ea-of-twa_8hr",
     "href": "EAD_NIOSH.html#ea-of-twa_8hr",
     "title": "EAD_NOISH manual",
     "section": "4.2 EA of TWA_8hr",
-    "text": "4.2 EA of TWA_8hr\n4.2.1 全時段單一樣本（Full Period Single Sample Measurement）\n\n計算參數與步驟\n\n​數據標準化 (使OEL=1) \\(x= X / OEL\\)\n計算信賴上限（​UCL95%）\n\n檢查員：「違規檢定」（H0: μ≤OEL）： LCL95%​=x−1.645×CVT​\n\n若 \\(x\\) ≤1.0，檢查員無須計算 LCL，直接判定無法證明違規。\n\n雇主的：「合規檢定」（H0: μ&gt;OEL）： UCL95%​=x+1.645×CVT​\n\n若 \\(x\\)&gt;1.0，雇主無須計算 UCL，判定可能超標或不合規。\n\n\n暴露風險分類\n\nA區：LCL95%​ &gt; 1.0\n\n指排除測量隨機誤差後，仍有 95% 以上的統計信心確信勞工真實暴露平均值已超越標準。必須控制並重新採樣。\n\nB區：LCL95%​ ≤ 1.0 ≤ UCL95%​。\n\n重新採樣，提高監測頻率以降低不確定性。\n\nC區：UCL95% ​&lt; 1.0。\n\n有 95% 以上的統計信心確認真實暴露低於OEL，維持定期評估。"
+    "text": "4.2 EA of TWA_8hr\n4.2.1 全時段單一樣本（Full Period Single Sample Measurement）\n\n計算參數與步驟\n\n​數據標準化 (使OEL=1) \\(x= X / OEL\\)\n計算信賴上限（​UCL95%）\n\n檢查員：「違規檢定」（H0: μ≤OEL）： LCL95%​=x−1.645×CVT​\n\n若 \\(x\\) ≤1.0，檢查員無須計算 LCL，直接判定無法證明違規。\n\n雇主的：「合規檢定」（H0: μ&gt;OEL）： UCL95%​=x+1.645×CVT​\n\n若 \\(x\\)&gt;1.0，雇主無須計算 UCL，判定可能超標或不合規。\n\n\n暴露風險分類\n\nA區：LCL95%​ &gt; 1.0\n\n指排除測量隨機誤差後，仍有 95% 以上的統計信心確信勞工真實暴露平均值已超越標準。必須控制並重新採樣。\n\nB區：LCL95%​ ≤ 1.0 ≤ UCL95%​。\n\n重新採樣，提高監測頻率以降低不確定性。\n\nC區：UCL95% ​&lt; 1.0。\n\n有 95% 以上的統計信心確認真實暴露低於OEL，維持定期評估。",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#case3-案例演練",
     "href": "EAD_NIOSH.html#case3-案例演練",
     "title": "EAD_NOISH manual",
     "section": "Case3 案例演練",
-    "text": "Case3 案例演練\n\n已知現場監測數據：\n\n被測化學因子：苯氯乙酮（alpha-chloroacetophenone）\n量測儀器：活性碳管與個人採樣泵，流率 100 cc/min，連續採樣 8 小時（全時段）。\n實驗室分析報告濃度 X：0.04 ppm\n該採樣分析方法之總變異係數 (CVT​)：0.09\n法定 8 小時 TWA 容許濃度 (OEL)：0.05 ppm\n\n請進行暴露管理分級(含計算)與建議\n\n提示：UCL95%​=0.95\n\n若使用軟體工具，怎麼處理？"
+    "text": "Case3 案例演練\n\n已知現場監測數據：\n\n被測化學因子：苯氯乙酮（alpha-chloroacetophenone）\n量測儀器：活性碳管與個人採樣泵，流率 100 cc/min，連續採樣 8 小時（全時段）。\n實驗室分析報告濃度 X：0.04 ppm\n該採樣分析方法之總變異係數 (CVT​)：0.09\n法定 8 小時 TWA 容許濃度 (OEL)：0.05 ppm\n\n請進行暴露管理分級(含計算)與建議\n\n提示：UCL95%​=0.95\n\n若使用軟體工具，怎麼處理？",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#ea-of-twa_8hr-續",
     "href": "EAD_NIOSH.html#ea-of-twa_8hr-續",
     "title": "EAD_NOISH manual",
     "section": "4.2 EA of TWA_8hr (續)",
-    "text": "4.2 EA of TWA_8hr (續)\n4.2.2.1 全時段連續樣品量測（Full Period Consecutive Samples）\n\n黃金標準，相較於單一 8 小時的樣品，連續收集數個短時間樣品（例如 2 個 4 小時樣品）能提供EA優勢：\n\n縮小信賴區間：因為增加樣本數（n）。\n考慮日間變異：掌握暴露實態。\n\n假設：在各時段內，為均勻暴露（Uniform Exposure）？"
+    "text": "4.2 EA of TWA_8hr (續)\n4.2.2.1 全時段連續樣品量測（Full Period Consecutive Samples）\n\n黃金標準，相較於單一 8 小時的樣品，連續收集數個短時間樣品（例如 2 個 4 小時樣品）能提供EA優勢：\n\n縮小信賴區間：因為增加樣本數（n）。\n考慮日間變異：掌握暴露實態。\n\n假設：在各時段內，為均勻暴露（Uniform Exposure）？",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#case4-案例演練",
     "href": "EAD_NIOSH.html#case4-案例演練",
     "title": "EAD_NOISH manual",
     "section": "Case4 案例演練",
-    "text": "Case4 案例演練\n\n已知現場監測數據：\n\n被測物：異戊醇 isoamyl alcohol\n8 小時 TWA 標準（OEL）：100 ppm\n方法之總變異係數（CVT​）：0.08\n連續個人採樣數據：\n\nX1 = 90 ppm，T1 = 150 min\nX2 = 140 ppm，T2 = 100 min\nX3 = 110 ppm，T3 = 230 min\n\n\n請進行暴露管理分級與建議\n\n提示：UCL95%​=1.02"
+    "text": "Case4 案例演練\n\n已知現場監測數據：\n\n被測物：異戊醇 isoamyl alcohol\n8 小時 TWA 標準（OEL）：100 ppm\n方法之總變異係數（CVT​）：0.08\n連續個人採樣數據：\n\nX1 = 90 ppm，T1 = 150 min\nX2 = 140 ppm，T2 = 100 min\nX3 = 110 ppm，T3 = 230 min\n\n\n請進行暴露管理分級與建議\n\n提示：UCL95%​=1.02",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#ea-of-twa_8hr-續-1",
     "href": "EAD_NIOSH.html#ea-of-twa_8hr-續-1",
     "title": "EAD_NOISH manual",
     "section": "4.2 EA of TWA_8hr (續)",
-    "text": "4.2 EA of TWA_8hr (續)\n4.2.2.2 部分時段連續樣品量測（Partial Period Measurement）\n(略) 沒研究，有興趣請自習"
+    "text": "4.2 EA of TWA_8hr (續)\n4.2.2.2 部分時段連續樣品量測（Partial Period Measurement）\n(略) 沒研究，有興趣請自習",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#ea-of-twa_8hr-續-2",
     "href": "EAD_NIOSH.html#ea-of-twa_8hr-續-2",
     "title": "EAD_NOISH manual",
     "section": "4.2 EA of TWA_8hr (續)",
-    "text": "4.2 EA of TWA_8hr (續)\n4.2.3 瞬時採樣策略（Grab Samples Measurement）\n\n儀器：使用直讀式氣體偵測器、檢知管等時\n當小樣本(n&lt;30)時，用對數常態模型\n計算參數與步驟\n\n​數據標準化 \\(x= X / OEL\\)\n對數轉換 \\(y_i =log_{10}(x_i)\\)\n計算算術平均值與樣本標準差，查圖( Figure 4.3)判定"
+    "text": "4.2 EA of TWA_8hr (續)\n4.2.3 瞬時採樣策略（Grab Samples Measurement）\n\n儀器：使用直讀式氣體偵測器、檢知管等時\n當小樣本(n&lt;30)時，用對數常態模型\n計算參數與步驟\n\n​數據標準化 \\(x= X / OEL\\)\n對數轉換 \\(y_i =log_{10}(x_i)\\)\n計算算術平均值與樣本標準差，查圖( Figure 4.3)判定",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#case5-案例演練",
     "href": "EAD_NIOSH.html#case5-案例演練",
     "title": "EAD_NOISH manual",
     "section": "Case5 案例演練",
-    "text": "Case5 案例演練\n\n已知現場監測數據：\n\n被測化學因子：乙醇（Ethyl Alcohol）\n量測方法：個人採樣泵（流率 25 cc/min），共採集 8 個活性碳管抓樣，每管暴露 20 分鐘\n法定 8 小時 TWA 標準（OEL）：1000 ppm\n該方法的總變異係數（CVT​）：0.06\n實驗室報告的 8 筆原始測定濃度（Xi​）： 1225, 800, 1120, 1460, 975, 980, 525, 1290 ppm\n\n\n\n\n請進行暴露管理分級與建議 (使用AIHA方法)\n\n提示： \\(X_{95}=GM⋅GSD^{1.645}=1.71\\)"
+    "text": "Case5 案例演練\n\n已知現場監測數據：\n\n被測化學因子：乙醇（Ethyl Alcohol）\n量測方法：個人採樣泵（流率 25 cc/min），共採集 8 個活性碳管抓樣，每管暴露 20 分鐘\n法定 8 小時 TWA 標準（OEL）：1000 ppm\n該方法的總變異係數（CVT​）：0.06\n實驗室報告的 8 筆原始測定濃度（Xi​）： 1225, 800, 1120, 1460, 975, 980, 525, 1290 ppm\n\n\n\n\n請進行暴露管理分級與建議 (使用AIHA方法)\n\n提示： \\(X_{95}=GM⋅GSD^{1.645}=1.71\\)",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#ea-of-twa_8hr-續-3",
     "href": "EAD_NIOSH.html#ea-of-twa_8hr-續-3",
     "title": "EAD_NOISH manual",
     "section": "4.2 EA of TWA_8hr (續)",
-    "text": "4.2 EA of TWA_8hr (續)\n4.2.4 瞬時採樣策略（Grab Samples Measurement）\n\n儀器：使用直讀式氣體偵測器、檢知管等時\n當大樣本(n&gt;30)時，用常態模型(中央極限定理)\n計算式： \\(UCL_{95\\%} =\\overline{x} +1.645⋅\\frac{s}{\\sqrt{n}}​​\\)"
+    "text": "4.2 EA of TWA_8hr (續)\n4.2.4 瞬時採樣策略（Grab Samples Measurement）\n\n儀器：使用直讀式氣體偵測器、檢知管等時\n當大樣本(n&gt;30)時，用常態模型(中央極限定理)\n計算式： \\(UCL_{95\\%} =\\overline{x} +1.645⋅\\frac{s}{\\sqrt{n}}​​\\)",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#case6-案例演練",
     "href": "EAD_NIOSH.html#case6-案例演練",
     "title": "EAD_NOISH manual",
     "section": "Case6 案例演練",
-    "text": "Case6 案例演練\n\n已知現場監測數據：\n\n量測對象：用直讀式臭氧分析儀與紀錄器，監測一名固定站點勞工的暴露。\n法定 8 小時 TWA 標準（OEL）：0.1 ppm。\n樣本數 n：於 8 小時班次內隨機選取 35 個時間點讀取濃度值（大樣本 n&gt;30）。\n35 筆原始測定濃度 Xi​（ppm）： 0.077, 0.043, 0.061, 0.070, 0.107, 0.084, 0.062, 0.127, 0.057, 0.101, 0.072, 0.145, 0.084, 0.101, 0.105, 0.125, 0.076, 0.079, 0.078, 0.067, 0.073, 0.069, 0.084, 0.066, 0.085, 0.080, 0.071, 0.103, 0.075, 0.048, 0.092, 0.066, 0.109, 0.110, 0.057\n\n請進行暴露管理分級與建議\n\n提示： \\(UCL_{95\\%} =\\overline{x} +1.645⋅\\frac{s}{\\sqrt{n}}​\\)"
+    "text": "Case6 案例演練\n\n已知現場監測數據：\n\n量測對象：用直讀式臭氧分析儀與紀錄器，監測一名固定站點勞工的暴露。\n法定 8 小時 TWA 標準（OEL）：0.1 ppm。\n樣本數 n：於 8 小時班次內隨機選取 35 個時間點讀取濃度值（大樣本 n&gt;30）。\n35 筆原始測定濃度 Xi​（ppm）： 0.077, 0.043, 0.061, 0.070, 0.107, 0.084, 0.062, 0.127, 0.057, 0.101, 0.072, 0.145, 0.084, 0.101, 0.105, 0.125, 0.076, 0.079, 0.078, 0.067, 0.073, 0.069, 0.084, 0.066, 0.085, 0.080, 0.071, 0.103, 0.075, 0.048, 0.092, 0.066, 0.109, 0.110, 0.057\n\n請進行暴露管理分級與建議\n\n提示： \\(UCL_{95\\%} =\\overline{x} +1.645⋅\\frac{s}{\\sqrt{n}}​\\)",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#ea-of-最高容許濃度ceiling",
     "href": "EAD_NIOSH.html#ea-of-最高容許濃度ceiling",
     "title": "EAD_NOISH manual",
     "section": "4.2 EA of 最高容許濃度（Ceiling)",
-    "text": "4.2 EA of 最高容許濃度（Ceiling)\n\n防止急性毒性、嚴重刺激或麻醉效應\n在預期高濃度時段採集的短期樣本，通過統計學假設檢定，評估勞工暴露風險。\n計算參數與步驟\n\n篩選最大值並標準化\n計算 \\(UCL_{95\\%} =max{(x)} +1.645⋅CV_T​\\)\n暴露風險判定"
+    "text": "4.2 EA of 最高容許濃度（Ceiling)\n\n防止急性毒性、嚴重刺激或麻醉效應\n在預期高濃度時段採集的短期樣本，通過統計學假設檢定，評估勞工暴露風險。\n計算參數與步驟\n\n篩選最大值並標準化\n計算 \\(UCL_{95\\%} =max{(x)} +1.645⋅CV_T​\\)\n暴露風險判定",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#case7-案例演練",
     "href": "EAD_NIOSH.html#case7-案例演練",
     "title": "EAD_NOISH manual",
     "section": "Case7 案例演練",
-    "text": "Case7 案例演練\n\n已知現場監測數據：(硫化氫（Hydrogen Sulfide, H2​S）。\n\n方法：檢知管，CVT：0.14，Celling：20 ppm (OSHA)\n暴露量測：該勞工在班次內約有 16 個短暫暴露時段，評估者隨機抽選其中 5 個時段進行量測（n=5），獲得以下 5 筆原始測定濃度： 12, 14, 13, 16, 15 ppm\n\n請進行暴露管理分級與建議\n\n提示：\\(UCL_{95\\%} =max{(x)} +1.645⋅CV_T​\\)\n\n如果使用MSA ALTAIR 5X (內建幫浦) 來量測，結果是？\n\n直讀式偵測器經氣體校正後，CVT=0.05"
+    "text": "Case7 案例演練\n\n已知現場監測數據：(硫化氫（Hydrogen Sulfide, H2​S）。\n\n方法：檢知管，CVT：0.14，Celling：20 ppm (OSHA)\n暴露量測：該勞工在班次內約有 16 個短暫暴露時段，評估者隨機抽選其中 5 個時段進行量測（n=5），獲得以下 5 筆原始測定濃度： 12, 14, 13, 16, 15 ppm\n\n請進行暴露管理分級與建議\n\n提示：\\(UCL_{95\\%} =max{(x)} +1.645⋅CV_T​\\)\n\n如果使用MSA ALTAIR 5X (內建幫浦) 來量測，結果是？\n\n直讀式偵測器經氣體校正後，CVT=0.05",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#小結",
     "href": "EAD_NIOSH.html#小結",
     "title": "EAD_NOISH manual",
     "section": "小結",
-    "text": "小結\n\n監測的目的在於科學化評估勞工的長期暴露實態\nEA 專業：利用有限天數監測數據（日與日間變異），科學推論勞工在未監測工作日中的超標風險，進而理性決定是否投入裝設工程控制設施。\n勞工在日間（Day-to-day）的 8 小時 TWA 暴露並非恆定不變，而是受製程產量、氣流、原料及人員操作習慣等動態波動。科學實證，長期日間 8 小時 TWA 暴露呈現對數常態分佈，該分佈由兩個參數決定：GM，GSD。\n隨機採樣與化學分析誤差（通常 CVT​≤0.10） 相較於日間環境變異度 (GSD 介於 1.5 至 2.5 之間），對長期平均值估算的不確定性影響微乎其微。\n暴露控制決策目標（5% ）： 安全衛生的自主管理目標，是將勞工日暴露 TWA 超越法定容許標準（STD/PEL）的機率，限制在 5% 以下。(不合規率必須小於或等於 0.05)"
+    "text": "小結\n\n監測的目的在於科學化評估勞工的長期暴露實態\nEA 專業：利用有限天數監測數據（日與日間變異），科學推論勞工在未監測工作日中的超標風險，進而理性決定是否投入裝設工程控制設施。\n勞工在日間（Day-to-day）的 8 小時 TWA 暴露並非恆定不變，而是受製程產量、氣流、原料及人員操作習慣等動態波動。科學實證，長期日間 8 小時 TWA 暴露呈現對數常態分佈，該分佈由兩個參數決定：GM，GSD。\n隨機採樣與化學分析誤差（通常 CVT​≤0.10） 相較於日間環境變異度 (GSD 介於 1.5 至 2.5 之間），對長期平均值估算的不確定性影響微乎其微。\n暴露控制決策目標（5% ）： 安全衛生的自主管理目標，是將勞工日暴露 TWA 超越法定容許標準（STD/PEL）的機率，限制在 5% 以下。(不合規率必須小於或等於 0.05)",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html#case8-案例演練",
     "href": "EAD_NIOSH.html#case8-案例演練",
     "title": "EAD_NOISH manual",
     "section": "Case8 案例演練",
-    "text": "Case8 案例演練\n\n已知監測數據與參數：(ref: P65 section 4.4)\n\n二氧雜環己烷（Dioxane），8 小時 TWA 法定容許標準100 ppm。\n6 個月內隨機挑選 10 天實施 8 小時個人 TWA 採樣（n=10）： {67, 51, 33, 72, 122, 75, 110, 93, 61, 190}\n\n請進行暴露管理分級與建議\n\n請用Expostats tool1 進行暴露評估與建議\n建議閱讀文獻\n\nJérôme Lavoué, Lawrence Joseph, Peter Knott, Hugh Davies, France Labrèche, Frédéric Clerc, Gautier Mater, Tracy Kirkham, Expostats: A Bayesian Toolkit to Aid the Interpretation of Occupational Exposure Measurements, Annals of Work Exposures and Health, Volume 63, Issue 3, April 2019, Pages 267–279, https://doi.org/10.1093/annweh/wxy100"
+    "text": "Case8 案例演練\n\n已知監測數據與參數：(ref: P65 section 4.4)\n\n二氧雜環己烷（Dioxane），8 小時 TWA 法定容許標準100 ppm。\n6 個月內隨機挑選 10 天實施 8 小時個人 TWA 採樣（n=10）： {67, 51, 33, 72, 122, 75, 110, 93, 61, 190}\n\n請進行暴露管理分級與建議\n\n請用Expostats tool1 進行暴露評估與建議\n建議閱讀文獻\n\nJérôme Lavoué, Lawrence Joseph, Peter Knott, Hugh Davies, France Labrèche, Frédéric Clerc, Gautier Mater, Tracy Kirkham, Expostats: A Bayesian Toolkit to Aid the Interpretation of Occupational Exposure Measurements, Annals of Work Exposures and Health, Volume 63, Issue 3, April 2019, Pages 267–279, https://doi.org/10.1093/annweh/wxy100",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
   },
   {
     "objectID": "SEG_Sampling_Calculator.html",
@@ -4599,21 +5112,30 @@
     "href": "EAD.html#ihda-軟體介紹",
     "title": "Exposure Risk Decisions",
     "section": "3.1 IHDA 軟體介紹",
-    "text": "3.1 IHDA 軟體介紹\n3.1.1 資料分析與解釋\n步驟\n\n\n\n\n\n\n\n\n收集或提取數據\n輸入程式與執行\n評估適配度\n評估敘述與合規統計量\n評估貝氏決策分析圖\n指定管理分級與確定性水準\n記錄分析與建議"
+    "text": "3.1 IHDA 軟體介紹\n3.1.1 資料分析與解釋\n步驟\n\n\n\n\n\n\n\n\n收集或提取數據\n輸入程式與執行\n評估適配度\n評估敘述與合規統計量\n評估貝氏決策分析圖\n指定管理分級與確定性水準\n記錄分析與建議",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#ihstat_bayes-介紹",
     "href": "EAD.html#ihstat_bayes-介紹",
     "title": "Exposure Risk Decisions",
     "section": "3.3 IHSTAT_Bayes 介紹",
-    "text": "3.3 IHSTAT_Bayes 介紹\n(略)"
+    "text": "3.3 IHSTAT_Bayes 介紹\n(略)",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD.html#利用統計工具執行-aiha-策略",
     "href": "EAD.html#利用統計工具執行-aiha-策略",
     "title": "Exposure Risk Decisions",
     "section": "4. 利用統計工具執行 AIHA 策略",
-    "text": "4. 利用統計工具執行 AIHA 策略"
+    "text": "4. 利用統計工具執行 AIHA 策略",
+    "crumbs": [
+      "EAD_AIHA"
+    ]
   },
   {
     "objectID": "EAD_NIOSH.html",
@@ -4627,6 +5149,19 @@
     "href": "EAD_NIOSH.html#持續更新中",
     "title": "EAD_NOISH manual",
     "section": "持續更新中~~~",
-    "text": "持續更新中~~~"
+    "text": "持續更新中~~~",
+    "crumbs": [
+      "EAD_NIOSH"
+    ]
+  },
+  {
+    "objectID": "案例分析及演練(115技師班).html#暴露評估報告主要內容",
+    "href": "案例分析及演練(115技師班).html#暴露評估報告主要內容",
+    "title": "EA 案例分析及演練",
+    "section": "5.暴露評估報告主要內容",
+    "text": "5.暴露評估報告主要內容\n展現OH專業的地方…\n\n基本資訊與職責\n採樣策略與執行\n採樣與樣本分析\n監測結果與數據分析\n暴露評估與建議\n\n接下來，來看看數據分析、暴露評估判定與建議？",
+    "crumbs": [
+      "115技師班"
+    ]
   }
 ]

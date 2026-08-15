@@ -4817,7 +4817,7 @@
     "href": "案例分析及演練(115技師班).html#最大暴露危險群評估-續",
     "title": "EA 案例分析及演練",
     "section": "最大暴露危險群評估 (續)",
-    "text": "最大暴露危險群評估 (續)\nCase5.1 案例演練 (單一樣本)\n\n情境：使用活性碳管和個人幫浦採樣，採樣時間為8小時單一樣本，PEL是0.05 ppm。實驗室報告的濃度X為0.04 ppm，此方法的CVT值為0.09。\nUCL(95%)公式：\\(\\mathrm{UCL}(95\\%) = x + (1.645)(CV_T)\\)\n請做管理分級與建議\n\nUCL ( 95%)=0.95 ？\nIf x &gt; 1, no statistical test for compliance would be made.",
+    "text": "最大暴露危險群評估 (續)\nCase5.1 案例演練 (單一樣本)\n\n情境：使用活性碳管和個人幫浦採樣，採樣時間為8小時單一樣本，PEL是0.05 ppm。實驗室報告的濃度X為0.04 ppm，此方法的CVT值為0.09。\nUCL(95%)公式：\\(\\mathrm{UCL}(95\\%) = x + (1.645)(CV_T)\\)$\\mathrm{UCL}(95\\%) = x + (1.645)(CV_T)$\n請做管理分級與建議\n\nUCL ( 95%)=0.95 ？\nIf x &gt; 1, no statistical test for compliance would be made.",
     "crumbs": [
       "115技師班"
     ]
@@ -5160,6 +5160,16 @@
     "title": "EA 案例分析及演練",
     "section": "5.暴露評估報告主要內容",
     "text": "5.暴露評估報告主要內容\n展現OH專業的地方…\n\n基本資訊與職責\n採樣策略與執行\n採樣與樣本分析\n監測結果與數據分析\n暴露評估與建議\n\n接下來，來看看數據分析、暴露評估判定與建議？",
+    "crumbs": [
+      "115技師班"
+    ]
+  },
+  {
+    "objectID": "案例分析及演練(115技師班).html#暴露評估-ea",
+    "href": "案例分析及演練(115技師班).html#暴露評估-ea",
+    "title": "EA 案例分析及演練",
+    "section": "暴露評估 EA",
+    "text": "暴露評估 EA\n1. NIOSH 採樣策略手冊 (後續介紹)\n2. 全盤式\nAIHA Exposure Risk Decisions (後續介紹)\nAIHA免費軟體與介紹\nAIHA Exposure Risk Assessment & Management Tools",
     "crumbs": [
       "115技師班"
     ]

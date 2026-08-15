@@ -57,10 +57,10 @@ format:
 請問(老師請教學員)
 
 ::: incremental
-- **暴露評估(EA)？** ([2](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL075605&flno=2)) ，([2](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL015045&flno=2))  - (哪個較ok？)
+- **暴露評估(EA)？** ([2](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL075605&flno=2)) ，([2](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL015045&flno=2)) - (哪個較ok？)
 - 管理分級？ (2 & [7](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL075605&flno=7))
-- 依監測辦法實施定期監測，需分級管理？ ([10](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL075605&flno=10))  - (各有定見？)
-- **如何EA (工具方法)？** (有PEL&大型 [5](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=5)，[6](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=6)) ([8](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=8))  - (準用？)
+- 依監測辦法實施定期監測，需分級管理？ ([10](https://laws.mol.gov.tw/flaw/FLAWDOC01.aspx?id=FL075605&flno=10)) - (各有定見？)
+- **如何EA (工具方法)？** (有PEL&大型 [5](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=5)，[6](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=6)) ([8](https://laws.mol.gov.tw/FLAW/FLAWDOC01.aspx?id=FL078716&flno=8)) - (準用？)
 :::
 
 **Q**：這些都需要**數據**？ (只有適用環測辦法才要？)
@@ -98,8 +98,8 @@ format:
 :::
 
 |  |  |
-|----|----|
-| ![](images/cases study/F0.png){.lightbox} | ![](images/cases study/F1.jpeg){.lightbox} |
+|------------------------------------|------------------------------------|
+| ![](images/cases%20study/F0.png){.lightbox} | ![](images/cases%20study/F1.jpeg){.lightbox} |
 
 ## 規劃採樣策略？
 
@@ -152,7 +152,7 @@ ref: 作業環境監測計畫撰寫與審查之技術手冊 (113年)
 
 ## 事業單位監測資料申報
 
-[![](images/cases%20study/F2.png){.lightbox width="367"}](https://oemd.osha.gov.tw/exposure/content/login/Login.aspx)
+[![](images/cases%20study/F2.png){.lightbox width="100%"}](https://oemd.osha.gov.tw/exposure/content/login/Login.aspx)
 
 # 5.暴露評估報告
 
@@ -211,7 +211,7 @@ ref: Busch, Kenneth A. et al. (1977). Occupational Exposure Sampling Strategy Ma
 ### Case5.1 案例演練 (單一樣本)
 
 - 情境：使用活性碳管和個人幫浦採樣，採樣時間為8小時單一樣本，PEL是0.05 ppm。實驗室報告的濃度X為0.04 ppm，此方法的CV~T~值為0.09。
-- UCL(95%)公式：$\mathrm{UCL}(95\%) = x + (1.645)(CV_T)$
+- UCL(95%)公式：$\mathrm{UCL}(95\%) = x + (1.645)(CV_T)$\$\\mathrm{UCL}(95\\%) = x + (1.645)(CV_T)\$
 - 請做管理分級與建議
   - UCL ( 95%)=0.95 ？
   - If x \> 1, no statistical test for compliance would be made.
@@ -227,6 +227,14 @@ ref: Busch, Kenneth A. et al. (1977). Occupational Exposure Sampling Strategy Ma
 
 #### 其他請自己看手冊囉 - 別把自己搞混了
 
-## **全盤性暴露評估**
+## **暴露評估** EA
 
-### [**Exposure Risk Decisions**](EAD.html)
+### **1. NIOSH 採樣策略手冊 (後續介紹)**
+
+### **2. 全盤式** 
+
+####  **AIHA Exposure Risk Decisions (後續介紹)**
+
+### AIHA免費軟體與介紹
+
+####  **AIHA Exposure Risk Assessment & Management [Tools](https://www.aiha.org/public-resources/healthierworkplaces/workplace-hazards/apps-and-tools-resource-center/aiha-risk-assessment-tools)**

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<style type="text/css">
+.inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.sng {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.def {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>實作報告 1~16 主題與說明</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 text-slate-800 font-sans">
+
+  <div class="flex h-screen overflow-hidden">
+    <!-- 1. 側邊欄：報告1~16的主題清單 -->
+    <aside class="w-80 bg-slate-900 text-slate-200 flex flex-col shadow-xl z-10">
+      <div class="p-5 border-b border-slate-800">
+        <h1 class="text-xl font-bold text-white">實作報告主題清單</h1>
+        <p class="text-xs text-slate-400 mt-1">點擊主題即可切換內容</p>
+      </div>
+      
+      <nav class="flex-1 overflow-y-auto p-3 space-y-1.5" id="sidebar-list">
+        <!-- 由 JavaScript 動態渲染 1~16 主題清單 -->
+      </nav>
+    </aside>
+
+    <!-- 2. 主內容區：放大字型與強調背景之詳細說明 -->
+    <main class="flex-1 overflow-y-auto p-8 bg-slate-50" id="main-content">
+      <!-- 由 JavaScript 渲染當前選取報告的說明內容 -->
+    </main>
+  </div>
+
+  <script>
+    // 完全依照原始文件資料結構整理
+    const reportsData = [
+      {
+        id: 1,
+        title: "報告1",
+        question: "有一家公司請你簡報暴露評估計畫，請你畫出暴露評估的流程，並說明(流程圖中的)各項工作",
+        instruction: "此公司使用的化學物質包含",
+        table: [
+          { area: "薄膜區", workType: "平時", type: "區內所有機台", hazard: "—" },
+          { area: "薄膜區", workType: "PM", type: "金屬沉積機台", hazard: "Metal" },
+          { area: "薄膜區", workType: "PM", type: "ITO 機台", hazard: "Metal" },
+          { area: "薄膜區", workType: "PM", type: "CVD 機台", hazard: "SiH₄、NH₃、PH₃、NF₃、N₂O" },
+          { area: "薄膜區", workType: "Local Scrubber", type: "進氣", hazard: "SiH₄" },
+          { area: "薄膜區", workType: "Local Scrubber", type: "排氣", hazard: "SiH₄" },
+          { area: "蝕刻區", workType: "玻璃材質清洗", type: "—", hazard: "—" },
+          { area: "蝕刻區", workType: "Dry Etch", type: "一般作業", hazard: "—" },
+          { area: "蝕刻區", workType: "Dry Etch", type: "PM（週）", hazard: "Cl₂、SF₆、O₂、N₂、酒精" },
+          { area: "蝕刻區", workType: "蝕刻區", type: "一般作業", hazard: "—" },
+          { area: "蝕刻區", workType: "蝕刻區", type: "ITO film 去除", hazard: "H₂CrO₄" },
+          { area: "蝕刻區", workType: "蝕刻區", type: "Metal film 去除", hazard: "HNO₃、H₃PO₄、CH₃COOH" },
+          { area: "蝕刻區", workType: "蝕刻區", type: "Nitride film 去除", hazard: "HF" },
+          { area: "蝕刻區", workType: "Stripper 去除", type: "—", hazard: "DMSO、NH₃、單乙醇胺" },
+          { area: "黃光", workType: "正常作業", type: "—", hazard: "—" },
+          { area: "黃光", workType: "藥劑添加", type: "—", hazard: "HMDS" }
+        ]
+      },
+      {
+        id: 2,
+        title: "報告2",
+        question: "有一家公司有使用苯，他要向外界證明它們的員工暴露濃度遠低於OEL，請問應該如何規劃",
+        instruction: "請說明單側一個數據不夠，符合法規也不夠。必須要怎樣才足夠"
+      },
+      {
+        id: 3,
+        title: "報告3",
+        question: "有一家公司想要進行化學品分級管理，請你幫他進行各種規劃",
+        instruction: "沒有容許暴露標準的化學品如何分級管理\n有容許暴露標準的化學品如何分級管理"
+      },
+      {
+        id: 4,
+        title: "報告4",
+        question: "有一家公司要對工作人員進行化學品暴露風險評估，請您幫她介紹風險評估的做法",
+        instruction: "先進行風險評估的說明(定義)，再說明風險評估的方法"
+      },
+      {
+        id: 5,
+        title: "報告5",
+        question: "有一家公司不知道要如何劃分相似暴露群，請你舉出案例，教他他如何劃分",
+        instruction: "先說明相似暴露權的定義，再說明劃分方法(要收集那些數據進行那些觀察?)。\n如果劃分錯誤怎麼辦"
+      },
+      {
+        id: 6,
+        title: "報告6",
+        question: "有一家公司有125個相似暴露群，但是因為經費的限制，一年只想做50個相似暴露群，可以嗎?\n如果可以，應該如何做?",
+        instruction: "請你站在檢查員的觀點，要怎樣對檢查員展現，勞工受到保護"
+      },
+      {
+        id: 7,
+        title: "報告7",
+        question: "有一個相似暴露群有66個人，此相似暴露群如何採樣",
+        instruction: "要採集多少樣本?要對那些人採樣?如何採樣?"
+      },
+      {
+        id: 8,
+        title: "報告8",
+        question: "有一家公司不想用相似暴露群的暴露評估策略，請你向他介紹是不是有其他的策略或方法",
+        instruction: "介紹最高危險群的策略，並說明此策略和相似暴露群的分別"
+      },
+      {
+        id: 9,
+        title: "報告9",
+        question: "有一家公司的監測結果都是0，請問以後還要不要一直持續做監測?",
+        instruction: "請先定義(監測結果是0)”低於減量下限”和ND，再根據學理、法規和現實，提出你的看法"
+      },
+      {
+        id: 10,
+        title: "報告10",
+        question: "有一家公司某一SEG有5個人，所用的化學品OEL是10，監測結果是\n0.01、0.03、0.01、0.02、0.01、0.03、0.01、0.02、0.01、0.03、0.01、0.02\n他的後續作為應該如何?\n如果監測結果是\n0.1、0.3、0.1、0.2、0.1、9\n他的後續作為又應該如何?",
+        instruction: "針對兩種狀況分開說明"
+      },
+      {
+        id: 11,
+        title: "報告11",
+        question: "有一家公司要對員工進行STEL的監測，請問應該如何進行?",
+        instruction: "要收集哪些資料?全部員工都要測STEL嗎?上工時間有8小時，要在第幾小時做測定?如果員工特定工作的時間大於15分鐘，測定樣本的採樣時間要多久?"
+      },
+      {
+        id: 12,
+        title: "報告12",
+        question: "STEL的數據要進行95%的計算和管理嗎?\n檢查員監測的數據要進行95%的計算和管理嗎?",
+        instruction: "很多筆數據，中間會有偏差嗎？有哪些偏差?如何統計管理\n單一筆數據可能會有偏差嗎? 如何統計管理(以展示中間的偏差)\n如果要，為什麼?\n如果不要，那要進行其他的統計嗎?"
+      },
+      {
+        id: 13,
+        title: "報告13",
+        question: "一家公司今年已經做了(採樣策略)暴露評估計畫，如果此公司製程都沒變，明年可以依據已經有的計畫，該採樣誰就採樣誰？\n還要重新規劃嗎？",
+        instruction: "請依據AIHA暴露評估流程圖思考並說明之"
+      },
+      {
+        id: 14,
+        title: "報告14",
+        question: "一家公司已經依據SEG進行採樣，但是\n有員工反映他有接觸乙二醇，但是卻沒有規劃採樣，怎麼辦?\n採樣過程中聞到某一個區域有味道，但是卻沒有規劃採樣，怎麼辦?",
+        instruction: ""
+      },
+      {
+        id: 15,
+        title: "報告15",
+        question: "有一家公司想向外界證明他的環境非常好，各種化學品都遠低於容許暴露標準，只有依據法令一年做兩次夠嗎\n如果不夠，他怎麼辦",
+        instruction: ""
+      },
+      {
+        id: 16,
+        title: "報告16",
+        question: "有一家公司想要結合作業環境監測和健康檢查，應該如何結合",
+        instruction: ""
+      }
+    ];
+
+    let currentIndex = 0;
+
+    // 渲染側邊欄清單
+    function renderSidebar() {
+      const container = document.getElementById('sidebar-list');
+      container.innerHTML = '';
+      reportsData.forEach((item, index) => {
+        const btn = document.createElement('button');
+        const isActive = index === currentIndex;
+        btn.className = `w-full text-left px-4 py-3 rounded-lg text-base font-semibold transition-all ${
+          isActive 
+            ? 'bg-blue-600 text-white shadow-md' 
+            : 'text-slate-300 hover:bg-slate-800 hover:text-white'
+        }`;
+        btn.innerText = item.title;
+        btn.onclick = () => {
+          currentIndex = index;
+          renderSidebar();
+          renderContent();
+        };
+        container.appendChild(btn);
+      });
+    }
+
+    // 渲染主內容區 (顯著凸顯主題與說明)
+    function renderContent() {
+      const container = document.getElementById('main-content');
+      const item = reportsData[currentIndex];
+
+      let tableHtml = '';
+      if (item.table) {
+        tableHtml = `
+          <div class="mt-6 overflow-x-auto shadow-md rounded-lg border border-slate-200">
+            <table class="w-full text-base text-left border-collapse bg-white">
+              <thead class="bg-slate-800 text-white font-bold text-lg">
+                <tr>
+                  <th class="border border-slate-300 px-5 py-3">Area</th>
+                  <th class="border border-slate-300 px-5 py-3">作業型態</th>
+                  <th class="border border-slate-300 px-5 py-3">類型</th>
+                  <th class="border border-slate-300 px-5 py-3">危害物種類</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-200 text-slate-800">
+                ${item.table.map((row, idx) => `
+                  <tr class="${idx % 2 === 0 ? 'bg-white' : 'bg-slate-50'} hover:bg-blue-50">
+                    <td class="border border-slate-300 px-5 py-3 font-semibold">${row.area}</td>
+                    <td class="border border-slate-300 px-5 py-3">${row.workType}</td>
+                    <td class="border border-slate-300 px-5 py-3">${row.type}</td>
+                    <td class="border border-slate-300 px-5 py-3 font-mono font-bold text-blue-900">${row.hazard}</td>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+          </div>
+        `;
+      }
+
+      // 指引（說明：）區塊的渲染機制
+      let instructionHtml = '';
+      if (item.instruction && item.instruction.trim() !== '') {
+        const formattedInstruction = item.instruction.replace(/\n/g, '<br>');
+        instructionHtml = `
+          <div class="mt-6 bg-amber-50 border-l-8 border-amber-500 p-6 rounded-r-xl shadow-sm">
+            <div class="flex items-center gap-2 text-amber-900 font-extrabold text-xl mb-2">
+              <span>📌 說明：</span>
+            </div>
+            <div class="text-amber-950 font-medium text-lg leading-relaxed">
+              ${formattedInstruction}
+            </div>
+          </div>
+        `;
+      }
+
+      const formattedQuestion = item.question.replace(/\n/g, '<br>');
+
+      container.innerHTML = `
+        <div class="max-w-4xl mx-auto space-y-6">
+          
+          <!-- 1. 報告標頭：大字體 + 深色高對比背景區塊 -->
+          <div class="bg-blue-900 text-white p-6 rounded-xl shadow-lg border-b-4 border-blue-600">
+            <h2 class="text-4xl font-extrabold tracking-wide">${item.title}</h2>
+          </div>
+
+          <!-- 2. 主情境問題區塊：大字體、白底卡片搭配亮藍色左飾條 -->
+          <div class="bg-white p-8 rounded-xl shadow-md border-l-8 border-blue-600 border-t border-r border-b border-slate-200">
+            <h3 class="text-2xl font-bold text-slate-900 leading-snug">
+              ${formattedQuestion}
+            </h3>
+            
+            <!-- 3. 「說明：」高亮顯示區塊 -->
+            ${instructionHtml}
+
+            <!-- 附帶表格（若有） -->
+            ${tableHtml}
+          </div>
+
+        </div>
+      `;
+    }
+
+    // 初始化頁面
+    window.onload = () => {
+      renderSidebar();
+      renderContent();
+    };
+  </script>
+</body>
+</html>

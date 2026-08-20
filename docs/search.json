@@ -3392,7 +3392,7 @@
     "href": "先期暴露風險評估技術手冊.html#暴露評估ea",
     "title": "先期暴露風險評估技術介紹",
     "section": "暴露評估(EA)？",
-    "text": "暴露評估(EA)？\n\n暴露：從「危害源 (Source) -&gt; 傳輸 (Transport) -&gt; 接觸 (Contact)」的連續過程。\n\nEA 定位與演進 [1]\n預期、認知、評估與控制 + 確認（Confirm）",
+    "text": "暴露評估(EA)？\n\n暴露：Source -&gt; Transport -&gt; Contact 的連續過程。\n\nExposure = Source + Generation + Transport + Ventilation + Worker Location\n\n職業衛生決策架構 [1]\n\n預期、認知、評估與控制 + 確認（Confirm）\n\n暴露評估(Exposure Assessment)：指以定性、半定量或定量之 方法，評量或估算勞工暴露於化學品之暴露危害情形。",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3402,7 +3402,7 @@
     "href": "先期暴露風險評估技術手冊.html#風險評估",
     "title": "先期暴露風險評估技術介紹",
     "section": "風險評估？",
-    "text": "風險評估？\n\nHealth Risk = (Exposure) (Toxicity)\n\n健康風險 = f (暴露量 ， 毒性)\n\n「毒性」（每單位暴露量對目標器官所產生的健康效應）\n\n暴露風險？ 評估+分級+管理？\n\n暴露數據必須連結健康效應才有意義。\n\n\n暴露評估（EA）與 風險評估（RA）？\n\n準確性？效率？效能？\n\n取決於 OH 執行 EA 的品質。",
+    "text": "風險評估？\n\nHealth Risk = (Exposure) (Toxicity)\n\n健康風險 = f (暴露量 ， 毒性)\n\n「毒性」（每單位暴露量對目標器官所產生的健康效應）\n暴露數據必須連結健康效應才有意義。\n\n暴露風險？ (數據)\n\n暴露評估 + 分級管理 ？\n\n\n暴露評估（EA）–&gt; 暴露風險 ？\n\n準確性？效率？效能？\n\n取決於 OH 執行 EA 的品質。",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3442,7 +3442,7 @@
     "href": "先期暴露風險評估技術手冊.html#暴露實態exposure-profile",
     "title": "先期暴露風險評估技術介紹",
     "section": "暴露實態（Exposure Profile）",
-    "text": "暴露實態（Exposure Profile）\n\n暴露強度的時間變異性（如每日變化）與推估值",
+    "text": "暴露實態（Exposure Profile）\n\n暴露實態：指描述SEGs的暴露強度及暴露強度隨時間變化之情形。\n暴露強度：具時間變異性（如每日變化）與推估值",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3462,7 +3462,7 @@
     "href": "先期暴露風險評估技術手冊.html#暴露分級exposure-ratings",
     "title": "先期暴露風險評估技術介紹",
     "section": "暴露分級（Exposure Ratings）",
-    "text": "暴露分級（Exposure Ratings）\n\n估算暴露量相對於「職業暴露容許標準（OEL）」的比例\n\n在缺乏大量監測數據的初始評估階段非常有用\n假設沒有使用個人防護裝備 (PPE)\n缺乏 OEL 時：可以根據基礎資料收集到的毒理學資訊，估算並設定一個「暫定/工作 OEL (working OEL)」，進行分級。\n\n推估暴露實態與分級的工具主要有三種：[1]\n\n監測數據 (Monitoring Data)\n替代數據 (Surrogate Data)\n數學建模 (Modeling)",
+    "text": "暴露分級（Exposure Ratings）\n\n估算暴露量相對於「職業暴露容許標準（OEL）」的比例程度\n\n在缺乏大量監測數據的初始評估階段非常有用\n假設沒有使用個人防護裝備 (RPE)狀態下\n缺乏 OEL 時：可以根據基礎資料收集到的毒理學資訊，估算並設定一個「暫定/工作 OEL」，進行分級。\n\n推估暴露實態與分級的工具主要有三種：[1]\n\n監測數據 (Monitoring Data)\n替代數據 (Surrogate Data)\n數學建模 (Modeling)",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3492,7 +3492,7 @@
     "href": "先期暴露風險評估技術手冊.html#數學建模modeling",
     "title": "先期暴露風險評估技術介紹",
     "section": "數學建模（Modeling）",
-    "text": "數學建模（Modeling）\n\n兩大類別：\n\n基於物理與化學特性的預測模型 (Predictive modeling based on physical and chemical properties)\n\n估計目前，還能推算歷史暴露\n階層式方法 (Tiered approach)\n刻意高估 (Purposeful overestimation)\n\n基於製程資訊的預測模型 (Predictive modeling based on process information)\n\n包含許多製程參數\n建置製程模型(如G)來進行暴露評估",
+    "text": "數學建模（Modeling）\n\n基於物理與化學特性的預測模型 (Predictive modeling based on physical and chemical properties)\n\n估計目前及推算歷史暴露\n階層式方法 (Tiered approach)\n刻意高估 (Purposeful overestimation)\n\n基於製程資訊的預測模型 (Predictive modeling based on process information)\n\n包含許多製程參數\n建置製程模型來進行暴露評估",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3512,7 +3512,7 @@
     "href": "先期暴露風險評估技術手冊.html#不確定的暴露-uncertain-exposures",
     "title": "先期暴露風險評估技術介紹",
     "section": "不確定的暴露 (Uncertain Exposures)",
-    "text": "不確定的暴露 (Uncertain Exposures)\n\n兩大主因：\n\n暴露實態尚未充分掌握：強度與變異\n缺乏健康效應數據：無可靠的OEL\n\n管理不確定性 (Managing Uncertainty)\n\n如果危害因子的毒性很低，且發生暴露的可能性也很低，那麼即使評估存在不確定性也無妨。\n不確定性的重要性極高：如果暴露可能導致極端、不可逆的傷害 (irreversible harm)，那麼對於不確定性的容忍度就必須非常低，必須盡可能釐清暴露。\n\n不確定性的兩大來源：\n\n暴露的變異性：日常變異。\n缺乏知識 (Lack of knowledge)：當完全沒有數據或知識時，這種不確定性的程度會非常巨大，甚至會完全掩蓋掉日常的變異性。\n\n評估不確定性的工具： 主觀估計 (subjective estimate)；傳統統計分析(有實際的測量數值，計算95%CI）；機率分析工具 (如蒙地卡羅分析 Monte Carlo analysis，非常複雜或關鍵的暴露評估)。",
+    "text": "不確定的暴露 (Uncertain Exposures)\n\n兩大主因：\n\n暴露實態尚未充分掌握：強度與變異\n缺乏健康效應數據：無可靠的OEL\n\n管理不確定性 (Managing Uncertainty)\n\n如果危害因子的毒性很低，且發生暴露的可能性也很低，那麼即使評估存在不確定性也無妨。\n不確定性的重要性極高：如果暴露可能導致極端、不可逆的傷害 (irreversible harm)，那麼對於不確定性的容忍度就必須非常低，必須盡可能釐清暴露。\n\n不確定性的兩大來源：\n\n暴露的變異性：日常變異。\n缺乏資訊：當完全沒有數據或知識時，這種不確定性的程度會非常巨大，甚至會完全掩蓋掉日常的變異性。\n\n評估不確定性的工具： 主觀估計 (subjective estimate)；傳統統計分析(有實際的測量數值，計算95%CI）；機率分析工具 (如蒙地卡羅分析 Monte Carlo analysis，複雜或關鍵的暴露評估)。",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3542,7 +3542,7 @@
     "href": "先期暴露風險評估技術手冊.html#數學建模modeling-1",
     "title": "先期暴露風險評估技術介紹",
     "section": "數學建模（Modeling）",
-    "text": "數學建模（Modeling）\n\nEA目的：建立SEGs的暴露實態（含途徑、強度、持續時間與頻率），並將其與OEL（如 TWA-8、STEL）進行比較，以判定暴露是「可接受」、「不可接受」或「不確定」。\n傳統上仰賴空氣採樣來建立暴露輪廓，但實際上，僅靠少數幾次測量是難以用參數統計學（如95%信賴區間）得出具備充分信賴度的結論的。例如，即使4次採樣結果都低於OEL，在無母數統計下，我們也只能有 32% 的把握說 75% 的暴露低於 OEL。\n\n無母數統計（Non-parametric Statistics）：不假設數據符合任何分佈（如常態或對數常態），直接從樣本本身去推估母體。",
+    "text": "數學建模（Modeling）\n\nEA目的：建立SEGs的暴露實態（含途徑、強度、持續時間與頻率），並將其與OEL（如 TWA-8、STEL）進行比較，以判定暴露是「可接受」、「不可接受」或「不確定」。\n傳統上仰賴空氣採樣來建立暴露輪廓，但實際上，僅靠少數幾次測量是難以用參數統計學（如95%信賴區間）得出具備充分信心的結論。\n初判再近一步確認 (降低不確定性)",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3552,7 +3552,7 @@
     "href": "先期暴露風險評估技術手冊.html#數學建模modeling-2",
     "title": "先期暴露風險評估技術介紹",
     "section": "數學建模（Modeling）",
-    "text": "數學建模（Modeling）\n為什麼需要數學建模？\n\n資源有限與專業判斷的盲點\n\n純粹的專業判斷常會低估實際暴露\n\n跨越時間的多元應用 (過去、當下、與未來)\n測量只知結果，建模能知原因 (物化特性)\n數學模型並不是為了完全取代空氣採樣，而是要提升決策品質。\n\nOH可以更自信地判定哪些低風險作業不需要採樣，進而將昂貴的採樣資源與分析成本，集中投入在真正高風險的暴露情境上。 (快篩？)",
+    "text": "數學建模（Modeling）\n為什麼需要數學建模？\n\n資源有限與專業判斷的不足\n\n純粹的專業判斷常會低估實際暴露\n\n跨越時間的多元應用 (過去、當下、與未來)\n測量只知結果，建模能知可能原因 (物化特性)\n數學模型並不是為了完全取代空氣採樣，而是要提升決策品質。\n\nOH可以更自信地判定哪些低風險作業不需要採樣，進而將昂貴的採樣資源與分析成本，集中投入在真正高風險的暴露情境上。 (快篩？)",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3562,7 +3562,7 @@
     "href": "先期暴露風險評估技術手冊.html#如何建模",
     "title": "先期暴露風險評估技術介紹",
     "section": "如何建模？",
-    "text": "如何建模？\n\n物理化學特徵 + 暴露時間\n容許不確定性（夠接近了嗎？合理的最壞情況 reasonable worst case）\n\n收集建模資訊\n\n\n化學物質資訊 (G…)\n空氣空間資訊 (V…)\n空氣混合狀態 (WMB, NF/FF)\n勞工作業活動模式\n\n\n\n數據品質決定模型價值 (Garbage in, garbage out) 本章總結強調，模型輸出的結果高度依賴輸入資訊的品質。",
+    "text": "如何建模？\n\n物理化學特徵 + 暴露時間\n容許不確定性（夠接近了嗎？合理的最壞情況 reasonable worst case）\n\n收集建模資訊\n\n化學物質資訊 (G…)\n空間資訊 (V…)\n空氣混合狀態 (WMB, NF/FF…)\n勞工作業活動模式\n資訊品質決定模型價值 (Garbage in, garbage out)\n\n模型輸出的結果高度依賴輸入資訊的品質。",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3626,7 +3626,7 @@
     "href": "先期暴露風險評估技術手冊.html#tier-i-模式-1",
     "title": "先期暴露風險評估技術介紹",
     "section": "Tier I 模式",
-    "text": "Tier I 模式\n2.蒸氣壓模型（Vapor Pressure Models）\n\n包含飽和蒸氣壓模式、液體裝填釋放模式、開放液面蒸發模式及加壓容器洩漏釋放模式等。\n飽和蒸氣壓模式：評估最糟暴露情境\n\n\n\n\n\n\n\n\n簡化公式\\(\\frac{VP_A}{P_{atm}} \\cdot 10^6 = \\text{ppm}\\)\n單位換算 (原ppm)\\(\\frac{VP_A}{P_{atm}} \\cdot 10^6 \\cdot \\frac{\\text{MW}}{24.45} = \\text{mg/m}^3\\)\n\n\n\n\n留意應用限制與專業考量",
+    "text": "Tier I 模式\n2.蒸氣壓模型（Vapor Pressure Models）\n\n包含飽和蒸氣壓模式、液體裝填釋放模式、開放液面蒸發模式及加壓容器洩漏釋放模式等。\n\n蒸氣壓越高：越容易揮發，暴露越高。\n\n飽和蒸氣壓模式：評估最糟暴露情境\n\n\n\n\n\n\n\n\n簡化公式\\(\\frac{VP_A}{P_{atm}} \\cdot 10^6 = \\text{ppm}\\)\n單位換算 (原ppm)\\(\\frac{VP_A}{P_{atm}} \\cdot 10^6 \\cdot \\frac{\\text{MW}}{24.45} = \\text{mg/m}^3\\)\n\n\n\n\n留意應用限制與專業考量",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3643,7 +3643,7 @@
     "href": "先期暴露風險評估技術手冊.html#tier-i-模式-2",
     "title": "先期暴露風險評估技術介紹",
     "section": "Tier I 模式",
-    "text": "Tier I 模式\n3.暴露空間模式（Box Models）\n\n基本元素：污染物釋放(G)及擴散(ventilation)\n時間濃度解\n\nCA,room,0：初始濃度 (t=0)。 無沉降損失：Ksink=0。(忽略沉降損失)。GA：恒定生成速率。 CA,in：進氣濃度。Q：通風率(m³/s)。\n\n\n\\(C_{A,\\mathrm{room},t}\n=\n\\left(\nC_{A,\\mathrm{room},0}\n-\nC_{A,\\mathrm{in}}\n-\n\\frac{G_A}{Q}\n\\right)\ne^{-\\frac{Q(t-t_0)}{V}}\n+\nC_{A,\\mathrm{in}}\n+\n\\frac{G_A}{Q}\\)\n\n穩態濃度\n\n\\(C_{A,\\mathrm{room},\\mathrm{SS}}=C_{A,\\mathrm{in}}+\\frac{G_A}{Q}\\)\n\n平均暴露濃度-時間加權\n\n\\(C_{\\mathrm{avg}}=C_{A,\\mathrm{in}}+\\frac{G_A}{Q}+\\frac{V}{Q(t-t_0)}\\left[\\left(C_{A,\\mathrm{room},0}-C_{A,\\mathrm{in}}-\\frac{G_A}{Q}\\right)\\left(e^{-\\frac{Q(t-t_0)}{V}}-1\\right)\\right]\\)",
+    "text": "Tier I 模式\n3.暴露空間模式（Box Models）\n\n基本參數：污染物釋放(G)及通風擴散(ventilation)\n時間濃度解\n\nCA,room,0：初始濃度 (t=0)。 無沉降損失：Ksink=0。(忽略沉降損失)。GA：恒定生成速率。 CA,in：進氣濃度。Q：通風率(m³/s)。\n\n\n\\(C_{A,\\mathrm{room},t}\n=\n\\left(\nC_{A,\\mathrm{room},0}\n-\nC_{A,\\mathrm{in}}\n-\n\\frac{G_A}{Q}\n\\right)\ne^{-\\frac{Q(t-t_0)}{V}}\n+\nC_{A,\\mathrm{in}}\n+\n\\frac{G_A}{Q}\\)\n\n穩態濃度\n\n\\(C_{A,\\mathrm{room},\\mathrm{SS}}=C_{A,\\mathrm{in}}+\\frac{G_A}{Q}\\)\n\n平均暴露濃度-時間加權\n\n\\(C_{\\mathrm{avg}}=C_{A,\\mathrm{in}}+\\frac{G_A}{Q}+\\frac{V}{Q(t-t_0)}\\left[\\left(C_{A,\\mathrm{room},0}-C_{A,\\mathrm{in}}-\\frac{G_A}{Q}\\right)\\left(e^{-\\frac{Q(t-t_0)}{V}}-1\\right)\\right]\\)",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3663,7 +3663,7 @@
     "href": "先期暴露風險評估技術手冊.html#實作情境--1.無通風推估模式-續",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境- 1.無通風推估模式 (續)",
-    "text": "實作情境- 1.無通風推估模式 (續)\n第二階段：收集建模資訊 (Information Gathering)\n\n化學品資訊：打翻的物質是甲苯 (Toluene)。液體密度為 0.87 g/mL。容許標準 (OELs)：PEL TWA-8 (8小時時量平均容許濃度) 為 750 mg/m³；更嚴格的 TLV TWA 為 75 mg/m³。\n暴露時間與強度：\n\n背景濃度：該工作區平時典型的甲苯暴露濃度為 25 mg/m³。\n溢漏時間點：事件發生在 8 小時班次中的第 5 個小時（這代表溢漏後的暴露時間最多只有 3 小時）。\n溢漏量：原本 500 mL 的瓶子大約半滿，因此約打翻了 250 mL。揮發時間：員工用抹布擦拭後將其放在 2 公尺外晾乾，約 2 小時後抹布全乾（代表甲苯已全數揮發）。\n\n空間資訊：\n\n房間尺寸為 10公尺 × 8公尺 × 3公尺高，算出總體積 (V) 為 240 m³。房間缺乏明確的通風率數據，也沒有機械排氣設備。",
+    "text": "實作情境- 1.無通風推估模式 (續)\n第二階段：收集建模資訊\n\n化學品資訊：打翻的物質是甲苯 (Toluene)。液體密度為 0.87 g/mL。容許標準 (OELs)：PEL TWA-8 (8小時時量平均容許濃度) 為 750 mg/m³；更嚴格的 TLV TWA 為 75 mg/m³。\n暴露時間與強度：\n\n背景濃度：該工作區平時監測的甲苯暴露濃度為 25 mg/m³。\n溢漏時間點：事件發生在 8 小時班次中的第 5 個小時（這代表溢漏後的暴露時間最多只有 3 小時）。\n溢漏量：原本 500 mL 的瓶子大約半滿，因此約打翻了 250 mL。揮發時間：員工用抹布擦拭後將其放在 2 公尺外晾乾，約 2 小時後抹布全乾（代表甲苯已全數揮發）。\n\n空間資訊：\n\n房間尺寸為 10公尺 × 8公尺 × 3公尺高，算出總體積 (V) 為 240 m³。房間缺乏明確的通風率數據，也沒有機械排氣設備。",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3673,7 +3673,7 @@
     "href": "先期暴露風險評估技術手冊.html#實作情境--1.無通風推估模式-續-1",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境- 1.無通風推估模式 (續)",
-    "text": "實作情境- 1.無通風推估模式 (續)\n第三階段：模型推估演練 (Modeling Approach)\n\n既然沒有通風數據，請先採用最保守的「無通風模式 (Zero-Ventilation Model)」來進行初步篩選。這個模型假設房間是密封的，污染物釋放後會立刻均勻混合在空間中。\n請估算空氣濃度 (C)，並做出結果專業判定。",
+    "text": "實作情境- 1.無通風推估模式 (續)\n第三階段：模型推估 (Modeling Approach)\n\n(沒有通風數據)先採用最保守的「無通風模式 (Zero-Ventilation Model)」來進行初步篩查。這個模型假設房間是密封的，污染物釋放後會立刻均勻混合在空間中。\n請估算空氣濃度 (C)，並做出結果專業判定。",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3683,7 +3683,7 @@
     "href": "先期暴露風險評估技術手冊.html#實作情境--1.無通風推估模式-續-2",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境- 1.無通風推估模式 (續)",
-    "text": "實作情境- 1.無通風推估模式 (續)\n參考建議\n\nC = 910 mg/m³，C (TWA-8) = 360 mg/m³ 低於 PEL 標準 (750 mg/m³)，但高於 TLV 標準 (75 mg/m³)\n風險等級：？\n建議：改用「完全混合房間模型 (Well-Mixed Room Model)」重新計算更準確的數值。\n健康關聯判定：對照安全資料表，甲苯通常造成的健康影響是眼鼻刺激、頭暈等急性症狀，與該員工「延遲發作的胃痙攣」並不吻合。因此可以推論其病症很可能與此次暴露無關。\n請試試 官方版工具\n思考：是否適用於污水中有害物(硫化氫)逸散評估，或消防系統窒息性氣體(壓縮二氧化碳)於地下室突洩情境評估？",
+    "text": "實作情境- 1.無通風推估模式 (續)\n參考建議\n\nC = 910 mg/m³，C (TWA-8) = 360 mg/m³ 低於 PEL 標準 (750 mg/m³)，但高於 TLV 標準 (75 mg/m³)\n風險等級：？\n\n建議：改用「完全混合房間模型 (Well-Mixed Room Model)」重新計算更準確的數值？\n\n健康關聯判定：對照安全資料表，甲苯通常造成的健康影響是眼鼻刺激、頭暈等急性症狀，與該員工「延遲發作的胃痙攣」並不吻合。因此可以推論其病症很可能與此次暴露無關。(尋求職醫護協助)\n請試試 官方版工具\n思考：是否適用於污水中有害物(硫化氫)逸散評估，或消防系統窒息性氣體(壓縮二氧化碳)於地下室突洩情境評估？",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3731,7 +3731,7 @@
     "href": "先期暴露風險評估技術手冊.html#實作情境-2.蒸氣壓模型",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境-2.蒸氣壓模型",
-    "text": "實作情境-2.蒸氣壓模型\n第一階段：情境描述 [2]\n\n事件發生：週末過後，一名勞工打開了實驗室的化學品儲存櫃。他發現櫃內有一瓶 500 mL 廣口瓶的揮發性液體被忘記蓋上蓋子。瓶內還有液體，且儲存櫃內散發出極度強烈的溶劑氣味。該勞工立刻將瓶蓋鎖緊，但因為氣味太過強烈，他隨即離開房間（儲存櫃的門保持敞開），並通報環安室。\n任務：身為環安衛人員，您必須推算：當這名勞工打開櫃門的那一瞬間，他面臨的暴露濃度有多高？",
+    "text": "實作情境-2.蒸氣壓模型\n第一階段：情境描述 [3]\n\n事件發生：週末過後，一名勞工打開了實驗室的化學品儲存櫃。他發現櫃內有一瓶 500 mL 廣口瓶的揮發性液體忘記蓋上蓋子。瓶內還有液體，且儲存櫃內散發出極度強烈的溶劑氣味。該勞工立刻將瓶蓋鎖緊，但因為氣味太過強烈，他隨即離開房間（儲存櫃的門保持敞開），並通報環安室。\n任務：身為環安衛人員，您必須推算：當這名勞工打開櫃門的那一瞬間，他面臨的暴露濃度有多高？",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3791,7 +3791,7 @@
     "href": "先期暴露風險評估技術手冊.html#實作情境--4.完全混合模式動態變化",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境- 4.完全混合模式(動態變化)",
-    "text": "實作情境- 4.完全混合模式(動態變化)\n有機溶劑塗佈-濃度動態變化\n\n某工廠零件塗佈機在室溫波動環境下運行，需評估甲苯濃度的動態變化及勞工暴露風險。已知條件：房間體積V=25 m3，通風率Q=1.0 m3/min(換氣次數2.4ACH)。甲苯排放率隨溫度變化(增減)，可依據Clausius-Clapeyron方程估算。\n\n\\(G_A(T) = 450 \\cdot \\exp \\left[ 4660 \\left( \\frac{1}{294.3} - \\frac{1}{T + 273.15} \\right) \\right] \\text{ mg/min}\\)\n\n\n在作業持續480分鐘(8小時)後，濃度逐漸趨於穩定，最終達到約195 ppm。\n請提出你的風險評估與後續行動 (手冊說的恰當嗎？)",
+    "text": "實作情境- 4.完全混合模式(動態變化)\n有機溶劑塗佈-濃度動態變化\n\n某工廠零件塗佈機在室溫波動環境下運行，需評估甲苯濃度的動態變化及勞工暴露風險。已知條件：房間體積V=25 m3，通風率Q=1.0 m3/min(換氣次數2.4ACH)。甲苯排放率隨溫度變化(增減)，可依據Clausius-Clapeyron方程估算。\n\n\\(G_A(T) = 450 \\cdot \\exp \\left[ 4660 \\left( \\frac{1}{294.3} - \\frac{1}{T + 273.15} \\right) \\right] \\text{ mg/min}\\)\n\n\n在作業持續480分鐘(8小時)後，濃度逐漸趨於穩定，最終達到約195 ppm。\n請提出你的風險評估與後續行動",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3801,7 +3801,7 @@
     "href": "先期暴露風險評估技術手冊.html#實作情境--4.完全混合模式動態變化-續",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作情境- 4.完全混合模式(動態變化) (續)",
-    "text": "實作情境- 4.完全混合模式(動態變化) (續)\n第一階段：情境描述 (排放率隨時間指數遞減)[3]\n\n作業內容：某中型製造廠的員工在生產線旁清潔面板。每 3 分鐘會有一塊面板經過，員工會用噴瓶將含 4% 醋酸 (Acetic Acid) 的清潔液噴灑在面板上，接著用紙巾擦拭。\n作息時間：員工早上 8:00 上班，10:00 休息 15 分鐘，12:00 午餐休息 30 分鐘，14:30 再休息 15 分鐘，16:00 下班。休息期間員工離開工作站，暴露為零。\n評估：醋酸的蒸氣壓較低，揮發速度慢。如果假設它「瞬間完全揮發」，算出來的濃度會被過度高估（TWA-8 約為 7 mg/m³）。因此，建立一個「隨時間變動、緩慢揮發並疊加」的排放指數遞減模型，來求得更精確的暴露濃度。",
+    "text": "實作情境- 4.完全混合模式(動態變化) (續)\n第一階段：情境描述 (排放率隨時間指數遞減)[4]\n\n作業內容：某中型製造廠的員工在生產線旁清潔面板。每 3 分鐘會有一塊面板經過，員工會用噴瓶將含 4% 醋酸 (Acetic Acid) 的清潔液噴灑在面板上，接著用紙巾擦拭。\n作息時間：員工早上 8:00 上班，10:00 休息 15 分鐘，12:00 午餐休息 30 分鐘，14:30 再休息 15 分鐘，16:00 下班。休息期間員工離開工作站，暴露為零。\n評估：醋酸的蒸氣壓較低，揮發速度慢。如果假設它「瞬間完全揮發」，算出來的濃度會被過度高估（TWA-8 約為 7 mg/m³）。因此，建立一個「隨時間變動、緩慢揮發並疊加」的排放指數遞減模型，來求得更精確的暴露濃度。",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3841,7 +3841,7 @@
     "href": "先期暴露風險評估技術手冊.html#tier-ii-模式-1",
     "title": "先期暴露風險評估技術介紹",
     "section": "Tier II 模式",
-    "text": "Tier II 模式\n5. 二暴露區模式（Two-Zone Model）\n\n又稱近場/遠場模式 (NF/FF)\n非WMB模式架設 - 全部空間均勻混合。\n\n近場：緊鄰污染源的區域，通常涵蓋勞工的呼吸帶。\n\n以污染源為中心、半徑約為1-2公尺的半球體。\n\n二區域間空氣速率(β)的進行動態質量交換。\n模式基本假設是：每個區域內部完全混合。\n\n特別適用：點源汙染逸散、 通風不良。\n模式數學公式\n\n時間濃度解\n\n\n\n\n\n\n\n\n\\(C_N(t) = \\frac{G}{\\left(\\frac{\\beta}{\\beta + Q}\\right)Q} + G \\left[ \\frac{\\beta Q + \\lambda_2 V_N (\\beta + Q)}{\\beta Q V_N (\\lambda_1 - \\lambda_2)} \\right] e^{\\lambda_1 t} - G \\left[ \\frac{\\beta Q + \\lambda_1 V_N (\\beta + Q)}{\\beta Q V_N (\\lambda_1 - \\lambda_2)} \\right] e^{\\lambda_2 t}\\)\n\n\n\\(C_F(t) = \\frac{G}{Q} + G \\left[ \\frac{\\lambda_1 V_N + \\beta}{\\beta} \\right] \\left[ \\frac{\\beta Q + \\lambda_2 V_N (\\beta + Q)}{\\beta Q V_N (\\lambda_1 - \\lambda_2)} \\right] e^{\\lambda_1 t} - G \\left[ \\frac{\\lambda_2 V_N + \\beta}{\\beta} \\right] \\left[ \\frac{\\beta Q + \\lambda_1 V_N (\\beta + Q)}{\\beta Q V_N (\\lambda_1 - \\lambda_2)} \\right] e^{\\lambda_2 t}\\)\n\n\n\n\n穩態濃度\n\n\n\n\n\n\n\n\n\\(C_{N,SS} = \\frac{G}{Q} + \\frac{G}{\\beta}\\)\n\\(C_{F,SS} = \\frac{G}{Q}\\)",
+    "text": "Tier II 模式\n5. 二暴露區模式（Two-Zone Model）\n\n又稱近場/遠場模式 (NF/FF)\n\n近場：緊鄰污染源的區域，通常涵蓋勞工的呼吸帶。\n\n以污染源為中心、半徑約為1-2公尺的半球體。\n\n二區域間空氣速率(β)的進行動態質量交換。\n模式基本假設是：每個區域內部完全混合。\n\n特別適用：點源汙染逸散、 通風不良。\n模式數學公式\n\n時間濃度解\n\n\n\n\n\n\n\n\n\\(C_N(t) = \\frac{G}{\\left(\\frac{\\beta}{\\beta + Q}\\right)Q} + G \\left[ \\frac{\\beta Q + \\lambda_2 V_N (\\beta + Q)}{\\beta Q V_N (\\lambda_1 - \\lambda_2)} \\right] e^{\\lambda_1 t} - G \\left[ \\frac{\\beta Q + \\lambda_1 V_N (\\beta + Q)}{\\beta Q V_N (\\lambda_1 - \\lambda_2)} \\right] e^{\\lambda_2 t}\\)\n\n\n\\(C_F(t) = \\frac{G}{Q} + G \\left[ \\frac{\\lambda_1 V_N + \\beta}{\\beta} \\right] \\left[ \\frac{\\beta Q + \\lambda_2 V_N (\\beta + Q)}{\\beta Q V_N (\\lambda_1 - \\lambda_2)} \\right] e^{\\lambda_1 t} - G \\left[ \\frac{\\lambda_2 V_N + \\beta}{\\beta} \\right] \\left[ \\frac{\\beta Q + \\lambda_1 V_N (\\beta + Q)}{\\beta Q V_N (\\lambda_1 - \\lambda_2)} \\right] e^{\\lambda_2 t}\\)\n\n\n\n\n穩態濃度\n\n\n\n\n\n\n\n\n\\(C_{N,SS} = \\frac{G}{Q} + \\frac{G}{\\beta}\\)\n\\(C_{F,SS} = \\frac{G}{Q}\\)",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3971,7 +3971,7 @@
     "href": "先期暴露風險評估技術手冊.html#實作演練比較-續-2",
     "title": "先期暴露風險評估技術介紹",
     "section": "實作演練比較 (續)",
-    "text": "實作演練比較 (續)\n模式二：蒙地卡羅模型 機率性推估\n\n實作：使用 AIHA IHMOD Tool",
+    "text": "實作演練比較 (續)\n模式二：蒙地卡羅模型 機率性推估\n\n實作：使用 AIHA IHMOD Tool\nIH Mod 2.0 是 AIHA Exposure Assessment Strategies Committee 開發的暴露評估數學模型工具，用於：\n\n預測職業暴露（Occupational Exposure）\n預測消費者暴露（Consumer Exposure）\n補足無法量測時的暴露評估\n評估未來新製程或新化學品的暴露情境\n找出影響暴露的重要因子",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3981,7 +3981,7 @@
     "href": "先期暴露風險評估技術手冊.html#課程結論",
     "title": "先期暴露風險評估技術介紹",
     "section": "課程結論",
-    "text": "課程結論\n\n\n數學建模的目的並非要完全取代實體的空氣採樣，而是作為暴露評估的第一道、也是最具成本效益的篩選工具。\n模型的選擇具備「階層性」：從極端保守到貼近真實。\n評估成敗的關鍵在於數據品質。\n多利用工具軟體\n決策的核心：推估值與 OEL 的比較與專業建議",
+    "text": "課程結論\n\n數學建模的目的並非要完全取代實體的空氣採樣，而是作為暴露評估的第一道、也是最具成本效益的篩選工具。\n模型的選擇具備「階層性」：從極端保守到貼近真實。\n評估成敗的關鍵在於參數數據品質。\n多利用工具軟體\n決策的核心：推估值與 OEL 的比較與專業建議",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -3991,7 +3991,7 @@
     "href": "先期暴露風險評估技術手冊.html#參考資料",
     "title": "先期暴露風險評估技術介紹",
     "section": "參考資料",
-    "text": "參考資料\n實作演練(網頁)",
+    "text": "參考資料\n\n\n\n\n1. Jahn SD, Bullock WH, Ignacio JS, others (2015) A strategy for assessing and managing occupational exposures. AIHA Fairfax, VA\n\n\n2. Keretetse G, Brouwer D, Masekameni D (2019) Transformation of occupational hygiene into exposure science to meet practice demands in the 21st century. Occupational Health Southern Africa 25(1):410\n\n\n3. Ten Berge WF, Simmons CE, Anthony RT (2009) Mathematical models for estimating occupational exposure to chemicals, 2nd ed. AIHA\n\n\n4. Keil C (2023) A case-based introduction to modeling occupational inhalation exposures to chemicals. AIHA, Falls Church, VA",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -5302,6 +5302,186 @@
     "text": "Case2.3 案例演練\nRPE選擇？",
     "crumbs": [
       "EAD_AIHA"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#ea-評估範圍工具思維",
+    "href": "先期暴露風險評估技術手冊.html#ea-評估範圍工具思維",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "EA 評估範圍、工具、思維",
+    "text": "EA 評估範圍、工具、思維\n\n範圍：不限於化學物質，還擴及皮膚、噪音、熱危害與人因工程等。\n評估工具：更多數學模型及貝氏決策分析（Bayesian Decision Analysis, BDA）\n\n處理含有未檢出值的小型數據集特別有用。\n\n從「合規性」到「全面性」\n\n傳統「合規性策略（Compliance Strategy）」–&gt; 「全面性評估策略（Comprehensive Strategy）」\n\n許多化學品缺乏OEL，且現有標準未必能保護最敏感的勞工，也無法提供員工每日暴露變異的歷史數據。\n評估「所有勞工、在所有工作日、對所有危害物」的暴露情況。\n\n建立全面的歷史暴露數據庫，不僅能在法規標準變嚴格時迅速因應，還能協助流行病學研究與員工的健康管理。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#ea-範圍與工具",
+    "href": "先期暴露風險評估技術手冊.html#ea-範圍與工具",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "EA 範圍與工具",
+    "text": "EA 範圍與工具\n\n範圍：不限於化學物質，還擴及皮膚、噪音、熱危害與人因工程等。\n評估工具：更多數學模型及貝氏決策分析（Bayesian Decision Analysis, BDA）\n\n處理含有未檢出值的小型數據集特別有用。\n\n從「合規性」到「全面性」\n\n傳統「合規性策略（Compliance Strategy）」–&gt; 「全面性評估策略（Comprehensive Strategy）」\n\n許多化學品缺乏OEL，且現有標準未必能保護最敏感的勞工，也無法提供員工每日暴露變異的歷史數據。\n評估「所有勞工、在所有工作日、對所有危害物」的暴露情況。\n\n建立全面的歷史暴露數據庫，不僅能在法規標準變嚴格時迅速因應，還能協助流行病學研究與員工的健康管理。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#ea-步驟",
+    "href": "先期暴露風險評估技術手冊.html#ea-步驟",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "EA 步驟",
+    "text": "EA 步驟\n\n起始（Start）：確立企業的評估目標與策略\n基本特徵描述（Basic Characterization）\n暴露評估：SEGs， OEL，決策統計量（Decision Statistic）\\(X_{95}, UTL\\)\n進一步收集資訊：針對「不確定」的暴露。\n\n優先安排空氣採樣或生物監測、數學建模，或收集毒理/流行病學數據等。\n\n危害控制：Hierarchy control，分級管理 and confirm\n重新評估：定期，變更\n溝通與文件化（Communications and Documentation）\n\n\n成功執行的關鍵：專業判斷+ 利害關係人的參與 + 資源的有效配置。 (雇主支持？)",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#ea-策略",
+    "href": "先期暴露風險評估技術手冊.html#ea-策略",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "EA 策略",
+    "text": "EA 策略\n\n策略類型\n\n全面性策略 (Comprehensive Strategy)\n\n掌握暴露強度與時間變異性\n\n合規性策略 (Compliance Strategy)\n\n非例行性作業 (Non-routine Operations)\n\n\n專業判斷 (Professional Judgment)\n\n以科學(含統計)為基礎ˋ\n\n產出：「書面」暴露評估計畫 與 暴露評估報告",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#名詞說明",
+    "href": "先期暴露風險評估技術手冊.html#名詞說明",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "名詞說明",
+    "text": "名詞說明\n\n先期暴露風險評估(Preliminary Exposure Risk Assessment)：指 在擬定作業環境監測採樣策略前，運用現有資訊、定性判 斷、簡單的半定量或是定量模式推估的方法，對 SEG 內勞工 暴露於特定化學因子的可能性及其潛在健康風險進行初步評 估的過程。\n相似暴露族群(Similar Exposure Group；SEG)：指一群勞工因 具相似的作業方式、工作製程、使用原物料及危害物接觸頻 率，致其暴露之有害物種類、強度及頻率均相似者。相似暴 露族群的判定是藉由勞工的工作內容、製程、控制設備、原 料物質等做為分類的依據，在執行作業環境監測後則需利用 統計確認之。\n最大暴露危險族群(Maximum Exposure Risk Group；MEG)指 各相似暴露族群中，具有最高暴露狀況實態者。\n全盤式暴露評估(Comprehensive Exposure Assessment)：指對 事業單位對全部相似暴露族群(SEG)之所有暴露，藉作業環 境監測實施暴露實態評估之採樣策略。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#名詞說明-1",
+    "href": "先期暴露風險評估技術手冊.html#名詞說明-1",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "名詞說明",
+    "text": "名詞說明\n\n採樣\n\n全面採樣（Full Sampling）：指無論風險等級高低，對每個相 似暴露族群皆進行採樣者。\n完整採樣：指對每個相似暴露族群的採樣樣本數量達其統計 意義足以描述其暴露時態者。\n監視採樣：針對低暴露風險 SEG，以例行性方式追蹤作業環 境暴露狀況及風險趨勢的採樣活動。\n診斷性採樣：針對作業環 境中潛在暴露因子及高風險區域進行的初步或特定性採樣， 以確認可能的職業健康風險。通常用於新作業、製程變更或 初次評估，特性為快速、針對性、揭示潛在問題。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#初始-ea-initial-ea",
+    "href": "先期暴露風險評估技術手冊.html#初始-ea-initial-ea",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "初始 EA (Initial EA)",
+    "text": "初始 EA (Initial EA)\n\n是整個暴露評估分層、循環過程中的第一個階段\n利用手邊現有的資訊來進行評估，但通常缺乏足夠定量數據。\n\n\n\n初始評估主要作為篩選工具\n\n迅速判斷出微不足道（可接受）及明顯超標的暴露（不可接受）。\n\nmajor/minor cuts： 1/10 OEL + 不太可能導致不良健康後果 + 不違反法規要求\n\n\n後續循環釐清「不確定」的風險",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#暴露分級exposure-ratings-1",
+    "href": "先期暴露風險評估技術手冊.html#暴露分級exposure-ratings-1",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "暴露分級（Exposure Ratings）",
+    "text": "暴露分級（Exposure Ratings）",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#ea的具體產出",
+    "href": "先期暴露風險評估技術手冊.html#ea的具體產出",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "EA的具體產出",
+    "text": "EA的具體產出\n\n掌握SEG暴露實態推估\n量化相對風險：相對於OEL的暴露分級\n決策判定：暴露風險判定\n後續風險管理 (分級管理)\n\n排定後須行動優先順序並落實\n釐清未知風險(不確定分級)，進一步收集資訊並解決。\n\n暴露評估報告 (？)",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#基本-汙染物生成率-generation-rates",
+    "href": "先期暴露風險評估技術手冊.html#基本-汙染物生成率-generation-rates",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "基本: 汙染物生成率 Generation Rates",
+    "text": "基本: 汙染物生成率 Generation Rates\n\n在空氣濃度建模中，準確估算化學物質釋放到空氣中的「生成率（或稱排放率）」是極為關鍵的步驟。\n質量平衡法 (Mass Balance)\n\n限制\n\n無法反映短期波動：無法呈現製程中忽高忽低的間歇性釋放或極端峰值（peaks）。\n不等於實際空氣濃度：「總排放量」不能直接等同於室內空氣的濃度。\n\n\n排放係數法 (Emission Factors)\n\n限制：除了前述外，還有製程差異「排放係數是製程的函數」。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#基本-汙染物生成率",
+    "href": "先期暴露風險評估技術手冊.html#基本-汙染物生成率",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "基本: 汙染物生成率",
+    "text": "基本: 汙染物生成率\n\nG， Generation Rates\n在空氣濃度建模中，準確估算化學物質釋放到空氣中的「生成率（或稱排放率）」是極為關鍵的步驟。\n質量平衡法 (Mass Balance)\n\n限制\n\n無法反映短期波動：無法呈現製程中忽高忽低的間歇性釋放或極端峰值（peaks）。\n不等於實際空氣濃度：「總排放量」不能直接等同於室內空氣的濃度。\n\n\n排放係數法 (Emission Factors)\n\n限制：除了前述外，還有製程差異「排放係數是製程的函數」。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#數學建模主要用途",
+    "href": "先期暴露風險評估技術手冊.html#數學建模主要用途",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "數學建模主要用途",
+    "text": "數學建模主要用途\n\n回推過去暴露\n\n10年前的溶劑使用\n舊廠房粉塵暴露\n職業病鑑定\n當沒有實測數據時，可利用模型估算。\n\n預測未來暴露 (Anticipation)\n\n新化學品導入\n新製程設計\n新設備購置\n\n控制措施評估\n\n增加通風量\n局排設計\n降低生成率\n評估控制效果。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#基本參數-汙染物生成率",
+    "href": "先期暴露風險評估技術手冊.html#基本參數-汙染物生成率",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "基本參數: 汙染物生成率",
+    "text": "基本參數: 汙染物生成率\n\nG， Generation Rates ，mg/min\n在空氣濃度建模中，準確估算化學物質釋放到空氣中的「生成率（或稱排放率）」是極為關鍵的步驟。\n質量平衡法 (Mass Balance)\n\n限制\n\n無法反映短期波動：無法呈現製程中忽高忽低的間歇性釋放或極端峰值（peaks）。\n不等於實際空氣濃度：「總排放量」不能直接等同於室內空氣的濃度。\n\n\n排放係數法 (Emission Factors)\n\n限制：除了前述外，還有製程差異「排放係數是製程的函數」。",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#實作演練",
+    "href": "先期暴露風險評估技術手冊.html#實作演練",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "實作演練",
+    "text": "實作演練\n模式二：蒙地卡羅模型 機率性推估\n\n實作：使用 AIHA IHMOD Tool\nIH Mod 2.0 是 AIHA Exposure Assessment Strategies Committee 開發的暴露評估數學模型工具，用於：\n\n預測職業暴露（Occupational Exposure）\n預測消費者暴露（Consumer Exposure）\n補足無法量測時的暴露評估\n評估未來新製程或新化學品的暴露情境\n找出影響暴露的重要因子\n\n\n實作演練(網頁)",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#ih-mod-2.0-最重要輸入參數",
+    "href": "先期暴露風險評估技術手冊.html#ih-mod-2.0-最重要輸入參數",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "IH Mod 2.0 最重要輸入參數",
+    "text": "IH Mod 2.0 最重要輸入參數\n\n\n\n\n\n\n\n\n\n\n參數\n全名\n單位\n功能\n常見取得方式\n\n\n\n\nG\n污染物生成率\nmg/min\n決定污染物進入空氣的速率，是最重要輸入參數\n質量平衡、蒸發模型(Hummel)、文獻、實測資料\n\n\nV\n空間體積\nm³\n描述污染物被稀釋的空間大小\n房間尺寸長×寬×高計算\n\n\nQ\n通風量\nm³/min\n移除污染物的重要因子\nACH換算、通風設計資料、現場量測\n\n\nCsat\n飽和蒸氣濃度\nppm 或 mg/m³\n理論最高氣相濃度，用於結果合理性檢查\n蒸氣壓(VP)計算\n\n\nM₀\n初始污染物質量\nmg\n用於 Spill 或瞬間釋放模型\n洩漏量、使用量估算\n\n\nα\n一階蒸發常數\nmin⁻¹\n控制污染物衰減速度\n文獻、實驗量測、IH Mod Support File\n\n\nβ\n區域交換率\nm³/min\nNear Field 與 Far Field 間的空氣交換\n由球體半徑與空氣流速 S 自動計算\n\n\nDt\n亂流擴散係數\nm²/min\n描述污染物於空間中擴散能力\n文獻值、實驗反算、預設值0.5 m²/min\n\n\nU\n定向氣流速度\nm/min\n影響污染物隨氣流移動方向與速度\n現場風速量測或估算",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#stressors---receptors-model",
+    "href": "先期暴露風險評估技術手冊.html#stressors---receptors-model",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "Stressors - receptors model",
+    "text": "Stressors - receptors model\n[2]",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#蒸氣壓模型混合物",
+    "href": "先期暴露風險評估技術手冊.html#蒸氣壓模型混合物",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "2.蒸氣壓模型（混合物）",
+    "text": "2.蒸氣壓模型（混合物）\n\n適用於混合溶劑(油漆、稀釋劑、清潔劑、消費產品等)\n\nRaoult’s Law\n\nPA = XA × Pv\n\nXA = 莫耳分率\nPv = 純物質蒸氣壓",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#ih-mod-2.0-重要輸入參數",
+    "href": "先期暴露風險評估技術手冊.html#ih-mod-2.0-重要輸入參數",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "IH Mod 2.0 重要輸入參數",
+    "text": "IH Mod 2.0 重要輸入參數\n\n\n\n\n\n\n\n\n\n\n參數\n全名\n單位\n功能\n常見取得方式\n\n\n\n\nG\n污染物生成率\nmg/min\n決定污染物進入空氣的速率，是最重要輸入參數\n質量平衡、蒸發模型(Hummel)、文獻、實測資料\n\n\nV\n空間體積\nm³\n描述污染物被稀釋的空間大小\n房間尺寸長×寬×高計算\n\n\nQ\n通風量\nm³/min\n移除污染物的重要因子\nACH換算、通風設計資料、現場量測\n\n\nCsat\n飽和蒸氣濃度\nppm 或 mg/m³\n理論最高氣相濃度，用於結果合理性檢查\n蒸氣壓(VP)計算\n\n\nM₀\n初始污染物質量\nmg\n用於 Spill 或瞬間釋放模型\n洩漏量、使用量估算\n\n\nα\n一階蒸發常數\nmin⁻¹\n控制污染物衰減速度\n文獻、實驗量測、IH Mod Support File\n\n\nβ\n區域交換率\nm³/min\nNear Field 與 Far Field 間的空氣交換\n由球體半徑與空氣流速 S 自動計算\n\n\nDt\n亂流擴散係數\nm²/min\n描述污染物於空間中擴散能力\n文獻值、實驗反算、預設值0.5 m²/min\n\n\nU\n定向氣流速度\nm/min\n影響污染物隨氣流移動方向與速度\n現場風速量測或估算",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
     ]
   }
 ]

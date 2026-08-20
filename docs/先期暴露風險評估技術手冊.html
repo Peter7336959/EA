@@ -6,11 +6,11 @@
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-3583d19fe7148877488d27afd856c3c0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.42">
+  <meta name="generator" content="quarto-1.8.21">
 
   <meta name="author" content="何明信">
   <meta name="dcterms.date" content="2026-07-30">
@@ -52,13 +52,11 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-033fe6d5cd4e65f2cb27fdc6c5ec2684.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-66491ebadb995524f2d267691edb411d.css">
   <link rel="stylesheet" href="style/custom.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
-  <link href="site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
@@ -153,7 +151,7 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
+<section id="title-slide" class="quarto-title-block">
   <h1 class="title">先期暴露風險評估技術介紹</h1>
 
 <div class="quarto-title-authors">
@@ -167,202 +165,236 @@
   <p class="date">2026-07-30</p>
 </section><section id="TOC">
 <nav role="doc-toc"> 
-<h2 id="toc-title">Table of contents</h2>
+<h2 id="toc-title">課程目錄</h2>
 <ul>
-<li><a href="#/整體ea概念" id="/toc-整體ea概念">1.整體EA概念？</a></li>
+<li><a href="#/ea整體概念" id="/toc-ea整體概念">1. EA整體概念？</a></li>
 <li><a href="#/先期暴露風險評估ea技術" id="/toc-先期暴露風險評估ea技術">2.先期暴露風險評估(EA)技術</a></li>
-<li><a href="#/職業風險的暴露推估與解釋" id="/toc-職業風險的暴露推估與解釋">職業風險的暴露推估與解釋</a></li>
 </ul>
 </nav>
 </section>
 <section>
-<section id="整體ea概念" class="title-slide slide level1 center">
-<h1>1.整體EA概念？</h1>
+<section id="ea整體概念" class="title-slide slide level1">
+<h1>1. EA整體概念？</h1>
 
 </section>
-<section id="暴露評估ea" class="slide level2 center">
+<section id="暴露評估ea" class="slide level2">
 <h2>暴露評估(EA)？</h2>
 <ul>
-<li>暴露：從「危害源 (Source) -&gt; 傳輸 (Transport) -&gt; 接觸 (Contact)」的連續過程。</li>
+<li class="fragment">暴露：Source -&gt; Transport -&gt; <strong>Contact</strong> 的連續過程。
+<ul>
+<li class="fragment">Exposure = Source + Generation + Transport + Ventilation + Worker Location</li>
+</ul></li>
+<li class="fragment">職業衛生決策架構 <span class="citation" data-cites="jahn2015b">[<a href="#/參考資料" role="doc-biblioref" onclick="">1</a>]</span>
+<ul>
+<li class="fragment">預期、認知、<u>評估與控制</u> + <strong>確認（Confirm）</strong></li>
+</ul></li>
+<li class="fragment">暴露評估(Exposure Assessment)：指以定性、半定量或定量之 方法，評量或估算勞工暴露於化學品之暴露危害情形。</li>
 </ul>
-<h3 id="ea-定位與演進-jahn2015b">EA 定位與演進 <span class="citation" data-cites="jahn2015b">[<a href="#/職業風險的暴露推估與解釋" role="doc-biblioref" onclick="">1</a>]</span></h3>
-<h5 id="預期認知評估與控制-確認confirm">預期、認知、評估與控制 + <strong>確認（Confirm）</strong></h5>
-<p><a href="images/先期EA/F1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="images/先期EA/F1.png" style="width:50.0%"></a></p>
+<p><a href="images/先期EA/F1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="images/先期EA/F1.png" style="width:100.0%"></a></p>
 </section>
-<section id="風險評估" class="slide level2 center">
+<section id="stressors---receptors-model" class="slide level2">
+<h2>Stressors - receptors model</h2>
+<p><span class="citation" data-cites="keretetse2019">[<a href="#/參考資料" role="doc-biblioref" onclick="">2</a>]</span></p>
+
+<img data-src="images/先期EA/F3.png" style="width:100.0%" class="r-stretch"></section>
+<section id="風險評估" class="slide level2">
 <h2>風險評估？</h2>
 <ul>
-<li>Health Risk = (Exposure) (Toxicity)
+<li class="fragment">Health Risk = (Exposure) (Toxicity)
 <ul>
-<li>健康風險 = <strong>f</strong> (暴露量 ， 毒性)
+<li class="fragment">健康風險 = <strong>f</strong> (暴露量 ， 毒性)
 <ul>
-<li>「毒性」（每單位暴露量對目標器官所產生的健康效應）</li>
+<li class="fragment">「毒性」（每單位暴露量<strong>對目標器官所產生的健康效應</strong>）</li>
+<li class="fragment"><u>暴露數據必須連結健康效應才有意義</u>。</li>
 </ul></li>
-<li>暴露風險？ 評估+分級+管理？
+<li class="fragment">暴露風險？ (數據)
 <ul>
-<li>暴露數據必須連結健康效應才有意義。</li>
-</ul></li>
-</ul></li>
-<li>暴露評估（EA）與 風險評估（RA）？
-<ul>
-<li>準確性？效率？效能？
-<ul>
-<li><strong>取決於 OH 執行 EA 的品質</strong>。</li>
+<li class="fragment">暴露評估 <strong>+</strong> 分級管理 ？</li>
 </ul></li>
 </ul></li>
-</ul>
-</section>
-<section id="ea-評估範圍工具思維進化" class="slide level2 center">
-<h2>EA 評估範圍、工具、思維進化</h2>
+<li class="fragment">暴露評估（EA）<strong>–&gt;</strong> 暴露風險 ？
 <ul>
-<li>範圍不僅限於化學物質，還擴及皮膚暴露、噪音、熱危害與人因工程等領域。</li>
-<li>評估工具越來越依賴數學模型及<strong>貝氏決策分析（Bayesian Decision Analysis, BDA）</strong>
+<li class="fragment">準確性？效率？效能？
 <ul>
-<li>這對於處理含有未檢出值的小型數據集特別有用，能提供更高信賴度的決策支持。</li>
-</ul></li>
-<li><strong>從「合規性」到「全面性」</strong>
-<ul>
-<li>傳統「合規性策略（Compliance Strategy）」-–&gt; 「全面性評估策略（Comprehensive Strategy）」
-<ul>
-<li>許多化學品缺乏OEL，且現有標準未必能保護最敏感的勞工，也無法提供員工每日暴露變異的歷史數據。</li>
-<li><strong>評估「所有勞工、在所有工作日、對所有危害物」的暴露情況</strong>。建立全面的歷史暴露數據庫，不僅能在法規標準變嚴格時迅速因應，還能協助流行病學研究與員工的健康管理。</li>
+<li class="fragment"><strong>取決於 OH 執行 EA 的品質</strong>。</li>
 </ul></li>
 </ul></li>
 </ul>
 </section>
-<section id="ea-評估步驟" class="slide level2 center scrollable">
-<h2>EA <strong>評估步驟</strong></h2>
+<section id="ea-範圍與工具" class="slide level2">
+<h2>EA 範圍與工具</h2>
+<ul>
+<li class="fragment">範圍：不限於<strong>化學物質</strong>，還擴及皮膚、噪音、熱危害與人因工程等。</li>
+<li class="fragment">評估工具：更多數學模型及<strong>貝氏決策分析（Bayesian Decision Analysis, BDA）</strong>
+<ul>
+<li class="fragment">處理含有未檢出值的小型數據集特別有用。</li>
+</ul></li>
+<li class="fragment"><strong>從「合規性」到「全面性」</strong>
+<ul>
+<li class="fragment">傳統「合規性策略（Compliance Strategy）」–&gt; 「全面性評估策略（Comprehensive Strategy）」
+<ul>
+<li class="fragment">許多化學品缺乏OEL，且現有標準未必能保護最敏感的勞工，也無法提供員工每日暴露變異的歷史數據。</li>
+<li class="fragment"><strong>評估「所有勞工、在所有工作日、對所有危害物」的暴露情況</strong>。
+<ul>
+<li class="fragment">建立全面的歷史暴露數據庫，不僅能在法規標準變嚴格時迅速因應，還能協助流行病學研究與員工的健康管理。</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="ea-步驟" class="slide level2 scrollable">
+<h2>EA <strong>步驟</strong></h2>
 <ol type="1">
-<li><strong>起始（Start）</strong>：確立企業的評估目標與策略</li>
-<li>基本特徵描述（Basic Characterization）</li>
-<li>暴露評估：SEGs， OEL，決策統計值（Decision Statistic）<span class="math inline">\(X_{95}, UTL\)</span></li>
-<li><strong>進一步收集資訊（Further Information Gathering）</strong>：針對「不確定」的暴露。
+<li class="fragment"><strong>起始（Start）</strong>：確立企業的評估目標與策略</li>
+<li class="fragment">基本特徵描述（Basic Characterization）</li>
+<li class="fragment"><strong>暴露評估</strong>：SEGs， OEL，決策統計量（Decision Statistic）<span class="math inline">\(X_{95}, UTL\)</span></li>
+<li class="fragment"><strong>進一步收集資訊</strong>：針對「不確定」的暴露。
 <ul>
-<li>優先安排空氣或生物監測、數學建模，或收集毒理/流行病學數據等。</li>
+<li class="fragment">優先安排空氣採樣或生物監測、數學建模，或收集毒理/流行病學數據等。</li>
 </ul></li>
-<li>危害控制（Health Hazard Control）：Hierarchy control and <strong>confirm</strong></li>
-<li>重新評估（Reassessment）：定期，變更</li>
-<li>溝通與文件化（Communications and Documentation）</li>
+<li class="fragment">危害控制：Hierarchy control，<strong>分級管理</strong> and <strong>confirm</strong></li>
+<li class="fragment"><strong>重新評估</strong>：定期，變更</li>
+<li class="fragment">溝通與文件化（Communications and Documentation）</li>
 </ol>
 <ul>
-<li>成功執行的關鍵：專業判斷（Professional Judgment）+ 利害關係人的參與 + 資源的有效配置。 (雇主支持？)</li>
+<li class="fragment">成功執行的關鍵：專業判斷+ 利害關係人的參與 + 資源的有效配置。 (<strong>雇主支持？</strong>)</li>
 </ul>
 </section>
-<section id="ea策略" class="slide level2 center">
-<h2>EA策略</h2>
+<section id="ea-策略" class="slide level2">
+<h2>EA 策略</h2>
 <ul>
-<li>策略類型
+<li class="fragment">策略類型
 <ul>
-<li>全面性策略 (Comprehensive Strategy)
+<li class="fragment"><strong>全面性策略</strong> (Comprehensive Strategy)
 <ul>
-<li>掌握暴露強度與時間變異性</li>
+<li class="fragment">掌握暴露強度與時間變異性</li>
 </ul></li>
-<li>合規性策略 (Compliance Strategy)
+<li class="fragment"><strong>合規性策略</strong> (Compliance Strategy)
 <ul>
-<li>非例行性作業 (Non-routine Operations)</li>
+<li class="fragment">非例行性作業 (Non-routine Operations)</li>
 </ul></li>
 </ul></li>
-</ul>
-<!-- -->
+<li class="fragment">專業判斷 (Professional Judgment)
 <ul>
-<li>專業判斷 (Professional Judgment)
-<ul>
-<li>以科學(含統計)為底</li>
+<li class="fragment">以科學(含統計)為基礎ˋ</li>
 </ul></li>
-<li>整合成「書面」暴露評估計畫</li>
+<li class="fragment">產出：「書面」<strong>暴露評估計畫</strong> 與 <strong>暴露評估報告</strong></li>
 </ul>
 </section>
-<section id="暴露實態exposure-profile" class="slide level2 center">
+<section id="暴露實態exposure-profile" class="slide level2">
 <h2>暴露實態（Exposure Profile）</h2>
 <ul>
-<li>暴露強度的時間變異性（如每日變化）與推估值</li>
+<li><strong>暴露實態</strong>：指描述SEGs的暴露強度及暴露強度隨時間變化之情形。</li>
+<li><strong>暴露強度</strong>：具時間變異性（如每日變化）與推估值</li>
 </ul>
-<p><a href="images/先期EA/F5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="images/先期EA/F5.png" style="width:50.0%"></a></p>
+<p><a href="images/先期EA/F5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="images/先期EA/F5.png" style="width:100.0%"></a></p>
 </section>
-<section id="初始ea-initial-ea" class="slide level2 center">
-<h2>初始EA (Initial EA)</h2>
+<section id="名詞說明" class="slide level2">
+<h2>名詞說明</h2>
 <ul>
-<li>是整個暴露評估分層、循環過程中的第一個階段</li>
-<li>利用手邊現有的資訊來進行評估，但通常<strong>缺乏足夠定量數據</strong>。</li>
-</ul>
-<p><a href="images/先期EA/F5_3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="images/先期EA/F5_3.png" style="width:50.0%"></a></p>
-<ul>
-<li>初始評估主要作為篩選工具。
-<ul>
-<li>迅速判斷出微不足道（可接受）及明顯超標的暴露（不可接受）。
-<ul>
-<li>major/minor cuts： 1/10 OEL + 不太可能導致不良健康後果 + 不違反法規要求</li>
-</ul></li>
-</ul></li>
-<li>後續循環釐清「不確定」的風險</li>
+<li class="fragment"><strong>先期暴露風險評估</strong>(Preliminary Exposure Risk Assessment)：指 在擬定作業環境監測採樣策略前，運用現有資訊、定性判 斷、簡單的半定量或是定量模式推估的方法，對 SEG 內勞工 暴露於特定化學因子的可能性及其潛在健康風險進行初步評 估的過程。</li>
+<li class="fragment"><strong>相似暴露族群</strong>(Similar Exposure Group；SEG)：指一群勞工因 具相似的作業方式、工作製程、使用原物料及危害物接觸頻 率，致其暴露之有害物種類、強度及頻率均相似者。相似暴 露族群的判定是藉由勞工的工作內容、製程、控制設備、原 料物質等做為分類的依據，在執行作業環境監測後則需利用 統計確認之。</li>
+<li class="fragment"><strong>最大暴露危險族群</strong>(Maximum Exposure Risk Group；MEG)指 各相似暴露族群中，具有最高暴露狀況實態者。</li>
+<li class="fragment"><strong>全盤式暴露評估</strong>(Comprehensive Exposure Assessment)：指對 事業單位對全部相似暴露族群(SEG)之所有暴露，藉作業環 境監測實施暴露實態評估之採樣策略。</li>
 </ul>
 </section>
-<section id="暴露分級exposure-ratings" class="slide level2 center">
+<section id="名詞說明-1" class="slide level2">
+<h2>名詞說明</h2>
+<ul>
+<li class="fragment">採樣
+<ul>
+<li class="fragment"><strong>全面採樣</strong>（Full Sampling）：指無論風險等級高低，對每個相 似暴露族群皆進行採樣者。</li>
+<li class="fragment"><strong>完整採樣</strong>：指對每個相似暴露族群的採樣樣本數量達其統計 意義足以描述其暴露時態者。</li>
+<li class="fragment"><strong>監視採樣</strong>：針對低暴露風險 SEG，以例行性方式追蹤作業環 境暴露狀況及風險趨勢的採樣活動。</li>
+<li class="fragment"><strong>診斷性採樣</strong>：針對作業環 境中潛在暴露因子及高風險區域進行的初步或特定性採樣， 以確認可能的職業健康風險。通常用於新作業、製程變更或 初次評估，特性為快速、針對性、揭示潛在問題。</li>
+</ul></li>
+</ul>
+</section>
+<section id="初始-ea-initial-ea" class="slide level2">
+<h2>初始 EA (Initial EA)</h2>
+<ul>
+<li class="fragment">是整個暴露評估分層、循環過程中的第一個階段</li>
+<li class="fragment">利用手邊現有的資訊來進行評估，但通常<strong>缺乏足夠定量數據</strong>。</li>
+</ul>
+<p><a href="images/先期EA/F5_3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="images/先期EA/F5_3.png" style="width:100.0%"></a></p>
+<ul>
+<li class="fragment">初始評估主要作為<strong>篩選工具</strong>
+<ul>
+<li class="fragment">迅速判斷出微不足道（可接受）及明顯超標的暴露（不可接受）。
+<ul>
+<li class="fragment">major/minor cuts： 1/10 OEL + 不太可能導致不良健康後果 + 不違反法規要求</li>
+</ul></li>
+</ul></li>
+<li class="fragment"><strong>後續循環釐清「不確定」的風險</strong></li>
+</ul>
+</section>
+<section id="暴露分級exposure-ratings" class="slide level2">
 <h2>暴露分級（Exposure Ratings）</h2>
 <ul>
-<li><p>估算暴露量相對於「職業暴露容許標準（OEL）」的比例</p>
+<li class="fragment"><p>估算暴露量相對於「職業暴露容許標準（OEL）」的比例程度</p>
 <ul>
-<li>在缺乏大量監測數據的初始評估階段非常有用</li>
-<li><strong>假設沒有使用個人防護裝備 (PPE)</strong></li>
-<li><strong>缺乏 OEL 時</strong>：可以根據基礎資料收集到的毒理學資訊，估算並設定一個「暫定/工作 OEL (working OEL)」，進行分級。</li>
+<li class="fragment">在缺乏大量監測數據的初始評估階段非常有用</li>
+<li class="fragment"><strong>假設沒有使用個人防護裝備 (RPE)狀態下</strong></li>
+<li class="fragment"><strong>缺乏 OEL 時</strong>：可以根據基礎資料收集到的毒理學資訊，估算並設定一個「暫定/工作 OEL」，進行分級。</li>
 </ul></li>
-<li><p>推估暴露實態與分級的工具主要有三種：<span class="citation" data-cites="jahn2015b">[<a href="#/職業風險的暴露推估與解釋" role="doc-biblioref" onclick="">1</a>]</span></p>
+<li class="fragment"><p>推估暴露實態與分級的工具主要有三種：<span class="citation" data-cites="jahn2015b">[<a href="#/參考資料" role="doc-biblioref" onclick="">1</a>]</span></p>
 <ul>
-<li>監測數據 (Monitoring Data)</li>
-<li>替代數據 (Surrogate Data)</li>
-<li>數學建模 (Modeling)</li>
-</ul>
-<p><a href="images/先期EA/T5_2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="images/先期EA/T5_2.png" style="width:50.0%"></a></p></li>
+<li class="fragment">監測數據 (Monitoring Data)</li>
+<li class="fragment">替代數據 (Surrogate Data)</li>
+<li class="fragment">數學建模 (Modeling)</li>
+</ul></li>
 </ul>
 </section>
-<section id="監測數據-monitoring-data" class="slide level2 center">
+<section id="暴露分級exposure-ratings-1" class="slide level2">
+<h2>暴露分級（Exposure Ratings）</h2>
+<p><a href="images/先期EA/T5_2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="images/先期EA/T5_2.png" style="width:100.0%"></a></p>
+<p><a href="images/先期EA/F2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="images/先期EA/F2.png"></a></p>
+</section>
+<section id="監測數據-monitoring-data" class="slide level2">
 <h2>監測數據 (Monitoring Data)</h2>
 <ul>
-<li>分「過去的個人監測數據」與「篩檢測量 <strong>Screening</strong>」</li>
-<li><strong>篩檢測量 (Screening measurements)</strong> ：合適的直讀式測量
+<li class="fragment">分「過去的個人監測數據」與「篩檢測量 <strong>Screening</strong>」</li>
+<li class="fragment"><strong>篩檢測量 (Screening measurements)</strong> ：合適的直讀式測量
 <ul>
-<li><p><strong>工具</strong>：使用如檢知管、光離子化偵測器（PID）、可呼吸性氣膠監測儀或噪音計等技術，提供快速的測量結果，協助校準工業衛生人員的專業判斷。</p></li>
-<li><p><strong>應用</strong>：可用於檢查「最壞情況（worst case）」或典型的暴露水準。釐清不同勞工或SEGs間的變異性。</p></li>
-<li><p><strong>效能</strong>：透過篩檢測量，可以減少甚至消除進行昂貴個人監測的需求。</p></li>
+<li class="fragment"><p><strong>工具</strong>：使用如檢知管、光離子化偵測器（PID）、可呼吸性氣膠監測儀或噪音計等技術，提供快速的測量結果，協助校準工業衛生人員的專業判斷。</p></li>
+<li class="fragment"><p><strong>應用</strong>：可用於檢查「最壞情況（worst case）」或典型的暴露水準。釐清不同勞工或SEGs間的變異性。</p></li>
+<li class="fragment"><p><strong>效能</strong>：透過篩檢測量，可以減少甚至消除進行昂貴個人監測的需求。</p></li>
 </ul></li>
 </ul>
 </section>
-<section id="替代數據surrogate-data" class="slide level2 center scrollable">
+<section id="替代數據surrogate-data" class="slide level2 scrollable">
 <h2>替代數據（Surrogate Data）</h2>
 <ul>
-<li>替代數據的應用必須非常謹慎，並高度仰賴專業判斷</li>
-<li>替代數據也常用於估算混合物引起的暴露</li>
-<li>主要分為以下兩大類應用方式：
+<li class="fragment">替代數據的應用必須非常謹慎，並高度仰賴專業判斷</li>
+<li class="fragment">替代數據也常用於估算混合物引起的暴露</li>
+<li class="fragment">主要分為以下兩大類應用方式：
 <ol type="1">
-<li><strong>來自其他危害因子的暴露數據 (Exposure data from another agent)</strong></li>
-<li>來自其他作業的暴露數據 (Exposure data from another operation)</li>
+<li class="fragment">來自其他危害因子的暴露數據 (Exposure data from another agent)</li>
+<li class="fragment">來自其他作業的暴露數據 (Exposure data from another operation)</li>
 </ol></li>
-<li>替代數據是在初始暴露評估階段缺乏直接監測數據時，填補資訊空白並協助完成暴露分級的重要實用工具。</li>
+<li class="fragment">替代數據是在<strong>初始暴露評估階段</strong>缺乏直接監測數據時，填補資訊空白並協助完成暴露分級的重要實用工具。</li>
 </ul>
 </section>
-<section id="數學建模modeling" class="slide level2 center scrollable">
+<section id="數學建模modeling" class="slide level2 scrollable">
 <h2>數學建模（Modeling）</h2>
-<ul>
-<li><p>兩大類別：</p>
 <ol type="1">
-<li><p><strong>基於物理與化學特性的預測模型 (Predictive modeling based on physical and chemical properties)</strong></p>
+<li class="fragment"><strong>基於物理與化學特性的預測模型</strong> (Predictive modeling based on physical and chemical properties)
 <ul>
-<li><p>估計目前，還能推算<strong>歷史暴露</strong></p></li>
-<li><p>階層式方法 (Tiered approach)</p></li>
-<li><p>刻意高估 (Purposeful overestimation)</p></li>
+<li class="fragment">估計目前及推算<strong>歷史暴露</strong></li>
+<li class="fragment">階層式方法 (Tiered approach)</li>
+<li class="fragment">刻意高估 (Purposeful overestimation)</li>
 </ul></li>
-<li><p><strong>基於製程資訊的預測模型</strong> <strong>(Predictive modeling based on process information)</strong></p>
+<li class="fragment"><strong>基於製程資訊的預測模型</strong> (Predictive modeling based on process information)
 <ul>
-<li><p>包含許多製程參數</p></li>
-<li><p>建置製程模型(如G)來進行暴露評估</p></li>
+<li class="fragment"><p>包含許多製程參數</p></li>
+<li class="fragment"><p>建置製程模型來進行暴露評估</p></li>
 </ul></li>
-</ol></li>
-</ul>
+</ol>
 </section>
-<section id="暴露判定judging-exposures" class="slide level2 center">
+<section id="暴露判定judging-exposures" class="slide level2">
 <h2>暴露判定（Judging Exposures）</h2>
 <ul>
-<li>初始EA伴隨著極大的不確定性</li>
+<li>初始EA伴隨著極<strong>大的不確定性</strong></li>
 <li>OEL 本身也可能存在不確定性</li>
 </ul>
 <table class="caption-top">
@@ -372,152 +404,176 @@
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><a href="images/先期EA/F5_4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="images/先期EA/F5_4.png"></a></td>
-<td><a href="images/先期EA/F5_5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="images/先期EA/F5_5.png"></a></td>
+<td><a href="images/先期EA/F5_4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="images/先期EA/F5_4.png"></a></td>
+<td><a href="images/先期EA/F5_5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="images/先期EA/F5_5.png"></a></td>
 </tr>
 </tbody>
 </table>
 <ul>
-<li><p>解決策略</p>
+<li class="fragment">解決策略
 <ul>
-<li><strong>收集更多資訊</strong>：縮小不確定性。</li>
-<li><strong>直接視為不可接受</strong>：成本效益評估，直接採控制措施。</li>
+<li class="fragment"><strong>收集更多資訊</strong>：縮小不確定性。</li>
+<li class="fragment"><strong>直接視為不可接受</strong>：成本效益評估，直接採控制措施。</li>
 </ul></li>
 </ul>
 </section>
-<section id="不確定的暴露-uncertain-exposures" class="slide level2 center">
+<section id="不確定的暴露-uncertain-exposures" class="slide level2">
 <h2>不確定的暴露 (Uncertain Exposures)</h2>
 <ul>
-<li><strong>兩大主因</strong>：
+<li class="fragment"><strong>兩大主因</strong>：
 <ul>
-<li><strong>暴露實態尚未充分掌握</strong>：強度與變異</li>
-<li><strong>缺乏健康效應數據</strong>：無可靠的OEL</li>
+<li class="fragment"><strong>暴露實態尚未充分掌握</strong>：強度與變異</li>
+<li class="fragment"><strong>缺乏健康效應數據</strong>：無可靠的OEL</li>
 </ul></li>
-<li>管理不確定性 (Managing Uncertainty)
+<li class="fragment">管理不確定性 (Managing Uncertainty)
 <ul>
-<li><p>如果危害因子的毒性很低，且發生暴露的可能性也很低，那麼即使評估存在不確定性也無妨。</p></li>
-<li><p><strong>不確定性的重要性極高</strong>：如果暴露可能導致<strong>極端、不可逆的傷害 (irreversible harm)</strong>，那麼對於不確定性的容忍度就必須非常低，必須盡可能釐清暴露。</p></li>
+<li class="fragment"><p>如果危害因子的毒性很低，且發生暴露的可能性也很低，那麼即使評估存在不確定性也無妨。</p></li>
+<li class="fragment"><p><strong>不確定性的重要性極高</strong>：如果暴露可能導致<strong>極端、不可逆的傷害 (irreversible harm)</strong>，那麼對於不確定性的容忍度就必須非常低，必須盡可能釐清暴露。</p></li>
 </ul></li>
-<li><strong>不確定性的兩大來源</strong>：
+<li class="fragment"><strong>不確定性的兩大來源</strong>：
 <ul>
-<li><p><strong>暴露的變異性</strong>：日常變異。</p></li>
-<li><p><strong>缺乏知識 (Lack of knowledge)</strong>：當完全沒有數據或知識時，這種不確定性的程度會非常巨大，甚至會完全掩蓋掉日常的變異性。</p></li>
+<li class="fragment"><p><strong>暴露的變異性</strong>：日常變異。</p></li>
+<li class="fragment"><p><strong>缺乏資訊</strong>：當完全沒有數據或知識時，這種不確定性的程度會非常巨大，甚至會完全掩蓋掉日常的變異性。</p></li>
 </ul></li>
-<li><strong>評估不確定性的工具</strong>： <strong>主觀估計 (subjective estimate)</strong>；<strong>傳統統計分析(</strong>有實際的測量數值，計算95%CI）；<strong>機率分析工具 (如蒙地卡羅分析 Monte Carlo analysis，</strong>非常複雜或關鍵的暴露評估<strong>)</strong>。</li>
+<li class="fragment"><strong>評估不確定性的工具</strong>： <strong>主觀估計 (subjective estimate)</strong>；<strong>傳統統計分析(</strong>有實際的測量數值，計算95%CI）；<strong>機率分析工具 (如蒙地卡羅分析 Monte Carlo analysis，</strong>複雜或關鍵的暴露評估<strong>)</strong>。</li>
 </ul>
 </section>
-<section id="ea循環持續改善" class="slide level2 center">
+<section id="ea循環持續改善" class="slide level2">
 <h2>EA循環，持續改善</h2>
-<p><a href="images/先期EA/T5_4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="images/先期EA/T5_4.png" style="width:50.0%"></a></p>
+<p><a href="images/先期EA/T5_4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="images/先期EA/T5_4.png" style="width:100.0%"></a></p>
 </section>
-<section id="ea的具體產出-assessment-outcomes" class="slide level2 center">
-<h2><strong>EA的具體產出 (Assessment Outcomes)</strong></h2>
+<section id="ea的具體產出" class="slide level2">
+<h2><strong>EA的具體產出</strong></h2>
 <ul>
-<li><strong>掌握SEG</strong>暴露實態推估</li>
-<li><strong>量化相對風險</strong>：相對於OEL的暴露分級</li>
-<li><strong>決策判定</strong>：暴露風險判定</li>
-<li><strong>後續風險管理</strong>
+<li class="fragment"><strong>掌握SEG</strong>暴露實態推估</li>
+<li class="fragment"><strong>量化相對風險</strong>：相對於OEL的暴露分級</li>
+<li class="fragment"><strong>決策判定</strong>：暴露風險判定</li>
+<li class="fragment"><strong>後續風險管理 (分級管理)</strong>
 <ul>
-<li><strong>排定後須行動優先順序並落實</strong></li>
-<li>釐清未知風險(不確定分級)，<strong>進一步收集資訊</strong>並解決。</li>
+<li class="fragment"><strong>排定後須行動優先順序並落實</strong></li>
+<li class="fragment">釐清未知風險(不確定分級)，<strong>進一步收集資訊</strong>並解決。</li>
 </ul></li>
+<li class="fragment"><strong>暴露評估報告 (？)</strong></li>
 </ul>
 </section></section>
 <section>
-<section id="先期暴露風險評估ea技術" class="title-slide slide level1 center">
+<section id="先期暴露風險評估ea技術" class="title-slide slide level1">
 <h1>2.先期暴露風險評估(EA)技術</h1>
 
 </section>
-<section id="數學建模modeling-1" class="slide level2 center">
+<section id="數學建模modeling-1" class="slide level2">
 <h2>數學建模（Modeling）</h2>
 <ul>
-<li>EA目的：建立SEGs的暴露實態（含途徑、強度、持續時間與頻率），並將其與OEL（如 TWA-8、STEL）進行比較，以判定暴露是「可接受」、「不可接受」或「不確定」。</li>
-<li>傳統上仰賴空氣採樣來建立暴露輪廓，但實際上，僅靠少數幾次測量是難以用參數統計學（如95%信賴區間）得出具備充分信賴度的結論的。例如，即使4次採樣結果都低於OEL，在無母數統計下，我們也只能有 32% 的把握說 75% 的暴露低於 OEL。
-<ul>
-<li>無母數統計（Non-parametric Statistics）：不假設數據符合任何分佈（如常態或對數常態），直接從樣本本身去推估母體。</li>
-</ul></li>
+<li><strong>EA目的</strong>：建立SEGs的暴露實態（含途徑、強度、持續時間與頻率），並將其與OEL（如 TWA-8、STEL）進行比較，以判定暴露是「可接受」、「不可接受」或「不確定」。</li>
+<li>傳統上仰賴空氣採樣來建立暴露輪廓，但實際上，僅靠少數幾次測量是難以用參數統計學（如95%信賴區間）得出具備充分信心的結論。</li>
+<li><strong>初判再近一步確認</strong> (降低不確定性)</li>
 </ul>
 </section>
-<section id="數學建模modeling-2" class="slide level2 center">
+<section id="數學建模主要用途" class="slide level2 scrollable">
+<h2>數學建模主要用途</h2>
+<ol type="1">
+<li><strong>回推過去暴露</strong>
+<ul>
+<li>10年前的溶劑使用</li>
+<li>舊廠房粉塵暴露</li>
+<li>職業病鑑定</li>
+<li>當沒有實測數據時，可利用模型估算。</li>
+</ul></li>
+<li><strong>預測未來暴露 (Anticipation)</strong>
+<ul>
+<li>新化學品導入</li>
+<li>新製程設計</li>
+<li>新設備購置</li>
+</ul></li>
+<li><strong>控制措施評估</strong>
+<ul>
+<li>增加通風量</li>
+<li>局排設計</li>
+<li>降低生成率</li>
+<li>評估控制效果。</li>
+</ul></li>
+</ol>
+</section>
+<section id="數學建模modeling-2" class="slide level2">
 <h2>數學建模（Modeling）</h2>
 <h3 id="為什麼需要數學建模">為什麼需要數學建模？</h3>
 <ul>
-<li>資源有限與專業判斷的盲點
+<li class="fragment">資源有限與專業判斷的不足
 <ul>
-<li>純粹的專業判斷常會低估實際暴露</li>
+<li class="fragment">純粹的專業判斷常會低估實際暴露</li>
 </ul></li>
-<li>跨越時間的多元應用 (過去、當下、與未來)</li>
-<li>測量只知結果，建模能知原因 (物化特性)</li>
-<li>數學模型並不是為了完全取代空氣採樣，而是要提升決策品質。
+<li class="fragment">跨越時間的多元應用 (過去、當下、與未來)</li>
+<li class="fragment">測量只知結果，建模能知可能原因 (物化特性)</li>
+<li class="fragment">數學模型並不是為了完全取代空氣採樣，而是要提升決策品質。
 <ul>
-<li>OH可以更自信地判定哪些低風險作業不需要採樣，進而<strong>將昂貴的採樣資源與分析成本，集中投入在真正高風險的暴露情境上</strong>。 (快篩？)</li>
+<li class="fragment">OH可以更自信地判定哪些低風險作業不需要採樣，進而<strong>將昂貴的採樣資源與分析成本，集中投入在真正高風險的暴露情境上</strong>。 (快篩？)</li>
 </ul></li>
 </ul>
 </section>
-<section id="如何建模" class="slide level2 center">
+<section id="如何建模" class="slide level2">
 <h2>如何建模？</h2>
 <ul>
 <li>物理化學特徵 + 暴露時間</li>
 <li>容許不確定性（夠接近了嗎？合理的最壞情況 reasonable worst case）</li>
 </ul>
 <h3 id="收集建模資訊">收集建模資訊</h3>
-<div>
 <ul>
-<li class="fragment">化學物質資訊 (G…)</li>
-<li class="fragment">空氣空間資訊 (V…)</li>
-<li class="fragment">空氣混合狀態 (WMB, NF/FF)</li>
-<li class="fragment">勞工作業活動模式</li>
-</ul>
-</div>
+<li class="fragment"><p>化學物質資訊 (G…)</p></li>
+<li class="fragment"><p>空間資訊 (V…)</p></li>
+<li class="fragment"><p>空氣混合狀態 (WMB, NF/FF…)</p></li>
+<li class="fragment"><p>勞工作業活動模式</p></li>
+<li class="fragment"><p><strong>資訊品質決定模型價值 (Garbage in, garbage out)</strong></p>
 <ul>
-<li><strong>數據品質決定模型價值 (Garbage in, garbage out)</strong> 本章總結強調，模型輸出的結果高度依賴輸入資訊的品質。</li>
+<li class="fragment">模型輸出的結果高度依賴輸入資訊的品質。</li>
+</ul></li>
 </ul>
 </section>
-<section id="定量-ea" class="slide level2 center scrollable">
+<section id="定量-ea" class="slide level2 scrollable">
 <h2>定量 EA</h2>
 <h3 id="分類">分類</h3>
 <ul>
-<li>監測 (略)</li>
-<li>推估模式
+<li class="fragment">監測 (略)</li>
+<li class="fragment">推估模式
 <ol type="1">
-<li>無通風推估模式(Zero Ventilation Model)</li>
-<li>飽和蒸氣壓模式（Saturation Vapor Pressure Model）</li>
-<li>暴露空間模式（Box Models）</li>
-<li>完全混合模式（Well-mixed Room Model）</li>
-<li>二暴露區模式（Two-Zone Model）</li>
-<li>渦流擴散模式(Turbulent Eddy diffusion model)</li>
-<li>統計推估模式(Statistical models)</li>
-<li>其他具有相同效力或可有效推估勞工暴露之推估模式</li>
+<li class="fragment">無通風推估模式(Zero Ventilation Model)</li>
+<li class="fragment">飽和蒸氣壓模式（Saturation Vapor Pressure Model）</li>
+<li class="fragment">暴露空間模式（Box Models）</li>
+<li class="fragment">完全混合模式（Well-mixed Room Model）</li>
+<li class="fragment">二暴露區模式（Two-Zone Model）</li>
+<li class="fragment">渦流擴散模式(Turbulent Eddy diffusion model)</li>
+<li class="fragment">統計推估模式(Statistical models)</li>
+<li class="fragment">其他具有相同效力或可有效推估勞工暴露之推估模式</li>
 </ol></li>
 </ul>
 </section>
-<section id="推估模式方法分層tiered-approach" class="slide level2 center">
+<section id="推估模式方法分層tiered-approach" class="slide level2">
 <h2>推估模式方法分層(Tiered Approach)</h2>
-<p><a href="images/先期EA/T9.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="images/先期EA/T9.png" style="width:100.0%"></a></p>
+<p><a href="images/先期EA/T9.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img data-src="images/先期EA/T9.png" style="width:100.0%"></a></p>
 </section>
-<section id="basic-pollutant-generation-rates" class="slide level2 center scrollable">
-<h2>BASIC: Pollutant Generation Rates</h2>
+<section id="基本參數-汙染物生成率" class="slide level2 scrollable">
+<h2>基本參數: 汙染物生成率</h2>
 <ul>
-<li><p>在空氣濃度建模中，準確估算化學物質釋放到空氣中的「生成率（或稱排放率）」是極為關鍵的步驟。</p></li>
-<li><p>質量平衡法 (Mass Balance)</p>
+<li class="fragment"><strong>G</strong>， Generation Rates ，mg/min</li>
+<li class="fragment">在空氣濃度建模中，準確估算化學物質釋放到空氣中的「生成率（或稱排放率）」是極為關鍵的步驟。</li>
+<li class="fragment"><strong>質量平衡法 (Mass Balance)</strong>
 <ul>
-<li><strong>限制</strong>
+<li class="fragment">限制
 <ol type="1">
-<li><p><strong>無法反映短期波動</strong>：<strong>無法呈現製程中忽高忽低的間歇性釋放或極端峰值（peaks）</strong>。</p></li>
-<li><p><strong>不等於實際空氣濃度</strong>：「總排放量」不能直接等同於室內空氣的濃度。</p></li>
+<li class="fragment"><p>無法反映短期波動：無法呈現製程中忽高忽低的間歇性釋放或極端峰值（peaks）。</p></li>
+<li class="fragment"><p>不等於實際空氣濃度：「總排放量」不能直接等同於室內空氣的濃度。</p></li>
 </ol></li>
 </ul></li>
-<li><p>排放係數法 (Emission Factors)</p>
+<li class="fragment"><strong>排放係數法 (Emission Factors)</strong>
 <ul>
-<li><strong>限制：</strong>除了前述外，還有製程差異「排放係數是製程的函數」。</li>
+<li class="fragment">限制：除了前述外，還有製程差異「排放係數是製程的函數」。</li>
 </ul></li>
 </ul>
 </section>
-<section id="tier-i-模式" class="slide level2 center">
+<section id="tier-i-模式" class="slide level2">
 <h2>Tier I 模式</h2>
 <h3 id="無通風推估模式zero-ventilation-model">1. 無通風推估模式(Zero Ventilation Model)</h3>
 <ul>
-<li>質量守恆原理，假設最糟情境，估算密閉空間中的最終平均濃度(最高值)。其基本假設為：
+<li>質量守恆原理，<strong>假設最糟情境</strong>，估算密閉空間中的最終平均濃度(最高值)。其<strong>基本假設為</strong>：
 <ul>
 <li>(1) 零通風(Zero Ventilation)</li>
 <li>(2) 完全逸散與混合</li>
@@ -529,7 +585,7 @@
 </ul></li>
 </ul>
 </section>
-<section id="實作情境--1.無通風推估模式" class="slide level2 center">
+<section id="實作情境--1.無通風推估模式" class="slide level2">
 <h2>實作情境- 1.無通風推估模式</h2>
 <h4 id="第一階段情境描述-scenario">第一階段：情境描述 (Scenario)</h4>
 <ul>
@@ -538,49 +594,54 @@
 <li><strong>你的任務</strong>：由於症狀是延遲發作的，你需要針對這起非典型暴露事件進行調查。你必須推估該員工在此次溢漏事件中的暴露濃度，以判斷其腹痛是否與暴露有關。</li>
 </ul>
 </section>
-<section id="實作情境--1.無通風推估模式-續" class="slide level2 center">
+<section id="實作情境--1.無通風推估模式-續" class="slide level2">
 <h2>實作情境- 1.無通風推估模式 (續)</h2>
-<h4 id="第二階段收集建模資訊-information-gathering">第二階段：收集建模資訊 (Information Gathering)</h4>
+<h4 id="第二階段收集建模資訊">第二階段：收集建模資訊</h4>
 <ul>
-<li><strong>化學品資訊</strong>：打翻的物質是<strong>甲苯 (Toluene)</strong>。液體密度為 <strong>0.87 g/mL</strong>。容許標準 (OELs)：PEL TWA-8 (8小時時量平均容許濃度) 為 <strong>750 mg/m³</strong>；更嚴格的 TLV TWA 為 <strong>75 mg/m³</strong>。</li>
-<li><strong>暴露時間與強度</strong>：
+<li class="fragment"><strong>化學品資訊</strong>：打翻的物質是<strong>甲苯 (Toluene)</strong>。液體密度為 <strong>0.87 g/mL</strong>。容許標準 (OELs)：PEL TWA-8 (8小時時量平均容許濃度) 為 <strong>750 mg/m³</strong>；更嚴格的 TLV TWA 為 <strong>75 mg/m³</strong>。</li>
+<li class="fragment"><strong>暴露時間與強度</strong>：
 <ul>
-<li>背景濃度：該工作區平時典型的甲苯暴露濃度為 <strong>25 mg/m³</strong>。</li>
-<li>溢漏時間點：事件發生在 8 小時班次中的第 5 個小時（這代表溢漏後的暴露時間最多只有 <strong>3 小時</strong>）。</li>
-<li>溢漏量：原本 500 mL 的瓶子大約半滿，因此約打翻了 <strong>250 mL</strong>。揮發時間：員工用抹布擦拭後將其放在 2 公尺外晾乾，約 <strong>2 小時後</strong>抹布全乾（代表甲苯已全數揮發）。</li>
+<li class="fragment">背景濃度：該工作區平時監測的甲苯暴露濃度為 <strong>25 mg/m³</strong>。</li>
+<li class="fragment">溢漏時間點：事件發生在 8 小時班次中的第 5 個小時（這代表溢漏後的暴露時間最多只有 <strong>3 小時</strong>）。</li>
+<li class="fragment">溢漏量：原本 500 mL 的瓶子大約半滿，因此約打翻了 <strong>250 mL</strong>。揮發時間：員工用抹布擦拭後將其放在 2 公尺外晾乾，約 <strong>2 小時後</strong>抹布全乾（代表甲苯已全數揮發）。</li>
 </ul></li>
-<li><strong>空間資訊</strong>：
+<li class="fragment"><strong>空間資訊</strong>：
 <ul>
-<li>房間尺寸為 10公尺 × 8公尺 × 3公尺高，算出總體積 (V) 為 <strong>240 m³</strong>。房間缺乏明確的通風率數據，也沒有機械排氣設備。</li>
+<li class="fragment">房間尺寸為 10公尺 × 8公尺 × 3公尺高，算出總體積 (V) 為 <strong>240 m³</strong>。房間缺乏明確的通風率數據，也沒有機械排氣設備。</li>
 </ul></li>
 </ul>
 </section>
-<section id="實作情境--1.無通風推估模式-續-1" class="slide level2 center">
+<section id="實作情境--1.無通風推估模式-續-1" class="slide level2">
 <h2>實作情境- 1.無通風推估模式 (續)</h2>
-<h4 id="第三階段模型推估演練-modeling-approach">第三階段：模型推估演練 (Modeling Approach)</h4>
+<h4 id="第三階段模型推估-modeling-approach">第三階段：模型推估 (Modeling Approach)</h4>
 <ul>
-<li>既然沒有通風數據，請先採用最保守的「無通風模式 (Zero-Ventilation Model)」來進行初步篩選。這個模型假設房間是密封的，污染物釋放後會立刻均勻混合在空間中。</li>
+<li>(沒有通風數據)先採用最保守的「無通風模式 (Zero-Ventilation Model)」來進行初步篩查。這個模型假設房間是密封的，污染物釋放後會立刻均勻混合在空間中。</li>
 <li><strong>請估算空氣濃度 (C)，並做出結果專業判定。</strong></li>
 </ul>
 </section>
-<section id="實作情境--1.無通風推估模式-續-2" class="slide level2 center">
+<section id="實作情境--1.無通風推估模式-續-2" class="slide level2">
 <h2>實作情境- 1.無通風推估模式 (續)</h2>
 <h4 id="參考建議">參考建議</h4>
 <ul>
-<li>C = <strong>910 mg/m³，C</strong> (TWA-8) = <strong>360 mg/m³</strong> 低於 PEL 標準 (750 mg/m³)，但高於 TLV 標準 (75 mg/m³)</li>
-<li><strong>風險等級：？</strong></li>
-<li>建議：改用「完全混合房間模型 (Well-Mixed Room Model)」重新計算更準確的數值。</li>
-<li><strong>健康關聯判定</strong>：對照安全資料表，甲苯通常造成的健康影響是眼鼻刺激、頭暈等急性症狀，與該員工「延遲發作的胃痙攣」並不吻合。因此可以推論其病症很可能與此次暴露無關。</li>
-<li>請試試 <a href="https://oemd.osha.gov.tw/exposure/content/tools/Tools2.aspx">官方版工具</a></li>
-<li>思考：是否適用於污水中有害物(硫化氫)逸散評估，或消防系統窒息性氣體(壓縮二氧化碳)於地下室突洩情境評估？</li>
+<li class="fragment">C = <strong>910 mg/m³，C</strong> (TWA-8) = <strong>360 mg/m³</strong> 低於 PEL 標準 (750 mg/m³)，但高於 TLV 標準 (75 mg/m³)</li>
+<li class="fragment"><strong>風險等級：？</strong>
+<ul>
+<li class="fragment">建議：改用「完全混合房間模型 (Well-Mixed Room Model)」重新計算更準確的數值？</li>
+</ul></li>
+<li class="fragment"><strong>健康關聯判定</strong>：對照安全資料表，甲苯通常造成的健康影響是眼鼻刺激、頭暈等急性症狀，與該員工「延遲發作的胃痙攣」並不吻合。因此可以推論其病症很可能與此次暴露無關。(尋求職醫護協助)</li>
+<li class="fragment">請試試 <a href="https://oemd.osha.gov.tw/exposure/content/tools/Tools2.aspx">官方版工具</a></li>
+<li class="fragment">思考：是否適用於污水中有害物(硫化氫)逸散評估，或消防系統窒息性氣體(壓縮二氧化碳)於地下室突洩情境評估？</li>
 </ul>
 </section>
-<section id="tier-i-模式-1" class="slide level2 center">
+<section id="tier-i-模式-1" class="slide level2">
 <h2>Tier I 模式</h2>
 <h3 id="蒸氣壓模型vapor-pressure-models"><strong>2.蒸氣壓模型（Vapor Pressure Models）</strong></h3>
 <ul>
-<li>包含飽和蒸氣壓模式、液體裝填釋放模式、開放液面蒸發模式及加壓容器洩漏釋放模式等。</li>
-<li>飽和蒸氣壓模式：評估最糟暴露情境</li>
+<li>包含飽和蒸氣壓模式、液體裝填釋放模式、開放液面蒸發模式及加壓容器洩漏釋放模式等。
+<ul>
+<li>蒸氣壓越高：越容易揮發，暴露越高。</li>
+</ul></li>
+<li>飽和蒸氣壓模式：<strong>評估最糟暴露情境</strong></li>
 </ul>
 <table class="caption-top">
 <colgroup>
@@ -598,17 +659,17 @@
 <li>留意應用限制與專業考量</li>
 </ul>
 </section>
-<section id="實作情境-2.蒸氣壓模型" class="slide level2 center">
+<section id="實作情境-2.蒸氣壓模型" class="slide level2">
 <h2>實作情境-2.<strong>蒸氣壓模型</strong></h2>
-<h4 id="第一階段情境描述-tenberge2009a">第一階段：情境描述 <span class="citation" data-cites="tenberge2009a">[<a href="#/職業風險的暴露推估與解釋" role="doc-biblioref" onclick="">2</a>]</span></h4>
+<h4 id="第一階段情境描述-tenberge2009a">第一階段：情境描述 <span class="citation" data-cites="tenberge2009a">[<a href="#/參考資料" role="doc-biblioref" onclick="">3</a>]</span></h4>
 <ul>
-<li><strong>事件發生</strong>：週末過後，一名勞工打開了實驗室的化學品儲存櫃。他發現櫃內有一瓶 500 mL 廣口瓶的揮發性液體被忘記蓋上蓋子。瓶內還有液體，且儲存櫃內散發出極度強烈的溶劑氣味。該勞工立刻將瓶蓋鎖緊，但因為氣味太過強烈，他隨即離開房間（儲存櫃的門保持敞開），並通報環安室。</li>
+<li><strong>事件發生</strong>：週末過後，一名勞工打開了實驗室的化學品儲存櫃。他發現櫃內有一瓶 500 mL 廣口瓶的揮發性液體忘記蓋上蓋子。瓶內還有液體，且儲存櫃內散發出極度強烈的溶劑氣味。該勞工立刻將瓶蓋鎖緊，但因為氣味太過強烈，他隨即離開房間（儲存櫃的門保持敞開），並通報環安室。</li>
 <li><strong>任務</strong>：身為環安衛人員，您必須推算：<strong>當這名勞工打開櫃門的那一瞬間，他面臨的暴露濃度有多高？</strong></li>
 </ul>
 </section>
-<section id="實作情境--2.蒸氣壓模型-續" class="slide level2 center">
+<section id="實作情境--2.蒸氣壓模型-續" class="slide level2">
 <h2>實作情境- 2.<strong>蒸氣壓模型 (續)</strong></h2>
-<h4 id="第二階段收集建模資訊">第二階段：收集建模資訊</h4>
+<h4 id="第二階段收集建模資訊-1">第二階段：收集建模資訊</h4>
 <ul>
 <li><p><strong>化學品資訊 (正己烷, n-Hexane)</strong>：分子量 (MW)：<strong>86.2 g/mol</strong></p>
 <ul>
@@ -619,25 +680,25 @@
 </ul></li>
 </ul>
 </section>
-<section id="實作情境--2.蒸氣壓模型-續-1" class="slide level2 center">
+<section id="實作情境--2.蒸氣壓模型-續-1" class="slide level2">
 <h2>實作情境- 2.<strong>蒸氣壓模型 (續)</strong></h2>
 <ul>
 <li><strong>請估算空氣濃度 (C)，並做出結果專業判定。</strong></li>
 </ul>
 </section>
-<section id="實作情境--2.蒸氣壓模型-續-2" class="slide level2 center">
+<section id="實作情境--2.蒸氣壓模型-續-2" class="slide level2">
 <h2><strong>2.</strong>實作情境- 2.<strong>蒸氣壓模型 (續)</strong></h2>
 <h4 id="第三階段模型推估演練-飽和蒸氣壓模型">第三階段：模型推估演練 (飽和蒸氣壓模型)</h4>
 <ul>
 <li>C = <strong>163,000&nbsp;ppm = 575,000&nbsp;mg/m³</strong></li>
-<li>驗證可達到飽和狀態？ (yes)
+<li>驗證可達到飽和狀態？ <strong>(yes)</strong>
 <ul>
 <li>計算所需揮發質量575,000&nbsp;mg/m³×0.136&nbsp;m³=78,200&nbsp;mg</li>
 <li>換算為液體體積：78,200&nbsp;mg×(1&nbsp;g/1,000&nbsp;mg)/0.66&nbsp;g/mL=<strong>118&nbsp;mL</strong></li>
 </ul></li>
 </ul>
 </section>
-<section id="實作情境-蒸氣壓模型-續" class="slide level2 center">
+<section id="實作情境-蒸氣壓模型-續" class="slide level2">
 <h2><strong>2.</strong>實作情境-<strong>蒸氣壓模型 (續)</strong></h2>
 <h4 id="第四階段結果判定-interpreting-the-result">第四階段：結果判定 (Interpreting the Result)</h4>
 <ul>
@@ -652,12 +713,26 @@
 <li>請試試 <a href="https://oemd.osha.gov.tw/exposure/content/tools/Tools3.aspx">官方工具</a></li>
 </ul>
 </section>
-<section id="tier-i-模式-2" class="slide level2 center">
+<section id="蒸氣壓模型混合物" class="slide level2">
+<h2>2.蒸氣壓模型（混合物）</h2>
+<ul>
+<li>適用於混合溶劑(油漆、稀釋劑、清潔劑、消費產品等)</li>
+</ul>
+<h4 id="raoults-law">Raoult’s Law</h4>
+<ul>
+<li><p>PA = XA × Pv</p>
+<ul>
+<li><p>XA = 莫耳分率</p></li>
+<li><p>Pv = 純物質蒸氣壓</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="tier-i-模式-2" class="slide level2">
 <h2>Tier I 模式</h2>
 <h3 id="暴露空間模式box-models">3.暴露空間模式（Box Models）</h3>
 <ul>
-<li>基本元素：污染物釋放(G)及擴散(ventilation)</li>
-<li>時間濃度解
+<li>基本參數：污染物釋放(G)及通風擴散(ventilation)</li>
+<li><strong>時間濃度解</strong>
 <ul>
 <li>CA,room,0：初始濃度 (t=0)。 無沉降損失：K<sub>sink</sub>=0。(忽略沉降損失)。G<sub>A</sub>：恒定生成速率。 C<sub>A,in</sub>：進氣濃度。Q：通風率(m³/s)。</li>
 </ul></li>
@@ -677,35 +752,35 @@ C_{A,\mathrm{in}}
 +
 \frac{G_A}{Q}\)</span></p>
 <ul>
-<li>穩態濃度</li>
+<li><strong>穩態濃度</strong></li>
 </ul>
 <p><span class="math inline">\(C_{A,\mathrm{room},\mathrm{SS}}=C_{A,\mathrm{in}}+\frac{G_A}{Q}\)</span></p>
 <ul>
-<li>平均暴露濃度-時間加權</li>
+<li><strong>平均暴露濃度-時間加權</strong></li>
 </ul>
 <p><span class="math inline">\(C_{\mathrm{avg}}=C_{A,\mathrm{in}}+\frac{G_A}{Q}+\frac{V}{Q(t-t_0)}\left[\left(C_{A,\mathrm{room},0}-C_{A,\mathrm{in}}-\frac{G_A}{Q}\right)\left(e^{-\frac{Q(t-t_0)}{V}}-1\right)\right]\)</span></p>
 </section>
-<section id="實作情境-3.暴露空間模式" class="slide level2 center scrollable">
+<section id="實作情境-3.暴露空間模式" class="slide level2 scrollable">
 <h2>實作情境-3.暴露空間模式</h2>
 <ul>
-<li><p>情境描述：在一間尺寸為5m×6m×2m(體積V=60 m³)的實驗室內，一名勞工將進行甲苯塗層作業。已知該作業的甲苯逸散率G經評估為50 mg/s。實驗室的通風換氣率Q為0.1 m³/s。作業開始前，室內與進氣的甲苯背景濃度均為10 mg/m³。假設：完全混合、無沉積效應(Sinks)。</p>
+<li><p><strong>情境描述</strong>：在一間尺寸為5m×6m×2m(體積V=60 m³)的實驗室內，一名勞工將進行甲苯塗層作業。已知該作業的甲苯逸散率G經評估為50 mg/s。實驗室的通風換氣率Q為0.1 m³/s。作業開始前，室內與進氣的甲苯背景濃度均為10 mg/m³。假設：完全混合、無沉積效應(Sinks)。</p>
 <ol type="1">
-<li>請評估作業開始20分鐘後，實驗室內的平均甲苯濃度，以判斷是否可能超過短時間暴露限值。</li>
-<li>請估算房間內甲苯的穩態濃度，並評估其暴露風險。</li>
+<li><strong>請評估</strong>作業開始20分鐘後，實驗室內的平均甲苯濃度，以判斷是否可能超過短時間暴露限值。</li>
+<li><strong>請估算</strong>房間內甲苯的穩態濃度，並評估其暴露風險。</li>
 </ol></li>
 <li><p>請試試 <a href="https://oemd.osha.gov.tw/exposure/content/tools/Tools4.aspx">官方工具</a></p></li>
 </ul>
 </section>
-<section id="tier-ii-模式" class="slide level2 center">
+<section id="tier-ii-模式" class="slide level2">
 <h2>Tier II 模式</h2>
 <h3 id="完全混合模式well-mixed-room-model-wmr">4.完全混合模式(Well-mixed Room Model, WMR)</h3>
 <ul>
-<li>當G, Q, and/or CA.in發生變化的動態情境下的建模
+<li>當<strong>G, Q, and/or CA.in發生變化</strong>的動態情境下的建模
 <ul>
 <li>在許多真實情境下，污染物的生成率 (G)、通風量 (Q)，或是進氣中的污染物濃度 (CA,in​) 都會隨著時間而改變。</li>
 </ul></li>
 <li>模式包括濃度隨時間的動態變化解、穩態濃度解，以及考量背壓效應(back pressure effect)、間歇性排放等進階情境。</li>
-<li>濃度變化估算公式</li>
+<li><strong>濃度變化估算公式</strong></li>
 </ul>
 <table class="caption-top">
 <colgroup>
@@ -725,29 +800,29 @@ C_{A,\mathrm{in}}
 </tbody>
 </table>
 </section>
-<section id="實作情境--4.完全混合模式動態變化" class="slide level2 center">
+<section id="實作情境--4.完全混合模式動態變化" class="slide level2">
 <h2>實作情境- 4.完全混合模式(動態變化)</h2>
 <h4 id="有機溶劑塗佈-濃度動態變化">有機溶劑塗佈-濃度動態變化</h4>
 <ul>
 <li>某工廠零件塗佈機在室溫波動環境下運行，需評估甲苯濃度的動態變化及勞工暴露風險。<strong>已知條件</strong>：<strong>房間</strong>體積V=25 m3，通風率Q=1.0 m3/min(換氣次數2.4ACH)。<strong>甲苯排放率</strong>隨溫度變化(增減)，可依據Clausius-Clapeyron方程估算。</li>
 </ul>
 <p><span class="math inline">\(G_A(T) = 450 \cdot \exp \left[ 4660 \left( \frac{1}{294.3} - \frac{1}{T + 273.15} \right) \right] \text{ mg/min}\)</span></p>
-<p><a href="images/先期EA/F5_1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img data-src="images/先期EA/F5_1.png" style="width:50.0%"></a></p>
+<p><a href="images/先期EA/F5_1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img data-src="images/先期EA/F5_1.png" style="width:50.0%"></a></p>
 <ul>
 <li><p>在作業持續480分鐘(8小時)後，濃度逐漸趨於穩定，最終達到約195 ppm。</p></li>
-<li><p>請提出你的風險評估與後續行動 (手冊說的恰當嗎？)</p></li>
+<li><p><strong>請提出你的風險評估與後續行動</strong></p></li>
 </ul>
 </section>
-<section id="實作情境--4.完全混合模式動態變化-續" class="slide level2 center">
+<section id="實作情境--4.完全混合模式動態變化-續" class="slide level2">
 <h2>實作情境- 4.完全混合模式(動態變化) (續)</h2>
-<h4 id="第一階段情境描述-排放率隨時間指數遞減acase-b2023">第一階段：情境描述 (排放率隨時間指數遞減)<span class="citation" data-cites="acase-b2023">[<a href="#/職業風險的暴露推估與解釋" role="doc-biblioref" onclick="">3</a>]</span></h4>
+<h4 id="第一階段情境描述-排放率隨時間指數遞減acase-b2023">第一階段：<strong>情境描述</strong> (排放率隨時間指數遞減)<span class="citation" data-cites="acase-b2023">[<a href="#/參考資料" role="doc-biblioref" onclick="">4</a>]</span></h4>
 <ul>
 <li><strong>作業內容</strong>：某中型製造廠的員工在生產線旁清潔面板。每 3 分鐘會有一塊面板經過，員工會用噴瓶將含 4% 醋酸 (Acetic Acid) 的清潔液噴灑在面板上，接著用紙巾擦拭。</li>
 <li><strong>作息時間</strong>：員工早上 8:00 上班，10:00 休息 15 分鐘，12:00 午餐休息 30 分鐘，14:30 再休息 15 分鐘，16:00 下班。休息期間員工離開工作站，暴露為零。</li>
 <li><strong>評估</strong>：醋酸的蒸氣壓較低，揮發速度慢。如果假設它「瞬間完全揮發」，算出來的濃度會被過度高估（TWA-8 約為 7 mg/m³）。因此，建立一個「隨時間變動、緩慢揮發並疊加」的排放指數遞減模型，來求得更精確的暴露濃度。</li>
 </ul>
 </section>
-<section id="實作情境--4.完全混合模式動態變化-續-1" class="slide level2 center">
+<section id="實作情境--4.完全混合模式動態變化-續-1" class="slide level2">
 <h2>實作情境- 4.完全混合模式(動態變化) (續)</h2>
 <ul>
 <li>濃度解(排放指數遞減)</li>
@@ -761,7 +836,7 @@ C_{A,\mathrm{in}}
 <li><p><strong>Q (通風量)</strong>：根據現場氣流速度與箱體截面積，算出通過箱體的通風量為 <strong>20.0 m³/min</strong>。</p></li>
 </ul>
 </section>
-<section id="實作情境--4.完全混合模式動態變化-續-2" class="slide level2 center">
+<section id="實作情境--4.完全混合模式動態變化-續-2" class="slide level2">
 <h2>實作情境- 4.完全混合模式(動態變化) (續)</h2>
 <h4 id="第三階段數學模型估算">第三階段：數學模型估算</h4>
 <ul>
@@ -769,7 +844,7 @@ C_{A,\mathrm{in}}
 <li><strong>估算連續作業的濃度疊加</strong>：每 3 分鐘就會噴灑一次新的面板，前一次噴灑的醋酸還沒揮發完，新的醋酸又加進來了。因此，特定時間點的總濃度，是「所有過去噴灑」在該時間點殘留濃度的<strong>總和</strong>。</li>
 </ul>
 </section>
-<section id="實作情境--4.完全混合模式動態變化-續-3" class="slide level2 center scrollable">
+<section id="實作情境--4.完全混合模式動態變化-續-3" class="slide level2 scrollable">
 <h2>實作情境- 4.完全混合模式(動態變化) (續)</h2>
 <h4 id="第四階段結果判定-interpreting-the-result-1">第四階段：結果判定 (Interpreting the Result)</h4>
 <ul>
@@ -786,24 +861,23 @@ C_{A,\mathrm{in}}
 </ul></li>
 </ol>
 </section>
-<section id="tier-ii-模式-1" class="slide level2 center">
+<section id="tier-ii-模式-1" class="slide level2">
 <h2>Tier II 模式</h2>
 <h3 id="二暴露區模式two-zone-model">5. 二暴露區模式（Two-Zone Model）</h3>
 <ul>
-<li>又稱近場/遠場模式 (NF/FF)</li>
-<li>非WMB模式架設 - 全部空間均勻混合。
+<li>又稱近場/遠場模式 <strong>(NF/FF)</strong>
 <ul>
-<li>近場：緊鄰污染源的區域，通常涵蓋勞工的呼吸帶。
+<li><strong>近場</strong>：緊鄰污染源的區域，通常涵蓋勞工的呼吸帶。
 <ul>
 <li>以污染源為中心、半徑約為1-2公尺的半球體。</li>
 </ul></li>
 <li>二區域間空氣速率(β)的進行動態質量交換。</li>
-<li>模式基本假設是：每個區域內部完全混合。</li>
+<li>模式<strong>基本假設</strong>是：每個區域內部完全混合。</li>
 </ul></li>
-<li>特別適用：點源汙染逸散、 通風不良。</li>
+<li><strong>特別適用</strong>：點源汙染逸散、 通風不良。</li>
 <li>模式數學公式
 <ul>
-<li>時間濃度解</li>
+<li><strong>時間濃度解</strong></li>
 </ul></li>
 </ul>
 <table class="caption-top">
@@ -835,16 +909,16 @@ C_{A,\mathrm{in}}
 </tbody>
 </table>
 </section>
-<section id="實作情境1--5.二暴露區模式" class="slide level2 center">
+<section id="實作情境1--5.二暴露區模式" class="slide level2">
 <h2>實作情境1- 5.二暴露區模式</h2>
 <ul>
-<li>情境描述：一名勞工坐在工作台旁，手動塗抹含甲苯的黏合劑，甲苯以恆定速率&nbsp;G=1,000 mg/min蒸發。</li>
-<li>近場(NF)：假設為半球形(半徑&nbsp;r = 0.76 m)，體積V<sub>N</sub> = 0.93 m<sup>3</sup>，自由表面積&nbsp;FSA=3.6 m<sup>2</sup>。空氣流速：隨機空氣速度S=3.7 m/min(中位數)。</li>
+<li><strong>情境描述</strong>：一名勞工坐在工作台旁，手動塗抹含甲苯的黏合劑，甲苯以恆定速率&nbsp;G=1,000 mg/min蒸發。</li>
+<li><strong>近場(NF)</strong>：假設為半球形(半徑&nbsp;r = 0.76 m)，體積V<sub>N</sub> = 0.93 m<sup>3</sup>，自由表面積&nbsp;FSA=3.6 m<sup>2</sup>。空氣流速：隨機空氣速度S=3.7 m/min(中位數)。</li>
 <li>房間參數：總體積200 m<sup>3</sup>，通風速率&nbsp;Q=20 m<sup>3</sup>/min(每小時6次換氣)，初始條件：甲苯濃度為 0。</li>
-<li>請進行該名勞工暴露評估。</li>
+<li><strong>請進行該名勞工暴露評估。</strong></li>
 </ul>
 </section>
-<section id="實作情境--5.二暴露區模式-續" class="slide level2 center">
+<section id="實作情境--5.二暴露區模式-續" class="slide level2">
 <h2>實作情境- 5.二暴露區模式 (續)</h2>
 <ul>
 <li><p>暴露濃度推估？</p></li>
@@ -852,19 +926,19 @@ C_{A,\mathrm{in}}
 <li><p>試試 <a href="https://oemd.osha.gov.tw/exposure/content/tools/Tools5.aspx">官方版工具</a></p></li>
 </ul>
 </section>
-<section id="實作情境2--5.二暴露區模式-續" class="slide level2 center">
+<section id="實作情境2--5.二暴露區模式-續" class="slide level2">
 <h2>實作情境2- 5.二暴露區模式 (續)</h2>
 <h4 id="回溯性評估個案">回溯性評估個案</h4>
 <h4 id="第一階段情境描述">第一階段：情境描述</h4>
 <ul>
-<li><strong>事件背景</strong>：一家製造廠使用了「開放式三氯乙烯（TCE）蒸氣脫脂槽」來清洗金屬零件。當時在該廠工作的勞工後來出現了不良健康反應，並引發了法律訴訟。</li>
+<li><strong>事件背景</strong>：一家製造廠使用了「開放式三氯乙烯（TCE）蒸氣脫脂槽」來清洗金屬零件。當時在該廠工作的勞工後來出現了不良健康反應，並引發了<strong>法律訴訟</strong>。</li>
 <li><strong>現場狀況</strong>：勞工每天會在脫脂槽附近（距離幾公尺的長凳上）進行零件準備與組裝，也會直接操作脫脂槽。廠方缺乏系統性的暴露評估紀錄，僅有三筆濃度數據（22、25、40 mg/m³），但缺乏採樣位置、時間與人員的資訊，無法直接採用。</li>
-<li><strong>任務</strong>：身為專家，您必須利用數學建模來回溯推估當時脫脂槽周圍的 TCE 歷史濃度，以釐清這些暴露是否可能導致勞工的健康危害。</li>
+<li><strong>任務</strong>：身為專家，您必須<strong>利用數學建模來回溯推估</strong>當時脫脂槽周圍的 TCE 歷史濃度，以釐清這些暴露是否可能導致勞工的健康危害。</li>
 </ul>
 </section>
-<section id="實作情境2--5.二暴露區模式-續-1" class="slide level2 center">
+<section id="實作情境2--5.二暴露區模式-續-1" class="slide level2">
 <h2>實作情境2- 5.二暴露區模式 (續)</h2>
-<h4 id="第二階段收集建模資訊-1">第二階段：收集建模資訊</h4>
+<h4 id="第二階段收集建模資訊-2">第二階段：收集建模資訊</h4>
 <ul>
 <li><strong>化學品</strong>：TCE 是一種無色、具甜味且高度揮發的液體。其法定的 PEL TWA-8 為 537 mg/m³，但更嚴格的建議標準 TLV TWA 僅為 <strong>54 mg/m³</strong>。</li>
 <li><strong>計算排放率 (G)</strong>：
@@ -884,14 +958,14 @@ C_{A,\mathrm{in}}
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><a href="images/先期EA/F7_1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img data-src="images/先期EA/F7_1.png"></a></td>
-<td><a href="images/先期EA/F7_2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img data-src="images/先期EA/F7_2.png"></a></td>
-<td><a href="images/先期EA/F7_4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img data-src="images/先期EA/F7_4.png"></a></td>
+<td><a href="images/先期EA/F7_1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img data-src="images/先期EA/F7_1.png"></a></td>
+<td><a href="images/先期EA/F7_2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img data-src="images/先期EA/F7_2.png"></a></td>
+<td><a href="images/先期EA/F7_4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img data-src="images/先期EA/F7_4.png"></a></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="實作情境2--5.二暴露區模式-續-2" class="slide level2 center">
+<section id="實作情境2--5.二暴露區模式-續-2" class="slide level2">
 <h2>實作情境2- 5.二暴露區模式 (續)</h2>
 <h4 id="第三階段雙區模型推估">第三階段：雙區模型推估</h4>
 <ul>
@@ -900,7 +974,7 @@ C_{A,\mathrm{in}}
 <li><strong>計算近區穩態濃度 (</strong>CN,SS​<strong>)</strong> 近區濃度 = 遠區的背景濃度 + 污染源在近區產生的局部濃度。公式：CN,SS​=(G/Q)+(G/β) = <strong>112&nbsp;mg/m</strong>3</li>
 </ul>
 </section>
-<section id="實作情境2--5.二暴露區模式-續-3" class="slide level2 center">
+<section id="實作情境2--5.二暴露區模式-續-3" class="slide level2">
 <h2>實作情境2- 5.二暴露區模式 (續)</h2>
 <h4 id="第四階段結果判定與風險評估">第四階段：結果判定與風險評估</h4>
 <ul>
@@ -917,12 +991,12 @@ C_{A,\mathrm{in}}
 <li><p><strong>試算表與情境變更</strong>：在法庭上，可能會質疑參數設定。您可以利用模型，隨時調整變數來因應質疑。例如，若對方主張「當時設備老舊排氣不佳，且冷卻盤管故障導致排放量多 30%」，您只要將參數更改，模型就能立即算出新的 TWA 為 <strong>89 mg/m³</strong>。此結果明顯超標，更能支持勞工暴露過量的主張。</p></li>
 </ul>
 </section>
-<section id="tier-ii-模式-2" class="slide level2 center">
+<section id="tier-ii-模式-2" class="slide level2">
 <h2>Tier II 模式</h2>
 <h3 id="渦流擴散模式turbulent-eddy-diffusion-model">6.渦流擴散模式(Turbulent Eddy diffusion model)</h3>
 <p>(略) 自行參酌技術手冊介紹，使用 官方版工具</p>
 </section>
-<section id="tier-iii-模式" class="slide level2 center">
+<section id="tier-iii-模式" class="slide level2">
 <h2>Tier III 模式</h2>
 <h3 id="統計推估模式statistical-models">7.統計推估模式(Statistical Models)</h3>
 <ul>
@@ -931,11 +1005,11 @@ C_{A,\mathrm{in}}
 <li>實作情境：(略) 請參考技術手冊</li>
 </ul>
 </section>
-<section id="模式選用-搭配工具" class="slide level2 center">
+<section id="模式選用-搭配工具" class="slide level2">
 <h2>模式選用 (搭配工具)</h2>
 <ul>
-<li>面對特定的暴露情境，該如何選擇最合適的評估模式？</li>
-<li>「多層次評估」(Tiered Approach)概念(AIHA)
+<li>面對特定的暴露情境，該<strong>如何選擇最合適的評估模式</strong>？</li>
+<li>「<strong>多層次評估</strong>」(Tiered Approach)概念(<strong>AIHA</strong>)
 <ul>
 <li>Tier I 模式(第一層初步篩選模式)</li>
 <li>Tier II 模式(第二層精緻化評估模式)</li>
@@ -944,18 +1018,18 @@ C_{A,\mathrm{in}}
 <li>模式演練 (WMB + 蒙地卡羅模型)</li>
 </ul>
 </section>
-<section id="實作演練比較-wmb-蒙地卡羅模型" class="slide level2 center">
+<section id="實作演練比較-wmb-蒙地卡羅模型" class="slide level2">
 <h2>實作演練比較 (WMB + 蒙地卡羅模型)</h2>
 <h4 id="第一階段情境描述-1">第一階段：情境描述</h4>
 <ul>
 <li><strong>事件</strong>：一所大學化學系老師反映，在進行有機化學實驗（使用二氯甲烷進行萃取）時，溶劑氣味特別明顯。因為學校預算吃緊，在花錢進行實體空氣採樣之前，您希望先透過數學建模來進行初步的暴露評估。</li>
 <li><strong>任務</strong>：推算實驗室內的二氯甲烷（Methylene Chloride, MeCl2）濃度，並評估學生的暴露風險是否在可接受範圍內。</li>
 </ul>
-<p><a href="images/先期EA/F12_1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img data-src="images/先期EA/F12_1.png" style="width:50.0%"></a></p>
+<p><a href="images/先期EA/F12_1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img data-src="images/先期EA/F12_1.png" style="width:50.0%"></a></p>
 </section>
-<section id="實作演練比較-續" class="slide level2 center">
+<section id="實作演練比較-續" class="slide level2">
 <h2>實作演練比較 (續)</h2>
-<h4 id="第二階段收集建模資訊-2">第二階段：收集建模資訊</h4>
+<h4 id="第二階段收集建模資訊-3">第二階段：收集建模資訊</h4>
 <ul>
 <li>透過SDS、閱讀實驗手冊並與講師訪談，收集以下關鍵數據：
 <ul>
@@ -968,7 +1042,7 @@ C_{A,\mathrm{in}}
 </ul></li>
 </ul>
 </section>
-<section id="實作演練比較-續-1" class="slide level2 center scrollable">
+<section id="實作演練比較-續-1" class="slide level2 scrollable">
 <h2>實作演練比較 (續)</h2>
 <h4 id="第三階段模型推估">第三階段：模型推估</h4>
 <h4 id="模式一wmb-最壞與最佳情況">模式一：(WMB) (最壞與最佳情況)</h4>
@@ -986,47 +1060,143 @@ C_{A,\mathrm{in}}
 <li><strong>風險評估決策？</strong>：算出的濃度範圍從 6.7 到 159 mg/m³，範圍極大。實務上，「所有最壞條件同時發生」或「所有最佳條件同時發生」的機率微乎其微。</li>
 </ul>
 </section>
-<section id="實作演練比較-續-2" class="slide level2 center">
-<h2>實作演練比較 (續)</h2>
+<section id="課程結論" class="slide level2 scrollable">
+<h2>課程結論</h2>
+<ol type="1">
+<li class="fragment"><strong>數學建模的目的</strong>並非要完全取代實體的空氣採樣，而是作為暴露評估的第一道、也是最具成本效益的篩選工具。</li>
+<li class="fragment">模型的選擇具備<strong>「階層性」</strong>：從極端保守到貼近真實。</li>
+<li class="fragment">評估成敗的關鍵在於<strong>參數數據品質</strong>。</li>
+<li class="fragment"><strong>多利用工具軟體</strong></li>
+<li class="fragment">決策的核心：推估值與 OEL 的比較與專業建議</li>
+</ol>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+</section>
+<section id="實作演練" class="slide level2">
+<h2>實作演練</h2>
 <h4 id="模式二蒙地卡羅模型-機率性推估">模式二：蒙地卡羅模型 機率性推估</h4>
 <ul>
 <li>實作：使用 AIHA <a href="https://www.aiha.org/public-resources/healthierworkplaces/workplace-hazards/apps-and-tools-resource-center/aiha-risk-assessment-tools/ihmod-tool"><strong>IHMOD Tool</strong></a></li>
+<li>IH Mod 2.0 是 AIHA Exposure Assessment Strategies Committee 開發的暴露評估數學模型工具，用於：
+<ul>
+<li><p>預測職業暴露（Occupational Exposure）</p></li>
+<li><p>預測消費者暴露（Consumer Exposure）</p></li>
+<li><p>補足無法量測時的暴露評估</p></li>
+<li><p>評估未來新製程或新化學品的暴露情境</p></li>
+<li><p>找出影響暴露的重要因子</p></li>
+</ul></li>
 </ul>
-</section>
-<section id="課程結論" class="slide level2 center scrollable">
-<h2>課程結論</h2>
-<div>
-<ol type="1">
-<li class="fragment">數學建模的目的並非要完全取代實體的空氣採樣，而是作為暴露評估的第一道、也是最具成本效益的篩選工具。</li>
-<li class="fragment">模型的選擇具備「階層性」：從極端保守到貼近真實。</li>
-<li class="fragment">評估成敗的關鍵在於數據品質。</li>
-<li class="fragment">多利用工具軟體</li>
-<li class="fragment">決策的核心：推估值與 OEL 的比較與專業建議</li>
-</ol>
-</div>
-</section>
-<section id="參考資料" class="slide level2 center">
-<h2>參考資料</h2>
 <p>實作演練(<a href="EA實作演練Q.html">網頁</a>)</p>
-</section></section>
-<section id="職業風險的暴露推估與解釋" class="title-slide slide level1 smaller scrollable">
-<h1>職業風險的暴露推估與解釋</h1>
+</section>
+<section id="ih-mod-2.0-重要輸入參數" class="slide level2">
+<h2>IH Mod 2.0 重要輸入參數</h2>
+<table class="caption-top" style="width:98%;">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 12%">
+<col style="width: 11%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>參數</th>
+<th>全名</th>
+<th>單位</th>
+<th>功能</th>
+<th>常見取得方式</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>G</strong></td>
+<td>污染物生成率</td>
+<td>mg/min</td>
+<td>決定污染物進入空氣的速率，是最重要輸入參數</td>
+<td>質量平衡、蒸發模型(Hummel)、文獻、實測資料</td>
+</tr>
+<tr class="even">
+<td><strong>V</strong></td>
+<td>空間體積</td>
+<td>m³</td>
+<td>描述污染物被稀釋的空間大小</td>
+<td>房間尺寸長×寬×高計算</td>
+</tr>
+<tr class="odd">
+<td><strong>Q</strong></td>
+<td>通風量</td>
+<td>m³/min</td>
+<td>移除污染物的重要因子</td>
+<td>ACH換算、通風設計資料、現場量測</td>
+</tr>
+<tr class="even">
+<td><strong>Csat</strong></td>
+<td>飽和蒸氣濃度</td>
+<td>ppm 或 mg/m³</td>
+<td>理論最高氣相濃度，用於結果合理性檢查</td>
+<td>蒸氣壓(VP)計算</td>
+</tr>
+<tr class="odd">
+<td><strong>M₀</strong></td>
+<td>初始污染物質量</td>
+<td>mg</td>
+<td>用於 Spill 或瞬間釋放模型</td>
+<td>洩漏量、使用量估算</td>
+</tr>
+<tr class="even">
+<td><strong>α</strong></td>
+<td>一階蒸發常數</td>
+<td>min⁻¹</td>
+<td>控制污染物衰減速度</td>
+<td>文獻、實驗量測、IH Mod Support File</td>
+</tr>
+<tr class="odd">
+<td><strong>β</strong></td>
+<td>區域交換率</td>
+<td>m³/min</td>
+<td>Near Field 與 Far Field 間的空氣交換</td>
+<td>由球體半徑與空氣流速 S 自動計算</td>
+</tr>
+<tr class="even">
+<td><strong>Dt</strong></td>
+<td>亂流擴散係數</td>
+<td>m²/min</td>
+<td>描述污染物於空間中擴散能力</td>
+<td>文獻值、實驗反算、預設值0.5 m²/min</td>
+</tr>
+<tr class="odd">
+<td><strong>U</strong></td>
+<td>定向氣流速度</td>
+<td>m/min</td>
+<td>影響污染物隨氣流移動方向與速度</td>
+<td>現場風速量測或估算</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="參考資料" class="slide level2 smaller scrollable">
+<h2>參考資料</h2>
 
 
 <div id="refs" class="references csl-bib-body" role="list">
 <div id="ref-jahn2015b" class="csl-entry" role="listitem">
 <div class="csl-left-margin">1. </div><div class="csl-right-inline">Jahn SD, Bullock WH, Ignacio JS, others (2015) A strategy for assessing and managing occupational exposures. AIHA Fairfax, VA</div>
 </div>
+<div id="ref-keretetse2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Keretetse G, Brouwer D, Masekameni D (2019) Transformation of occupational hygiene into exposure science to meet practice demands in the 21st century. Occupational Health Southern Africa 25(1):410</div>
+</div>
 <div id="ref-tenberge2009a" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">Ten Berge WF, Simmons CE, Anthony RT (2009) Mathematical models for estimating occupational exposure to chemicals, 2nd ed. AIHA</div>
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Ten Berge WF, Simmons CE, Anthony RT (2009) Mathematical models for estimating occupational exposure to chemicals, 2nd ed. AIHA</div>
 </div>
 <div id="ref-acase-b2023" class="csl-entry" role="listitem">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline">Keil C (2023) A case-based introduction to modeling occupational inhalation exposures to chemicals. AIHA, Falls Church, VA</div>
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Keil C (2023) A case-based introduction to modeling occupational inhalation exposures to chemicals. AIHA, Falls Church, VA</div>
 </div>
 </div>
-</section>
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="images/logo.jpg" class="slide-logo"></p>
 <div class="footer footer-default">
 
 </div>
@@ -1039,7 +1209,6 @@ C_{A,\mathrm{in}}
   <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -1054,19 +1223,18 @@ C_{A,\mathrm{in}}
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
-'controlsAuto': true,
-'previewLinksAuto': true,
+'controlsAuto': false,
+'previewLinksAuto': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'jumpToSlide': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'chalkboard': {"buttons":true},
-'smaller': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
  
         // Display controls in the bottom right corner
-        controls: false,
+        controls: true,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
@@ -1112,7 +1280,7 @@ C_{A,\mathrm{in}}
         disableLayout: false,
 
         // Vertical centering of slides
-        center: true,
+        center: false,
 
         // Enables touch navigation on devices with touch input
         touch: true,
@@ -1188,7 +1356,7 @@ C_{A,\mathrm{in}}
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'slide',
+        transition: 'none',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'slow',
@@ -1208,15 +1376,15 @@ C_{A,\mathrm{in}}
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: '100%',
 
-        height: 720,
+        height: 900,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -1233,7 +1401,7 @@ C_{A,\mathrm{in}}
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
           RevealMath,
           RevealNotes,
@@ -1243,190 +1411,172 @@ C_{A,\mathrm{in}}
       });
     </script>
     <script id="quarto-html-after-body" type="application/javascript">
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-      const toggleBodyColorMode = (bsSheetEl) => {
-        const mode = bsSheetEl.getAttribute("data-mode");
-        const bodyEl = window.document.querySelector("body");
-        if (mode === "dark") {
-          bodyEl.classList.add("quarto-dark");
-          bodyEl.classList.remove("quarto-light");
-        } else {
-          bodyEl.classList.add("quarto-light");
-          bodyEl.classList.remove("quarto-dark");
-        }
-      }
-      const toggleBodyColorPrimary = () => {
-        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-        if (bsSheetEl) {
-          toggleBodyColorMode(bsSheetEl);
-        }
-      }
-      toggleBodyColorPrimary();  
-      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
-      tabsets.forEach(function(tabset) {
-        const tabby = new Tabby('#' + tabset.id);
-      });
-      const isCodeAnnotation = (el) => {
-        for (const clz of el.classList) {
-          if (clz.startsWith('code-annotation-')) {                     
-            return true;
-          }
-        }
-        return false;
-      }
-      const onCopySuccess = function(e) {
-        // button target
-        const button = e.trigger;
-        // don't keep focus
-        button.blur();
-        // flash "checked"
-        button.classList.add('code-copy-button-checked');
-        var currentTitle = button.getAttribute("title");
-        button.setAttribute("title", "Copied!");
-        let tooltip;
-        if (window.bootstrap) {
-          button.setAttribute("data-bs-toggle", "tooltip");
-          button.setAttribute("data-bs-placement", "left");
-          button.setAttribute("data-bs-title", "Copied!");
-          tooltip = new bootstrap.Tooltip(button, 
-            { trigger: "manual", 
-              customClass: "code-copy-button-tooltip",
-              offset: [0, -8]});
-          tooltip.show();    
-        }
-        setTimeout(function() {
-          if (tooltip) {
-            tooltip.hide();
-            button.removeAttribute("data-bs-title");
-            button.removeAttribute("data-bs-toggle");
-            button.removeAttribute("data-bs-placement");
-          }
-          button.setAttribute("title", currentTitle);
-          button.classList.remove('code-copy-button-checked');
-        }, 1000);
-        // clear code selection
-        e.clearSelection();
-      }
-      const getTextToCopy = function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
             }
           }
-          return codeEl.innerText;
-      }
-      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-        text: getTextToCopy
-      });
-      clipboard.on('success', onCopySuccess);
-      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-          text: getTextToCopy,
-          container: window.document.getElementById('quarto-embedded-source-code-modal')
-        });
-        clipboardModal.on('success', onCopySuccess);
-      }
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-        var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp('/' + window.location.host + '/');
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          return false;
         }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-            // undo the damage that might have been done by quarto-nav.js in the case of
-            // links that we want to consider external
-            if (link.dataset.originalHref !== undefined) {
-              link.href = link.dataset.originalHref;
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
             }
-          }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
         }
-      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-        const config = {
-          allowHTML: true,
-          maxWidth: 500,
-          delay: 100,
-          arrow: false,
-          appendTo: function(el) {
-              return el.closest('section.slide') || el.parentElement;
-          },
-          interactive: true,
-          interactiveBorder: 10,
-          theme: 'light-border',
-          placement: 'bottom-start',
-        };
-        if (contentFn) {
-          config.content = contentFn;
-        }
-        if (onTriggerFn) {
-          config.onTrigger = onTriggerFn;
-        }
-        if (onUntriggerFn) {
-          config.onUntrigger = onUntriggerFn;
-        }
-          config['offset'] = [0,0];
-          config['maxWidth'] = 700;
-        window.tippy(el, config); 
-      }
-      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-      for (var i=0; i<noterefs.length; i++) {
-        const ref = noterefs[i];
-        tippyHover(ref, function() {
-          // use id or data attribute instead here
-          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-          try { href = new URL(href).hash; } catch {}
-          const id = href.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note) {
-            return note.innerHTML;
-          } else {
-            return "";
-          }
-        });
-      }
-      const findCites = (el) => {
-        const parentEl = el.parentElement;
-        if (parentEl) {
-          const cites = parentEl.dataset.cites;
-          if (cites) {
-            return {
-              el,
-              cites: cites.split(' ')
-            };
-          } else {
-            return findCites(el.parentElement)
-          }
-        } else {
-          return undefined;
-        }
-      };
-      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-      for (var i=0; i<bibliorefs.length; i++) {
-        const ref = bibliorefs[i];
-        const citeInfo = findCites(ref);
-        if (citeInfo) {
-          tippyHover(citeInfo.el, function() {
-            var popup = window.document.createElement('div');
-            citeInfo.cites.forEach(function(cite) {
-              var citeDiv = window.document.createElement('div');
-              citeDiv.classList.add('hanging-indent');
-              citeDiv.classList.add('csl-entry');
-              var biblioDiv = window.document.getElementById('ref-' + cite);
-              if (biblioDiv) {
-                citeDiv.innerHTML = biblioDiv.innerHTML;
+        const getTextToCopy = function(trigger) {
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
               }
-              popup.appendChild(citeDiv);
-            });
-            return popup.innerHTML;
+            }
+            return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
           });
         }
-      }
-    });
-    </script>
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
     <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
     (function() {
       let previousOnload = window.onload;

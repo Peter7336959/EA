@@ -36,6 +36,14 @@ bibliography: references.bib
 csl: diabetologia.csl
 ---
 
+## 講師簡介 {.custom}
+
+- 姓名：何明信
+- 學歷：成大環醫所 、職安衛技師
+- 經歷：檢查員30年 (製造、危機設、營造、化工**職衛科**、專委)
+- 現職：114年退休
+- E-mail：msho7336959\@gmail.com
+
 # 1. EA整體概念？
 
 ## 暴露評估(EA)？
@@ -98,7 +106,7 @@ csl: diabetologia.csl
 ::: incremental
 1.  **起始（Start）**：確立企業的評估目標與策略
 2.  基本特徵描述（Basic Characterization）
-3.  **暴露評估**：SEGs， OEL，決策統計量（Decision Statistic）$X_{95}, UTL$
+3.  **暴露評估**：SEGs， OEL，決策統計量（Decision Statistic）$X_{95}, UTL$\$X\_{95}, UTL\$
 4.  **進一步收集資訊**：針對「不確定」的暴露。
     - 優先安排空氣採樣或生物監測、數學建模，或收集毒理/流行病學數據等。
 5.  危害控制：Hierarchy control，**分級管理** and **confirm**

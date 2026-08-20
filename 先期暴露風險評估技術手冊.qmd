@@ -52,9 +52,11 @@ csl: diabetologia.csl
 
 ## Stressors - receptors model
 
-@keretetse2019
+- @keretetse2019
 
-![](images/先期EA/F3.png){width="100%"}
+|                                                |
+|------------------------------------------------|
+| ![](images/clipboard-540772365.png){.lightbox} |
 
 ## 風險評估？
 
@@ -72,9 +74,11 @@ csl: diabetologia.csl
 
 ## 風險評估？
 
-@keretetse2019
+- @keretetse2019
 
-![](images/先期EA/F4.png){width="100%"}
+|                                                 |
+|-------------------------------------------------|
+| ![](images/clipboard-2989615689.png){.lightbox} |
 
 ## EA 範圍與工具
 

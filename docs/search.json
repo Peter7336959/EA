@@ -5459,7 +5459,7 @@
     "href": "先期暴露風險評估技術手冊.html#stressors---receptors-model",
     "title": "先期暴露風險評估技術介紹",
     "section": "Stressors - receptors model",
-    "text": "Stressors - receptors model\n[2]",
+    "text": "Stressors - receptors model\n\n[2]",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
@@ -5480,6 +5480,16 @@
     "title": "先期暴露風險評估技術介紹",
     "section": "IH Mod 2.0 重要輸入參數",
     "text": "IH Mod 2.0 重要輸入參數\n\n\n\n\n\n\n\n\n\n\n參數\n全名\n單位\n功能\n常見取得方式\n\n\n\n\nG\n污染物生成率\nmg/min\n決定污染物進入空氣的速率，是最重要輸入參數\n質量平衡、蒸發模型(Hummel)、文獻、實測資料\n\n\nV\n空間體積\nm³\n描述污染物被稀釋的空間大小\n房間尺寸長×寬×高計算\n\n\nQ\n通風量\nm³/min\n移除污染物的重要因子\nACH換算、通風設計資料、現場量測\n\n\nCsat\n飽和蒸氣濃度\nppm 或 mg/m³\n理論最高氣相濃度，用於結果合理性檢查\n蒸氣壓(VP)計算\n\n\nM₀\n初始污染物質量\nmg\n用於 Spill 或瞬間釋放模型\n洩漏量、使用量估算\n\n\nα\n一階蒸發常數\nmin⁻¹\n控制污染物衰減速度\n文獻、實驗量測、IH Mod Support File\n\n\nβ\n區域交換率\nm³/min\nNear Field 與 Far Field 間的空氣交換\n由球體半徑與空氣流速 S 自動計算\n\n\nDt\n亂流擴散係數\nm²/min\n描述污染物於空間中擴散能力\n文獻值、實驗反算、預設值0.5 m²/min\n\n\nU\n定向氣流速度\nm/min\n影響污染物隨氣流移動方向與速度\n現場風速量測或估算",
+    "crumbs": [
+      "先期暴露風險評估技術手冊"
+    ]
+  },
+  {
+    "objectID": "先期暴露風險評估技術手冊.html#風險評估-1",
+    "href": "先期暴露風險評估技術手冊.html#風險評估-1",
+    "title": "先期暴露風險評估技術介紹",
+    "section": "風險評估？",
+    "text": "風險評估？\n\n[2]",
     "crumbs": [
       "先期暴露風險評估技術手冊"
     ]
